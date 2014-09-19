@@ -1,0 +1,347 @@
+/* General */
+
+body {
+	background: url(../img/waves.png) fixed;
+}
+
+h1, h2, h3, h4, h5, h6, .product .button {
+text-rendering: optimizeLegibility;
+font-weight: 700;
+}
+
+* {
+	font-family: 'freight-sans-pro',sans-serif !important;
+	}
+
+body, h1, h2, h3, h4, h5, .promo h2 em {
+}
+
+a, a:visited {
+color: #71AFC4
+}
+
+a:hover,
+:focus,
+li:hover,
+img:hover,
+input:hover {
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+hr {
+	height:3px;
+	color: #3c4147;
+	background: #3c4147;
+	border:none;
+}
+
+
+header {
+	background: #dde4e7 url(http://prothemedesign.com/wp-content/themes/ptd/images/bg_top.png) fixed;
+	padding: 15px 0 142px;
+	text-align: center;
+}
+
+header, .social a, .social a:visited {
+		color: #2c3034;
+}
+
+header h2 a, header h2 a:visited {
+	color: #207ca7;
+	border-bottom: 3px solid #c6d1d6;
+	font-weight: 900;
+}
+
+header h2 a:hover, header h2 a:active {
+	color: #196A91;
+	border-color:#B5C1C7
+	}
+
+h1 {
+	font-size: 71px;
+	font-weight: 900;
+	letter-spacing: -.02em;
+	margin: 0;
+}
+
+.logomark {
+	margin-top: 88px
+}
+
+h2 {
+	font-weight: 100;
+	color:#5C6064;
+	-webkit-font-smoothing:antialiased;
+	font-size: 32px;
+	letter-spacing: -.01em;
+}
+
+.social {
+	text-align: right;
+	margin-right: 15px
+}
+
+.social li {
+	display: inline;
+}
+
+.social a, .social a:visited {
+	color: #7C878D;
+	opacity: .8;
+}
+
+.social a:hover, .social a:active {
+	opacity: 1;
+}
+
+
+
+
+/* Products */
+
+.mark-wp {
+	display: block;
+	margin: 0 auto 5px;
+	}
+
+.promo h2 {
+	font-size: 2.4em;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	}
+
+.promo h2 em {
+	color: #8b939c;
+	font-size: .75em;
+	font-style: italic;
+	text-transform: none;
+	font-weight: 100;
+	}
+
+.product {
+	margin-top: 40px;
+	padding:46px 0 66px;
+	overflow: hidden;
+	}
+
+.product:last-of-type {
+	border:none;
+}
+
+.product h3 {
+	color: #fff;
+	text-align: center;
+	font-size: 1.85em;
+	text-transform: uppercase;
+	margin:17px 0 2px;
+	}
+
+.product .devices {
+	float: left;
+	}
+
+.product-wrap {
+	width:62%;
+	}
+
+.product .desc {
+	color: #8e959b;
+	background: #21252a;
+	padding: 18px 34px 34px;
+	border-radius: 14px;
+	margin-top: 110px;
+	display: block;
+	}
+
+.product.alt .desc {
+	float: left
+	}
+
+.product .button, .newsletter .mc-embedded-subscribe {
+	background: #207ca7;
+	text-align: center;
+	padding: 10px 0;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: .8em;
+	border-radius: 2px;
+	letter-spacing: 1px;
+	box-shadow:0 3px 0px 0px #194b63;
+	font-weight: 500;
+	border:none;
+	}
+
+.product .button {
+	margin: 19px auto 0;
+	width:50%;
+	display: block;
+}
+
+.product .desc:hover {
+	background-color: rgba(32,37,42,.4);
+	}
+
+.product .desc:hover .button, .newsletter .mc-embedded-subscribe:hover {
+	background: #268ebe;
+	}
+
+.product .price {
+	background: #5ab92e;
+	color: #fff;
+	width:34px;
+	height: 34px;
+	line-height: 29px;
+	text-align: center;
+	position: absolute;
+	border-radius: 100em;
+	right:35px;
+	font-size: .9em;
+	font-weight: 600;
+	}
+
+
+/*Newsletter*/
+
+.newsletter {
+	padding: 15px 0 15px 140px;
+}
+
+.newsletter form {
+	width: 700px;
+	padding: 12px 0 12px 125px;
+	background: url(../img/envelope.png) 1px 16px no-repeat;
+	margin: 0 auto 0 125px
+}
+
+.newsletter form label {
+	font-size: 1.6em;
+	float: left;
+	margin-bottom: 7px
+}
+
+#newsletter-footer .mce-wrap {
+	clear: both;
+}
+
+.newsletter .mce-wrap {
+	padding: 2px 5px 2px;
+	border-radius: 4px;
+	font-size: 1.2em;
+	border: none;
+	background: #fff;
+	text-align: left;
+	overflow: hidden;
+}
+
+	.newsletter .email {
+	padding: 9px 0 0 9px;
+	width: 419px;
+	border: none;
+	font-size: 1.1em;
+	color: #111;
+}
+
+.newsletter input[type=email], .newsletter input[type=email]:focus {
+	display: inline;
+	border:none;
+	outline:none;
+	box-shadow: none;
+	background: #fff;
+}
+
+.newsletter label {
+	color: #fff;
+}
+
+.newsletter .mc-embedded-subscribe {
+	padding:10px 32px;
+	font-size: .6em;
+}
+
+
+/* Footer */
+
+footer .pos {
+	position: absolute
+	}
+
+.origin {
+	width:815px;
+	position: absolute;
+	}
+	
+.map h5 {
+	color: #ffc9b7;
+	text-transform: uppercase	
+}
+
+.map h4 {
+	font-size: 2.2em;
+	color: #fff;
+}
+
+#blurb-darren {
+width: 200px;
+top: 242px;
+left: 367px;
+}
+
+#ava-ben {
+top: 156px;
+left: 544px;
+}
+
+#ava-darren {
+top: 234px;
+left: 277px;
+}
+
+#blurb-ben {
+width: 300px;
+top: 168px;
+left: 635px;
+}
+
+.avatar {
+	width:75px;
+	height: 75px;
+	border-radius: 50%;
+	border: 6px solid #48555f
+	}
+	
+#support-blurb {
+width: 410px;
+padding: 15px 30px 15px 15px;
+font-size: 1.3em;
+top: 23px;
+right: 0;
+}
+
+.location {
+font-size: .7em;
+color: #bfc7cc;
+margin: -6px 0 11px;
+text-transform: uppercase;
+}
+
+.map {
+background: url(../img/map.png) no-repeat 0 -50px;
+height: 726px;
+position: relative;
+}
+
+footer {
+	margin-top: 60px;
+	background: rgba(10,10,10,.3);
+	padding: 60px 0;
+	color:#8e959b;
+}
+
+.copyright {
+	margin-top: 32px;
+	text-align: center
+}
+
