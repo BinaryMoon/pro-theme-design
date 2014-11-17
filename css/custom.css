@@ -38,7 +38,7 @@ hr {
 
 header {
     background: #dde4e7 url(../img/bg_top.png) fixed;
-    padding: 0 6% 120px 6%;
+    padding: 0 6% 102px 6%;
     text-align: center;
 }
 
@@ -49,7 +49,7 @@ header, .social a, .social a:visited {
 header h2 a, header h2 a:visited {
     color: #4C8DAB;
     border-bottom: 3px solid #c6d1d6;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 header h2 a:hover, header h2 a:active {
@@ -69,11 +69,12 @@ h1 {
 }
 
 h2 {
-    font-weight: 100;
+    font-weight: 500;
     color:#5C6064;
     -webkit-font-smoothing:antialiased;
-    font-size: 32px;
-    letter-spacing: -.01em;
+    font-size: 28px;
+    letter-spacing: -.02em;
+    margin-top: 13px;
 }
 
 ul.social {
@@ -169,8 +170,8 @@ ul.social {
     padding: 10px 0;
     color: #fff;
     text-transform: uppercase;
-    font-size: .8em;
-    border-radius: 2px;
+    font-size: .75em;
+    border-radius: 3px;
     letter-spacing: 1px;
     box-shadow:0 3px 0px 0px #194b63;
     font-weight: 500;
@@ -354,7 +355,8 @@ footer a:hover, footer a:active {
 	color: #8AD2EA;
 	}
 	
-	
+footer .fa-stack-1x, .fa-stack-2x {
+	}	
 	
 
 /* 
