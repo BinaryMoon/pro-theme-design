@@ -78,12 +78,12 @@ h2 {
 }
 
 ul.social {
-	overflow: hidden;
-	float: right;
-	padding: 0;
-	margin-right: 12px;
-	}
-	
+    overflow: hidden;
+    float: right;
+    padding: 0;
+    margin-right: 12px;
+    }
+
 .social li {
     display: inline-block;
     margin: 10px 0 0 0
@@ -101,7 +101,7 @@ ul.social {
 
 
 
-	
+
 
 /* Products */
 
@@ -191,6 +191,11 @@ ul.social {
 .product .desc:hover .button, .newsletter .mc-embedded-subscribe:hover {
     background: #268ebe;
     }
+
+.newsletter .mc-embedded-subscribe {
+    float:right;
+    margin:6px 2px 0 0;
+}
 
 .product .price {
     background: #5ab92e;
@@ -316,15 +321,6 @@ left: 635px;
     border: 6px solid #48555f
     }
 
-#support-blurb {
-	width: 410px;
-	padding: 15px 30px 15px 15px;
-	font-size: 1.3em;
-	top: 31px;
-	right: 0;
-	line-height:1.4em
-	}
-
 .location {
 font-size: .7em;
 color: #bfc7cc;
@@ -336,7 +332,7 @@ text-transform: uppercase;
 background: url(../img/map.png) no-repeat 0 -50px;
 height: 726px;
 position: relative;
-	padding: 0 20px;
+    padding: 0 20px;
 }
 
 footer {
@@ -352,160 +348,159 @@ footer {
 }
 
 footer a:hover, footer a:active {
-	color: #8AD2EA;
-	}
-	
-footer .fa-stack-1x, .fa-stack-2x {
-	}	
-	
+    color: #8AD2EA;
+    }
 
-/* 
+footer .fa-stack-1x, .fa-stack-2x {
+    }
+
+
+/*
 // =======================================================================
 // < 1250px
 // =======================================================================
 */
 
 @media screen and (max-width: 1250px) {
-	
-	h1 {
-		font-size: 50px;
-		}
-		
-	h2 {
-		font-weight: 500;
-		font-size: 25px;
-		}
-	
-	.logomark {
-		margin-top: 74px;
-		}
-	
-	header {
-		padding-bottom: 80px;
-		}
-	
-	.product img {
-		margin:0 auto;
-		display: block;
-		}
-	
-	.origin, #support-blurb, #blurb-darren, #blurb-ben  {
-		position: relative;
-		width:100%;
-		padding:0;
-		top:auto;
-		left:auto;
-		}
-	
-	#support-blurb {
-		margin:30px 0;
-		}	
-	
-	footer .pos {
-		position: static;
-		}
-	
-	#ava-ben {
-		margin-top: 30px;
-		}
-	
-	#newsletter-footer {
-		padding: 20px;
-		margin-top: 60px;
-		}
-		
-	.newsletter {
-		padding: 0;
-		}
-	
-	.newsletter form {
-		padding: 0;
-		width:auto;
-		background: none;
-		margin: 0;
-		}
-		
-	.newsletter form label {
-		display: none;
-		}
-	
-	.newsletter .email {
-		width:65%;
-		}
-	
-	.map h4 {
-		font-size: 1.4em;
-		margin-bottom: 30px;
-		}	
-	
-	.map {
-		background: none;
-		height: auto;
-		}
-	
-	.newsletter .mc-embedded-subscribe {
-		width:30%;
-		float: right;
-		margin-top: 8px;
-		}
-	
-	.product .desc {
-		margin-top: 10px;
-		}
-	
-	.product {
-		padding: 0px 0 66px;
-		
-		}									
-								
-}	
+
+    h1 {
+        font-size: 50px;
+        }
+
+    h2 {
+        font-weight: 500;
+        font-size: 25px;
+        }
+
+    .logomark {
+        margin-top: 74px;
+        }
+
+    header {
+        padding-bottom: 80px;
+        }
+
+    .product img {
+        margin:0 auto;
+        display: block;
+        }
+
+    .origin, #support-blurb, #blurb-darren, #blurb-ben  {
+        position: relative;
+        width:100%;
+        padding:0;
+        top:auto;
+        left:auto;
+        }
+
+    #support-blurb {
+        margin:30px 0;
+        }
+
+    footer .pos {
+        position: static;
+        }
+
+    #ava-ben {
+        margin-top: 30px;
+        }
+
+    #newsletter-footer {
+        padding: 20px;
+        margin-top: 60px;
+        }
+
+    .newsletter {
+        padding: 0;
+        }
+
+    .newsletter form {
+        padding: 0;
+        width:auto;
+        background: none;
+        margin: 0;
+        }
+
+    .newsletter form label {
+        display: none;
+        }
+
+    .newsletter .email {
+        width:65%;
+        }
+
+    .map h4 {
+        font-size: 1.4em;
+        margin-bottom: 30px;
+        }
+
+    .map {
+        background: none;
+        height: auto;
+        }
+
+    .newsletter .mc-embedded-subscribe {
+        width:30%;
+        float: right;
+        margin-top: 8px;
+        }
+
+    .product .desc {
+        margin-top: 10px;
+        }
+
+    .product {
+        padding: 0px 0 66px;
+
+        }
+
+}
 
 
 
 
 
-/* 
+/*
 // =======================================================================
 // < 320px
 // =======================================================================
 */
 
 @media screen and (max-width: 320px) {
-	
-	h1 {
-		font-size: 32px;
-		}
-	
-	h2 {
-		font-size: 16px;
-		}
-	
-	header {
-		padding-bottom: 30px;
-		}
-	
-	.logomark {
-		margin-top: 24px;
-		}
-	
-	footer {
-		padding-bottom: 0
-		}
-	
-	.newsletter .mce-wrap {
-		font-size: .8em;
-		}
-	
-	.newsletter .mc-embedded-subscribe {
-		padding: 10px;
-		}
-	
-	.product {
-		padding-bottom: 34px
-		}
-	
-	.product h3 {
-		font-size: 1.2em;
-		}								
+
+    h1 {
+        font-size: 32px;
+        }
+
+    h2 {
+        font-size: 16px;
+        }
+
+    header {
+        padding-bottom: 30px;
+        }
+
+    .logomark {
+        margin-top: 24px;
+        }
+
+    footer {
+        padding-bottom: 0
+        }
+
+    .newsletter .mce-wrap {
+        font-size: .8em;
+        }
+
+    .newsletter .mc-embedded-subscribe {
+        padding: 10px;
+        }
+
+    .product {
+        padding-bottom: 34px
+        }
+
+    .product h3 {
+        font-size: 1.2em;
+        }
 }
-	
