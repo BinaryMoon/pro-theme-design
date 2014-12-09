@@ -28,18 +28,32 @@ input:hover {
   transition: all 0.3s linear;
 }
 
-hr {
-    height:3px;
-    color: #3c4147;
-    background: #3c4147;
-    border:none;
-}
-
 
 header {
     background: #dde4e7 url(../img/bg_top.png) fixed;
-    padding: 0 6% 102px 6%;
+    padding: 0 6%;
     text-align: center;
+}
+
+header .row {
+    padding-bottom:100px;
+}
+
+header .tabs a {
+    display:inline-block;
+    text-align:center;
+    width:300px;
+    padding:12px 48px 6px 48px;
+    font-size:24px;
+    background-color:#e6edf0;
+    margin:0 10px;
+}
+header .tabs a.selected {
+    background:url(../img/waves.png) fixed;
+    color:#fff;
+}
+header .tabs small {
+    display:block;
 }
 
 header, .social a, .social a:visited {
@@ -125,10 +139,26 @@ ul.social {
     font-weight: 100;
     }
 
+.theme {
+    border-bottom:3px solid #3c4147;
+    width:100%;
+    max-width:100%;
+}
+
+.theme:last-of-type {
+    border:none;
+}
+
 .product {
     margin-top: 40px;
     padding:46px 0 66px;
     overflow: hidden;
+
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    max-width: 1280px;
     }
 
 .product:last-of-type {
@@ -188,7 +218,8 @@ ul.social {
     background-color: rgba(32,37,42,.4);
     }
 
-.product .desc:hover .button, .newsletter .mc-embedded-subscribe:hover {
+.product .desc:hover .button,
+.newsletter .mc-embedded-subscribe:hover {
     background: #268ebe;
     }
 
@@ -374,9 +405,13 @@ footer .fa-stack-1x, .fa-stack-2x {
         margin-top: 74px;
         }
 
-    header {
-        padding-bottom: 80px;
-        }
+    header .tabs a {
+        width:auto;
+        padding-left:20px;
+        padding-right:20px;
+        font-size:20px;
+        margin:0 2px;
+    }
 
     .product img {
         margin:0 auto;
@@ -475,10 +510,6 @@ footer .fa-stack-1x, .fa-stack-2x {
 
     h2 {
         font-size: 16px;
-        }
-
-    header {
-        padding-bottom: 30px;
         }
 
     .logomark {
