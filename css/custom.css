@@ -47,10 +47,17 @@ header .tabs a {
     font-size:24px;
     background-color:#e6edf0;
     margin:0 10px;
+    border:1px solid #c6d1d6;
+    border-bottom:none;
+    color:#4C8DAB;
+}
+header .tabs a:hover {
+    background:#fff;
 }
 header .tabs a.selected {
     background:url(../img/waves.png) fixed;
     color:#fff;
+    border:none;
 }
 header .tabs small {
     display:block;
