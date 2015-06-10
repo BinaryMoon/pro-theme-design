@@ -347,11 +347,42 @@
           </form>
           </section>
 
-      <p class="copyright">&copy; 2007-2014 Pro Theme Design, All Rights Reserved &nbsp; | &nbsp; <i class="fa fa-wordpress"></i> <a href="http://www.wordpress.com"> WordPress.com</a></p>
+            <p class="copyright">&copy; 2007-2014 Pro Theme Design, All Rights Reserved <span class="sep">|</span> <i class="fa fa-wordpress"></i> <a href="http://www.wordpress.com"> WordPress.com</a> <span class="sep">|</span> <i class="fa fa-envelope"></i> <a href="#" class="contact-form">Contact</a></p>
 
         <p class="copyright"><a href="https://www.digitalocean.com/?refcode=d4442740ec05" target="_blank">Web hosting by Digital Ocean</a></p>
 
   </footer>
+
+        <div class="overlay"></div>
+
+        <div class="contact-wrapper">
+            <div class="contact">
+                <a href="/" class="overlay-close">&times;</a>
+                <h1>Contact Us</h1>
+                <form action="//formspree.io/support@prothemedesign.com" method="POST">
+                    <label>
+                        Name
+                        <input type="text" name="name" placeholder="Jane Smith" required />
+                    </label>
+
+                    <label>
+                        Email
+                        <input type="email" name="_replyto" placeholder="name@domain.com" required />
+                    </label>
+
+                    <label>
+                        Message
+                        <textarea name="message" rows="6" required ></textarea>
+                    </label>
+
+                    <input type="submit" value="Send" class="button" />
+
+                    <input type="hidden" name="_subject" value="Pro Theme Design Contact" />
+                    <input type="text" name="_gotcha" style="display:none" />
+                </form>
+            </div>
+        </div>
+
 
 
     <script src="js/vendor/jquery.js"></script>
@@ -381,6 +412,37 @@
                 }).show();
 
             });
+
+            $('a.contact-form').on('click', function(e) {
+                e.preventDefault();
+
+                show_contact();
+                show_overlay();
+            });
+
+            $('.overlay-close').on('click', function(e) {
+                e.preventDefault();
+
+                hide_contact();
+                hide_overlay();
+            });
+
+
+            function show_contact() {
+                $('.contact-wrapper').fadeIn();
+            }
+
+            function hide_contact() {
+                $('.contact-wrapper').fadeOut();
+            }
+
+            function show_overlay() {
+                $('.overlay').fadeIn();
+            }
+
+            function hide_overlay() {
+                $('.overlay').fadeOut();
+            }
         })(jQuery);
     </script>
   </body>
