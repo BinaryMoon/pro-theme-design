@@ -11,7 +11,7 @@ font-weight: 700;
 
 
 body, h1, h2, h3, h4, h5, .promo h2 em {
-font-family: 'freight-sans-pro',sans-serif !important;
+font-family: 'Lato',sans-serif !important;
 }
 
 a, a:visited {
@@ -37,19 +37,21 @@ header {
 
 header .row {
     padding-bottom:100px;
+    max-width:900px;
 }
 
 header .tabs a {
     display:inline-block;
     text-align:center;
-    width:300px;
-    padding:12px 48px 6px 48px;
-    font-size:24px;
+    width:260px;
+    padding:11px 48px 9px 48px;
+    font-size:21px;
     background-color:#e6edf0;
     margin:0 10px;
     border:1px solid #c6d1d6;
     border-bottom:none;
-    color:#4C8DAB;
+    color:#444;
+    border-radius:2px 2px 0 0;
 }
 header .tabs a:hover {
     background:#fff;
@@ -68,21 +70,65 @@ header, .social a, .social a:visited {
 }
 
 header h2 a, header h2 a:visited {
-    color: #4C8DAB;
-    border-bottom: 3px solid #c6d1d6;
+    color: #507789;
+    border-bottom: 2px solid #A8B2B6;
     font-weight: 700;
 }
 
 header h2 a:hover, header h2 a:active {
-    color: #196A91;
-    border-color:#B5C1C7
+    border-color:#507789;
+    color: #507789;
     }
 
+.nav {
+    position: absolute;
+    list-style:none;
+    margin:14px 0 0 12px;
+    overflow:auto;
+    font-size: 14px;
+
+}
+
+.nav li {
+    display: block;
+    margin: 0 7px 0 0;
+    float:left;
+}
+
+.nav a, .nav a:visited {
+    display: inline-block;
+    color:#565656;
+    border:2px solid transparent;
+    padding:2px 15px 3px;
+    font-weight: 700
+}
+
+.nav .active a, .nav a:hover {
+    color:#000;
+}
+
+.nav .active a {
+    border-color: #AEB3B5
+}
+
+footer .fa-stack {
+    color:transparent;
+}
+
 h1 {
-    font-size: 71px;
+    font-size: 65px;
     font-weight: 900;
-    letter-spacing: -.02em;
+    letter-spacing: -.018em;
     margin: 0;
+}
+
+.tabs small {
+    opacity: .65;
+    margin-top: -3px;
+}
+
+.tabs strong {
+    font-size: 17px;
 }
 
 .logomark {
@@ -93,9 +139,14 @@ h2 {
     font-weight: 500;
     color:#5C6064;
     -webkit-font-smoothing:antialiased;
-    font-size: 28px;
+    font-size: 26px;
     letter-spacing: -.02em;
-    margin-top: 13px;
+    margin-top: 6px;
+    line-height: 1.55em;
+}
+
+h2 strong {
+    color:#222;
 }
 
 ul.social {
@@ -120,9 +171,15 @@ ul.social {
 }
 
 
+/* Theme Club */
 
+.content-primary {
+    background: #dde4e7 url(../img/bg_top.png) fixed;
+}
 
-
+.content-main {
+    padding-bottom:32px;
+}
 
 /* Products */
 
@@ -201,17 +258,18 @@ ul.social {
     float: left
     }
 
-.product .button, input.button, .newsletter .mc-embedded-subscribe {
+.button, .newsletter .mc-embedded-subscribe {
     background: #207ca7;
     text-align: center;
-    padding: 10px 0;
+    padding: 12px 0;
     color: #fff;
     text-transform: uppercase;
-    font-size: .75em;
+    font-size: 11px;
+    letter-spacing: .12em;
     border-radius: 3px;
     letter-spacing: 1px;
     box-shadow:0 3px 0px 0px #194b63;
-    font-weight: 500;
+    font-weight: 400;
     border:none;
     }
 
@@ -238,15 +296,16 @@ ul.social {
 .product .price {
     background: #5ab92e;
     color: #fff;
-    width:34px;
-    height: 34px;
-    line-height: 29px;
+    width:37px;
+    height: 37px;
+    line-height: 37px;
     text-align: center;
     position: absolute;
     border-radius: 100em;
-    right:35px;
+    right:12px;
     font-size: .9em;
     font-weight: 600;
+    top:104px;
     }
 
 
@@ -306,7 +365,6 @@ ul.social {
 
 .newsletter .mc-embedded-subscribe {
     padding:10px 32px;
-    font-size: .6em;
 }
 
 
@@ -323,7 +381,6 @@ footer .pos {
 
 .map h5 {
     color: #EC9F85;
-    text-transform: uppercase
 }
 
 .map h4 {
@@ -372,7 +429,6 @@ footer .pos {
 }
 
 footer {
-    margin-top: 60px;
     background: rgba(10,10,10,.3);
     padding: 60px 0;
     color:#8e959b;
@@ -391,10 +447,6 @@ footer {
 footer a:hover, footer a:active {
     color: #8AD2EA;
     }
-
-footer .fa-stack-1x, .fa-stack-2x {
-    }
-
 
 .overlay {
     position:fixed;
@@ -447,7 +499,7 @@ footer .fa-stack-1x, .fa-stack-2x {
 
 /*
 // =======================================================================
-// < 1250px
+// < 1000px
 // =======================================================================
 */
 
@@ -495,11 +547,18 @@ footer .fa-stack-1x, .fa-stack-2x {
     #blurb-darren,
     #blurb-ben {
         position: relative;
-        width:35%;
-        margin:0 5% 0 10%;
+        width:auto;
+        margin:0;
         top:auto;
         left:auto;
-        float:left;
+        float:none;
+        margin-bottom: 20px;
+    }
+
+    #ava-darren, #ava-ben {
+        position: relative;
+        top:auto;
+        left:auto;
     }
 
     #newsletter-footer {
@@ -524,7 +583,7 @@ footer .fa-stack-1x, .fa-stack-2x {
         }
 
     .newsletter .email {
-        width:65%;
+        width:40%;
         }
 
     .map h4 {
@@ -538,7 +597,7 @@ footer .fa-stack-1x, .fa-stack-2x {
         }
 
     .newsletter .mc-embedded-subscribe {
-        width:30%;
+        width:auto;
         float: right;
         margin-top: 8px;
         }
@@ -549,6 +608,14 @@ footer .fa-stack-1x, .fa-stack-2x {
 
     .product {
         padding: 0px 0 66px;
+    }
+    .product .price {
+        position:relative;
+        top:auto;
+        right:auto;
+    }
+    .product h3 {
+        margin-top:4px
     }
 
 }
