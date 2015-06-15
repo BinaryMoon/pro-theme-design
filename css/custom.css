@@ -107,7 +107,10 @@ header h2 a:hover, header h2 a:active {
     color:#000;
 }
 
+.page-home .nav .themes a,
+.page-theme-club .nav .theme-club a,
 .nav .active a {
+    color:#000;
     border-color: #AEB3B5
 }
 

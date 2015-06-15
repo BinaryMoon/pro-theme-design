@@ -1,79 +1,68 @@
-<!doctype html>
-<html class="no-js" lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>WordPress Themes for All Occasions | Pro Theme Design</title>
-        <link rel="stylesheet" href="css/foundation.css" />
-        <link rel="stylesheet" href="css/custom.css" />
-        <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
-
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-            ga('create', 'UA-55722-9', 'auto');
-            ga('send', 'pageview');
-        </script>
-
-        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"
-    </head>
-
-    <body class="page-home">
-      <nav> 
-        <ul class="nav">
-          <li><a href="http://prothemedesign.com">Home</a></li>
-          <li class="active"><a href="theme-club.html">Theme Club</a></li>
-          <li><a href="#" class="contact-form">Contact</a></li>
-      </nav>  
-        <ul class="social">
-            <li>
-                <a class="social twitter" href="http://www.twitter.com/prothemedesign">
-                    <span class="fa-stack fa-med">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                    </span>
-                </a>
-            </li>
-            <li>
-                <a class="social facebook" href="http://www.facebook.com/prothemedesign">
-                    <span class="fa-stack fa-med">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                    </span>
-                </a>
-            </li>
-        </ul>
-
-        <header>
-            <div class="row">
-                <img class="logomark" src="img/logo-ptd.png" alt="Pro Theme Design Compass Logo" />
-                <h1>Join the Club</h1>
-                <h2>Partnering with <a href="http://theme.wordpress.com/themes/by/pro-theme-design/" target="_blank">WordPress.com</a>  to build themes for thousands of creative bloggers. For total access, <a href="theme-club.html">join our theme club&rarr;</a></h2>
-            </div>
-           
-        </header>
-
-        <div class="content-primary">
-          <div class="content-main">
-            <div class="row">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis iaculis nisi, viverra congue felis. Ut sit amet magna eget eros euismod ullamcorper. Aliquam mauris dui, blandit eget dolor quis, cursus ultricies purus. Nam nisi est, pretium in augue ac, fermentum varius quam. Proin ac fringilla eros. Sed lacinia non elit vel sollicitudin. Sed sit amet ornare ipsum, sed dignissim dolor.</p>
-
-              <p>Nulla tincidunt at nisl sit amet pulvinar. Nunc vitae efficitur ante, et hendrerit justo. Donec molestie augue sed blandit blandit. Pellentesque leo dolor, dignissim ut viverra eu, blandit eget leo. Aliquam feugiat nec felis eget sagittis. Pellentesque molestie, erat ut molestie mollis, elit leo malesuada eros, at viverra sapien magna eu dolor. Etiam dignissim purus non tellus viverra, eget bibendum elit ullamcorper.</p>
-
-              <p>Praesent egestas sem tellus, a eleifend odio scelerisque sed. Pellentesque facilisis elit nec massa hendrerit, eget mollis massa iaculis. Suspendisse venenatis, nunc non vestibulum elementum, sapien velit pulvinar ipsum, a maximus elit nisi ut nunc. Etiam eleifend ultricies sapien. Proin diam nisl, tempus nec tristique quis, pellentesque iaculis elit. Fusce vel facilisis neque. Donec eget nunc sed lacus mattis pellentesque eu at nunc. Mauris hendrerit purus enim, sed placerat diam fringilla rhoncus.</p>
-            </div>
-          </div>
-        </div>
-
-
-
-  <footer>
+<footer>
+<?php
+    if ( '/' ===  $request->url ) {
+?>
     <div class="row">
 
-     
+        <div class="map">
+            <section class="origin">
+                <h5 class="pink">About Us</h5>
+                <h4 id="about-lead">Pro Theme Design began in 2007 as a collaboration between two web designers&mdash;</h4>
+            </section>
+
+            <div id="blurb-darren" class="pos">
+                <img id="ava-darren" class="pos avatar" src="<?php echo $request->base; ?>/img/ava-darren.jpg" alt="Darren Hoyt">
+                <h5 class="pink">Darren Hoyt</h5>
+                <p class="location">Brooklyn, NY</p>
+                <p class="bio">Established in the WordPress community for projects like <a href="http://www.darrenhoyt.com/2007/08/05/wordpress-magazine-theme-released/">Mimbo</a> and <a href="http://www.smashingmagazine.com/2008/09/08/agregado-a-free-wordpress-theme/">Agregado</a>, Darren also has 14 years experience designing websites for businesses and startups. His role at Pro Theme is taking what Ben builds and making it beautiful and simple to use.</p>
+
+                <a href="http://www.darrenhoyt.com" target="_blank">
+                    <span class="fa-stack fa-med">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-link fa-stack-1x fa-inverse"></i>
+                    </span>
+                    Personal Site
+                </a>
+
+                <br />
+
+                <a href="http://www.twitter.com/darrenhoyt" target="_blank">
+                    <span class="fa-stack fa-med">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                    </span>
+                    Follow Me on Twitter
+                </a>
+
+            </div>
+
+            <div id="blurb-ben" class="pos">
+                <img id="ava-ben" class="pos avatar" src="<?php echo $request->base; ?>/img/ava-ben.jpg" alt="Ben Gillbanks">
+                <h5 class="pink">Ben Gillbanks</h5>
+                <p class="location">Exeter, England</p>
+                <p class="bio">Ben is a WordPress ninja, best known for creating <a href="http://www.binarymoon.co.uk/projects/regulus/">Regulus</a>. More recently he took over the development of the image-resize script <a href="http://code.google.com/p/timthumb/">TimThumb</a>. He spends his time at Pro Theme Design turning Darren's ideas into reality.</p>
+                 <a href="http://www.binarymoon.co.uk" target="_blank" class="social">
+                    <span class="fa-stack fa-med">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-link fa-stack-1x fa-inverse"></i>
+                    </span>
+                    Personal Site
+                    </a>
+                    <br />
+                <a href="http://www.twitter.com/binarymoon" target="_blank" class="social">
+                    <span class="fa-stack fa-med">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+                Follow Me on Twitter
+                </a>
+
+
+            </div>
+        </div>
+<?php
+    }
+?>
 
         <div id="newsletter-footer">
           <section class="newsletter">
@@ -124,7 +113,7 @@
 
 
 
-    <script src="js/vendor/jquery.js"></script>
+    <script src="<?php echo $request->base; ?>/js/vendor/jquery.js"></script>
     <script>
         ;(function($){
             $('nav.tabs a').on('click', function(e) {

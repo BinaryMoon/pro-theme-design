@@ -1,65 +1,27 @@
-<!doctype html>
-<html class="no-js" lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>WordPress Themes for All Occasions | Pro Theme Design</title>
-        <link rel="stylesheet" href="css/foundation.css" />
-        <link rel="stylesheet" href="css/custom.css" />
-        <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
-
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-            ga('create', 'UA-55722-9', 'auto');
-            ga('send', 'pageview');
-        </script>
-
-        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"
-    </head>
-
+<?php
+    include( '_partials/header.php' );
+?>
     <body class="page-home">
-      <nav> 
-        <ul class="nav">
-          <li class="active"><a href="#" class="/">Home</a></li>
-          <li><a href="theme-club.html">Theme Club</a></li>
-          <li><a href="#" class="contact-form">Contact</a></li>
-      </nav>  
-        <ul class="social">
-            <li>
-                <a class="social twitter" href="http://www.twitter.com/prothemedesign">
-                    <span class="fa-stack fa-med">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                    </span>
-                </a>
-            </li>
-            <li>
-                <a class="social facebook" href="http://www.facebook.com/prothemedesign">
-                    <span class="fa-stack fa-med">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                    </span>
-                </a>
-            </li>
-        </ul>
+
+        <?php // include( '_partials/nav.php' ); ?>
 
         <header>
             <div class="row">
-                <img class="logomark" src="img/logo-ptd.png" alt="Pro Theme Design Compass Logo" />
+                <img class="logomark" src="<?php echo $request->base; ?>/img/logo-ptd.png" alt="Pro Theme Design Compass Logo" />
                 <h1>Pro Theme Design</h1>
-                <h2>Partnering with <a href="http://theme.wordpress.com/themes/by/pro-theme-design/" target="_blank">WordPress.com</a>  to build themes for thousands of creative bloggers. Want <strong>total access</strong>? <a href="theme-club.html">Join the theme club&rarr;</a></h2>
+                <h2>Partnering with <a href="http://theme.wordpress.com/themes/by/pro-theme-design/" target="_blank">WordPress.com</a>  to build themes for thousands of creative bloggers. Want <strong>total access</strong>? <a href="<?php echo $request->base; ?>/theme-club/">Join the theme club&rarr;</a></h2>
             </div>
+
             <nav class="tabs">
                 <a href="http://theme.wordpress.com/themes/by/pro-theme-design/" class="selected" data-target="wordpress">
-                    <strong>WordPress.com</strong> <small>WordPress in the Cloud</small></a>
+                    <strong>WordPress.com</strong> <small>WordPress in the Cloud</small>
+                </a>
                 <a href="https://creativemarket.com/BinaryMoon?u=BinaryMoon" data-target="creative-market">
-                    <strong>WordPress.org</strong> <small>Self-Hosted Websites</small></a>
+                    <strong>WordPress.org</strong> <small>Self-Hosted Websites</small>
+                </a>
             </nav>
         </header>
+
 
         <div class="promo">
 
@@ -282,173 +244,5 @@
     <div><!--/promo-->
 
 
-
-  <footer>
-    <div class="row">
-
-     <div class="map">
-        <section class="origin">
-        <h5 class="pink">About Us</h5>
-        <h4 id="about-lead">Pro Theme Design began in 2007 as a collaboration between two web designers&mdash;</h4>
-        </section>
-
-        <div id="blurb-darren" class="pos">
-            <img id="ava-darren" class="pos avatar" src="img/ava-darren.jpg" alt="Darren Hoyt">
-            <h5 class="pink">Darren Hoyt</h5>
-            <p class="location">Brooklyn, NY</p>
-            <p class="bio">Established in the WordPress community for projects like <a href="http://www.darrenhoyt.com/2007/08/05/wordpress-magazine-theme-released/">Mimbo</a> and <a href="http://www.smashingmagazine.com/2008/09/08/agregado-a-free-wordpress-theme/">Agregado</a>, Darren also has 14 years experience designing websites for businesses and startups. His role at Pro Theme is taking what Ben builds and making it beautiful and simple to use.</p>
-
-            <a href="http://www.darrenhoyt.com" target="_blank">
-                <span class="fa-stack fa-med">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-link fa-stack-1x fa-inverse"></i>
-                </span>
-                Personal Site
-            </a>
-            <br />
-            <a href="http://www.twitter.com/darrenhoyt" target="_blank">
-                <span class="fa-stack fa-med">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                </span>
-                Follow Me on Twitter
-            </a>
-
-        </div>
-
-        <div id="blurb-ben" class="pos">
-            <img id="ava-ben" class="pos avatar" src="img/ava-ben.jpg" alt="Ben Gillbanks">
-            <h5 class="pink">Ben Gillbanks</h5>
-            <p class="location">Exeter, England</p>
-            <p class="bio">Ben is a WordPress ninja, best known for creating <a href="http://www.binarymoon.co.uk/projects/regulus/">Regulus</a>. More recently he took over the development of the image-resize script <a href="http://code.google.com/p/timthumb/">TimThumb</a>. He spends his time at Pro Theme Design turning Darren's ideas into reality.</p>
-             <a href="http://www.binarymoon.co.uk" target="_blank" class="social">
-                <span class="fa-stack fa-med">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-link fa-stack-1x fa-inverse"></i>
-                </span>
-                Personal Site
-                </a>
-                <br />
-            <a href="http://www.twitter.com/binarymoon" target="_blank" class="social">
-                <span class="fa-stack fa-med">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-            </span>
-            Follow Me on Twitter
-            </a>
-
-
-        </div>
-    </div>
-
-        <div id="newsletter-footer">
-          <section class="newsletter">
-          <form action="http://prothemedesign.us5.list-manage2.com/subscribe/post?u=45aef63185bbec7c729059160&amp;id=04983a7171" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-          <label for="mce-EMAIL">WordPress Tips &amp; News in Your Inbox</label>
-          <div class="mce-wrap">
-          <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Your Email Address" required="">
-          <input type="submit" value="Subscribe" name="subscribe" class="mc-embedded-subscribe">
-          </div>
-          </form>
-          </section>
-
-            <p class="copyright">&copy; 2007-2014 Pro Theme Design, All Rights Reserved <span class="sep">|</span> <i class="fa fa-wordpress"></i> <a href="http://www.wordpress.com"> WordPress.com</a> <span class="sep">|</span> <i class="fa fa-envelope"></i> <a href="#" class="contact-form">Contact</a></p>
-
-        <p class="copyright"><a href="https://www.digitalocean.com/?refcode=d4442740ec05" target="_blank">Web hosting by Digital Ocean</a></p>
-
-  </footer>
-
-        <div class="overlay"></div>
-
-        <div class="contact-wrapper">
-            <div class="contact">
-                <a href="/" class="overlay-close">&times;</a>
-                <h1>Contact Us</h1>
-                <form action="//formspree.io/support@prothemedesign.com" method="POST">
-                    <label>
-                        Name
-                        <input type="text" name="name" placeholder="Jane Smith" required />
-                    </label>
-
-                    <label>
-                        Email
-                        <input type="email" name="_replyto" placeholder="name@domain.com" required />
-                    </label>
-
-                    <label>
-                        Message
-                        <textarea name="message" rows="6" required ></textarea>
-                    </label>
-
-                    <input type="submit" value="Send" class="button" />
-
-                    <input type="hidden" name="_subject" value="Pro Theme Design Contact" />
-                    <input type="text" name="_gotcha" style="display:none" />
-                </form>
-            </div>
-        </div>
-
-
-
-    <script src="js/vendor/jquery.js"></script>
-    <script>
-        ;(function($){
-            $('nav.tabs a').on('click', function(e) {
-                e.preventDefault();
-
-                var $this = $(this);
-                var target = $this.data('target');
-                var prefix = (target == 'creative-market') ? 'cm' : 'wp';
-
-                // change tab highlight
-                $('nav.tabs a').removeClass('selected');
-                $this.addClass('selected');
-
-                // show and hide accordingly
-                $('.theme').hide();
-                $('.theme.' + target).each(function() {
-                    var $this = $(this);
-
-                    // set price
-                    $this.find('.price').html( '$' + $this.data(prefix + '-price') );
-
-                    // set urls
-                    $this.find('a').attr('href', $this.data(prefix + '-url'));
-                }).show();
-
-            });
-
-            $('a.contact-form').on('click', function(e) {
-                e.preventDefault();
-
-                show_contact();
-                show_overlay();
-            });
-
-            $('.overlay-close').on('click', function(e) {
-                e.preventDefault();
-
-                hide_contact();
-                hide_overlay();
-            });
-
-
-            function show_contact() {
-                $('.contact-wrapper').fadeIn();
-            }
-
-            function hide_contact() {
-                $('.contact-wrapper').fadeOut();
-            }
-
-            function show_overlay() {
-                $('.overlay').fadeIn();
-            }
-
-            function hide_overlay() {
-                $('.overlay').fadeOut();
-            }
-        })(jQuery);
-    </script>
-  </body>
-</html>
+<?php
+    include( '_partials/footer.php' );
