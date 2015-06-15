@@ -3,7 +3,7 @@
 ?>
     <body class="page-home">
 
-        <?php // include( '_partials/nav.php' ); ?>
+        <?php include( '_partials/nav.php' ); ?>
 
         <header>
             <div class="row">
