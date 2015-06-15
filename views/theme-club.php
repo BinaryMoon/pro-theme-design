@@ -9,7 +9,7 @@
 
         <header>
             <div class="row">
-                <img class="logomark" src="<?php echo $request->base; ?>/img/logo-ptd.png" alt="Pro Theme Design Compass Logo" />
+                <img class="logomark" src="<?php echo $base_url; ?>/img/logo-ptd.png" alt="Pro Theme Design Compass Logo" />
                 <h1>Pro Theme Design</h1>
                 <h2>Partnering with <a href="http://theme.wordpress.com/themes/by/pro-theme-design/" target="_blank">WordPress.com</a>  to build themes for thousands of creative bloggers.</h2>
             </div>

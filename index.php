@@ -9,6 +9,7 @@ Flight::route( '/', function() {
             'title' => 'Pro Theme Design - WordPress Themes',
             'relative_path' => '',
             'request' => Flight::request(),
+            'base_url' => get_base(),
         )
     );
 } );
@@ -19,6 +20,7 @@ Flight::route( '/theme-club/', function() {
         array(
             'title' => 'Pro Theme Design WordPress Themes Club',
             'request' => Flight::request(),
+            'base_url' => get_base(),
         )
     );
 } );
@@ -29,9 +31,14 @@ Flight::map( 'notFound', function() {
         array(
             'title' => '404 Not Found',
             'request' => Flight::request(),
-
+            'base_url' => get_base(),
         )
     );
 } );
+
+function get_base() {
+    $request = Flight::request();
+    return rtrim( $request->base, '/' );
+}
 
 Flight::start();

@@ -11,7 +11,7 @@
             </section>
 
             <div id="blurb-darren" class="pos">
-                <img id="ava-darren" class="pos avatar" src="<?php echo $request->base; ?>/img/ava-darren.jpg" alt="Darren Hoyt">
+                <img id="ava-darren" class="pos avatar" src="<?php echo $base_url; ?>/img/ava-darren.jpg" alt="Darren Hoyt">
                 <h5 class="pink">Darren Hoyt</h5>
                 <p class="location">Brooklyn, NY</p>
                 <p class="bio">Established in the WordPress community for projects like <a href="http://www.darrenhoyt.com/2007/08/05/wordpress-magazine-theme-released/">Mimbo</a> and <a href="http://www.smashingmagazine.com/2008/09/08/agregado-a-free-wordpress-theme/">Agregado</a>, Darren also has 14 years experience designing websites for businesses and startups. His role at Pro Theme is taking what Ben builds and making it beautiful and simple to use.</p>
@@ -37,7 +37,7 @@
             </div>
 
             <div id="blurb-ben" class="pos">
-                <img id="ava-ben" class="pos avatar" src="<?php echo $request->base; ?>/img/ava-ben.jpg" alt="Ben Gillbanks">
+                <img id="ava-ben" class="pos avatar" src="<?php echo $base_url; ?>/img/ava-ben.jpg" alt="Ben Gillbanks">
                 <h5 class="pink">Ben Gillbanks</h5>
                 <p class="location">Exeter, England</p>
                 <p class="bio">Ben is a WordPress ninja, best known for creating <a href="http://www.binarymoon.co.uk/projects/regulus/">Regulus</a>. More recently he took over the development of the image-resize script <a href="http://code.google.com/p/timthumb/">TimThumb</a>. He spends his time at Pro Theme Design turning Darren's ideas into reality.</p>
@@ -113,7 +113,7 @@
 
 
 
-    <script src="<?php echo $request->base; ?>/js/vendor/jquery.js"></script>
+    <script src="<?php echo $base_url; ?>/js/vendor/jquery.js"></script>
     <script>
         ;(function($){
             $('nav.tabs a').on('click', function(e) {
