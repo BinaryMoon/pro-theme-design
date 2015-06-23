@@ -6,7 +6,6 @@
 
         <?php include( '_partials/nav.php' ); ?>
 
-
         <header>
             <div class="row">
                 <img class="logomark" src="<?php echo $base_url; ?>/img/logo-ptd.png" alt="Pro Theme Design Compass Logo" />
@@ -19,9 +18,23 @@
         <div class="promo">
             <div class="content-main">
                 <div class="row">
-Support : We will fix bugs in themes, however our support extends no further than that. We don't help with theme modifications/ customisations or installation issues. Services like envato studio are much better placed for helping with things like that and we encourage you to use their services to customise our themes.
+                    <h2>Support</h2>
+                    <p>We offer support via the relevant support forums. For wordpress.com please use the premium themes forum. For self hosted themes please use the support form on the relevant theme page on Creative Market.</p>
+                    <p>The support we offer is restricted to fixing bugs in our themes. Unfortunately we don't help with theme modifications/ customisations or installation issues. Services like <a href="http://studio.envato.com/">Envato Studio</a> are much better placed for helping with things like that and we encourage you to use their services to customise our themes.</p>
+                    <p>We do not offer support for problems with third party plugins/ modifications.</p>
+                    <p>Unfortunately we do not offer email or phone support.</p>
 
-                    Multiple Sites: You are welcome to use our themes on
+                    <h2>License</h2>
+                    <p>All of our products are licensed under the same license as WordPress, the GPL – there is more information on the <a href="http://codex.wordpress.org/GPL">GPL license</a> available on the WordPress Codex. Support for Pro Theme Design products will only be given to those who purchase a Pro Theme Design product.</p>
+
+                    <h2>Multiple Sites</h2>
+                    <p>You are welcome to use our themes on as many sites as you like.</p>
+
+                    <h2>Product Updates</h2>
+                    <p>We do not schedule, or guarantee, theme updates however we do update themes and will notify customers when we do so. The updates will be free.</p>
+
+                    <h2>Transferring themes from wordpress.com</h2>
+                    <p></p>Unfortunately themes purchased on WordPress.com are separate products and so are non transferable. This is detailed on the <a href="http://en.support.wordpress.com/themes/premium-themes/">premium theme terms on wordpress.com</a>.</p>
                 </div>
             </div>
         </div>
