@@ -18,7 +18,29 @@ Flight::route( '/theme-club/', function() {
     Flight::render(
         'theme-club.php',
         array(
-            'title' => 'Pro Theme Design WordPress Themes Club',
+            'title' => 'WordPress Themes Club',
+            'request' => Flight::request(),
+            'base_url' => get_base(),
+        )
+    );
+} );
+
+Flight::route( '/theme-showcase/', function() {
+    Flight::render(
+        'showcase.php',
+        array(
+            'title' => 'WordPress Themes Showcase',
+            'request' => Flight::request(),
+            'base_url' => get_base(),
+        )
+    );
+} );
+
+Flight::route( '/wordpress-plugins/', function() {
+    Flight::render(
+        'plugins.php',
+        array(
+            'title' => 'WordPress Plugins',
             'request' => Flight::request(),
             'base_url' => get_base(),
         )

@@ -18,8 +18,8 @@
 
                 <a href="http://www.darrenhoyt.com" target="_blank">
                     <span class="fa-stack fa-med">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-link fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-link fa-stack-1x fa-inverse"></i>
                     </span>
                     Personal Site
                 </a>
@@ -28,8 +28,8 @@
 
                 <a href="http://www.twitter.com/darrenhoyt" target="_blank">
                     <span class="fa-stack fa-med">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
                     </span>
                     Follow Me on Twitter
                 </a>
@@ -43,20 +43,21 @@
                 <p class="bio">Ben is a WordPress ninja, best known for creating <a href="http://www.binarymoon.co.uk/projects/regulus/">Regulus</a>. More recently he took over the development of the image-resize script <a href="http://code.google.com/p/timthumb/">TimThumb</a>. He spends his time at Pro Theme Design turning Darren's ideas into reality.</p>
                  <a href="http://www.binarymoon.co.uk" target="_blank" class="social">
                     <span class="fa-stack fa-med">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-link fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-link fa-stack-1x fa-inverse"></i>
                     </span>
                     Personal Site
-                    </a>
-                    <br />
+                <a>
+
+                <br />
+
                 <a href="http://www.twitter.com/binarymoon" target="_blank" class="social">
                     <span class="fa-stack fa-med">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                </span>
-                Follow Me on Twitter
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                    </span>
+                    Follow Me on Twitter
                 </a>
-
 
             </div>
         </div>
@@ -65,21 +66,23 @@
 ?>
 
         <div id="newsletter-footer">
-          <section class="newsletter">
-          <form action="http://prothemedesign.us5.list-manage2.com/subscribe/post?u=45aef63185bbec7c729059160&amp;id=04983a7171" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-          <label for="mce-EMAIL">WordPress Tips &amp; News in Your Inbox</label>
-          <div class="mce-wrap">
-          <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Your Email Address" required="">
-          <input type="submit" value="Subscribe" name="subscribe" class="mc-embedded-subscribe">
-          </div>
-          </form>
-          </section>
+            <section class="newsletter">
+                <form action="http://prothemedesign.us5.list-manage2.com/subscribe/post?u=45aef63185bbec7c729059160&amp;id=04983a7171" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+                    <label for="mce-EMAIL">WordPress Tips &amp; News in Your Inbox</label>
 
-            <p class="copyright">&copy; 2007-2014 Pro Theme Design, All Rights Reserved <span class="sep">|</span> <i class="fa fa-wordpress"></i> <a href="http://www.wordpress.com"> WordPress.com</a> <span class="sep">|</span> <i class="fa fa-envelope"></i> <a href="#" class="contact-form">Contact</a></p>
+                    <div class="mce-wrap">
+                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Your Email Address" required="">
+                        <input type="submit" value="Subscribe" name="subscribe" class="mc-embedded-subscribe">
+                    </div>
+                </form>
+            </section>
 
-        <p class="copyright"><a href="https://www.digitalocean.com/?refcode=d4442740ec05" target="_blank">Web hosting by Digital Ocean</a></p>
 
-  </footer>
+            <p class="copyright">&copy; 2007 - <?php echo date( 'Y' ); ?> Pro Theme Design, All Rights Reserved <span class="sep">|</span> <i class="fa fa-wordpress"></i> <a href="http://www.wordpress.com"> WordPress.com</a> <span class="sep">|</span> <i class="fa fa-envelope"></i> <a href="#" class="contact-form">Contact</a></p>
+
+            <p class="copyright"><a href="https://www.digitalocean.com/?refcode=d4442740ec05" target="_blank">Web hosting by Digital Ocean</a></p>
+
+        </footer>
 
         <div class="overlay"></div>
 
@@ -154,7 +157,6 @@
                 hide_contact();
                 hide_overlay();
             });
-
 
             function show_contact() {
                 $('.contact-wrapper').fadeIn();

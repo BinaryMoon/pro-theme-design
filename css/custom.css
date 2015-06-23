@@ -36,7 +36,8 @@ header {
 }
 
 header .row {
-    padding-bottom:100px;
+    padding-bottom:120px;
+    padding-bottom: 22vh;
     max-width:900px;
 }
 
@@ -51,7 +52,7 @@ header .tabs a {
     border:1px solid #c6d1d6;
     border-bottom:none;
     color:#444;
-    border-radius:2px 2px 0 0;
+    border-radius:3px 3px 0 0;
 }
 header .tabs a:hover {
     background:#fff;
@@ -83,7 +84,7 @@ header h2 a:hover, header h2 a:active {
 .nav {
     position: absolute;
     list-style:none;
-    margin:14px 0 0 12px;
+    margin:20px 0 0 20px;
     overflow:auto;
     font-size: 14px;
 
@@ -98,9 +99,10 @@ header h2 a:hover, header h2 a:active {
 .nav a, .nav a:visited {
     display: inline-block;
     color:#565656;
-    border:2px solid transparent;
-    padding:2px 15px 3px;
-    font-weight: 700
+    padding:5px 20px;
+    background-color:transparent;
+    font-weight: 700;
+    border-radius:3px;
 }
 
 .nav .active a, .nav a:hover {
@@ -111,7 +113,8 @@ header h2 a:hover, header h2 a:active {
 .page-theme-club .nav .theme-club a,
 .nav .active a {
     color:#000;
-    border-color: #AEB3B5
+    background:#dde4e7;
+    box-shadow:inset 0 2px 4px rgba(0,0,0,0.1);
 }
 
 footer .fa-stack {
@@ -135,7 +138,8 @@ h1 {
 }
 
 .logomark {
-    margin-top: 88px
+    margin-top: 120px;
+    margin-top: 22vh;
 }
 
 h2 {
@@ -156,15 +160,16 @@ ul.social {
     overflow: hidden;
     float: right;
     padding: 0;
-    margin-right: 12px;
+    margin: 20px 20px 0 0;
     }
 
 .social li {
     display: inline-block;
-    margin: 10px 0 0 0
+    margin:0 0 0 10px;
 }
 
-.social a, .social a:visited {
+.social a,
+.social a:visited {
     color: #7C878D;
     opacity: .8;
 }
@@ -464,7 +469,7 @@ footer a:hover, footer a:active {
 .overlay-close {
     color:#000;
     background:#dde4e7;
-    border-radius:20px;
+    border-radius:3px;
     width:24px;
     height:24px;
     line-height:24px;
@@ -489,6 +494,7 @@ footer a:hover, footer a:active {
     width:100%;
     margin:0 auto;
     background:#dde4e7 url(../img/bg_top.png) fixed;
+    border-radius:3px;
 }
 
 .contact h1 {
@@ -518,7 +524,8 @@ footer a:hover, footer a:active {
         }
 
     .logomark {
-        margin-top: 74px;
+        margin-top: 120px;
+        margin-top: 20vh;
         }
 
     header .tabs a {
