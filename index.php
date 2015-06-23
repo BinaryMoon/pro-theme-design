@@ -36,6 +36,17 @@ Flight::route( '/theme-showcase/', function() {
     );
 } );
 
+Flight::route( '/policies/', function() {
+    Flight::render(
+        'terms-and-conditions.php',
+        array(
+            'title' => 'Terms and Conditions',
+            'request' => Flight::request(),
+            'base_url' => get_base(),
+        )
+    );
+} );
+
 Flight::route( '/wordpress-plugins/', function() {
     Flight::render(
         'plugins.php',
