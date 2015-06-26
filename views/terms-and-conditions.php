@@ -9,14 +9,17 @@
         <header>
             <div class="row">
                 <img class="logomark" src="<?php echo $base_url; ?>/img/logo-ptd.png" alt="Pro Theme Design Compass Logo" />
-                <h1>Pro Theme Design</h1>
-                <h2>Partnering with <a href="http://theme.wordpress.com/themes/by/pro-theme-design/" target="_blank">WordPress.com</a>  to build themes for thousands of creative bloggers.</h2>
-            </div>
+                <h1>
+                    <a href="<?php echo $base_url; ?>">
+                        Pro Theme Design
+                    </a>
+                </h1>
+                <h2>Partnering with <a href="http://theme.wordpress.com/themes/by/pro-theme-design/" target="_blank">WordPress.com</a>  to build themes for thousands of creative bloggers. Want <strong>total access</strong>? <a href="<?php echo $base_url; ?>/theme-club/">Join the theme club&rarr;</a>            </div>
 
         </header>
 
         <div class="promo">
-            <div class="content-main">
+            <div class="content-main content-text">
                 <div class="row">
                     <h2>Support</h2>
                     <p>We offer support via the relevant support forums. For wordpress.com please use the premium themes forum. For self hosted themes please use the support form on the relevant theme page on Creative Market.</p>
@@ -34,7 +37,7 @@
                     <p>We do not schedule, or guarantee, theme updates however we do update themes and will notify customers when we do so. The updates will be free.</p>
 
                     <h2>Transferring themes from wordpress.com</h2>
-                    <p></p>Unfortunately themes purchased on WordPress.com are separate products and so are non transferable. This is detailed on the <a href="http://en.support.wordpress.com/themes/premium-themes/">premium theme terms on wordpress.com</a>.</p>
+                    <p>Unfortunately themes purchased on WordPress.com are separate products and so are non transferable. This is detailed on the <a href="http://en.support.wordpress.com/themes/premium-themes/">premium theme terms on wordpress.com</a>.</p>
                 </div>
             </div>
         </div>

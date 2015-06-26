@@ -41,6 +41,11 @@ header .row {
     max-width:900px;
 }
 
+header h1 a,
+header h1 a:visited {
+    color:#000;
+}
+
 header .tabs a {
     display:inline-block;
     text-align:center;
@@ -189,6 +194,41 @@ ul.social {
     padding-bottom:32px;
 }
 
+.content-text .row {
+    max-width:640px;
+    padding-top:64px;
+    color:#8e959b;
+}
+
+.content-text .row strong {
+    color:#cfd9df;
+}
+
+.content-text p {
+    margin-bottom:2em;
+    font-size:1.1rem;
+    line-height:1.8;
+}
+
+.content-text li {
+    margin-bottom:1em;
+    font-size:1.1rem;
+}
+
+.content-text p.note {
+    opacity:0.5;
+}
+
+.content-text p.note:hover {
+    opacity:1;
+}
+
+.join-button {
+    text-align:center;
+    padding:24px 0 48px 0;
+}
+
+
 /* Products */
 
 .mark-wp {
@@ -320,14 +360,14 @@ ul.social {
 /*Newsletter*/
 
 .newsletter {
-    padding: 15px 0 15px 140px;
+    padding: 15px 0;
 }
 
 .newsletter form {
     width: 700px;
     padding: 12px 0 12px 125px;
     background: url(../img/envelope.png) 1px 16px no-repeat;
-    margin: 0 auto 0 125px;
+    margin: 0 auto;
     clear:both;
 }
 

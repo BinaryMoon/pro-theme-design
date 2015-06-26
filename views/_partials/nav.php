@@ -3,7 +3,7 @@
     <ul class="nav">
         <li class="themes"><a href="<?php echo $base_url; ?>/">Themes</a></li>
         <li class="theme-club"><a href="<?php echo $base_url; ?>/theme-club/">Theme Club</a></li>
-        <li><a href="#" class="contact-form">Contact</a></li>
+        <!-- <li><a href="#" class="contact-form">Contact</a></li> -->
     </ul>
 </nav>
 
