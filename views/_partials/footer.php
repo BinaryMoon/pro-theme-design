@@ -118,16 +118,18 @@
     <script src="<?php echo $base_url; ?>/js/vendor/jquery.js"></script>
     <script>
         ;(function($){
-            $('nav.tabs a').on('click', function(e) {
+            $('nav.tabs a').on( 'click', function(e) {
                 e.preventDefault();
 
                 var $this = $(this);
-                var target = $this.data('target');
+                var target = $this.data( 'target' );
                 var prefix = (target == 'creative-market') ? 'cm' : 'wp';
 
                 // change tab highlight
-                $('nav.tabs a').removeClass('selected');
+                $( 'nav.tabs a' ).removeClass('selected');
                 $this.addClass('selected');
+
+                $( '#theme-wrapper' ).removeClass( 'creative-market wordpress' ).addClass( target );
 
                 // show and hide accordingly
                 $('.theme').hide();

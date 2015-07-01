@@ -261,6 +261,11 @@ ul.social {
     border:none;
 }
 
+#theme-wrapper.wordpress .theme.wp_odd .columns.image,
+#theme-wrapper.creative-market .theme.cm_even .columns.image {
+    float:right;
+}
+
 .product {
     margin-top: 40px;
     padding:46px 0 66px;
