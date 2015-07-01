@@ -14,7 +14,7 @@
                         Pro Theme Design
                     </a>
                 </h1>
-                <h2>Partnering with <a href="http://theme.wordpress.com/themes/by/pro-theme-design/" target="_blank">WordPress.com</a>  to build themes for thousands of creative bloggers. Want <strong>total access</strong>? <a href="<?php echo $base_url; ?>/theme-club/">Join the theme club&rarr;</a>            </div>
+                <h2>Partnering with <a href="http://theme.wordpress.com/themes/by/pro-theme-design/" target="_blank">WordPress.com</a>  to build themes for thousands of creative bloggers. Want <strong>total access</strong>? <a href="<?php echo $base_url; ?>/theme-club/">Join the theme club &rarr;</a>            </div>
 
         </header>
 
