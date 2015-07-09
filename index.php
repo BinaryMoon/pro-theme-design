@@ -6,6 +6,7 @@
  * Swap css over to less
  * Add the option for free themes on wordpress.org
  * Add plugins page
+ * Add Documentation
  */
 
 include_once( 'library/data.php' );
