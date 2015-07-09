@@ -3,13 +3,9 @@
 /**
  * TODO
  *
- * Add Monet to themes list
- * Add Romero to themes list
- *
  * Swap css over to less
  * Add the option for free themes on wordpress.org
  * Add plugins page
- * Add Showcase page
  */
 
 include_once( 'library/data.php' );
