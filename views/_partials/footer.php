@@ -86,7 +86,7 @@
         <div class="overlay"></div>
 
         <div class="contact-wrapper">
-            <div class="contact">
+            <div class="contact modal">
                 <a href="/" class="overlay-close">&times;</a>
                 <h1>Contact Us</h1>
                 <form action="//formspree.io/support@prothemedesign.com" method="POST">
@@ -115,66 +115,6 @@
 
 
 
-    <script src="<?php echo $base_url; ?>/js/vendor/jquery.js"></script>
-    <script>
-        ;(function($){
-            $('nav.tabs a').on( 'click', function(e) {
-                e.preventDefault();
-
-                var $this = $(this);
-                var target = $this.data( 'target' );
-                var prefix = (target == 'creative-market') ? 'cm' : 'wp';
-
-                // change tab highlight
-                $( 'nav.tabs a' ).removeClass('selected');
-                $this.addClass('selected');
-
-                $( '#theme-wrapper' ).removeClass( 'creative-market wordpress' ).addClass( target );
-
-                // show and hide accordingly
-                $('.theme').hide();
-                $('.theme.' + target).each(function() {
-                    var $this = $(this);
-
-                    // set price
-                    $this.find('.price').html( '$' + $this.data(prefix + '-price') );
-
-                    // set urls
-                    $this.find('a').attr('href', $this.data(prefix + '-url'));
-                }).show();
-
-            });
-
-            $('a.contact-form').on('click', function(e) {
-                e.preventDefault();
-
-                show_contact();
-                show_overlay();
-            });
-
-            $('.overlay-close').on('click', function(e) {
-                e.preventDefault();
-
-                hide_contact();
-                hide_overlay();
-            });
-
-            function show_contact() {
-                $('.contact-wrapper').fadeIn();
-            }
-
-            function hide_contact() {
-                $('.contact-wrapper').fadeOut();
-            }
-
-            function show_overlay() {
-                $('.overlay').fadeIn();
-            }
-
-            function hide_overlay() {
-                $('.overlay').fadeOut();
-            }
-        })(jQuery);
-    </script>
-  </body>
+        <script src="<?php echo $base_url; ?>/js/main.js"></script>
+    </body>
 </html>

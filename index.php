@@ -3,6 +3,9 @@
 /**
  * TODO
  *
+ * Add Monet to themes list
+ * Add Romero to themes list
+ *
  * Swap css over to less
  * Add the option for free themes on wordpress.org
  * Add plugins page
@@ -79,6 +82,7 @@ Flight::map( 'notFound', function() {
         )
     );
 } );
+
 
 /**
  * Get the base directory for the site

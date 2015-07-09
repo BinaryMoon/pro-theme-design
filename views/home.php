@@ -8,9 +8,9 @@
 
         <?php include( '_partials/nav.php' ); ?>
 
-        <header>
+        <header class="masthead">
             <div class="row">
-                <img class="logomark" src="<?php echo $base_url; ?>/img/logo-ptd.png" alt="Pro Theme Design Compass Logo" />
+                <img class="logomark" src="<?php echo $base_url; ?>/img/website/logo-ptd.png" alt="Pro Theme Design Compass Logo" />
                 <h1>Pro Theme Design</h1>
                 <h2>Partnering with <a href="http://theme.wordpress.com/themes/by/pro-theme-design/" target="_blank">WordPress.com</a>  to build themes for thousands of creative bloggers. Want <strong>total access</strong>? <a href="<?php echo $base_url; ?>/theme-club/">Join the theme club &rarr;</a></h2>
             </div>
@@ -61,10 +61,12 @@
         }
 
 ?>
-            <div class="<?php echo implode( ' ', $class ); ?>" data-wp-price="<?php echo $theme['price-wpcom']; ?>" data-cm-price="<?php echo $theme['price-cm']; ?>" data-wp-url="https://wordpress.com/themes/<?php echo $theme['url-wpcom']; ?>/" data-cm-url="https://creativemarket.com/BinaryMoon/<?php echo $theme['url-cm']; ?>?u=BinaryMoon">
+            <div class="<?php echo implode( ' ', $class ); ?>" data-wp-price="<?php echo $theme['price-wpcom']; ?>" data-cm-price="<?php echo $theme['price-cm']; ?>" data-wp-url="https://wordpress.com/themes/<?php echo $theme['url-wpcom']; ?>/" data-cm-url="<?php echo $theme['url-wporg']; ?>">
                 <div class="product">
                     <div class="large-8 columns image">
-                        <a href="https://wordpress.com/themes/<?php echo $theme['url-wpcom']; ?>/" target="_blank"><img src="img/<?php echo $theme['image']; ?>"></a>
+                        <a href="https://wordpress.com/themes/<?php echo $theme['url-wpcom']; ?>/" target="_blank">
+                            <img src="img/devices/<?php echo $theme['image']; ?>">
+                        </a>
                     </div>
                     <div class="large-4 columns">
                         <a class="desc" href="https://wordpress.com/themes/<?php echo $theme['url-wpcom']; ?>/" target="_blank">

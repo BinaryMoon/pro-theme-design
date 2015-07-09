@@ -4,9 +4,12 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title><?php echo $title; ?></title>
+
         <link rel="stylesheet" href="<?php echo $base_url; ?>/css/foundation.css" />
         <link rel="stylesheet" href="<?php echo $base_url; ?>/css/custom.css" />
+
         <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+
         <script type="text/javascript" src="https://gumroad.com/js/gumroad.js"></script>
 
         <script>
@@ -19,5 +22,6 @@
             ga( 'send', 'pageview' );
         </script>
 
+        <script src="<?php echo $base_url; ?>/js/vendor/jquery.js"></script>
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"
     </head>

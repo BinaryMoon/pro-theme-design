@@ -2,7 +2,7 @@
     include( '_partials/header.php' );
 
     // this number isn't strictly accurate - but it's pretty close
-    $customers = date( 'U' ) / 123456;
+    $customers = date( 'U' ) / 12345;
     $customers = number_format( $customers );
 ?>
 
@@ -11,13 +11,14 @@
         <?php include( '_partials/nav.php' ); ?>
 
 
-        <header>
-            <div class="row">
-                <img class="logomark" src="<?php echo $base_url; ?>/img/logo-ptd.png" alt="Pro Theme Design Compass Logo" />
-                <h1>Pro Theme Design</h1>
-                <h2>Join over <strong><?php echo $customers; ?></strong> happy themers.</h2>
+        <header class="masthead">
+            <div class="wrapper">
+                <div class="row">
+                    <img class="logomark" src="<?php echo $base_url; ?>/img/website/logo-ptd.png" alt="Pro Theme Design Compass Logo" />
+                    <h1>Pro Theme Design</h1>
+                    <h2>Join over <strong><?php echo $customers; ?></strong> happy themers.</h2>
+                </div>
             </div>
-
         </header>
 
         <div class="promo">
@@ -35,7 +36,7 @@
                     </ul>
 
                     <div class="join-button">
-                        <a class="gumroad-button" href="https://gumroad.com/l/XgLK">Join the Theme Club</a>
+                        <a class="gumroad-button" href="https://gumroad.com/l/ffEp">Join the Theme Club</a>
                     </div>
 
                     <p class="note">Note: the Theme Club does not work for WordPress.com - you can <a href="http://theme.wordpress.com/themes/by/pro-theme-design/" target="_blank">Get our WordPress.com Themes</a> here.</p>
