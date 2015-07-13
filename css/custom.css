@@ -244,16 +244,37 @@ ul.social {
     display:block;
 }
 
+.content-showcase .showcase-website a {
+    position:relative;
+    display:block;
+}
+
 .content-showcase .showcase-website h3 {
     font-size:1em;
+    color:#fff;
 }
 
 .content-showcase .showcase-website .meta {
-    display:none;
+    opacity:0;
+    background:rgba(0,0,0,0.6);
+    padding:20px;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    -webkit-transition: opacity 200ms;
+    transition: opacity 200ms;
 }
 
 .content-showcase .showcase-website a {
     color:#fff;
+}
+
+.content-showcase .showcase-website a:hover .meta {
+    opacity:1;
+    -webkit-transition: opacity 200ms;
+    transition: opacity 200ms;
 }
 
 .showcase-filters {

@@ -77,11 +77,11 @@
                            data-get-url-com="<?php echo $themes[ $site[ 'theme' ] ][ 'url-wpcom' ]; ?>"
                         >
                             <img src="<?php echo $image_url; ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>" />
+                            <div class="meta">
+                                <h3><?php echo $site['name']; ?></h3>
+                                <span class="theme"><?php echo $site['theme']; ?></span>
+                            </div>
                         </a>
-                        <div class="meta">
-                            <h3><?php echo $site['name']; ?></h3>
-                            <span class="theme"><?php echo $site['theme']; ?></span>
-                        </div>
                     </div>
 <?php
 
