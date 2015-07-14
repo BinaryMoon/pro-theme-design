@@ -35,9 +35,48 @@
                         <li><strong>New themes</strong>: We aim to release a minimum of 2 new themes every year.</li>
                     </ul>
 
-                    <div class="join-button">
-                        <a class="gumroad-button" href="https://gumroad.com/l/ffEp">Join the Theme Club</a>
-                    </div>
+                    <table id="pricing">
+                        <tr>
+                            <th></th>
+                            <th class="title">Theme Club</th>
+                            <th class="title">Lifetime Bundle</th>
+                        </tr>
+                        <tr>
+                            <td class="feature">All Themes</td>
+                            <td><i class="fa fa-check"></i></td>
+                            <td><i class="fa fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="feature">Theme Updates</td>
+                            <td><i class="fa fa-check"></i></td>
+                            <td><i class="fa fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="feature">Theme Additions</td>
+                            <td><i class="fa fa-check"></i></td>
+                            <td><i class="fa fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="feature">Unlimited Website Usage</td>
+                            <td><i class="fa fa-check"></i></td>
+                            <td><i class="fa fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="feature">Premium Technical Support</td>
+                            <td><i class="fa fa-check"></i></td>
+                            <td><i class="fa fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="feature">No Subscription Fees</td>
+                            <td><i class="fa fa-times"></i></td>
+                            <td><i class="fa fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><a class="gumroad-button" href="https://gumroad.com/l/ffEp">Join</a></td>
+                            <td><a class="cm-button button" href="https://creativemarket.com/BinaryMoon/316584-All-WordPress-Themes-Bundle?u=BinaryMoon">Get the Bundle</a></td>
+                        </tr>
+                    </table>
 
                     <p class="note">Note: the Theme Club does not work for WordPress.com - you can <a href="http://theme.wordpress.com/themes/by/pro-theme-design/" target="_blank">Get our WordPress.com Themes</a> here.</p>
                 </div>

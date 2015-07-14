@@ -676,6 +676,42 @@ footer a:hover, footer a:active {
     margin-left:5px;
 }
 
+#pricing {
+    border:none;
+    background:transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin:3em 0;
+}
+
+#pricing td,
+#pricing th {
+    text-align:center;
+    color:#fff;
+}
+
+#pricing th {
+    text-transform:uppercase;
+    letter-spacing:0.05em;
+}
+
+#pricing td.feature {
+    text-align:right;
+}
+
+#pricing tr.even,
+#pricing tr.alt,
+#pricing tr:nth-of-type(even) {
+    background:rgba(0,0,0,0.2);
+}
+
+#pricing a.button {
+    padding:16px;
+    margin:0;
+}
+
+
+
 /*
 // =======================================================================
 // < 1000px
