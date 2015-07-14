@@ -71,15 +71,15 @@
 ?>
                     <div class="showcase-website theme-<?php echo $site['theme']; ?> <?php echo $class; ?>">
                         <a href="<?php echo $site['url']; ?>"
-                           data-theme="<?php echo $site['theme']; ?>"
-                           data-site-name="<?php echo $site['name']; ?>"
+                           data-theme="<?php echo ucwords( $site['theme'] ); ?>"
+                           data-site-name="<?php echo ucwords( $site['name'] ); ?>"
                            data-get-url-org="<?php echo $themes[ $site[ 'theme' ] ][ 'url-wporg' ]; ?>"
                            data-get-url-com="<?php echo $themes[ $site[ 'theme' ] ][ 'url-wpcom' ]; ?>"
                         >
                             <img src="<?php echo $image_url; ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>" />
                             <div class="meta">
                                 <h3><?php echo $site['name']; ?></h3>
-                                <span class="theme"><?php echo $site['theme']; ?></span>
+                                <span class="theme"><?php echo ucwords( $site['theme'] ); ?></span>
                             </div>
                         </a>
                     </div>
