@@ -68,7 +68,7 @@
         <div id="newsletter-footer">
             <section class="newsletter">
                 <form action="http://prothemedesign.us5.list-manage2.com/subscribe/post?u=45aef63185bbec7c729059160&amp;id=04983a7171" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-                    <label for="mce-EMAIL">WordPress Tips &amp; News in Your Inbox</label>
+                    <label for="mce-EMAIL">Pro Theme Design News in Your Inbox</label>
 
                     <div class="mce-wrap">
                         <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Your Email Address" required="">
@@ -77,7 +77,7 @@
                 </form>
             </section>
 
-            <p class="copyright">&copy; 2007 - <?php echo date( 'Y' ); ?> Pro Theme Design, All Rights Reserved <span class="sep">|</span> <i class="fa fa-wordpress"></i> <a href="http://www.wordpress.com"> WordPress.com</a> <span class="sep">|</span> <i class="fa fa-envelope"></i> <a href="#" class="contact-form">Contact</a> <span class="sep">|</span> <a href="<?php echo $base_url; ?>/policies/">Policies</a></p>
+            <p class="copyright">&copy; 2007 - <?php echo date( 'Y' ); ?> Pro Theme Design, All Rights Reserved <span class="sep">|</span> <i class="fa fa-wordpress"></i> <a href="https://theme.wordpress.com/themes/by/pro-theme-design/"> WordPress.com</a> <span class="sep">|</span> <i class="fa fa-envelope"></i> <a href="#" class="contact-form">Contact</a> <span class="sep">|</span> <a href="<?php echo $base_url; ?>/policies/">Policies</a></p>
 
             <p class="copyright"><a href="https://www.digitalocean.com/?refcode=d4442740ec05" target="_blank">Web hosting by Digital Ocean</a></p>
 

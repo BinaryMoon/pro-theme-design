@@ -37,7 +37,7 @@
             <div class="row">
                 <img class="logomark" src="<?php echo $base_url; ?>/img/website/logo-ptd.png" alt="Pro Theme Design Compass Logo" />
                 <h1>Pro Theme Design</h1>
-                <h2>A selection of the thousands of awesome sites our customers have built!</a>
+                <h2>A selection of the <strong>thousands of awesome sites</strong> our customers have built!</a>
             </div>
         </header>
 

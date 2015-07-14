@@ -32,7 +32,7 @@
                         <li><strong>Secure Themes</strong>: All of our themes have been code reviewed by the wordpress.com team - and they know their stuff!</li>
                         <li><strong>Unlimited Sites</strong>: Use our themes on as many sites as you like.</li>
                         <li><strong>All theme updates</strong>: Get all theme updates for the duration of your membership.</li>
-                        <li><strong>New themes</strong>: We aim to release 2 or 3 new themes every year.</li>
+                        <li><strong>New themes</strong>: We aim to release a minimum of 2 new themes every year.</li>
                     </ul>
 
                     <div class="join-button">
