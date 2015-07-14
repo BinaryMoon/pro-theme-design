@@ -384,7 +384,8 @@ ul.social {
     float: left
     }
 
-.button, .newsletter .mc-embedded-subscribe {
+.button,
+.newsletter .mc-embedded-subscribe {
     background: #207ca7;
     text-align: center;
     padding: 12px 0;
@@ -397,9 +398,14 @@ ul.social {
     box-shadow:0 3px 0px 0px #194b63;
     font-weight: 400;
     border:none;
-    }
+}
 
-.product .button, input.button {
+.button:visited {
+    color:#fff;
+}
+
+.product .button,
+input.button {
     margin: 19px auto 0;
     width:60%;
     display: block;
@@ -407,12 +413,12 @@ ul.social {
 
 .product .desc:hover {
     background-color: rgba(32,37,42,.4);
-    }
+}
 
 .product .desc:hover .button,
 .newsletter .mc-embedded-subscribe:hover {
     background: #268ebe;
-    }
+}
 
 .newsletter .mc-embedded-subscribe {
     float:right;
@@ -432,7 +438,7 @@ ul.social {
     font-size: .9em;
     font-weight: 600;
     top:105px;
-    }
+}
 
 
 /*Newsletter*/
@@ -706,7 +712,7 @@ footer a:hover, footer a:active {
 }
 
 #pricing a.button {
-    padding:16px;
+    width:100%;
     margin:0;
 }
 

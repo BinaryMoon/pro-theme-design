@@ -73,7 +73,7 @@
                         </tr>
                         <tr>
                             <td></td>
-                            <td><a class="gumroad-button" href="https://gumroad.com/l/ffEp">Join</a></td>
+                            <td><a class="gr-button button" href="https://gumroad.com/l/ffEp">Join</a></td>
                             <td><a class="cm-button button" href="https://creativemarket.com/BinaryMoon/316584-All-WordPress-Themes-Bundle?u=BinaryMoon">Get the Bundle</a></td>
                         </tr>
                     </table>
