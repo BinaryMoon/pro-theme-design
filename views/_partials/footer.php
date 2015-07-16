@@ -40,7 +40,7 @@
                 <img id="ava-ben" class="pos avatar" src="<?php echo $base_url; ?>/img/website/ava-ben.jpg" alt="Ben Gillbanks">
                 <h5 class="pink">Ben Gillbanks</h5>
                 <p class="location">Exeter, England</p>
-                <p class="bio">Ben is a WordPress ninja, best known for creating <a href="http://www.binarymoon.co.uk/projects/regulus/">Regulus</a>. More recently he took over the development of the image-resize script <a href="http://code.google.com/p/timthumb/">TimThumb</a>. He spends his time at Pro Theme Design turning Darren's ideas into reality.</p>
+                <p class="bio">Ben is a full stack developer - doing both design and development - often turning Darrens crazy ideas into real products, but not averse to designing his own themes and writing the occassional plugin. Plus he blogs about WordPress and technology at <a href="http://www.binarymoon.co.uk/">Binary Moon</a>.</p>
                  <a href="http://www.binarymoon.co.uk" target="_blank" class="social">
                     <span class="fa-stack fa-med">
                         <i class="fa fa-circle fa-stack-2x"></i>
