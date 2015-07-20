@@ -117,6 +117,6 @@
         <div class="overlay"></div>
 
         <script src="<?php echo $base_url; ?>/js/vendor/jquery.cookie.js"></script>
-        <script src="<?php echo $base_url; ?>/js/main.js"></script>
+        <script src="<?php echo $base_url; ?>/js/main.js?d=1"></script>
     </body>
 </html>
