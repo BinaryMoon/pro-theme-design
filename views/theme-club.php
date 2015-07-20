@@ -72,6 +72,11 @@
                             <td><i class="fa fa-check"></i></td>
                         </tr>
                         <tr>
+                            <td class="feature">Cost</td>
+                            <td>$149 for 6 months<br />$249 for 1 year</td>
+                            <td>$499 one time payment</td>
+                        </tr>
+                        <tr>
                             <td></td>
                             <td><a class="gr-button button" href="https://gumroad.com/l/ffEp">Join</a></td>
                             <td><a class="cm-button button" href="https://creativemarket.com/BinaryMoon/316584-All-WordPress-Themes-Bundle?u=BinaryMoon">Get the Bundle</a></td>
