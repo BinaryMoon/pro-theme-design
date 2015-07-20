@@ -92,14 +92,16 @@
         </div>
 
 
-        <div class="showcase-modal modal">
-            <header>
-                <h3 class="showcase-theme-name">Pro Theme Design</h3>
-                <a href="#" class="showcase-get-theme showcase-buy-com" target="_blank">Buy on WordPress.com <i class="fa fa-arrow-right"></i></a>
-                <a href="#" class="showcase-get-theme showcase-buy-org" target="_blank">Get for WordPress.org <i class="fa fa-arrow-right"></i></a>
-                <a href="/" class="overlay-close">&times;</a>
-            </header>
-            <div class="iframe-wrapper"></div>
+        <div class="showcase-wrapper modal-wrapper">
+            <div class="showcase-modal modal">
+                <header>
+                    <h3 class="showcase-theme-name">Pro Theme Design</h3>
+                    <a href="#" class="showcase-get-theme showcase-buy-com" target="_blank">Buy on WordPress.com <i class="fa fa-arrow-right"></i></a>
+                    <a href="#" class="showcase-get-theme showcase-buy-org" target="_blank">Get for WordPress.org <i class="fa fa-arrow-right"></i></a>
+                    <a href="/" class="overlay-close">&times;</a>
+                </header>
+                <div class="iframe-wrapper"></div>
+            </div>
         </div>
 
         <script src="<?php echo $base_url; ?>/js/vendor/isotope.min.js"></script>

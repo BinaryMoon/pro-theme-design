@@ -66,16 +66,7 @@
 ?>
 
         <div id="newsletter-footer">
-            <section class="newsletter">
-                <form action="http://prothemedesign.us5.list-manage2.com/subscribe/post?u=45aef63185bbec7c729059160&amp;id=04983a7171" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-                    <label for="mce-EMAIL">Pro Theme Design News in Your Inbox</label>
-
-                    <div class="mce-wrap">
-                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Your Email Address" required="">
-                        <input type="submit" value="Subscribe" name="subscribe" class="mc-embedded-subscribe">
-                    </div>
-                </form>
-            </section>
+            <?php include( 'newsletter.php' ); ?>
 
             <p class="copyright">&copy; 2007 - <?php echo date( 'Y' ); ?> Pro Theme Design, All Rights Reserved <span class="sep">|</span> <i class="fa fa-wordpress"></i> <a href="https://theme.wordpress.com/themes/by/pro-theme-design/"> WordPress.com</a> <span class="sep">|</span> <i class="fa fa-envelope"></i> <a href="#" class="contact-form">Contact</a> <span class="sep">|</span> <a href="<?php echo $base_url; ?>/policies/">Policies</a></p>
 
@@ -83,9 +74,8 @@
 
         </footer>
 
-        <div class="overlay"></div>
 
-        <div class="contact-wrapper">
+        <div class="contact-wrapper modal-wrapper">
             <div class="contact modal">
                 <a href="/" class="overlay-close">&times;</a>
                 <h1>Contact Us</h1>
@@ -115,6 +105,18 @@
 
 
 
+        <div class="newsletter-wrapper modal-wrapper">
+            <div class="newsletter-modal modal">
+                <a href="/" class="overlay-close">&times;</a>
+                <?php include( 'newsletter.php' ); ?>
+                <p>Be the first to hear about the latest Pro Theme Design news and offers, including theme and plugin releases.</p>
+            </div>
+        </div>
+
+
+        <div class="overlay"></div>
+
+        <script src="<?php echo $base_url; ?>/js/vendor/jquery.cookie.js"></script>
         <script src="<?php echo $base_url; ?>/js/main.js"></script>
     </body>
 </html>

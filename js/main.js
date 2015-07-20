@@ -34,7 +34,6 @@
     });
 
 
-
     // contact form
 
     $(document).ready(function(){
@@ -43,14 +42,12 @@
             e.preventDefault();
 
             show_contact();
-            show_overlay();
         });
 
         $( '.overlay-close' ).on( 'click', function(e) {
             e.preventDefault();
 
             hide_modal();
-            hide_overlay();
         });
 
     });
@@ -97,6 +94,7 @@
 
     }
 
+
     // showcase popups
 
     $( '.showcase-website a' ).on( 'click', function( e ) {
@@ -107,9 +105,6 @@
         var modal = $( '.showcase-modal' );
         var path = $this.attr( 'href' );
 
-        console.log( path );
-
-        show_overlay();
         show_showcase();
 
         modal.find( 'h3' ).html( $this.data( 'site-name' ) );
@@ -120,27 +115,59 @@
     });
 
 
+    // newsletter popup
 
+    if ( visit_count() >= 3 && newsletter_count() < 1 ) {
+        setTimeout( show_newsletter, 10000);
+    }
+    update_visit_count();
+
+
+    // reusable functions
+
+    function show_newsletter() {
+        if ( ! $( '.overlay' ).is( ':visible' ) ) {
+            $.cookie( 'ptd-newsletter', 1, { expires: 365, path: '/' } );
+            show_overlay();
+            $( '.newsletter-wrapper' ).fadeIn();
+        }
+    }
 
     function show_contact() {
-        $('.contact-wrapper').fadeIn();
+        show_overlay();
+        $( '.contact-wrapper' ).fadeIn();
     }
 
     function show_showcase() {
-        $('.showcase-modal').fadeIn();
+        show_overlay();
+        $( '.showcase-modal, .showcase-wrapper' ).fadeIn();
     }
 
     function hide_modal() {
-        $('.modal').fadeOut();
-        $('.contact-wrapper').fadeOut();
+        $( '.modal-wrapper' ).fadeOut();
+        hide_overlay();
     }
 
     function show_overlay() {
-        $('.overlay').fadeIn();
+        $( '.overlay' ).fadeIn();
     }
 
     function hide_overlay() {
-        $('.overlay').fadeOut();
+        $( '.overlay' ).fadeOut();
+    }
+
+    function update_visit_count() {
+        var visits = visit_count();
+        visits++;
+        $.cookie( 'ptd-visits', visits, { expires: 21, path: '/' } );
+    }
+
+    function visit_count() {
+        return $.cookie( 'ptd-visits' ) || 0;
+    }
+
+    function newsletter_count(){
+        return $.cookie( 'ptd-newsletter' ) || 0;
     }
 
 })(jQuery);

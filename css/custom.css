@@ -449,6 +449,7 @@ input.button {
 
 .newsletter form {
     width: 700px;
+    max-width:100%;
     padding: 12px 0 12px 125px;
     background: url(../img/website/envelope.png) 1px 16px no-repeat;
     margin: 0 auto;
@@ -461,7 +462,7 @@ input.button {
     margin-bottom: 7px
 }
 
-#newsletter-footer .mce-wrap {
+.newsletter .mce-wrap {
     clear: both;
 }
 
@@ -473,14 +474,18 @@ input.button {
     background: #fff;
     text-align: left;
     overflow: hidden;
+    position:relative;
 }
 
-    .newsletter .email {
-    padding: 9px 0 0 9px;
-    width: 419px;
+.newsletter .email {
+    padding: 9px 130px 9px 9px;
+    padding-right:130px;
+    width:100%;
     border: none;
     font-size: 1.1em;
     color: #111;
+    margin:0;
+    height:50px;
 }
 
 .newsletter input[type=email], .newsletter input[type=email]:focus {
@@ -496,7 +501,12 @@ input.button {
 }
 
 .newsletter .mc-embedded-subscribe {
-    padding:10px 32px;
+    padding:10px 16px;
+    margin:0;
+    position:absolute;
+    top:10px;
+    right:9px;
+    cursor:pointer;
 }
 
 
@@ -602,7 +612,7 @@ footer a:hover, footer a:active {
     box-shadow:inset 0 2px 4px rgba(0,0,0,0.1);
 }
 
-.contact-wrapper {
+.modal-wrapper {
     display:none;
     position:fixed;
     top:0;
@@ -610,19 +620,33 @@ footer a:hover, footer a:active {
     right:0;
     left:0;
     padding-top:5%;
+    z-index:10;
 }
 
 .contact {
-    max-width:400px;
+    max-width:500px;
     padding:20px 40px;
     width:100%;
     margin:0 auto;
+}
+
+.newsletter-modal {
+    max-width:600px;
+    padding:20px 40px;
+    width:100%;
+    margin:0 auto;
+}
+
+.newsletter-modal .newsletter form label {
+    font-size:1.4em;
+    color:#222;
 }
 
 .modal {
     background:#dde4e7 url(../img/website/bg_top.png) fixed;
     border-radius:3px;
     z-index:10;
+    box-shadow:0 3px 12px rgba(0,0,0,0.2);
 }
 
 .contact h1 {
@@ -634,12 +658,11 @@ footer a:hover, footer a:active {
 }
 
 .showcase-modal {
-    position:fixed;
+    position:absolute;
     top:20px;
     right:20px;
     bottom:20px;
     left:20px;
-    display:none;
 }
 
 .showcase-modal header {
@@ -791,27 +814,23 @@ footer a:hover, footer a:active {
 
     .newsletter {
         padding: 0;
-        }
+    }
+
+    .newsletter form label {
+        font-size:1.2em;
+    }
 
     .newsletter form {
         padding: 0;
         width:auto;
         background: none;
         margin: 0;
-        }
-
-    .newsletter form label {
-        display: none;
-        }
-
-    .newsletter .email {
-        width:40%;
-        }
+    }
 
     .map h4 {
         font-size: 1.4em;
         margin-bottom: 30px;
-        }
+    }
 
     .map {
         background: none;
@@ -820,22 +839,22 @@ footer a:hover, footer a:active {
 
     .newsletter .mc-embedded-subscribe {
         width:auto;
-        float: right;
-        margin-top: 8px;
-        }
+    }
 
     .product .desc {
         margin-top: 10px;
-        }
+    }
 
     .product {
         padding: 0px 0 66px;
     }
+
     .product .price {
         position:relative;
         top:auto;
         right:auto;
     }
+
     .product h3 {
         margin-top:4px
     }

@@ -7,10 +7,8 @@
 
         <link rel="stylesheet" href="<?php echo $base_url; ?>/css/foundation.css" />
         <link rel="stylesheet" href="<?php echo $base_url; ?>/css/custom.css" />
-
-        <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
-
-        <script type="text/javascript" src="https://gumroad.com/js/gumroad.js"></script>
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,400,700,900" />
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" />
 
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -23,5 +21,5 @@
         </script>
 
         <script src="<?php echo $base_url; ?>/js/vendor/jquery.js"></script>
-        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"
+        <script src="https://gumroad.com/js/gumroad.js"></script>
     </head>
