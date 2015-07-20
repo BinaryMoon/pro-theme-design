@@ -118,7 +118,7 @@
     // newsletter popup
 
     if ( visit_count() >= 3 && newsletter_count() < 1 ) {
-        setTimeout( show_newsletter, 10000);
+        setTimeout( show_newsletter, 10000 );
     }
     update_visit_count();
 
