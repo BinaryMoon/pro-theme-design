@@ -82,6 +82,15 @@
     update_visit_count();
 
 
+    // showcase selected navigation
+
+    var tag = $( '.page-theme-showcase' );
+
+    if ( tag.length >= 1 ) {
+        $( '.showcase-filters a.tag-' + tag.data( 'tag' ) ).addClass( 'selected' );
+    }
+
+
     // reusable functions
 
     function show_newsletter() {

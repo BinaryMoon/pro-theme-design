@@ -28,7 +28,7 @@
     include( '_partials/header.php' );
 ?>
 
-    <body class="page-theme-showcase">
+    <body class="page-theme-showcase" data-tag="<?php echo $tag; ?>">
 
         <?php include( '_partials/nav.php' ); ?>
 
@@ -43,13 +43,13 @@
         <div class="promo">
             <div class="content-main content-showcase">
                 <div class="showcase-filters">
-                    <a href="<?php echo path( 'theme-showcase/' ); ?>">Recent</a>
-                    <a href="<?php echo path( 'theme-showcase/featured/' ); ?>">Featured</a>
-                    <a href="<?php echo path( 'theme-showcase/puzzle/' ); ?>">Puzzle</a>
-                    <a href="<?php echo path( 'theme-showcase/romero/' ); ?>">Romero</a>
-                    <a href="<?php echo path( 'theme-showcase/chronicle/' ); ?>">Chronicle</a>
-                    <a href="<?php echo path( 'theme-showcase/broadsheet/' ); ?>">Broadsheet</a>
-                    <a href="<?php echo path( 'theme-showcase/opti/' ); ?>">Opti</a>
+                    <a href="<?php echo path( 'theme-showcase/' ); ?>" class="tag-">Recent</a>
+                    <a href="<?php echo path( 'theme-showcase/featured/' ); ?>" class="tag-featured">Featured</a>
+                    <a href="<?php echo path( 'theme-showcase/puzzle/' ); ?>" class="tag-puzzle">Puzzle</a>
+                    <a href="<?php echo path( 'theme-showcase/romero/' ); ?>" class="tag-romero">Romero</a>
+                    <a href="<?php echo path( 'theme-showcase/chronicle/' ); ?>" class="tag-chronicle">Chronicle</a>
+                    <a href="<?php echo path( 'theme-showcase/broadsheet/' ); ?>" class="tag-broadsheet">Broadsheet</a>
+                    <a href="<?php echo path( 'theme-showcase/opti/' ); ?>" class="tag-opti">Opti</a>
                 </div>
 
                 <div class="row">

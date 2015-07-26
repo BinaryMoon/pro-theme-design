@@ -35,6 +35,7 @@ include_once( 'flight/Flight.php' );
  * Homepage
  */
 Flight::route( '/', function() {
+
     Flight::render(
         'home.php',
         array(
@@ -44,6 +45,7 @@ Flight::route( '/', function() {
             'base_url' => get_base(),
         )
     );
+
 } );
 
 
@@ -51,6 +53,7 @@ Flight::route( '/', function() {
  * Theme Club
  */
 Flight::route( '/theme-club/', function() {
+
     Flight::render(
         'theme-club.php',
         array(
@@ -59,6 +62,7 @@ Flight::route( '/theme-club/', function() {
             'base_url' => get_base(),
         )
     );
+
 } );
 
 
@@ -88,8 +92,10 @@ Flight::route( '/theme-showcase/(@tag)', function( $tag = '' ) {
             'request' => Flight::request(),
             'base_url' => get_base(),
             'websites' => $websites,
+            'tag' => $tag
         )
     );
+
 } );
 
 
@@ -97,6 +103,7 @@ Flight::route( '/theme-showcase/(@tag)', function( $tag = '' ) {
  * Terms and Conditions
  */
 Flight::route( '/policies/', function() {
+
     Flight::render(
         'terms-and-conditions.php',
         array(
@@ -105,6 +112,7 @@ Flight::route( '/policies/', function() {
             'base_url' => get_base(),
         )
     );
+
 } );
 
 
@@ -112,6 +120,7 @@ Flight::route( '/policies/', function() {
  * WordPress Plugins
  */
 Flight::route( '/wordpress-plugins/', function() {
+
     Flight::render(
         'plugins.php',
         array(
@@ -120,6 +129,7 @@ Flight::route( '/wordpress-plugins/', function() {
             'base_url' => get_base(),
         )
     );
+
 } );
 
 
@@ -127,6 +137,7 @@ Flight::route( '/wordpress-plugins/', function() {
  * 404
  */
 Flight::map( 'notFound', function() {
+
     Flight::render(
         '404.php',
         array(
@@ -135,6 +146,7 @@ Flight::map( 'notFound', function() {
             'base_url' => get_base(),
         )
     );
+
 } );
 
 
