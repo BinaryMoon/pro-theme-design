@@ -43,13 +43,13 @@
         <div class="promo">
             <div class="content-main content-showcase">
                 <div class="showcase-filters">
-                    <a href="<?php echo path( '/theme-showcase/' ); ?>">Recent</a>
-                    <a href="<?php echo path( '/theme-showcase/featured/' ); ?>">Featured</a>
-                    <a href="<?php echo path( '/theme-showcase/puzzle/' ); ?>">Puzzle</a>
-                    <a href="<?php echo path( '/theme-showcase/romero/' ); ?>">Romero</a>
-                    <a href="<?php echo path( '/theme-showcase/chronicle/' ); ?>">Chronicle</a>
-                    <a href="<?php echo path( '/theme-showcase/broadsheet/' ); ?>">Broadsheet</a>
-                    <a href="<?php echo path( '/theme-showcase/opti/' ); ?>">Opti</a>
+                    <a href="<?php echo path( 'theme-showcase/' ); ?>">Recent</a>
+                    <a href="<?php echo path( 'theme-showcase/featured/' ); ?>">Featured</a>
+                    <a href="<?php echo path( 'theme-showcase/puzzle/' ); ?>">Puzzle</a>
+                    <a href="<?php echo path( 'theme-showcase/romero/' ); ?>">Romero</a>
+                    <a href="<?php echo path( 'theme-showcase/chronicle/' ); ?>">Chronicle</a>
+                    <a href="<?php echo path( 'theme-showcase/broadsheet/' ); ?>">Broadsheet</a>
+                    <a href="<?php echo path( 'theme-showcase/opti/' ); ?>">Opti</a>
                 </div>
 
                 <div class="row">
@@ -61,7 +61,7 @@
         $class = '';
 
         if ( ! empty( $site[ 'image' ] ) ) {
-            $image_url = $base_url . '/img/showcase/' . $site[ 'image' ] . '.jpg';
+            $image_url = image_path( 'showcase/' . $site[ 'image' ] . '.jpg' );
         } else {
             $image_url = 'https://s0.wordpress.com/mshots/v1/' . urlencode( $site['url'] ) . '?w=' . $width . '&h=' . $height;
         }

@@ -1,23 +1,30 @@
 <?php
 
 
-function css_path( $path ) {
+function css_path( $path = '' ) {
 
-    return path( '/css/' . $path );
-
-}
-
-
-function image_path( $path ) {
-
-    return path( '/img/' . $path );
+    return path( 'css/' . $path . '?d=' . DECACHE_CSS );
 
 }
 
 
-function path( $path ) {
+function image_path( $path = '' ) {
 
-    return get_base() . $path;
+    return path( 'img/' . $path );
+
+}
+
+
+function js_path( $path = '' ) {
+
+    return path( 'js/' . $path . '?d=' . DECACHE_JS );
+
+}
+
+
+function path( $path = '' ) {
+
+    return get_base() . '/' . $path;
 
 }
 

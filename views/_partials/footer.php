@@ -11,7 +11,7 @@
             </section>
 
             <div id="blurb-darren" class="pos">
-                <img id="ava-darren" class="pos avatar" src="<?php echo $base_url; ?>/img/website/ava-darren.jpg" alt="Darren Hoyt">
+                <img id="ava-darren" class="pos avatar" src="<?php echo image_path( 'website/ava-darren.jpg' ); ?>" alt="Darren Hoyt">
                 <h5 class="pink">Darren Hoyt</h5>
                 <p class="location">Brooklyn, NY</p>
                 <p class="bio">Established in the WordPress community for projects like <a href="http://www.darrenhoyt.com/2007/08/05/wordpress-magazine-theme-released/">Mimbo</a> and <a href="http://www.smashingmagazine.com/2008/09/08/agregado-a-free-wordpress-theme/">Agregado</a>, Darren also has 14 years experience designing websites for businesses and startups. His role at Pro Theme is taking what Ben builds and making it beautiful and simple to use.</p>
@@ -37,7 +37,7 @@
             </div>
 
             <div id="blurb-ben" class="pos">
-                <img id="ava-ben" class="pos avatar" src="<?php echo $base_url; ?>/img/website/ava-ben.jpg" alt="Ben Gillbanks">
+                <img id="ava-ben" class="pos avatar" src="<?php echo image_path( 'website/ava-ben.jpg' ); ?>" alt="Ben Gillbanks">
                 <h5 class="pink">Ben Gillbanks</h5>
                 <p class="location">Exeter, England</p>
                 <p class="bio">Ben is a full stack developer - doing both design and development - often turning Darrens crazy ideas into real products, but not averse to designing his own themes and writing the occassional plugin. Plus he blogs about WordPress and technology at <a href="http://www.binarymoon.co.uk/">Binary Moon</a>.</p>
@@ -68,7 +68,7 @@
         <div id="newsletter-footer">
             <?php include( 'newsletter.php' ); ?>
 
-            <p class="copyright">&copy; 2007 - <?php echo date( 'Y' ); ?> Pro Theme Design, All Rights Reserved <span class="sep">|</span> <i class="fa fa-wordpress"></i> <a href="https://theme.wordpress.com/themes/by/pro-theme-design/"> WordPress.com</a> <span class="sep">|</span> <i class="fa fa-envelope"></i> <a href="#" class="contact-form">Contact</a> <span class="sep">|</span> <a href="<?php echo $base_url; ?>/policies/">Policies</a></p>
+            <p class="copyright">&copy; 2007 - <?php echo date( 'Y' ); ?> Pro Theme Design, All Rights Reserved <span class="sep">|</span> <i class="fa fa-wordpress"></i> <a href="https://theme.wordpress.com/themes/by/pro-theme-design/"> WordPress.com</a> <span class="sep">|</span> <i class="fa fa-envelope"></i> <a href="#" class="contact-form">Contact</a> <span class="sep">|</span> <a href="<?php echo path( 'policies/' ); ?>">Policies</a></p>
 
             <p class="copyright"><a href="https://www.digitalocean.com/?refcode=d4442740ec05" target="_blank">Web hosting by Digital Ocean</a></p>
 
@@ -116,7 +116,7 @@
 
         <div class="overlay"></div>
 
-        <script src="<?php echo $base_url; ?>/js/vendor/jquery.cookie.js"></script>
-        <script src="<?php echo $base_url; ?>/js/main.js?d=1"></script>
+        <script src="<?php echo js_path( 'vendor/jquery.cookie.js' ); ?>"></script>
+        <script src="<?php echo js_path( 'main.js' ); ?>"></script>
     </body>
 </html>

@@ -12,7 +12,7 @@
             <div class="row">
                 <img class="logomark" src="<?php echo image_path( 'website/logo-ptd.png' ); ?>" alt="Pro Theme Design Compass Logo" />
                 <h1>Pro Theme Design</h1>
-                <h2>Partnering with <a href="http://theme.wordpress.com/themes/by/pro-theme-design/" target="_blank">WordPress.com</a>  to build themes for thousands of creative bloggers. Want <strong>total access</strong>? <a href="<?php echo $base_url; ?>/theme-club/">Join the theme club &rarr;</a></h2>
+                <h2>Partnering with <a href="http://theme.wordpress.com/themes/by/pro-theme-design/" target="_blank">WordPress.com</a>  to build themes for thousands of creative bloggers. Want <strong>total access</strong>? <a href="<?php echo path( 'theme-club/' ); ?>">Join the theme club &rarr;</a></h2>
             </div>
 
             <nav class="tabs">
@@ -65,7 +65,7 @@
                 <div class="product">
                     <div class="large-8 columns image">
                         <a href="https://wordpress.com/themes/<?php echo $theme['url-wpcom']; ?>/" target="_blank">
-                            <img src="img/devices/<?php echo $theme['image']; ?>">
+                            <img src="<?php echo image_path( 'devices/' . $theme['image'] ); ?>">
                         </a>
                     </div>
                     <div class="large-4 columns">

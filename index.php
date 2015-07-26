@@ -20,6 +20,9 @@ if ( 'localhost' == $_SERVER[ 'HTTP_HOST' ] ) {
     ini_set( 'display_errors', 'On' );
 }
 
+// constants
+define( 'DECACHE_CSS', '1' );
+define( 'DECACHE_JS', '2' );
 
 
 // include needed stuff

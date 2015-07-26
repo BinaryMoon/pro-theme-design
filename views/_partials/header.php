@@ -22,6 +22,6 @@
             ga( 'send', 'pageview' );
         </script>
 
-        <script src="<?php echo $base_url; ?>/js/vendor/jquery.js"></script>
+        <script src="<?php echo js_path( 'vendor/jquery.js' ); ?>"></script>
         <script src="https://gumroad.com/js/gumroad.js"></script>
     </head>
