@@ -13,5 +13,5 @@
             </div>
         </header>
 
-    </body>
-</html>
+<?php
+    include( '_partials/footer.php' );
