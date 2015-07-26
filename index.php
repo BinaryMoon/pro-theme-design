@@ -9,10 +9,28 @@
  * Add Documentation
  */
 
+/**
+ * FlightPHP - http://flightphp.com/
+ * FlightPHP on Github - https://github.com/mikecao/flight
+ */
+
+// enable debug on localhost
+if ( 'localhost' == $_SERVER[ 'HTTP_HOST' ] ) {
+    error_reporting( -1 );
+    ini_set( 'display_errors', 'On' );
+}
+
+
+
+// include needed stuff
 include_once( 'library/data.php' );
+include_once( 'library/functions.php' );
+include_once( 'flight/Flight.php' );
 
-require 'flight/Flight.php';
 
+/**
+ * Homepage
+ */
 Flight::route( '/', function() {
     Flight::render(
         'home.php',
@@ -25,6 +43,10 @@ Flight::route( '/', function() {
     );
 } );
 
+
+/**
+ * Theme Club
+ */
 Flight::route( '/theme-club/', function() {
     Flight::render(
         'theme-club.php',
@@ -36,17 +58,41 @@ Flight::route( '/theme-club/', function() {
     );
 } );
 
-Flight::route( '/theme-showcase/', function() {
+
+/**
+ * Theme Showcase
+ */
+Flight::route( '/theme-showcase/(@tag)', function( $tag = '' ) {
+
+    $view = 'showcase.php';
+    $title = 'WordPress Themes Showcase';
+    $websites = array();
+
+    if ( website_tag_exists( $tag ) ) {
+
+        $websites = website_get_by_tag( $tag );
+
+    } else {
+
+        $view = '404.php';
+
+    }
+
     Flight::render(
-        'showcase.php',
+        $view,
         array(
-            'title' => 'WordPress Themes Showcase',
+            'title' => $title,
             'request' => Flight::request(),
             'base_url' => get_base(),
+            'websites' => $websites,
         )
     );
 } );
 
+
+/**
+ * Terms and Conditions
+ */
 Flight::route( '/policies/', function() {
     Flight::render(
         'terms-and-conditions.php',
@@ -58,6 +104,10 @@ Flight::route( '/policies/', function() {
     );
 } );
 
+
+/**
+ * WordPress Plugins
+ */
 Flight::route( '/wordpress-plugins/', function() {
     Flight::render(
         'plugins.php',
@@ -69,6 +119,10 @@ Flight::route( '/wordpress-plugins/', function() {
     );
 } );
 
+
+/**
+ * 404
+ */
 Flight::map( 'notFound', function() {
     Flight::render(
         '404.php',
@@ -80,14 +134,5 @@ Flight::map( 'notFound', function() {
     );
 } );
 
-
-/**
- * Get the base directory for the site
- * by default the Flight request object returns a / for site root and no / for directories - so this keeps things consistent
- */
-function get_base() {
-    $request = Flight::request();
-    return rtrim( $request->base, '/' );
-}
 
 Flight::start();

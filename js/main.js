@@ -53,48 +53,6 @@
     });
 
 
-    // showcase grid
-
-    if ( $.isFunction( $.fn.isotope ) ) {
-
-        $( window ).load( function() {
-
-            var $grid = $( '.content-showcase .row' );
-            $grid.isotope({
-                itemSelector: '.showcase-website',
-                filter: '.theme-featured'
-            });
-
-
-            // showcase filters
-
-            $( '.showcase-filters a' ).on( 'click', function( e ) {
-
-                e.preventDefault();
-
-                var $this = $( this );
-                $this.parent().find( '.selected' ).removeClass( 'selected' );
-                $this.addClass( 'selected' );
-
-                var themefilter = $this.data( 'filter' );
-
-                if ( '' !== themefilter ) {
-                    $grid.isotope({
-                        filter: '.theme-' + themefilter
-                    });
-                } else {
-                    $grid.isotope({
-                        filter: ''
-                    });
-                }
-
-            });
-
-        });
-
-    }
-
-
     // showcase popups
 
     $( '.showcase-website a' ).on( 'click', function( e ) {
@@ -120,6 +78,7 @@
     if ( visit_count() >= 3 && newsletter_count() < 1 ) {
         setTimeout( show_newsletter, 10000 );
     }
+
     update_visit_count();
 
 

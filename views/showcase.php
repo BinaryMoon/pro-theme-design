@@ -1,7 +1,6 @@
 <?php
 
     $themes = get_theme_data();
-    $websites = get_website_data();
 
 /**
  * Vision
@@ -35,7 +34,7 @@
 
         <header class="masthead">
             <div class="row">
-                <img class="logomark" src="<?php echo $base_url; ?>/img/website/logo-ptd.png" alt="Pro Theme Design Compass Logo" />
+                <img class="logomark" src="<?php echo image_path( 'website/logo-ptd.png' ); ?>" alt="Pro Theme Design Compass Logo" />
                 <h1>Pro Theme Design</h1>
                 <h2>A selection of the <strong>thousands of awesome sites</strong> our customers have built!</a>
             </div>
@@ -44,14 +43,15 @@
         <div class="promo">
             <div class="content-main content-showcase">
                 <div class="showcase-filters">
-                    <a href="#" data-filter="">All</a>
-                    <a href="#" data-filter="featured" class="selected">Featured</a>
-                    <a href="#" data-filter="puzzle">Puzzle</a>
-                    <a href="#" data-filter="romero">Romero</a>
-                    <a href="#" data-filter="chronicle">Chronicle</a>
-                    <a href="#" data-filter="broadsheet">Broadsheet</a>
-                    <a href="#" data-filter="opti">Opti</a>
+                    <a href="<?php echo path( '/theme-showcase/' ); ?>">Recent</a>
+                    <a href="<?php echo path( '/theme-showcase/featured/' ); ?>">Featured</a>
+                    <a href="<?php echo path( '/theme-showcase/puzzle/' ); ?>">Puzzle</a>
+                    <a href="<?php echo path( '/theme-showcase/romero/' ); ?>">Romero</a>
+                    <a href="<?php echo path( '/theme-showcase/chronicle/' ); ?>">Chronicle</a>
+                    <a href="<?php echo path( '/theme-showcase/broadsheet/' ); ?>">Broadsheet</a>
+                    <a href="<?php echo path( '/theme-showcase/opti/' ); ?>">Opti</a>
                 </div>
+
                 <div class="row">
 <?php
     foreach( $websites as $site ) {
@@ -91,7 +91,6 @@
             </div>
         </div>
 
-
         <div class="showcase-wrapper modal-wrapper">
             <div class="showcase-modal modal">
                 <header>
@@ -103,8 +102,6 @@
                 <div class="iframe-wrapper"></div>
             </div>
         </div>
-
-        <script src="<?php echo $base_url; ?>/js/vendor/isotope.min.js"></script>
 
 <?php
     include( '_partials/footer.php' );

@@ -5,10 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title><?php echo $title; ?></title>
 
-        <link rel="stylesheet" href="<?php echo $base_url; ?>/css/foundation.css" />
-        <link rel="stylesheet" href="<?php echo $base_url; ?>/css/custom.css" />
+        <link rel="stylesheet" href="<?php echo css_path( 'foundation.css' ); ?>" />
+        <link rel="stylesheet" href="<?php echo css_path( 'custom.css' ); ?>" />
         <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,400,700,900" />
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" />
+
+        <meta name="google-site-verification" content="VDLz-TZD53CTCmTol81Cd1UoOyz5RuAjdyjiP4irmsk" />
 
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
