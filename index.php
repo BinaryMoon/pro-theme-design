@@ -6,7 +6,8 @@
  * Swap css over to less
  * Add the option for free themes on wordpress.org
  * Add plugins page
- * Add Documentation
+ * Add theme Documentation
+ * Add tag descriptions on showcase page
  */
 
 /**
