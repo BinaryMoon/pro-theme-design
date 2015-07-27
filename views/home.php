@@ -62,7 +62,7 @@
 
 ?>
             <div class="<?php echo implode( ' ', $class ); ?>" data-wp-price="<?php echo $theme['price-wpcom']; ?>" data-cm-price="<?php echo $theme['price-cm']; ?>" data-wp-url="https://wordpress.com/themes/<?php echo $theme['url-wpcom']; ?>/" data-cm-url="<?php echo $theme['url-wporg']; ?>">
-                <div class="product">
+                <div class="product theme">
                     <div class="large-8 columns image">
                         <a href="https://wordpress.com/themes/<?php echo $theme['url-wpcom']; ?>/" target="_blank">
                             <img src="<?php echo image_path( 'devices/' . $theme['image'] ); ?>">
