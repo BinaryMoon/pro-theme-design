@@ -5,9 +5,10 @@
  *
  * Swap css over to less
  * Add the option for free themes on wordpress.org
- * Add plugins page
  * Add theme Documentation
  * Add tag descriptions on showcase page
+ * Add method for users to submit showcase sites
+ * Add support contact form (as part of theme docs)
  */
 
 /**
@@ -15,15 +16,19 @@
  * FlightPHP on Github - https://github.com/mikecao/flight
  */
 
+$environment = 'prod';
+
 // enable debug on localhost
 if ( 'localhost' == $_SERVER[ 'HTTP_HOST' ] ) {
     error_reporting( -1 );
     ini_set( 'display_errors', 'On' );
+    $environment = 'dev';
 }
 
 // constants
 define( 'DECACHE_CSS', '1' );
 define( 'DECACHE_JS', '2' );
+define( 'ENV', $environment );
 
 
 // include needed stuff
@@ -125,7 +130,7 @@ Flight::route( '/wordpress-plugins/', function() {
     Flight::render(
         'plugins.php',
         array(
-            'title' => 'WordPress Plugins',
+            'title' => 'Recommended WordPress Plugins',
             'request' => Flight::request(),
             'base_url' => get_base(),
         )

@@ -4,7 +4,14 @@
         <li class="themes"><a href="<?php echo path(); ?>">Themes</a></li>
         <li class="theme-club"><a href="<?php echo path( 'theme-club/' ); ?>">Theme Club</a></li>
         <li class="theme-showcase"><a href="<?php echo path( 'theme-showcase/' ); ?>">Showcase</a></li>
-        <!-- <li><a href="#" class="contact-form">Contact</a></li> -->
+        <li class="wordpress-plugins"><a href="<?php echo path( 'wordpress-plugins/' ); ?>">Plugins</a></li>
+<?php
+    if ( 'dev' == ENV ) {
+?>
+        <li class="tools"><a href="<?php echo path( 'tools/' ); ?>">Tools</a></li>
+<?php
+    }
+?>
     </ul>
 </nav>
 
