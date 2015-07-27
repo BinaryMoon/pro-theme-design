@@ -4,6 +4,8 @@
 
     <body class="page-404">
 
+        <?php include( '_partials/nav.php' ); ?>
+
         <header class="masthead">
             <div class="row">
                 <img class="logomark" src="<?php echo image_path( 'website/logo-ptd.png' ); ?>" alt="Pro Theme Design Compass Logo" />
