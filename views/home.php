@@ -81,8 +81,7 @@
 <?php
     }
 ?>
-
-    <div><!--/promo-->
+        </div>
 
 <?php
     include( '_partials/footer.php' );
