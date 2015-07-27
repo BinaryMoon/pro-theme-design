@@ -5,17 +5,17 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6, .product .button, input.button {
-text-rendering: optimizeLegibility;
-font-weight: 700;
+    text-rendering: optimizeLegibility;
+    font-weight: 700;
 }
 
 
 body, h1, h2, h3, h4, h5, .promo h2 em {
-font-family: 'Lato',sans-serif !important;
+    font-family: 'Lato',sans-serif !important;
 }
 
 a, a:visited {
-color: #71AFC4
+    color: #71AFC4
 }
 
 a:hover,
@@ -23,9 +23,9 @@ a:hover,
 li:hover,
 img:hover,
 input:hover {
-  -webkit-transition: all 0.3s linear;
-  -moz-transition: all 0.3s linear;
-  transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
 }
 
 
@@ -62,14 +62,17 @@ header.masthead .tabs a {
     color:#444;
     border-radius:3px 3px 0 0;
 }
+
 header.masthead .tabs a:hover {
     background:#fff;
 }
+
 header.masthead .tabs a.selected {
     background:url(../img/website/waves.png) fixed;
     color:#fff;
     border:none;
 }
+
 header.masthead .tabs small {
     display:block;
 }
@@ -89,7 +92,7 @@ header.masthead h2 a:hover,
 header.masthead h2 a:active {
     border-color:#507789;
     color: #507789;
-    }
+}
 
 .nav {
     position: absolute;
@@ -97,7 +100,6 @@ header.masthead h2 a:active {
     margin:20px 0 0 20px;
     overflow:auto;
     font-size: 14px;
-
 }
 
 .nav li {
@@ -119,6 +121,8 @@ header.masthead h2 a:active {
     color:#000;
 }
 
+.page-plugins .nav .wordpress-plugins a,
+.page-tools .nav .tools a,
 .page-home .nav .themes a,
 .page-theme-club .nav .theme-club a,
 .page-theme-showcase .nav .theme-showcase a,
@@ -172,7 +176,7 @@ ul.social {
     float: right;
     padding: 0;
     margin: 20px 20px 0 0;
-    }
+}
 
 .social li {
     display: inline-block;
@@ -303,14 +307,14 @@ ul.social {
 .mark-wp {
     display: block;
     margin: 0 auto 5px;
-    }
+}
 
 .promo h2 {
     font-size: 2.4em;
     color: #fff;
     text-align: center;
     text-transform: uppercase;
-    }
+}
 
 .promo h2 em {
     color: #8b939c;
@@ -318,7 +322,7 @@ ul.social {
     font-style: italic;
     text-transform: none;
     font-weight: 100;
-    }
+}
 
 .theme {
     border-bottom:3px solid #3c4147;
@@ -326,14 +330,11 @@ ul.social {
     max-width:100%;
 }
 
-.theme:last-of-type {
-    border:none;
-}
-
 #theme-wrapper .theme .columns.image {
     text-align:center;
 }
 
+#plugin-wrapper .plugin:nth-of-type(odd) .columns.image,
 #theme-wrapper.wordpress .theme.wp_odd .columns.image,
 #theme-wrapper.creative-market .theme.cm_even .columns.image {
     float:right;
@@ -349,7 +350,7 @@ ul.social {
     margin-right: auto;
     margin-bottom: 0;
     max-width: 1280px;
-    }
+}
 
 .product:last-of-type {
     border:none;
@@ -361,28 +362,36 @@ ul.social {
     font-size: 1.85em;
     text-transform: uppercase;
     margin:17px 0 2px;
-    }
+}
 
 .product .devices {
     float: left;
-    }
+}
 
 .product-wrap {
     width:62%;
-    }
+}
 
 .product .desc {
     color: #8e959b;
     background: #21252a;
     padding: 18px 34px 34px;
     border-radius: 14px;
-    margin-top: 110px;
     display: block;
-    }
+    text-align:center;
+}
+
+.product.theme .desc {
+    margin-top: 110px;
+}
+
+.product .image img {
+    border-radius:4px;
+}
 
 .product.alt .desc {
     float: left
-    }
+}
 
 .button,
 .newsletter .mc-embedded-subscribe {
@@ -514,12 +523,12 @@ input.button {
 
 footer .pos {
     position: absolute
-    }
+}
 
 .origin {
     width:815px;
     position: absolute;
-    }
+}
 
 .map h5 {
     color: #EC9F85;
@@ -588,7 +597,7 @@ footer {
 
 footer a:hover, footer a:active {
     color: #8AD2EA;
-    }
+}
 
 .overlay {
     position:fixed;
@@ -751,17 +760,17 @@ footer a:hover, footer a:active {
 
     h1 {
         font-size: 50px;
-        }
+    }
 
     h2 {
         font-weight: 500;
         font-size: 25px;
-        }
+    }
 
     .logomark {
         margin-top: 120px;
         margin-top: 20vh;
-        }
+    }
 
     header .tabs a {
         width:auto;
@@ -774,7 +783,7 @@ footer a:hover, footer a:active {
     .product img {
         margin:0 auto;
         display: block;
-        }
+    }
 
     .origin,
     #support-blurb  {
