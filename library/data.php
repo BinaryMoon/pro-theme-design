@@ -335,14 +335,14 @@ function get_website_data() {
             'name' => 'Javier Mardueno',
             'image' => 'javiermardueno',
             'theme' => 'puzzle',
-            'tags' => array( 'romero', 'featured' ),
+            'tags' => array( 'puzzle', 'featured' ),
         ),
         array(
             'url' => 'http://decograffik.com/',
             'name' => 'Decograffik',
             'image' => 'decograffik',
             'theme' => 'puzzle',
-            'tags' => array( 'romero' ),
+            'tags' => array( 'puzzle' ),
         ),
         array(
             'url' => 'http://matthewaarongoodman.com/',
