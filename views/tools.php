@@ -1,5 +1,5 @@
 <?php
-    include( '_partials/header.php' );
+    include( '_partials/head.php' );
 ?>
     <body class="page-plugins">
 

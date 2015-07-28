@@ -1,24 +1,11 @@
 <?php
-    include( '_partials/header.php' );
-
-    // this number isn't strictly accurate - but it's pretty close
-    $customers = date( 'U' ) / 12345;
-    $customers = number_format( $customers );
+    include( '_partials/head.php' );
 ?>
 
     <body class="page-theme-club">
 
         <?php include( '_partials/nav.php' ); ?>
-
-        <header class="masthead">
-            <div class="wrapper">
-                <div class="row">
-                    <img class="logomark" src="<?php echo image_path( 'website/logo-ptd.png' ); ?>" alt="Pro Theme Design Compass Logo" />
-                    <h1>Pro Theme Design</h1>
-                    <h2>Join over <strong><?php echo $customers; ?></strong> happy themers.</h2>
-                </div>
-            </div>
-        </header>
+        <?php include( '_partials/header.php' ); ?>
 
         <div class="promo">
             <div class="content-main content-text">

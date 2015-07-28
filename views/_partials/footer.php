@@ -68,42 +68,11 @@
         <div id="newsletter-footer">
             <?php include( 'newsletter.php' ); ?>
 
-            <p class="copyright">&copy; 2007 - <?php echo date( 'Y' ); ?> Pro Theme Design, All Rights Reserved <span class="sep">|</span> <i class="fa fa-wordpress"></i> <a href="https://theme.wordpress.com/themes/by/pro-theme-design/"> WordPress.com</a> <span class="sep">|</span> <i class="fa fa-envelope"></i> <a href="#" class="contact-form">Contact</a> <span class="sep">|</span> <a href="<?php echo path( 'policies/' ); ?>">Policies</a></p>
+            <p class="copyright">&copy; 2007 - <?php echo date( 'Y' ); ?> Pro Theme Design, All Rights Reserved <span class="sep">|</span> <i class="fa fa-wordpress"></i> <a href="https://theme.wordpress.com/themes/by/pro-theme-design/"> WordPress.com</a> <span class="sep">|</span> <i class="fa fa-envelope"></i> <a href="<?php echo path( 'contact/' ); ?>">Contact</a> <span class="sep">|</span> <a href="<?php echo path( 'policies/' ); ?>">Policies</a></p>
 
             <p class="copyright"><a href="https://www.digitalocean.com/?refcode=d4442740ec05" target="_blank">Web hosting by Digital Ocean</a></p>
 
         </footer>
-
-
-        <div class="contact-wrapper modal-wrapper">
-            <div class="contact modal">
-                <a href="/" class="overlay-close">&times;</a>
-                <h1>Contact Us</h1>
-                <form action="//formspree.io/support@prothemedesign.com" method="POST">
-                    <label>
-                        Name
-                        <input type="text" name="name" placeholder="Jane Smith" required />
-                    </label>
-
-                    <label>
-                        Email
-                        <input type="email" name="_replyto" placeholder="name@domain.com" required />
-                    </label>
-
-                    <label>
-                        Message
-                        <textarea name="message" rows="6" required ></textarea>
-                    </label>
-
-                    <input type="submit" value="Send" class="button" />
-
-                    <input type="hidden" name="_subject" value="Pro Theme Design Contact" />
-                    <input type="text" name="_gotcha" style="display:none" />
-                </form>
-            </div>
-        </div>
-
-
 
         <div class="newsletter-wrapper modal-wrapper">
             <div class="newsletter-modal modal">

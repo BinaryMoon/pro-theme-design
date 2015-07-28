@@ -26,14 +26,15 @@ if ( 'localhost' == $_SERVER[ 'HTTP_HOST' ] ) {
 }
 
 // constants
-define( 'DECACHE_CSS', '1' );
-define( 'DECACHE_JS', '2' );
+define( 'DECACHE_CSS', '2' );
+define( 'DECACHE_JS', '3' );
 define( 'ENV', $environment );
 
 
 // include needed stuff
 include_once( 'library/data.php' );
 include_once( 'library/functions.php' );
+include_once( 'library/template.php' );
 include_once( 'flight/Flight.php' );
 
 
@@ -45,10 +46,7 @@ Flight::route( '/', function() {
     Flight::render(
         'home.php',
         array(
-            'title' => 'Pro Theme Design - WordPress Themes',
-            'relative_path' => '',
             'request' => Flight::request(),
-            'base_url' => get_base(),
         )
     );
 
@@ -60,12 +58,17 @@ Flight::route( '/', function() {
  */
 Flight::route( '/theme-club/', function() {
 
+    // this number isn't strictly accurate - but it's pretty close
+    $customers = date( 'U' ) / 12345;
+    $customers = number_format( $customers );
+
+    SiteTemplate::title( 'WordPress Themes Club' );
+    SiteTemplate::description( 'Join over <strong>' . $customers . '</strong> happy themers.' );
+
     Flight::render(
         'theme-club.php',
         array(
-            'title' => 'WordPress Themes Club',
             'request' => Flight::request(),
-            'base_url' => get_base(),
         )
     );
 
@@ -80,10 +83,14 @@ Flight::route( '/theme-showcase/(@tag)', function( $tag = '' ) {
     $view = 'showcase.php';
     $title = 'WordPress Themes Showcase';
     $websites = array();
-
+    
     if ( website_tag_exists( $tag ) ) {
 
         $websites = website_get_by_tag( $tag );
+        
+        if ( ! empty( $tag ) ) {
+            $title = sprintf( '%s Themes: WordPress Themes Showcase', ucwords( $tag ) );
+        }
 
     } else {
 
@@ -91,12 +98,13 @@ Flight::route( '/theme-showcase/(@tag)', function( $tag = '' ) {
 
     }
 
+    SiteTemplate::title( $title );
+    SiteTemplate::description( 'A selection of the <strong>thousands of awesome sites</strong> our customers have built!' );
+
     Flight::render(
         $view,
         array(
-            'title' => $title,
             'request' => Flight::request(),
-            'base_url' => get_base(),
             'websites' => $websites,
             'tag' => $tag
         )
@@ -110,12 +118,12 @@ Flight::route( '/theme-showcase/(@tag)', function( $tag = '' ) {
  */
 Flight::route( '/policies/', function() {
 
+    SiteTemplate::title( 'Terms and Conditions' );
+
     Flight::render(
         'terms-and-conditions.php',
         array(
-            'title' => 'Terms and Conditions',
             'request' => Flight::request(),
-            'base_url' => get_base(),
         )
     );
 
@@ -127,12 +135,71 @@ Flight::route( '/policies/', function() {
  */
 Flight::route( '/wordpress-plugins/', function() {
 
+    SiteTemplate::title( 'Recommended WordPress Plugins' );
+    SiteTemplate::description( 'Plugins for creating the perfect WordPress site.' );
+
     Flight::render(
         'plugins.php',
         array(
-            'title' => 'Recommended WordPress Plugins',
             'request' => Flight::request(),
-            'base_url' => get_base(),
+        )
+    );
+
+} );
+
+
+/**
+ * Contact
+ */
+Flight::route( '/contact/', function() {
+
+    SiteTemplate::title( 'Contact Us' );
+    SiteTemplate::description( 'Get in touch.' );
+
+    Flight::render(
+        'contact.php',
+        array(
+            'request' => Flight::request(),
+        )
+    );
+
+} );
+
+
+/**
+ * Contact Thanks
+ */
+Flight::route( '/contact/thanks/', function() {
+
+    SiteTemplate::description( 'Thanks for the message!' );
+
+    Flight::render(
+        'contact-thanks.php',
+        array(
+            'title' => 'Contact Us',
+            'request' => Flight::request(),
+        )
+    );
+
+} );
+
+
+/**
+ * Support
+ */
+Flight::route( '/documentation/(@page)', function( $page = '' ) {
+
+    //if ( documentation_page_exists( $page ) ) {
+    //} else {
+    //}
+    
+
+
+    Flight::render(
+        'documentation.php',
+        array(
+            'title' => 'Theme Documentation',
+            'request' => Flight::request(),
         )
     );
 
@@ -144,10 +211,11 @@ Flight::route( '/wordpress-plugins/', function() {
  */
 Flight::map( 'notFound', function() {
 
+    SiteTemplate::title( '404 - not found :(' );
+
     Flight::render(
         '404.php',
         array(
-            'title' => '404 Not Found',
             'request' => Flight::request(),
             'base_url' => get_base(),
         )

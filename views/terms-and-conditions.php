@@ -1,20 +1,11 @@
 <?php
-    include( '_partials/header.php' );
+    include( '_partials/head.php' );
 ?>
 
     <body class="page-terms">
 
         <?php include( '_partials/nav.php' ); ?>
-
-        <header class="masthead">
-            <div class="row">
-                <img class="logomark" src="<?php echo image_path( 'website/logo-ptd.png' ); ?>" alt="Pro Theme Design Compass Logo" />
-                <h1>
-                    <a href="<?php echo path(); ?>">
-                        Pro Theme Design
-                    </a>
-                </h1>
-                <h2>Partnering with <a href="http://theme.wordpress.com/themes/by/pro-theme-design/" target="_blank">WordPress.com</a>  to build themes for thousands of creative bloggers. Want <strong>total access</strong>? <a href="<?php echo path( 'theme-club/' ); ?>">Join the theme club &rarr;</a>            </div>
+        <?php include( '_partials/header.php' ); ?>
 
         </header>
 

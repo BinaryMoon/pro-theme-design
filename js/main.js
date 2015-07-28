@@ -34,25 +34,6 @@
     });
 
 
-    // contact form
-
-    $(document).ready(function(){
-
-        $( 'a.contact-form' ).on( 'click', function(e) {
-            e.preventDefault();
-
-            show_contact();
-        });
-
-        $( '.overlay-close' ).on( 'click', function(e) {
-            e.preventDefault();
-
-            hide_modal();
-        });
-
-    });
-
-
     // showcase popups
 
     $( '.showcase-website a' ).on( 'click', function( e ) {
@@ -99,11 +80,6 @@
             show_overlay();
             $( '.newsletter-wrapper' ).fadeIn();
         }
-    }
-
-    function show_contact() {
-        show_overlay();
-        $( '.contact-wrapper' ).fadeIn();
     }
 
     function show_showcase() {

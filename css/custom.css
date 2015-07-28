@@ -126,6 +126,7 @@ header.masthead h2 a:active {
 .page-home .nav .themes a,
 .page-theme-club .nav .theme-club a,
 .page-theme-showcase .nav .theme-showcase a,
+.page-support .nav .support a,
 .nav .active a {
     color:#000;
     background:#dde4e7;
@@ -632,13 +633,6 @@ footer a:hover, footer a:active {
     z-index:10;
 }
 
-.contact {
-    max-width:500px;
-    padding:20px 40px;
-    width:100%;
-    margin:0 auto;
-}
-
 .newsletter-modal {
     max-width:600px;
     padding:20px 40px;
@@ -664,6 +658,10 @@ footer a:hover, footer a:active {
 }
 
 .contact .submit {
+}
+
+.contact label {
+    color:#fff;
 }
 
 .showcase-modal {

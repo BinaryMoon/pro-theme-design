@@ -25,20 +25,13 @@
  *
  */
 
-    include( '_partials/header.php' );
+    include( '_partials/head.php' );
 ?>
 
     <body class="page-theme-showcase" data-tag="<?php echo $tag; ?>">
 
         <?php include( '_partials/nav.php' ); ?>
-
-        <header class="masthead">
-            <div class="row">
-                <img class="logomark" src="<?php echo image_path( 'website/logo-ptd.png' ); ?>" alt="Pro Theme Design Compass Logo" />
-                <h1>Pro Theme Design</h1>
-                <h2>A selection of the <strong>thousands of awesome sites</strong> our customers have built!</a>
-            </div>
-        </header>
+        <?php include( '_partials/header.php' ); ?>
 
         <div class="promo">
             <div class="content-main content-showcase">

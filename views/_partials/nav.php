@@ -8,6 +8,7 @@
 <?php
     if ( 'dev' == ENV ) {
 ?>
+        <li class="support"><a href="<?php echo path( 'documentation/' ); ?>">Support</a></li>
         <li class="tools"><a href="<?php echo path( 'tools/' ); ?>">Tools</a></li>
 <?php
     }
