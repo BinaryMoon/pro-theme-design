@@ -25,7 +25,6 @@
             </nav>
         </header>
 
-
         <div class="promo wordpress" id="theme-wrapper">
 <?php
 
@@ -37,6 +36,7 @@
         $class = array(
             'row',
             'theme',
+            'product',
             'wordpress',
         );
 
@@ -62,20 +62,18 @@
 
 ?>
             <div class="<?php echo implode( ' ', $class ); ?>" data-wp-price="<?php echo $theme['price-wpcom']; ?>" data-cm-price="<?php echo $theme['price-cm']; ?>" data-wp-url="https://wordpress.com/themes/<?php echo $theme['url-wpcom']; ?>/" data-cm-url="<?php echo $theme['url-wporg']; ?>">
-                <div class="product theme">
-                    <div class="large-8 columns image">
-                        <a href="https://wordpress.com/themes/<?php echo $theme['url-wpcom']; ?>/" target="_blank">
-                            <img src="<?php echo image_path( 'devices/' . $theme['image'] ); ?>">
-                        </a>
-                    </div>
-                    <div class="large-4 columns">
-                        <a class="desc" href="https://wordpress.com/themes/<?php echo $theme['url-wpcom']; ?>/" target="_blank">
-                            <div class="price">$<?php echo $theme['price-wpcom']; ?></div>
-                            <h3><?php echo $theme['name']; ?></h3>
-                            <p><?php echo $theme['description']; ?></p>
-                            <div class="button">Demo &amp; Details</div>
-                        </a>
-                    </div>
+                <div class="large-8 columns image">
+                    <a href="https://wordpress.com/themes/<?php echo $theme['url-wpcom']; ?>/" target="_blank">
+                        <img src="<?php echo image_path( 'devices/' . $theme['image'] ); ?>">
+                    </a>
+                </div>
+                <div class="large-4 columns">
+                    <a class="desc" href="https://wordpress.com/themes/<?php echo $theme['url-wpcom']; ?>/" target="_blank">
+                        <div class="price">$<?php echo $theme['price-wpcom']; ?></div>
+                        <h3><?php echo $theme['name']; ?></h3>
+                        <p><?php echo $theme['description']; ?></p>
+                        <div class="button">Demo &amp; Details</div>
+                    </a>
                 </div>
             </div>
 <?php
