@@ -307,20 +307,10 @@ function get_website_data() {
             'theme' => 'romero',
             'tags' => array( 'romero', 'featured' ),
         ),
-
-
-
-
         array(
             'url' => 'http://theversion.co.uk/',
             'name' => 'The Version',
             'image' => 'theversion',
-            'theme' => 'romero',
-            'tags' => array( 'romero' ),
-        ),
-        array(
-            'url' => 'http://firstbloodgames.com/',
-            'name' => 'First Blood Games',
             'theme' => 'romero',
             'tags' => array( 'romero' ),
         ),
