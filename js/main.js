@@ -3,10 +3,10 @@
     // homepage tabs
 
     $(document).ready(function() {
-        
+
         $( 'nav.tabs a' ).on( 'click', function(e) {
             e.preventDefault();
-            
+
             var $this = $(this);
             var target = $this.data( 'target' );
             var prefix = (target == 'creative-market') ? 'cm' : 'wp';
@@ -50,6 +50,10 @@
         modal.find( 'a.showcase-buy-com' ).attr( 'href', $this.data( 'get-url-com' ) );
         modal.find( 'a.showcase-buy-org' ).attr( 'href', $this.data( 'get-url-org' ) );
         modal.find( '.iframe-wrapper' ).html( '<iframe src="' + path + '"></iframe>' );
+        modal.find( '.overlay-close' ).on( 'click', function( e ) {
+            e.preventDefault();
+            hide_modal();
+        });
 
     });
 
