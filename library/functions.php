@@ -39,3 +39,25 @@ function get_base() {
     return rtrim( $request->base, '/' );
 
 }
+
+
+/**
+ * Generate a twitter share link
+ */
+function twitter_share_link( $message = '' ) {
+
+    $args = array(
+        'text' => urlencode( $message ),
+        'url' => '',
+        'related' => 'prothemedesign',
+    );
+
+    $link = 'http://twitter.com/intent/tweet?';
+
+    foreach( $args as $k => $v ) {
+        $link .= '&amp;' . $k . '=' . $v;
+    }
+
+    echo $link;
+
+}
