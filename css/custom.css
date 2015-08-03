@@ -247,6 +247,7 @@ ul.social {
 
 .content-showcase img {
     display:block;
+    border-radius:4px;
 }
 
 .content-showcase .showcase-website a {
@@ -263,6 +264,7 @@ ul.social {
     opacity:0;
     background:rgba(0,0,0,0.6);
     padding:20px;
+    border-radius:4px;
     position:absolute;
     top:0;
     left:0;
@@ -280,6 +282,26 @@ ul.social {
     opacity:1;
     -webkit-transition: opacity 200ms;
     transition: opacity 200ms;
+}
+
+.showcase-share {
+    clear:both;
+    text-align:center;
+    font-size:24px;
+    padding:60px 20px;
+    display:block;
+}
+
+.showcase-share a {
+    background:#21252a;
+    padding:10px 30px;
+    border-radius:4px;
+    color:#fff;
+}
+
+.showcase-share .fa {
+    margin-right:10px;
+    color:#71AFC4;
 }
 
 .showcase-filters {

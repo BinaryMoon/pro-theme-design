@@ -47,22 +47,21 @@
 
                 <div class="row">
 <?php
+    $count = 0;
+
     foreach( $websites as $site ) {
 
         $width = 400;
         $height = 300;
-        $class = '';
+        $count ++;
 
         if ( ! empty( $site[ 'image' ] ) ) {
             $image_url = image_path( 'showcase/' . $site[ 'image' ] . '.jpg' );
         } else {
             $image_url = 'https://s0.wordpress.com/mshots/v1/' . urlencode( $site['url'] ) . '?w=' . $width . '&h=' . $height;
         }
-
-        if ( isset( $site['featured'] ) ) { $class = 'theme-featured'; }
-
 ?>
-                    <div class="showcase-website theme-<?php echo $site['theme']; ?> <?php echo $class; ?>">
+                    <div class="showcase-website theme-<?php echo $site['theme']; ?>">
                         <a href="<?php echo $site['url']; ?>"
                            data-theme="<?php echo ucwords( $site['theme'] ); ?>"
                            data-site-name="<?php echo ucwords( $site['name'] ); ?>"
@@ -78,6 +77,16 @@
                     </div>
 <?php
 
+        if ( $count == 6 ) {
+?>
+                    <div class="showcase-share">
+                        <a href="<?php twitter_share_link( '@prothemedesign: Check out the site I made with your theme - ' ); ?>" target="_blank">
+                            <i class="fa fa-twitter"></i>
+                            Show us your Pro Theme Design powered site!
+                        </a>
+                    </div>
+<?php
+        }
     }
 ?>
                 </div>
