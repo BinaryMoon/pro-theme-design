@@ -290,12 +290,6 @@ function get_website_data() {
             'tags' => array( 'opti' ),
         ),
         array(
-            'url' => 'http://pressthepsbutton.com/',
-            'name' => 'Press the Button',
-            'theme' => 'chronicle',
-            'tags' => array( 'chronicle' ),
-        ),
-        array(
             'url' => 'http://thefourthcrown.com/',
             'name' => 'The Fourth Crown',
             'theme' => 'broadsheet',
