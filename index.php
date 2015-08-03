@@ -26,8 +26,8 @@ if ( 'localhost' == $_SERVER[ 'HTTP_HOST' ] ) {
 }
 
 // constants
-define( 'DECACHE_CSS', '2' );
-define( 'DECACHE_JS', '3' );
+define( 'DECACHE_CSS', '3' );
+define( 'DECACHE_JS', '4' );
 define( 'ENV', $environment );
 
 
@@ -83,11 +83,11 @@ Flight::route( '/theme-showcase/(@tag)', function( $tag = '' ) {
     $view = 'showcase.php';
     $title = 'WordPress Themes Showcase';
     $websites = array();
-    
+
     if ( website_tag_exists( $tag ) ) {
 
         $websites = website_get_by_tag( $tag );
-        
+
         if ( ! empty( $tag ) ) {
             $title = sprintf( '%s Themes: WordPress Themes Showcase', ucwords( $tag ) );
         }
@@ -192,7 +192,7 @@ Flight::route( '/documentation/(@page)', function( $page = '' ) {
     //if ( documentation_page_exists( $page ) ) {
     //} else {
     //}
-    
+
 
 
     Flight::render(
