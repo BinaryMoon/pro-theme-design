@@ -43,6 +43,8 @@ include_once( 'flight/Flight.php' );
  */
 Flight::route( '/', function() {
 
+    SiteTemplate::description( 'Awesome <strong>WordPress Themes</strong> for Professional Websites.' );
+
     Flight::render(
         'home.php',
         array(
@@ -187,19 +189,56 @@ Flight::route( '/contact/thanks/', function() {
 /**
  * Support
  */
-Flight::route( '/documentation/(@page)', function( $page = '' ) {
+Flight::route( '/documentation/(@type)(/@page)/', function( $type = '', $page = '' ) {
 
-    //if ( documentation_page_exists( $page ) ) {
-    //} else {
-    //}
+    $view = 'documentation.php';
+    $layout = '';
 
+    SiteTemplate::add_breadcrumb( 'Support', 'documentation/' );
 
+    if ( $type == '' && $page == '' ) {
+        $layout = '_support/index.php';
+    }
+
+    if ( documentation_type_exists( $type ) ) {
+
+        $layout = '_support/archive.php';
+
+        SiteTemplate::add_breadcrumb( documentation_type_name( $type ), 'documentation/' . $type . '/' );
+
+        if ( documentation_page_exists( $page ) ) {
+
+            $layout = '_support/type-' . $type . '.php';
+
+            SiteTemplate::add_breadcrumb( documentation_page_name( $page ), 'documentation/' . $type . '/' . $page . '/' );
+
+        } else {
+            if ( ! empty( $page ) ) {
+                $page = '';
+                $layout = '';
+            }
+        }
+
+    } else {
+
+        // reset just in case
+        $type = '';
+        $page = '';
+
+    }
+
+    if ( empty( $layout ) ) {
+        $view = '404.php';
+    }
 
     Flight::render(
-        'documentation.php',
+        $view,
         array(
             'title' => 'Theme Documentation',
             'request' => Flight::request(),
+            'layout' => $layout,
+            'type' => $type,
+            'page' => $page,
         )
     );
 

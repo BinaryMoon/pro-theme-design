@@ -9,6 +9,9 @@ class SiteTemplate {
     private static $site_title = 'Pro Theme Design - WordPress Themes and Plugins';
 
 
+    private static $breadcrumbs = array();
+
+
     // Don't allow object instantiation
     private function __construct() {}
     private function __destruct() {}
@@ -41,5 +44,44 @@ class SiteTemplate {
         }
 
     }
+
+
+    /**
+     *
+     */
+    public static function add_breadcrumb( $name, $url ) {
+
+        self::$breadcrumbs[] = array(
+            'name' => $name,
+            'url' => path( $url ),
+        );
+
+    }
+
+
+    /**
+     *
+     */
+    public static function breadcrumbs() {
+
+        if ( count( self::$breadcrumbs ) <= 1 ) {
+            return;
+        }
+?>
+        <nav class="breadcrumbs">
+<?php
+            foreach ( self::$breadcrumbs as $crumb ) {
+?>
+            <a href="<?php echo $crumb['url']; ?>"><?php echo $crumb['name']; ?></a>
+<?php
+            }
+?>
+        </nav>
+<?php
+
+    }
+
+
+
 
 }
