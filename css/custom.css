@@ -260,6 +260,10 @@ ul.social {
     line-height:1.8;
 }
 
+.content-text ul, .content-text ol {
+    margin-bottom:2em;
+}
+
 .content-text p.intro {
     margin-bottom:2em;
     font-size:1.4rem;

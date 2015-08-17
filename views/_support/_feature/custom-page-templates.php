@@ -8,3 +8,7 @@
     <li>Select your chosen page template from the dropdown box.</li>
     <li>Press the Publish or Update button and then view your newly styled page.</li>
 </ol>
+
+<h2>Custom Front Page</h2>
+
+<p>Creating a custom front page is an easy way to personalise your site with little effort. Read the <a href="<?php echo path( 'documentation/feature/custom-front-page/' ); ?>">Custom Front Page documentation</a> for more info on how to do this.</p>

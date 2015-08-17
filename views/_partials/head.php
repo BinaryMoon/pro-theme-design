@@ -11,7 +11,9 @@
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" />
 
         <meta name="google-site-verification" content="VDLz-TZD53CTCmTol81Cd1UoOyz5RuAjdyjiP4irmsk" />
-
+<?php
+    if ( 'prod' == ENV ) {
+?>
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -21,6 +23,9 @@
             ga( 'create', 'UA-55722-9', 'auto' );
             ga( 'send', 'pageview' );
         </script>
+<?php
+    }
+?>
 
         <script src="<?php echo js_path( 'vendor/jquery.js' ); ?>"></script>
         <script src="https://gumroad.com/js/gumroad.js"></script>

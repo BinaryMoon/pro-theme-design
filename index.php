@@ -205,18 +205,22 @@ Flight::route( '/documentation/(@type)(/@page)/', function( $type = '', $page = 
         $layout = '_support/archive.php';
 
         SiteTemplate::add_breadcrumb( documentation_type_name( $type ), 'documentation/' . $type . '/' );
+        SiteTemplate::title( sprintf( '%s Help - Pro Theme Design', documentation_type_name( $type ) ) );
 
         if ( documentation_page_exists( $page ) ) {
 
             $layout = '_support/type-' . $type . '.php';
 
             SiteTemplate::add_breadcrumb( documentation_page_name( $page ), 'documentation/' . $type . '/' . $page . '/' );
+            SiteTemplate::title( sprintf( '%s Help - Pro Theme Design', documentation_page_name( $page ) ) );
 
         } else {
+
             if ( ! empty( $page ) ) {
                 $page = '';
                 $layout = '';
             }
+
         }
 
     } else {

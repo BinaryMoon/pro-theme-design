@@ -51,6 +51,10 @@ function get_documentation_data() {
             'name' => 'Custom Page Templates',
             'type' => 'feature',
         ),
+        'custom-front-page' => array(
+            'name' => 'Custom Front Page',
+            'type' => 'feature',
+        ),
         'featured-content' => array(
             'name' => 'Featured Content',
             'type' => 'feature',
