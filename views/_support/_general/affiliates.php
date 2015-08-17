@@ -1,6 +1,6 @@
-<h1>Sell our WordPress Themes</h1>
+<h2>Sell our WordPress Themes</h2>
 
-<p>We are more than happy for people to sell our themes as affiliates. Since we do all of our sales through Creative Market you will need to setup a Creative Market account and then apply to be an affiliate. Once that's done you can link to our products on the links below - replacing </em>BinaryMoon</em> with your affiliate id.</p>
+<p>We are more than happy for people to sell our themes as affiliates. Since we do all of our sales through <strong>Creative Market</strong> you will need to setup a Creative Market account and then <a href="https://creativemarket.com/partners" target="_blank">apply to be a partner</a>. Once that's done you can link to our products on the links below - replacing </em>BinaryMoon</em> with your affiliate id.</p>
 
 <ul>
     <li><a href="https://creativemarket.com/BinaryMoon/108642-Lens-Responsive-Photography-Theme?u=BinaryMoon">Lens - https://creativemarket.com/BinaryMoon/108642-Lens-Responsive-Photography-Theme?u=BinaryMoon</a></li>

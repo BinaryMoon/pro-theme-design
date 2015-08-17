@@ -15,4 +15,8 @@
 
 <h2>Adding and Editing Testimonials</h2>
 
-<p></p>
+<p>Adding a new Testimonial is done through Testimonials &rarr; Add New. The testimonial will be the post content, the title will be used as the name of the person/ company who gave the testimonial, and the featured image will be used as an icon for the person/ company who gave the testimonial.</p>
+
+<h2>Testimonial Shortcode</h2>
+
+<p>Testimonials also come with a shortcode to let you easily display testimonials on posts and pages. <em>[testimonials]</em> embeds an archive view of your testimonials. Full properties and parameters are available on the <a href="http://support.wordpress.com/testimonials/testimonials-shortcode/">Testimonials Shortcode documentation</a>.</p>
