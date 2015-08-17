@@ -4,3 +4,5 @@
     documentation_required_plugin( $page );
 
     include( '_feature/' . $page . '.php' );
+
+    documentation_supported_themes( $page );

@@ -253,7 +253,7 @@ function documentation_required_plugin( $page ) {
     $docs = get_documentation_data();
 
     if ( ! empty( $docs[ $page ][ 'requires' ] ) && ! empty( $docs[ $docs[ $page ][ 'requires' ] ] ) ) {
-        $plugin_url = documentation_plugin_support_url( $docs[ $page ][ 'requires' ] );
+        $plugin_url = $docs[ $docs[ $page ][ 'requires' ] ][ 'path' ];
         $plugin_name = $docs[ $docs[ $page ][ 'requires' ] ][ 'name' ];
 ?>
     <p class="notice"><?php printf( '<strong>%s</strong> require the <a href="%s">%s plugin</a>.', $docs[ $page ][ 'name' ], $plugin_url, $plugin_name ); ?></p>
@@ -265,11 +265,18 @@ function documentation_required_plugin( $page ) {
 }
 
 
-/**
- *
- */
-function documentation_plugin_support_url( $plugin ) {
+function documentation_supported_themes( $page ) {
 
-    return path( 'documentation/plugin/' . $plugin . '/' );
+    $docs = get_documentation_data();
+
+    foreach( $docs as $doc ) {
+        if ( ! empty( $doc[ 'supports' ] ) ) {
+            if ( in_array( $page, $doc[ 'supports' ] ) ) {
+?>
+    <a href="<?php echo $doc[ 'path' ]; ?>"><?php echo $doc[ 'name' ]; ?></a>
+<?php
+            }
+        }
+    }
 
 }

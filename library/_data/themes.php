@@ -16,6 +16,7 @@ function get_theme_data() {
             'url-wpcom' => 'puzzle',
             'url-cm' => '108641-Puzzle-Responsive-WordPress-Theme',
             'image' => 'puzzle.png',
+            'supports' => array( 'site-logo', 'featured-images', 'infinite-scroll', 'social-menu', 'custom-page-templates', 'custom-colours-fonts', 'testimonials' ),
         ),
 
         'romero' => array(
@@ -26,6 +27,7 @@ function get_theme_data() {
             'url-wpcom' => 'romero',
             'url-cm' => '312559-Romero-WordPress-Video-Game-Theme',
             'image' => 'romero.png',
+            'supports' => array( 'site-logo', 'featured-content', 'featured-images', 'infinite-scroll', 'social-menu', 'custom-page-templates', 'custom-colours-fonts' ),
         ),
 
         'monet' => array(
@@ -36,6 +38,8 @@ function get_theme_data() {
             'url-wpcom' => 'monet',
             'url-cm' => '312560-Monet-WordPress-Portfolio-Theme',
             'image' => 'monet.png',
+            'supports' => array( 'site-logo', 'featured-content', 'featured-images', 'infinite-scroll', 'social-menu', 'custom-page-templates', 'custom-colours-fonts', 'portfolio', ),
+
         ),
 
         'chronicle' => array(
@@ -46,6 +50,7 @@ function get_theme_data() {
             'url-wpcom' => 'chronicle',
             'url-cm' => '113017-Chronicle-Magazine-Theme',
             'image' => 'chronicle.png',
+            'supports' => array( 'site-logo', 'featured-content', 'featured-images', 'infinite-scroll', 'social-menu', 'custom-page-templates', 'custom-colours-fonts' ),
         ),
 
         'opti' => array(
