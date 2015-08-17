@@ -9,12 +9,24 @@ function get_documentation_data() {
 
         // general docs
 
+        'transfer-from-wordpress-com' => array(
+            'name' => 'WordPress.com theme Transfer',
+            'type' => 'general',
+        ),
+        'theme-installation' => array(
+            'name' => 'Theme Installation',
+            'type' => 'general',
+        ),
+        'theme-customization' => array(
+            'name' => 'Theme Customization',
+            'type' => 'general',
+        ),
         'localization' => array(
             'name' => 'Localization',
             'type' => 'general',
         ),
-        'transfer-from-wordpress-com' => array(
-            'name' => 'WordPress.com theme Transfer',
+        'wordpress-com-vs-wordpress-org' => array(
+            'name' => 'The difference between WordPress.com and WordPress.org',
             'type' => 'general',
         ),
         'affiliates' => array(
@@ -24,13 +36,58 @@ function get_documentation_data() {
 
 
         // features
+
         'custom-colours-fonts' => array(
             'name' => 'Custom Colours and Fonts',
             'type' => 'feature',
+            'requires' => 'styleguide',
         ),
-
-        // plugins
-        // can this be merged from the plugins data list?
+        'custom-css' => array(
+            'name' => 'Custom CSS',
+            'type' => 'feature',
+            'requires' => 'jetpack',
+        ),
+        'custom-page-templates' => array(
+            'name' => 'Custom Page Templates',
+            'type' => 'feature',
+        ),
+        'featured-content' => array(
+            'name' => 'Featured Content',
+            'type' => 'feature',
+            'requires' => 'jetpack',
+        ),
+        'site-logo' => array(
+            'name' => 'Site Logo',
+            'type' => 'feature',
+            'requires' => 'jetpack',
+        ),
+        'featured-image' => array(
+            'name' => 'Featured Images',
+            'type' => 'feature',
+        ),
+        'infinite-scroll' => array(
+            'name' => 'Infinite Scroll',
+            'type' => 'feature',
+            'requires' => 'jetpack',
+        ),
+        'portfolio' => array(
+            'name' => 'Portfolio and Projects',
+            'type' => 'feature',
+            'requires' => 'jetpack',
+        ),
+        'social-menu' => array(
+            'name' => 'Social Menu',
+            'type' => 'feature',
+        ),
+        'sticky-post' => array(
+            'name' => 'Sticky Posts',
+            'type' => 'feature',
+        ),
+        'testimonials' => array(
+            'name' => 'Testimonials',
+            'type' => 'feature',
+            'requires' => 'jetpack',
+        ),
 
     );
 
@@ -39,18 +96,20 @@ function get_documentation_data() {
 
     foreach( $themes as $key => $theme ) {
 
-        $theme[ 'related' ] = array(
-            'themes' => array(),
-            'plugins' => array(),
-            'general' => array(),
-            'features' => array(),
-        );
-
         $theme[ 'type' ] = 'theme';
 
         $docs[ $key ] = $theme;
 
-        //var_dump( $docs );
+    }
+
+    // merge in plugins
+    $plugins = get_plugin_data();
+
+    foreach( $plugins as $key => $plugin ) {
+
+        $plugin[ 'type' ] = 'plugin';
+
+        $docs[ $key ] = $plugin;
 
     }
 
@@ -178,5 +237,35 @@ function documentation_type_name( $type ) {
     }
 
     return '';
+
+}
+
+
+/**
+ *
+ */
+function documentation_required_plugin( $page ) {
+
+    $docs = get_documentation_data();
+
+    if ( ! empty( $docs[ $page ][ 'requires' ] ) && ! empty( $docs[ $docs[ $page ][ 'requires' ] ] ) ) {
+        $plugin_url = documentation_plugin_support_url( $docs[ $page ][ 'requires' ] );
+        $plugin_name = $docs[ $docs[ $page ][ 'requires' ] ][ 'name' ];
+?>
+    <p class="notice"><?php printf( '<strong>%s</strong> require the <a href="%s">%s plugin</a>.', $docs[ $page ][ 'name' ], $plugin_url, $plugin_name ); ?></p>
+<?php
+    }
+
+    return '';
+
+}
+
+
+/**
+ *
+ */
+function documentation_plugin_support_url( $plugin ) {
+
+    return path( 'documentation/plugin/' . $plugin . '/' );
 
 }

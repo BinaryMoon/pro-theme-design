@@ -1,6 +1,4 @@
-<h1>Custom Colours and Fonts</h1>
-
-<p class="intro"></p>
+<p class="intro">With the Styleguide plugin installed, Custom Colours and Fonts can be managed through WordPress Customizer.</p>
 
 <h2>Custom Fonts</h2>
 

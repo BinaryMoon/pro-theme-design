@@ -8,7 +8,7 @@
     include( '_partials/header.php' );
 ?>
 
-        <div class="promo documentation">
+        <div class="documentation">
             <div class="content-main content-text">
                 <div class="row">
 <?php

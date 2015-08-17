@@ -18,6 +18,10 @@ a, a:visited {
     color: #71AFC4
 }
 
+a:hover {
+    color: #93cfe6;
+}
+
 a:hover,
 :focus,
 li:hover,
@@ -151,7 +155,6 @@ footer .fa-stack {
 h1 {
     font-size: 3em;
     font-weight: 900;
-    letter-spacing: -.018em;
     margin: 0;
 }
 
@@ -215,6 +218,32 @@ ul.social {
     padding-bottom:64px;
 }
 
+.content-main .breadcrumbs {
+    background:transparent;
+    padding:0;
+    border:none;
+    margin-bottom:32px;
+    letter-spacing:0.07em;
+}
+
+.content-text h1 {
+    color:#fff;
+    margin-bottom:1em;
+    font-size:3em;
+}
+
+.content-main h2 {
+    margin-bottom:16px;
+    color:#fff;
+    font-size:2.4em;
+}
+
+.content-main .notice {
+    padding:10px 20px;
+    border-radius:4px;
+    background:#000;
+}
+
 .content-text .row {
     max-width:640px;
     padding-top:64px;
@@ -235,12 +264,6 @@ ul.social {
     margin-bottom:2em;
     font-size:1.4rem;
     line-height:1.8;
-}
-
-.content-text h1 {
-    color:#fff;
-    margin-bottom:1em;
-    font-size:2.5em;
 }
 
 .content-text li {
