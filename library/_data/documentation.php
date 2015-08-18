@@ -24,10 +24,12 @@ function get_documentation_data() {
         'theme-customization' => array(
             'name' => 'Theme Customization',
             'type' => 'general',
+            'description' => 'Some basic information on how to customize your theme purchase',
         ),
         'localization' => array(
             'name' => 'Localization',
             'type' => 'general',
+            'description' => 'All about theme translations.',
         ),
         'wordpress-com-vs-wordpress-org' => array(
             'name' => 'The difference between WordPress.com and WordPress.org',
@@ -46,39 +48,59 @@ function get_documentation_data() {
             'type' => 'feature',
             'requires' => 'styleguide',
             'description' => 'Tweak the fonts and colours on your site without touching any code.',
+            'related' => array( 'custom-css' ),
         ),
         'custom-css' => array(
             'name' => 'Custom CSS',
             'type' => 'feature',
             'requires' => 'jetpack',
             'description' => 'Edit the CSS on your website.',
+            'related' => array( 'custom-colours-fonts' ),
         ),
         'custom-page-templates' => array(
             'name' => 'Custom Page Templates',
             'type' => 'feature',
             'description' => 'Different page layouts for static WordPress pages.',
+            'related' => array( 'custom-front-page' ),
         ),
         'custom-front-page' => array(
             'name' => 'Custom Front Page',
             'type' => 'feature',
             'description' => 'Change the design of your front page to make it exactly as you want.',
+            'related' => array( 'custom-page-templates', 'customizer' ),
+        ),
+        'image-resizing' => array(
+            'name' => 'Image Resizing (Photon)',
+            'type' => 'feature',
+            'requires' => 'jetpack',
+            'description' => 'Resizes all of you images to fit the thumbnails used.',
+            'related' => array( 'featured-image' ),
+        ),
+        'contact-form' => array(
+            'name' => 'Contact Form',
+            'type' => 'feature',
+            'requires' => 'jetpack',
+            'description' => 'Add a simple contact form to your website or blog.',
         ),
         'featured-content' => array(
             'name' => 'Featured Content',
             'type' => 'feature',
             'requires' => 'jetpack',
             'description' => 'Select your best content to appear in a Slider or other special area on the homepage.',
+            'related' => array( 'customizer' ),
         ),
         'site-logo' => array(
             'name' => 'Site Logo',
             'type' => 'feature',
             'requires' => 'jetpack',
             'description' => 'Add a logo to make your site your own.',
+            'related' => array( 'customizer' ),
         ),
         'featured-image' => array(
             'name' => 'Featured Images',
             'type' => 'feature',
             'description' => 'Image thumbnails for your blog posts and pages.',
+            'related' => array( 'image-resizing' ),
         ),
         'infinite-scroll' => array(
             'name' => 'Infinite Scroll',
@@ -91,6 +113,7 @@ function get_documentation_data() {
             'type' => 'feature',
             'requires' => 'jetpack',
             'description' => 'Show off your Portfolio of work.',
+            'related' => array( 'testimonials' ),
         ),
         'social-menu' => array(
             'name' => 'Social Menu',
@@ -107,6 +130,7 @@ function get_documentation_data() {
             'type' => 'feature',
             'requires' => 'jetpack',
             'description' => 'Display comments from your users/ customers showing how much your product/ service benefits them.',
+            'related' => array( 'portfolio' ),
         ),
 
     );
