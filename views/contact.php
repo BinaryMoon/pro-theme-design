@@ -14,14 +14,13 @@
                         <a class="contact-customization" href="<?php echo path( 'theme-customization/' ); ?>">Theme Customization <i class="fa fa-arrow-right"></i></a>
                         <a class="contact-documentation" href="<?php echo path( 'documentation/' ); ?>">Theme Documentation <i class="fa fa-arrow-right"></i></a>
                         <a class="contact-refund" href="<?php echo path( 'documentation/general/refunds/' ); ?>">Refund Request <i class="fa fa-arrow-right"></i></a>
-                        <a class="contact-sales" href="#">Pre Sales Request <i class="fa fa-arrow-right"></i></a>
                         <a class="contact-technical" href="#">Theme Technical Help <i class="fa fa-arrow-right"></i></a>
-                        <a class="contact-business" href="#">Business Request <i class="fa fa-arrow-right"></i></a>
+                        <a class="contact-other" href="#">Other <i class="fa fa-arrow-right"></i></a>
                     </div>
 
 
                     <!-- pre sales contact form -->
-                    <form id="formspree" class="formspree form-contact-sales" method="POST" style="display:none;">
+                    <form id="formspree" class="formspree form-contact-other" method="POST" style="display:none;">
                         <label>
                             Your Name
                             <input type="text" name="name" placeholder="Jane Smith" required />
@@ -39,32 +38,7 @@
 
                         <input type="submit" value="Send" class="button" />
 
-                        <input type="hidden" name="_subject" value="Pro Theme Design Pre Sales Request" />
-                        <input type="hidden" name="_next" value="//prothemedesign.com<?php echo path( 'contact/thanks/' ); ?>" />
-                        <input type="text" name="_gotcha" style="display:none" />
-                    </form>
-
-
-                    <!-- business contact form -->
-                    <form id="formspree" class="formspree form-contact-business" method="POST" style="display:none;">
-                        <label>
-                            Your Name
-                            <input type="text" name="name" placeholder="Jane Smith" required />
-                        </label>
-
-                        <label>
-                            Your Email Address
-                            <input type="email" name="_replyto" placeholder="name@domain.com" required />
-                        </label>
-
-                        <label>
-                            Message
-                            <textarea name="message" rows="6" required ></textarea>
-                        </label>
-
-                        <input type="submit" value="Send" class="button" />
-
-                        <input type="hidden" name="_subject" value="Pro Theme Design Business Request" />
+                        <input type="hidden" name="_subject" value="Pro Theme Design Contact" />
                         <input type="hidden" name="_next" value="//prothemedesign.com<?php echo path( 'contact/thanks/' ); ?>" />
                         <input type="text" name="_gotcha" style="display:none" />
                     </form>
@@ -106,7 +80,7 @@
 
                         <input type="submit" value="Send" class="button" />
 
-                        <input type="hidden" name="_subject" value="Pro Theme Design Business Request" />
+                        <input type="hidden" name="_subject" value="Pro Theme Design Technical Help" />
                         <input type="hidden" name="_next" value="//prothemedesign.com<?php echo path( 'contact/thanks/' ); ?>" />
                         <input type="text" name="_gotcha" style="display:none" />
                     </form>
@@ -118,14 +92,9 @@
 
         <script>
 
-            $( '.contact-sales' ).on( 'click', function( e ) {
+            $( '.contact-other' ).on( 'click', function( e ) {
                 e.preventDefault();
-                prepare_form( '.form-contact-sales' );
-            } );
-
-            $( '.contact-business' ).on( 'click', function( e ) {
-                e.preventDefault();
-                prepare_form( '.form-contact-business' );
+                prepare_form( '.form-contact-other' );
             } );
 
             $( '.contact-technical' ).on( 'click', function( e ) {
