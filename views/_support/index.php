@@ -1,6 +1,8 @@
 
     <h1>Documentation</h1>
 
+    <p class="intro">Please check below for links to the theme documentation. If you'd like help with customizations then please submit a request through the <a href="<?php echo path( 'theme-customization/' ); ?>">Theme Customization page</a>.</p>
+
     <h2><a href="<?php echo path( 'documentation/theme/' ); ?>">Themes</a></h2>
     <?php documentation_list( 'theme', 999 ); ?>
 
