@@ -5,10 +5,27 @@
  *
  * Swap css over to less
  * Add the option for free themes on wordpress.org
- * Add theme Documentation
  * Add tag descriptions on showcase page
- * Add method for users to submit showcase sites
  * Add support contact form (as part of theme docs)
+ */
+
+
+/**
+ * DOCUMENTATION REQUIRED
+ *
+ * installing child themes
+ * add installation procedure to theme docs
+ * add related features functionality to docs
+ * plugin installation
+ * theme updates
+ * improve Jetpack documentation to mention other features like Photon, contact forms, etc
+ * info about custom widgets for mimbo pro
+ * link to tutorials on general wordpress usage
+ * add contact form
+ * documentation about customizer
+ * info about customizer settings as needed
+ * screenshots for features
+ * screenshots showing front page setup
  */
 
 /**
@@ -26,8 +43,8 @@ if ( 'localhost' == $_SERVER[ 'HTTP_HOST' ] ) {
 }
 
 // constants
-define( 'DECACHE_CSS', '3' );
-define( 'DECACHE_JS', '4' );
+define( 'DECACHE_CSS', '4' );
+define( 'DECACHE_JS', '5' );
 define( 'ENV', $environment );
 
 
