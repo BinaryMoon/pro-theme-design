@@ -1,0 +1,1 @@
+<p>All settings for the Custom Login plugin are contained within the WordPress admin. Just go to Settings &rarr; Custom Login, and you can upload custom background images, change the logo, change the text and colours. Plus there's a css editor that allows you to tweak things exactly to your liking.</p>

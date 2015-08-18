@@ -5,14 +5,6 @@
     <img src="<?php echo image_path( 'devices/' . $doc['image'] ); ?>" />
 
 <?php
-    if ( ! empty( $doc[ 'related' ][ 'features' ] ) ) {
-?>
-    <h2>Features</h2>
-    <ul>
-<?php
-?>
-    </ul>
-<?php
-    }
+    documentation_theme_features( $doc );
 
-    //include( '_theme/' . $page . '.php' );
+    include( '_theme/' . $page . '.php' );

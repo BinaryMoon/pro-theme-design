@@ -41,56 +41,68 @@ function get_documentation_data() {
             'name' => 'Custom Colours and Fonts',
             'type' => 'feature',
             'requires' => 'styleguide',
+            'description' => 'Tweak the fonts and colours on your site without touching any code.',
         ),
         'custom-css' => array(
             'name' => 'Custom CSS',
             'type' => 'feature',
             'requires' => 'jetpack',
+            'description' => 'Edit the CSS on your website.',
         ),
         'custom-page-templates' => array(
             'name' => 'Custom Page Templates',
             'type' => 'feature',
+            'description' => 'Different page layouts for static WordPress pages.',
         ),
         'custom-front-page' => array(
             'name' => 'Custom Front Page',
             'type' => 'feature',
+            'description' => 'Change the design of your front page to make it exactly as you want.',
         ),
         'featured-content' => array(
             'name' => 'Featured Content',
             'type' => 'feature',
             'requires' => 'jetpack',
+            'description' => 'Select your best content to appear in a Slider or other special area on the homepage.',
         ),
         'site-logo' => array(
             'name' => 'Site Logo',
             'type' => 'feature',
             'requires' => 'jetpack',
+            'description' => 'Add a logo to make your site your own.',
         ),
         'featured-image' => array(
             'name' => 'Featured Images',
             'type' => 'feature',
+            'description' => 'Image thumbnails for your blog posts and pages.',
         ),
         'infinite-scroll' => array(
             'name' => 'Infinite Scroll',
             'type' => 'feature',
             'requires' => 'jetpack',
+            'description' => 'Continuosly loading content to encourage your readers to stick around.',
         ),
         'portfolio' => array(
             'name' => 'Portfolio and Projects',
             'type' => 'feature',
             'requires' => 'jetpack',
+            'description' => 'Show off your Portfolio of work.',
         ),
         'social-menu' => array(
             'name' => 'Social Menu',
             'type' => 'feature',
+            'description' => 'Display links to your social media channels.',
         ),
         'sticky-post' => array(
             'name' => 'Sticky Posts',
             'type' => 'feature',
+            'description' => 'Stick posts to the top of your blog.',
         ),
         'testimonials' => array(
             'name' => 'Testimonials',
             'type' => 'feature',
             'requires' => 'jetpack',
+            'description' => 'Display comments from your users/ customers showing how much your product/ service benefits them.',
         ),
 
     );
@@ -171,7 +183,7 @@ function documentation_type_exists( $type ) {
 
 
 /**
- *
+ * Check to see if the specified page exists
  */
 function documentation_page_exists( $page ) {
 
@@ -190,7 +202,7 @@ function documentation_page_exists( $page ) {
 
 
 /**
- *
+ * Get the data for the specified page
  */
 function documentation_get( $page ) {
 
@@ -246,7 +258,7 @@ function documentation_type_name( $type ) {
 
 
 /**
- *
+ * Display a message stating what (if any) plugin is required for the current feature to work
  */
 function documentation_required_plugin( $page ) {
 
@@ -265,18 +277,79 @@ function documentation_required_plugin( $page ) {
 }
 
 
+/**
+ * Display the list of themes that support the current feature
+ */
 function documentation_supported_themes( $page ) {
 
     $docs = get_documentation_data();
 
+    $supported = array();
+
     foreach( $docs as $doc ) {
         if ( ! empty( $doc[ 'supports' ] ) ) {
             if ( in_array( $page, $doc[ 'supports' ] ) ) {
+                $supported[] = sprintf( '<a href="%s">%s</a>', $doc[ 'path' ], $doc[ 'name' ] );
+            }
+        }
+    }
+
+    if ( ! empty( $supported ) ) {
 ?>
-    <a href="<?php echo $doc[ 'path' ]; ?>"><?php echo $doc[ 'name' ]; ?></a>
+    <p><strong>Supported Themes: <?php echo implode( ', ', $supported ); ?></strong></p>
+<?php
+    }
+
+}
+
+
+/**
+ * Display the list of features as supported by the current theme
+ */
+function documentation_theme_features( $theme ) {
+
+    $docs = get_documentation_data();
+
+    if ( ! empty( $theme[ 'supports' ] ) ) {
+?>
+    <h2>Standard Features</h2>
+<?php
+        foreach( $theme[ 'supports' ] as $feature ) {
+            if ( isset( $docs[ $feature ] ) ) {
+                $f = $docs[ $feature ];
+?>
+    <p><strong><a href="<?php echo $f[ 'path' ]; ?>"><?php echo $f[ 'name' ]; ?></a></strong> - <?php echo $f[ 'description' ]; ?></p>
 <?php
             }
         }
     }
+
+}
+
+
+/**
+ * Display the list of features as supported by the current plugin
+ */
+function documentation_plugin_features( $theme ) {
+
+    $docs = get_documentation_data();
+
+?>
+    <h2>Supported Features</h2>
+<?php
+    foreach( $docs as $doc ) {
+        if ( ! empty( $doc[ 'requires' ] ) && $theme == $doc[ 'requires' ] ) {
+?>
+    <p><strong><a href="<?php echo $doc[ 'path' ]; ?>"><?php echo $doc[ 'name' ]; ?></a></strong> - <?php echo $doc[ 'description' ]; ?></p>
+<?php
+        }
+    }
+
+}
+
+
+function documentation_related( $page ) {
+
+
 
 }

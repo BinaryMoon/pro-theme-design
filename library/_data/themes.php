@@ -16,7 +16,7 @@ function get_theme_data() {
             'url-wpcom' => 'puzzle',
             'url-cm' => '108641-Puzzle-Responsive-WordPress-Theme',
             'image' => 'puzzle.png',
-            'supports' => array( 'site-logo', 'featured-images', 'infinite-scroll', 'social-menu', 'custom-page-templates', 'custom-colours-fonts', 'testimonials' ),
+            'supports' => array( 'site-logo', 'featured-image', 'infinite-scroll', 'social-menu', 'custom-page-templates', 'custom-colours-fonts', 'testimonials', 'customizer' ),
         ),
 
         'romero' => array(
@@ -27,7 +27,7 @@ function get_theme_data() {
             'url-wpcom' => 'romero',
             'url-cm' => '312559-Romero-WordPress-Video-Game-Theme',
             'image' => 'romero.png',
-            'supports' => array( 'site-logo', 'featured-content', 'featured-images', 'infinite-scroll', 'social-menu', 'custom-page-templates', 'custom-colours-fonts' ),
+            'supports' => array( 'site-logo', 'featured-content', 'featured-image', 'infinite-scroll', 'social-menu', 'custom-page-templates', 'custom-colours-fonts' ),
         ),
 
         'monet' => array(
@@ -38,7 +38,7 @@ function get_theme_data() {
             'url-wpcom' => 'monet',
             'url-cm' => '312560-Monet-WordPress-Portfolio-Theme',
             'image' => 'monet.png',
-            'supports' => array( 'site-logo', 'featured-content', 'featured-images', 'infinite-scroll', 'social-menu', 'custom-page-templates', 'custom-colours-fonts', 'portfolio', ),
+            'supports' => array( 'site-logo', 'featured-content', 'featured-image', 'infinite-scroll', 'social-menu', 'custom-page-templates', 'custom-colours-fonts', 'portfolio', ),
 
         ),
 
@@ -50,7 +50,7 @@ function get_theme_data() {
             'url-wpcom' => 'chronicle',
             'url-cm' => '113017-Chronicle-Magazine-Theme',
             'image' => 'chronicle.png',
-            'supports' => array( 'site-logo', 'featured-content', 'featured-images', 'infinite-scroll', 'social-menu', 'custom-page-templates', 'custom-colours-fonts' ),
+            'supports' => array( 'site-logo', 'featured-content', 'featured-image', 'infinite-scroll', 'social-menu', 'custom-page-templates', 'custom-colours-fonts', 'testimonials', ),
         ),
 
         'opti' => array(
@@ -61,6 +61,7 @@ function get_theme_data() {
             'url-wpcom' => 'opti',
             'url-cm' => '9918-Opti-Responsive-WordPress-Theme',
             'image' => 'opti.png',
+            'supports' => array( 'site-logo', 'featured-content', 'featured-image', 'infinite-scroll', 'custom-page-templates', 'custom-colours-fonts', 'customizer', ),
         ),
 
         'mirror' => array(
@@ -71,6 +72,7 @@ function get_theme_data() {
             'url-wpcom' => 'mirror',
             'url-cm' => '220297-Mirror-WordPress-Photography-Theme',
             'image' => 'mirror.png',
+            'supports' => array( 'site-logo', 'featured-content', 'featured-image', 'infinite-scroll', 'social-menu', 'custom-page-templates', 'custom-colours-fonts' ),
         ),
 
         'beacon' => array(
@@ -81,6 +83,7 @@ function get_theme_data() {
             'url-wpcom' => 'beacon',
             'url-cm' => '',
             'image' => 'beacon.png',
+            'supports' => array( 'site-logo', 'featured-content', 'featured-image', 'infinite-scroll', 'social-menu', 'custom-page-templates', 'custom-colours-fonts', ),
         ),
 
         'traveler' => array(
@@ -91,6 +94,7 @@ function get_theme_data() {
             'url-wpcom' => 'traveler',
             'url-cm' => '150534-Traveler-Visual-WordPress-Theme',
             'image' => 'traveler.png',
+            'supports' => array( 'featured-content', 'featured-image', 'infinite-scroll', 'custom-colours-fonts', ),
         ),
 
         'lens' => array(
@@ -101,6 +105,8 @@ function get_theme_data() {
             'url-wpcom' => 'lens',
             'url-cm' => '108642-Lens-Responsive-Photography-Theme',
             'image' => 'lens.png',
+            'supports' => array( 'site-logo', 'featured-content', 'featured-image', 'infinite-scroll', 'social-menu', 'custom-page-templates', 'custom-colours-fonts', 'testimonials', ),
+
         ),
 
         'broadsheet' => array(
@@ -111,6 +117,7 @@ function get_theme_data() {
             'url-wpcom' => 'broadsheet',
             'url-cm' => '108643-Broadsheet-Newspaper-Theme',
             'image' => 'broadsheet.png',
+            'supports' => array( 'site-logo', 'featured-image', 'infinite-scroll', 'social-menu', 'custom-page-templates', 'custom-colours-fonts', ),
         ),
 
         'mimbopro' => array(
@@ -121,6 +128,7 @@ function get_theme_data() {
             'url-wpcom' => 'mimbopro',
             'url-cm' => '111465-Mimbo-Pro-WordPress-Theme',
             'image' => 'mimbopro.png',
+            'supports' => array( 'featured-image', 'custom-page-templates', 'custom-colours-fonts', ),
         ),
 
         'bromley' => array(
@@ -131,6 +139,7 @@ function get_theme_data() {
             'url-wpcom' => 'bromley',
             'url-cm' => '',
             'image' => 'bromley.png',
+            'supports' => array( 'featured-content', 'featured-image', 'infinite-scroll', 'custom-page-templates', 'custom-colours-fonts', ),
         ),
 
         'vision' => array(
@@ -141,6 +150,7 @@ function get_theme_data() {
             'url-wpcom' => 'vision',
             'url-cm' => '',
             'image' => 'vision.png',
+            'supports' => array( 'featured-content', 'featured-image', 'infinite-scroll', 'custom-page-templates', 'custom-colours-fonts', ),
         ),
 
         'kent' => array(
@@ -151,6 +161,7 @@ function get_theme_data() {
             'url-wpcom' => 'kent',
             'url-cm' => '',
             'image' => 'kent.png',
+            'supports' => array( 'featured-image', 'infinite-scroll', 'custom-page-templates', 'custom-colours-fonts', 'sticky-post', ),
         ),
 
         'bexley' => array(
@@ -161,6 +172,7 @@ function get_theme_data() {
             'url-wpcom' => 'bexley',
             'url-cm' => '',
             'image' => 'bexley.png',
+            'supports' => array( 'featured-image', 'infinite-scroll', 'custom-page-templates', 'custom-colours-fonts', 'sticky-post', ),
         ),
 
         'isca' => array(
@@ -171,6 +183,7 @@ function get_theme_data() {
             'url-wpcom' => 'isca',
             'url-cm' => '',
             'image' => 'isca.png',
+            'supports' => array( 'featured-image', 'infinite-scroll', 'custom-page-templates', 'custom-colours-fonts', 'post-formats' ),
         ),
 
     );

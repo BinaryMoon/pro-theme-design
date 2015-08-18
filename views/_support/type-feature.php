@@ -6,3 +6,5 @@
     include( '_feature/' . $page . '.php' );
 
     documentation_supported_themes( $page );
+
+    documentation_related( $page );
