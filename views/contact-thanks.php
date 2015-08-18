@@ -14,9 +14,5 @@
                 </div>
             </div>
         </div>
-
-        <script>
-            $( '#formspree' ).attr( 'action', '//formspree.io/' + 'support' + '@' + 'prothemedesign' + '.' + 'com' );
-        </script>
 <?php
     include( '_partials/footer.php' );

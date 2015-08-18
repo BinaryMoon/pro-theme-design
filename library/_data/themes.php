@@ -199,3 +199,15 @@ function get_theme_data() {
     return $processed;
 
 }
+
+
+function themes_select_box() {
+
+    $themes = get_theme_data();
+
+    foreach( $themes as $theme ) {
+?>
+    <option value="<?php echo $theme[ 'name' ]; ?>"><?php echo $theme[ 'name' ]; ?></option>
+<?php
+    }
+}

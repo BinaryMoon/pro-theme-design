@@ -836,6 +836,23 @@ footer a:hover, footer a:active {
 
 
 
+
+.contact-selection a {
+    background:#000;
+    padding:10px 20px;
+    border-radius:4px;
+    display:block;
+    margin-bottom:1em;
+    font-size:1.1em;
+}
+
+.contact-selection .fa {
+    float:right;
+    margin-top:2px;
+    color:#fff;
+}
+
+
 /*
 // =======================================================================
 // < 1000px

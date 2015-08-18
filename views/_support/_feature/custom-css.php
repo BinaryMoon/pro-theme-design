@@ -1,4 +1,6 @@
-<p class="intro">CSS, or Cascading Styles Sheets, is a way to apply style rules to HTML content. Customising your websites CSS allows you to make changes to the way the site looks. <strong>Please note that we do not offer support for theme customizations - including custom css.</strong></p>
+<p class="intro">CSS, or Cascading Styles Sheets, is a way to apply style rules to HTML content. Customising your websites CSS allows you to make changes to the way the site looks.</p>
+
+<?php documentation_customization( 'Custom CSS' ); ?>
 
 <h2>Enabling Custom CSS</h2>
 
@@ -24,3 +26,5 @@
 
 <p><strong>Will I lose my CSS changes when I upgrade my theme?</strong></p>
 <p>No. As long as you use the Jetpack Custom CSS module then your changes will continue working with each update. If you modify the theme files themselves then you will lose your website changes and have to remake them each time.</p>
+
+<?php documentation_customization( 'Custom CSS' ); ?>

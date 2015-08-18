@@ -26,6 +26,9 @@
  * info about customizer settings as needed
  * screenshots for features
  * screenshots showing front page setup
+ * add purchase links to theme documentation
+ * add download links to plugin docs
+ * web hosting with aff links?
  */
 
 /**
@@ -177,6 +180,24 @@ Flight::route( '/contact/', function() {
 
     Flight::render(
         'contact.php',
+        array(
+            'request' => Flight::request(),
+        )
+    );
+
+} );
+
+
+/**
+ * Theme Customization
+ */
+Flight::route( '/theme-customization/', function() {
+
+    SiteTemplate::title( 'WordPress Theme Customization' );
+    SiteTemplate::description( 'Customize your theme with <strong>Codeable.io</strong>.' );
+
+    Flight::render(
+        'theme-customizer.php',
         array(
             'request' => Flight::request(),
         )

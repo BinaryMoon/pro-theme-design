@@ -357,3 +357,13 @@ function documentation_related( $page ) {
 
 
 }
+
+
+/**
+ * link to customization information page
+ */
+function documentation_customization( $feature ) {
+?>
+<p class="intro"><strong>Please note that we do not offer support for theme customizations - including <?php echo $feature; ?>. For more info on Customization services please go to our <a href="<?php echo path( 'theme-customization/' ); ?>">Theme Customization</a> page.</strong></p>
+<?php
+}
