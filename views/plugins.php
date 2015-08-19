@@ -15,12 +15,12 @@
     foreach( $plugins as $plugin ) {
 ?>
             <div class="product plugin">
-                <div class="large-8 columns image">
+                <div class="large-7 columns image">
                     <a href="<?php echo $plugin[ 'url' ]; ?>" target="_blank">
                         <img src="<?php echo $plugin[ 'image' ]; ?>">
                     </a>
                 </div>
-                <div class="large-4 columns">
+                <div class="large-5 columns">
                     <a class="desc" href="<?php echo $plugin[ 'url' ]; ?>" target="_blank">
                         <h3><?php echo $plugin[ 'name' ]; ?></h3>
                         <p><?php echo $plugin[ 'description' ]; ?></p>
