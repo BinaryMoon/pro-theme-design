@@ -9,17 +9,17 @@ function get_plugin_data() {
         'styleguide' => array(
             'name' => 'Styleguide',
             'description' => 'Customize fonts and colours in WordPress themes without touching any code.',
-            'image' => 'https://ps.w.org/styleguide/assets/banner-772x250.jpg?rev=1065164',
+            'image' => 'https://ps.w.org/styleguide/assets/banner-772x250.png?rev=1225100',
         ),
         'bm-custom-login' => array(
             'name' => 'Custom Login',
             'description' => 'Customise the WordPress login box quickly and easily.',
-            'image' => 'https://ps.w.org/bm-custom-login/assets/banner-772x250.png?rev=1135328',
+            'image' => 'https://ps.w.org/bm-custom-login/assets/banner-772x250.png?rev=1225096',
         ),
         'browser-shots' => array(
             'name' => 'Browser Shots',
             'description' => 'Automate the process of taking website screenshots.',
-            'image' => 'https://ps.w.org/browser-shots/assets/banner-772x250.png?rev=1067050',
+            'image' => 'https://ps.w.org/browser-shots/assets/banner-772x250.png?rev=1225099',
         ),
         'jetpack' => array(
             'name' => 'Jetpack',
