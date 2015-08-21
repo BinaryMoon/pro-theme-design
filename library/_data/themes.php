@@ -137,7 +137,7 @@ function get_theme_data() {
             'price-wpcom' => 79,
             'price-cm' => '',
             'url-wpcom' => 'bromley',
-            'url-cm' => '',
+            'url-cm' => '113531-Bromley-Responsive-WordPress-Theme',
             'image' => 'bromley.png',
             'supports' => array( 'featured-content', 'featured-image', 'infinite-scroll', 'custom-page-templates', ),
         ),
@@ -200,6 +200,8 @@ function get_theme_data() {
                 'contact-form',
                 'featured-image',
                 'localization',
+                'related-content',
+                'social-sharing',
             )
         );
         $processed[ $key ] = $theme;
