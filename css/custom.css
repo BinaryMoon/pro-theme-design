@@ -4,7 +4,12 @@ body {
     background: url(../img/website/waves.png) fixed;
 }
 
-h1, h2, h3, h4, h5, h6, .product .button, input.button {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     text-rendering: optimizeLegibility;
     font-weight: 700;
 }
@@ -486,7 +491,7 @@ ul.social {
 .newsletter .mc-embedded-subscribe {
     background: #207ca7;
     text-align: center;
-    padding: 12px 0;
+    padding: 12px 16px;
     color: #fff;
     text-transform: uppercase;
     font-size: 11px;
@@ -851,6 +856,67 @@ footer a:hover, footer a:active {
     float:right;
     margin-top:2px;
     color:#fff;
+}
+
+.page-theme-preview {
+    position:relative;
+    height:100%;
+}
+
+.page-theme-preview .iframe-wrapper {
+    display:block;
+    position:absolute;
+    top:65px;
+    bottom:0;
+    width:100%;
+    text-align:center;
+}
+
+.page-theme-preview iframe {
+    border:none;
+    margin:0 auto;
+    height:100%;
+    width:100%;
+    display:block;
+    max-width:100%;
+
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+}
+
+.page-theme-preview .button {
+    display:inline-block;
+    margin:0;
+    vertical-align:top;
+}
+
+.page-theme-preview header {
+    background: #dde4e7 url(../img/website/bg_top.png) fixed;
+    padding:12px 32px;
+    height:64px;
+}
+
+.page-theme-preview h1 {
+    display:inline-block;
+    font-size:32px;
+    margin-right:32px;
+    line-height:40px;
+}
+
+.preview-size {
+    float:right;
+    font-size:32px;
+    line-height:40px;
+}
+
+.preview-size a {
+    color:#7C878D;
+    margin-left:16px;
+}
+
+.preview-size a.selected {
+    color:#222;
 }
 
 

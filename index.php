@@ -29,6 +29,8 @@
  * add purchase links to theme documentation
  * add download links to plugin docs
  * web hosting with aff links?
+ * add browser and server requirements doc
+ *
  */
 
 /**
@@ -100,7 +102,7 @@ Flight::route( '/theme-club/', function() {
 /**
  * Theme Showcase
  */
-Flight::route( '/theme-showcase/(@tag)', function( $tag = '' ) {
+Flight::route( '/theme-showcase/(@tag)/', function( $tag = '' ) {
 
     $view = 'showcase.php';
     $title = 'WordPress Themes Showcase';
@@ -288,6 +290,29 @@ Flight::route( '/documentation/(@type)(/@page)/', function( $type = '', $page = 
 
 
 /**
+ * theme preview
+ */
+Flight::route( '/theme-preview/(@theme)/', function( $theme = '' ) {
+
+    SiteTemplate::title( 'Theme Preview' );
+    $template = 'theme-preview.php';
+
+    if ( ! themes_exist( $theme ) ) {
+        $template = '404.php';
+    }
+
+    Flight::render(
+        $template,
+        array(
+            'request' => Flight::request(),
+            'theme' => $theme,
+        )
+    );
+
+} );
+
+
+/**
  * 404
  */
 Flight::map( 'notFound', function() {
@@ -298,11 +323,11 @@ Flight::map( 'notFound', function() {
         '404.php',
         array(
             'request' => Flight::request(),
-            'base_url' => get_base(),
         )
     );
 
 } );
+
 
 
 Flight::start();

@@ -210,6 +210,9 @@ function get_theme_data() {
 }
 
 
+/**
+ * list option elements for a select box
+ */
 function themes_select_box() {
 
     $themes = get_theme_data();
@@ -219,4 +222,32 @@ function themes_select_box() {
     <option value="<?php echo $theme[ 'name' ]; ?>"><?php echo $theme[ 'name' ]; ?></option>
 <?php
     }
+}
+
+
+/**
+ * does the specified theme exist?
+ */
+function themes_exist( $theme_slug ) {
+
+    $themes = get_theme_data();
+
+    return isset( $themes[ $theme_slug ] );
+
+}
+
+
+/**
+ * get the data for the specified theme
+ */
+function themes_get( $theme_slug ) {
+
+    $themes = get_theme_data();
+
+    if ( isset( $themes[ $theme_slug ] ) ) {
+        return $themes[ $theme_slug ];
+    }
+
+    return false;
+
 }
