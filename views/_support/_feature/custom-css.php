@@ -4,7 +4,7 @@
 
 <h2>Enabling Custom CSS</h2>
 
-<p>Custom CSS requires the Jetpack plugin to be installed and Activated. Once activated go to the JEtpack settings and enable the Custom CSS module. Once enabled you will be able to edit the CSS in the Appearance &rarr; Custom CSS page.</p>
+<p>Custom CSS requires the Jetpack plugin to be installed and Activated. Once activated go to the Jetpack settings and enable the Custom CSS module. Once enabled you will be able to edit the CSS in the Appearance &rarr; Custom CSS page.</p>
 
 <h2>Learning CSS</h2>
 

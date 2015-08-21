@@ -132,6 +132,18 @@ function get_documentation_data() {
             'description' => 'Display comments from your users/ customers showing how much your product/ service benefits them.',
             'related' => array( 'portfolio' ),
         ),
+        'social-sharing' => array(
+            'name' => 'Social Sharing Buttons',
+            'type' => 'feature',
+            'requires' => 'jetpack',
+            'description' => 'Display social buttons that encourage readers to share your content.',
+        ),
+        'related-content' => array(
+            'name' => 'Related Content',
+            'type' => 'feature',
+            'requires' => 'jetpack',
+            'description' => 'Display content, related to the current blog post, to give your readers something to look at next.',
+        ),
 
     );
 
