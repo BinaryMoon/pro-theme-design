@@ -48,7 +48,7 @@ if ( 'localhost' == $_SERVER[ 'HTTP_HOST' ] ) {
 }
 
 // constants
-define( 'DECACHE_CSS', '6' );
+define( 'DECACHE_CSS', '7' );
 define( 'DECACHE_JS', '5' );
 define( 'ENV', $environment );
 
