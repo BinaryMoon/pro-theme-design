@@ -257,6 +257,44 @@ function get_website_data() {
             'tags' => array( 'broadsheet' ),
         ),
 
+
+
+        array(
+            'url' => 'http://zanghelini.com.br/',
+            'name' => 'Leonardo Zhangelini',
+            'theme' => 'monet',
+            'tags' => array( 'monet' ),
+        ),
+        array(
+            'url' => 'http://baileyenglishstudio.com/',
+            'name' => 'Bailey English Studio',
+            'theme' => 'monet',
+            'tags' => array( 'monet' ),
+        ),
+        array(
+            'url' => 'http://sonjavanvuure.com/',
+            'name' => 'Vuurig',
+            'theme' => 'monet',
+            'tags' => array( 'monet' ),
+        ),
+        array(
+            'url' => 'http://redeclectic.com.au/',
+            'name' => 'Red Electric',
+            'theme' => 'monet',
+            'tags' => array( 'monet' ),
+        ),
+        array(
+            'url' => 'http://barrycomersblog.com/',
+            'name' => 'Barry Corner',
+            'theme' => 'monet',
+            'tags' => array( 'monet' ),
+        ),
+
+
+
+
+
+
     );
 
     return $websites;

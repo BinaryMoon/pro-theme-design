@@ -23,6 +23,12 @@
  * http://hoperoad.co.za/
  * https://renatoartes.wordpress.com/
  *
+ *
+ * Exhibit
+ * https://paproductdesign.wordpress.com/
+ * http://lovelymixture.com/
+ * http://inspiringcompletewellbeing.com/
+ *
  */
 
     include( '_partials/head.php' );
@@ -39,12 +45,30 @@
                     <a href="<?php echo path( 'theme-showcase/' ); ?>" class="tag-">Recent</a>
                     <a href="<?php echo path( 'theme-showcase/featured/' ); ?>" class="tag-featured">Featured</a>
                     <a href="<?php echo path( 'theme-showcase/puzzle/' ); ?>" class="tag-puzzle">Puzzle</a>
+                    <a href="<?php echo path( 'theme-showcase/monet/' ); ?>" class="tag-monet">Monet</a>
                     <a href="<?php echo path( 'theme-showcase/romero/' ); ?>" class="tag-romero">Romero</a>
                     <a href="<?php echo path( 'theme-showcase/chronicle/' ); ?>" class="tag-chronicle">Chronicle</a>
                     <a href="<?php echo path( 'theme-showcase/broadsheet/' ); ?>" class="tag-broadsheet">Broadsheet</a>
                     <a href="<?php echo path( 'theme-showcase/opti/' ); ?>" class="tag-opti">Opti</a>
                 </div>
+            </div>
 
+<?php
+    $theme_data = themes_get( 'romero' );
+
+    if ( $theme_data ) {
+?>
+            <div class="content-text">
+                <div class="row">
+                    <div class="notice">
+                        <?php echo $theme_data[ 'description' ]; ?>
+                    </div>
+                </div>
+            </div>
+<?php
+    }
+?>
+            <div class="content-main content-showcase">
                 <div class="row">
 <?php
     $count = 0;

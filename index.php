@@ -292,12 +292,12 @@ Flight::route( '/documentation/(@type)(/@page)/', function( $type = '', $page = 
 /**
  * theme preview
  */
-Flight::route( '/theme-preview/(@theme)/', function( $theme = '' ) {
+Flight::route( '/theme-preview/(@theme)/', function( $tag = '' ) {
 
     SiteTemplate::title( 'Theme Preview' );
     $template = 'theme-preview.php';
 
-    if ( ! themes_exist( $theme ) ) {
+    if ( ! themes_exist( $tag ) ) {
         $template = '404.php';
     }
 
@@ -305,7 +305,7 @@ Flight::route( '/theme-preview/(@theme)/', function( $theme = '' ) {
         $template,
         array(
             'request' => Flight::request(),
-            'theme' => $theme,
+            'theme' => $tag,
         )
     );
 
