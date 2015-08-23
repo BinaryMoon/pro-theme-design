@@ -5,8 +5,8 @@
  *
  * Swap css over to less
  * Add the option for free themes on wordpress.org
- * Add tag descriptions on showcase page
  * Add support contact form (as part of theme docs)
+ * make 'buy now' text consistent
  */
 
 
@@ -292,12 +292,12 @@ Flight::route( '/documentation/(@type)(/@page)/', function( $type = '', $page = 
 /**
  * theme preview
  */
-Flight::route( '/theme-preview/(@theme)/', function( $tag = '' ) {
+Flight::route( '/theme-preview/(@theme)/', function( $theme = '' ) {
 
     SiteTemplate::title( 'Theme Preview' );
     $template = 'theme-preview.php';
 
-    if ( ! themes_exist( $tag ) ) {
+    if ( ! themes_exist( $theme ) ) {
         $template = '404.php';
     }
 
@@ -305,7 +305,7 @@ Flight::route( '/theme-preview/(@theme)/', function( $tag = '' ) {
         $template,
         array(
             'request' => Flight::request(),
-            'theme' => $tag,
+            'theme' => $theme,
         )
     );
 
