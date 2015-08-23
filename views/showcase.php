@@ -126,8 +126,8 @@
             <div class="showcase-modal modal">
                 <header>
                     <h3 class="showcase-theme-name">Pro Theme Design</h3>
-                    <a href="#" class="showcase-get-theme showcase-buy-com" target="_blank">Buy on WordPress.com <i class="fa fa-arrow-right"></i></a>
-                    <a href="#" class="showcase-get-theme showcase-buy-org" target="_blank">Get for WordPress.org <i class="fa fa-arrow-right"></i></a>
+                    <a href="#" class="showcase-get-theme showcase-buy-com button" target="_blank">Buy on WordPress.com</a>
+                    <a href="#" class="showcase-get-theme showcase-buy-org button" target="_blank">Get for WordPress.org</a>
                     <a href="/" class="overlay-close">&times;</a>
                 </header>
                 <div class="iframe-wrapper"></div>
