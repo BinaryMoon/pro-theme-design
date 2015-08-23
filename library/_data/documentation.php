@@ -405,7 +405,7 @@ function documentation_related( $feature ) {
     if ( ! empty( $docs[ $feature ][ 'related' ] ) ) {
         $related_docs = $docs[ $feature ][ 'related' ];
 ?>
-        <h3>Related Docs</h3>
+        <h3>Related Features</h3>
         <ul>
 <?php
         foreach( $related_docs as $feature ) {
