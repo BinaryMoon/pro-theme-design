@@ -16,6 +16,20 @@ function get_website_data() {
      */
     $websites = array(
         array(
+            'url' => 'http://barrycomersblog.com/',
+            'name' => 'Barry Corner',
+            'theme' => 'monet',
+            'tags' => array( 'monet', 'featured' ),
+            'image' => 'barrycorner',
+        ),
+        array(
+            'url' => 'http://sonjavanvuure.com/',
+            'name' => 'Vuurig',
+            'theme' => 'monet',
+            'tags' => array( 'monet' ),
+            'image' => 'vuurig',
+        ),
+        array(
             'url' => 'http://legosandfriends.com/',
             'name' => 'Legos and Friends',
             'theme' => 'romero',
@@ -190,7 +204,6 @@ function get_website_data() {
         array(
             'url' => 'http://berkeleylifecentre.org/',
             'name' => 'Berkeley Life Centre',
-            'name' => 'Berkeley Life Centre',
             'theme' => 'chronicle',
             'tags' => array( 'chronicle', 'featured' ),
         ),
@@ -264,35 +277,22 @@ function get_website_data() {
             'name' => 'Leonardo Zhangelini',
             'theme' => 'monet',
             'tags' => array( 'monet' ),
+            'image' => 'leonardozhangelini',
         ),
         array(
             'url' => 'http://baileyenglishstudio.com/',
             'name' => 'Bailey English Studio',
             'theme' => 'monet',
             'tags' => array( 'monet' ),
-        ),
-        array(
-            'url' => 'http://sonjavanvuure.com/',
-            'name' => 'Vuurig',
-            'theme' => 'monet',
-            'tags' => array( 'monet' ),
+            'image' => 'baileyenglishstudio',
         ),
         array(
             'url' => 'http://redeclectic.com.au/',
             'name' => 'Red Electric',
             'theme' => 'monet',
             'tags' => array( 'monet' ),
+            'image' => 'redelectric',
         ),
-        array(
-            'url' => 'http://barrycomersblog.com/',
-            'name' => 'Barry Corner',
-            'theme' => 'monet',
-            'tags' => array( 'monet' ),
-        ),
-
-
-
-
 
 
     );
