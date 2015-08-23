@@ -11,14 +11,12 @@
 
 
 /**
- * DOCUMENTATION REQUIRED
+ * DOCUMENTATION IMPROVEMENTS
  *
  * installing child themes
  * add installation procedure to theme docs
- * add related features functionality to docs
  * plugin installation
  * theme updates
- * improve Jetpack documentation to mention other features like Photon, contact forms, etc
  * info about custom widgets for mimbo pro
  * link to tutorials on general wordpress usage
  * add contact form
@@ -26,8 +24,6 @@
  * info about customizer settings as needed
  * screenshots for features
  * screenshots showing front page setup
- * add purchase links to theme documentation
- * add download links to plugin docs
  * web hosting with aff links?
  * add browser and server requirements doc
  *
