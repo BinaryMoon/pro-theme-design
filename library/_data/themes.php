@@ -21,7 +21,7 @@ function get_theme_data() {
 
         'romero' => array(
             'name' => 'Romero',
-            'description' => 'A visually oriented theme, great for photographers and artists who want to tell stories using their images.',
+            'description' => 'A WordPress theme designed for visual magazine sites. Ideal for video game sites, motoring magazines, and other topics that have large vibrant imagery.',
             'price-wpcom' => 79,
             'price-cm' => 99,
             'url-wpcom' => 'romero',
@@ -32,7 +32,7 @@ function get_theme_data() {
 
         'monet' => array(
             'name' => 'Monet',
-            'description' => 'A visually oriented theme, great for photographers and artists who want to tell stories using their images.',
+            'description' => 'A delicate responsive portfolio theme targeted at photographers and other creatives. With crisp typography Monet is easy on the eye.',
             'price-wpcom' => 79,
             'price-cm' => 99,
             'url-wpcom' => 'monet',
@@ -44,7 +44,7 @@ function get_theme_data() {
 
         'chronicle' => array(
             'name' => 'Chronicle',
-            'description' => 'A newspaper theme with 3 optional widget areas, featured posts and a huge homepage slider there are lots of options for creating interesting, immersive websites.',
+            'description' => 'A magazine theme. With 3 optional widget areas, featured posts, and a huge homepage slider, there are lots of options for creating interesting, immersive websites.',
             'price-wpcom' => 79,
             'price-cm' => 129,
             'url-wpcom' => 'chronicle',
@@ -66,7 +66,7 @@ function get_theme_data() {
 
         'mirror' => array(
             'name' => 'Mirror',
-            'description' => 'A perfect theme for viral content: trending topics, featured thumbnails, and photos and excerpts arranged by category or popularity.',
+            'description' => 'A blog focused theme showcasing large featured images and clear typography. A large featured content slider in the header helps your top content to shine.',
             'price-wpcom' => 79,
             'price-cm' => 99,
             'url-wpcom' => 'mirror',
@@ -177,7 +177,7 @@ function get_theme_data() {
 
         'isca' => array(
             'name' => 'Isca',
-            'description' => 'A tumblelog theme for WordPress, designed for people who create a variety of types of content like quotes, images, text and video.',
+            'description' => 'A tumblog theme for WordPress, designed for people who create a variety of types of content like quotes, images, text and video.',
             'price-wpcom' => 59,
             'price-cm' => '',
             'url-wpcom' => 'isca',
