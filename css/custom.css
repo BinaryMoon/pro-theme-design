@@ -241,6 +241,11 @@ ul.social {
     margin-bottom:16px;
     color:#fff;
     font-size:2.4em;
+    font-weight:bold;
+}
+
+.content-main h3 {
+    color:#fff;
 }
 
 .notice {

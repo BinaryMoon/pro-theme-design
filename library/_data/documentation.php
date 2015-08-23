@@ -388,13 +388,6 @@ function documentation_plugin_features( $theme ) {
 }
 
 
-function documentation_related( $page ) {
-
-
-
-}
-
-
 /**
  * link to customization information page
  */
@@ -402,4 +395,30 @@ function documentation_customization( $feature ) {
 ?>
 <p class="intro"><strong>Please note that we do not offer support for theme customizations - including <?php echo $feature; ?>. For more info on Customization services please go to our <a href="<?php echo path( 'theme-customization/' ); ?>">Theme Customization</a> page.</strong></p>
 <?php
+}
+
+
+function documentation_related( $feature ) {
+
+    $docs = get_documentation_data();
+
+    if ( ! empty( $docs[ $feature ][ 'related' ] ) ) {
+        $related_docs = $docs[ $feature ][ 'related' ];
+?>
+        <h3>Related Docs</h3>
+        <ul>
+<?php
+        foreach( $related_docs as $feature ) {
+            if ( isset( $docs[ $feature ] ) ) {
+?>
+            <li>
+                <a href=""><?php echo $docs[ $feature ][ 'name' ]; ?></a>
+            </li>
+<?php
+            }
+        }
+?>
+        </ul>
+<?php
+    }
 }
