@@ -48,7 +48,7 @@
             $class[] = 'wp_odd';
         }
 
-        if ( ! empty( $theme['price-cm'] ) ) {
+        if ( ! empty( $theme[ 'price-cm' ] ) ) {
             $class[] = 'creative-market';
 
             $count_creative_market ++;
@@ -68,7 +68,7 @@
                     </a>
                 </div>
                 <div class="large-4 columns">
-                    <a class="desc" href="https://wordpress.com/themes/<?php echo $theme['url-wpcom']; ?>/" target="_blank">
+                    <a class="desc" href="<?php echo $theme['url-wpcom']; ?>" target="_blank">
                         <div class="price">$<?php echo $theme['price-wpcom']; ?></div>
                         <h3><?php echo $theme['name']; ?></h3>
                         <p><?php echo $theme['description']; ?></p>

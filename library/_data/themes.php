@@ -191,8 +191,17 @@ function get_theme_data() {
     $processed = array();
 
     foreach( $themes as $key => $theme ) {
-        $url_org = 'https://creativemarket.com/BinaryMoon/' . $theme['url-cm'] . '?u=BinaryMoon';
-        $theme[ 'url-wporg' ] = $url_org;
+
+        // set wordpress.org url if applicable
+        $theme[ 'url-wporg' ] = '';
+        if ( ! empty( $theme[ 'price-cm' ] ) ) {
+            $theme[ 'url-wporg' ] = 'https://creativemarket.com/BinaryMoon/' . $theme['url-cm'] . '?u=BinaryMoon';
+        }
+
+        // all themes are on wordpress.com so fill out the rest of the url
+        $theme[ 'url-wpcom' ] = 'https://wordpress.com/themes/' . $theme[ 'url-wpcom' ] . '/';
+
+        // set default theme features that all themes support
         $theme[ 'supports' ] = array_merge( $theme[ 'supports' ],
             array(
                 'custom-colours-fonts',
@@ -204,6 +213,7 @@ function get_theme_data() {
                 'social-sharing',
             )
         );
+
         $processed[ $key ] = $theme;
     }
 
