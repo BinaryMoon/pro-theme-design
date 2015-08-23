@@ -307,6 +307,7 @@ ul.social {
 
 .content-showcase {
     padding:30px 0;
+    overflow:auto;
 }
 
 .content-showcase .showcase-website {
@@ -315,6 +316,22 @@ ul.social {
     border-radius:10px;
     padding:20px;
 }
+
+.showcase-description {
+    max-width:640px;
+    color:#9ea5ab;
+    margin:0 auto 40px auto;
+    text-align:center;
+}
+
+.showcase-description h1 {
+    color:#fff;
+}
+
+.showcase-description .button {
+    margin:0 12px;
+}
+
 
 .content-text img,
 .content-showcase img {

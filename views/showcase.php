@@ -51,26 +51,31 @@
                     <a href="<?php echo path( 'theme-showcase/broadsheet/' ); ?>" class="tag-broadsheet">Broadsheet</a>
                     <a href="<?php echo path( 'theme-showcase/opti/' ); ?>" class="tag-opti">Opti</a>
                 </div>
-            </div>
 
 <?php
-    $theme_data = themes_get( 'romero' );
+    $theme_data = themes_get( $tag );
 
     if ( $theme_data ) {
 ?>
-            <div class="content-text">
-                <div class="row">
-                    <div class="notice">
-                        <?php echo $theme_data[ 'description' ]; ?>
-                    </div>
+                <div class="showcase-description">
+                    <h1><?php echo $theme_data[ 'name' ]; ?></h1>
+                    <p><?php echo $theme_data[ 'description' ]; ?></p>
+<?php
+        if ( $theme_data[ 'url-wporg' ] ) {
+?>
+                    <a href="<?php echo $theme_data[ 'url-wporg' ]; ?>" class="button">Get for WordPress.org</a>
+<?php
+        }
+        if ( $theme_data[ 'url-wpcom' ] ) {
+?>
+                    <a href="<?php echo $theme_data[ 'url-wpcom' ]; ?>" class="button">Get for WordPress.com</a>
+<?php
+        }
+?>
                 </div>
-            </div>
 <?php
     }
-?>
-            <div class="content-main content-showcase">
-                <div class="row">
-<?php
+
     $count = 0;
 
     foreach( $websites as $site ) {
