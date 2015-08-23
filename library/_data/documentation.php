@@ -408,11 +408,11 @@ function documentation_related( $feature ) {
         <h3>Related Features</h3>
         <ul>
 <?php
-        foreach( $related_docs as $feature ) {
-            if ( isset( $docs[ $feature ] ) ) {
+        foreach( $related_docs as $related_feature ) {
+            if ( isset( $docs[ $related_feature ] ) ) {
 ?>
             <li>
-                <a href=""><?php echo $docs[ $feature ][ 'name' ]; ?></a>
+                <a href="<?php echo $docs[ $related_feature ][ 'path' ]; ?>"><?php echo $docs[ $related_feature ][ 'name' ]; ?></a>
             </li>
 <?php
             }
