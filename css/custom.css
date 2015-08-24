@@ -44,7 +44,7 @@ header.masthead {
 }
 
 header.masthead .row {
-    padding:130px 0;
+    padding:130px 16px;
     max-width:900px;
 }
 
@@ -53,7 +53,7 @@ header.masthead a.site-title {
 }
 
 .page-home header.masthead .row {
-    padding:160px 0;
+    padding:160px 16px;
 }
 
 .page-theme-club header.masthead .wrapper {
@@ -73,7 +73,7 @@ header.masthead .tabs a {
     display:inline-block;
     text-align:center;
     width:260px;
-    padding:11px 48px 9px 48px;
+    padding:11px 0 9px 0;
     font-size:21px;
     background-color:#e6edf0;
     margin:0 10px;
@@ -958,15 +958,8 @@ footer a:hover, footer a:active {
         font-size: 25px;
     }
 
-    .logomark {
-        margin-top: 120px;
-        margin-top: 20vh;
-    }
-
-    header .tabs a {
-        width:auto;
-        padding-left:20px;
-        padding-right:20px;
+    header.masthead .tabs a {
+        width:200px;
         font-size:20px;
         margin:0 2px;
     }
@@ -1045,14 +1038,14 @@ footer a:hover, footer a:active {
         margin-top: 10px;
     }
 
-    .product {
-        padding: 0px 0 66px;
-    }
-
     .product .price {
         position:relative;
         top:auto;
         right:auto;
+    }
+
+    .product.theme .desc {
+        margin-top:20px;
     }
 
     .product h3 {
