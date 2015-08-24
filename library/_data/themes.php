@@ -8,6 +8,17 @@ function get_theme_data() {
 
     $themes = array(
 
+        'exhibit' => array(
+            'name' => 'Exhibit',
+            'description' => 'A visually oriented theme, great for photographers and artists who want to tell stories using their images.',
+            'price-wpcom' => 79,
+            'price-cm' => 99,
+            'url-wpcom' => 'exhibit',
+            'url-cm' => '108641-Puzzle-Responsive-WordPress-Theme',
+            'image' => 'exhibit.png',
+            'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'custom-page-templates', 'testimonials', 'customizer', 'projects' ),
+        ),
+
         'puzzle' => array(
             'name' => 'Puzzle',
             'description' => 'A visually oriented theme, great for photographers and artists who want to tell stories using their images.',
@@ -196,6 +207,12 @@ function get_theme_data() {
         $theme[ 'url-wporg' ] = '';
         if ( ! empty( $theme[ 'price-cm' ] ) ) {
             $theme[ 'url-wporg' ] = 'https://creativemarket.com/BinaryMoon/' . $theme['url-cm'] . '?u=BinaryMoon';
+        }
+
+        // set price
+        $theme[ 'price-wporg' ] = 'free';
+        if ( ! empty( $theme[ 'price-cm' ] ) ) {
+            $theme[ 'price-wporg' ] = $theme[ 'price-cm' ];
         }
 
         // all themes are on wordpress.com so fill out the rest of the url
