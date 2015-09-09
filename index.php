@@ -19,7 +19,6 @@
  * theme updates
  * info about custom widgets for mimbo pro
  * link to tutorials on general wordpress usage
- * add contact form
  * documentation about customizer
  * info about customizer settings as needed
  * screenshots for features
