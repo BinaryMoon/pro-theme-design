@@ -16,7 +16,7 @@ function get_theme_data() {
             'url-wpcom' => 'exhibit',
             'url-cm' => '348846-Exhibit-WordPress-Portfolio-Theme',
             'image' => 'exhibit.png',
-            'supports' => array( 'custom-front-page', 'site-logo', 'infinite-scroll', 'social-menu', 'testimonials', 'customizer', 'projects' ),
+            'supports' => array( 'custom-front-page', 'site-logo', 'infinite-scroll', 'social-menu', 'testimonials', 'customizer', 'portfolio' ),
         ),
 
         'puzzle' => array(
@@ -27,7 +27,7 @@ function get_theme_data() {
             'url-wpcom' => 'puzzle',
             'url-cm' => '108641-Puzzle-Responsive-WordPress-Theme',
             'image' => 'puzzle.png',
-            'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'testimonials', 'customizer' ),
+            'supports' => array( 'portfolio', 'custom-front-page', 'site-logo', 'infinite-scroll', 'social-menu', 'testimonials', 'customizer', ),
         ),
 
         'romero' => array(

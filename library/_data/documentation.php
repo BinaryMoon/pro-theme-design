@@ -39,6 +39,10 @@ function get_documentation_data() {
             'name' => 'Affiliates',
             'type' => 'general',
         ),
+        'theme-updates' => array(
+            'name' => 'Theme Updates',
+            'type' => 'general',
+        ),
 
 
         // features
