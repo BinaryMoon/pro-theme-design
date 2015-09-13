@@ -131,6 +131,24 @@ Flight::route( '/contact/', function() {
 
 
 /**
+ * Search
+ */
+Flight::route( '/search/', function() {
+
+	SiteTemplate::title( 'Search' );
+	//SiteTemplate::description( 'Get in touch.' );
+
+	Flight::render(
+		'search.php',
+		array(
+			'request' => Flight::request(),
+		)
+	);
+
+} );
+
+
+/**
  * Theme Customization
  */
 Flight::route( '/theme-customization/', function() {
