@@ -1,6 +1,5 @@
 <?php
 
-
 /**
  * A list of all of our themes
  */
@@ -16,7 +15,7 @@ function get_theme_data() {
             'url-wpcom' => 'exhibit',
             'url-cm' => '348846-Exhibit-WordPress-Portfolio-Theme',
             'image' => 'exhibit.png',
-            'supports' => array( 'custom-front-page', 'site-logo', 'infinite-scroll', 'social-menu', 'testimonials', 'customizer', 'portfolio' ),
+            'supports' => array( 'custom-front-page', 'site-logo', 'infinite-scroll', 'social-menu', 'testimonials', 'portfolio' ),
         ),
 
         'puzzle' => array(
@@ -27,7 +26,7 @@ function get_theme_data() {
             'url-wpcom' => 'puzzle',
             'url-cm' => '108641-Puzzle-Responsive-WordPress-Theme',
             'image' => 'puzzle.png',
-            'supports' => array( 'portfolio', 'custom-front-page', 'site-logo', 'infinite-scroll', 'social-menu', 'testimonials', 'customizer', ),
+            'supports' => array( 'portfolio', 'custom-front-page', 'site-logo', 'infinite-scroll', 'social-menu', 'testimonials', ),
         ),
 
         'romero' => array(
@@ -72,7 +71,7 @@ function get_theme_data() {
             'url-wpcom' => 'opti',
             'url-cm' => '9918-Opti-Responsive-WordPress-Theme',
             'image' => 'opti.png',
-            'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'customizer', ),
+            'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', ),
         ),
 
         'mirror' => array(
@@ -128,7 +127,7 @@ function get_theme_data() {
             'url-wpcom' => 'broadsheet',
             'url-cm' => '108643-Broadsheet-Newspaper-Theme',
             'image' => 'broadsheet.png',
-            'supports' => array( 'site-logo', 'featured-image', 'infinite-scroll', 'social-menu', ),
+            'supports' => array( 'site-logo', 'featured-image', 'infinite-scroll', 'social-menu', 'testimonials', ),
         ),
 
         'mimbopro' => array(
@@ -161,7 +160,7 @@ function get_theme_data() {
             'url-wpcom' => 'vision',
             'url-cm' => '',
             'image' => 'vision.png',
-            'supports' => array( 'featured-content', 'featured-image', 'infinite-scroll', ),
+            'supports' => array( 'featured-content', 'featured-image', 'infinite-scroll', 'testimonials', ),
         ),
 
         'kent' => array(
@@ -219,7 +218,8 @@ function get_theme_data() {
         $theme[ 'url-wpcom' ] = 'https://wordpress.com/themes/' . $theme[ 'url-wpcom' ] . '/';
 
         // set default theme features that all themes support
-        $theme[ 'supports' ] = array_merge( $theme[ 'supports' ],
+        $theme[ 'supports' ] = array_merge(
+            $theme[ 'supports' ],
             array(
                 'custom-colours-fonts',
                 'image-resizing',
@@ -229,6 +229,7 @@ function get_theme_data() {
                 'related-content',
                 'social-sharing',
                 'custom-page-templates',
+                'customizer',
             )
         );
 

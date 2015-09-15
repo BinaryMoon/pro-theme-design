@@ -52,14 +52,14 @@ function get_documentation_data() {
             'type' => 'feature',
             'requires' => 'styleguide',
             'description' => 'Tweak the fonts and colours on your site without touching any code.',
-            'related' => array( 'custom-css' ),
+            'related' => array( 'custom-css', 'customizer', ),
         ),
         'custom-css' => array(
             'name' => 'Custom CSS',
             'type' => 'feature',
             'requires' => 'jetpack',
             'description' => 'Edit the CSS on your website.',
-            'related' => array( 'custom-colours-fonts' ),
+            'related' => array( 'custom-colours-fonts', 'customizer', ),
         ),
         'custom-page-templates' => array(
             'name' => 'Custom Page Templates',
@@ -134,7 +134,7 @@ function get_documentation_data() {
             'type' => 'feature',
             'requires' => 'jetpack',
             'description' => 'Display comments from your users/ customers showing how much your product/ service benefits them.',
-            'related' => array( 'portfolio' ),
+            'related' => array( 'portfolio', 'customizer' ),
         ),
         'social-sharing' => array(
             'name' => 'Social Sharing Buttons',
@@ -147,6 +147,12 @@ function get_documentation_data() {
             'type' => 'feature',
             'requires' => 'jetpack',
             'description' => 'Display content, related to the current blog post, to give your readers something to look at next.',
+        ),
+        'customizer' => array(
+            'name' => 'Customizer',
+            'type' => 'feature',
+            'related' => array( 'site-logo', 'testimonials', 'custom-front-page', 'custom-css', 'custom-colours-fonts', ),
+            'description' => 'Edit site settings and get a live preview of the changes.',
         ),
 
     );
@@ -397,11 +403,14 @@ function documentation_plugin_features( $theme ) {
  */
 function documentation_customization( $feature ) {
 ?>
-<p class="intro"><strong>Please note that we do not offer support for theme customizations - including <?php echo $feature; ?>. For more info on Customization services please go to our <a href="<?php echo path( 'theme-customization/' ); ?>">Theme Customization</a> page.</strong></p>
+    <p class="intro"><strong>Please note that we do not offer support for theme customizations - including <?php echo $feature; ?>. For more info on Customization services please go to our <a href="<?php echo path( 'theme-customization/' ); ?>">Theme Customization</a> page.</strong></p>
 <?php
 }
 
 
+/**
+ * Display related content
+ */
 function documentation_related( $feature ) {
 
     $docs = get_documentation_data();
