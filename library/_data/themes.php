@@ -230,6 +230,7 @@ function get_theme_data() {
                 'social-sharing',
                 'custom-page-templates',
                 'customizer',
+                'widget-visibility',
             )
         );
 
