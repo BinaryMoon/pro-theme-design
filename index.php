@@ -43,8 +43,8 @@ if ( 'localhost' == $_SERVER[ 'HTTP_HOST' ] ) {
 }
 
 // constants
-define( 'DECACHE_CSS', '9' );
-define( 'DECACHE_JS', '5' );
+define( 'DECACHE_CSS', '10' );
+define( 'DECACHE_JS', '6' );
 define( 'ENV', $environment );
 define( 'GOOGLE_CSE', '010164663960188762731:aajo_mt5e2a' );
 
