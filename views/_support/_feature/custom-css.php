@@ -26,5 +26,3 @@
 
 <p><strong>Will I lose my CSS changes when I upgrade my theme?</strong></p>
 <p>No. As long as you use the Jetpack Custom CSS module then your changes will continue working with each update. If you modify the theme files themselves then you will lose your website changes and have to remake them each time.</p>
-
-<?php documentation_customization( 'Custom CSS' ); ?>

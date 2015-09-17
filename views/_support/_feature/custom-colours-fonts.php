@@ -11,5 +11,3 @@
 <h2>Custom Colours</h2>
 
 <p>All themes support some basic colour editing features (background colour, and site heading colour). Some support further colour adjustments through the Styleguide plugin. Currently Puzzle is the only theme that supports custom colours fully - but we plan to add support for all themes eventually.</p>
-
-<?php documentation_customization( 'Custom Fonts and Colours' ); ?>

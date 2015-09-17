@@ -17,6 +17,9 @@
     if ( ! empty( $layout ) ) {
         include( $layout );
     }
+
+    documentation_customization();
+
 ?>
                 </div>
             </div>

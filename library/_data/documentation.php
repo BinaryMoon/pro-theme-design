@@ -154,6 +154,13 @@ function get_documentation_data() {
             'related' => array( 'site-logo', 'testimonials', 'custom-front-page', 'custom-css', 'custom-colours-fonts', ),
             'description' => 'Edit site settings and get a live preview of the changes.',
         ),
+        'widget-visibility' => array(
+            'name' => 'Widget Visibility',
+            'type' => 'feature',
+            'related' => array( 'customizer' ),
+            'description' => 'Show and hide widgets on different pages according to rules you set',
+            'requires' => 'jetpack',
+        ),
 
     );
 
@@ -318,7 +325,7 @@ function documentation_required_plugin( $page ) {
         $plugin_url = $docs[ $docs[ $page ][ 'requires' ] ][ 'path' ];
         $plugin_name = $docs[ $docs[ $page ][ 'requires' ] ][ 'name' ];
 ?>
-    <p class="notice"><?php printf( '<strong>%s</strong> require the <a href="%s">%s plugin</a>.', $docs[ $page ][ 'name' ], $plugin_url, $plugin_name ); ?></p>
+    <p class="notice"><?php printf( '<strong>%s</strong> requires the <a href="%s">%s plugin</a>.', $docs[ $page ][ 'name' ], $plugin_url, $plugin_name ); ?></p>
 <?php
     }
 
@@ -401,9 +408,9 @@ function documentation_plugin_features( $theme ) {
 /**
  * link to customization information page
  */
-function documentation_customization( $feature ) {
+function documentation_customization() {
 ?>
-    <p class="intro"><strong>Please note that we do not offer support for theme customizations - including <?php echo $feature; ?>. For more info on Customization services please go to our <a href="<?php echo path( 'theme-customization/' ); ?>">Theme Customization</a> page.</strong></p>
+    <p class="intro"><strong>Please note that we do not offer support or help with theme customizations. For more info on Customization services please go to our <a href="<?php echo path( 'theme-customization/' ); ?>">Theme Customization</a> page.</strong></p>
 <?php
 }
 
