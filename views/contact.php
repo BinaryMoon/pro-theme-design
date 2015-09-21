@@ -13,7 +13,7 @@
                     <div class="contact-selection">
                         <a class="contact-customization" href="<?php echo path( 'theme-customization/' ); ?>">Theme Customization <i class="fa fa-arrow-right"></i></a>
                         <a class="contact-documentation" href="<?php echo path( 'documentation/general/transfer-from-wordpress-com/' ); ?>">WordPress.com theme Transfer <i class="fa fa-arrow-right"></i></a>
-                        <a class="contact-technical" href="#">Theme Technical Help <i class="fa fa-arrow-right"></i></a>
+                        <a class="contact-technical" href="#">Theme Help / Question <i class="fa fa-arrow-right"></i></a>
                         <a class="contact-other" href="#">Other <i class="fa fa-arrow-right"></i></a>
                         <a class="contact-refund" href="<?php echo path( 'documentation/general/refunds/' ); ?>">Refund Request <i class="fa fa-arrow-right"></i></a>
                     </div>
