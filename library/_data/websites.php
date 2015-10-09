@@ -15,278 +15,275 @@ function get_website_data() {
      * image = fallback image in case auto screenshot doesn't work for whatever reason. Image should be 400 x 300
      */
     $websites = array(
-        array(
+        'barry-corner' => array(
             'url' => 'http://barrycomersblog.com/',
             'name' => 'Barry Corner',
             'theme' => 'monet',
             'tags' => array( 'monet', 'featured' ),
             'image' => 'barrycorner',
         ),
-        array(
+        'vuurig' => array(
             'url' => 'http://sonjavanvuure.com/',
             'name' => 'Vuurig',
             'theme' => 'monet',
             'tags' => array( 'monet' ),
             'image' => 'vuurig',
         ),
-        array(
+        'legos-and-friends' => array(
             'url' => 'http://legosandfriends.com/',
             'name' => 'Legos and Friends',
             'theme' => 'romero',
             'tags' => array( 'romero' ),
         ),
-        array(
+        'nice-n-naughty' => array(
             'url' => 'http://nicennaughtyboutique.com/',
             'name' => 'Nice N Naughty',
             'theme' => 'puzzle',
             'image' => 'nicennaughty',
             'tags' => array( 'puzzle', 'featured' ),
         ),
-        array(
+        'clear-sight' => array(
             'url' => 'http://bjdeming.com/',
             'name' => 'Clear Sight',
             'image' => 'bjdeming',
             'theme' => 'opti',
             'tags' => array( 'opti' ),
         ),
-        array(
+        'press-the-button' => array(
             'url' => 'http://pressthepsbutton.com/',
             'name' => 'Press the Button',
             'theme' => 'chronicle',
             'tags' => array( 'chronicle' ),
         ),
-        array(
+        'black-sunday-magazine' => array(
             'url' => 'http://blacksundaymagazine.net/',
             'name' => 'Black Sunday Magazine',
             'theme' => 'broadsheet',
             'tags' => array( 'broadsheet' ),
         ),
-        array(
+        'hanley-strength' => array(
             'url' => 'https://hanleystrength.wordpress.com/',
             'name' => 'Hanley Strength',
             'theme' => 'romero',
             'tags' => array( 'romero', 'featured' ),
         ),
-        array(
+        'should-i-go-see-it' => array(
             'url' => 'http://shouldigoseeit.com/',
             'name' => 'Should I Go See It',
             'image' => 'shouldigoseeit',
             'theme' => 'puzzle',
             'tags' => array( 'puzzle' ),
         ),
-        array(
+        'noise-nation' => array(
             'url' => 'https://noisenation.wordpress.com/',
             'name' => 'Noise Nation',
             'image' => 'noisenation',
             'theme' => 'opti',
             'tags' => array( 'opti' ),
         ),
-        array(
+        'the-fourth-crown' => array(
             'url' => 'http://thefourthcrown.com/',
             'name' => 'The Fourth Crown',
             'theme' => 'broadsheet',
             'tags' => array( 'broadsheet', 'featured' ),
         ),
-        array(
+        'torrent-this' => array(
             'url' => 'http://torrentthis.tv/',
             'name' => 'Torrent This',
             'theme' => 'romero',
             'tags' => array( 'romero', 'featured' ),
         ),
-        array(
+        'the-version' => array(
             'url' => 'http://theversion.co.uk/',
             'name' => 'The Version',
             'image' => 'theversion',
             'theme' => 'romero',
             'tags' => array( 'romero' ),
         ),
-        array(
+        'geeks-down-under' => array(
             'url' => 'http://geeksdownunder.com.au/',
             'name' => 'Geeks Down Under',
             'theme' => 'romero',
             'tags' => array( 'romero' ),
         ),
-        array(
+        'javier-mardueno' => array(
             'url' => 'http://javiermarduenoblog.com/',
             'name' => 'Javier Mardueno',
             'image' => 'javiermardueno',
             'theme' => 'puzzle',
             'tags' => array( 'puzzle', 'featured' ),
         ),
-        array(
+        'decograffik' => array(
             'url' => 'http://decograffik.com/',
             'name' => 'Decograffik',
             'image' => 'decograffik',
             'theme' => 'puzzle',
             'tags' => array( 'puzzle' ),
         ),
-        array(
+        'matthew-aaron-goodman' => array(
             'url' => 'http://matthewaarongoodman.com/',
             'name' => 'Matthew Aaron Goodman',
             'image' => 'matthewaarongoodman',
             'theme' => 'puzzle',
             'tags' => array( 'puzzle' ),
         ),
-        array(
+        'cynthia-lait' => array(
             'url' => 'http://cynthialait.com/',
             'name' => 'Cynthia Lait',
             'image' => 'cynthialait',
             'theme' => 'puzzle',
             'tags' => array( 'puzzle' ),
         ),
-        array(
+        'maroc-in-style' => array(
             'url' => 'http://marocinstyle.com/',
             'name' => 'Maroc in Style',
             'image' => 'maroc',
             'theme' => 'puzzle',
             'tags' => array( 'puzzle' ),
         ),
-        array(
+        'flossy-photography' => array(
             'url' => 'https://flossyphotography.wordpress.com/',
             'name' => 'Flossy Photography',
             'image' => 'flossy',
             'theme' => 'puzzle',
             'tags' => array( 'puzzle' ),
         ),
-        array(
+        'leah-pellegrini' => array(
             'url' => 'http://leahpellegrini.com/',
             'name' => 'Leah Pellegrini',
             'theme' => 'puzzle',
             'tags' => array( 'puzzle' ),
         ),
-        array(
+        'cokoroaji' => array(
             'url' => 'http://cokoroaji.com/',
             'name' => 'Cokoroaji',
             'image' => 'cokoroaji',
             'theme' => 'puzzle',
             'tags' => array( 'puzzle' ),
         ),
-        array(
+        'cincindos' => array(
             'url' => 'http://cincindos.com/',
             'name' => 'Cincindos',
             'image' => 'cincindos',
             'theme' => 'puzzle',
             'tags' => array( 'puzzle' ),
         ),
-        array(
+        'sperka' => array(
             'url' => 'http://sperka.info/',
             'name' => 'Sperka',
             'image' => 'sperka',
             'theme' => 'puzzle',
             'tags' => array( 'puzzle' ),
         ),
-        array(
+        'vocalise' => array(
             'url' => 'https://ballaratvocalise.wordpress.com/',
             'name' => 'Vocalise',
             'theme' => 'opti',
             'tags' => array( 'opti' ),
         ),
-        array(
+        'circle-of-confusion' => array(
             'url' => 'https://matthewduclos.wordpress.com/',
             'name' => 'Circle of Confusion',
             'image' => 'circleofconfusion',
             'theme' => 'opti',
             'tags' => array( 'opti' ),
         ),
-        array(
+        'bella-caledonia' => array(
             'url' => 'https://bellacaledonia.wordpress.com/',
             'name' => 'Bella Caledonia',
             'image' => 'bellacaledonia',
             'theme' => 'opti',
             'tags' => array( 'opti', 'featured' ),
         ),
-        array(
+        'national-rail-enquiries' => array(
             'url' => 'http://blog.nationalrail.co.uk/',
             'name' => 'National Rail Enquiries',
             'theme' => 'chronicle',
             'tags' => array( 'chronicle', 'featured' ),
         ),
-        array(
+        'berkeley-life-centre' => array(
             'url' => 'http://berkeleylifecentre.org/',
             'name' => 'Berkeley Life Centre',
             'theme' => 'chronicle',
             'tags' => array( 'chronicle', 'featured' ),
         ),
-        array(
+        'comic-community' => array(
             'url' => 'https://ccommunity.wordpress.com/',
             'name' => 'Comic Community',
             'theme' => 'chronicle',
             'tags' => array( 'chronicle' ),
         ),
-        array(
+        'fedali-photography' => array(
             'url' => 'http://fedalijournal.com/',
             'name' => 'Fedali Photography',
             'image' => 'fedalijournal',
             'theme' => 'chronicle',
             'tags' => array( 'chronicle' ),
         ),
-        array(
+        'schofield-trading' => array(
             'url' => 'http://schofieldtrading.com/',
             'name' => 'Schofield Trading',
             'image' => 'schofieldtrading',
             'theme' => 'chronicle',
             'tags' => array( 'chronicle' ),
         ),
-        array(
+        'cardinal-courier' => array(
             'url' => 'https://cardinalcourieronline.wordpress.com/',
             'name' => 'Cardinal Courier',
             'theme' => 'broadsheet',
             'tags' => array( 'broadsheet' ),
         ),
-        array(
+        'orange-county-tribune' => array(
             'url' => 'http://orangecountytribune.com/',
             'name' => 'Orange County Tribune',
             'theme' => 'broadsheet',
             'tags' => array( 'broadsheet' ),
         ),
-        array(
+        'the-sentinel' => array(
             'url' => 'https://shssentinel.wordpress.com/',
             'name' => 'The Sentinel',
             'theme' => 'broadsheet',
             'tags' => array( 'broadsheet' ),
         ),
-        array(
+        'gentlemans-portion' => array(
             'url' => 'http://gentlemansportion.com/',
             'name' => 'Gentlemans Portion',
             'theme' => 'broadsheet',
             'tags' => array( 'broadsheet' ),
         ),
-        array(
+        'solar-spindle' => array(
             'url' => 'http://solarspindle.com/',
             'name' => 'Solar Spindle',
             'theme' => 'broadsheet',
             'tags' => array( 'broadsheet' ),
         ),
-        array(
+        'probe-inernational' => array(
             'url' => 'http://journal.probeinternational.org/',
             'name' => 'Probe International',
             'theme' => 'broadsheet',
             'tags' => array( 'broadsheet' ),
         ),
-        array(
+        'the-banner' => array(
             'url' => 'http://thebannercsi.com/',
             'name' => 'The Banner',
             'theme' => 'broadsheet',
             'tags' => array( 'broadsheet' ),
         ),
-
-
-
-        array(
+        'leonardo-zhangelini' => array(
             'url' => 'http://zanghelini.com.br/',
             'name' => 'Leonardo Zhangelini',
             'theme' => 'monet',
             'tags' => array( 'monet' ),
             'image' => 'leonardozhangelini',
         ),
-        array(
+        'bailey-english-studio' => array(
             'url' => 'http://baileyenglishstudio.com/',
             'name' => 'Bailey English Studio',
             'theme' => 'monet',
             'tags' => array( 'monet' ),
             'image' => 'baileyenglishstudio',
         ),
-        array(
+        'red-electric' => array(
             'url' => 'http://redeclectic.com.au/',
             'name' => 'Red Electric',
             'theme' => 'monet',
@@ -297,7 +294,29 @@ function get_website_data() {
 
     );
 
-    return $websites;
+
+    $processed = array();
+
+    foreach ( $websites as $key => $site ) {
+
+        // preview url
+        $site[ 'url-preview' ] = path( 'showcase-preview/' . $key . '/' );
+
+        // preview url
+        $site[ 'url-showcase' ] = path( 'theme-showcase/' . $site['theme'] . '/#' . $key );
+
+        // setup site screenshots
+        if ( ! empty( $site[ 'image' ] ) ) {
+            $site[ 'image_url' ] = image_path( 'showcase/' . $site[ 'image' ] . '.jpg' );
+        } else {
+            $site[ 'image_url' ] = 'https://s0.wordpress.com/mshots/v1/' . urlencode( $site['url'] ) . '?w=400&h=300';
+        }
+
+        $processed[ $key ] = $site;
+
+    }
+
+    return $processed;
 
 }
 
@@ -326,33 +345,67 @@ function website_tag_exists( $tag = '' ) {
 /**
  * Filter websites to the selected tab
  */
-function website_get_by_tag( $tag = '' ) {
+function website_get_by_tag( $tag = '', $limit = -1 ) {
 
     $tag_websites = array();
     $websites = get_website_data();
 
     if ( $tag ) {
 
-        foreach ( $websites as $w ) {
-            if ( in_array( $tag, $w[ 'tags' ] ) ) {
-                $tag_websites[] = $w;
+        foreach ( $websites as $key => $website ) {
+            if ( in_array( $tag, $website[ 'tags' ] ) ) {
+                $tag_websites[ $key ] = $website;
             }
         }
 
     } else {
 
-        $count = 0;
-        foreach ( $websites as $w ) {
-            if ( $count < 15 ) {
-                $tag_websites[] = $w;
-            }
-            $count ++;
+        // no tag so change limit to 15
+        if ( $limit < 0 ) {
+            $limit = 15;
+        }
+
+        foreach ( $websites as $key => $website ) {
+            $tag_websites[ $key ] = $website;
         }
 
     }
 
-    shuffle( $tag_websites );
+    if ( $limit > 0 ) {
+        $tag_websites = array_slice( $tag_websites, 0, $limit );
+    }
+
+    // shuffle homepage only
+    if ( ! $tag ) {
+        shuffle( $tag_websites );
+    }
 
     return $tag_websites;
+
+}
+
+
+function website_get( $site ) {
+
+    $websites = get_website_data();
+
+    if ( isset( $websites[ $site ] ) ) {
+        return $websites[ $site ];
+    }
+
+    return false;
+
+}
+
+
+function website_exists( $site ) {
+
+    $websites = get_website_data();
+
+    if ( isset( $websites[ $site ] ) ) {
+        return true;
+    }
+
+    return false;
 
 }

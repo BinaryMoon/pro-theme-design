@@ -1,0 +1,118 @@
+// view the different easings at : http://easings.net/
+
+.transition( @transition: all 0.15s ease-in-out ) {
+	-webkit-transition: @transition;
+	   -moz-transition: @transition;
+	    -ms-transition: @transition;
+	     -o-transition: @transition;
+			transition: @transition;
+}
+
+.transition-delay( @delay: 150ms ) {
+	-webkit-transition-delay: @delay;
+			transition-delay: @delay;
+}
+
+.transition-property( @what:all ) {
+	-webkit-transition-property: @what;
+	   -moz-transition-property: @what;
+	    -ms-transition-property: @what;
+	     -o-transition-property: @what;
+	        transition-property: @what;
+}
+
+.transition-easeInSine( @what:all, @duration:0.15s ) {
+	.transition( @what @duration cubic-bezier(0.47, 0, 0.745, 0.715) );
+}
+
+.transition-easeOutSine( @what:all, @duration:0.15s ) {
+	.transition( @what @duration cubic-bezier(0.39, 0.575, 0.565, 1) );
+}
+
+.transition-easeInOutSine( @what:all, @duration:0.15s ) {
+	.transition( @what @duration cubic-bezier(0.445, 0.05, 0.55, 0.95) );
+}
+
+.transition-easeInQuad( @what:all, @duration:0.15s ) {
+	.transition( @what @duration cubic-bezier(0.55, 0.085, 0.68, 0.53) );
+}
+
+.transition-easeOutQuad( @what:all, @duration:0.15s ) {
+	.transition( @what @duration cubic-bezier(0.25, 0.46, 0.45, 0.94) );
+}
+
+.transition-easeInOutQuad( @what:all, @duration:0.15s ) {
+	.transition( @what @duration cubic-bezier(0.455, 0.03, 0.515, 0.955) );
+}
+
+.transition-easeInCubic( @what:all, @duration:0.15s ) {
+	.transition( @what @duration cubic-bezier(0.55, 0.055, 0.675, 0.19) );
+}
+
+.transition-easeOutCubic( @what:all, @duration:0.15s ) {
+	.transition( @what @duration cubic-bezier(0.215, 0.61, 0.355, 1) );
+}
+
+.transition-easeInOutCubic( @what:all, @duration:0.15s ) {
+	.transition( @what @duration cubic-bezier(0.645, 0.045, 0.355, 1) );
+}
+
+.transition-easeInQuart( @what:all, @duration:0.15s ) {
+	.transition( @what @duration cubic-bezier(0.895, 0.03, 0.685, 0.22) );
+}
+
+.transition-easeOutQuart( @what:all, @duration:0.15s ) {
+	.transition( @what @duration cubic-bezier(0.165, 0.84, 0.44, 1) );
+}
+
+.transition-easeInOutQuart( @what:all, @duration:0.15s ) {
+	.transition( @what @duration cubic-bezier(0.77, 0, 0.175, 1) );
+}
+
+.transition-easeInQuint( @what:all, @duration:0.15s ) {
+	.transition( @what @duration cubic-bezier(0.755, 0.05, 0.855, 0.06) );
+}
+
+.transition-easeOutQuint( @what:all, @duration:0.15s ) {
+	.transition( @what @duration cubic-bezier(0.23, 1, 0.32, 1) );
+}
+
+.transition-easeInOutQuint( @what:all, @duration:0.15s ) {
+	.transition( @what @duration cubic-bezier(0.86, 0, 0.07, 1) );
+}
+
+.transition-easeInExpo( @what:all, @duration:0.15s ) {
+	.transition( @what @duration cubic-bezier(0.95, 0.05, 0.795, 0.035) );
+}
+
+.transition-easeOutExpo( @what:all, @duration:0.15s ) {
+	.transition( @what @duration cubic-bezier(0.19, 1, 0.22, 1) );
+}
+
+.transition-easeInOutExpo( @what:all, @duration:0.15s ) {
+	.transition( @what @duration cubic-bezier(1, 0, 0, 1) );
+}
+
+.transition-easeInCirc( @what:all, @duration:0.15s ) {
+	.transition( @what @duration cubic-bezier(0.6, 0.04, 0.98, 0.335) );
+}
+
+.transition-easeOutCirc( @what:all, @duration:0.15s ) {
+	.transition( @what @duration cubic-bezier(0.075, 0.82, 0.165, 1) );
+}
+
+.transition-easeInOutCirc( @what:all, @duration:0.15s ) {
+	.transition( @what @duration cubic-bezier(0.785, 0.135, 0.15, 0.86) );
+}
+
+.transition-easeInBack( @what:all, @duration:0.15s ) {
+	.transition( @what @duration cubic-bezier(0.6, -0.28, 0.735, 0.045) );
+}
+
+.transition-easeOutBack( @what:all, @duration:0.15s ) {
+	.transition( @what @duration cubic-bezier(0.175, 0.885, 0.32, 1.275) );
+}
+
+.transition-easeInOutBack( @what:all, @duration:0.15s ) {
+	.transition( @what @duration cubic-bezier(0.68, -0.55, 0.265, 1.55) );
+}

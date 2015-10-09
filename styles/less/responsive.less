@@ -1,0 +1,62 @@
+
+@media only screen and (max-width: 749px) {
+
+    html {
+        font-size:((@font-size * 0.9) * 1%);
+    }
+
+    .page-404 .masthead,
+    .page-home .masthead,
+    .masthead {
+        h1 {
+            .modular-scale( @alpha );
+        }
+
+        p {
+            .modular-scale( @epsilon );
+        }
+    }
+
+    #footer {
+        .map {
+            height:auto;
+            background-size:100%;
+            background-position:center top;
+        }
+
+        .blurb {
+            position:relative;
+            margin-left:100px;
+            margin-bottom:@grid-line-height * 2;
+
+            &.blurb-ben,
+            &.blurb-darren {
+                left:auto;
+                top:0;
+                width:auto;
+            }
+        }
+    }
+
+}
+
+
+@media only screen and (max-width: 499px) {
+
+    html {
+        font-size:((@font-size * 0.85) * 1%);
+    }
+
+    nav.main-menu {
+        left:-100%;
+        width:90%;
+    }
+
+}
+
+
+@media print {
+
+
+
+}

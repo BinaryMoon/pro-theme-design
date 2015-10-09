@@ -1,10 +1,8 @@
             <section class="newsletter">
                 <form action="http://prothemedesign.us5.list-manage2.com/subscribe/post?u=45aef63185bbec7c729059160&amp;id=04983a7171" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-                    <label for="mce-EMAIL">Pro Theme Design News in Your Inbox</label>
+                    <h2>Pro Theme Design News Monthly</h2>
 
-                    <div class="mce-wrap">
-                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Your Email Address" required="">
-                        <input type="submit" value="Subscribe" name="subscribe" class="mc-embedded-subscribe">
-                    </div>
+                    <input type="email" value="" name="EMAIL" class="email" placeholder="Your Email Address" required="">
+                    <input type="submit" value="Subscribe" name="subscribe" class="button">
                 </form>
             </section>

@@ -1,0 +1,29 @@
+.breadcrumbs {
+    margin-bottom:@grid-line-height;
+    text-transform:uppercase;
+    letter-spacing:0.05em;
+    .modular-scale( @zeta );
+
+    a {
+        &:after {
+            content:'\f0da';
+            font-family: 'FontAwesome';
+            color:@canvas-grey-70;
+            margin:0 @menu-link-padding;
+        }
+
+        &:last-of-type {
+            color:@canvas-white;
+
+            &:after {
+                display:none;
+            }
+
+        }
+
+        &:hover {
+            text-decoration:none;
+        }
+
+    }
+}

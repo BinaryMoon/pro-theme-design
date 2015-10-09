@@ -84,7 +84,7 @@
       <div style="float: right; margin-top: 10px;">
         <p style="padding: 0; margin: 0;">
           <span id="codeableFormInProgress" style="display: none; margin-right: 10px;">Processing, please wait...</span>
-          <button id="codeableFormPostButton" style="padding:12px;" class="button">Post your WordPress task</button>
+          <button id="codeableFormPostButton" class="button">Post your WordPress task</button>
         </p>
       </div>
       <div style="clear: both;"></div>

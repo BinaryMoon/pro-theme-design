@@ -1,0 +1,51 @@
+.button {
+    background:@canvas-blue;
+    border:none;
+    color:contrast( @canvas-blue );
+    display:inline-block;
+    border-radius:@border-radius;
+    text-transform:uppercase;
+    letter-spacing:0.1em;
+    text-align:center;
+    .modular-scale( @eta, (@grid-line-height * 1.5) );
+    padding:0 (@grid-gutter);
+    .box-shadow( inset 0 -2px 0px 0px rgba(0,0,0,0.3) );
+
+    &:hover {
+        background:darken( @canvas-blue, 5% );
+        border-bottom-color:darken( @canvas-blue, 20% );
+        text-decoration:none;
+    }
+
+    &.disabled {
+        color:lighten( @canvas-blue, 25% );
+    }
+
+    &.end {
+    }
+
+    .fa {
+        margin-right:0.5em;
+
+        &.end {
+            margin-right:0;
+            margin-left:0.5em;
+        }
+    }
+
+    &.greedy {
+        width:100%;
+    }
+
+    &.positive {
+        background:@canvas-green;
+
+        &:hover {
+            background:darken( @canvas-green, 5% );
+        }
+
+        &.disabled {
+            color:lighten( @canvas-green, 25% );
+        }
+    }
+}

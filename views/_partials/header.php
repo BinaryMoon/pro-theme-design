@@ -1,11 +1,26 @@
         <header class="masthead">
             <div class="wrapper">
-                <div class="row">
-                    <a href="<?php echo path(); ?>" class="site-title">
-                        <img class="logomark" src="<?php echo image_path( 'website/logo-ptd.png' ); ?>" alt="Pro Theme Design Compass Logo" />
-                        <h1>Pro Theme Design</h1>
+                <h1>
+                    <a href="<?php echo path(); ?>">
+                        Pro Theme Design
                     </a>
-                    <h2><?php SiteTemplate::description(); ?></h2>
-                </div>
+                </h1>
+                <p><?php SiteTemplate::description(); ?></p>
             </div>
+
+            <nav class="social">
+                <a class="twitter" href="http://www.twitter.com/prothemedesign">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a class="facebook" href="http://www.facebook.com/prothemedesign">
+                    <i class="fa fa-facebook"></i>
+                </a>
+            </nav>
+
+            <nav class="menu-toggle">
+                <a href="#main-menu">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </nav>
         </header>
+

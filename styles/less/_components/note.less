@@ -1,0 +1,47 @@
+.note {
+    background:rgba(0,0,0,0.3);
+    padding:@grid-line-height @grid-gutter;
+    border-radius:@border-radius;
+    clear:both;
+
+    strong {
+        color:@canvas-white;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        margin:0 0 (@grid-line-height / 2) 0;
+    }
+
+    p {
+        margin-bottom:@grid-line-height;
+
+        &:last-child {
+            margin-bottom:0;
+        }
+    }
+
+    .fa {
+        color:@canvas-white;
+    }
+
+    &.message {
+        text-align:center;
+    }
+
+    &.breath {
+        margin-bottom:@grid-line-height * @grid-line-height-multiplyer;
+    }
+
+    &.note-themes-club {
+        padding-bottom:( @grid-line-height * 5 );
+        background-image:url( ../../img/website/theme-club-banner-tight.png );
+        background-position: bottom center;
+        background-repeat: repeat-x;
+    }
+
+    &.alt {
+        background-color:rgba(255,255,255,0.4);
+        color:@canvas-grey-70;
+    }
+
+}

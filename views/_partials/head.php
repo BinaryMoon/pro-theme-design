@@ -2,12 +2,12 @@
 <html class="no-js" lang="en">
     <head>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="profile" href="http://gmpg.org/xfn/11">
         <title><?php SiteTemplate::title(); ?></title>
 
-        <link rel="stylesheet" href="<?php echo css_path( 'foundation.css' ); ?>" />
-        <link rel="stylesheet" href="<?php echo css_path( 'custom.css' ); ?>" />
-        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,400,700,900" />
+        <link rel="stylesheet" href="<?php echo css_path( 'css/styles.css' ); ?>" />
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,900" />
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" />
 
         <meta name="google-site-verification" content="VDLz-TZD53CTCmTol81Cd1UoOyz5RuAjdyjiP4irmsk" />
@@ -26,7 +26,4 @@
 <?php
     }
 ?>
-
-        <script src="<?php echo js_path( 'vendor/jquery.js' ); ?>"></script>
-        <script src="https://gumroad.com/js/gumroad.js"></script>
     </head>

@@ -4,13 +4,10 @@
     <body class="page-support">
 
 <?php
-    include( '_partials/nav.php' );
     include( '_partials/header.php' );
 ?>
 
-        <div class="documentation">
-            <div class="content-main content-text">
-                <div class="row">
+        <div class="wrapper text">
 <?php
     SiteTemplate::breadcrumbs();
 
@@ -21,8 +18,7 @@
     documentation_customization();
 
 ?>
-                </div>
-            </div>
         </div>
+
 <?php
     include( '_partials/footer.php' );

@@ -1,0 +1,23 @@
+.wrapper {
+    max-width:1140px;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:@grid-line-height * 4;
+    padding-left:@grid-gutter;
+    padding-right:@grid-gutter;
+    .clear;
+
+    h1, h2, h3, h4, h5, h6 {
+        color:@canvas-white;
+    }
+
+    .intro {
+        .modular-scale( @delta, (@grid-line-height * 1.5) );
+    }
+
+    &.text {
+        max-width:760px;
+        .modular-scale( @epsilon, (@grid-line-height * 1.5) );
+    }
+}

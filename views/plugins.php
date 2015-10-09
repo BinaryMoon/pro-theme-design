@@ -6,32 +6,40 @@
 ?>
     <body class="page-plugins">
 
-        <?php include( '_partials/nav.php' ); ?>
         <?php include( '_partials/header.php' ); ?>
 
-        <div class="promo wordpress" id="plugin-wrapper">
 <?php
+
+    $class = 'big';
 
     foreach( $plugins as $plugin ) {
+
+        if ( 'big' === $class ) {
+            $class = 'big alt';
+        } else {
+            $class = 'big';
+        }
+
 ?>
-            <div class="product plugin">
-                <div class="large-7 columns image">
-                    <a href="<?php echo $plugin[ 'url' ]; ?>" target="_blank">
-                        <img src="<?php echo $plugin[ 'image' ]; ?>">
-                    </a>
+        <div class="block <?php echo $class; ?> wrapper">
+            <header>
+                <a href="<?php echo $plugin[ 'url' ]; ?>" target="_blank">
+                    <img src="<?php echo $plugin[ 'image' ]; ?>">
+                </a>
+            </header>
+            <section>
+                <div class="content">
+                    <h3><?php echo $plugin[ 'name' ]; ?></h3>
+                    <p><?php echo $plugin[ 'description' ]; ?></p>
+                    <footer>
+                        <a class="button" href="<?php echo $plugin[ 'url' ]; ?>" target="_blank">
+                            More Info &rsaquo;
+                        </a>
+                    </footer>
                 </div>
-                <div class="large-5 columns">
-                    <a class="desc" href="<?php echo $plugin[ 'url' ]; ?>" target="_blank">
-                        <h3><?php echo $plugin[ 'name' ]; ?></h3>
-                        <p><?php echo $plugin[ 'description' ]; ?></p>
-                        <div class="button">More Info &rsaquo;</div>
-                    </a>
-                </div>
-            </div>
+            </section>
+        </div>
 <?php
     }
-?>
-        </div>
 
-<?php
     include( '_partials/footer.php' );

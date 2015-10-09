@@ -1,13 +1,19 @@
 <?php
 
 
+/**
+ * Return the css path for the specified file
+ */
 function css_path( $path = '' ) {
 
-    return path( 'css/' . $path . '?d=' . DECACHE_CSS );
+    return path( 'styles/' . $path . '?d=' . DECACHE_CSS );
 
 }
 
 
+/**
+ * Return the image path for the specified file
+ */
 function image_path( $path = '' ) {
 
     return path( 'img/' . $path );
@@ -15,6 +21,9 @@ function image_path( $path = '' ) {
 }
 
 
+/**
+ * Return the javascript path for the specified file
+ */
 function js_path( $path = '' ) {
 
     return path( 'js/' . $path . '?d=' . DECACHE_JS );
@@ -22,6 +31,9 @@ function js_path( $path = '' ) {
 }
 
 
+/**
+ * A reusable helper that generates the path with the correct parent location
+ */
 function path( $path = '' ) {
 
     return get_base() . '/' . $path;
@@ -60,4 +72,15 @@ function twitter_share_link( $message = '' ) {
 
     echo $link;
 
+}
+
+
+function site_description() {
+
+
+
+}
+
+
+function site_title() {
 }

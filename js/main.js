@@ -1,67 +1,84 @@
-;(function($){
+/* globals $, Cookies */
 
-    // homepage tabs
+;(function(){
 
-    $(document).ready(function() {
+    // reusable functions
 
-        $( 'nav.tabs a' ).on( 'click', function(e) {
-            e.preventDefault();
+    function show_theme_purchase() {
 
-            var $this = $(this);
-            var target = $this.data( 'target' );
-            var prefix = (target == 'creative-market') ? 'cm' : 'wp';
+        show_overlay();
+        $( '.theme-modal' ).addClass( 'display' );
 
-            // change tab highlight
-            $( 'nav.tabs a' ).removeClass('selected');
-            $this.addClass('selected');
+    }
 
-            $( '#theme-wrapper' ).removeClass( 'creative-market wordpress' ).addClass( target );
+    function show_newsletter() {
 
-            // show and hide accordingly
-            $('.theme').hide();
-            $('.theme.' + target).each(function() {
-                var $this = $(this);
+        if ( ! $( 'body' ).hasClass( 'overlay-display' ) ) {
 
-                // set price
-                $this.find('.price').html( '$' + $this.data(prefix + '-price') );
+            Cookies.set( 'ptd-newsletter', 1, { expires: 365 } );
+            show_overlay();
+            $( '.newsletter-modal' ).addClass( 'display' );
 
-                // set urls
-                $this.find('a').attr('href', $this.data(prefix + '-url'));
-            }).show();
+        }
 
-        });
+    }
 
-    });
+    function hide_modal() {
+
+        $( '.modal-wrapper' ).removeClass( 'display' );
+        hide_overlay();
+
+    }
+
+    function show_overlay() {
+
+        $( 'body' ).addClass( 'overlay-display' );
+
+    }
+
+    function hide_overlay() {
+
+        $( 'body' ).removeClass( 'overlay-display' );
+
+    }
+
+    function update_visit_count() {
+
+        var visits = visit_count();
+        visits ++;
+        Cookies.set( 'ptd-visits', visits, { expires: 21 } );
+
+    }
+
+    function visit_count() {
+
+        return Cookies.get( 'ptd-visits' ) || 0;
+
+    }
+
+    function newsletter_count(){
+
+        return Cookies.get( 'ptd-newsletter' ) || 0;
+
+    }
 
 
-    // showcase popups
+    // generic modal close
 
-    $( '.showcase-website a' ).on( 'click', function( e ) {
+    $( '.overlay-close' ).on( 'click', function( e ) {
 
         e.preventDefault();
+        hide_modal();
 
-        var $this = $( this );
-        var modal = $( '.showcase-modal' );
-        var path = $this.attr( 'href' );
-
-        show_showcase();
-
-        modal.find( 'h3' ).html( $this.data( 'site-name' ) );
-        modal.find( 'a.showcase-buy-com' ).attr( 'href', $this.data( 'get-url-com' ) );
-        modal.find( 'a.showcase-buy-org' ).attr( 'href', $this.data( 'get-url-org' ) );
-        modal.find( '.iframe-wrapper' ).html( '<iframe src="' + path + '"></iframe>' );
-        modal.find( '.overlay-close' ).on( 'click', function( e ) {
-            e.preventDefault();
-            hide_modal();
-        });
-
-    });
+    } );
 
 
     // newsletter popup
 
     if ( visit_count() >= 3 && newsletter_count() < 1 ) {
+
         setTimeout( show_newsletter, 10000 );
+
     }
 
     update_visit_count();
@@ -71,51 +88,88 @@
 
     var tag = $( '.page-theme-showcase' );
 
-    if ( tag.length >= 1 ) {
-        $( '.showcase-filters a.tag-' + tag.data( 'tag' ) ).addClass( 'selected' );
+    if ( tag.length ) {
+
+        $( '.page-menu a.tag-' + tag.data( 'tag' ) ).addClass( 'selected' );
+
     }
 
 
-    // reusable functions
+    // get theme
 
-    function show_newsletter() {
-        if ( ! $( '.overlay' ).is( ':visible' ) ) {
-            $.cookie( 'ptd-newsletter', 1, { expires: 365, path: '/' } );
+    $( 'a.get-theme' ).on( 'click', function( e ) {
+
+        e.preventDefault();
+        show_theme_purchase();
+
+    } );
+
+
+    // menu
+
+    $( '.menu-toggle' ).on( 'click', function( e ) {
+
+        e.preventDefault();
+
+        if ( $( 'body' ).hasClass( 'overlay-display' ) ) {
+
+            hide_overlay();
+            $( 'body' ).removeClass( 'menu-display' );
+
+        } else {
+
             show_overlay();
-            $( '.newsletter-wrapper' ).fadeIn();
+            $( 'body' ).addClass( 'menu-display' );
+
         }
-    }
 
-    function show_showcase() {
-        show_overlay();
-        $( '.showcase-modal, .showcase-wrapper' ).fadeIn();
-    }
+    } );
 
-    function hide_modal() {
-        $( '.modal-wrapper' ).fadeOut();
+    $( '.menu-close' ).on( 'click', function( e ) {
+
+        e.preventDefault();
+
         hide_overlay();
-    }
+        $( 'body' ).removeClass( 'menu-display' );
 
-    function show_overlay() {
-        $( '.overlay' ).fadeIn();
-    }
+    } );
 
-    function hide_overlay() {
-        $( '.overlay' ).fadeOut();
-    }
 
-    function update_visit_count() {
-        var visits = visit_count();
-        visits++;
-        $.cookie( 'ptd-visits', visits, { expires: 21, path: '/' } );
-    }
+    // styleguide
 
-    function visit_count() {
-        return $.cookie( 'ptd-visits' ) || 0;
-    }
+    $( '.pattern' ).each( function() {
 
-    function newsletter_count(){
-        return $.cookie( 'ptd-newsletter' ) || 0;
-    }
+        var $link = $( this ).find( 'a.toggle' );
+        var $source = $( this ).find( '.source' );
+        var $display = $( this ).find( '.display' );
 
-})(jQuery);
+        $link.on( 'click', function( e ) {
+
+            e.preventDefault();
+
+            $( '.source, .display' ).not( $source ).not( $display ).removeClass( 'hidden' );
+
+            $source.toggleClass( 'hidden' );
+            $display.toggleClass( 'hidden' );
+
+        } );
+
+    } );
+
+    // theme and website preview
+
+    $( '.preview-size a' ).on( 'click', function( e ) {
+
+        e.preventDefault();
+
+        $( '.preview-size a' ).removeClass( 'selected' );
+        $( this ).addClass( 'selected' );
+
+        var new_size = $( this ).data( 'size' );
+        $( '.iframe-wrapper iframe' ).css( 'max-width', new_size );
+
+    });
+
+
+
+})();
