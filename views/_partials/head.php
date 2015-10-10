@@ -7,8 +7,8 @@
         <title><?php SiteTemplate::title(); ?></title>
 
         <link rel="stylesheet" href="<?php echo css_path( 'css/styles.css' ); ?>" />
-        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,900" />
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,900" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" />
 
         <meta name="google-site-verification" content="VDLz-TZD53CTCmTol81Cd1UoOyz5RuAjdyjiP4irmsk" />
 <?php
