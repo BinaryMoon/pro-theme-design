@@ -88,7 +88,7 @@ Flight::route( '/theme/(@theme)/', function( $theme = '' ) {
         $theme_name = $theme;
         $themes = get_theme_data();
 
-        SiteTemplate::title( $theme_data[ 'name' ] );
+        SiteTemplate::title( $theme_data[ 'name' ] . ' WordPress Theme' );
 
     } else {
 
@@ -285,7 +285,6 @@ Flight::route( '/documentation/(@type)(/@page)/', function( $type = '', $page = 
 
     }
 
-
     Flight::render(
         'documentation.php',
         array(
@@ -328,7 +327,7 @@ Flight::route( '/theme-preview/(@theme)/', function( $theme = '' ) {
  */
 Flight::route( '/showcase-preview/(@site)/', function( $site = '' ) {
 
-    SiteTemplate::title( 'Showcase Site Preview' );
+    SiteTemplate::title( 'WordPress Theme Preview' );
     $template = 'showcase-preview.php';
 
     if ( ! website_exists( $site ) ) {
@@ -358,8 +357,10 @@ Flight::map( 'notFound', function() {
 
     // see if there's a valid permanent redirect, and if there is send the user to the new location
     if ( $redirect_url = redirect_destination( $request->url ) ) {
+
         Flight::redirect( $redirect_url, 301 );
         die();
+
     }
 
     header( 'HTTP/1.0 404 Not Found' );
