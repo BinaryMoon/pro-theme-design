@@ -1,11 +1,5 @@
-<?php
-    include( '_partials/head.php' );
-?>
-    <body class="page-styleguide">
 
-        <?php include( '_partials/header.php' ); ?>
-
-        <div class="wrapper">
+        <div class="wrapper page-styleguide">
             <h1>Pro Theme Design Styleguide</h1>
 
             <h2>Brand Colours</h2>
@@ -65,6 +59,3 @@
     }
 ?>
         </div>
-<?php
-    include( '_partials/footer.php' );
-

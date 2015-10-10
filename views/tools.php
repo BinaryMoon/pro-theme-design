@@ -1,13 +1,11 @@
 <?php
     include( '_partials/head.php' );
 ?>
-    <body class="page-plugins">
+    <body class="page-tools">
 
         <?php include( '_partials/header.php' ); ?>
 
-        <div class="wrapper">
-
-        </div>
+        <?php include( '_tools/' . $layout ); ?>
 
 <?php
     include( '_partials/footer.php' );

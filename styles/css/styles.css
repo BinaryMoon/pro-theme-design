@@ -1288,6 +1288,7 @@ nav.main-menu li li a {
 }
 #footer .link {
   display: block;
+  margin-bottom: 0.825rem;
 }
 #footer .copyright {
   text-align: center;

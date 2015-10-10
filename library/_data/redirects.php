@@ -6,8 +6,6 @@
 function get_redirects() {
 
     /**
-    - /circular-icons/ - 170
-    - /free-webdesign-tools/circular-icons/ - 146
     - /themes/nominate-for-wordpress/ - 114
     - /themes/elemental/ - 57
     - /themes/accumulo/ - 23
@@ -19,6 +17,9 @@ function get_redirects() {
         '/themes/mimbo-pro/' => '/theme/mimbopro/',
         '/themes/opti-wordpress-theme/' => '/theme/opti/',
         '/support/' => '/documentation/',
+        '/circular-icons/' => '/tools/circular-icons/',
+        '/free-webdesign-tools/circular-icons/' => '/tools/circular-icons/',
+        '/free-webdesign-tools/circular-icons' => '/tools/circular-icons/',
     );
 
     return $redirects;

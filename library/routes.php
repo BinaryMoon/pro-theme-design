@@ -15,12 +15,41 @@ Flight::route( '/', function() {
 
 
 /**
- * Pattern Library
+ * Tools Pages
  */
-Flight::route( '/styleguide/', function() {
+Flight::route( '/tools/(@tool)/', function( $tool = '' ) {
+
+    $view = 'tools.php';
+    $layout = 'index.php';
+    $tool_data = array();
+
+    SiteTemplate::title( 'Pro Theme Design Handy Tools' );
+
+    if ( ! empty( $tool ) ) {
+        if ( $tool_data = tool_get( $tool ) ) {
+
+            SiteTemplate::title( $tool_data['name'] . ' - Pro Theme Design' );
+            SiteTemplate::description( $tool_data['description'] );
+
+            $layout = '_' . $tool . '/index.php';
+
+            if ( isset( $tool_data['view'] ) ) {
+                $view = $tool_data['view'];
+            }
+
+        } else {
+
+            Flight::notFound();
+
+        }
+    }
 
     Flight::render(
-        'styleguide.php'
+        $view,
+        array(
+            'tool' => $tool_data,
+            'layout' => $layout,
+        )
     );
 
 } );
