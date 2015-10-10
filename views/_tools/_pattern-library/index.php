@@ -1,20 +1,29 @@
+        <div class="wrapper text">
+            <h1>Pro Theme Design Styleguide</h1>
+            <p class="intro">This is the Pro Theme Design Living Pattern Library. This page includes examples of all the most common site elements with an example and the code required to reproduce the element.</p>
+            <p>This pattern library was inspired by the super simple <a href="https://github.com/adactio/Pattern-Primer/" target="_blank">Pattern Primer by Adactio</a>.</p>
+        </div>
 
         <div class="wrapper page-styleguide">
-            <h1>Pro Theme Design Styleguide</h1>
 
-            <h2>Brand Colours</h2>
+            <div class="pattern">
 
-            <div class="colours">
-                <div class="colour grey-100"></div>
-                <div class="colour grey-90"></div>
-                <div class="colour grey-80"></div>
-                <div class="colour grey-70"></div>
-                <div class="colour grey-60"></div>
-                <div class="colour grey-50"></div>
-                <div class="colour grey-40"></div>
-                <div class="colour grey-30"></div>
-                <div class="colour grey-20"></div>
-                <div class="colour grey-10"></div>
+                <h2>Brand Colours</h2>
+
+                <div class="colours">
+                    <div class="colour blue"></div>
+                    <div class="colour green"></div>
+                    <div class="colour grey-100"></div>
+                    <div class="colour grey-90"></div>
+                    <div class="colour grey-80"></div>
+                    <div class="colour grey-70"></div>
+                    <div class="colour grey-60"></div>
+                    <div class="colour grey-50"></div>
+                    <div class="colour grey-40"></div>
+                    <div class="colour grey-30"></div>
+                    <div class="colour grey-20"></div>
+                    <div class="colour grey-10"></div>
+                </div>
             </div>
 
             <h2>Pro Theme Design Pattern Library</h2>

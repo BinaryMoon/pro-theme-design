@@ -282,6 +282,7 @@ label {
 }
 label span {
   display: block;
+  margin-bottom: 0.825rem;
 }
 label.error {
   color: #e67e22;
@@ -968,6 +969,12 @@ body.overlay-display {
   margin: 0 2rem 1.65rem 0;
   border-radius: 3px;
 }
+.page-styleguide .colours .green {
+  background: #5ab92e;
+}
+.page-styleguide .colours .blue {
+  background: #268ebe;
+}
 .page-styleguide .colours .grey-100 {
   background: #21252a;
 }
@@ -996,7 +1003,7 @@ body.overlay-display {
   background: #f0f1f3;
 }
 .page-styleguide .colours .grey-10 {
-  background: #ffffff;
+  background: #dde4e7;
 }
 .page-styleguide .pattern {
   *zoom: 1;

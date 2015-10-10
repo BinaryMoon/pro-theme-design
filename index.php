@@ -1,16 +1,6 @@
 <?php
 
 /**
- * TODO
- *
- * Swap css over to less
- * Add the option for free themes on wordpress.org
- * Add support contact form (as part of theme docs)
- * make 'buy now' text consistent
- */
-
-
-/**
  * DOCUMENTATION IMPROVEMENTS
  *
  * installing child themes
@@ -25,7 +15,6 @@
  * screenshots showing front page setup
  * web hosting with aff links?
  * add browser and server requirements doc
- *
  */
 
 /**
@@ -50,10 +39,10 @@ define( 'GOOGLE_CSE', '010164663960188762731:aajo_mt5e2a' );
 
 
 // include needed stuff
+include_once( 'flight/Flight.php' );
+include_once( 'library/routes.php' );
 include_once( 'library/data.php' );
 include_once( 'library/functions.php' );
 include_once( 'library/template.php' );
-include_once( 'flight/Flight.php' );
-include_once( 'library/routes.php' );
 
 Flight::start();
