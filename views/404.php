@@ -7,7 +7,7 @@
         <header class="masthead">
             <div class="wrapper">
                 <h1><a href="<?php echo path(); ?>">404 :(</a></h1>
-                <p><a href="<?php echo path(); ?>">Visit the homepage &rarr;</a></p>
+                <p><a href="<?php echo path(); ?>">Visit the homepage <i class="fa fa-arrow-right"></i></a></p>
             </div>
         </header>
 

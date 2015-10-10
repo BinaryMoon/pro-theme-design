@@ -5,7 +5,7 @@
 
     <div class="note intro breath">
         <p><?php echo $doc[ 'description' ]; ?></p>
-        <p><a href="<?php echo $doc[ 'url' ]; ?>" class="button">More Info &rarr;</a></p>
+        <p><a href="<?php echo $doc[ 'url' ]; ?>" class="button">More Info <i class="fa fa-arrow-right"></i></a></p>
     </div>
 
     <img src="<?php echo image_path( 'devices/' . $doc['image'] ); ?>" />

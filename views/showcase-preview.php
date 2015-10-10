@@ -7,7 +7,7 @@
     <body class="page-preview">
         <header>
             <h1><?php echo $site_data[ 'name' ]; ?></h1>
-            <a href="<?php echo $site_data[ 'url-showcase' ]; ?>" class="button">&larr; <?php echo $theme_data[ 'name' ]; ?> Site Showcase</a>
+            <a href="<?php echo $site_data[ 'url-showcase' ]; ?>" class="button"><i class="fa fa-arrow-left"></i><?php echo $theme_data[ 'name' ]; ?> Site Showcase</a>
             <a href="<?php echo $theme_data[ 'url' ]; ?>" class="button"><?php echo $theme_data[ 'name' ]; ?> Info</a>
             <div class="preview-size">
                 <a href="/" class="selected" data-size="100%"><i class="fa fa-desktop"></i></a>

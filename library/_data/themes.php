@@ -212,6 +212,22 @@ function get_theme_data() {
             $theme[ 'url-wporg' ] = '';
         }
 
+        // all themes are on wordpress.com so fill out the rest of the url
+        $theme[ 'url-wpcom' ] = 'https://wordpress.com/themes/' . $theme[ 'url-wpcom' ] . '/';
+
+        // theme info page
+        $theme[ 'url' ] = path( 'theme/' . $key . '/' );
+
+        // theme preview
+        if ( ! empty( $theme[ 'url-cm' ] ) ) {
+            $theme[ 'url-preview' ] = path( 'theme-preview/' . $key . '/' );
+        } else {
+            $theme[ 'url-preview' ] = '';
+        }
+
+        // theme showcase
+        $theme[ 'url-showcase' ] = path( 'theme-showcase/' . $key . '/' );
+
         // set price
         if ( empty( $theme[ 'price-wporg' ] ) ) {
             $theme[ 'price-wporg' ] = 'free!';
@@ -220,18 +236,6 @@ function get_theme_data() {
         }
 
         $theme[ 'price-wpcom' ] = '$' . $theme[ 'price-wpcom' ];
-
-        // all themes are on wordpress.com so fill out the rest of the url
-        $theme[ 'url-wpcom' ] = 'https://wordpress.com/themes/' . $theme[ 'url-wpcom' ] . '/';
-
-        // theme info page
-        $theme[ 'url' ] = path( 'theme/' . $key . '/' );
-
-        // theme preview
-        $theme[ 'url-preview' ] = path( 'theme-preview/' . $key . '/' );
-
-        // theme showcase
-        $theme[ 'url-showcase' ] = path( 'theme-showcase/' . $key . '/' );
 
         // set default theme features that all themes support
         $theme[ 'supports' ] = array_merge(

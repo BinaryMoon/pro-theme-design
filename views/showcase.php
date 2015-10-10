@@ -58,7 +58,7 @@
             <div class="note message">
                 <h2><?php echo $theme_data[ 'name' ]; ?></h2>
                 <p class="intro"><?php echo $theme_data[ 'description' ]; ?></p>
-                <a href="<?php echo $theme_data[ 'url' ]; ?>" class="button positive">More info &rarr;</a>
+                <a href="<?php echo $theme_data[ 'url' ]; ?>" class="button positive">More info <i class="fa fa-arrow-right"></i></a>
             </div>
         </div>
 <?php

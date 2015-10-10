@@ -33,7 +33,7 @@
                     <p><?php echo $plugin[ 'description' ]; ?></p>
                     <footer>
                         <a class="button" href="<?php echo $plugin[ 'url' ]; ?>" target="_blank">
-                            More Info &rsaquo;
+                            More Info<i class="fa fa-arrow-right end"></i>
                         </a>
                     </footer>
                 </div>
