@@ -1,6 +1,24 @@
 <?php
 
 /**
+ * TODO
+ *
+ * add navigation menu to the footer to make things like tools more obvious
+ * consider moving theme buy now popup to bottom of page
+ * add breadcrumbs to tools or add a list of tools at the bottom of the different tools pages (for example ‘more tools’ or ‘random tools’)
+ * make google search work
+ * add more detailed theme descriptions
+ * new logo - https://99designs.co.uk/readymade/logos/search?q=wordpress
+ * favicon.ico
+ * social sharing images (metadata)
+ * set up redirects
+    - /themes/nominate-for-wordpress/ - 114
+    - /themes/elemental/ - 57
+    - /themes/accumulo/ - 23
+    - /themes/thelocal/ - 23
+ */
+
+/**
  * DOCUMENTATION IMPROVEMENTS
  *
  * installing child themes
@@ -33,7 +51,7 @@ if ( 'localhost' == $_SERVER[ 'HTTP_HOST' ] ) {
 
 
 // constants
-define( 'DECACHE_CSS', '12' );
+define( 'DECACHE_CSS', '13' );
 define( 'DECACHE_JS', '7' );
 define( 'ENV', $environment );
 define( 'GOOGLE_CSE', '010164663960188762731:aajo_mt5e2a' );
