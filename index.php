@@ -31,6 +31,7 @@ if ( 'localhost' == $_SERVER[ 'HTTP_HOST' ] ) {
     $environment = 'dev';
 }
 
+
 // constants
 define( 'DECACHE_CSS', '12' );
 define( 'DECACHE_JS', '7' );
@@ -45,4 +46,19 @@ include_once( 'library/data.php' );
 include_once( 'library/functions.php' );
 include_once( 'library/template.php' );
 
+
+// ensure the production site is running on https and using a canonical domain name (no www)
+if ( 'prod' === $environment ) {
+
+    $url = $_SERVER[ 'HTTP_X_FORWARDED_PROTO' ] . '://' . $_SERVER[HTTP_HOST] . $_SERVER[REQUEST_URI];
+    $target_url = 'https://' . str_replace( 'www.', '', $_SERVER[HTTP_HOST] ) . $_SERVER[REQUEST_URI];
+
+    if ( $target_url !== $url ) {
+        Flight::redirect( $target_url, 301 );
+    }
+
+}
+
+
+// take flight
 Flight::start();
