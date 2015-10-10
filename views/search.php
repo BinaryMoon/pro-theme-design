@@ -5,7 +5,7 @@
 
         <?php include( '_partials/header.php' ); ?>
 
-        <div class="promo wordpress">
+        <div class="wrapper text">
             <?php include( '_partials/google-search.php' ); ?>
 
 <script>
