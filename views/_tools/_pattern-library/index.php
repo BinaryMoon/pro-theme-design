@@ -1,4 +1,6 @@
         <div class="wrapper text">
+            <?php SiteTemplate::breadcrumbs(); ?>
+
             <h1>Pro Theme Design Styleguide</h1>
             <p class="intro">This is the Pro Theme Design Living Pattern Library. This page includes examples of all the most common site elements with an example and the code required to reproduce the element.</p>
             <p>This pattern library was inspired by the super simple <a href="https://github.com/adactio/Pattern-Primer/" target="_blank">Pattern Primer by Adactio</a>.</p>

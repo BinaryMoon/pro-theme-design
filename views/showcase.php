@@ -73,7 +73,7 @@
         $count ++;
 ?>
             <div class="block showcase-website theme-<?php echo $site['theme']; ?>">
-                <a href="<?php echo $site[ 'url-preview' ]; ?>" class="open">
+                <a href="<?php echo $site[ 'url-preview' ]; ?>" class="image">
                     <img src="<?php echo $site[ 'image_url' ]; ?>" width="400" height="300" />
                 </a>
                 <div class="meta">

@@ -1,6 +1,8 @@
 <div class="wrapper text">
+    <?php SiteTemplate::breadcrumbs(); ?>
+
     <h1>Test Suite</h1>
-    <p class="intro">After launch test the following pages to ensure all content is loading properly, and looking as it should. Make sure to test the on both desktop and smartphone resolutions.</p>
+    <p class="intro">After launch test the following pages to ensure all content is loading properly, and looking as it should. Make sure to test on both desktop and smartphone resolutions.</p>
     <p>This list covers at least one of each type of page/ template available on the site.</p>
 
     <ul>

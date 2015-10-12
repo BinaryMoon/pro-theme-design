@@ -84,3 +84,13 @@ function site_description() {
 
 function site_title() {
 }
+
+
+/**
+ * Return the screenshot url for a website
+ */
+function site_screenshot( $url ) {
+
+    return 'https://s0.wordpress.com/mshots/v1/' . urlencode( $url ) . '?w=400&h=300';
+
+}

@@ -7,6 +7,18 @@ function get_tools_data() {
 
     $tools = array(
         // external tools
+        'free-stock-photos' => array(
+            'name' => 'Free Stock Photos',
+            'description' => 'Stock photography for your projects.',
+            'tag' => 'external',
+            'icon' => 'camera',
+        ),
+        'free-stock-videos' => array(
+            'name' => 'Free Stock Videos',
+            'description' => 'Stock videos for your projects.',
+            'tag' => 'external',
+            'icon' => 'video-camera',
+        ),
         'circular-icons' => array(
             'name' => 'Circular Icons',
             'description' => 'Tiny round bitmap icons.',

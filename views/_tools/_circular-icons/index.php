@@ -1,4 +1,6 @@
 <div class="wrapper text">
+    <?php SiteTemplate::breadcrumbs(); ?>
+
     <h1>Circular Icons</h1>
     <p class="intro">A bitmap icon set I published in 2008.</p>
     <img src="<?php echo image_path( 'website/circular-icons.png' ); ?>" alt="Circular Icons Demo" />
