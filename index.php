@@ -16,6 +16,7 @@
     - /themes/elemental/ - 57
     - /themes/accumulo/ - 23
     - /themes/thelocal/ - 23
+    - how-to/recommended-plugins/schedule-content-with-automatic-post-scheduler/
  */
 
 /**
