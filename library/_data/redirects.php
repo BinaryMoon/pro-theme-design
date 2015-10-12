@@ -20,6 +20,8 @@ function get_redirects() {
         '/circular-icons/' => '/tools/circular-icons/',
         '/free-webdesign-tools/circular-icons/' => '/tools/circular-icons/',
         '/free-webdesign-tools/circular-icons' => '/tools/circular-icons/',
+        '/themes/' => '/',
+        '/how-to/free-stock-photos-images/' => '/tools/free-stock-photos/',
     );
 
     return $redirects;
