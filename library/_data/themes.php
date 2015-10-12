@@ -305,3 +305,23 @@ function themes_get( $theme_slug ) {
     return false;
 
 }
+
+
+/**
+ * get X random themes from the list
+ */
+function themes_get_random( $count = 3 ) {
+
+    $themes = get_theme_data();
+
+    $count = (int) $count;
+
+    if ( $count < 3 ) {
+        $count = 3;
+    }
+
+    shuffle( $themes );
+
+    return array_slice( $themes, 0, $count );
+
+}

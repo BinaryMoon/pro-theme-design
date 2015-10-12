@@ -28,3 +28,5 @@
         <li><a href="<?php echo path( 'policies/' ); ?>">Terms and Conditions</a></li>
     </ul>
 </div>
+<?php
+    site_include_view( '/_partials/more-themes.php' );

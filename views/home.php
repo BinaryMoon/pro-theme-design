@@ -40,7 +40,7 @@
 
         <div class="theme-wrapper block-wrapper wrapper">
 <?php
-    foreach( $themes as $theme ) {
+    foreach ( $themes as $theme ) {
 ?>
             <div class="block overlap-header">
                 <header>

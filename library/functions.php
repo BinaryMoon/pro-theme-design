@@ -94,3 +94,25 @@ function site_screenshot( $url ) {
     return 'https://s0.wordpress.com/mshots/v1/' . urlencode( $url ) . '?w=400&h=300';
 
 }
+
+
+/**
+ * Include a view
+ */
+function site_include_view( $path ) {
+
+    $path = site_view_path( $path );
+
+    include( $path );
+
+}
+
+
+/**
+ * Get a path relative to the view directory
+ */
+function site_view_path( $path ) {
+
+    return Flight::get( 'flight.views.path' ) . $path;
+
+}
