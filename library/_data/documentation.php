@@ -378,7 +378,8 @@ function documentation_supported_themes( $page ) {
 
     if ( ! empty( $supported ) ) {
 ?>
-    <p><strong>Supported Themes: <?php echo implode( ', ', $supported ); ?></strong></p>
+    <h2>Supported Themes</h2>
+    <p><?php echo implode( ', ', $supported ); ?></p>
 <?php
     }
 
@@ -450,7 +451,7 @@ function documentation_related( $feature ) {
     if ( ! empty( $docs[ $feature ][ 'related' ] ) ) {
         $related_docs = $docs[ $feature ][ 'related' ];
 ?>
-        <h3>Related Features</h3>
+        <h2>Related Features</h2>
         <ul>
 <?php
         foreach( $related_docs as $related_feature ) {
