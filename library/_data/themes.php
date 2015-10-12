@@ -57,6 +57,7 @@ function get_theme_data() {
             'description' => 'A magazine theme. With 3 optional widget areas, featured posts, and a huge homepage slider, there are lots of options for creating interesting, immersive websites.',
             'price-wpcom' => 79,
             'price-wporg' => 129,
+            'parent-theme' => 'broadsheet',
             'url-wpcom' => 'chronicle',
             'url-cm' => '113017-Chronicle-Magazine-Theme',
             'image' => 'chronicle.png',
