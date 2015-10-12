@@ -17,3 +17,10 @@
 <h2>Installation via FTP</h2>
 
 <p>Alternatively you can also install the theme directly on your server with a FTP client (e.g. Filezilla for Windows or Cyberduck for Mac). To do this you will need to extract all zip files and then drop the un-zipped theme folders into your …/wp-content/themes/ folder. You can then head over to the WordPress Admin and see your installed theme in the Appearance → Themes admin screen. From there you can activate your theme by clicking on the Activate link.</p>
+
+<p>Once installed the themes should use the following directory structure.</p>
+
+<ul>
+    <li>wp-content/themes/broadsheet/..</li>
+    <li>wp-content/themes/chronicle/..</li>
+</ul>

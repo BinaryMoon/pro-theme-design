@@ -47,6 +47,10 @@ function get_documentation_data() {
             'name' => 'Theme Updates',
             'type' => 'general',
         ),
+        'wordpress-requirements' => array(
+            'name' => 'Theme Requirements',
+            'type' => 'general',
+        ),
 
 
         // features

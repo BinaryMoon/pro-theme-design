@@ -22,18 +22,13 @@
 /**
  * DOCUMENTATION IMPROVEMENTS
  *
- * installing child themes
- * add installation procedure to theme docs
  * plugin installation
- * theme updates
  * info about custom widgets for mimbo pro
- * link to tutorials on general wordpress usage
  * documentation about customizer
  * info about customizer settings as needed
  * screenshots for features
  * screenshots showing front page setup
  * web hosting with aff links?
- * add browser and server requirements doc
  */
 
 /**
