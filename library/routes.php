@@ -25,11 +25,17 @@ Flight::route( '/tools/(@tool)/', function( $tool = '' ) {
 
     SiteTemplate::title( 'Pro Theme Design Handy Tools' );
 
+    SiteTemplate::add_breadcrumb( 'Tools', 'tools/' );
+
+
     if ( ! empty( $tool ) ) {
         if ( $tool_data = tool_get( $tool ) ) {
 
             SiteTemplate::title( $tool_data['name'] . ' - Pro Theme Design' );
             SiteTemplate::description( $tool_data['description'] );
+
+            SiteTemplate::add_breadcrumb( $tool_data['name'], 'tools/' . $tool . '/' );
+
 
             $layout = '_' . $tool . '/index.php';
 
