@@ -21,6 +21,7 @@ function get_redirects() {
         '/free-webdesign-tools/circular-icons/' => '/tools/circular-icons/',
         '/free-webdesign-tools/circular-icons' => '/tools/circular-icons/',
         '/themes/' => '/',
+        '/products/' => '/',
         '/how-to/free-stock-photos-images/' => '/tools/free-stock-photos/',
     );
 
