@@ -1,5 +1,5 @@
 <div class="wrapper text">
-    <?php SiteTemplate::breadcrumbs(); ?>
+    <?php site_breadcrumbs(); ?>
 
     <h1>Test Suite</h1>
     <p class="intro">After launch test the following pages to ensure all content is loading properly, and looking as it should. Make sure to test on both desktop and smartphone resolutions.</p>

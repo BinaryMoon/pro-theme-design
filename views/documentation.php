@@ -9,7 +9,7 @@
 
         <div class="wrapper text">
 <?php
-    SiteTemplate::breadcrumbs();
+    site_breadcrumbs();
 
     if ( ! empty( $layout ) ) {
         include( $layout );

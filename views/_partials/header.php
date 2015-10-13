@@ -5,7 +5,7 @@
                         Pro Theme Design
                     </a>
                 </h1>
-                <p><?php SiteTemplate::description(); ?></p>
+                <p><?php site_description(); ?></p>
             </div>
 
             <nav class="social">

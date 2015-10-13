@@ -36,7 +36,7 @@
 ?>
 
 <div class="wrapper text">
-    <?php SiteTemplate::breadcrumbs(); ?>
+    <?php site_breadcrumbs(); ?>
 
     <h1>Free Stock Photos</h1>
     <p>This is a collection of the finest <strong>FREE</strong> stock photography sites online. Make sure to check the individual websites for photo license information. All sites have free photos, but some require some kind of credit.</p>

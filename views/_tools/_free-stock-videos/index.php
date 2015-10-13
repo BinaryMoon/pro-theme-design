@@ -18,7 +18,7 @@
 ?>
 
 <div class="wrapper text">
-    <?php SiteTemplate::breadcrumbs(); ?>
+    <?php site_breadcrumbs(); ?>
 
     <h1>Free Stock Videos</h1>
     <p>A current trend is to add video backgrounds to your site. This is a collection of the finest <strong>FREE</strong> stock video sites online. If you want images for your project then check out the <a href="<?php echo path( 'tools/free-stock-photos/' ); ?>">free stock photo galleries</a> as well.</p>

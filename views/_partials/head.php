@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="profile" href="http://gmpg.org/xfn/11">
-        <title><?php SiteTemplate::title(); ?></title>
+        <title><?php site_title(); ?></title>
 
         <link rel="stylesheet" href="<?php echo css_path( 'css/styles.css' ); ?>" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,900" />

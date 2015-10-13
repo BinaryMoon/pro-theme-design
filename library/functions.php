@@ -75,17 +75,6 @@ function twitter_share_link( $message = '' ) {
 }
 
 
-function site_description() {
-
-
-
-}
-
-
-function site_title() {
-}
-
-
 /**
  * Return the screenshot url for a website
  */

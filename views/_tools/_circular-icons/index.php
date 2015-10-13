@@ -1,5 +1,5 @@
 <div class="wrapper text">
-    <?php SiteTemplate::breadcrumbs(); ?>
+    <?php site_breadcrumbs(); ?>
 
     <h1>Circular Icons</h1>
     <p class="intro">A bitmap icon set I published in 2008.</p>
