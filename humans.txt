@@ -9,6 +9,6 @@
 
 /* SITE */
     Standards: HTML5, CSS3
-    Components: jQuery, Orbit, Reveal, Flight
-    Software: Brackets, Git
+    Components: Zepto JS, Flight PHP, JS Cookie
+    Software: Brackets, Git, Sketch, Acorn, Pixelmator
     Doctype: HTML5
