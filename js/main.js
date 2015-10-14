@@ -171,5 +171,31 @@
     });
 
 
+    // contact form
+
+    $( '.contact-other' ).on( 'click', function( e ) {
+
+        e.preventDefault();
+        prepare_form( '.form-contact-other' );
+
+    } );
+
+    $( '.contact-technical' ).on( 'click', function( e ) {
+
+        e.preventDefault();
+        prepare_form( '.form-contact-technical' );
+
+    } );
+
+
+    function prepare_form( selector ) {
+
+        $( selector ).addClass( 'display' ).attr( 'action', '//formspree.io/' + 'support' + '@' + 'prothemedesign' + '.' + 'com' );
+        $( '.contact-selection' ).addClass( 'hidden' );
+
+    }
+
+
+
 
 })();

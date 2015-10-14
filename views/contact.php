@@ -17,7 +17,7 @@
 
 
             <!-- pre sales contact form -->
-            <form id="formspree" class="formspree form-contact-other" method="POST" style="display:none;">
+            <form class="formspree form-contact-other" method="POST">
                 <label>
                     <span>Your Name</span>
                     <input type="text" name="name" placeholder="Jane Smith" required />
@@ -42,7 +42,7 @@
 
 
             <!-- technical support contact form -->
-            <form id="formspree" class="formspree form-contact-technical" method="POST" style="display:none;">
+            <form class="formspree form-contact-technical" method="POST">
                 <label>
                     <span>Your Name</span>
                     <input type="text" name="name" placeholder="Jane Smith" required />
@@ -59,6 +59,7 @@
                         <option>Select one</option>
                         <option value="wordpress-com">WordPress.com</option>
                         <option value="creative-market">Creative Market</option>
+                        <option value="wordpress-org">WordPress.org</option>
                     </select>
                 </label>
 
@@ -84,30 +85,5 @@
 
 
         </div>
-
-        <script>
-
-            $( '.contact-other' ).on( 'click', function( e ) {
-
-                e.preventDefault();
-                prepare_form( '.form-contact-other' );
-
-            } );
-
-            $( '.contact-technical' ).on( 'click', function( e ) {
-
-                e.preventDefault();
-                prepare_form( '.form-contact-technical' );
-
-            } );
-
-
-            function prepare_form( selector ) {
-
-                $( selector ).fadeIn( 250 ).attr( 'action', '//formspree.io/' + 'support' + '@' + 'prothemedesign' + '.' + 'com' );
-                $( '.contact-selection' ).slideUp();
-
-            }
-        </script>
 <?php
     include( '_partials/footer.php' );

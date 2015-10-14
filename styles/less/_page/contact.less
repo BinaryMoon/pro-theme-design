@@ -1,6 +1,9 @@
 .page-contact {
 
     .contact-selection {
+        .transition;
+        overflow:hidden;
+
         a {
             background:rgba(0,0,0,0.3);
             border-radius: @border-radius;
@@ -13,6 +16,24 @@
                 float:right;
                 color:@canvas-white;
             }
+        }
+
+        &.hidden {
+            height:0;
+            opacity:0;
+        }
+    }
+
+    form.formspree {
+        opacity:0;
+        .transition;
+        height:0;
+        visibility:hidden;
+
+        &.display {
+            visibility:visible;
+            height:auto;
+            opacity:1;
         }
     }
 
