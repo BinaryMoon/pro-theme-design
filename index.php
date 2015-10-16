@@ -5,12 +5,13 @@
  *
  * add navigation menu to the footer to make things like tools more obvious
  * consider moving theme buy now popup to bottom of page
- * add breadcrumbs to tools or add a list of tools at the bottom of the different tools pages (for example ‘more tools’ or ‘random tools’)
  * make google search work
  * add more detailed theme descriptions
+ * add documentation links to the theme pages
  * new logo - https://99designs.co.uk/readymade/logos/search?q=wordpress
  * favicon.ico
  * social sharing images (metadata)
+ * make the drawer close when the overlay is clicked
  * set up redirects
     - /themes/nominate-for-wordpress/ - 114
     - /themes/elemental/ - 57
@@ -29,6 +30,10 @@
  * screenshots for features
  * screenshots showing front page setup
  * web hosting with aff links?
+ * post formats
+ * custom login design
+ * seo (and recommend a plugin or two)
+ * separate pages listing wordpress.org and wordpress.com themes
  */
 
 /**
