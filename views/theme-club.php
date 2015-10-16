@@ -18,7 +18,7 @@
                 <li><strong>New themes</strong>: We aim to release a minimum of 2 new themes every year.</li>
             </ul>
 
-            <table id="pricing">
+            <table id="pricing" class="comparison">
                 <tr>
                     <th></th>
                     <th class="title">Theme Club</th>

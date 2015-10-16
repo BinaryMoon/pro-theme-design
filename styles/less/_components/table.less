@@ -1,0 +1,30 @@
+table.comparison {
+
+    .fa {
+        &.fa-check {
+            color:@canvas-green;
+        }
+
+        &.fa-times {
+            color:@canvas-red;
+        }
+    }
+
+    td {
+        text-align:center;
+        vertical-align: top;
+        .modular-scale( @zeta );
+
+        &.feature {
+            text-align:right;
+            color:@canvas-white;
+            width:25%;
+        }
+
+        span {
+            display:block;
+            .modular-scale( @eta );
+        }
+    }
+
+}
