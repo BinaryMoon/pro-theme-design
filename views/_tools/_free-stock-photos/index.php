@@ -3,6 +3,7 @@
         'unsplash.com' => 'Unsplash, the original.',
         'gratisography.com' => 'Free high-res pictures by Ryan McGuire.',
         'picjumbo.com' => 'Jumbo Photos.',
+        'minimography.com' => 'Minimography - Minimal photography',
         'images.superfamous.com' => '',
         'nos.twnsnd.co' => 'New Old Stock.',
         'imcreator.com/free' => 'Photos, icons, and more.',
