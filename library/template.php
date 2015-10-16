@@ -29,7 +29,9 @@ function site_title( $new_title = '' ) {
 
 
 /**
- * add some breadcrumbs
+ * Add some breadcrumbs
+ * @param string $name What to show on the breadcrumb link
+ * @param string $url  Url of the breadcrumb
  */
 function site_breadcrumb_add( $name, $url ) {
 
