@@ -24,7 +24,7 @@
         <div class="block <?php echo $class; ?> wrapper">
             <header>
                 <a href="<?php echo $plugin[ 'url' ]; ?>" target="_blank">
-                    <img src="<?php echo $plugin[ 'image' ]; ?>">
+                    <img src="<?php echo $plugin[ 'image' ]; ?>" alt="<?php echo $plugin['name']; ?> Cover Image" />
                 </a>
             </header>
             <section>

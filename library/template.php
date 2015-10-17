@@ -3,12 +3,16 @@
 /**
  * Set or display the site description
  */
-function site_description( $new_description = '' ) {
+function site_description( $new_description = '', $strip_tags = false ) {
 
     if ( ! empty( $new_description ) ) {
         Flight::set( 'site.description', $new_description );
     } else {
-        echo Flight::get( 'site.description' );
+        if ( $strip_tags ) {
+            echo strip_tags( Flight::get( 'site.description' ) );
+        } else {
+            echo Flight::get( 'site.description' );
+        }
     }
 
 }
@@ -16,6 +20,8 @@ function site_description( $new_description = '' ) {
 
 /**
  * Set or display the site title
+ *
+ * @param string $new_title If set changes the title, if empty site title is output
  */
 function site_title( $new_title = '' ) {
 
@@ -29,7 +35,8 @@ function site_title( $new_title = '' ) {
 
 
 /**
- * Add some breadcrumbs
+ * Add some Breadcrumbs
+ *
  * @param string $name What to show on the breadcrumb link
  * @param string $url  Url of the breadcrumb
  */

@@ -14,7 +14,7 @@
         <div class="wrapper block big">
             <header>
                 <a href="<?php echo $theme['url']; ?>">
-                    <img src="<?php echo image_path( 'devices/' . $theme['image'] ); ?>">
+                    <img src="<?php echo image_path( 'devices/' . $theme['image'] ); ?>" alt="<?php echo $theme['name']; ?> Screenshot" />
                 </a>
             </header>
             <section>
@@ -45,7 +45,7 @@
             <div class="block overlap-header">
                 <header>
                     <a href="<?php echo $theme['url']; ?>">
-                        <img src="<?php echo image_path( 'monitor/' . $theme['image'] ); ?>">
+                        <img src="<?php echo image_path( 'monitor/' . $theme['image'] ); ?>" alt="<?php echo $theme['name']; ?> Screenshot" />
                     </a>
                 </header>
                 <div class="content sticky-footer">

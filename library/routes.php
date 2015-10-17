@@ -37,7 +37,6 @@ Flight::route( '/tools/(@tool)/', function( $tool = '' ) {
 
             site_breadcrumb_add( $tool_data['name'], 'tools/' . $tool . '/' );
 
-
             $layout = '_' . $tool . '/index.php';
 
             if ( isset( $tool_data['view'] ) ) {
@@ -80,6 +79,7 @@ Flight::route( '/theme-club/', function() {
 
 } );
 
+
 /**
  * Theme
  */
@@ -87,14 +87,10 @@ Flight::route( '/theme/(@theme)/', function( $theme = '' ) {
 
     $theme_data = array();
     $themes = array();
-    $theme_name = '';
 
-    if ( ! empty( $theme ) && themes_exist( $theme ) ) {
+    if ( ! empty( $theme ) && $theme_data = themes_get( $theme ) ) {
 
-        $theme_data = themes_get( $theme );
-        $theme_name = $theme;
         $themes = get_theme_data();
-
         site_title( $theme_data[ 'name' ] . ' WordPress Theme' );
 
     } else {
@@ -103,12 +99,11 @@ Flight::route( '/theme/(@theme)/', function( $theme = '' ) {
 
     }
 
-
     Flight::render(
         'theme.php',
         array(
             'theme' => $theme_data,
-            'theme_name' => $theme_name,
+            'theme_name' => $theme,
             'themes' => $themes,
         )
     );
@@ -230,6 +225,7 @@ Flight::route( '/theme-customization/', function() {
  */
 Flight::route( '/contact/thanks/', function() {
 
+    site_title( 'Thank You' );
     site_description( 'Thanks for the message!' );
 
     Flight::render(
@@ -310,19 +306,22 @@ Flight::route( '/documentation/(@type)(/@page)/', function( $type = '', $page = 
  */
 Flight::route( '/theme-preview/(@theme)/', function( $theme = '' ) {
 
-    site_title( 'Theme Preview' );
     $template = 'theme-preview.php';
+    $theme_data = array();
 
-    if ( ! themes_exist( $theme ) ) {
+    if ( ! $theme_data = themes_get( $theme ) ) {
 
         Flight::notFound();
 
     }
 
+    site_title( $theme_data[ 'name' ] . ' Theme Preview' );
+
     Flight::render(
         $template,
         array(
             'theme' => $theme,
+            'theme_data' => $theme_data,
         )
     );
 

@@ -11,7 +11,7 @@
             <div class="block overlap-header">
                 <header>
                     <a href="<?php echo $theme['url']; ?>">
-                        <img src="<?php echo image_path( 'monitor/' . $theme['image'] ); ?>">
+                        <img src="<?php echo image_path( 'monitor/' . $theme['image'] ); ?>" alt="<?php echo $theme['name']; ?> Screenshot" />
                     </a>
                 </header>
                 <div class="content sticky-footer">

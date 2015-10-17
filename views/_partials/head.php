@@ -13,6 +13,8 @@
         <link type="text/plain" rel="author" href="<?php echo path( 'humans.txt' ); ?>" />
 
         <meta name="google-site-verification" content="VDLz-TZD53CTCmTol81Cd1UoOyz5RuAjdyjiP4irmsk" />
+        <meta name="description" content="<?php site_description( '', true ); ?>">
+
 <?php
     if ( 'prod' == ENV ) {
 ?>

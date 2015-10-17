@@ -1,7 +1,5 @@
 <?php
     include( '_partials/head.php' );
-
-    $theme_data = themes_get( $theme );
 ?>
     <body class="page-preview">
         <header>
