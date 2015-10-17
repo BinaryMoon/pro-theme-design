@@ -25,7 +25,7 @@ Flight::route( '/tools/(@tool)/', function( $tool = '' ) {
     $tool_data = array();
 
     site_title( 'Pro Theme Design Handy Tools' );
-
+    site_description( 'Handy Tools to <strong>Make a Web Designers Job Easier</strong>.' );
     site_breadcrumb_add( 'Tools', 'tools/' );
 
 
