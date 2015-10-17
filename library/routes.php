@@ -177,6 +177,21 @@ Flight::route( '/wordpress-plugins/', function() {
 
 
 /**
+ * Sitemap
+ */
+Flight::route( '/sitemap/', function() {
+
+    site_title( 'Sitemap' );
+    site_description( 'Find your way around.' );
+
+    Flight::render(
+        'sitemap.php'
+    );
+
+} );
+
+
+/**
  * Contact
  */
 Flight::route( '/contact/', function() {

@@ -107,3 +107,16 @@ function tools_display( $tag = '', $title = '' ) {
 <?php
 
 }
+
+
+function tools_sitemap() {
+
+    $tools = get_tools_data();
+
+    foreach ( $tools as $tool ) {
+?>
+    <li><a href="<?php echo $tool[ 'url' ]; ?>"><?php echo $tool['name']; ?></a></li>
+<?php
+    }
+
+}

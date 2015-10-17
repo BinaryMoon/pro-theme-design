@@ -45,12 +45,14 @@
 <?php
     }
 ?>
-            <div class="wrapper">
+            <div class="wrapper footnote">
                 <?php include( 'newsletter.php' ); ?>
 
-                <p class="copyright">&copy; 2007 - <?php echo date( 'Y' ); ?> Pro Theme Design, All Rights Reserved <span class="sep">|</span> <i class="fa fa-wordpress"></i> <a href="https://theme.wordpress.com/themes/by/pro-theme-design/"> WordPress.com</a> <span class="sep">|</span> <i class="fa fa-envelope"></i> <a href="<?php echo path( 'contact/' ); ?>">Contact</a> <span class="sep">|</span> <a href="<?php echo path( 'policies/' ); ?>">Policies</a></p>
+                <p><i class="fa fa-sitemap"></i> <a href="<?php echo path( 'sitemap/' ); ?>">Sitemap</a> <span class="sep">|</span> <i class="fa fa-wordpress"></i> <a href="https://theme.wordpress.com/themes/by/pro-theme-design/"> WordPress.com</a> <span class="sep">|</span> <i class="fa fa-envelope"></i> <a href="<?php echo path( 'contact/' ); ?>">Contact</a> <span class="sep">|</span> <i class="fa fa-check"></i> <a href="<?php echo path( 'policies/' ); ?>">Policies</a></p>
 
-                <p class="copyright"><a href="https://www.digitalocean.com/?refcode=d4442740ec05" target="_blank">Web hosting by Digital Ocean</a></p>
+                <p>&copy; 2007 - <?php echo date( 'Y' ); ?> Pro Theme Design, All Rights Reserved</p>
+
+                <p><i class="fa fa-server"></i> <a href="https://www.digitalocean.com/?refcode=d4442740ec05" target="_blank">Web hosting by Digital Ocean</a></p>
             </div>
 
         </footer>

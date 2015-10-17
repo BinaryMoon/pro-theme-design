@@ -325,3 +325,19 @@ function themes_get_random( $count = 3 ) {
     return array_slice( $themes, 0, $count );
 
 }
+
+
+/**
+ * List all themes for use on sitemap
+ */
+function themes_sitemap() {
+
+    $themes = get_theme_data();
+
+    foreach ( $themes as $theme ) {
+?>
+    <li><a href="<?php echo $theme['url']; ?>"><?php echo $theme['name']; ?></a></li>
+<?php
+    }
+
+}
