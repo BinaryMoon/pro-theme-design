@@ -10,26 +10,9 @@
 
 <?php
         $theme = array_shift( $themes );
+        $template = site_view_path( '_partials/theme-big.php' );
+        include( $template );
 ?>
-        <div class="wrapper block big">
-            <header>
-                <a href="<?php echo $theme['url']; ?>">
-                    <img src="<?php echo image_path( 'devices/' . $theme['image'] ); ?>" alt="<?php echo $theme['name']; ?> Screenshot" />
-                </a>
-            </header>
-            <section>
-                <div class="content sticky-footer">
-                    <h3><?php echo $theme['name']; ?></h3>
-                    <p><?php echo $theme['description']; ?></p>
-                    <footer>
-                        <a class="button" href="<?php echo $theme['url']; ?>">
-                            Demo &amp; Details
-                        </a>
-                    </footer>
-                </div>
-            </section>
-        </div>
-
         <div class="wrapper">
             <div class="note note-themes-club message">
                 <h2>Join the Pro Theme Design Themes Club</h2>
@@ -40,26 +23,9 @@
 
         <div class="theme-wrapper block-wrapper wrapper">
 <?php
+    $template = site_view_path( '_partials/theme-small.php' );
     foreach ( $themes as $theme ) {
-?>
-            <div class="block overlap-header">
-                <header>
-                    <a href="<?php echo $theme['url']; ?>">
-                        <img src="<?php echo image_path( 'monitor/' . $theme['image'] ); ?>" alt="<?php echo $theme['name']; ?> Screenshot" />
-                    </a>
-                </header>
-                <div class="content sticky-footer">
-                    <h3><?php echo $theme['name']; ?></h3>
-                    <p><?php echo $theme['description']; ?></p>
-
-                    <footer>
-                        <a class="button" href="<?php echo $theme['url']; ?>">
-                            Demo &amp; Details
-                        </a>
-                    </footer>
-                </div>
-            </div>
-<?php
+        include( $template );
     }
 ?>
         </div>
