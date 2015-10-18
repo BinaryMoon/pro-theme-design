@@ -43,4 +43,4 @@
 ?>
 </div>
 <?php
-    site_include_view( '/_partials/more-themes.php' );
+    site_include_view( '_partials/more-themes.php' );

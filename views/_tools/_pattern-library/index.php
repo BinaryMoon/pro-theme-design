@@ -30,7 +30,7 @@
 
             <h2>Pro Theme Design Pattern Library</h2>
 <?php
-    $path = site_view_path( '/_styleguide' );
+    $path = site_view_path( '_styleguide' );
     $files = array();
     $handle = opendir( $path );
 
@@ -71,4 +71,4 @@
 ?>
         </div>
 <?php
-    site_include_view( '/_partials/more-themes.php' );
+    site_include_view( '_partials/more-themes.php' );
