@@ -2,6 +2,7 @@
 
 /**
  * List of redirects in old url -> new url pairs
+ * @return array A list of all redirects in old url, new url pairs
  */
 function get_redirects() {
 
@@ -32,6 +33,8 @@ function get_redirects() {
 
 /**
  * Get the destination for a redirect slug
+ * @param  string         [$slug       = ''] Redirect url slug to look for
+ * @return boolean|string Redirect url or false if no redirect available
  */
 function redirect_destination( $slug = '' ) {
 

@@ -2,6 +2,7 @@
 
 /**
  * A list of all of our themes
+ * @return array A list of all the available themes
  */
 function get_theme_data() {
 
@@ -265,7 +266,7 @@ function get_theme_data() {
 
 
 /**
- * list option elements for a select box
+ * List option elements for a select box
  */
 function themes_select_box() {
 
@@ -280,7 +281,9 @@ function themes_select_box() {
 
 
 /**
- * does the specified theme exist?
+ * Does the specified theme exist?
+ * @param  string  $theme_slug The theme key to check
+ * @return boolean If the theme exists
  */
 function themes_exist( $theme_slug ) {
 
@@ -292,7 +295,9 @@ function themes_exist( $theme_slug ) {
 
 
 /**
- * get the data for the specified theme
+ * Get the data for the specified theme
+ * @param  string        $theme_slug The theme key to retrieve
+ * @return boolean|array Either the requested theme information, or false if theme not found
  */
 function themes_get( $theme_slug ) {
 
@@ -309,6 +314,8 @@ function themes_get( $theme_slug ) {
 
 /**
  * get X random themes from the list
+ * @param  integer [$count      = 3] the number of themes to get
+ * @return array   An array of themes, limited by the length specified in count
  */
 function themes_get_random( $count = 3 ) {
 
@@ -339,5 +346,25 @@ function themes_sitemap() {
     <li><a href="<?php echo $theme['url']; ?>"><?php echo $theme['name']; ?></a></li>
 <?php
     }
+
+}
+
+
+/**
+ * Get the price of all themes combined
+ * @return integer Dollar value for the combined price
+ */
+function themes_all_themes_price() {
+
+    $themes = get_theme_data();
+    $price = 0;
+
+    foreach ( $themes as $theme ) {
+        if ( ! empty( $theme[ 'price-wporg'] ) ) {
+            $price += $theme[ 'price-wporg' ];
+        }
+    }
+
+    return $price;
 
 }
