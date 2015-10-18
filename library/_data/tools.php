@@ -59,6 +59,8 @@ function get_tools_data() {
 
 /**
  * Check a tool exists and return the tool data
+ * @param  string        $tool Tool key to retrieve
+ * @return boolean|array The data for specified tool, or false if tool does not exist
  */
 function tool_get( $tool ) {
 
@@ -75,6 +77,8 @@ function tool_get( $tool ) {
 
 /**
  * Display list of different types of tools
+ * @param string [$tag         = ''] Group of tools to retrieve
+ * @param string [$title       = ''] Title of tools group
  */
 function tools_display( $tag = '', $title = '' ) {
 
@@ -109,6 +113,9 @@ function tools_display( $tag = '', $title = '' ) {
 }
 
 
+/**
+ * Output a list of tools for use on the sitemap
+ */
 function tools_sitemap() {
 
     $tools = get_tools_data();

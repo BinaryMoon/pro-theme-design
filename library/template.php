@@ -2,6 +2,8 @@
 
 /**
  * Set or display the site description
+ * @param string  [$new_description       = ''] If set changes the site description, if empty outputs it
+ * @param boolean [$strip_tags            = false] True strips html tags on output, false leaves them intact
  */
 function site_description( $new_description = '', $strip_tags = false ) {
 
@@ -20,8 +22,7 @@ function site_description( $new_description = '', $strip_tags = false ) {
 
 /**
  * Set or display the site title
- *
- * @param string $new_title If set changes the title, if empty site title is output
+ * @param string [$new_title       = ''] If set changes the title, if empty the site title is output
  */
 function site_title( $new_title = '' ) {
 
@@ -36,7 +37,6 @@ function site_title( $new_title = '' ) {
 
 /**
  * Add some Breadcrumbs
- *
  * @param string $name What to show on the breadcrumb link
  * @param string $url  Url of the breadcrumb
  */
@@ -55,7 +55,7 @@ function site_breadcrumb_add( $name, $url ) {
 
 
 /**
- *
+ * Display site breadcrumbs
  */
 function site_breadcrumbs() {
 
@@ -79,7 +79,7 @@ function site_breadcrumbs() {
 }
 
 
-// Set Defaults
+// Set Defaults for description and title
 
 site_description( 'Partnering with <a href="http://theme.wordpress.com/themes/by/pro-theme-design/" target="_blank">WordPress.com</a> to build themes for thousands of creative bloggers.' );
 

@@ -320,6 +320,9 @@ function website_tag_exists( $tag = '' ) {
 
 /**
  * Filter websites to the selected tab
+ * @param  string  [$tag         = ''] Key for requested website
+ * @param  integer [$limit       = -1] Number of websites to retrieve. -1 for all sites
+ * @return array   List of websites limited by $limit
  */
 function website_get_by_tag( $tag = '', $limit = -1 ) {
 
@@ -363,6 +366,8 @@ function website_get_by_tag( $tag = '', $limit = -1 ) {
 
 /**
  * Get the data for a specific website slug
+ * @param  str           $site key for website to retrieve
+ * @return boolean|array Website information or false if website does not exist
  */
 function website_get( $site ) {
 
@@ -378,7 +383,9 @@ function website_get( $site ) {
 
 
 /**
- * Check to see if a website slug exists
+ * Check to see if a website slug exist
+ * @param  string  $site Key for website to retrieve
+ * @return boolean true if website exists, false otherwise
  */
 function website_exists( $site ) {
 
@@ -411,6 +418,7 @@ function website_sitemap() {
 
 /**
  * Get a list of all the website themes
+ * @return array List of themes that have showcase websites assigned to them
  */
 function website_themes() {
 
