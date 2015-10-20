@@ -1,6 +1,6 @@
         <footer id="footer">
 <?php
-    if ( '/' ===  Flight::request()->url ) {
+    if ( page_is_home() ) {
 ?>
             <div class="wrapper map">
 

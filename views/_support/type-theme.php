@@ -25,6 +25,7 @@
     </ul>
 
 <?php
+    site_include_view( '_support/_theme/' . $page . '.php' );
+
     documentation_theme_features( $doc );
 
-    include( '_theme/' . $page . '.php' );

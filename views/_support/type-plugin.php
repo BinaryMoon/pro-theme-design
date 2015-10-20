@@ -10,4 +10,4 @@
     </a>
 
 <?php
-    include( '_plugin/' . $page . '.php' );
+    site_include_view( '_support/_plugin/' . $page . '.php' );

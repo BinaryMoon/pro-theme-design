@@ -3,7 +3,7 @@
 <?php
     documentation_required_plugin( $page );
 
-    include( '_feature/' . $page . '.php' );
+    site_include_view( '_support/_feature/' . $page . '.php' );
 
     documentation_supported_themes( $page );
 

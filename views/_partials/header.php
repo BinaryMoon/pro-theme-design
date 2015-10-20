@@ -1,10 +1,16 @@
+<?php
+    $h = 'p';
+    if ( page_is_home() ) {
+        $h = 'h1';
+    }
+?>
         <header class="masthead">
             <div class="wrapper">
-                <h1>
+                <<?php echo $h; ?> class="site-title">
                     <a href="<?php echo path(); ?>">
                         Pro Theme Design
                     </a>
-                </h1>
+                </<?php echo $h; ?>>
                 <p><?php site_description(); ?></p>
             </div>
 

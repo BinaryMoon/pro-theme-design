@@ -217,18 +217,21 @@ function get_theme_data() {
         // all themes are on wordpress.com so fill out the rest of the url
         $theme[ 'url-wpcom' ] = 'https://wordpress.com/themes/' . $theme[ 'url-wpcom' ] . '/';
 
-        // theme info page
+        // theme info link
         $theme[ 'url' ] = path( 'theme/' . $key . '/' );
 
-        // theme preview
+        // theme preview link
         if ( ! empty( $theme[ 'url-cm' ] ) ) {
             $theme[ 'url-preview' ] = path( 'theme-preview/' . $key . '/' );
         } else {
             $theme[ 'url-preview' ] = '';
         }
 
-        // theme showcase
+        // theme showcase link
         $theme[ 'url-showcase' ] = path( 'theme-showcase/' . $key . '/' );
+
+        // theme documentation link
+        $theme[ 'url-documentation' ] = path( 'documentation/theme/' . $key . '/' );
 
         // set price
         if ( empty( $theme[ 'price-wporg' ] ) ) {

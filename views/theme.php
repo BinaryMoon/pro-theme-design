@@ -13,7 +13,7 @@
             </header>
             <section>
                 <div class="content sticky-footer">
-                    <h3><?php echo $theme['name']; ?></h3>
+                    <h1><?php echo $theme['name']; ?></h1>
                     <p><?php echo $theme['description']; ?></p>
 
                     <footer>
@@ -35,6 +35,12 @@
             </section>
         </div>
 
+<?php
+    if ( 'dev' === ENV ) {
+        site_include_view( '_themes/' . $theme_name . '.php' );
+    }
+?>
+
         <!-- Showcase Websites -->
 <?php
     $websites = website_get_by_tag( $theme_name, 3 );
@@ -43,7 +49,10 @@
 ?>
         <div class="wrapper block-wrapper showcase-wrapper">
             <header class="block-header">
-                <h2>Examples of <?php echo $theme[ 'name' ]; ?> in use <small><a href="<?php echo $theme[ 'url-showcase' ]; ?>">View More <i class="fa fa-arrow-right"></i></a></small></h2>
+                <h2>
+                    Examples of <?php echo $theme[ 'name' ]; ?> in Use
+                    <small><a href="<?php echo $theme[ 'url-showcase' ]; ?>">View More <i class="fa fa-arrow-right"></i></a></small>
+                </h2>
             </header>
 
 <?php
@@ -69,7 +78,10 @@
         <!-- Theme Features -->
         <div class="wrapper block-wrapper">
             <header class="block-header">
-                <h2><?php echo $theme[ 'name' ]; ?> Features</h2>
+                <h2>
+                    <?php echo $theme[ 'name' ]; ?> Features
+                    <small><a href="<?php echo $theme[ 'url-documentation' ]; ?>">View Docs for complete list <i class="fa fa-arrow-right"></i></a></small>
+                </h2>
             </header>
 <?php
     foreach( $theme[ 'supports' ] as $supports ) {

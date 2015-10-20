@@ -33,7 +33,8 @@ function get_documentation_data() {
         'localization' => array(
             'name' => 'Localization',
             'type' => 'general',
-            'description' => 'All about theme translations.',
+            'description' => 'View your theme in your native language.',
+            'icon' => 'language',
         ),
         'wordpress-com-vs-wordpress-org' => array(
             'name' => 'The difference between WordPress.com and WordPress.org',

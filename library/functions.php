@@ -98,14 +98,18 @@ function site_screenshot( $url ) {
 
 
 /**
- * Include a view
+ * Include a view (as long as it exists)
  * @param string $path File in the views directory to include
  */
 function site_include_view( $path ) {
 
     $path = site_view_path( $path );
 
-    include( $path );
+    if ( file_exists( $path ) ) {
+
+        include( $path );
+
+    }
 
 }
 
@@ -118,5 +122,16 @@ function site_include_view( $path ) {
 function site_view_path( $path ) {
 
     return Flight::get( 'flight.views.path' ) . '/' . $path;
+
+}
+
+
+/**
+ * Is the current page the homepage
+ * @return boolean True if the page is the homepage, Flase otherwise
+ */
+function page_is_home() {
+
+    return ( '/' ===  Flight::request()->url );
 
 }
