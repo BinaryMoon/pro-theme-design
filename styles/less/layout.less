@@ -5,7 +5,7 @@ body {
 }
 
 a {
-    color:lighten( @canvas-blue, 10% );
+    color:lighten( @canvas-blue, 15% );
     text-decoration:none;
 
     &:hover {
@@ -32,10 +32,11 @@ p {
         text-decoration:none;
     }
 
-    h1 {
+    .site-title {
         .modular-scale( @mega );
         margin:0 0 (@grid-line-height / 2) 0;
         letter-spacing:-0.02em;
+        font-weight:bold;
 
         a {
             color:@canvas-grey-100;
@@ -60,7 +61,7 @@ p {
             padding:(@grid-line-height * 5) (@grid-line-height);
         }
 
-        h1 {
+        .site-title {
             .modular-scale( @giga );
         }
 

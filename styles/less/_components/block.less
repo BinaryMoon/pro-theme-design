@@ -2,6 +2,7 @@
     .flex-display();
     .flex-flow( row wrap );
     width:100%;
+    clear:both;
 
     &.wrapper {
         padding:0;
@@ -55,10 +56,14 @@
         h1, h2, h3, h4, h5, h6 {
             color:@canvas-white;
             margin-bottom:@grid-line-height / 2;
-
+            .modular-scale( @delta );
             a {
                 color:@canvas-white;
             }
+        }
+
+        h1 {
+            .modular-scale( @beta );
         }
 
         .button {
@@ -94,6 +99,15 @@
         margin-bottom:@grid-line-height / 2;
     }
 
+    .number {
+        background:@canvas-green;
+        width:@grid-line-height * 2;
+        line-height:@grid-line-height * 2;
+        border-radius:100%;
+        display:inline-block;
+        margin-right:@grid-gutter / 2;
+    }
+
     img {
         border-radius:@border-radius;
     }
@@ -124,6 +138,16 @@
         section {
             width:33.3%;
             padding:0 (@grid-gutter);
+        }
+    }
+
+    &.feature {
+        header {
+            width:50%;
+        }
+
+        section {
+            width:50%;
         }
     }
 
