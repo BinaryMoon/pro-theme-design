@@ -7,7 +7,7 @@
         <title><?php site_title(); ?></title>
 
         <link rel="stylesheet" href="<?php echo css_path( 'css/styles.css' ); ?>" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,900" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,900,400italic" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
 
         <link type="text/plain" rel="author" href="<?php echo path( 'humans.txt' ); ?>" />
