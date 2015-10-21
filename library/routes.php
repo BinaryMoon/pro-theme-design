@@ -207,6 +207,21 @@ Flight::route( '/contact/', function() {
 
 
 /**
+ * Newsletter
+ */
+Flight::route( '/newsletter/', function() {
+
+    site_title( 'Newsletter' );
+    site_description( '<strong>Join the Newsletter.</strong> Keep up to date.' );
+
+    Flight::render(
+        'newsletter.php'
+    );
+
+} );
+
+
+/**
  * Search
  */
 Flight::route( '/search/', function() {
