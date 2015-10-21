@@ -2,7 +2,8 @@
 
 <ul>
     <li>Google takes site speed into account when ranking sites. A faster site means a better rank.</li>
-    <li>Users like a fast site. A study found that </li>
+    <li>Users like a fast site. There are various studies that have found that an increase in page load time reduces conversions.</li>
+    <li>With users increasingly using mobile devices, and with more developing countries getting online, a fast website makes sure you keep these users engaged.</li>
 </ul>
 
 <h2>Use a Caching Plugin</h2>
