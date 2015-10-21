@@ -2,3 +2,5 @@
 
 <?php
     site_include_view( '_support/_general/' . $page . '.php' );
+
+    documentation_related( $page );

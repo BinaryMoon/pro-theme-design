@@ -52,6 +52,15 @@ function get_documentation_data() {
             'name' => 'Theme Requirements',
             'type' => 'general',
         ),
+        'keeping-website-up-to-date' => array(
+            'name' => 'Keeping Your Website Up To Date',
+            'type' => 'general',
+        ),
+        'speeding-up-your-wordpress-site' => array(
+            'name' => 'Speeding Up Your WordPress Website',
+            'type' => 'general',
+            'related' => array( 'image-resizing', 'jetpack' ),
+        ),
 
 
         // features
@@ -112,7 +121,7 @@ function get_documentation_data() {
             'type' => 'feature',
             'requires' => 'jetpack',
             'description' => 'Resizes all of your images to fit the thumbnails used.',
-            'related' => array( 'featured-image' ),
+            'related' => array( 'featured-image', 'speeding-up-your-wordpress-site' ),
             'icon' => 'picture-o',
         ),
         'contact-form' => array(

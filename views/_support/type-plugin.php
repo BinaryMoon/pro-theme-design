@@ -10,4 +10,6 @@
     </a>
 
 <?php
-    site_include_view( '_support/_plugin/' . $page . '.php' );
+    $template = site_view_path( '_support/_plugin/' . $page . '.php' );
+
+    include( $template );
