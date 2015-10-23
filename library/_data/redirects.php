@@ -14,16 +14,16 @@ function get_redirects() {
     */
 
     $redirects = array(
-        '/themes/mimbo/' => '/theme/mimbopro/',
-        '/themes/mimbo-pro/' => '/theme/mimbopro/',
-        '/themes/opti-wordpress-theme/' => '/theme/opti/',
-        '/support/' => '/documentation/',
-        '/circular-icons/' => '/tools/circular-icons/',
-        '/free-webdesign-tools/circular-icons/' => '/tools/circular-icons/',
-        '/free-webdesign-tools/circular-icons' => '/tools/circular-icons/',
-        '/themes/' => '/',
-        '/products/' => '/',
-        '/how-to/free-stock-photos-images/' => '/tools/free-stock-photos/',
+        'themes/mimbo' => '/theme/mimbopro/',
+        'themes/mimbo-pro' => '/theme/mimbopro/',
+        'themes/opti-wordpress-theme' => '/theme/opti/',
+        'support/' => '/documentation/',
+        'circular-icons' => '/tools/circular-icons/',
+        'free-webdesign-tools/circular-icons' => '/tools/circular-icons/',
+        'themes' => '/',
+        'products' => '/',
+        'how-to/free-stock-photos-images' => '/tools/free-stock-photos/',
+        'plugins' => '/wordpress-plugins/',
     );
 
     return $redirects;
@@ -39,6 +39,10 @@ function get_redirects() {
 function redirect_destination( $slug = '' ) {
 
     $redirects = get_redirects();
+
+    // allow the redirects to work with or without slashes
+    $slug = ltrim( $slug, '/' );
+    $slug = rtrim( $slug, '/' );
 
     if ( ! empty( $redirects[ $slug ] ) ) {
         return $redirects[ $slug ];
