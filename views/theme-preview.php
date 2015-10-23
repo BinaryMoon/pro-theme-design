@@ -13,7 +13,7 @@
         </header>
 
         <div class="iframe-wrapper">
-            <iframe src="http://demo.prothemedesign.com/wordpress/<?php echo strtolower( $theme ); ?>/"></iframe>
+            <iframe src="https://demo.prothemedesign.com/wordpress/<?php echo strtolower( $theme ); ?>/"></iframe>
         </div>
 
         <script src="<?php echo js_path( 'main.min.js' ); ?>"></script>
