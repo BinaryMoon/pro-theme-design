@@ -334,24 +334,24 @@ Flight::route( '/documentation/(@type)(/@page)/', function( $type = '', $page = 
 /**
  * theme preview
  */
-Flight::route( '/theme-preview/(@theme)/', function( $theme = '' ) {
+Flight::route( '/theme-preview/(@theme)/', function( $theme_slug = '' ) {
 
     $template = 'theme-preview.php';
-    $theme_data = array();
+    $theme = array();
 
-    if ( ! $theme_data = themes_get( $theme ) ) {
+    if ( ! $theme = themes_get( $theme_slug ) ) {
 
         Flight::notFound();
 
     }
 
-    site_title( $theme_data[ 'name' ] . ' Theme Preview' );
+    site_title( $theme[ 'name' ] . ' Theme Preview' );
 
     Flight::render(
         $template,
         array(
+            'theme_slug' => $theme_slug,
             'theme' => $theme,
-            'theme_data' => $theme_data,
         )
     );
 

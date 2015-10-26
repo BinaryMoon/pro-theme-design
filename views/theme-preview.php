@@ -3,8 +3,15 @@
 ?>
     <body class="page-preview">
         <header>
-            <h1><?php echo $theme_data[ 'name' ]; ?></h1>
-            <a href="<?php echo $theme_data[ 'url' ]; ?>" class="button"><i class="fa fa-info-circle"></i>Theme Details</a>
+            <h1><?php echo $theme[ 'name' ]; ?></h1>
+<?php
+    if ( ! empty( $theme[ 'url-wpcom' ] ) || ! empty( $theme[ 'url-wporg' ] ) ) {
+?>
+            <a href="#" class="button positive get-theme"><i class="fa fa-download"></i>Get Now!</a>
+<?php
+    }
+?>
+            <a href="<?php echo $theme[ 'url' ]; ?>" class="button"><i class="fa fa-info-circle"></i>Theme Details</a>
             <div class="preview-size">
                 <a href="/" class="selected" data-size="100%"><i class="fa fa-desktop"></i></a>
                 <a href="/" data-size="768px"><i class="fa fa-tablet"></i></a>
@@ -13,8 +20,14 @@
         </header>
 
         <div class="iframe-wrapper">
-            <iframe src="https://demo.prothemedesign.com/wordpress/<?php echo strtolower( $theme ); ?>/"></iframe>
+            <iframe src="https://demo.prothemedesign.com/wordpress/<?php echo strtolower( $theme_slug ); ?>/"></iframe>
         </div>
+
+<?php
+    include( '_partials/buy-now.php' );
+?>
+
+        <div class="overlay"></div>
 
         <script src="<?php echo js_path( 'main.min.js' ); ?>"></script>
     </body>
