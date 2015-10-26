@@ -35,6 +35,6 @@
     <li>Tumblr</li>
     <li>Twitter</li>
     <li>Vimeo</li>
-    <li>WordPress</li>
+    <li>WordPress (.com and .org)</li>
     <li>YouTube</li>
 </ul>
