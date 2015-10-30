@@ -7,6 +7,13 @@ function get_tools_data() {
 
     $tools = array(
         // external tools
+        'support-details' => array(
+            'name' => 'Support Details Icons',
+            'description' => 'Information to help with debugging computer issues.',
+            'tag' => 'external',
+            'icon' => 'info-circle',
+        ),
+
         'free-stock-photos' => array(
             'name' => 'Free Stock Photos',
             'description' => 'Stock photography for your projects.',
