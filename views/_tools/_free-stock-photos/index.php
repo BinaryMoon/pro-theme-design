@@ -3,6 +3,7 @@
         'unsplash.com' => 'Unsplash, the original.',
         'gratisography.com' => 'Free high-res pictures by Ryan McGuire.',
         'picjumbo.com' => 'Jumbo Photos.',
+        'flickr.com/photos/wocintechchat/' => 'Women of Color in Tech',
         'minimography.com' => 'Minimography - Minimal photography',
         'images.superfamous.com' => 'Super Famous Images',
         'oldbookillustrations.com' => 'Old Book Illustrations',
