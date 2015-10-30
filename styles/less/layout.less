@@ -104,17 +104,14 @@ p {
 }
 
 nav.main-menu {
-    background:@canvas-white;
+    background:@canvas-grey-30;
     position:fixed;
     top:0;
-    left:-500px;
+    left:-400px;
     bottom:0;
-    width:500px;
+    width:400px;
     z-index:100;
-    padding:(@grid-line-height * 3) (@grid-gutter * 2);
-    text-align:center;
-    .flex-display();
-    .align-items( center );
+    padding:(@grid-line-height * 4) (@grid-gutter * 2);
     .transition-easeOutQuad( all, 0.25s );
 
     .menu-close {
@@ -125,7 +122,7 @@ nav.main-menu {
     }
 
     a {
-        color:@canvas-grey-90;
+        color:@canvas-grey-100;
     }
 
     ul {
@@ -142,10 +139,10 @@ nav.main-menu {
 
         li {
             .modular-scale( @epsilon, (@grid-line-height * 2) );
-            margin:0;
+            margin:0 0 0 @grid-gutter;
 
             a {
-                color:@canvas-grey-40;
+                color:@canvas-grey-80;
             }
         }
     }
