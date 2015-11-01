@@ -24,26 +24,14 @@ function sd_location_data() {
 
 
 /**
- * Get the city name for the current visitor
- *
- * @return string City name.
- */
-function sd_get_city() {
-
-    $data = sd_location_data();
-    return $data->city;
-
-}
-
-/**
- * Get the country info for the current visitor
+ * Get the location info for the current visitor
  *
  * @return string Country code, and country name.
  */
-function sd_get_country() {
+function sd_get_location() {
 
     $data = sd_location_data();
-    return $data->country_code . ' : ' . $data->country_name;
+    return $data->city . ', ' . $data->country_name . ', ' . $data->country_code;
 
 }
 
@@ -60,19 +48,43 @@ function sd_get_ip_address() {
 
 }
 
+
 function sd_get_browser() {
 
     $browser = new Browser();
-    return $browser->getBrowser();
+    return $browser->getBrowser() . ' ' . $browser->getVersion();
 
 }
 
-function sd_get_browser_version() {
+
+function sd_get_browser_icon() {
+
+    $icons = array(
+        'Opera' => 'opera',
+        'Opera Mini' => 'opera',
+        'Internet Explorer' => 'internet-explorer',
+        'Pocket Internet Explorer' => 'internet-explorer',
+        'Firefox' => 'firefox',
+        'Safari' => 'safari',
+        'iPhone' => 'mobile',
+        'iPod' => 'mobile',
+        'iPad' => 'tablet',
+        'Chrome' => 'chrome',
+        'Android' => 'android',
+    );
 
     $browser = new Browser();
-    return $browser->getVersion();
+    $browser_name = $browser->getBrowser();
+    $icon = 'home';
+
+    if ( isset( $icons[ $browser_name ] ) ) {
+        $icon = $icons[ $browser_name ];
+    }
+
+    return $icon;
 
 }
+
 
 function sd_get_platform() {
 

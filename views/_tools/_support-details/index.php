@@ -9,24 +9,19 @@
             'value' => sd_get_ip_address(),
         ),
         'country' => array(
-            'name' => 'Country',
+            'name' => 'Location',
             'icon' => 'globe',
-            'value' => sd_get_country(),
-        ),
-        'city' => array(
-            'name' => 'City',
-            'icon' => 'building',
-            'value' => sd_get_city(),
+            'value' => sd_get_location(),
         ),
         'browser' => array(
-            'name' => 'Browser',
-            'icon' => 'home',
+            'name' => 'Web Browser',
+            'icon' => sd_get_browser_icon(),
             'value' => sd_get_browser(),
         ),
-        'browser_version' => array(
-            'name' => 'Browser Version',
-            'icon' => 'home',
-            'value' => sd_get_browser_version(),
+        'browser-dimensions' => array(
+            'name' => 'Browser Dimensions',
+            'icon' => 'arrows-alt',
+            'value' => 'n/a',
         ),
         'platform' => array(
             'name' => 'Platform',
@@ -54,6 +49,7 @@
 ?>
     <div class="block key-<?php echo $key; ?> invert">
         <div class="content">
+            <a href="#" class="tip"><i class="fa fa-question-circle"></i></a>
             <i class="fa fa-<?php echo $data['icon']; ?> icon"></i>
             <h3><?php echo $data['name']; ?></h3>
             <p><?php echo $data['value']; ?></p>
@@ -62,18 +58,6 @@
 <?php
     }
 ?>
-    <script>
-        (function() {
-            var properties = [
-                'ip-address': '<?php echo sd_get_ip_address(); ?>',
-                'country': '<?php echo sd_get_country(); ?>',
-                'city': '<?php echo sd_get_city(); ?>',
-                'browser': '<?php echo sd_get_browser(); ?>',
-                'browser_version': '<?php echo sd_get_browser_version(); ?>',
-                'platform': '<?php echo sd_get_platform(); ?>',
-            ];
-        })();
-    </script>
 </div>
 <?php
     site_include_view( '_partials/more-themes.php' );

@@ -108,6 +108,19 @@
         margin-right:@grid-gutter / 2;
     }
 
+    .tip {
+        position:absolute;
+        top:@grid-line-height;
+        right:@grid-gutter;
+        .modular-scale(@epsilon);
+        color:@canvas-white;
+        opacity:0.5;
+
+        &:hover {
+            opacity:1;
+        }
+    }
+
     img {
         border-radius:@border-radius;
     }
@@ -161,6 +174,7 @@
             color:@canvas-grey-100;
         }
 
+        .tip,
         .icon,
         h1, h2, h3, h4, h5, h6 {
             color:@canvas-grey-100;

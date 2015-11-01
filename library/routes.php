@@ -43,6 +43,10 @@ Flight::route( '/tools/(@tool)/', function( $tool = '' ) {
                 $view = $tool_data['view'];
             }
 
+            if ( ! empty( $tool_data['script'] ) ) {
+                site_script( $tool_data['script'] );
+            }
+
         } else {
 
             Flight::notFound();

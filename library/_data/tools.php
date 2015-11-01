@@ -8,12 +8,12 @@ function get_tools_data() {
     $tools = array(
         // external tools
         'support-details' => array(
-            'name' => 'Support Details Icons',
+            'name' => 'Support Details',
             'description' => 'Information to help with debugging computer issues.',
             'tag' => 'external',
             'icon' => 'info-circle',
+            'script' => path( 'views/_tools/_support-details/scripts.min.js' ),
         ),
-
         'free-stock-photos' => array(
             'name' => 'Free Stock Photos',
             'description' => 'Stock photography for your projects.',
