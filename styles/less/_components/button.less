@@ -39,6 +39,8 @@
 
     &.greedy {
         width:100%;
+        display:block;
+        margin-bottom:@grid-line-height / 2;
     }
 
     &.positive {
@@ -54,6 +56,22 @@
 
         &.disabled {
             color:lighten( @canvas-green, 25% );
+        }
+    }
+
+    &.ghost {
+        background:transparent;
+        .box-shadow(none);
+        opacity:0.5;
+
+        &:hover,
+        &:active {
+            background:transparent;
+            opacity:1;
+        }
+
+        &.disabled {
+            color:@canvas-white;
         }
     }
 }

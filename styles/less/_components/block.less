@@ -67,7 +67,8 @@
         }
 
         .button {
-            margin:0 auto;
+            margin-left:auto;
+            margin-right:auto;
         }
 
         .icon {
@@ -87,8 +88,14 @@
             }
         }
 
+        *:last-child {
+            margin-bottom:0;
+        }
     }
 
+    footer {
+        padding: @grid-line-height 0 0 0;
+    }
     .meta {
         h3 {
             margin-bottom:0;
