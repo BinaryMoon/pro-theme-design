@@ -12,7 +12,7 @@
                 </a>
             </header>
             <section>
-                <div class="content sticky-footer">
+                <div class="content">
                     <h1><?php echo $theme['name']; ?></h1>
                     <p><?php echo $theme['description']; ?></p>
 
@@ -20,13 +20,13 @@
 <?php
     if ( ! empty( $theme[ 'url-wpcom' ] ) || ! empty( $theme[ 'url-wporg' ] ) ) {
 ?>
-                        <a href="#" class="button positive get-theme"><i class="fa fa-download"></i>Get Now!</a>
+                        <a href="#" class="button positive get-theme greedy"><i class="fa fa-download"></i>Get Now!</a>
 <?php
     }
 
     if ( ! empty( $theme[ 'url-preview' ] ) ) {
 ?>
-                        <a href="<?php echo $theme[ 'url-preview' ]; ?>" class="button"><i class="fa fa-eye"></i>Preview</a>
+                        <a href="<?php echo $theme[ 'url-preview' ]; ?>" class="button ghost greedy"><i class="fa fa-eye"></i>Preview</a>
 <?php
     }
 ?>
