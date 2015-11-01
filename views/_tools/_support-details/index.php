@@ -9,7 +9,7 @@
             'value' => sd_get_ip_address(),
             'description' => 'An IP Address (Internet Protocol address) is a numerical label assigned to each device (e.g., computer, printer) in a computer network. This can be useful for distinguishing different machines.',
         ),
-        'country' => array(
+        'location' => array(
             'name' => 'Location',
             'icon' => 'globe',
             'value' => sd_get_location(),
@@ -37,24 +37,12 @@
             'name' => 'Javascript',
             'icon' => 'code',
             'value' => 'disabled',
-            'description' => 'Soeme websites required javascript enabled to function correctly.'
+            'description' => 'Some websites required javascript enabled to function correctly.'
         ),
-        /**
-        '' => array(
-            'name' => '',
-            'icon' => 'facebook',
-            'value' => '',
-        ),
-        */
     );
 ?>
 <div class="wrapper text">
     <?php site_breadcrumbs(); ?>
-
-    <h1>Computer Details</h1>
-    <p class="intro">The information on this page makes it easier for web developers to debug issues with websites.</p>
-    <p>The more information we know, the easier it is for us to reproduce bugs, since problems that happen on one computer, may not happen on another.</p>
-    <p><strong>Note</strong> no personal information is stored.</p>
 </div>
 
 <div class="wrapper block-wrapper theme-wrapper">
@@ -66,7 +54,7 @@
 <?php
         if ( isset( $data['description'] ) ) {
 ?>
-            <a href="#" class="tip"><i class="fa fa-question-circle"></i></a>
+            <a href="#help-<?php echo $key; ?>" class="tip"><i class="fa fa-question-circle"></i></a>
 <?php
         }
 ?>
@@ -81,12 +69,19 @@
 </div>
 
 <div class="wrapper text">
+    <h1>Computer Details</h1>
+    <p class="intro">The information on this page makes it easier for web developers to debug issues with websites.</p>
+    <p>The more information we know, the easier it is for us to reproduce bugs, since problems that happen on one computer, may not happen on another.</p>
+    <p class="note"><strong>Note</strong> no personal information is stored.</p>
+
+    <h2>Glossary</h2>
+
     <ul>
 <?php
         foreach ( $properties as $key => $data ) {
             if ( isset( $data[ 'description' ] ) ) {
 ?>
-        <li><strong><?php echo $data['name']; ?></strong> <?php echo $data['description']; ?></li>
+        <li id="help-<?php echo $key; ?>"><strong><?php echo $data['name']; ?></strong> <?php echo $data['description']; ?></li>
 <?php
             }
         }

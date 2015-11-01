@@ -9,7 +9,7 @@ function get_tools_data() {
         // external tools
         'support-details' => array(
             'name' => 'Support Details',
-            'description' => 'Information to help with debugging computer issues.',
+            'description' => 'Information to help debugging website problems.',
             'tag' => 'external',
             'icon' => 'info-circle',
             'script' => path( 'views/_tools/_support-details/scripts.min.js' ),
