@@ -12,7 +12,16 @@ function sd_location_data() {
 
     if ( empty( $data ) ) {
 
-        $path = 'https://freegeoip.net/json/';
+        if ( isset( $_SERVER['HTTP_CF_CONNECTING_IP'] ) ) {
+            $_SERVER['REMOTE_ADDR'] = $_SERVER['HTTP_CF_CONNECTING_IP'];
+        }
+
+        if ( 'dev' == ENV ) {
+            $_SERVER['REMOTE_ADDR'] = '';
+        }
+
+        $path = 'https://freegeoip.net/json/' . $_SERVER['REMOTE_ADDR'];
+
         $data = file_get_contents( $path );
         Flight::set( $key, $data );
 
