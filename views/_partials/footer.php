@@ -68,7 +68,6 @@
 
         <div class="overlay"></div>
 
-        <script src="https://gumroad.com/js/gumroad.js" async></script>
-        <script src="<?php echo js_path( 'main.min.js' ); ?>"></script>
+        <?php site_script(); ?>
     </body>
 </html>
