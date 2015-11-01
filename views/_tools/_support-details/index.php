@@ -69,7 +69,7 @@
 </div>
 
 <div class="wrapper text">
-    <h1>Computer Details</h1>
+    <h1>Support Details</h1>
     <p class="intro">The information on this page makes it easier for web developers to debug issues with websites.</p>
     <p>The more information we know, the easier it is for us to reproduce bugs, since problems that happen on one computer, may not happen on another.</p>
     <p class="note"><strong>Note</strong> no personal information is stored.</p>
