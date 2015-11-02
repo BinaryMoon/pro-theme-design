@@ -9,9 +9,15 @@ function get_documentation_data() {
 
         // general docs
 
+        'wordpress-com-themes' => array(
+            'name' => 'WordPress.com Themes',
+            'type' => 'general',
+            'related' => array( 'wordpress-com-vs-wordpress-org', 'transfer-from-wordpress-com' ),
+        ),
         'transfer-from-wordpress-com' => array(
             'name' => 'WordPress.com theme Transfer',
             'type' => 'general',
+            'related' => array( 'wordpress-com-vs-wordpress-org', 'wordpress-com-themes' ),
         ),
         'theme-installation' => array(
             'name' => 'Theme Installation',
@@ -25,10 +31,9 @@ function get_documentation_data() {
             'name' => 'Refunds',
             'type' => 'general',
         ),
-        'theme-customization' => array(
-            'name' => 'Theme Customization',
+        'affiliates' => array(
+            'name' => 'Affiliates',
             'type' => 'general',
-            'description' => 'Some basic information on how to customize your theme purchase',
         ),
         'localization' => array(
             'name' => 'Localization',
@@ -36,13 +41,15 @@ function get_documentation_data() {
             'description' => 'View your theme in your native language.',
             'icon' => 'language',
         ),
+        'theme-customization' => array(
+            'name' => 'Theme Customization',
+            'type' => 'general',
+            'description' => 'Some basic information on how to customize your theme purchase',
+        ),
         'wordpress-com-vs-wordpress-org' => array(
             'name' => 'The difference between WordPress.com and WordPress.org',
             'type' => 'general',
-        ),
-        'affiliates' => array(
-            'name' => 'Affiliates',
-            'type' => 'general',
+            'related' => array( 'transfer-from-wordpress-com', 'wordpress-com-themes' ),
         ),
         'theme-updates' => array(
             'name' => 'Theme Updates',
@@ -73,11 +80,33 @@ function get_documentation_data() {
             'related' => array( 'customizer' ),
             'icon' => 'thumb-tack',
         ),
+        'custom-front-page' => array(
+            'name' => 'Custom Front Page',
+            'type' => 'feature',
+            'description' => 'Change the design of your front page to make it exactly as you want.',
+            'related' => array( 'custom-page-templates', 'customizer' ),
+            'icon' => 'home',
+        ),
         'custom-page-templates' => array(
             'name' => 'Custom Page Templates',
             'type' => 'feature',
             'description' => 'Different page layouts for static WordPress pages.',
             'related' => array( 'custom-front-page' ),
+        ),
+        'portfolio' => array(
+            'name' => 'Portfolio and Projects',
+            'type' => 'feature',
+            'requires' => 'jetpack',
+            'description' => 'Show off your Portfolio of work.',
+            'related' => array( 'testimonials' ),
+            'icon' => 'folder-open',
+        ),
+        'infinite-scroll' => array(
+            'name' => 'Infinite Scroll',
+            'type' => 'feature',
+            'requires' => 'jetpack',
+            'description' => 'Continuosly loading content to encourage your readers to stick around.',
+            'icon' => 'arrow-down',
         ),
         'site-logo' => array(
             'name' => 'Site Logo',
@@ -85,6 +114,12 @@ function get_documentation_data() {
             'requires' => 'jetpack',
             'description' => 'Add a logo to make your site your own.',
             'related' => array( 'customizer' ),
+        ),
+        'social-menu' => array(
+            'name' => 'Social Menu',
+            'type' => 'feature',
+            'description' => 'Display links to your social media channels.',
+            'icon' => 'share-alt',
         ),
         'custom-colours-fonts' => array(
             'name' => 'Custom Colours and Fonts',
@@ -109,13 +144,6 @@ function get_documentation_data() {
             'related' => array( 'custom-colours-fonts', 'customizer', ),
             'icon' => 'css3',
         ),
-        'custom-front-page' => array(
-            'name' => 'Custom Front Page',
-            'type' => 'feature',
-            'description' => 'Change the design of your front page to make it exactly as you want.',
-            'related' => array( 'custom-page-templates', 'customizer' ),
-            'icon' => 'home',
-        ),
         'image-resizing' => array(
             'name' => 'Image Resizing (Photon)',
             'type' => 'feature',
@@ -130,27 +158,6 @@ function get_documentation_data() {
             'requires' => 'jetpack',
             'description' => 'Add a simple contact form to your website or blog.',
             'icon' => 'envelope-o',
-        ),
-        'infinite-scroll' => array(
-            'name' => 'Infinite Scroll',
-            'type' => 'feature',
-            'requires' => 'jetpack',
-            'description' => 'Continuosly loading content to encourage your readers to stick around.',
-            'icon' => 'arrow-down',
-        ),
-        'portfolio' => array(
-            'name' => 'Portfolio and Projects',
-            'type' => 'feature',
-            'requires' => 'jetpack',
-            'description' => 'Show off your Portfolio of work.',
-            'related' => array( 'testimonials' ),
-            'icon' => 'folder-open',
-        ),
-        'social-menu' => array(
-            'name' => 'Social Menu',
-            'type' => 'feature',
-            'description' => 'Display links to your social media channels.',
-            'icon' => 'share-alt',
         ),
         'sticky-post' => array(
             'name' => 'Sticky Posts',

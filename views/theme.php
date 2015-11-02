@@ -26,7 +26,7 @@
 
     if ( ! empty( $theme[ 'url-preview' ] ) ) {
 ?>
-                        <a href="<?php echo $theme[ 'url-preview' ]; ?>" class="button ghost greedy"><i class="fa fa-eye"></i>Preview</a>
+                        <a href="<?php echo $theme[ 'url-preview' ]; ?>" class="button ghost greedy"><i class="fa fa-eye"></i>Theme Preview</a>
 <?php
     }
 ?>

@@ -17,11 +17,11 @@
         <li class="wordpress-plugins">
             <a href="<?php echo path( 'wordpress-plugins/' ); ?>">Plugins</a>
         </li>
-        <li class="support">
-            <a href="<?php echo path( 'documentation/' ); ?>">Support</a>
-        </li>
         <li class="tools">
             <a href="<?php echo path( 'tools/' ); ?>">Tools</a>
+        </li>
+        <li class="support">
+            <a href="<?php echo path( 'documentation/' ); ?>">Support</a>
         </li>
 <?php
         if ( 'dev' == ENV ) {
