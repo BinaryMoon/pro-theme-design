@@ -13,17 +13,6 @@
 <?php
     }
 
-    if ( ! empty( $theme[ 'url-wpcom' ] ) ) {
-?>
-
-                <div class="note alt message">
-                    <h3>WordPress.com - cloud hosted</h3>
-                    <span class="price"><?php echo $theme['price-wpcom']; ?></span>
-                    <p>Get a hosted version of <?php echo $theme[ 'name' ]; ?>. No setup or technical headaches (or theme download).</p>
-                    <a href="<?php echo $theme[ 'url-wpcom' ]; ?>" target="_blank" class="button end">Get for wordpress.com<i class="fa fa-external-link end"></i></a>
-                </div>
-<?php
-    }
 
     if ( ! empty( $theme[ 'url-wporg' ] ) ) {
 ?>
@@ -33,6 +22,19 @@
                     <p>Get access to all of our self-hosted themes for one price.</p>
                     <a href="<?php echo path( 'theme-club/' ); ?>" class="button positive">Join the Club</a>
                 </div>
+<?php
+    }
+
+    if ( ! empty( $theme[ 'url-wpcom' ] ) ) {
+?>
+                <!--
+
+                <div class="note alt message">
+                    <p><strong>WordPress.com - cloud hosted</strong>: Get a hosted version of <?php echo $theme[ 'name' ]; ?>. No setup or technical headaches (or theme download).</p>
+                    <a href="<?php echo $theme[ 'url-wpcom' ]; ?>" target="_blank" class="button end">Get for wordpress.com<i class="fa fa-external-link end"></i></a>
+                </div>
+
+                -->
 <?php
     }
 ?>
