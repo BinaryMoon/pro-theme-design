@@ -20,7 +20,7 @@
                 <div class="note note-themes-club message alt">
                     <h3>Join the Theme Club</h3>
                     <p>Get access to all of our self-hosted themes for one price.</p>
-                    <a href="<?php echo path( 'theme-club/' ); ?>" class="button positive">Join the Club</a>
+                    <a href="<?php echo path( 'theme-club/' ); ?>" class="button positive">More Info <i class="fa fa-arrow-right end"></i></a>
                 </div>
 <?php
     }
