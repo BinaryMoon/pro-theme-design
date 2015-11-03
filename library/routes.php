@@ -297,7 +297,7 @@ Flight::route( '/documentation/(@type)(/@page)/', function( $type = '', $page = 
             $layout = '_support/type-' . $type . '.php';
 
             site_breadcrumb_add( documentation_page_name( $page ), 'documentation/' . $type . '/' . $page . '/' );
-            site_title( sprintf( '%s Help - Pro Theme Design', documentation_page_name( $page ) ) );
+            site_title( sprintf( '%s Help', documentation_page_name( $page ) ) );
 
         } else {
 
