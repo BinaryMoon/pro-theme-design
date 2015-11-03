@@ -15,10 +15,10 @@
             </div>
 
             <nav class="social">
-                <a class="twitter" href="http://www.twitter.com/prothemedesign">
+                <a class="twitter" href="https://www.twitter.com/prothemedesign">
                     <i class="fa fa-twitter"></i>
                 </a>
-                <a class="facebook" href="http://www.facebook.com/prothemedesign">
+                <a class="facebook" href="https://www.facebook.com/prothemedesign">
                     <i class="fa fa-facebook"></i>
                 </a>
             </nav>
