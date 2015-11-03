@@ -8,7 +8,7 @@
         <div class="wrapper block big">
             <header>
                 <a href="<?php echo $theme['url']; ?>">
-                    <img src="<?php echo image_path( 'devices/' . $theme['image'] ); ?>">
+                    <img src="<?php echo image_path( 'devices/' . $theme['image'] ); ?>" alt="<?php echo $theme['name']; ?> Screenshot">
                 </a>
             </header>
             <section>
@@ -60,7 +60,7 @@
 ?>
             <div class="block showcase-website theme-<?php echo $site['theme']; ?>">
                 <a href="<?php echo $site['url-preview']; ?>" class="image">
-                    <img src="<?php echo $site[ 'image_url' ]; ?>" width="400" height="300" />
+                    <img src="<?php echo $site[ 'image_url' ]; ?>" width="400" height="300" alt="<?php echo $site['name']; ?> Screenshot">
                 </a>
                 <div class="meta">
                     <h3><?php echo $site['name']; ?></h3>

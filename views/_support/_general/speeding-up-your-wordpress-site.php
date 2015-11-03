@@ -43,6 +43,6 @@
 <p>This, however, doesn't mean you have to pay loads to get good hosting. Below are a few hosts we recommend.</p>
 
 <ul>
-    <li><a href="http://www.dreamhost.com/r.cgi?70978">Dreamhost</a> - use the coupon code <strong>PTD</strong> when you sign up to save $15 and get a free domain name! We highly recommend the managed WordPress hosting.</li>
+    <li><a href="https://www.dreamhost.com/r.cgi?70978">Dreamhost</a> - use the coupon code <strong>PTD</strong> when you sign up to save $15 and get a free domain name! We highly recommend the managed WordPress hosting.</li>
     <li><a href="https://www.digitalocean.com/?refcode=d4442740ec05" target="_blank">Digital Ocean</a> - Digital Ocean requires some extra technical knowhow - but their servers are super fast, and very cheap for the power.</li>
 </ul>

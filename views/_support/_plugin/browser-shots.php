@@ -5,7 +5,7 @@
 [browser-shot url="http://link-to-website" width="600"]
 
 // shot with link to other website
-[browser-shot url="http://link-to-website" width="700" link="http://www.binarymoon.co.uk/"]
+[browser-shot url="http://link-to-website" width="700" link="https://www.binarymoon.co.uk/"]
 
 // shot with caption (uses default WordPress caption styles)
 [browser-shot url="http://link-to-website" width="700"]Add Caption[/browser-shot]

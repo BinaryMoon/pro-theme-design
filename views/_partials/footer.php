@@ -14,7 +14,7 @@
                     <img id="ava-ben" class="avatar" src="<?php echo image_path( 'website/ava-ben.jpg' ); ?>" alt="Ben Gillbanks">
                     <h5>Ben Gillbanks</h5>
                     <p class="location">Exeter, England</p>
-                    <p class="bio">Ben is a full stack developer - doing both design and development - often turning Darrens crazy ideas into real products, but not averse to designing his own themes and writing the occassional plugin. Plus he blogs about WordPress and technology at <a href="http://www.binarymoon.co.uk/">Binary Moon</a>.</p>
+                    <p class="bio">Ben is a full stack developer - doing both design and development - often turning Darrens crazy ideas into real products, but not averse to designing his own themes and writing the occassional plugin. Plus he blogs about WordPress and technology at <a href="https://www.binarymoon.co.uk/">Binary Moon</a>.</p>
 
                     <a href="https://www.binarymoon.co.uk" target="_blank" class="link">
                         <i class="fa fa-link"></i> Personal Site
