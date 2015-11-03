@@ -2,7 +2,7 @@
 <nav class="main-menu">
     <a href="#" class="menu-close"><i class="fa fa-times"></i></a>
 
-    <ul>
+    <ul class="tree alt large">
         <li class="themes menu-item-has-children">
             <a href="<?php echo path(); ?>">Themes</a>
             <ul>

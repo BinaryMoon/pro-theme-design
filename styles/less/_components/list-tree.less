@@ -8,14 +8,25 @@ ul.tree {
 
             &:before {
                 display:block;
-                width:0.4em;
-                height:0.4em;
+                width:0.5em;
+                height:0.5em;
                 content:'';
                 border:1px solid @canvas-light;
                 border-width: 0 0 1px 1px;
                 position:absolute;
                 left:-1em;
-                top:(@grid-line-height / 2);
+                top:30%;
+            }
+        }
+    }
+
+    &.alt {
+        ul {
+            li {
+                &:before {
+                    border:1px solid @canvas-dark;
+                    border-width: 0 0 1px 1px;
+                }
             }
         }
     }
