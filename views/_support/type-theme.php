@@ -13,9 +13,13 @@
         <p><?php echo $doc[ 'description' ]; ?></p>
         <p><a href="<?php echo $doc[ 'url' ]; ?>" class="button">More Info <i class="fa fa-arrow-right"></i></a></p>
     </div>
-
-    <img src="<?php echo image_path( 'devices/' . $doc['image'] ); ?>" />
-
+<?php
+    if ( ! site_include_exists( '_support/_theme/' . $page . '.php' ) ) {
+?>
+    <img src="<?php echo image_path( 'devices/' . $doc['image'] ); ?>" alt="<?php echo $doc['name']; ?> Screenshot" />
+<?php
+    }
+?>
     <h2>Getting Started</h2>
 
     <ul>

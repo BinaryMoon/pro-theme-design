@@ -34,7 +34,7 @@
     <li>Project Tag Archive – http://yoursite.com/project-tag/project-tag-slug/</li>
 </ul>
 
-<p class="notice"><strong>Note:</strong> Since portfolios are displayed automatically at the address ​http://yoursite.com/portfolio/ it’s important that you don’t create any pages, categories, or tags called “portfolio,” otherwise your projects may not display as intended.</p>
+<p class="note"><strong>Note:</strong> Since portfolios are displayed automatically at the address <em>http://yoursite.com/portfolio/</em> it’s important that you don’t create any pages, categories, or tags called “portfolio,” otherwise your projects may not display as intended.</p>
 
 <h2>Portfolio Shortcode</h2>
 

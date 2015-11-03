@@ -231,7 +231,7 @@ function get_documentation_data() {
     $processed = array();
 
     foreach( $docs as $key => $doc ) {
-        $doc[ 'path' ] = path( 'documentation/' . $doc[ 'type' ] . '/' . $key . '/' );
+        $doc[ 'url' ] = path( 'documentation/' . $doc[ 'type' ] . '/' . $key . '/' );
         $processed[ $key ] = $doc;
     }
 
@@ -262,7 +262,7 @@ function documentation_list( $type = '', $limit = 5 ) {
         echo '<ul>';
         foreach( $doc_list as $d ) {
 ?>
-    <li><a href="<?php echo $d[ 'path' ]; ?>"><?php echo $d[ 'name' ]; ?></a></li>
+    <li><a href="<?php echo $d[ 'url' ]; ?>"><?php echo $d[ 'name' ]; ?></a></li>
 <?php
         }
         echo '</ul>';
@@ -368,10 +368,10 @@ function documentation_required_plugin( $page ) {
     $docs = get_documentation_data();
 
     if ( ! empty( $docs[ $page ][ 'requires' ] ) && ! empty( $docs[ $docs[ $page ][ 'requires' ] ] ) ) {
-        $plugin_url = $docs[ $docs[ $page ][ 'requires' ] ][ 'path' ];
+        $plugin_url = $docs[ $docs[ $page ][ 'requires' ] ][ 'url' ];
         $plugin_name = $docs[ $docs[ $page ][ 'requires' ] ][ 'name' ];
 ?>
-    <p class="notice"><?php printf( '<strong>%s</strong> requires the <a href="%s">%s plugin</a>.', $docs[ $page ][ 'name' ], $plugin_url, $plugin_name ); ?></p>
+    <p class="note"><?php printf( '<strong>%s</strong> requires the <a href="%s">%s plugin</a>.', $docs[ $page ][ 'name' ], $plugin_url, $plugin_name ); ?></p>
 <?php
     }
 
@@ -392,7 +392,7 @@ function documentation_supported_themes( $page ) {
     foreach( $docs as $doc ) {
         if ( ! empty( $doc[ 'supports' ] ) ) {
             if ( in_array( $page, $doc[ 'supports' ] ) ) {
-                $supported[] = sprintf( '<a href="%s">%s</a>', $doc[ 'path' ], $doc[ 'name' ] );
+                $supported[] = sprintf( '<a href="%s">%s</a>', $doc[ 'url' ], $doc[ 'name' ] );
             }
         }
     }
@@ -417,17 +417,20 @@ function documentation_theme_features( $theme ) {
     if ( ! empty( $theme[ 'supports' ] ) ) {
 ?>
     <h2>Standard Features</h2>
+    <ul>
 <?php
         foreach( $theme[ 'supports' ] as $feature ) {
             if ( isset( $docs[ $feature ] ) ) {
                 $f = $docs[ $feature ];
 ?>
-    <p><strong><a href="<?php echo $f[ 'path' ]; ?>"><?php echo $f[ 'name' ]; ?></a></strong> - <?php echo $f[ 'description' ]; ?></p>
+        <li><strong><a href="<?php echo $f[ 'url' ]; ?>"><?php echo $f[ 'name' ]; ?></a></strong> - <?php echo $f[ 'description' ]; ?></li>
 <?php
             }
         }
     }
-
+?>
+    </ul>
+<?php
 }
 
 
@@ -440,15 +443,18 @@ function documentation_plugin_features( $theme ) {
 
 ?>
     <h2>Supported Features</h2>
+    <ul>
 <?php
     foreach( $docs as $doc ) {
         if ( ! empty( $doc[ 'requires' ] ) && $theme == $doc[ 'requires' ] ) {
 ?>
-    <p><strong><a href="<?php echo $doc[ 'path' ]; ?>"><?php echo $doc[ 'name' ]; ?></a></strong> - <?php echo $doc[ 'description' ]; ?></p>
+        <li><strong><a href="<?php echo $doc[ 'url' ]; ?>"><?php echo $doc[ 'name' ]; ?></a></strong> - <?php echo $doc[ 'description' ]; ?></li>
 <?php
         }
     }
-
+?>
+    </ul>
+<?php
 }
 
 
@@ -479,7 +485,7 @@ function documentation_related( $feature ) {
             if ( isset( $docs[ $related_feature ] ) ) {
 ?>
             <li>
-                <a href="<?php echo $docs[ $related_feature ][ 'path' ]; ?>"><?php echo $docs[ $related_feature ][ 'name' ]; ?></a>
+                <a href="<?php echo $docs[ $related_feature ][ 'url' ]; ?>"><?php echo $docs[ $related_feature ][ 'name' ]; ?></a>
             </li>
 <?php
             }
@@ -488,4 +494,20 @@ function documentation_related( $feature ) {
         </ul>
 <?php
     }
+}
+
+
+/**
+ * Create a html link that points to a specific peice of documentaiton
+ *
+ * @param string $key The documentation key for the item to be linked.
+ */
+function documentation_link( $key ) {
+
+    $docs = get_documentation_data();
+
+    if ( ! empty( $docs[ $key ] ) ) {
+        echo '<a href="' . $docs[ $key ]['url'] . '">' . $docs[ $key ]['name'] . '</a>';
+    }
+
 }

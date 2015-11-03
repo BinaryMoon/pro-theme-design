@@ -6,7 +6,7 @@
     <p class="intro"><?php echo $doc[ 'description' ]; ?> <a href="<?php echo $doc[ 'url' ]; ?>" target="_blank" class="button">Details &amp; Download</a></p>
 
     <a href="<?php echo $doc[ 'url' ]; ?>" target="_blank">
-        <img src="<?php echo $doc[ 'image' ]; ?>">
+        <img src="<?php echo $doc[ 'image' ]; ?>" alt="<?php echo documentation_page_name( $page ); ?> Cover Image">
     </a>
 
 <?php

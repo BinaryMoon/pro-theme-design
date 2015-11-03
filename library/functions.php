@@ -127,6 +127,19 @@ function site_view_path( $path ) {
 
 
 /**
+ * Check to see if a specific view file exists.
+ *
+ * @param  string  $path Path to check.
+ * @return boolean true if exists, false otherwise.
+ */
+function site_include_exists( $path ) {
+
+    return file_exists( site_view_path( $path ) );
+
+}
+
+
+/**
  * Is the current page the homepage
  * @return boolean True if the page is the homepage, Flase otherwise
  */

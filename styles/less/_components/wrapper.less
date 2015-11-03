@@ -10,6 +10,7 @@
 
     h1, h2, h3, h4, h5, h6 {
         color:@canvas-white;
+        clear:both;
     }
 
     .intro {
@@ -40,4 +41,32 @@
             margin:0;
         }
     }
+
+    .align-left {
+        float:left;
+        margin:0 (@grid-gutter) (@grid-line-height * @grid-line-height-multiplyer) 0;
+    }
+
+    .align-right {
+        float:right;
+        margin:0 0 (@grid-line-height * @grid-line-height-multiplyer) (@grid-gutter) ;
+    }
+}
+
+@media only screen and (max-width: 749px) {
+
+    .wrapper {
+
+        .align-left,
+        .align-right {
+            float:none;
+            margin:0 auto (@grid-line-height * @grid-line-height-multiplyer) auto;
+        }
+
+    }
+
+}
+
+@media only screen and (max-width: 499px) {
+
 }
