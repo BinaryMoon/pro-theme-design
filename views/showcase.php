@@ -56,7 +56,7 @@
 ?>
         <div class="wrapper showcase-description">
             <div class="note message">
-                <h2><?php echo $theme_data[ 'name' ]; ?></h2>
+                <h1><?php echo $theme_data[ 'name' ]; ?></h1>
                 <p class="intro"><?php echo $theme_data[ 'description' ]; ?></p>
                 <a href="<?php echo $theme_data[ 'url' ]; ?>" class="button positive">More info <i class="fa fa-arrow-right"></i></a>
             </div>
@@ -74,7 +74,7 @@
 ?>
             <div class="block showcase-website theme-<?php echo $site['theme']; ?>">
                 <a href="<?php echo $site[ 'url-preview' ]; ?>" class="image">
-                    <img src="<?php echo $site[ 'image_url' ]; ?>" width="400" height="300" />
+                    <img src="<?php echo $site[ 'image_url' ]; ?>" width="400" height="300" alt="<?php echo $site['name']; ?> Screenshot" />
                 </a>
                 <div class="meta">
                     <h3><?php echo $site['name']; ?></h3>

@@ -35,7 +35,7 @@
     $handle = opendir( $path );
 
     while ( false !== ( $file = readdir( $handle ) ) ) {
-        if ( substr( $file, -5 ) == '.html' ) {
+        if ( '.html' === substr( $file, -5 ) ) {
             $files[] = $file;
         }
     }
@@ -53,8 +53,8 @@
             <div class="pattern">
                 <h3><?php echo $name; ?>
                     <small>
-                        <a href="<?php echo $path . '/' . $file ?>"><i class="fa fa-file"></i><?php echo $file; ?></a>
-                        <a href="#" class="toggle"><i class="fa fa-code"></i>Code</a>
+                        <a href="<?php echo path( 'views/_styleguide/' . $file ); ?>" rel="nofollow"><i class="fa fa-file"></i><?php echo $file; ?></a>
+                        <a href="#" class="toggle" rel="nofollow"><i class="fa fa-code"></i>Code</a>
                     </small>
                 </h3>
                 <div class="pattern-wrapper">

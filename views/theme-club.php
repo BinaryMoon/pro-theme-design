@@ -7,6 +7,7 @@
         <?php include( '_partials/header.php' ); ?>
 
         <div class="wrapper text">
+            <h1>WordPress Theme Club</h1>
 
             <p class="note intro note-themes-club">Join the <strong>Pro Theme Design <em>Theme Club</em></strong> to get access to all of our self hosted themes. The Pro Theme Design <em>Theme Club</em> is the best value for users who run multiple sites or agencies who want to use multiple themes for different clients. You can use the themes for your client work.</p>
 

@@ -24,7 +24,7 @@
         <li><a href="<?php echo path( 'contact/thanks/' ); ?>">Contact - Thanks</a></li>
         <li><a href="<?php echo path( 'tools/' ); ?>">Tools</a></li>
         <li><a href="<?php echo path( 'tools/pattern-library/' ); ?>">Tools - Pattern Library</a></li>
-        <li><a href="<?php echo path( '404' ); ?>">404</a></li>
+        <li><a href="<?php echo path( '404/' ); ?>">404</a></li>
         <li><a href="<?php echo path( 'policies/' ); ?>">Terms and Conditions</a></li>
     </ul>
 </div>

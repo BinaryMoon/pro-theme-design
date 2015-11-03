@@ -3,7 +3,7 @@
 ?>
     <body class="page-preview">
         <header>
-            <h1><?php echo $theme[ 'name' ]; ?></h1>
+            <h1><?php echo $theme[ 'name' ]; ?> Demo</h1>
 <?php
     if ( ! empty( $theme[ 'url-wpcom' ] ) || ! empty( $theme[ 'url-wporg' ] ) ) {
 ?>

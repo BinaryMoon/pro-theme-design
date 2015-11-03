@@ -7,7 +7,7 @@
         $install_url = path( 'documentation/general/child-theme-installation/' );
     }
 ?>
-    <h1><?php echo $doc[ 'name' ]; ?></h1>
+    <h1><?php echo $doc[ 'name' ]; ?> Documentation</h1>
 
     <div class="note intro breath">
         <p><?php echo $doc[ 'description' ]; ?></p>

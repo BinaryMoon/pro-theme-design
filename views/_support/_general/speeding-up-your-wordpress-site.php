@@ -22,7 +22,7 @@
 
 <h2>Optimise Your Images</h2>
 
-<p>Images can add a lot to your websites file size. We recommend making use of the <a href="<?php echo path( '/documentation/feature/image-resizing/' ); ?>">Jetpack plugin and Photon functionality</a>. This adds a cdn to your site - essentially serving the images for you from their servers designed to serve images quickly. They will also compress the images making them smaller in size. Both of these things will make your website faster.</p>
+<p>Images can add a lot to your websites file size. We recommend making use of the <a href="<?php echo path( 'documentation/feature/image-resizing/' ); ?>">Jetpack plugin and Photon functionality</a>. This adds a cdn to your site - essentially serving the images for you from their servers designed to serve images quickly. They will also compress the images making them smaller in size. Both of these things will make your website faster.</p>
 
 <p>Alternatively there are a variety of plugins that will compress your images as you upload them. Some good ones include:</p>
 
