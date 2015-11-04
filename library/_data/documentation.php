@@ -77,7 +77,7 @@ function get_documentation_data() {
             'type' => 'feature',
             'requires' => 'jetpack',
             'description' => 'Select your best content to appear in a Slider or other special area on the homepage.',
-            'related' => array( 'customizer' ),
+            'related' => array( 'customizer', 'featured-image' ),
             'icon' => 'thumb-tack',
         ),
         'custom-front-page' => array(
