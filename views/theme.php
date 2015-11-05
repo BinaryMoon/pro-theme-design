@@ -18,7 +18,7 @@
 
                     <footer>
 <?php
-    if ( ! empty( $theme[ 'url-wpcom' ] ) || ! empty( $theme[ 'url-wporg' ] ) ) {
+    if ( ! empty( $theme[ 'url-wporg' ] ) ) {
 ?>
                         <a href="#" class="button positive get-theme greedy"><i class="fa fa-download"></i>Get Now!</a>
 <?php
