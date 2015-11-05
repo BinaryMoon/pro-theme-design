@@ -12,6 +12,7 @@
         'imcreator.com/free' => 'Photos, icons, and more.',
         'jaymantri.com' => 'Jay Mantri.',
         'publicdomainarchive.com' => 'Public Domain Archive.',
+        'en.freejpg.com.ar' => 'FreeJPG',
         'magdeleine.co/browse' => 'Hand picked photos.',
         'foodiesfeed.com' => 'Free food photos.',
         'picography.co' => 'Picography, free pics.',
