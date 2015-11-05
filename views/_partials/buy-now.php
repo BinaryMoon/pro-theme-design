@@ -13,8 +13,7 @@
 <?php
     }
 
-
-    if ( ! empty( $theme[ 'url-wporg' ] ) ) {
+    if ( ! empty( $theme[ 'url-wporg' ] ) && 'free!' !== $theme['price-wporg'] ) {
 ?>
 
                 <div class="note note-themes-club message alt">
