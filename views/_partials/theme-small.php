@@ -12,7 +12,13 @@
 
                     <footer>
                         <a class="button" href="<?php echo $theme['url']; ?>" title="<?php echo $theme['name']; ?> Details">
-                            Demo &amp; Details
+<?php
+    $text = 'Details';
+    if ( ! empty( $theme[ 'url-preview' ] ) ) {
+        $text = 'Demo &amp; Details';
+    }
+    echo $text;
+?>
                         </a>
                     </footer>
                 </div>
