@@ -20,7 +20,7 @@
         </header>
 
         <div class="iframe-wrapper">
-            <iframe src="https://demo.prothemedesign.com/wordpress/<?php echo strtolower( $theme_slug ); ?>/"></iframe>
+            <iframe src="https://demo.prothemedesign.com/wordpress/<?php echo strtolower( $theme_slug ); ?>/" sandbox></iframe>
         </div>
 
 <?php
