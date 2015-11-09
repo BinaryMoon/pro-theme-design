@@ -31,11 +31,12 @@
     bottom:0;
     right:0;
     left:0;
-    z-index:11;
     opacity:0;
     visibility: hidden;
     .transition;
     overflow:auto;
+    pointer-events: none;
+    z-index:100;
 
     .modal {
         background:@canvas-light url( ../../img/website/bg_top.png ) fixed;
@@ -46,6 +47,7 @@
         width:100%;
         margin:(@grid-line-height * 2) auto;
         position:relative;
+        pointer-events:auto;
     }
 
     .overlay-close {
