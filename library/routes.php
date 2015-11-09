@@ -116,6 +116,30 @@ Flight::route( '/theme/(@theme)/', function( $theme = '' ) {
 
 
 /**
+ * Themes
+ */
+Flight::route( '/themes/(@location)/', function( $host = '' ) {
+
+    if ( $themes = themes_by_host( $host ) ) {
+
+    } else {
+
+        Flight::notFound();
+
+    }
+
+    Flight::render(
+        'themes.php',
+        array(
+            'themes' => $themes,
+        )
+    );
+
+
+} );
+
+
+/**
  * Theme Showcase
  */
 Flight::route( '/theme-showcase/(@tag)/', function( $tag = '' ) {

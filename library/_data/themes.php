@@ -207,7 +207,7 @@ function get_theme_data() {
 
         // set wordpress.org url if applicable
         if ( ! empty( $theme[ 'url-wporg' ] ) ) {
-            $theme[ 'url-wporg' ] = 'https://wordpress.org/themes/' . $theme['url-wporg'];
+            $theme[ 'url-wporg' ] = 'https://wordpress.org/themes/' . $theme['url-wporg'] . '/';
         } else if ( ! empty( $theme[ 'price-wporg' ] ) ) {
             $theme[ 'url-wporg' ] = 'https://creativemarket.com/BinaryMoon/' . $theme['url-cm'] . '?u=BinaryMoon';
         } else {
@@ -241,6 +241,15 @@ function get_theme_data() {
         }
 
         $theme[ 'price-wpcom' ] = '$' . $theme[ 'price-wpcom' ];
+
+        // text for button that gets the theme details
+        $theme[ 'text-details' ] = 'Details';
+        if ( ! empty( $theme[ 'url-preview' ] ) ) {
+            $theme[ 'text-details' ] = 'Demo &amp; Details';
+        }
+
+        // link target
+        $theme[ 'link-target' ] = '';
 
         // set default theme features that all themes support
         $theme[ 'supports' ] = array_merge(
@@ -369,5 +378,51 @@ function themes_all_themes_price() {
     }
 
     return $price;
+
+}
+
+
+/**
+ * Get a list of themes suitable for the specified host
+ *
+ * @param  string  [$host       = ''] The website host to return themes for.
+ * @return boolean an array of theme info.
+ */
+function themes_by_host( $host = '' ) {
+
+    $hosts = array( 'wordpress.com', 'wordpress.org' );
+
+    if ( empty( $host ) && ! in_array( $host, $hosts ) ) {
+        return false;
+    }
+
+    $themes = get_theme_data();
+    $processed_themes = array();
+
+    foreach ( $themes as $theme ) {
+        $theme[ 'link-target' ] = '_blank';
+        $theme[ 'text-details' ] = 'Get for ' . $host;
+
+        switch( $host ) {
+            case 'wordpress.com':
+
+                $theme[ 'url' ] = $theme[ 'url-wpcom' ];
+                $processed_themes[] = $theme;
+
+                break;
+
+            case 'wordpress.org':
+
+                if ( ! empty( $theme[ 'url-wporg' ] ) ) {
+                    $theme[ 'url' ] = $theme[ 'url-wporg' ];
+                    $processed_themes[] = $theme;
+                }
+
+                break;
+        }
+
+    }
+
+    return $processed_themes;
 
 }
