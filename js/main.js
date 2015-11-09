@@ -30,6 +30,14 @@
 
     }
 
+
+    function hide_menu() {
+
+        $( 'body' ).removeClass( 'menu-display' );
+        hide_overlay();
+
+    }
+
     function show_overlay() {
 
         $( 'body' ).addClass( 'overlay-display' );
@@ -113,8 +121,7 @@
 
         if ( $( 'body' ).hasClass( 'overlay-display' ) ) {
 
-            hide_overlay();
-            $( 'body' ).removeClass( 'menu-display' );
+            hide_menu();
 
         } else {
 
@@ -184,6 +191,24 @@
 
         e.preventDefault();
         prepare_form( '.form-contact-technical' );
+
+    } );
+
+    $( '.modal' ).on( 'click', function( e ) {
+
+        e.preventDefault();
+        e.stopPropagation();
+        console.log( 'modal clicked' );
+
+    } );
+
+    $( '.overlay' ).on( 'click', function( e ) {
+
+        e.preventDefault();
+        e.stopPropagation();
+
+        hide_modal();
+        hide_menu();
 
     } );
 
