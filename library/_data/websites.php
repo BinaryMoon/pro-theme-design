@@ -75,7 +75,7 @@ function get_website_data() {
             'tags' => array( 'puzzle' ),
         ),
         'noise-nation' => array(
-            'url' => 'https://noisenation.wordpress.com',
+            'url' => 'http://noisenation.wordpress.com',
             'name' => 'Noise Nation',
             'image' => 'noisenation',
             'theme' => 'opti',
@@ -278,7 +278,10 @@ function get_website_data() {
         // preview url
         $site[ 'url-showcase' ] = path( 'theme-showcase/' . $site['theme'] . '/#' . $key );
 
-        // add theme to tags
+        // iframe url
+        $site[ 'url-iframe' ] = 'https://www.google.com/search?q=' . urlencode( $site['url'] ) . '&btnI=' . urlencode( 'Im+Feeling+Lucky' );
+
+        // add theme slug to tags
         $site[ 'tags' ][] = $site[ 'theme' ];
 
         // setup site screenshots
