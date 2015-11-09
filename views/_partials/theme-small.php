@@ -11,14 +11,8 @@
                     <p><?php echo $theme['description']; ?></p>
 
                     <footer>
-                        <a class="button" href="<?php echo $theme['url']; ?>" title="<?php echo $theme['name']; ?> Details">
-<?php
-    $text = 'Details';
-    if ( ! empty( $theme[ 'url-preview' ] ) ) {
-        $text = 'Demo &amp; Details';
-    }
-    echo $text;
-?>
+                        <a class="button" href="<?php echo $theme['url']; ?>" title="<?php echo $theme['name']; ?> Details" target="<?php echo $theme[ 'link-target' ]; ?>">
+                            <?php echo $theme['text-details']; ?>
                         </a>
                     </footer>
                 </div>
