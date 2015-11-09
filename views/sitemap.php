@@ -23,7 +23,13 @@
                         <?php website_sitemap(); ?>
                     </ul>
                 </li>
+<?php
+    if ( ! DISABLE_THEME_CLUB ) {
+?>
                 <li><a href="<?php echo path( 'theme-club/' ); ?>">Theme Club</a></li>
+<?php
+    }
+?>
                 <li>
                     <a href="<?php echo path( 'tools/' ); ?>">Tools</a>
                     <ul>

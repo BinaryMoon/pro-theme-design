@@ -9,9 +9,15 @@
                 <li class="theme-showcase">
                     <a href="<?php echo path( 'theme-showcase/' ); ?>">Showcase</a>
                 </li>
+<?php
+    if ( ! DISABLE_THEME_CLUB ) {
+?>
                 <li class="theme-club">
                     <a href="<?php echo path( 'theme-club/' ); ?>">Theme Club</a>
                 </li>
+<?php
+    }
+?>
             </ul>
         </li>
         <li class="wordpress-plugins">

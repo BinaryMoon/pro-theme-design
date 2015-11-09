@@ -103,6 +103,8 @@
 ?>
         </div>
 <?php
+    site_include_view( '_partials/theme-club.php' );
+
     include( '_partials/buy-now.php' );
 
     include( '_partials/footer.php' );

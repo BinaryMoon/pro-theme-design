@@ -129,5 +129,7 @@ site_description( 'Partnering with <a href="http://theme.wordpress.com/themes/by
 site_title( 'Pro Theme Design - WordPress Themes and Plugins' );
 
 // default site scripts
-site_script( 'https://gumroad.com/js/gumroad.js', true );
+if ( ! DISABLE_THEME_CLUB ) {
+    site_script( 'https://gumroad.com/js/gumroad.js', true );
+}
 site_script( js_path( 'main.min.js' ) );
