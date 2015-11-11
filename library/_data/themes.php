@@ -14,6 +14,7 @@ function get_theme_data() {
             'price-wpcom' => 79,
             'price-wporg' => 99,
             'url-wpcom' => 'exhibit',
+            'url-gr' => 'dWZHu',
             'url-cm' => '348846-Exhibit-WordPress-Portfolio-Theme',
             'image' => 'exhibit.png',
             'supports' => array( 'custom-front-page', 'site-logo', 'infinite-scroll', 'social-menu', 'testimonials', 'portfolio' ),
@@ -160,7 +161,6 @@ function get_theme_data() {
             'price-wpcom' => 79,
             'price-wporg' => '',
             'url-wpcom' => 'vision',
-            'url-cm' => '',
             'image' => 'vision.png',
             'supports' => array( 'featured-content', 'featured-image', 'infinite-scroll', 'testimonials', ),
         ),
@@ -171,7 +171,7 @@ function get_theme_data() {
             'price-wpcom' => 79,
             'price-wporg' => '',
             'url-wpcom' => 'kent',
-            'url-cm' => '',
+            'url-gr' => 'kpFRg',
             'url-wporg' => 'kent',
             'image' => 'kent.png',
             'supports' => array( 'featured-image', 'infinite-scroll', 'sticky-post', ),
@@ -183,7 +183,6 @@ function get_theme_data() {
             'price-wpcom' => 69,
             'price-wporg' => '',
             'url-wpcom' => 'bexley',
-            'url-cm' => '',
             'image' => 'bexley.png',
             'supports' => array( 'featured-image', 'infinite-scroll', 'sticky-post', ),
         ),
@@ -194,7 +193,6 @@ function get_theme_data() {
             'price-wpcom' => 59,
             'price-wporg' => '',
             'url-wpcom' => 'isca',
-            'url-cm' => '',
             'image' => 'isca.png',
             'supports' => array( 'infinite-scroll', 'post-formats' ),
         ),
@@ -206,7 +204,9 @@ function get_theme_data() {
     foreach( $themes as $key => $theme ) {
 
         // set wordpress.org url if applicable
-        if ( ! empty( $theme[ 'url-wporg' ] ) ) {
+        if ( ! DISABLE_GUMROAD && ! empty( $theme[ 'url-gr' ] ) ) {
+            $theme[ 'url-wporg' ] = 'https://gumroad.com/l/' . $theme['url-gr'] . '/';
+        } else if ( ! empty( $theme[ 'url-wporg' ] ) ) {
             $theme[ 'url-wporg' ] = 'https://wordpress.org/themes/' . $theme['url-wporg'] . '/';
         } else if ( ! empty( $theme[ 'price-wporg' ] ) ) {
             $theme[ 'url-wporg' ] = 'https://creativemarket.com/BinaryMoon/' . $theme['url-cm'] . '?u=BinaryMoon';
