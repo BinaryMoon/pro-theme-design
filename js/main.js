@@ -194,15 +194,26 @@
 
     } );
 
-    $( '.modal' ).on( 'click', function( e ) {
+    // prepare contact form
+
+    function prepare_form( selector ) {
+
+        $( selector ).addClass( 'display' ).attr( 'action', '//formspree.io/' + 'support' + '@' + 'prothemedesign' + '.' + 'com' );
+        $( '.contact-selection' ).addClass( 'hidden' );
+
+    }
+
+    return;
+
+    $( '._modal' ).on( 'click', function( e ) {
 
         e.preventDefault();
         e.stopPropagation();
-        console.log( 'modal clicked' );
 
     } );
 
-    $( '.overlay' ).on( 'click', function( e ) {
+
+    $( '_overlay' ).on( 'click', function( e ) {
 
         e.preventDefault();
         e.stopPropagation();
@@ -212,12 +223,5 @@
 
     } );
 
-
-    function prepare_form( selector ) {
-
-        $( selector ).addClass( 'display' ).attr( 'action', '//formspree.io/' + 'support' + '@' + 'prothemedesign' + '.' + 'com' );
-        $( '.contact-selection' ).addClass( 'hidden' );
-
-    }
 
 })();
