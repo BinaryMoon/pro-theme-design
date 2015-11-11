@@ -1,5 +1,5 @@
 <?php
-    if ( DISABLE_THEME_CLUB ) {
+    if ( DISABLE_GUMROAD ) {
         return;
     }
 ?>

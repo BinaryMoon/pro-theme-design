@@ -13,7 +13,7 @@
 <?php
     }
 
-    if ( ! DISABLE_THEME_CLUB && ! empty( $theme[ 'url-wporg' ] ) && 'free!' !== $theme['price-wporg'] ) {
+    if ( ! DISABLE_GUMROAD && ! empty( $theme[ 'url-wporg' ] ) && 'free!' !== $theme['price-wporg'] ) {
 ?>
 
                 <div class="note note-themes-club message alt">

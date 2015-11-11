@@ -59,7 +59,7 @@ define( 'DECACHE_JS', '7' );
 define( 'ENV', $environment );
 define( 'GOOGLE_CSE', '010164663960188762731:aajo_mt5e2a' );
 
-define( 'DISABLE_THEME_CLUB', false );
+define( 'DISABLE_GUMROAD', false );
 
 
 // include needed stuff

@@ -1,6 +1,6 @@
 <?php
     $download_url = path( 'assets/downloads/circular-icons.zip' );
-    if ( ! DISABLE_THEME_CLUB ) {
+    if ( ! DISABLE_GUMROAD ) {
         $download_url = 'https://gum.co/EItq';
     }
 ?>

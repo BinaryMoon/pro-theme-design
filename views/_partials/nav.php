@@ -10,7 +10,7 @@
                     <a href="<?php echo path( 'theme-showcase/' ); ?>">Showcase</a>
                 </li>
 <?php
-    if ( ! DISABLE_THEME_CLUB ) {
+    if ( ! DISABLE_GUMROAD ) {
 ?>
                 <li class="theme-club">
                     <a href="<?php echo path( 'theme-club/' ); ?>">Theme Club</a>

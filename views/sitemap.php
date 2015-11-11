@@ -24,7 +24,7 @@
                     </ul>
                 </li>
 <?php
-    if ( ! DISABLE_THEME_CLUB ) {
+    if ( ! DISABLE_GUMROAD ) {
 ?>
                 <li><a href="<?php echo path( 'theme-club/' ); ?>">Theme Club</a></li>
 <?php
