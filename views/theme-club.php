@@ -19,6 +19,8 @@
                 <li><strong>New themes</strong>: We aim to release a minimum of 2 new themes every year.</li>
             </ul>
 
+            <?php documentation_supported_themes( 'theme-club' ); ?>
+
             <table id="pricing" class="comparison">
                 <tr>
                     <th></th>
