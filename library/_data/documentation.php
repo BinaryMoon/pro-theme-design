@@ -382,8 +382,9 @@ function documentation_required_plugin( $page ) {
 
 /**
  * Display the list of themes that support the current feature
+ * @param string $feature The feature to check for.
  */
-function documentation_supported_themes( $page ) {
+function documentation_supported_themes( $feature ) {
 
     $docs = get_documentation_data();
 
@@ -391,7 +392,7 @@ function documentation_supported_themes( $page ) {
 
     foreach( $docs as $doc ) {
         if ( ! empty( $doc[ 'supports' ] ) ) {
-            if ( in_array( $page, $doc[ 'supports' ] ) ) {
+            if ( in_array( $feature, $doc[ 'supports' ] ) ) {
                 $supported[] = sprintf( '<a href="%s">%s</a>', $doc[ 'url' ], $doc[ 'name' ] );
             }
         }
