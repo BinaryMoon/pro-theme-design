@@ -8,6 +8,19 @@ function get_theme_data() {
 
     $themes = array(
 
+        'chronicle' => array(
+            'name' => 'Chronicle',
+            'description' => 'A magazine theme. With 3 optional widget areas, featured posts, and a huge homepage slider, there are lots of options for creating interesting, immersive websites.',
+            'price-wpcom' => 79,
+            'price-wporg' => 129,
+            'parent-theme' => 'broadsheet',
+            'url-wpcom' => 'chronicle',
+            'url-cm' => '113017-Chronicle-Magazine-Theme',
+            'url-gr' => 'zuqU',
+            'image' => 'chronicle.png',
+            'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'social-menu', 'testimonials', 'theme-club', ),
+        ),
+
         'exhibit' => array(
             'name' => 'Exhibit',
             'description' => 'Exhibit is the perfect theme for businesses, big and small, to exhibit their work. Acting as both a portfolio and a blog Exhibit allows you to easily show off your projects.',
@@ -20,15 +33,28 @@ function get_theme_data() {
             'supports' => array( 'custom-front-page', 'site-logo', 'infinite-scroll', 'social-menu', 'testimonials', 'portfolio' ),
         ),
 
+        'monet' => array(
+            'name' => 'Monet',
+            'description' => 'A delicate responsive portfolio theme targeted at photographers and other creatives. With crisp typography Monet is easy on the eye.',
+            'price-wpcom' => 79,
+            'price-wporg' => 99,
+            'url-wpcom' => 'monet',
+            'url-cm' => '312560-Monet-WordPress-Portfolio-Theme',
+            'url-gr' => 'RWkNX',
+            'image' => 'monet.png',
+            'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'social-menu', 'portfolio', ),
+        ),
+
         'puzzle' => array(
             'name' => 'Puzzle',
             'description' => 'A visually oriented theme, great for photographers and artists who want to tell stories using their images.',
             'price-wpcom' => 79,
             'price-wporg' => 99,
             'url-wpcom' => 'puzzle',
+            'url-gr' => 'xdaw',
             'url-cm' => '108641-Puzzle-Responsive-WordPress-Theme',
             'image' => 'puzzle.png',
-            'supports' => array( 'portfolio', 'custom-front-page', 'site-logo', 'infinite-scroll', 'social-menu', 'testimonials', ),
+            'supports' => array( 'portfolio', 'custom-front-page', 'site-logo', 'infinite-scroll', 'social-menu', 'testimonials', 'theme-club', ),
         ),
 
         'romero' => array(
@@ -42,30 +68,6 @@ function get_theme_data() {
             'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'social-menu', 'custom-colours-fonts' ),
         ),
 
-        'monet' => array(
-            'name' => 'Monet',
-            'description' => 'A delicate responsive portfolio theme targeted at photographers and other creatives. With crisp typography Monet is easy on the eye.',
-            'price-wpcom' => 79,
-            'price-wporg' => 99,
-            'url-wpcom' => 'monet',
-            'url-cm' => '312560-Monet-WordPress-Portfolio-Theme',
-            'image' => 'monet.png',
-            'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'social-menu', 'portfolio', ),
-
-        ),
-
-        'chronicle' => array(
-            'name' => 'Chronicle',
-            'description' => 'A magazine theme. With 3 optional widget areas, featured posts, and a huge homepage slider, there are lots of options for creating interesting, immersive websites.',
-            'price-wpcom' => 79,
-            'price-wporg' => 129,
-            'parent-theme' => 'broadsheet',
-            'url-wpcom' => 'chronicle',
-            'url-cm' => '113017-Chronicle-Magazine-Theme',
-            'image' => 'chronicle.png',
-            'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'social-menu', 'testimonials', ),
-        ),
-
         'opti' => array(
             'name' => 'Opti',
             'description' => 'A clean blog theme with magazine elements. Custom category blurbs, great typography and a fully editable color scheme.',
@@ -74,7 +76,7 @@ function get_theme_data() {
             'url-wpcom' => 'opti',
             'url-cm' => '9918-Opti-Responsive-WordPress-Theme',
             'image' => 'opti.png',
-            'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', ),
+            'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'theme-club', ),
         ),
 
         'mirror' => array(
@@ -85,7 +87,7 @@ function get_theme_data() {
             'url-wpcom' => 'mirror',
             'url-cm' => '220297-Mirror-WordPress-Photography-Theme',
             'image' => 'mirror.png',
-            'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'social-menu', 'custom-colours-fonts' ),
+            'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'social-menu', 'custom-colours-fonts', 'theme-club', ),
         ),
 
         'beacon' => array(
@@ -107,7 +109,7 @@ function get_theme_data() {
             'url-wpcom' => 'traveler',
             'url-cm' => '150534-Traveler-Visual-WordPress-Theme',
             'image' => 'traveler.png',
-            'supports' => array( 'featured-content', 'featured-image', 'infinite-scroll', ),
+            'supports' => array( 'featured-content', 'featured-image', 'infinite-scroll', 'theme-club', ),
         ),
 
         'lens' => array(
@@ -118,8 +120,7 @@ function get_theme_data() {
             'url-wpcom' => 'lens',
             'url-cm' => '108642-Lens-Responsive-Photography-Theme',
             'image' => 'lens.png',
-            'supports' => array( 'site-logo', 'featured-content', 'featured-image', 'infinite-scroll', 'social-menu', 'testimonials', ),
-
+            'supports' => array( 'site-logo', 'featured-content', 'featured-image', 'infinite-scroll', 'social-menu', 'testimonials', 'theme-club', ),
         ),
 
         'broadsheet' => array(
@@ -130,7 +131,7 @@ function get_theme_data() {
             'url-wpcom' => 'broadsheet',
             'url-cm' => '108643-Broadsheet-Newspaper-Theme',
             'image' => 'broadsheet.png',
-            'supports' => array( 'site-logo', 'featured-image', 'infinite-scroll', 'social-menu', 'testimonials', ),
+            'supports' => array( 'site-logo', 'featured-image', 'infinite-scroll', 'social-menu', 'testimonials', 'theme-club', ),
         ),
 
         'mimbopro' => array(
@@ -141,7 +142,7 @@ function get_theme_data() {
             'url-wpcom' => 'mimbopro',
             'url-cm' => '111465-Mimbo-Pro-WordPress-Theme',
             'image' => 'mimbopro.png',
-            'supports' => array( 'featured-image', ),
+            'supports' => array( 'featured-image', 'theme-club', ),
         ),
 
         'bromley' => array(
@@ -152,7 +153,7 @@ function get_theme_data() {
             'url-wpcom' => 'bromley',
             'url-cm' => '113531-Bromley-Responsive-WordPress-Theme',
             'image' => 'bromley.png',
-            'supports' => array( 'featured-content', 'featured-image', 'infinite-scroll', ),
+            'supports' => array( 'featured-content', 'featured-image', 'infinite-scroll', 'theme-club', ),
         ),
 
         'vision' => array(
@@ -289,6 +290,7 @@ function themes_select_box() {
     <option value="<?php echo $theme[ 'name' ]; ?>"><?php echo $theme[ 'name' ]; ?></option>
 <?php
     }
+
 }
 
 
@@ -424,5 +426,21 @@ function themes_by_host( $host = '' ) {
     }
 
     return $processed_themes;
+
+}
+
+
+/**
+ * Work out if the specified theme supports the specified feature.
+ * @param array  $theme   Theme Data.
+ * @param string $feature Feature tag.
+ */
+function themes_supports( $theme, $feature ) {
+
+    if ( in_array( $feature, $theme[ 'supports' ] ) ) {
+        return true;
+    }
+
+    return false;
 
 }
