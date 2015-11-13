@@ -33,10 +33,13 @@
     left:0;
     opacity:0;
     visibility: hidden;
-    .transition;
     overflow:auto;
     pointer-events: none;
     z-index:100;
+    .flex-display();
+    .align-items(center);
+    .flex-direction(column);
+    .justify-content(center);
 
     .modal {
         background:@canvas-light url( ../../img/website/bg_top.png ) fixed;
@@ -48,6 +51,8 @@
         margin:(@grid-line-height * 2) auto;
         position:relative;
         pointer-events:auto;
+        .transform(scale(0.1));
+        .transition-easeOutBack( all, 0.4s );
     }
 
     .overlay-close {
@@ -74,6 +79,10 @@
     &.display {
         opacity:1;
         visibility:visible;
+
+        .modal {
+            .transform(scale(1));
+        }
     }
 
 }
