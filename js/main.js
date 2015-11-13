@@ -1,4 +1,4 @@
-/* globals $, Cookies */
+/* globals $, Cookies, window, setTimeout */
 
 ;(function(){
 
@@ -66,6 +66,15 @@
     var newsletter_count = function(){
 
         return Cookies.get( 'ptd-newsletter' ) || 0;
+
+    };
+
+    // prepare contact form
+
+    var prepare_form = function( selector ) {
+
+        $( selector ).addClass( 'display' ).attr( 'action', '//formspree.io/' + 'support' + '@' + 'prothemedesign' + '.' + 'com' );
+        $( '.contact-selection' ).addClass( 'hidden' );
 
     };
 
@@ -193,18 +202,43 @@
 
     } );
 
-    // prepare contact form
 
-    function prepare_form( selector ) {
+    var smoothScroll = function( element, to, duration ) {
 
-        $( selector ).addClass( 'display' ).attr( 'action', '//formspree.io/' + 'support' + '@' + 'prothemedesign' + '.' + 'com' );
-        $( '.contact-selection' ).addClass( 'hidden' );
+        if ( duration < 0 ) {
+            return;
+        }
 
-    }
+        var difference = to - $( window ).scrollTop();
+        var perTick = difference / duration * 10;
 
+        // stop if we're close enough
+        if ( Math.abs( difference ) < 1 ) {
+            return;
+        }
+
+        this.scrollToTimerCache = setTimeout( function() {
+            if ( ! isNaN( parseInt( perTick, 10 ) ) ) {
+                window.scrollTo( 0, $( window ).scrollTop() + perTick );
+                smoothScroll( element, to, duration );
+            }
+        }.bind( this ), 10 );
+
+    };
+
+    $( '.scroll-to' ).on( 'click', function( e ) {
+
+        e.preventDefault();
+        smoothScroll( $( window ), $( $( e.currentTarget ).attr( 'href' ) ).offset().top, 150 );
+
+    } );
+
+    // uncomment to test the newsletter code
     //setTimeout( show_newsletter, 2000 );
 
     return;
+
+
 
     $( '._modal' ).on( 'click', function( e ) {
 
