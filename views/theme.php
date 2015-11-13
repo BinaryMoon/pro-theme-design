@@ -26,7 +26,7 @@
 
     if ( ! empty( $theme[ 'url-preview' ] ) ) {
 ?>
-                        <a href="<?php echo $theme[ 'url-preview' ]; ?>" class="button ghost greedy"><i class="fa fa-eye"></i>Theme Preview</a>
+                        <a href="<?php echo $theme[ 'url-preview' ]; ?>" class="button ghost greedy"><i class="fa fa-eye"></i>Preview <?php echo $theme['name']; ?></a>
 <?php
     }
 ?>
@@ -36,7 +36,12 @@
         </div>
 
 <?php
-    site_include_view( '_themes/' . $theme_name . '.php' );
+    if ( site_include_exists( '_themes/' . $theme_name . '.php' ) ) {
+
+        site_include_view( '_themes/' . $theme_name . '.php' );
+        site_include_view( '_partials/theme-purchase-buttons.php', array( 'theme' => $theme ) );
+
+    }
 ?>
 
         <!-- Showcase Websites -->
@@ -100,6 +105,8 @@
 ?>
         </div>
 <?php
+    site_include_view( '_partials/theme-purchase-buttons.php', array( 'theme' => $theme ) );
+
     if ( themes_supports( $theme, 'theme-club' ) ) {
         site_include_view( '_partials/theme-club.php' );
     }
