@@ -4,7 +4,7 @@
         $h = 'h1';
     }
 ?>
-        <header class="masthead">
+        <header class="masthead" id="masthead">
             <div class="wrapper">
                 <<?php echo $h; ?> class="site-title">
                     <a href="<?php echo path(); ?>">
