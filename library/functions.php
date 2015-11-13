@@ -99,14 +99,23 @@ function site_screenshot( $url ) {
 
 /**
  * Include a view (as long as it exists)
- * @param string $path File in the views directory to include
+ * @param string $path      File in the views directory to include
+ * @param array  $variables Variables to make accessible to included file
  */
-function site_include_view( $path ) {
+function site_include_view( $path, $variables = array() ) {
 
     $path = site_view_path( $path );
 
     if ( file_exists( $path ) ) {
 
+        // if variables are set then make them usable
+        if ( ! empty( $variables ) ) {
+
+            extract( $variables );
+
+        }
+
+        // include file
         include( $path );
 
     }
