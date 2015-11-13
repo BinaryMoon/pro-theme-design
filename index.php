@@ -6,9 +6,7 @@
  * add navigation menu to the footer to make things like tools more obvious
  * consider moving theme buy now popup to bottom of page
  * make google search work
- * add more detailed theme descriptions
- * add documentation links to the theme pages
- * new logo - https://99designs.co.uk/readymade/logos/search?q=wordpress
+ * new logo
  * favicon.ico
  * social sharing images (metadata)
  * make the drawer close when the overlay is clicked
@@ -54,8 +52,8 @@ if ( 'localhost' == $_SERVER[ 'HTTP_HOST' ] ) {
 
 
 // constants
-define( 'DECACHE_CSS', '28' );
-define( 'DECACHE_JS', '9' );
+define( 'DECACHE_CSS', '29' );
+define( 'DECACHE_JS', '10' );
 define( 'ENV', $environment );
 define( 'GOOGLE_CSE', '010164663960188762731:aajo_mt5e2a' );
 
