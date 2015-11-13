@@ -36,9 +36,7 @@
         </div>
 
 <?php
-    if ( 'dev' === ENV ) {
-        site_include_view( '_themes/' . $theme_name . '.php' );
-    }
+    site_include_view( '_themes/' . $theme_name . '.php' );
 ?>
 
         <!-- Showcase Websites -->
@@ -73,7 +71,6 @@
 <?php
     }
 ?>
-
 
         <!-- Theme Features -->
         <div class="wrapper block-wrapper">
