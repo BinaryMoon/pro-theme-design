@@ -4,14 +4,14 @@
 
     // reusable functions
 
-    function show_theme_purchase() {
+    var show_theme_purchase = function() {
 
         show_overlay();
         $( '.theme-modal' ).addClass( 'display' );
 
-    }
+    };
 
-    function show_newsletter() {
+    var show_newsletter = function() {
 
         if ( ! $( 'body' ).hasClass( 'overlay-display' ) ) {
 
@@ -21,54 +21,53 @@
 
         }
 
-    }
+    };
 
-    function hide_modal() {
+    var hide_modal = function() {
 
         $( '.modal-wrapper' ).removeClass( 'display' );
         hide_overlay();
 
-    }
+    };
 
-
-    function hide_menu() {
+    var hide_menu = function() {
 
         $( 'body' ).removeClass( 'menu-display' );
         hide_overlay();
 
-    }
+    };
 
-    function show_overlay() {
+    var show_overlay = function() {
 
         $( 'body' ).addClass( 'overlay-display' );
 
-    }
+    };
 
-    function hide_overlay() {
+    var hide_overlay = function() {
 
         $( 'body' ).removeClass( 'overlay-display' );
 
-    }
+    };
 
-    function update_visit_count() {
+    var update_visit_count = function() {
 
         var visits = visit_count();
         visits ++;
         Cookies.set( 'ptd-visits', visits, { expires: 21 } );
 
-    }
+    };
 
-    function visit_count() {
+    var visit_count = function() {
 
         return Cookies.get( 'ptd-visits' ) || 0;
 
-    }
+    };
 
-    function newsletter_count(){
+    var newsletter_count = function(){
 
         return Cookies.get( 'ptd-newsletter' ) || 0;
 
-    }
+    };
 
 
     // generic modal close
@@ -202,6 +201,8 @@
         $( '.contact-selection' ).addClass( 'hidden' );
 
     }
+
+    //setTimeout( show_newsletter, 2000 );
 
     return;
 
