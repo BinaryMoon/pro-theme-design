@@ -1,5 +1,7 @@
 <?php
     include( '_partials/head.php' );
+
+    $iframe_url = 'https://demo.prothemedesign.com/wordpress/' . strtolower( $theme_slug ) . '/';
 ?>
     <body class="page-preview">
         <header>
@@ -12,6 +14,7 @@
     }
 ?>
             <a href="<?php echo $theme[ 'url' ]; ?>" class="button"><i class="fa fa-info-circle"></i>Theme Details</a>
+            <a href="<?php echo $iframe_url; ?>" class="close-frame"><i class="fa fa-times"></i></a>
             <div class="preview-size">
                 <a href="/" class="selected" data-size="100%"><i class="fa fa-desktop"></i></a>
                 <a href="/" data-size="768px"><i class="fa fa-tablet"></i></a>
@@ -20,7 +23,7 @@
         </header>
 
         <div class="iframe-wrapper">
-            <iframe src="https://demo.prothemedesign.com/wordpress/<?php echo strtolower( $theme_slug ); ?>/" sandbox></iframe>
+            <iframe src="<?php echo $iframe_url; ?>" sandbox></iframe>
         </div>
 
 <?php
