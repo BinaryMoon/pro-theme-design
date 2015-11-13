@@ -1,0 +1,22 @@
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+
+    &:focus {
+        background-color: @canvas-grey-70;
+        border-radius: @border-radius;
+        clip: auto !important;
+        color: contrast( @canvas-grey-70 );
+        display: block;
+        height: auto;
+        left: @grid-gutter;
+        padding: @grid-line-height (@grid-gutter / 2);
+        text-decoration: none;
+        top: @grid-line-height;
+        width: auto;
+        z-index: 999;
+    }
+}
