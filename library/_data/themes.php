@@ -79,6 +79,17 @@ function get_theme_data() {
             'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'theme-club', ),
         ),
 
+        'lens' => array(
+            'name' => 'Lens',
+            'description' => 'A photo-oriented theme, great for people who like to tell stories with pictures, equally suitable for bloggers, scrapbookers, and writers.',
+            'price-wpcom' => 79,
+            'price-wporg' => 99,
+            'url-wpcom' => 'lens',
+            'url-cm' => '108642-Lens-Responsive-Photography-Theme',
+            'image' => 'lens.png',
+            'supports' => array( 'site-logo', 'featured-content', 'featured-image', 'infinite-scroll', 'social-menu', 'testimonials', 'theme-club', ),
+        ),
+
         'mirror' => array(
             'name' => 'Mirror',
             'description' => 'A blog focused theme showcasing large featured images and clear typography. A large featured content slider in the header helps your top content to shine.',
@@ -110,17 +121,6 @@ function get_theme_data() {
             'url-cm' => '150534-Traveler-Visual-WordPress-Theme',
             'image' => 'traveler.png',
             'supports' => array( 'featured-content', 'featured-image', 'infinite-scroll', 'theme-club', ),
-        ),
-
-        'lens' => array(
-            'name' => 'Lens',
-            'description' => 'A photo-oriented theme, great for people who like to tell stories with pictures, equally suitable for bloggers, scrapbookers, and writers.',
-            'price-wpcom' => 79,
-            'price-wporg' => 99,
-            'url-wpcom' => 'lens',
-            'url-cm' => '108642-Lens-Responsive-Photography-Theme',
-            'image' => 'lens.png',
-            'supports' => array( 'site-logo', 'featured-content', 'featured-image', 'infinite-scroll', 'social-menu', 'testimonials', 'theme-club', ),
         ),
 
         'broadsheet' => array(
