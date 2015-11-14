@@ -1,7 +1,7 @@
 <?php
     include( '_partials/head.php' );
 ?>
-    <body class="page-plugins">
+    <body class="page-search">
 
         <?php include( '_partials/header.php' ); ?>
 
