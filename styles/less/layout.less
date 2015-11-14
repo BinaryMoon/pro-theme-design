@@ -332,21 +332,22 @@ nav.main-menu {
         &:last-of-type {
             margin:0;
         }
-
-        .price {
-            .modular-scale( @eta );
-            background:@canvas-green;
-            color:contrast( @canvas-green );
-            line-height:@grid-line-height * 1.5;
-            height:@grid-line-height * 1.5;
-            padding:0 (@grid-gutter / 4);
-            border-radius:@grid-line-height;
-            position:absolute;
-            top:@grid-line-height * 0.5;
-            right:@grid-gutter * 0.5;
-            text-transform:uppercase;
-            letter-spacing:0.05em;
-        }
     }
 }
 
+form {
+    &.searchform {
+        position:relative;
+
+        .text {
+            width:100%;
+            padding-right:(@grid-gutter * 5);
+        }
+
+        .button {
+            position:absolute;
+            top:@grid-line-height / 3;
+            right:@grid-gutter / 3;
+        }
+    }
+}
