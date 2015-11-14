@@ -75,6 +75,11 @@
 
         <?php include( 'nav.php' ); ?>
 
+        <div class="drawer drawer-search">
+            <a href="#" class="drawer-close" rel="nofollow"><i class="fa fa-times"></i></a>
+            <?php include( 'google-search.php' ); ?>
+        </div>
+
         <div class="overlay"></div>
 
         <?php site_script(); ?>
