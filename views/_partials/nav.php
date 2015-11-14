@@ -1,6 +1,6 @@
 
-<nav class="main-menu">
-    <a href="#" class="menu-close"><i class="fa fa-times"></i></a>
+<nav class="main-menu drawer">
+    <a href="#" class="drawer-close" rel="nofollow"><i class="fa fa-times"></i></a>
 
     <ul class="tree alt large">
         <li class="themes menu-item-has-children">
