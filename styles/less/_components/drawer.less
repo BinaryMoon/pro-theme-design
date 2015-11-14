@@ -1,0 +1,23 @@
+.drawer {
+    background:@canvas-grey-30;
+    position:fixed;
+    top:0;
+    left:-400px;
+    bottom:0;
+    width:400px;
+    z-index:100;
+    padding:(@grid-line-height * 4) (@grid-gutter * 2);
+    .transition-easeOutQuad( all, 0.25s );
+
+    a.drawer-close {
+        position:absolute;
+        top:@grid-line-height * 1;
+        left:@grid-gutter * 2;
+        .modular-scale( @epsilon );
+        color:@canvas-grey-50;
+
+        &:hover {
+            color:@canvas-grey-90;
+        }
+    }
+}
