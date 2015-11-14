@@ -64,8 +64,9 @@
                 </tr>
                 <tr>
                     <td></td>
-                    <td><a class="gr-button button positive" href="https://gumroad.com/l/ffEp"><i class="fa fa-shopping-cart"></i>Join</a></td>
-                    <td><a class="cm-button button positive" href="https://creativemarket.com/BinaryMoon/316584-All-WordPress-Themes-Bundle?u=BinaryMoon"><i class="fa fa-shopping-cart"></i>Get the Bundle</a></td>
+                    <td><a class="gr-button fat button positive greedy" href="https://gumroad.com/l/ffEp"><i class="fa fa-shopping-cart"></i>Join</a></td>
+                    <!-- https://creativemarket.com/BinaryMoon/316584-All-WordPress-Themes-Bundle?u=BinaryMoon -->
+                    <td><a class="cm-button fat button positive greedy" href="https://gumroad.com/l/fJfVp"><i class="fa fa-shopping-cart"></i>Get the Bundle</a></td>
                 </tr>
             </table>
 
