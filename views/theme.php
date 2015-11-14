@@ -13,6 +13,13 @@
             </header>
             <section>
                 <div class="content">
+<?php
+    if ( ! empty( $theme[ 'url-wporg' ] ) ) {
+?>
+                    <span class="blip price"><?php echo $theme['price-wporg']; ?></span>
+<?php
+    }
+?>
                     <h1><?php echo $theme['name']; ?></h1>
                     <p><?php echo $theme['description']; ?></p>
 
