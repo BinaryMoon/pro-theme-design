@@ -32,7 +32,7 @@
 
     var hide_menu = function() {
 
-        $( 'body' ).removeClass( 'menu-display' );
+        $( 'body' ).removeClass( 'menu-display search-display' );
         hide_overlay();
 
     };
@@ -140,12 +140,29 @@
 
     } );
 
-    $( '.menu-close' ).on( 'click', function( e ) {
+    $( '.search-toggle' ).on( 'click', function( e ) {
 
         e.preventDefault();
 
-        hide_overlay();
-        $( 'body' ).removeClass( 'menu-display' );
+        if ( $( 'body' ).hasClass( 'overlay-display' ) ) {
+
+            hide_menu();
+
+        } else {
+
+            show_overlay();
+            $( 'body' ).addClass( 'search-display' );
+            $( '.drawer-search' ).find( 'form input.text' ).focus();
+
+        }
+
+    } );
+
+    $( '.drawer-close' ).on( 'click', function( e ) {
+
+        e.preventDefault();
+
+        hide_menu();
 
     } );
 

@@ -71,7 +71,7 @@ p {
 
     }
 
-    .menu-toggle,
+    .utils,
     .social {
         .modular-scale( @delta );
         position:absolute;
@@ -88,12 +88,12 @@ p {
         }
     }
 
-    .menu-toggle {
+    .utils {
         right:auto;
         left:@grid-gutter * 2;
 
         a {
-            margin:0;
+            margin:0 @grid-gutter 0 0;
         }
     }
 
@@ -103,7 +103,7 @@ p {
     padding:0;
 }
 
-nav.main-menu {
+.drawer {
     background:@canvas-grey-30;
     position:fixed;
     top:0;
@@ -114,12 +114,16 @@ nav.main-menu {
     padding:(@grid-line-height * 4) (@grid-gutter * 2);
     .transition-easeOutQuad( all, 0.25s );
 
-    .menu-close {
+    a.drawer-close {
         position:absolute;
         top:@grid-line-height * 1;
         left:@grid-gutter * 2;
         .modular-scale( @epsilon );
+        color:@canvas-grey-50;
     }
+}
+
+nav.main-menu {
 
     a {
         color:@canvas-grey-100;
@@ -148,6 +152,16 @@ nav.main-menu {
     }
 
     .menu-display & {
+        left:0;
+        .box-shadow( 0 0 60px rgba(0,0,0,0.7) );
+        .transition-easeInQuad( all, 0.25s );
+    }
+
+}
+
+.drawer-search {
+
+    .search-display & {
         left:0;
         .box-shadow( 0 0 60px rgba(0,0,0,0.7) );
         .transition-easeInQuad( all, 0.25s );
