@@ -23,9 +23,12 @@
                 </a>
             </nav>
 
-            <nav class="menu-toggle">
-                <a href="#main-menu">
+            <nav class="utils">
+                <a href="#main-menu" class="menu-toggle">
                     <i class="fa fa-bars"></i>
+                </a>
+                <a href="#search" class="search-toggle">
+                    <i class="fa fa-search"></i>
                 </a>
             </nav>
         </header>
