@@ -1,0 +1,20 @@
+
+.blip {
+    .modular-scale( @eta );
+    background:@canvas-blue;
+    color:contrast( @canvas-blue );
+    line-height:@grid-line-height * 1.5;
+    height:@grid-line-height * 1.5;
+    padding:0 (@grid-gutter / 4);
+    border-radius:@grid-line-height;
+    position:absolute;
+    top:@grid-line-height * -0.25;
+    right:@grid-gutter * -0.25;
+    text-transform:uppercase;
+    letter-spacing:0.05em;
+
+    &.positive {
+        background:@canvas-green;
+        color:contrast( @canvas-green );
+    }
+}
