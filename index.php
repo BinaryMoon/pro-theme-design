@@ -5,7 +5,6 @@
  *
  * add navigation menu to the footer to make things like tools more obvious
  * consider moving theme buy now popup to bottom of page
- * make google search work
  * new logo
  * favicon.ico
  * social sharing images (metadata)
@@ -52,8 +51,8 @@ if ( 'localhost' == $_SERVER[ 'HTTP_HOST' ] ) {
 
 
 // constants
-define( 'DECACHE_CSS', '31' );
-define( 'DECACHE_JS', '10' );
+define( 'DECACHE_CSS', '32' );
+define( 'DECACHE_JS', '11' );
 define( 'ENV', $environment );
 define( 'GOOGLE_CSE', '010164663960188762731:aajo_mt5e2a' );
 
