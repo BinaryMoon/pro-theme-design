@@ -22,6 +22,23 @@ function site_description( $new_description = '', $strip_tags = false ) {
 
 
 /**
+ * Set or display the site header title
+ *
+ * @param string  [$new_description       = ''] If set changes the site description, if empty outputs it
+ * @param boolean [$strip_tags            = false] True strips html tags on output, false leaves them intact
+ */
+function site_header_title( $new_description = '' ) {
+
+    if ( ! empty( $new_description ) ) {
+        Flight::set( 'site.header-title', $new_description );
+    } else {
+        echo Flight::get( 'site.header-title' );
+    }
+
+}
+
+
+/**
  * Add a script to the sites footer
  * If no script set then display the scripts instead
  *
@@ -127,6 +144,9 @@ site_description( 'Partnering with <a href="http://theme.wordpress.com/themes/by
 
 // default site title
 site_title( 'Pro Theme Design - WordPress Themes and Plugins' );
+
+// default site page header title
+site_header_title( 'Pro Theme Design' );
 
 // default site scripts
 if ( ! DISABLE_GUMROAD ) {

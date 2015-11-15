@@ -429,6 +429,9 @@ Flight::map( 'notFound', function() {
 
     header( 'HTTP/1.0 404 Not Found' );
 
+    site_header_title( '404 :(' );
+    site_description( '<a href="' . path() . '">Visit the homepage <i class="fa fa-arrow-right"></i></a>' );
+
     Flight::render(
         '404.php'
     );

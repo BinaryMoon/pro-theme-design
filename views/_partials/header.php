@@ -8,7 +8,7 @@
             <div class="wrapper">
                 <<?php echo $h; ?> class="site-title">
                     <a href="<?php echo path(); ?>">
-                        Pro Theme Design
+                        <?php site_header_title(); ?>
                     </a>
                 </<?php echo $h; ?>>
                 <p><?php site_description(); ?></p>
