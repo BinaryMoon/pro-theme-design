@@ -20,11 +20,25 @@ function get_tools_data() {
             'tag' => 'external',
             'icon' => 'camera',
         ),
+        /**
+        'color-picker' => array(
+            'name' => 'Color Picker',
+            'description' => 'A browser based colour picker.',
+            'tag' => 'external',
+            'icon' => 'eyedropper',
+        ),
+        */
         'free-stock-videos' => array(
             'name' => 'Free Stock Videos',
             'description' => 'Stock videos for your projects.',
             'tag' => 'external',
             'icon' => 'video-camera',
+        ),
+        'circular-icons-pro' => array(
+            'name' => 'Circular Icons Pro',
+            'description' => 'Round icons for a multitude of uses.',
+            'tag' => 'external',
+            'icon' => 'circle',
         ),
         'circular-icons' => array(
             'name' => 'Circular Icons',

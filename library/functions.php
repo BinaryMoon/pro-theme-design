@@ -20,7 +20,7 @@ function css_path( $path = '' ) {
  */
 function image_path( $path = '' ) {
 
-    return path( 'img/' . $path );
+    return path( 'img/' . $path . '?d=' . DECACHE_CSS );
 
 }
 
