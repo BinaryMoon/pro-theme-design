@@ -11,7 +11,7 @@
                         <?php site_header_title(); ?>
                     </a>
                 </<?php echo $h; ?>>
-                <p><?php site_description(); ?></p>
+                <p class="animated fadeInUp"><?php site_description(); ?></p>
             </div>
 
             <nav class="social">
