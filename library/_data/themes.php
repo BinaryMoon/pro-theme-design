@@ -175,7 +175,7 @@ function get_theme_data() {
             'url-gr' => 'kpFRg',
             'url-wporg' => 'kent',
             'image' => 'kent.png',
-            'supports' => array( 'featured-image', 'infinite-scroll', 'sticky-post', ),
+            'supports' => array( 'featured-image', 'infinite-scroll', 'sticky-post', 'theme-club' ),
         ),
 
         'bexley' => array(
