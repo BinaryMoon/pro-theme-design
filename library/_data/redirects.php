@@ -25,6 +25,7 @@ function get_redirects() {
         'how-to/free-stock-photos-images' => '/tools/free-stock-photos/',
         'plugins' => '/wordpress-plugins/',
         'how-to/why-you-should-keep-wordpress-and-your-plugins-up-to-date' => '/documentation/general/keeping-website-up-to-date/',
+        'tools/circular-icons-pro' => '/tools/circular-icons/',
     );
 
     return $redirects;

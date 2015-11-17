@@ -34,14 +34,9 @@ function get_tools_data() {
             'tag' => 'external',
             'icon' => 'video-camera',
         ),
-        'circular-icons-pro' => array(
-            'name' => 'Circular Icons Pro',
-            'description' => 'Round icons for a multitude of uses.',
-            'tag' => 'external',
-            'icon' => 'circle',
-        ),
         'circular-icons' => array(
             'name' => 'Circular Icons',
+            'description' => 'Round icons for a multitude of uses.',
             'description' => 'Tiny round bitmap icons.',
             'tag' => 'external',
             'icon' => 'circle-o',
