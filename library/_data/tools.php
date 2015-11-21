@@ -55,6 +55,12 @@ function get_tools_data() {
             'tag' => 'internal',
             'icon' => 'graduation-cap',
         ),
+        'website-preview' => array(
+            'name' => 'Website Preview',
+            'description' => 'Live screenshots of the theme showcase websites.',
+            'tag' => 'internal',
+            'icon' => 'eye',
+        ),
     );
 
     $processed = array();
