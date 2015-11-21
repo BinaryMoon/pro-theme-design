@@ -74,7 +74,7 @@
 ?>
             <div class="block showcase-website theme-<?php echo $site['theme']; ?>">
                 <a href="<?php echo $site[ 'url-preview' ]; ?>" class="image">
-                    <img src="<?php echo $site[ 'image_url' ]; ?>" width="400" height="300" alt="<?php echo $site['name']; ?> Screenshot" />
+                    <img src="<?php echo $site[ 'image-url' ]; ?>" width="400" height="300" alt="<?php echo $site['name']; ?> Screenshot" />
                 </a>
                 <div class="meta">
                     <h3><?php echo $site['name']; ?></h3>
