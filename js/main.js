@@ -1,4 +1,4 @@
-/* globals $, Cookies, window, setTimeout */
+/* globals $, Cookies, window, setTimeout, fbq */
 
 ;(function(){
 
@@ -85,6 +85,27 @@
 
         e.preventDefault();
         hide_modal();
+
+    } );
+
+
+    // track events
+
+    $( '.event' ).on( 'click', function() {
+
+        // check if facebook is active and if not leave
+        if ( typeof( fbq ) === 'undefined' ) {
+            return;
+        }
+
+        // get the event name
+        var name = $( this ).data( 'event' );
+
+        // do the tracking
+        if ( name ) {
+            // facebook pixel
+            fbq( 'track', name );
+        }
 
     } );
 
@@ -220,6 +241,8 @@
     } );
 
 
+    // smooth scroll
+
     var smoothScroll = function( element, to, duration ) {
 
         if ( duration < 0 ) {
@@ -256,6 +279,8 @@
     return;
 
 
+
+    // add this back when you work out a more flexible solution
 
     $( '._modal' ).on( 'click', function( e ) {
 

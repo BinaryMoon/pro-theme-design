@@ -27,7 +27,7 @@
 <?php
     if ( ! empty( $theme[ 'url-wporg' ] ) ) {
 ?>
-                        <a href="<?php echo $theme[ 'url-wporg' ]; ?>" class="button positive get-theme greedy"><i class="fa fa-download"></i>Get Now!</a>
+                        <a href="#" class="button positive get-theme greedy event" data-event="getTheme"><i class="fa fa-download"></i>Get <?php echo $theme['name']; ?> Now!</a>
 <?php
     }
 
@@ -70,7 +70,7 @@
 ?>
             <div class="block showcase-website theme-<?php echo $site['theme']; ?>">
                 <a href="<?php echo $site['url-preview']; ?>" class="image">
-                    <img src="<?php echo $site[ 'image_url' ]; ?>" width="400" height="300" alt="<?php echo $site['name']; ?> Screenshot">
+                    <img src="<?php echo $site[ 'image-url' ]; ?>" width="400" height="300" alt="<?php echo $site['name']; ?> Screenshot">
                 </a>
                 <div class="meta">
                     <h3><?php echo $site['name']; ?></h3>
