@@ -93,12 +93,6 @@ function get_website_data() {
             'theme' => 'romero',
             'tags' => array( 'romero', 'featured' ),
         ),
-        'the-version' => array(
-            'url' => 'http://theversion.co.uk',
-            'name' => 'The Version',
-            'image' => 'theversion',
-            'theme' => 'romero',
-        ),
         'geeks-down-under' => array(
             'url' => 'http://geeksdownunder.com.au',
             'name' => 'Geeks Down Under',
@@ -167,12 +161,6 @@ function get_website_data() {
         'vocalise' => array(
             'url' => 'https://ballaratvocalise.wordpress.com',
             'name' => 'Vocalise',
-            'theme' => 'opti',
-        ),
-        'circle-of-confusion' => array(
-            'url' => 'https://matthewduclos.wordpress.com',
-            'name' => 'Circle of Confusion',
-            'image' => 'circleofconfusion',
             'theme' => 'opti',
         ),
         'bella-caledonia' => array(
@@ -285,10 +273,12 @@ function get_website_data() {
         $site[ 'tags' ][] = $site[ 'theme' ];
 
         // setup site screenshots
+        $site[ 'image-preview' ] = site_screenshot( $site['url'] );
+        $site[ 'image-url' ] = $site[ 'image-preview' ];
+
+        // change dynamic url for static image if it exists. Static image is needed for themes that use js for positioning (masonry) since the dynamic screenshot system does not support js.
         if ( ! empty( $site[ 'image' ] ) ) {
-            $site[ 'image_url' ] = image_path( 'showcase/' . $site[ 'image' ] . '.jpg' );
-        } else {
-            $site[ 'image_url' ] = 'https://s0.wordpress.com/mshots/v1/' . urlencode( $site['url'] ) . '?w=400&h=300';
+            $site[ 'image-url' ] = image_path( 'showcase/' . $site[ 'image' ] . '.jpg' );
         }
 
         $processed[ $key ] = $site;
