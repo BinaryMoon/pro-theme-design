@@ -55,27 +55,6 @@
         .transition-easeOutBack( all, 0.4s );
     }
 
-    .overlay-close {
-        .modular-scale( @epsilon );
-        color:@canvas-dark;
-        background:@canvas-light;
-        border-radius:1rem;
-        width:24px;
-        height:24px;
-        line-height:24px;
-        text-align:center;
-        position:absolute;
-        right:@grid-gutter;
-        top:-0.5 * @grid-line-height;
-        .box-shadow();
-
-        &:hover {
-            text-decoration:none;
-            background:@canvas-dark;
-            color:@canvas-light;
-        }
-    }
-
     &.display {
         opacity:1;
         visibility:visible;
