@@ -1,0 +1,36 @@
+.popover {
+    position:fixed;
+    bottom:0;
+    right:@grid-gutter;
+    max-width:(@grid-gutter * 9);
+    width:100%;
+    z-index:100;
+    .transition;
+    .transform( translateY(120%) );
+
+    &.display {
+        .transform( translateY(0));
+    }
+
+    header {
+        .modular-scale( @zeta );
+        color:@canvas-white;
+        background:@canvas-green;
+        padding:(@grid-gutter / 4) (@grid-gutter / 1);
+        border-radius:@border-radius @border-radius 0 0;
+    }
+
+    .body {
+        background:@canvas-grey-100;
+        padding:(@grid-gutter / 1) (@grid-gutter / 1);
+
+        p {
+            margin:0 0 (@grid-line-height) 0;
+
+            .button,
+            &:last-child {
+                margin:0;
+            }
+        }
+    }
+}
