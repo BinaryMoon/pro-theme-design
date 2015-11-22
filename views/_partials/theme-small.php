@@ -1,5 +1,6 @@
             <div class="block overlap-header">
                 <header>
+                    <span class="blip price"><?php echo $theme[ 'price' ]; ?></span>
                     <a href="<?php echo $theme['url']; ?>">
                         <img src="<?php echo image_path( 'monitor/' . $theme['image'] ); ?>" alt="<?php echo $theme['name']; ?> Screenshot" />
                     </a>
