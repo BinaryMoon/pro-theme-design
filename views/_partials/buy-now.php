@@ -1,6 +1,6 @@
         <div class="modal-wrapper theme-modal">
             <div class="modal">
-                <a href="#" class="overlay-close"><i class="fa fa-times"></i></a>
+                <a href="#" class="close-button" rel="nofollow"><i class="fa fa-times"></i></a>
 <?php
     if ( ! empty( $theme[ 'url-wporg' ] ) ) {
 ?>
