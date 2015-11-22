@@ -137,6 +137,23 @@ function site_breadcrumbs() {
 }
 
 
+/**
+ * Get or set whether to open the popover or not
+ *
+ * @param  boolean [$value         = null] Get whether or not to display the feedback popover.
+ * @return boolean Whether or not to display the feedback popover
+ */
+function site_popover( $value = null ) {
+
+    if ( $value !== null ) {
+        Flight::set( 'site.enable_popover', $value );
+    } else {
+        return Flight::get( 'site.enable_popover' );
+    }
+
+}
+
+
 // Set Defaults for description and title
 
 // default site description

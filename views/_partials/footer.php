@@ -19,7 +19,7 @@
                     <a href="https://www.binarymoon.co.uk" target="_blank" class="link">
                         <i class="fa fa-link"></i> Personal Site
                     </a>
-                    <a href="http://www.twitter.com/binarymoon" target="_blank" class="link">
+                    <a href="https://twitter.com/binarymoon" target="_blank" class="link">
                         <i class="fa fa-twitter"></i> Follow Me on Twitter
                     </a>
 
@@ -66,14 +66,14 @@
 
         <div class="modal-wrapper newsletter-modal">
             <div class="modal">
-                <a href="#" class="overlay-close"><i class="fa fa-times"></i></a>
+                <a href="#" class="close-button"><i class="fa fa-times"></i></a>
                 <?php include( 'newsletter.php' ); ?>
             </div>
         </div>
 
-
-
         <?php include( 'nav.php' ); ?>
+
+        <?php include( 'popover.php' ); ?>
 
         <div class="drawer drawer-search">
             <a href="#" class="drawer-close" rel="nofollow"><i class="fa fa-times"></i></a>

@@ -103,6 +103,8 @@ Flight::route( '/theme/(@theme)/', function( $theme = '' ) {
 
     }
 
+    site_popover( true );
+
     Flight::render(
         'theme.php',
         array(
@@ -184,6 +186,33 @@ Flight::route( '/policies/', function() {
 
     Flight::render(
         'terms-and-conditions.php'
+    );
+
+} );
+
+
+/**
+ * Feedback
+ */
+Flight::route( '/feedback/(@type)/', function( $type = '' ) {
+
+    site_title( 'Feedback' );
+
+    if ( empty( $type ) ) {
+        $type = 'default';
+    }
+
+    $file = site_view_path( '_feedback/' . $type . '.html' );
+
+    if ( ! file_exists( $file ) ) {
+        Flight::notFound();
+    }
+
+    Flight::render(
+        'feedback.php',
+        array(
+            'questions' => $file,
+        )
     );
 
 } );
@@ -345,6 +374,8 @@ Flight::route( '/documentation/(@type)(/@page)/', function( $type = '', $page = 
         Flight::notFound();
 
     }
+
+    site_popover( true );
 
     Flight::render(
         'documentation.php',

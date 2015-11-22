@@ -26,6 +26,7 @@
     var hide_modal = function() {
 
         $( '.modal-wrapper' ).removeClass( 'display' );
+        $( '.popover' ).removeClass( 'display' );
         hide_overlay();
 
     };
@@ -39,6 +40,7 @@
 
     var show_overlay = function() {
 
+        hide_modal();
         $( 'body' ).addClass( 'overlay-display' );
 
     };
@@ -63,17 +65,30 @@
 
     };
 
-    var newsletter_count = function(){
+    var newsletter_count = function() {
 
         return Cookies.get( 'ptd-newsletter' ) || 0;
 
     };
 
-    // prepare contact form
+    var show_popover = function() {
+
+        $( '.popover' ).addClass( 'display' );
+
+    };
+
+
+    // prepare contact forms
+
+    $( 'form.formspree' ).each( function() {
+
+        $( this ).attr( 'action', '//formspree.io/' + 'support' + '@' + 'prothemedesign' + '.' + 'com' );
+
+    } );
 
     var prepare_form = function( selector ) {
 
-        $( selector ).addClass( 'display' ).attr( 'action', '//formspree.io/' + 'support' + '@' + 'prothemedesign' + '.' + 'com' );
+        $( selector ).addClass( 'display' );
         $( '.contact-selection' ).addClass( 'hidden' );
 
     };
@@ -81,7 +96,7 @@
 
     // generic modal close
 
-    $( '.overlay-close' ).on( 'click', function( e ) {
+    $( '.close-button' ).on( 'click', function( e ) {
 
         e.preventDefault();
         hide_modal();
@@ -119,6 +134,15 @@
     }
 
     update_visit_count();
+
+
+    // feedback popover
+
+    if ( visit_count() >= 2 ) {
+
+        setTimeout( show_popover, 20000 );
+
+    }
 
 
     // showcase selected navigation
@@ -209,6 +233,7 @@
 
     } );
 
+
     // theme and website preview
 
     $( '.preview-size a' ).on( 'click', function( e ) {
@@ -224,7 +249,7 @@
     });
 
 
-    // contact form
+    // contact forms
 
     $( '.contact-other' ).on( 'click', function( e ) {
 
