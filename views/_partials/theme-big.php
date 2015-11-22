@@ -5,14 +5,14 @@
                 </a>
             </header>
             <section>
-                <div class="content sticky-footer">
+                <div class="content">
                     <h3>
                         <a href="<?php echo $theme['url']; ?>"><?php echo $theme['name']; ?></a>
                     </h3>
                     <p><?php echo $theme['description']; ?></p>
 
                     <footer>
-                        <a class="button" href="<?php echo $theme['url']; ?>" title="<?php echo $theme['name']; ?> Details">
+                        <a class="button greedy" href="<?php echo $theme['url']; ?>" title="<?php echo $theme['name']; ?> Details">
                             Demo &amp; Details
                         </a>
                     </footer>
