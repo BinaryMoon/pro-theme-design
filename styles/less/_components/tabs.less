@@ -1,0 +1,23 @@
+.tabs {
+    text-align:center;
+    background:url( ../../img/website/bg_top.png ) @canvas-light fixed;
+    margin-bottom:@grid-line-height * 4;
+
+    a {
+        display:inline-block;
+        padding:(@grid-line-height / 2) (@grid-gutter * 1.5);
+        .modular-scale( @epsilon );
+        color:@canvas-grey-60;
+        border-radius:@border-radius @border-radius 0 0;
+
+        small {
+            display:block;
+        }
+
+        &.active {
+            color:@canvas-white;
+            background:url( ../../img/website/waves.png ) @canvas-dark fixed;
+        }
+    }
+
+}
