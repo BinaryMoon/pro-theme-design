@@ -4,9 +4,14 @@
     $themes = get_theme_data();
 
 ?>
-    <body class="page-home">
+    <body class="page-home masthead-tabs">
 
         <?php include( '_partials/header.php' ); ?>
+
+        <div class="tabs">
+            <a href="<?php echo path( 'themes/wordpress.org/' ); ?>" class="active">WordPress.org <small>Self Hosted Sites</small></a>
+            <a href="<?php echo path( 'themes/wordpress.com/' ); ?>">WordPress.com <small>WordPress in the Cloud</small></a>
+        </div>
 
 <?php
         $theme = array_shift( $themes );
