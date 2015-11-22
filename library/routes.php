@@ -122,9 +122,9 @@ Flight::route( '/theme/(@theme)/', function( $theme = '' ) {
  */
 Flight::route( '/themes/(@location)/', function( $host = '' ) {
 
-    if ( $themes = themes_by_host( $host ) ) {
+    $themes = themes_by_host( $host );
 
-    } else {
+    if ( ! $themes ) {
 
         Flight::notFound();
 
@@ -134,6 +134,7 @@ Flight::route( '/themes/(@location)/', function( $host = '' ) {
         'themes.php',
         array(
             'themes' => $themes,
+            'host' => $host,
         )
     );
 
