@@ -1,0 +1,22 @@
+.close-button {
+
+    .modular-scale( @epsilon );
+    color:@canvas-dark;
+    background:@canvas-light;
+    border-radius:1rem;
+    width:24px;
+    height:24px;
+    line-height:24px;
+    text-align:center;
+    position:absolute;
+    .box-shadow();
+    right:@grid-gutter;
+    top:-0.5 * @grid-line-height;
+
+    &:hover {
+        text-decoration:none;
+        background:@canvas-dark;
+        color:@canvas-light;
+    }
+
+}
