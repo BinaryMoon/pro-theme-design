@@ -149,7 +149,7 @@ function get_theme_data() {
             'name' => 'Bromley',
             'description' => 'The best elements of blogging themes manipulated into something beautifully simple. Ideal for local community, fan magazines, and talking about updates in your industry.',
             'price-wpcom' => 79,
-            'price-wporg' => '',
+            'price-wporg' => 99,
             'url-wpcom' => 'bromley',
             'url-cm' => '113531-Bromley-Responsive-WordPress-Theme',
             'image' => 'bromley.png',
@@ -242,6 +242,12 @@ function get_theme_data() {
         }
 
         $theme[ 'price-wpcom' ] = '$' . $theme[ 'price-wpcom' ];
+
+        // set the display price
+        $theme[ 'price' ] = $theme[ 'price-wpcom' ];
+        if ( ! empty( $theme[ 'url-wporg' ] ) ) {
+            $theme[ 'price' ] = $theme[ 'price-wporg' ];
+        }
 
         // text for button that gets the theme details
         $theme[ 'text-details' ] = 'Details';
@@ -409,6 +415,7 @@ function themes_by_host( $host = '' ) {
             case 'wordpress.com':
 
                 $theme[ 'url' ] = $theme[ 'url-wpcom' ];
+                $theme[ 'price' ] = $theme[ 'price-wpcom' ];
                 $processed_themes[] = $theme;
 
                 break;
