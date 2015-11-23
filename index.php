@@ -51,7 +51,7 @@ if ( 'localhost' == $_SERVER[ 'HTTP_HOST' ] ) {
 
 
 // constants
-define( 'DECACHE_CSS', '35' );
+define( 'DECACHE_CSS', '38' );
 define( 'DECACHE_JS', '13' );
 define( 'ENV', $environment );
 define( 'GOOGLE_CSE', '010164663960188762731:aajo_mt5e2a' );
