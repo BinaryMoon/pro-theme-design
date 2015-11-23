@@ -130,6 +130,13 @@ Flight::route( '/themes/(@location)/', function( $host = '' ) {
 
     }
 
+    site_title( 'WordPress Themes for ' . $host );
+    site_description( 'Awesome WordPress themes for <strong>self hosted sites</strong>!' );
+
+    if ( 'wordpress.com' === $host ) {
+        site_description( 'Quality WordPress themes for <strong>WordPress in the cloud</strong>!' );
+    }
+
     Flight::render(
         'themes.php',
         array(
