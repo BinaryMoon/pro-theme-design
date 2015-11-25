@@ -169,4 +169,6 @@ site_header_title( 'Pro Theme Design' );
 if ( ! DISABLE_GUMROAD ) {
     site_script( 'https://gumroad.com/js/gumroad.js', true );
 }
+
+site_script( 'https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js' );
 site_script( js_path( 'main.min.js' ) );
