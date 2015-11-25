@@ -205,7 +205,7 @@ function site_meta( $key = '', $value = null ) {
 }
 
 
-// Set Defaults for description and title
+// Set Defaults
 
 // default site description
 site_description( 'Partnering with <a href="http://theme.wordpress.com/themes/by/pro-theme-design/" target="_blank">WordPress.com</a> to build themes for thousands of creative bloggers.' );
@@ -215,6 +215,9 @@ site_title( 'Pro Theme Design - WordPress Themes and Plugins' );
 
 // default site page header title
 site_header_title( 'Pro Theme Design' );
+
+// default site og:type
+site_meta( 'og:type', 'website' );
 
 // default site scripts
 if ( ! DISABLE_GUMROAD ) {

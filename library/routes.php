@@ -102,6 +102,7 @@ Flight::route( '/theme/(@theme)/', function( $theme = '' ) {
     site_popover( true );
 
     site_meta( 'twitter:card', 'product' );
+    site_meta( 'og:type', 'product' );
 
     site_meta_image( image_path( 'devices/' . $theme_data['image'] ) );
 
