@@ -39,6 +39,31 @@ function site_header_title( $new_description = '' ) {
 
 
 /**
+ * Display Open Graph meta tags for different social platforms.
+ * Minimum image size of 280 x 200
+ *
+ * @param string [$new_image       = ''] Url of image to display in og meta tags
+ */
+function site_meta_image( $new_image = '' ) {
+
+    if ( ! empty( $new_image ) ) {
+        Flight::set( 'site.meta-image', $new_image );
+    } else {
+        $image = Flight::get( 'site.meta-image' );
+
+        if ( $image ) {
+?>
+    <meta itemprop="image" content="<?php echo $image; ?>">
+    <meta property="og:image" content="<?php echo $image; ?>">
+    <meta name="twitter:image:src" content="<?php echo $image; ?>">
+<?php
+        }
+    }
+
+}
+
+
+/**
  * Add a script to the sites footer
  * If no script set then display the scripts instead
  *
@@ -149,6 +174,32 @@ function site_popover( $value = null ) {
         Flight::set( 'site.enable_popover', $value );
     } else {
         return Flight::get( 'site.enable_popover' );
+    }
+
+}
+
+
+/**
+ * Get or set whether to open the popover or not
+ *
+ * @param  boolean [$value         = null] Get whether or not to display the feedback popover.
+ * @return boolean Whether or not to display the feedback popover
+ */
+function site_meta( $key = '', $value = null ) {
+
+    $meta = Flight::get( 'site.meta' );
+
+    if ( $key !== '' && $value !== null ) {
+        $meta[ $key ] = $value;
+        Flight::set( 'site.meta', $meta );
+    } else {
+        if ( $meta ) {
+            foreach( $meta as $key => $value ) {
+?>
+    <meta property="<?php echo $key; ?>" content="<?php echo $value; ?>" />
+<?php
+            }
+        }
     }
 
 }

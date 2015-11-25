@@ -101,6 +101,17 @@ Flight::route( '/theme/(@theme)/', function( $theme = '' ) {
 
     site_popover( true );
 
+    site_meta( 'twitter:card', 'product' );
+
+    site_meta_image( image_path( 'devices/' . $theme_data['image'] ) );
+
+    if ( ! empty( $theme_data[ 'url-wporg' ] ) ) {
+        site_meta( 'og:price:amount', str_replace( '$', '', $theme_data[ 'price-wporg' ] ) );
+        site_meta( 'og:price:currency', 'USD' );
+        site_meta( 'twitter:data1', $theme_data[ 'price-wporg' ] );
+        site_meta( 'twitter:label1', 'Price' );
+    }
+
     Flight::render(
         'theme.php',
         array(

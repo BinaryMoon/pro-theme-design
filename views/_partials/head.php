@@ -23,6 +23,8 @@
             var GUMROAD_ACTIVE = '<?php echo (DISABLE_GUMROAD) ? 'true' : 'false'; ?>';
         </script>
 <?php
+    include( 'head-open-graph.php' );
+
     if ( 'prod' == ENV ) {
         include( 'tracking.php' );
     }
