@@ -92,6 +92,7 @@ Flight::route( '/theme/(@theme)/', function( $theme = '' ) {
 
         $themes = get_theme_data();
         site_title( $theme_data[ 'name' ] . ' WordPress Theme' );
+        site_description( $theme_data[ 'short_description' ] );
 
     } else {
 

@@ -11,6 +11,7 @@ function get_theme_data() {
         'chronicle' => array(
             'name' => 'Chronicle',
             'description' => 'A magazine theme. With 3 optional widget areas, featured posts, and a huge homepage slider, there are lots of options for creating interesting, immersive websites.',
+            'short_description' => 'A modern WordPress magazine theme.',
             'price-wpcom' => 79,
             'price-wporg' => 129,
             'parent-theme' => 'broadsheet',
@@ -24,6 +25,7 @@ function get_theme_data() {
         'exhibit' => array(
             'name' => 'Exhibit',
             'description' => 'Exhibit is the perfect theme for businesses, big and small, to exhibit their work. Acting as both a portfolio and a blog Exhibit allows you to easily show off your projects.',
+            'short_description' => 'A minimal WordPress portfolio theme.',
             'price-wpcom' => 79,
             'price-wporg' => 99,
             'url-wpcom' => 'exhibit',
@@ -36,6 +38,7 @@ function get_theme_data() {
         'monet' => array(
             'name' => 'Monet',
             'description' => 'A delicate responsive portfolio theme targeted at photographers and other creatives. With crisp typography Monet is easy on the eye.',
+            'short_description' => 'A delicate WordPress portfolio theme.',
             'price-wpcom' => 79,
             'price-wporg' => 99,
             'url-wpcom' => 'monet',
@@ -48,6 +51,7 @@ function get_theme_data() {
         'puzzle' => array(
             'name' => 'Puzzle',
             'description' => 'A visually oriented theme, great for photographers and artists who want to tell stories using their images.',
+            'short_description' => 'A responsive WordPress portfolio theme.',
             'price-wpcom' => 79,
             'price-wporg' => 99,
             'url-wpcom' => 'puzzle',
@@ -60,6 +64,7 @@ function get_theme_data() {
         'romero' => array(
             'name' => 'Romero',
             'description' => 'A WordPress theme designed for visual magazine sites. Ideal for video game sites, motoring magazines, and other topics that have large vibrant imagery.',
+            'short_description' => 'A modern WordPress video game magazine theme.',
             'price-wpcom' => 79,
             'price-wporg' => 99,
             'url-wpcom' => 'romero',
@@ -71,6 +76,7 @@ function get_theme_data() {
         'opti' => array(
             'name' => 'Opti',
             'description' => 'A clean blog theme with magazine elements. Custom category blurbs, great typography and a fully editable color scheme.',
+            'short_description' => 'A classical WordPress magazine theme.',
             'price-wpcom' => 79,
             'price-wporg' => 99,
             'url-wpcom' => 'opti',
@@ -82,6 +88,7 @@ function get_theme_data() {
         'lens' => array(
             'name' => 'Lens',
             'description' => 'A photo-oriented theme, great for people who like to tell stories with pictures, equally suitable for bloggers, scrapbookers, and writers.',
+            'short_description' => 'A modern WordPress photography theme.',
             'price-wpcom' => 79,
             'price-wporg' => 99,
             'url-wpcom' => 'lens',
@@ -93,6 +100,7 @@ function get_theme_data() {
         'mirror' => array(
             'name' => 'Mirror',
             'description' => 'A blog focused theme showcasing large featured images and clear typography. A large featured content slider in the header helps your top content to shine.',
+            'short_description' => 'A modern WordPress blogging theme.',
             'price-wpcom' => 79,
             'price-wporg' => 99,
             'url-wpcom' => 'mirror',
@@ -104,6 +112,7 @@ function get_theme_data() {
         'beacon' => array(
             'name' => 'Beacon',
             'description' => 'A perfect theme for viral content: trending topics, featured thumbnails, and photos and excerpts arranged by category or popularity.',
+            'short_description' => 'A modern WordPress magazine theme.',
             'price-wpcom' => 79,
             'price-wporg' => '',
             'url-wpcom' => 'beacon',
@@ -115,6 +124,7 @@ function get_theme_data() {
         'traveler' => array(
             'name' => 'Traveler',
             'description' => 'Perfect for bloggers who want to document their travels with large photos, dramatic colors and Pinterest-style layouts.',
+            'short_description' => 'A classic WordPress magazine theme.',
             'price-wpcom' => 79,
             'price-wporg' => 99,
             'url-wpcom' => 'traveler',
@@ -126,6 +136,7 @@ function get_theme_data() {
         'broadsheet' => array(
             'name' => 'Broadsheet',
             'description' => 'A newspaper theme with 3 optional widget areas, featured posts and a huge homepage slider there are lots of options for creating interesting, immersive websites.',
+            'short_description' => 'A classical WordPress magazine theme.',
             'price-wpcom' => 79,
             'price-wporg' => 99,
             'url-wpcom' => 'broadsheet',
@@ -137,6 +148,7 @@ function get_theme_data() {
         'mimbopro' => array(
             'name' => 'Mimbo Pro',
             'description' => 'A magazine theme that takes your content and formats it in a structured way grouped by category.',
+            'short_description' => 'The original premium WordPress magazine theme.',
             'price-wpcom' => 59,
             'price-wporg' => 79,
             'url-wpcom' => 'mimbopro',
@@ -148,6 +160,7 @@ function get_theme_data() {
         'bromley' => array(
             'name' => 'Bromley',
             'description' => 'The best elements of blogging themes manipulated into something beautifully simple. Ideal for local community, fan magazines, and talking about updates in your industry.',
+            'short_description' => 'A minimal WordPress magazine theme.',
             'price-wpcom' => 79,
             'price-wporg' => 99,
             'url-wpcom' => 'bromley',
@@ -159,6 +172,7 @@ function get_theme_data() {
         'vision' => array(
             'name' => 'Vision',
             'description' => 'A theme designed for artists, photographers and other people with a love of strong visuals, with a dark background to make your content pop.',
+            'short_description' => 'A simple WordPress blogging theme.',
             'price-wpcom' => 79,
             'price-wporg' => '',
             'url-wpcom' => 'vision',
@@ -169,6 +183,7 @@ function get_theme_data() {
         'kent' => array(
             'name' => 'Kent',
             'description' => 'A responsive theme designed for writers who want to write. Stripped back to the minimum — it’s designed to work well on all internet-enabled devices.',
+            'short_description' => 'A content focuses WordPress blogging theme.',
             'price-wpcom' => 79,
             'price-wporg' => '',
             'url-wpcom' => 'kent',
@@ -181,6 +196,7 @@ function get_theme_data() {
         'bexley' => array(
             'name' => 'Bexley',
             'description' => 'The perfect combination of imagery and text, giving photographers and artists a space to user as their online portfolio or gallery.',
+            'short_description' => 'A photography based WordPress blogging theme.',
             'price-wpcom' => 69,
             'price-wporg' => '',
             'url-wpcom' => 'bexley',
@@ -191,6 +207,7 @@ function get_theme_data() {
         'isca' => array(
             'name' => 'Isca',
             'description' => 'A tumblog theme for WordPress, designed for people who create a variety of types of content like quotes, images, text and video.',
+            'short_description' => 'A classic WordPress tumblog theme.',
             'price-wpcom' => 59,
             'price-wporg' => '',
             'url-wpcom' => 'isca',
