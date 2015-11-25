@@ -28,7 +28,6 @@ Flight::route( '/tools/(@tool)/', function( $tool = '' ) {
     site_description( 'Handy Tools to <strong>Make a Web Designers Job Easier</strong>.' );
     site_breadcrumb_add( 'Tools', 'tools/' );
 
-
     if ( ! empty( $tool ) ) {
         if ( $tool_data = tool_get( $tool ) ) {
 
@@ -43,10 +42,6 @@ Flight::route( '/tools/(@tool)/', function( $tool = '' ) {
                 $view = $tool_data['view'];
             }
 
-            if ( ! empty( $tool_data['script'] ) ) {
-                site_script( $tool_data['script'] );
-            }
-
         } else {
 
             Flight::notFound();
@@ -59,6 +54,7 @@ Flight::route( '/tools/(@tool)/', function( $tool = '' ) {
         array(
             'tool' => $tool_data,
             'layout' => $layout,
+            'slug' => $tool,
         )
     );
 

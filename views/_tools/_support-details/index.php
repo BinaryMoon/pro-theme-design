@@ -1,4 +1,6 @@
 <?php
+    site_script( path( 'views/_tools/_support-details/scripts.min.js' ) );
+
     include( 'functions.php' );
     include( 'browser.php' );
 

@@ -12,7 +12,6 @@ function get_tools_data() {
             'description' => 'Information to help debugging website problems.',
             'tag' => 'external',
             'icon' => 'info-circle',
-            'script' => path( 'views/_tools/_support-details/scripts.min.js' ),
         ),
         'free-stock-photos' => array(
             'name' => 'Free Stock Photos',
@@ -20,14 +19,12 @@ function get_tools_data() {
             'tag' => 'external',
             'icon' => 'camera',
         ),
-        /**
         'color-picker' => array(
             'name' => 'Color Picker',
             'description' => 'A browser based colour picker.',
             'tag' => 'external',
             'icon' => 'eyedropper',
         ),
-        */
         'free-stock-videos' => array(
             'name' => 'Free Stock Videos',
             'description' => 'Stock videos for your projects.',
@@ -37,7 +34,6 @@ function get_tools_data() {
         'circular-icons' => array(
             'name' => 'Circular Icons',
             'description' => 'Round icons for a multitude of uses.',
-            'description' => 'Tiny round bitmap icons.',
             'tag' => 'external',
             'icon' => 'circle-o',
         ),
@@ -61,7 +57,17 @@ function get_tools_data() {
             'tag' => 'internal',
             'icon' => 'eye',
         ),
+
     );
+
+    if ( 'dev' === ENV ) {
+        $tools[ 'quiz-test' ] = array(
+            'name' => 'Quiz Test',
+            'description' => 'Test the quiz system.',
+            'tag' => 'external',
+            'icon' => 'eye',
+        );
+    }
 
     $processed = array();
 
