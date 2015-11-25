@@ -4,11 +4,15 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="profile" href="http://gmpg.org/xfn/11">
+
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+        <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
+
         <title><?php site_title(); ?></title>
 
         <link rel="stylesheet" href="<?php echo css_path( 'css/styles.css' ); ?>" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,900,400italic" />
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.css" />
 
         <link type="text/plain" rel="author" href="<?php echo path( 'humans.txt' ); ?>" />
 
