@@ -1,6 +1,6 @@
 /* globals $, Cookies, window, setTimeout, fbq */
 
-;(function(){
+;(function() {
 
     // reusable functions
 
