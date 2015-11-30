@@ -6,6 +6,14 @@
 function get_tools_data() {
 
     $tools = array(
+        // quizes
+        'quiz-which-wordpress' => array(
+            'name' => 'Which WordPress?',
+            'description' => 'Which version of WordPress is right for you? WordPress.org or WordPress.com?',
+            'tag' => 'quiz',
+            'icon' => 'question-circle',
+        ),
+
         // external tools
         'support-details' => array(
             'name' => 'Support Details',
