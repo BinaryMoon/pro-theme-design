@@ -7,6 +7,7 @@
         var defaults = {
             answers: [],
             brackets: {},
+            score_max: null,
             score_suffix: '%',
             title: 'awesome',
             share_extras: '',
@@ -33,28 +34,42 @@
              */
             var check_answers = function () {
 
+                // reset user answers list
+                user_answers = [];
+
                 // summarize users answers
                 quiz.find( '.quiz-question input[type=radio]:checked' ).each( function() {
                     user_answers.push( $( this ).data( 'key' ) );
                 } );
 
-                var resultArr = [],
-                    flag = false;
+                var results = [],
+                    score = 0;
 
                 // check correct answers against users answers
                 for ( var i = 0; i < user_answers.length; i++ ) {
 
-                    flag = false;
+                    score = 0;
 
-                    if ( options.answers[i] === user_answers[i] ) {
-                        flag = true;
+                    // if is string
+                    if ( 'string' === typeof options.answers[i] ) {
+                        if ( options.answers[i] === user_answers[i] ) {
+                            score = 1;
+                        }
                     }
 
-                    resultArr.push( flag );
+                    // if is list of scores
+                    if ( 'object' === typeof options.answers[i] ) {
+                        // check if selected property has score value
+                        if ( null !== typeof options.answers[i][ user_answers[i] ] ) {
+                            score = options.answers[i][ user_answers[i] ];
+                        }
+                    }
+
+                    results.push( score );
 
                 }
 
-                return resultArr;
+                return results;
 
             };
 
@@ -145,6 +160,11 @@
                 // reset the progress bar
                 update_progress( 0 );
 
+                // check max question quantity
+                if ( null === options.score_max ) {
+                    options.score_max = questionLength;
+                }
+
                 return false;
 
             } );
@@ -152,6 +172,8 @@
 
             // next question button
             quiz.find( '.quiz-button-next' ).click( function() {
+
+                check_answers();
 
                 // check an answer has been selected
                 var selected_answer = quiz.find( '.quiz-question.active input[type=radio]:checked' );
@@ -209,27 +231,23 @@
                 quiz.find( '.quiz-results' ).show();
 
                 var results = check_answers(),
-                    trueCount = 0,
-                    score;
+                    score = 0,
+                    scorePercentage;
 
                 // see how many answers are correct
                 for ( var i = 0; i < results.length; i++ ) {
-                    if ( true === results[i] ) {
-                        trueCount ++;
-                    }
+                    score += results[i];
                 }
 
                 // calculate percentage correct and apply to results screen
-                score = round_decimal( trueCount / questionLength * 100, 2 );
-                quiz.find( '.quiz-score' ).html( score + options.score_suffix );
+                scorePercentage = round_decimal( score / options.score_max * 100, 2 );
+                quiz.find( '.quiz-score' ).html( scorePercentage + options.score_suffix );
 
                 // display brackets
                 var bracket = '';
                 for ( var key in options.brackets ) {
-                    if ( score >= key ) {
+                    if ( scorePercentage <= parseInt( key ) && '' === bracket ) {
                         bracket = options.brackets[ key ];
-                    } else {
-                        break;
                     }
                 }
 
@@ -239,7 +257,7 @@
 
                 var share_message = options.share_message;
                 share_message = share_message.replace( '{title}', options.title );
-                share_message = share_message.replace( '{score}', score + options.score_suffix );
+                share_message = share_message.replace( '{score}', scorePercentage + options.score_suffix );
                 share_message = share_message.replace( '{url}', options.share_url );
 
                 $( '.quiz-share-twitter' ).attr( 'href', 'https://twitter.com/intent/tweet?text=' + encodeURI( share_message ) + '&url=' + encodeURI( options.share_url ) + options.share_extras  );
