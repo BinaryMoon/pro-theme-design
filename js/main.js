@@ -140,7 +140,7 @@
 
     if ( visit_count() >= 2 ) {
 
-        setTimeout( show_popover, 20000 );
+        setTimeout( show_popover, 30000 );
 
     }
 
