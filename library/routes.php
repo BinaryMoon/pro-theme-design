@@ -195,20 +195,6 @@ Flight::route( '/theme-showcase/(@tag)/', function( $tag = '' ) {
 
 
 /**
- * Terms and Conditions
- */
-Flight::route( '/policies/', function() {
-
-    site_title( 'Terms and Conditions' );
-
-    Flight::render(
-        'terms-and-conditions.php'
-    );
-
-} );
-
-
-/**
  * Feedback
  */
 Flight::route( '/feedback/(@type)/', function( $type = '' ) {
@@ -236,66 +222,6 @@ Flight::route( '/feedback/(@type)/', function( $type = '' ) {
 
 
 /**
- * WordPress Plugins
- */
-Flight::route( '/wordpress-plugins/', function() {
-
-    site_title( 'Recommended WordPress Plugins' );
-    site_description( 'Plugins for creating the perfect WordPress site.' );
-
-    Flight::render(
-        'plugins.php'
-    );
-
-} );
-
-
-/**
- * Sitemap
- */
-Flight::route( '/sitemap/', function() {
-
-    site_title( 'Sitemap' );
-    site_description( 'Find your way around.' );
-
-    Flight::render(
-        'sitemap.php'
-    );
-
-} );
-
-
-/**
- * Contact
- */
-Flight::route( '/contact/', function() {
-
-    site_title( 'Contact Us' );
-    site_description( 'Get in touch.' );
-
-    Flight::render(
-        'contact.php'
-    );
-
-} );
-
-
-/**
- * Newsletter
- */
-Flight::route( '/newsletter/', function() {
-
-    site_title( 'Newsletter' );
-    site_description( '<strong>Join the Newsletter.</strong> Keep up to date.' );
-
-    Flight::render(
-        'newsletter.php'
-    );
-
-} );
-
-
-/**
  * Search
  */
 Flight::route( '/search/', function() {
@@ -304,39 +230,6 @@ Flight::route( '/search/', function() {
 
     Flight::render(
         'search.php'
-    );
-
-} );
-
-
-/**
- * Theme Customization
- */
-Flight::route( '/theme-customization/', function() {
-
-    site_title( 'WordPress Theme Customization' );
-    site_description( 'Customize your theme with <strong>Codeable.io</strong>.' );
-
-    Flight::render(
-        'theme-customizer.php'
-    );
-
-} );
-
-
-/**
- * Contact Thanks
- */
-Flight::route( '/contact/thanks/', function() {
-
-    site_title( 'Thank You' );
-    site_description( 'Thanks for the message!' );
-
-    Flight::render(
-        'contact-thanks.php',
-        array(
-            'title' => 'Contact Us',
-        )
     );
 
 } );
@@ -435,7 +328,7 @@ Flight::route( '/theme-preview/(@theme)/', function( $theme_slug = '' ) {
 
 
 /**
- * theme preview
+ * website demos
  */
 Flight::route( '/showcase-preview/(@site)/', function( $site = '' ) {
 
@@ -466,6 +359,22 @@ Flight::map( 'notFound', function() {
     site_title( '404 - not found :(' );
 
     $request = Flight::request();
+
+    // see if a page exists
+    if ( $page_info = page_exists( $request->url ) ) {
+
+        site_title( $page_info[ 'title' ] );
+        if ( null !== $page_info[ 'description' ] ) {
+            site_description( $page_info[ 'description' ] );
+        }
+
+        Flight::render(
+            $page_info[ 'view' ]
+        );
+
+        die();
+
+    }
 
     // see if there's a valid permanent redirect, and if there is send the user to the new location
     if ( $redirect_url = redirect_destination( $request->url ) ) {
