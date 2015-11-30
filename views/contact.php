@@ -7,6 +7,7 @@
 
         <div class="wrapper text">
             <h1>How can we help?</h1>
+
             <div class="contact-selection">
                 <a class="contact-customization" href="<?php echo path( 'theme-customization/' ); ?>">Theme Customization <i class="fa fa-arrow-right"></i></a>
                 <a class="contact-documentation" href="<?php echo path( 'documentation/general/transfer-from-wordpress-com/' ); ?>">WordPress.com theme Transfer <i class="fa fa-arrow-right"></i></a>
@@ -14,7 +15,6 @@
                 <a class="contact-other" href="#">Other <i class="fa fa-arrow-right"></i></a>
                 <a class="contact-refund" href="<?php echo path( 'documentation/general/refunds/' ); ?>">Refund Request <i class="fa fa-arrow-right"></i></a>
             </div>
-
 
             <!-- pre sales contact form -->
             <form class="formspree form-contact-other" method="POST">
@@ -56,7 +56,7 @@
                 <label>
                     <span>Where did you purchase your theme?</span>
                     <select name="service" required>
-                        <option>Select one</option>
+                        <option value="" disabled selected>Select one</option>
                         <option value="wordpress-com">WordPress.com</option>
                         <option value="creative-market">Creative Market</option>
                         <option value="wordpress-org">WordPress.org</option>
@@ -66,7 +66,7 @@
                 <label>
                     <span>What theme did you purchase?</span>
                     <select name="theme-name" required>
-                        <option>Select one</option>
+                        <option value="" disabled selected>Select one</option>
                         <?php themes_select_box(); ?>
                     </select>
                 </label>
@@ -83,7 +83,7 @@
                 <input type="text" name="_gotcha" style="display:none" />
             </form>
 
-
         </div>
+
 <?php
     include( '_partials/footer.php' );
