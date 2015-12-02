@@ -87,6 +87,21 @@ ol,
 ul {
     padding: 0 0 0 3rem;
     margin:0 0 (@grid-line-height * @grid-line-height-multiplyer) 0;
+
+    &.checkmark {
+        list-style-type:none;
+        position:relative;
+
+        li {
+            &:before {
+                position:absolute;
+                left:@grid-gutter * 0.5;
+                content:'\f00c';
+                font-family: 'FontAwesome';
+                color:@canvas-green;
+            }
+        }
+    }
 }
 
 ol,
