@@ -140,12 +140,6 @@ function get_website_data() {
             'name' => 'Leah Pellegrini',
             'theme' => 'puzzle',
         ),
-        'cokoroaji' => array(
-            'url' => 'http://cokoroaji.com',
-            'name' => 'Cokoroaji',
-            'image' => 'cokoroaji',
-            'theme' => 'puzzle',
-        ),
         'cincindos' => array(
             'url' => 'http://cincindos.com',
             'name' => 'Cincindos',
@@ -191,12 +185,6 @@ function get_website_data() {
             'url' => 'http://fedalijournal.com',
             'name' => 'Fedali Photography',
             'image' => 'fedalijournal',
-            'theme' => 'chronicle',
-        ),
-        'schofield-trading' => array(
-            'url' => 'http://schofieldtrading.com',
-            'name' => 'Schofield Trading',
-            'image' => 'schofieldtrading',
             'theme' => 'chronicle',
         ),
         'cardinal-courier' => array(
