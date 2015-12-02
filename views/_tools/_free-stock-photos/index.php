@@ -11,6 +11,7 @@
         'nos.twnsnd.co' => 'New Old Stock.',
         'imcreator.com/free' => 'Photos, icons, and more.',
         'jaymantri.com' => 'Jay Mantri.',
+        'visualhunt.com' => 'Visual Hunt',
         'publicdomainarchive.com' => 'Public Domain Archive.',
         'en.freejpg.com.ar' => 'FreeJPG',
         'magdeleine.co/browse' => 'Hand picked photos.',
