@@ -42,6 +42,11 @@ function get_pages() {
             'description' => null,
             'view' => 'terms-and-conditions.php',
         ),
+        'why-us' => array(
+            'title' => 'Why Us',
+            'description' => 'Why buy a WordPress theme from Pro Theme Design?',
+            'view' => 'landing-why-us.php',
+        ),
     );
 
     return $pages;
