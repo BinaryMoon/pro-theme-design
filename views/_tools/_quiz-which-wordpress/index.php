@@ -4,10 +4,12 @@
 ?>
 <div class="quiz wrapper text">
 
+    <?php site_breadcrumbs(); ?>
+
     <div class="quiz-intro note message">
 
         <h1>Which WordPress is Right for You?</h1>
-        <p class="intro">WordPress.org? WordPress.com? Use this simple quiz to find out which is best for your needs.</p>
+        <p>WordPress.org? WordPress.com? Use this simple quiz to find out which is best suited to you.</p>
         <a class="quiz-button-start button fat" href="#">Start</a>
 
     </div>
