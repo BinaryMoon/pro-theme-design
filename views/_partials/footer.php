@@ -49,7 +49,13 @@
 
                 <?php include( 'newsletter.php' ); ?>
 
-                <p><i class="fa fa-sitemap"></i> <a href="<?php echo path( 'sitemap/' ); ?>">Sitemap</a> <span class="sep">|</span> <i class="fa fa-wordpress"></i> <a href="https://theme.wordpress.com/themes/by/pro-theme-design/"> WordPress.com</a> <span class="sep">|</span> <i class="fa fa-envelope"></i> <a href="<?php echo path( 'contact/' ); ?>">Contact</a> <span class="sep">|</span> <i class="fa fa-check"></i> <a href="<?php echo path( 'policies/' ); ?>">Policies</a></p>
+                <p>
+                    <i class="fa fa-question-circle"></i> <a href="<?php echo path( 'why-us/' ); ?>">Why Pro theme Design?</a> <span class="sep">|</span>
+                    <i class="fa fa-sitemap"></i> <a href="<?php echo path( 'sitemap/' ); ?>">Sitemap</a> <span class="sep">|</span>
+                    <!-- <i class="fa fa-wordpress"></i> <a href="https://theme.wordpress.com/themes/by/pro-theme-design/"> WordPress.com</a> <span class="sep">|</span> -->
+                    <i class="fa fa-envelope"></i> <a href="<?php echo path( 'contact/' ); ?>">Contact</a> <span class="sep">|</span>
+                    <i class="fa fa-check"></i> <a href="<?php echo path( 'policies/' ); ?>">Policies</a>
+                </p>
 
                 <p>&copy; 2007 - <?php echo date( 'Y' ); ?> Pro Theme Design, All Rights Reserved</p>
 
