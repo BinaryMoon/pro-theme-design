@@ -29,6 +29,7 @@ Flight::route( '/tools/(@tool)/', function( $tool = '' ) {
     site_breadcrumb_add( 'Tools', 'tools/' );
 
     if ( ! empty( $tool ) ) {
+
         if ( $tool_data = tool_get( $tool ) ) {
 
             site_title( $tool_data['name'] . ' - Pro Theme Design' );
@@ -47,6 +48,7 @@ Flight::route( '/tools/(@tool)/', function( $tool = '' ) {
             Flight::notFound();
 
         }
+
     }
 
     Flight::render(
@@ -72,6 +74,8 @@ Flight::route( '/theme-club/', function() {
 
     site_title( 'WordPress Themes Club' );
     site_description( 'Join over <strong>' . $customers . '</strong> happy themers.' );
+
+    site_enable_gumroad();
 
     Flight::render(
         'theme-club.php'
@@ -114,6 +118,8 @@ Flight::route( '/theme/(@theme)/', function( $theme = '' ) {
         site_meta( 'twitter:label1', 'Price' );
     }
 
+    site_enable_gumroad();
+
     Flight::render(
         'theme.php',
         array(
@@ -145,6 +151,8 @@ Flight::route( '/themes/(@location)/', function( $host = '' ) {
     if ( 'wordpress.com' === $host ) {
         site_description( 'Quality WordPress themes for <strong>WordPress in the cloud</strong>!' );
     }
+
+    site_enable_gumroad();
 
     Flight::render(
         'themes.php',
@@ -182,6 +190,8 @@ Flight::route( '/theme-showcase/(@tag)/', function( $tag = '' ) {
 
     site_title( $title );
     site_description( 'A selection of the <strong>thousands of awesome sites</strong> our customers have built!' );
+
+    site_enable_gumroad();
 
     Flight::render(
         'showcase.php',
@@ -316,6 +326,8 @@ Flight::route( '/theme-preview/(@theme)/', function( $theme_slug = '' ) {
 
     site_title( $theme[ 'name' ] . ' Theme Preview' );
 
+    site_enable_gumroad();
+
     Flight::render(
         $template,
         array(
@@ -340,6 +352,8 @@ Flight::route( '/showcase-preview/(@site)/', function( $site = '' ) {
         Flight::notFound();
 
     }
+
+    site_enable_gumroad();
 
     Flight::render(
         $template,
