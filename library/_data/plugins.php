@@ -21,6 +21,11 @@ function get_plugin_data() {
             'description' => 'Automate the process of taking website screenshots.',
             'image' => 'https://ps.w.org/browser-shots/assets/banner-772x250.png?rev=1225099',
         ),
+        'front-page-category' => array(
+            'name' => 'Front Page Category',
+            'description' => 'Select the categories that display on the front page of your website.',
+            'image' => 'https://ps.w.org/front-page-category/assets/banner-772x250.png?rev=1305657',
+        ),
         'jetpack' => array(
             'name' => 'Jetpack',
             'description' => 'Fully supported by our themes, adds loads of extra functionality.',
