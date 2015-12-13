@@ -17,7 +17,7 @@ function get_documentation_data() {
         'transfer-from-wordpress-com' => array(
             'name' => 'WordPress.com theme Transfer',
             'type' => 'general',
-            'related' => array( 'wordpress-com-vs-wordpress-org', 'wordpress-com-themes' ),
+            'related' => array( 'wordpress-com-vs-wordpress-org', 'wordpress-com-themes', 'refunds' ),
         ),
         'theme-installation' => array(
             'name' => 'Theme Installation',
@@ -30,6 +30,7 @@ function get_documentation_data() {
         'refunds' => array(
             'name' => 'Refunds',
             'type' => 'general',
+            'related' => array( 'transfer-from-wordpress-com' ),
         ),
         'affiliates' => array(
             'name' => 'Affiliates',
