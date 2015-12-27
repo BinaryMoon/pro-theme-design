@@ -20,6 +20,6 @@
 
 <h2>Sidebars</h2>
 
-<p>Chronicle has 3 optional sidebars. They will only display if they contact widgets.</p>
+<p>Chronicle has 3 optional sidebars. They will only display if they contain widgets.</p>
 
 <p>The footer sidebar is on all pages. The right-hand sidebar is on all pages except the full-width page template. The left-hand sidebar is displayed on the homepage, blog posts, and regular pages.</p>
