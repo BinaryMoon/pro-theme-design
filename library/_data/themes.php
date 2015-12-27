@@ -153,6 +153,7 @@ function get_theme_data() {
             'price-wporg' => 79,
             'url-wpcom' => 'mimbopro',
             'url-cm' => '111465-Mimbo-Pro-WordPress-Theme',
+            'url-gr' => 'WDLD',
             'image' => 'mimbopro.png',
             'supports' => array( 'featured-image', 'theme-club', ),
         ),
