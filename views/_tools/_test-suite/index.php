@@ -18,7 +18,9 @@
         <li><a href="<?php echo path( 'wordpress-plugins/' ); ?>">Plugins</a></li>
         <li><a href="<?php echo path( 'documentation/' ); ?>">Documentation</a></li>
         <li><a href="<?php echo path( 'documentation/theme/' ); ?>">Documentation - Theme Archive</a></li>
+        <li><a href="<?php echo path( 'documentation/plugin/jetpack/' ); ?>">Documentation - Jetpack Plugin</a></li>
         <li><a href="<?php echo path( 'documentation/theme/exhibit/' ); ?>">Documentation - Exhibit Docs</a></li>
+        <li><a href="<?php echo path( 'documentation/theme/chronicle/' ); ?>">Documentation - Chronicle Docs</a></li>
         <li><a href="<?php echo path( 'documentation/feature/featured-content/' ); ?>">Documentation - Featured Content</a></li>
         <li><a href="<?php echo path( 'contact/' ); ?>">Contact</a></li>
         <li><a href="<?php echo path( 'contact/thanks/' ); ?>">Contact - Thanks</a></li>
