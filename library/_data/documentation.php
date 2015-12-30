@@ -203,8 +203,16 @@ function get_documentation_data() {
             'requires' => 'jetpack',
             'icon' => 'eye-slash',
         ),
+        'advertising' => array(
+            'name' => 'Advertising',
+            'type' => 'feature',
+            'description' => 'Show and hide widgets on different pages according to rules you set',
+            'requires' => array( 'radcontrol', 'jetpack' ),
+            'icon' => 'eye-slash',
+        ),
 
     );
+
 
     // merge in the themes
     $themes = get_theme_data();
@@ -232,8 +240,17 @@ function get_documentation_data() {
     $processed = array();
 
     foreach( $docs as $key => $doc ) {
+
         $doc[ 'url' ] = path( 'documentation/' . $doc[ 'type' ] . '/' . $key . '/' );
+
+        // ensure required list is array
+        if ( ! empty( $doc[ 'requires' ] ) && ! is_array( $doc[ 'requires' ] ) ) {
+            $doc[ 'requires' ] = array( $doc[ 'requires' ] );
+        }
+
         $processed[ $key ] = $doc;
+
+
     }
 
     return $processed;
@@ -368,12 +385,21 @@ function documentation_required_plugin( $page ) {
 
     $docs = get_documentation_data();
 
-    if ( ! empty( $docs[ $page ][ 'requires' ] ) && ! empty( $docs[ $docs[ $page ][ 'requires' ] ] ) ) {
-        $plugin_url = $docs[ $docs[ $page ][ 'requires' ] ][ 'url' ];
-        $plugin_name = $docs[ $docs[ $page ][ 'requires' ] ][ 'name' ];
+    if ( ! empty( $docs[ $page ][ 'requires' ] ) ) {
+
+        foreach ( $docs[ $page ][ 'requires' ] as $plugin ) {
+
+            if ( ! empty( $docs[ $plugin ] ) ) {
+
+                $plugin_url = $docs[ $plugin ][ 'url' ];
+                $plugin_name = $docs[ $plugin ][ 'name' ];
 ?>
     <p class="note"><?php printf( '<strong>%s</strong> requires the <a href="%s">%s plugin</a>.', $docs[ $page ][ 'name' ], $plugin_url, $plugin_name ); ?></p>
 <?php
+
+            }
+
+        }
     }
 
     return '';
@@ -439,7 +465,7 @@ function documentation_theme_features( $theme ) {
 /**
  * Display the list of features as supported by the current plugin
  */
-function documentation_plugin_features( $theme ) {
+function documentation_plugin_features( $plugin ) {
 
     $docs = get_documentation_data();
 
@@ -448,7 +474,7 @@ function documentation_plugin_features( $theme ) {
     <ul>
 <?php
     foreach( $docs as $doc ) {
-        if ( ! empty( $doc[ 'requires' ] ) && $theme == $doc[ 'requires' ] ) {
+        if ( ! empty( $doc[ 'requires' ] ) && in_array( $plugin, $doc[ 'requires' ] ) ) {
 ?>
         <li><strong><a href="<?php echo $doc[ 'url' ]; ?>"><?php echo $doc[ 'name' ]; ?></a></strong> - <?php echo $doc[ 'description' ]; ?></li>
 <?php

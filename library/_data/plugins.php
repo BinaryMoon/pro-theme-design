@@ -31,14 +31,22 @@ function get_plugin_data() {
             'description' => 'Fully supported by our themes, adds loads of extra functionality.',
             'image' => 'https://ps.w.org/jetpack/assets/banner-772x250.png?rev=1173629',
         ),
+        'radcontrol' => array(
+            'name' => 'Word Ads',
+            'description' => 'Harness WordPress.com\'s advertising partners for your own website.',
+            'image' => 'https://ps.w.org/radcontrol/assets/banner-772x250.jpg?rev=1312024',
+        ),
     );
 
     $processed = array();
 
     foreach( $plugins as $key => $plugin ) {
-        $url = 'https://wordpress.org/plugins/' . $key . '/';
-        $plugin[ 'url' ] = $url;
+
+        $plugin[ 'url' ] = 'https://wordpress.org/plugins/' . $key . '/';
+        $plugin[ 'plugin-url' ] = 'https://wordpress.org/plugins/' . $key . '/';
+
         $processed[ $key ] = $plugin;
+
     }
 
     return $processed;
