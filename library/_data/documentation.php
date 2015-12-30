@@ -203,6 +203,7 @@ function get_documentation_data() {
             'requires' => 'jetpack',
             'icon' => 'eye-slash',
         ),
+        /**
         'advertising' => array(
             'name' => 'Advertising',
             'type' => 'feature',
@@ -210,6 +211,7 @@ function get_documentation_data() {
             'requires' => array( 'radcontrol', 'jetpack' ),
             'icon' => 'eye-slash',
         ),
+        */
 
     );
 
