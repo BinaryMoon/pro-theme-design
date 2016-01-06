@@ -14,7 +14,93 @@ function get_website_data() {
      * featured = if the site will display on the featured toggle. Remove property if not true
      * image = fallback image in case auto screenshot doesn't work for whatever reason. Image should be 400 x 300
      */
+
+    /**
+        '' => array(
+            'url' => '',
+            'name' => '',
+            'theme' => 'themeslug',
+            'tags' => array( 'themeslug', 'featured' ),
+            'image' => '',
+        ),
+     */
+
+
+
     $websites = array(
+        'absurdisan' => array(
+            'url' => 'http://absurdisan.com/',
+            'name' => 'Absudisan',
+            'theme' => 'romero',
+            'tags' => array( 'romero', 'featured' ),
+        ),
+        'aosugo' => array(
+            'url' => 'http://aosugo.com/',
+            'name' => 'Ausogo',
+            'theme' => 'romero',
+            'tags' => array( 'romero' ),
+        ),
+        'mostvaluablepodcasts' => array(
+            'url' => 'http://mostvaluablepodcasts.com/',
+            'name' => 'Most Valuable Podcasts',
+            'theme' => 'romero',
+            'tags' => array( 'romero' ),
+        ),
+        'shortblacktechie' => array(
+            'url' => 'http://shortblacktechie.com/',
+            'name' => 'Short Black Techie',
+            'theme' => 'romero',
+            'tags' => array( 'romero', 'featured' ),
+        ),
+        'drummajorsociety' => array(
+            'url' => 'http://drummajorsociety.org/',
+            'name' => 'Drum Major Society',
+            'theme' => 'romero',
+            'tags' => array( 'romero' ),
+        ),
+        'wethemeeple' => array(
+            'url' => 'http://blog.wethemeeple.co/',
+            'name' => 'We The Meeple',
+            'theme' => 'romero',
+            'tags' => array( 'romero' ),
+        ),
+        'theneocom' => array(
+            'url' => 'http://theneocom.com/',
+            'name' => 'The Neocom',
+            'theme' => 'romero',
+            'tags' => array( 'romero' ),
+        ),
+        'psvitaaddict' => array(
+            'url' => 'http://psvitaaddict.com/',
+            'name' => 'PS Vita Addict',
+            'theme' => 'romero',
+            'tags' => array( 'romero' ),
+        ),
+        'industrialminds' => array(
+            'url' => 'http://industrial-minds.net/',
+            'name' => 'Industrial Minds',
+            'theme' => 'romero',
+            'tags' => array( 'romero', 'featured' ),
+        ),
+        'filmexposure' => array(
+            'url' => 'http://filmexposure.ch/',
+            'name' => 'Film Exposure',
+            'theme' => 'romero',
+            'tags' => array( 'romero' ),
+        ),
+        'bestgameever' => array(
+            'url' => 'http://bestgameever.co.uk/',
+            'name' => 'Best Game Ever',
+            'theme' => 'romero',
+            'tags' => array( 'romero' ),
+        ),
+        'ninauthority' => array(
+            'url' => 'http://ninauthority.com/',
+            'name' => 'Nintendo Authority',
+            'theme' => 'romero',
+            'tags' => array( 'romero' ),
+        ),
+
         'barry-corner' => array(
             'url' => 'http://barrycomersblog.com',
             'name' => 'Barry Corner',
@@ -62,7 +148,7 @@ function get_website_data() {
             'tags' => array( 'broadsheet' ),
         ),
         'hanley-strength' => array(
-            'url' => 'https://hanleystrength.wordpress.com',
+            'url' => 'http://hanleystrength.com',
             'name' => 'Hanley Strength',
             'theme' => 'romero',
             'tags' => array( 'romero', 'featured' ),
