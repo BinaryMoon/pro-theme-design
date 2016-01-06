@@ -20,7 +20,7 @@
         <meta name="description" content="<?php site_description( '', true ); ?>">
 
         <script>
-            var GUMROAD_ACTIVE = '<?php echo (DISABLE_GUMROAD) ? 'true' : 'false'; ?>';
+            var GUMROAD_ACTIVE = '<?php echo (DISABLE_GUMROAD) ? 'false' : 'true'; ?>';
         </script>
 <?php
     include( 'head-open-graph.php' );
