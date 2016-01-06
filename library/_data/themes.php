@@ -69,6 +69,7 @@ function get_theme_data() {
             'price-wporg' => 99,
             'url-wpcom' => 'romero',
             'url-cm' => '312559-Romero-WordPress-Video-Game-Theme',
+            'url-gr' => 'dbtvh',
             'image' => 'romero.png',
             'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'social-menu', 'custom-colours-fonts', 'raddcontrol' ),
         ),
