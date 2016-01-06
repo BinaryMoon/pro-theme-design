@@ -75,7 +75,7 @@ function get_website_data() {
             'tags' => array( 'puzzle' ),
         ),
         'noise-nation' => array(
-            'url' => 'http://noisenation.wordpress.com',
+            'url' => 'https://noisenation.wordpress.com',
             'name' => 'Noise Nation',
             'image' => 'noisenation',
             'theme' => 'opti',
@@ -250,12 +250,23 @@ function get_website_data() {
 
         // preview url
         $site[ 'url-preview' ] = path( 'showcase-preview/' . $key . '/' );
+        $site[ 'showcase-target' ] = '';
+
+        //var_dump( $site[ 'url' ] );
+        //var_dump( strpos( $site[ 'url' ], 'https://' ) );
+
+        if ( strpos( $site[ 'url' ], 'http://' ) !== false ) {
+
+            $site[ 'url-preview' ] = $site[ 'url' ];
+            $site[ 'showcase-target' ] = '_blank';
+
+        }
 
         // preview url
         $site[ 'url-showcase' ] = path( 'theme-showcase/' . $site['theme'] . '/#' . $key );
 
         // iframe url
-        $site[ 'url-iframe' ] = 'https://www.google.com/search?q=' . urlencode( $site['url'] ) . '&btnI=' . urlencode( 'Im+Feeling+Lucky' );
+        $site[ 'url-iframe' ] = $site[ 'url' ];
 
         // add theme slug to tags
         $site[ 'tags' ][] = $site[ 'theme' ];
@@ -266,7 +277,9 @@ function get_website_data() {
 
         // change dynamic url for static image if it exists. Static image is needed for themes that use js for positioning (masonry) since the dynamic screenshot system does not support js.
         if ( ! empty( $site[ 'image' ] ) ) {
+
             $site[ 'image-url' ] = image_path( 'showcase/' . $site[ 'image' ] . '.jpg' );
+
         }
 
         $processed[ $key ] = $site;
