@@ -10,7 +10,7 @@
 
 <h2>Customizer Settings</h2>
 
-<img src="<?php echo image_path( 'docs/customizer-chronicle.png' ); ?>" alt="Chronicle Cusomtizer Screenshot" class="align-right"/>
+<img src="<?php echo image_path( 'docs/customizer-chronicle.png' ); ?>" alt="Chronicle Customizer Screenshot" class="align-right"/>
 
 <ul>
     <li><strong>Archive Post Layout</strong> This sets how blog posts are laid out on the homepage and archive pages.</li>
