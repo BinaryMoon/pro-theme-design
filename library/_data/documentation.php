@@ -52,7 +52,7 @@ function get_documentation_data() {
             'description' => 'Some basic information on how to customize your theme purchase',
         ),
         'wordpress-com-vs-wordpress-org' => array(
-            'name' => 'The difference between WordPress.com and WordPress.org',
+            'name' => 'The Difference Between WordPress.com and WordPress.org',
             'type' => 'general',
             'related' => array( 'transfer-from-wordpress-com', 'wordpress-com-themes' ),
         ),
