@@ -14,6 +14,10 @@ function get_documentation_data() {
             'type' => 'general',
             'related' => array( 'wordpress-com-vs-wordpress-org', 'transfer-from-wordpress-com' ),
         ),
+        'support-vs-customization' => array(
+            'name' => 'Support vs. Customization',
+            'type' => 'general',
+        ),
         'transfer-from-wordpress-com' => array(
             'name' => 'WordPress.com theme Transfer',
             'type' => 'general',
