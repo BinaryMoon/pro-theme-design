@@ -4,7 +4,7 @@
 
 <h2>Support</h2>
 
-<p>All themes have extensive documentation - and if you think there's anything missing then let us know and we'll improve the docs. We're happy to help you get theme features working and make your website resemble the theme demo site.</p>
+<p><a href="<?php echo path( 'documentation/theme/' ); ?>">All themes have extensive documentation</a> - and if you think there's anything missing then let us know and we'll improve the docs. We're happy to help you get theme features working and make your website resemble the theme demo site.</p>
 
 <h3>Example Support Requests</h3>
 
@@ -33,3 +33,19 @@
 <p>Our themes are coded using WordPress best practices so they should work with the majority of plugins. However there may be conflicts with some plugins since many of them work in weird and wonderful ways - and supporting all of the thousands of plugins available would be a technical nightmare.</p>
 
 <p>The plugins we officially support, and will help resolve issues with, are listed on our <a href="<?php echo path( 'plugins/' ); ?>">plugins page</a>.</p>
+
+<h2>New to WordPress?</h2>
+
+<p>Everyone is new to WordPress at some stage, and we understand it can take a bit of getting used too. Unfortunately we're unable to offer help on how to use WordPress since it's a massive subject.</p>
+
+<p>Below are some handy websites that should help you get started:</p>
+
+<ul>
+    <li><a href="https://codex.wordpress.org/Installing_WordPress" target="_blank">Getting Started with WordPress</a></li>
+    <li><a href="https://codex.wordpress.org/First_Steps_With_WordPress" target="_blank">First Steps with WordPress</a></li>
+    <li><a href="http://wordpress.org/support/">WordPress.org Forums</a></li>
+    <li><a href="http://wordpress.stackexchange.com/">WordPress Answers StackExchange</a></li>
+</ul>
+
+<p>If you're still stuck then there are many websites and tutorials out there that explain the WordPress basics so we would recommend using Google to try and find the solution to your WordPress problems.</p>
+
