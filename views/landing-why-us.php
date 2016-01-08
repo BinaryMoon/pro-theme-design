@@ -21,21 +21,21 @@
                 <li>Why cheap themes can be a big cost in the long term.</li>
             </ul>
 
-            <p class="intro">Small businesses like yours, have successfully used Pro Theme Design themes to improve their websites, or their clients websites, for many years now. We released our first theme in 2007 and have been regularly releasing new themes ever since.</p>
+            <p class="intro">Small businesses like yours, have successfully used Pro Theme Design themes to improve their websites, or their clients websites, for many years now. We released our first theme in 2007 and have been regularly releasing new themes since.</p>
 
             <h2>Pro Theme Design is Unique</h2>
 
-            <p>We started in 2007, and have been working with WordPress ever since. The benefit of being small is that we can give things the personal touch. In fact when you contact us you will talk directly to me. The lead developer. Who better to answer your questions about your new theme than the person who made it!</p>
+            <p>The benefit of being small is that we can give things the personal touch. In fact when you contact us you will talk directly to me, Ben, the lead developer. Who better to answer your questions about your new theme than the person who made it!</p>
 
             <p>Another unique thing about us is that all of our themes have been code reviewed by a third party. What this means is that an independant company has ensured that the code in our themes is secure, and solid. This means our themes are as safe as we can make them, and will run efficiently.</p>
 
             <h2>The WordPress Way</h2>
 
-            <p>In 2014 we made a commitment to <strong>working the 'WordPress' way</strong> exclusively. This means we always follow best practices and coding standards, and we always use WordPress functionality rather than reinventing the wheel. How does this benefit you though? There's a few ways.</p>
+            <p>In 2014 we made a commitment to <strong>working the 'WordPress' way</strong> exclusively. This means we always follow best practices and coding standards, and we always use WordPress functionality rather than reinventing the wheel. How does this benefit you? There's a few ways.</p>
 
             <ol>
                 <li>Using core WordPress functionality means that as WordPress is updated - your site, and theme, improves; and you don't have to do anything (besides update WordPress).</li>
-                <li>Following WordPress coding standards means that our themes very rarely break when there is a WordPress update. The less WordPress functionality a theme uses, the more likely it will be to break when there is a WordPress update.</li>
+                <li>Following WordPress coding standards means that our themes rarely break when there is a WordPress update. The less WordPress functionality a theme uses, the more likely it will be to fail when there is a WordPress update.</li>
             </ol>
 
             <h2>The 80% Rule</h2>
@@ -44,7 +44,7 @@
 
             <p>Now don't get me wrong - this doesn't mean that we will automatically add every feature that people ask for. What it does mean though is we will dig deeper to try and understand why the feature is being requested - and then take steps to address the root cause.</p>
 
-            <p>The 80% rule is a rule we follow when developing new functionality. For us to add a new feature, or change an existing feature, the change has to have a positive benefit for 80% of our users.</p>
+            <p>The 80% rule is a rule we follow when developing new functionality. For us to add something new, or change an existing feature, the change has to have a positive benefit for at least 80% of our users.</p>
 
             <h2>The Cost of Cheap Themes</h2>
 
@@ -56,7 +56,7 @@
 
             <h2>The Benefit of Simplicity</h2>
 
-            <p>Some of the most popular WordPress themes are 'all in one' themes. Whilst they look nice on the outside, and in the theme demos, they generally hide a miriad of problems. By trying to create a single theme that does everything for everyone, the theme developer generally makes a lot of complex code that is hard to maintain and hard to customise.</p>
+            <p>Some of the most popular WordPress themes are 'all in one' themes. Whilst they look nice on the outside, and in theme demos, they generally hide a miriad of problems. By trying to create a single theme that does everything for everyone, the theme developer generally makes a lot of complex code that is hard to maintain and hard to customise.</p>
 
             <p>For the customer, this means that they will often struggle to get their website to look as nice as the theme demo.</p>
 
@@ -77,6 +77,7 @@
             <ul>
                 <li><strong>Styleguide</strong> - this plugin lets </li>
                 <li><strong>Jetpack</strong> - this plugin is made by Automattic, the team behind wordpress.com - it brings a lot of the wordpress.com functionality to self hosted sites.</li>
+                <li><strong>Front Page Category</strong> - this plugin lets you select the categories that display on the front page of your website.</li>
             </ul>
 
         </div>
