@@ -43,6 +43,13 @@
 
             <!-- technical support contact form -->
             <form class="formspree form-contact-technical" method="POST">
+                <p>Before contacting us about a problem please ensure:</p>
+                <ul>
+                    <li>You are running the latest version of WordPress.</li>
+                    <li>You have updated all themes and plugins.</li>
+                    <li>You have read your themes documentation and made sure it does not address your issue.</li>
+                </ul>
+
                 <label>
                     <span>Your Name</span>
                     <input type="text" name="name" placeholder="Jane Smith" required />
@@ -72,7 +79,7 @@
                 </label>
 
                 <label>
-                    <span>Message</span>
+                    <span>Message (please be as detailed as possible)</span>
                     <textarea name="message" rows="6" required ></textarea>
                 </label>
 
