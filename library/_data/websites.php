@@ -121,11 +121,11 @@ function get_website_data() {
             'theme' => 'romero',
             'tags' => array( 'romero' ),
         ),
-        'nice-n-naughty' => array(
-            'url' => 'http://nicennaughtyboutique.com',
-            'name' => 'Nice N Naughty',
+        'mgarciadigital' => array(
+            'url' => 'https://mgarciadigital.wordpress.com/',
+            'name' => 'Marco Garcia',
             'theme' => 'puzzle',
-            'image' => 'nicennaughty',
+            'image' => 'mgarciadigital',
             'tags' => array( 'puzzle', 'featured' ),
         ),
         'clear-sight' => array(
