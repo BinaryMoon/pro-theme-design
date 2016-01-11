@@ -20,9 +20,12 @@
             <h2>Multiple Sites</h2>
             <p>You are welcome to use our themes on as many sites as you like.</p>
 
-            <h2>Lifetime</h2>
-            <p>Lifetime support - in regards to product purchases, is valid for the life of the product. If a product is retired from sale then support will continue for a further 6 months. After this support will no longer be given for this product.</p>
+            <h2>Individual Theme Support</h2>
+            <p>Theme support is offered for the life of the product. If a product is retired from sale then support will continue for a further 6 months. After this support will no longer be given for this product.</p>
             <p>Products are considered active if they are available on the site. We reserve the right to retire a product at any time without notice.</p>
+
+            <h2>Theme Club Support</h2>
+            <p>Theme Club support is offered for the duration of the theme club subscription. It will only be offered for themes that are currently active in the theme club. We reserve the right to retire a theme from the theme club at any time without notice.</p>
 
             <h2>Product Updates</h2>
             <p>We do not schedule, or guarantee, product updates however we do update products and will notify customers when we do so. Updates for minor versions will be free. Occassionally we will release a major update to a product and we reserve the right to charge an upgrade fee at our discretion.</p>
