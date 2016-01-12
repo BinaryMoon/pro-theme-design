@@ -21,6 +21,12 @@ function get_tools_data() {
             'tag' => 'external',
             'icon' => 'info-circle',
         ),
+        'developer-resources' => array(
+            'name' => 'Developer Resources',
+            'description' => 'Handy Resources for designers and developers.',
+            'tag' => 'external',
+            'icon' => 'wrench',
+        ),
         'free-stock-photos' => array(
             'name' => 'Free Stock Photos',
             'description' => 'Stock photography for your projects.',
