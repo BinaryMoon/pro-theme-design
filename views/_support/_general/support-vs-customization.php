@@ -25,7 +25,8 @@
 <ul>
     <li>How do I add an extra sidebar to this page?</li>
     <li>I want to change the look of the homepage so that it is different to the demo - what should I do?</li>
-    <li>How do I add support for this new thing that ?</li>
+    <li>How do I add support for this new thing that?</li>
+    <li>Can you recommend a plugin to improve my website?</li>
 </ul>
 
 <h2>3rd Party Plugins</h2>

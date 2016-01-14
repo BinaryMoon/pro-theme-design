@@ -10,9 +10,10 @@
             <h1>Terms and Conditions</h1>
             <h2>Support</h2>
             <p>We offer support via the relevant support forums. For wordpress.com please use the premium themes forum. For self hosted themes please use the support form on the relevant theme page on Creative Market.</p>
-            <p>The support we offer is restricted to fixing bugs in our themes. Unfortunately we don't help with theme modifications/ customisations or installation issues. Services like <a href="http://studio.envato.com/">Envato Studio</a> are much better placed for helping with things like that and we encourage you to use their services to customise our themes.</p>
+            <p>The support we offer is restricted to fixing bugs in our themes. Unfortunately we don't help with theme modifications/ customisations or installation issues. For help with customizations we have partnered with Codable who offer <a href="<?php echo path( 'theme-customization/' ); ?>">customization services for WordPress websites</a>.</p>
             <p>We do not offer support for problems with third party plugins/ modifications.</p>
-            <p>Unfortunately we do not offer email or phone support.</p>
+            <p>We do not offer email or phone support.</p>
+            <p>To help clarify this polidy we have put together a support document explaining <a href="<?php echo path( 'documentation/general/support-vs-customization/' ); ?>">the differences between support and customization.</a></p>
 
             <h2>License</h2>
             <p>All of our products are licensed under the same license as WordPress, the GPL – there is more information on the <a href="http://codex.wordpress.org/GPL">GPL license</a> available on the WordPress Codex. Support for Pro Theme Design products will only be given to those who purchase a Pro Theme Design product.</p>
