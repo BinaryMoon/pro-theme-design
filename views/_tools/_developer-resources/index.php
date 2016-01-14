@@ -1,9 +1,13 @@
 <?php
     $resources = array(
         '' => '',
-
+        '' => '',
+        '' => '',
+        '' => '',
         '' => '',
 
+        'place.to' => 'Insert screenshots into different computing situations.',
+        'facebook.github.io/design/devices.html' => 'Sketch files of popular devices.',
         'mapglyphs.com/world-maps' => 'World Map images.',
         'hemingwayapp.com' => 'An online text proof reader.',
         'brandcolors.net' => 'Website brand colours, all in one place.',
