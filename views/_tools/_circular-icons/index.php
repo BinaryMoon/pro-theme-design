@@ -1,7 +1,11 @@
 <?php
     $download_url = path( 'assets/downloads/circular-icons.zip' );
+
     if ( ! DISABLE_GUMROAD ) {
+
         $download_url = 'https://gum.co/aNAW';
+        site_enable_gumroad();
+
     }
 ?>
 <div class="wrapper text">
