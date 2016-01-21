@@ -12,7 +12,7 @@
 
 </div>
 
-<div class="wrapper block-wrapper theme-wrapper">
+<div class="wrapper block-wrapper">
     <div class="block showcase-website">
         <img src="<?php echo image_path( 'docs/puzzle-layout-1.png' ); ?>" alt="Puzzle Layout sample" class="image" />
         <div class="meta">

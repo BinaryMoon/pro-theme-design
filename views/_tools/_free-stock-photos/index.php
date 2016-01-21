@@ -49,7 +49,7 @@
     <p>If you want something more unique then you can get some <a href="https://creativemarket.com/photos?u=BinaryMoon">fantastic stock photos at Creative Market</a>.</p>
 </div>
 
-<div class="wrapper block-wrapper theme-wrapper">
+<div class="wrapper block-wrapper">
 <?php
     foreach ( $stock_sites as $url => $description ) {
         $image_url = site_screenshot( $url );

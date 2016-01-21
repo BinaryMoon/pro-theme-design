@@ -47,7 +47,7 @@
     <?php site_breadcrumbs(); ?>
 </div>
 
-<div class="wrapper block-wrapper theme-wrapper">
+<div class="wrapper block-wrapper">
 <?php
     foreach ( $properties as $key => $data ) {
 ?>
