@@ -8,12 +8,19 @@
     .page-404 .masthead,
     .page-home .masthead,
     .masthead {
-        h1 {
+        .site-title {
             .modular-scale( @alpha );
         }
 
         p {
             .modular-scale( @epsilon );
+        }
+        .social {
+            right:@grid-gutter;
+        }
+
+        .utils {
+            left:@grid-gutter;
         }
     }
 
@@ -50,6 +57,11 @@
     nav.main-menu {
         left:-100%;
         width:90%;
+    }
+
+    .newsletter {
+        padding-left:0;
+        background:transparent;
     }
 
 }
