@@ -1,6 +1,9 @@
 
 <nav class="main-menu drawer">
-    <a href="#" class="drawer-close" rel="nofollow"><i class="fa fa-times"></i></a>
+    <a href="#" class="drawer-close" rel="nofollow">
+        <i class="fa fa-times"></i>
+        <span class="screen-reader-text">Close Menu</span>
+    </a>
 
     <ul class="tree alt large">
         <li class="themes menu-item-has-children">
