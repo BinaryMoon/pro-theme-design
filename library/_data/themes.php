@@ -8,6 +8,32 @@ function get_theme_data() {
 
     $themes = array(
 
+        'puzzle' => array(
+            'name' => 'Puzzle',
+            'description' => 'A visually oriented theme, great for photographers and artists who want to tell stories using their images.',
+            'short_description' => 'A responsive WordPress portfolio theme.',
+            'price-wpcom' => 79,
+            'price-wporg' => 99,
+            'url-wpcom' => 'puzzle',
+            'url-gr' => 'xdaw',
+            'url-cm' => '108641-Puzzle-Responsive-WordPress-Theme',
+            'image' => 'puzzle.png',
+            'supports' => array( 'portfolio', 'custom-front-page', 'site-logo', 'infinite-scroll', 'social-menu', 'testimonials', 'theme-club', 'raddcontrol' ),
+        ),
+
+        'monet' => array(
+            'name' => 'Monet',
+            'description' => 'A delicate responsive portfolio theme targeted at photographers and other creatives. With crisp typography Monet is easy on the eye.',
+            'short_description' => 'A delicate WordPress portfolio theme.',
+            'price-wpcom' => 79,
+            'price-wporg' => 99,
+            'url-wpcom' => 'monet',
+            'url-cm' => '312560-Monet-WordPress-Portfolio-Theme',
+            'url-gr' => 'RWkNX',
+            'image' => 'monet.png',
+            'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'social-menu', 'portfolio', ),
+        ),
+
         'chronicle' => array(
             'name' => 'Chronicle',
             'description' => 'A magazine theme. With 3 optional widget areas, featured posts, and a huge homepage slider, there are lots of options for creating interesting, immersive websites.',
@@ -33,32 +59,6 @@ function get_theme_data() {
             'url-cm' => '348846-Exhibit-WordPress-Portfolio-Theme',
             'image' => 'exhibit.png',
             'supports' => array( 'custom-front-page', 'site-logo', 'infinite-scroll', 'social-menu', 'testimonials', 'portfolio', 'raddcontrol' ),
-        ),
-
-        'monet' => array(
-            'name' => 'Monet',
-            'description' => 'A delicate responsive portfolio theme targeted at photographers and other creatives. With crisp typography Monet is easy on the eye.',
-            'short_description' => 'A delicate WordPress portfolio theme.',
-            'price-wpcom' => 79,
-            'price-wporg' => 99,
-            'url-wpcom' => 'monet',
-            'url-cm' => '312560-Monet-WordPress-Portfolio-Theme',
-            'url-gr' => 'RWkNX',
-            'image' => 'monet.png',
-            'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'social-menu', 'portfolio', ),
-        ),
-
-        'puzzle' => array(
-            'name' => 'Puzzle',
-            'description' => 'A visually oriented theme, great for photographers and artists who want to tell stories using their images.',
-            'short_description' => 'A responsive WordPress portfolio theme.',
-            'price-wpcom' => 79,
-            'price-wporg' => 99,
-            'url-wpcom' => 'puzzle',
-            'url-gr' => 'xdaw',
-            'url-cm' => '108641-Puzzle-Responsive-WordPress-Theme',
-            'image' => 'puzzle.png',
-            'supports' => array( 'portfolio', 'custom-front-page', 'site-logo', 'infinite-scroll', 'social-menu', 'testimonials', 'theme-club', 'raddcontrol' ),
         ),
 
         'romero' => array(
