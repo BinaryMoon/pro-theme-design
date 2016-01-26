@@ -239,6 +239,7 @@ function get_theme_data() {
 
         // theme info link
         $theme[ 'url' ] = path( 'theme/' . $key . '/' );
+        $theme[ 'url-details' ] = path( 'theme/' . $key . '/' );
 
         // theme preview link
         if ( ! empty( $theme[ 'url-cm' ] ) ) {
