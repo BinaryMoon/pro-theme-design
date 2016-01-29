@@ -1,5 +1,6 @@
 <?php
 
+include_once( '_data/articles.php' );
 include_once( '_data/themes.php' );
 include_once( '_data/plugins.php' );
 include_once( '_data/websites.php' );

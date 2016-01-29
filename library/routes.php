@@ -244,6 +244,59 @@ Flight::route( '/search/', function() {
 
 } );
 
+/**
+ * Articles Archive
+ */
+Flight::route( '/articles/(@page_number)/', function( $page_number = 0 ) {
+
+    site_title( 'Articles' );
+
+    Flight::render(
+        'articles.php',
+        array(
+            'articles' => get_article_data()
+        )
+    );
+
+} );
+
+
+/**
+ * Single Article Page
+ */
+Flight::route( '/article/(@page)/', function( $page = '' ) {
+
+    $article = array();
+
+    site_breadcrumb_add( 'Articles', 'articles/' );
+
+    if ( $article = article_get( $page ) ) {
+
+        site_breadcrumb_add( $article[ 'name' ], 'article/' . $page . '/' );
+
+        site_title( $article[ 'name' ] );
+
+        if ( ! empty( $article[ 'description' ] ) ) {
+
+            site_description( $article['description'] );
+
+        }
+
+    } else {
+
+        Flight::notFound();
+
+    }
+
+    Flight::render(
+        'article.php',
+        array(
+            'article' => $article,
+        )
+    );
+
+} );
+
 
 /**
  * Support
