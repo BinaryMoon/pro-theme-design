@@ -2,6 +2,7 @@
     background:rgba(0,0,0,0.3);
     padding:@grid-line-height @grid-gutter;
     border-radius:@border-radius;
+    position:relative;
     clear:both;
 
     strong {
@@ -26,6 +27,21 @@
 
     .fa {
         color:@canvas-white;
+    }
+
+    &.tip {
+        padding-left:@grid-gutter * 3;
+
+        &:before {
+            content:'\f0eb';
+            font-family: 'FontAwesome';
+            .modular-scale( @beta );
+            font-weight:normal;
+            position:absolute;
+            top:@grid-line-height;
+            left:@grid-gutter;
+            color:@canvas-white;
+        }
     }
 
     &.message {
