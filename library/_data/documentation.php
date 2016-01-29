@@ -73,6 +73,10 @@ function get_documentation_data() {
             'type' => 'general',
             'related' => array( 'image-resizing', 'jetpack' ),
         ),
+        'posts-vs-pages' => array(
+            'name' => 'The Difference Between Posts and Pages',
+            'type' => 'general',
+        ),
 
 
         // features
@@ -532,7 +536,7 @@ function documentation_related( $feature ) {
 
 
 /**
- * Create a html link that points to a specific peice of documentaiton
+ * Create a html link that points to a specific peice of documentation
  *
  * @param string $key The documentation key for the item to be linked.
  */
