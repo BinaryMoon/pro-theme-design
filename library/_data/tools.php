@@ -71,6 +71,12 @@ function get_tools_data() {
             'tag' => 'internal',
             'icon' => 'eye',
         ),
+        'theme-design-guidelines' => array(
+            'name' => 'Theme Design Guidelines',
+            'description' => 'Rules to ensure our themes are as good as can be.',
+            'tag' => 'internal',
+            'icon' => 'book',
+        ),
 
     );
 
@@ -138,7 +144,7 @@ function tools_display( $tag = '', $title = '' ) {
     <div class="block">
         <div class="content sticky-footer">
             <i class="fa fa-<?php echo $tool['icon']; ?> icon"></i>
-            <h3><?php echo $tool['name']; ?></h3>
+            <h3><a href="<?php echo $tool['url']; ?>"><?php echo $tool['name']; ?></a></h3>
             <p><?php echo $tool['description']; ?></p>
             <footer>
                 <a href="<?php echo $tool['url']; ?>" class="button">View</a>
