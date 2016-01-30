@@ -9,10 +9,10 @@
 
     <ul>
         <li>Must be presentable with and without featured images, and with no sidebars setup - this improves first impressions</li>
-        <li>Jetpack Infinite scroll on homepage, and archive pages</li>
+        <li>Jetpack <a href="<?php echo path( 'documentation/feature/infinite-scroll/' ); ?>">Infinite scroll</a> on homepage, and archive pages</li>
         <li>Custom Header Image</li>
         <li>Custom Background</li>
-        <li>Jetpack Site Logo</li>
+        <li>Jetpack <a href="<?php echo path( 'documentation/feature/site-logo/' ); ?>">Site Logo</a></li>
         <li>Next and Previous post links on posts and pages</li>
         <li>Comments</li>
         <li>Tags and Category lists on posts</li>
@@ -25,23 +25,24 @@
     <h2>Recommended to Support</h2>
 
     <ul>
-        <li>Featured Images</li>
+        <li><a href="<?php echo path( 'documentation/feature/featured-image/' ); ?>">Featured Images</a></li>
         <li>Keep featured images in consistent proportions so that users can more easily predict thumbnail shapes</li>
         <li>No images should be included as part of the theme. The only images on the site should be ones uploaded by the theme user (featured images, custom header etc)</li>
         <li>Use Genericons for theme icons</li>
         <li>Use SVGs for any visual elements that can't be reproduced through CSS</li>
         <li>Google Fonts/ default fonts. Don’t bundle fonts</li>
-        <li>Social link icons (controlled through a custom menu)</li>
+        <li><a href="<?php echo path( 'documentation/feature/social-menu/' ); ?>">Social link icons</a> (controlled through a custom menu)</li>
+        <li>Alternate design for <a href="<?php echo path( 'documentation/feature/sticky-post/' ); ?>">sticky posts</a> on archive pages</li>
     </ul>
 
 
     <h2>Can Optionally Support</h2>
 
     <ul>
-        <li>Jetpack Featured Content</li>
-        <li>Jetpack Testimonials</li>
-        <li>Jetpack Portfolios/ Projects</li>
-        <li>Customiser Options (definitely no admin options, options used should be kept to a minimum)</li>
+        <li>Jetpack <a href="<?php echo path( 'documentation/feature/featured-content/' ); ?>">Featured Content</a></li>
+        <li>Jetpack <a href="<?php echo path( 'documentation/feature/testimonials/' ); ?>">Testimonials</a></li>
+        <li>Jetpack <a href="<?php echo path( 'documentation/feature/portfolio/' ); ?>">Portfolios/ Projects</a></li>
+        <li><a href="<?php echo path( 'documentation/feature/customizer/' ); ?>">Customizer Options</a> - options used should be kept to a minimum</li>
     </ul>
 
     <h2>Must not Support</h2>
