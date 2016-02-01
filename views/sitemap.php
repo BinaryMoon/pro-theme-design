@@ -17,12 +17,7 @@
                         <?php themes_sitemap(); ?>
                     </ul>
                 </li>
-                <li>
-                    <a href="<?php echo path( 'theme-showcase/' ); ?>">Theme Showcase</a>
-                    <ul>
-                        <?php website_sitemap(); ?>
-                    </ul>
-                </li>
+
 <?php
     if ( ! DISABLE_GUMROAD ) {
 ?>
@@ -30,12 +25,14 @@
 <?php
     }
 ?>
+
                 <li>
-                    <a href="<?php echo path( 'tools/' ); ?>">Tools</a>
+                    <a href="<?php echo path( 'articles/' ); ?>">Articles</a>
                     <ul>
-                        <?php tools_sitemap(); ?>
+                        <?php articles_sitemap(); ?>
                     </ul>
                 </li>
+
                 <li>
                     <a href="<?php echo path( 'documentation/' ); ?>">Documentation</a>
                     <ul>
@@ -57,9 +54,27 @@
                         </li>
                     </ul>
                 </li>
+
+                <li>
+                    <a href="<?php echo path( 'tools/' ); ?>">Tools</a>
+                    <ul>
+                        <?php tools_sitemap(); ?>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="<?php echo path( 'theme-showcase/' ); ?>">Theme Showcase</a>
+                    <ul>
+                        <?php website_sitemap(); ?>
+                    </ul>
+                </li>
+
                 <li><a href="<?php echo path( 'why-us/' ); ?>">Why Pro Theme Design?</a></li>
+
                 <li><a href="<?php echo path( 'contact/' ); ?>">Contact</a></li>
+
                 <li><a href="<?php echo path( 'policies/' ); ?>">Policies, Terms and Conditions</a></li>
+
             </ul>
         </div>
 
