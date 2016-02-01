@@ -11,6 +11,13 @@
 
     };
 
+    var show_search = function() {
+
+        show_overlay();
+        $( '.search-modal' ).addClass( 'display' );
+
+    };
+
     var show_newsletter = function() {
 
         if ( ! $( 'body' ).hasClass( 'overlay-display' ) ) {
@@ -168,38 +175,10 @@
 
     // menu
 
-    $( '.menu-toggle' ).on( 'click', function( e ) {
-
-        e.preventDefault();
-
-        if ( $( 'body' ).hasClass( 'overlay-display' ) ) {
-
-            hide_menu();
-
-        } else {
-
-            show_overlay();
-            $( 'body' ).addClass( 'menu-display' );
-
-        }
-
-    } );
-
     $( '.search-toggle' ).on( 'click', function( e ) {
 
         e.preventDefault();
-
-        if ( $( 'body' ).hasClass( 'overlay-display' ) ) {
-
-            hide_menu();
-
-        } else {
-
-            show_overlay();
-            $( 'body' ).addClass( 'search-display' );
-            $( '.drawer-search' ).find( 'form input.text' ).focus();
-
-        }
+        show_search();
 
     } );
 

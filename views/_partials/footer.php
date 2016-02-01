@@ -72,7 +72,7 @@
 
         <div class="modal-wrapper newsletter-modal">
             <div class="modal">
-                <a href="#" class="close-button">
+                <a href="#" class="close-button" rel="nofollow">
                     <i class="fa fa-times"></i>
                     <span class="screen-reader-text">Close Newsletter Popup</span>
                 </a>
@@ -80,16 +80,17 @@
             </div>
         </div>
 
-        <?php include( 'nav.php' ); ?>
-
         <?php include( 'popover.php' ); ?>
 
-        <div class="drawer drawer-search">
-            <a href="#" class="drawer-close" rel="nofollow">
-                <i class="fa fa-times"></i>
-                <span class="screen-reader-text">Close Search Form</span>
-            </a>
-            <?php include( 'google-search.php' ); ?>
+        <div class="modal-wrapper search-modal">
+            <div class="modal">
+                <a href="#" class="close-button" rel="nofollow">
+                    <i class="fa fa-times"></i>
+                    <span class="screen-reader-text">Close Search Form</span>
+                </a>
+                <h2>Search Pro Theme Design...</h2>
+                <?php include( 'google-search.php' ); ?>
+            </div>
         </div>
 
         <div class="overlay"></div>

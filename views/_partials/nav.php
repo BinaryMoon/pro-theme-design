@@ -1,11 +1,14 @@
 
-<nav class="main-menu drawer">
-    <a href="#" class="drawer-close" rel="nofollow">
-        <i class="fa fa-times"></i>
-        <span class="screen-reader-text">Close Menu</span>
-    </a>
+<nav class="main-menu">
 
-    <ul class="tree alt large">
+    <ul>
+        <li>
+            <a href="#search" class="search-toggle">
+                <i class="fa fa-search"></i>
+                <span class="screen-reader-text">Search Pro Theme Design</span>
+            </a>
+        </li>
+
         <li class="themes menu-item-has-children">
             <a href="<?php echo path(); ?>">Themes</a>
             <ul>
@@ -26,17 +29,37 @@
         <li class="wordpress-plugins">
             <a href="<?php echo path( 'wordpress-plugins/' ); ?>">Plugins</a>
         </li>
+
+<?php
+        if ( 'dev' == ENV ) {
+?>
+        <li class="articles">
+            <a href="<?php echo path( 'articles/' ); ?>">Articles</a>
+        </li>
+<?php
+        }
+?>
+
         <li class="tools">
             <a href="<?php echo path( 'tools/' ); ?>">Tools</a>
         </li>
         <li class="support">
             <a href="<?php echo path( 'documentation/' ); ?>">Support</a>
         </li>
-<?php
-        if ( 'dev' == ENV ) {
-?>
-<?php
-        }
-?>
+
+
+        <li>
+            <a class="twitter" href="https://www.twitter.com/prothemedesign">
+                <i class="fa fa-twitter"></i>
+                <span class="screen-reader-text">Follow us on Twitter</span>
+            </a>
+        </li>
+        <li>
+            <a class="facebook" href="https://www.facebook.com/prothemedesign">
+                <i class="fa fa-facebook"></i>
+                <span class="screen-reader-text">Follow us on Facebook</span>
+            </a>
+        </li>
     </ul>
+
 </nav>
