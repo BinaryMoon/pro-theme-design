@@ -264,7 +264,7 @@ Flight::route( '/articles/(@page_number)/', function( $page_number = 0 ) {
 /**
  * Single Article Page
  */
-Flight::route( '/article/(@page)/', function( $page = '' ) {
+Flight::route( '/how-to/(@page)/', function( $page = '' ) {
 
     $article = array();
 
