@@ -7,9 +7,10 @@ function get_article_data() {
 
     $articles = array(
 
-        'article-1' => array(
-            'name' => 'Article Name 1',
-            'date' => '2016-01-28',
+        'make-money-with-wordpress' => array(
+            'name' => 'Ways to Make Money With WordPress',
+            'date' => '2016-02-01',
+            'date-updated' => '',
         ),
 
 
@@ -21,7 +22,7 @@ function get_article_data() {
 
     foreach( $articles as $key => $article ) {
 
-        $article[ 'url' ] = path( 'article/' . $key . '/' );
+        $article[ 'url' ] = path( 'how-to/' . $key . '/' );
         $article[ 'path' ] = $article[ 'date' ] . '-' . $key;
 
         $processed[ $key ] = $article;
@@ -89,3 +90,18 @@ function article_page_name( $page ) {
 
 }
 
+
+/**
+ * Create a list of articles for the sitemap.
+ */
+function articles_sitemap() {
+
+    $articles = get_article_data();
+
+    foreach ( $articles as $article ) {
+?>
+    <li><a href="<?php echo $article[ 'url' ]; ?>"><?php echo $article['name']; ?></a></li>
+<?php
+    }
+
+}
