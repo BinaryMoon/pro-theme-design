@@ -14,11 +14,15 @@
 
 <p>Beware of selling links. If you don't list the link as 'nofollow' then you may end up being penalised by Google. This practice has been frowned upon for some time now but there are still companies trying to sell them.</p>
 
+<p>If you're in the market for a new blogging theme then our most popular are <a href="<?php echo path( 'theme/opti/' ); ?>">Opto</a>, and <a href="<?php echo path( 'theme/monet/' ); ?>">Monet</a>.</p>
+
 <h2>Advertising Your Business</h2>
 
 <p>The alternative to blogging is simply to use WordPress to advertise your existing business. It doesn't matter what your business is or what you do - all companies should have a web presense as for many searching online is the first place they go when looking for a solution. If you're not online, you're going to make less money.</p>
 
 <p class="note tip">If you're creating a website for your bricks and mortar store then make sure to include your shop address on the site. This will make it easy for people to find you - and also it will tell Google where you are, so that it can be relevant for local searches.</p>
+
+<p>A good example of a business theme is <a href="<?php echo path( 'theme/exhibit/' ); ?>">Exhibit</a>.</p>
 
 <h2>Web Design &amp; Development Services</h2>
 
@@ -32,9 +36,9 @@
 
 <p>Many people have an existing site and need it to be maintained. For instance they might want backups, or tweaks to the existing site, installing plugins, optimizing servers, or help with optimising their sales. There's loads of things an experienced web developer could offer that would be relatively easy for them to do - and incrdibly useful for their customers.</p>
 
-<p>For many this could be an add-on servie to the Web Design and Development Services mentioned above. Once you have built a customers website why not offer them a monthly maintanence package. For a small monthly fee you would update their software and plugins, and backup their site.</p>
+<p>For many this could be an add-on service to the <em>Web Design and Development Services</em> mentioned above. Once you have built a customers website why not offer them a monthly maintanence package? For a small monthly fee you would update their software and plugins, and backup their site.</p>
 
-<p>This could add some recurring revenue with little additional work - and would be a great way to extend the relationship for future projects.</p>
+<p>This could add some recurring revenue with little additional work - and would be a great way to enahnce the client relationship for future projects.</p>
 
 <h2>Teaching Services</h2>
 
@@ -106,4 +110,6 @@
 <p>Blogging isn't for everyone. Many people understand the power of a blog, but don't enjoy writing, or simply don't have the time for writing. That's where content writing services come in.</p>
 
 <p>Good copywriting can make an ok looking website an amazing resource - and so there's a big market for quality writing. This is a great way for less technical people to become involved in WordPress.</p>
+
+<p>Another area of content writing services that you could try is proof reading and content editing. There's a lot of content around that makes a compelling story, but is poorly written and so finding clients who need help with this sort of thing can also make a big difference to the perception of a website.</p>
 
