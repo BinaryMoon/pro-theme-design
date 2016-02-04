@@ -1,6 +1,8 @@
 
 <nav class="main-menu">
 
+    <button>Menu</button>
+
     <ul>
         <li>
             <a href="#search" class="search-toggle">

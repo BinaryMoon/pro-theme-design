@@ -23,6 +23,20 @@ p {
     color:@canvas-grey-50;
     margin-bottom:@grid-line-height * 4;
 
+    button {
+        display:none;
+        background:transparent;
+        border:0;
+        width:100%;
+        padding:(@grid-gutter / 2) (@grid-gutter);
+
+        &:before {
+            font-family:'FontAwesome';
+            content:'\f0c9';
+            margin-right:0.2em;
+        }
+    }
+
     .masthead-tabs & {
         margin-bottom:0;
     }

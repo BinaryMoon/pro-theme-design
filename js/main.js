@@ -30,6 +30,12 @@
 
     };
 
+    var toggle_nav = function() {
+
+        $( '.main-menu ul' ).slideToggle();
+
+    };
+
     var hide_modal = function() {
 
         $( '.modal-wrapper' ).removeClass( 'display' );
@@ -279,6 +285,14 @@
 
     // uncomment to test the newsletter code
     //setTimeout( show_newsletter, 2000 );
+
+    $( '.main-menu button' ).on( 'click', function ( e ) {
+
+        e.preventDefault();
+
+        toggle_nav();
+
+    } );
 
     return;
 

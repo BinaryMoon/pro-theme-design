@@ -65,6 +65,26 @@
         background:transparent;
     }
 
+    nav.main-menu {
+        .modular-scale( @epsilon );
+
+        button {
+            display:block;
+        }
+
+        ul {
+            display:none;
+
+            li {
+                display:block;
+            }
+        }
+
+        a {
+            padding:(@grid-line-height / 2) (@grid-gutter);
+        }
+    }
+
 }
 
 
