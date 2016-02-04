@@ -16,6 +16,8 @@
 <?php
             }
 ?>
+        <p class="note twitter">What would you like to see us write about? <a href="<?php echo twitter_share_link( 'Hi @prothemedesign, I would love to know more about' ); ?>" target="_blank">Ping us on Twitter to let us know.</a>.</p>
+
         </div>
 
 <?php
