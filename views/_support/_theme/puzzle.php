@@ -6,6 +6,7 @@
 
 <h2>Homepage Layouts</h2>
 
+<p class="note tip">Puzzle will try to find images to display as thumbnails for each post, however it's not always accurate. The best way to make sure there is a post thumbnail, and that the post thumbnail is the one you want, is to <a href="<?php echo path( 'feature/featured-image/' ); ?>">set a featured image for each blog post</a>.</p>
 <p>The available homepage layouts are listed below. Different layouts are suitable for different types of content, and allow different amounts of content to appear at a glance.</p>
 
 <p>The order can be confusing, but in general blog posts display from left to right, and then fill the next highest available position that they fit in.</p>
