@@ -44,6 +44,8 @@ function js_path( $path = '' ) {
  */
 function path( $path = '' ) {
 
+    $path = ltrim( $path, '/' );
+
     return get_base() . '/' . $path;
 
 }
@@ -70,7 +72,7 @@ function twitter_share_link( $message = '' ) {
 
     $args = array(
         'text' => urlencode( $message ),
-        'url' => '',
+        'url' => urlencode( 'https://prothemedesign.com' . Flight::request()->url ),
         'related' => 'prothemedesign',
     );
 
