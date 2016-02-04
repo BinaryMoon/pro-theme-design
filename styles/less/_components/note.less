@@ -29,6 +29,7 @@
         color:@canvas-white;
     }
 
+    &.twitter,
     &.question,
     &.tip {
         padding-left:@grid-gutter * 3;
@@ -49,6 +50,14 @@
     &.question {
         &:before {
             content:'\f128';
+        }
+    }
+
+    &.twitter {
+        &:before {
+            content:'\f099';
+            opacity:1;
+            color:@canvas-twitter;
         }
     }
 
