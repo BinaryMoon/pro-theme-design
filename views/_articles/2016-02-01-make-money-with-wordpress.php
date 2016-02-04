@@ -111,5 +111,8 @@
 
 <p>Good copywriting can make an ok looking website an amazing resource - and so there's a big market for quality writing. This is a great way for less technical people to become involved in WordPress.</p>
 
-<p>Another area of content writing services that you could try is proof reading and content editing. There's a lot of content around that makes a compelling story, but is poorly written and so finding clients who need help with this sort of thing can also make a big difference to the perception of a website.</p>
+<p>Another area of content writing services that you could try is proofreading and content editing. There's a lot of content around that makes a compelling story, but is poorly written and so finding clients who need help with this sort of thing can also make a big difference to the perception of a website.</p>
 
+<h2>Conclusion</h2>
+
+<p>This article shows some of the variety of jobs available for WordPress users. It doesn't matter how technically minded you are. If you can apply yourself to your craft - and have some patience and determination then there's no reason you can't earn money with WordPress.</p>
