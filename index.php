@@ -7,8 +7,6 @@
  * consider moving theme buy now popup to bottom of page
  * new logo
  * favicon.ico
- * social sharing images (metadata)
- * make the drawer close when the overlay is clicked
  * set up redirects
     - /themes/nominate-for-wordpress/ - 114
     - /themes/elemental/ - 57
@@ -33,6 +31,36 @@
  * custom login design
  * seo (and recommend a plugin or two)
  * separate pages listing wordpress.org and wordpress.com themes
+ *
+ *
+ * SITE ARTICLES
+ *
+ * defining WordPress implementors
+ * creating a child theme
+ * simple customisations that can drastically change how a website looks
+ * adding plugins - including so clients can’t change them
+ * customising site and admin branding
+ * uploading a new logo
+ * analytics
+ * simple css for XXX
+ * creating a style guide & brand guidelines
+ * The importance of brand guidelines when building a site for a client
+ * setting up a newsletter
+ * git and svn for implementors
+ * charging clients
+ * value based pricing
+ * additional ways to increase your income
+ * backing up a WordPress website
+ * adding dynamic forms to a WordPress site
+ * things to look for in a WordPress themes for WordPress implementors
+ * setting user roles for client websites
+ * buying web products for clients
+ * adding additional value so you can increase your fees
+ * standardising your process to increase efficiency
+ * the X types of WordPress user
+ * what is a wordpress implementors
+ * should I host a clients website?
+ * Should you use wordpress.com or wordpress.org?
  */
 
 /**
@@ -51,8 +79,8 @@ if ( 'localhost' == $_SERVER[ 'HTTP_HOST' ] ) {
 
 
 // constants
-define( 'DECACHE_CSS', '43' );
-define( 'DECACHE_JS', '14' );
+define( 'DECACHE_CSS', '44' );
+define( 'DECACHE_JS', '15' );
 define( 'ENV', $environment );
 define( 'GOOGLE_CSE', '010164663960188762731:aajo_mt5e2a' );
 
