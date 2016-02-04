@@ -29,6 +29,7 @@
         color:@canvas-white;
     }
 
+    &.question,
     &.tip {
         padding-left:@grid-gutter * 3;
 
@@ -38,9 +39,16 @@
             .modular-scale( @beta );
             font-weight:normal;
             position:absolute;
-            top:@grid-line-height;
+            top:@grid-line-height * 0.75;
             left:@grid-gutter;
             color:@canvas-white;
+            opacity:0.75;
+        }
+    }
+
+    &.question {
+        &:before {
+            content:'\f128';
         }
     }
 

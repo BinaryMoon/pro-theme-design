@@ -136,13 +136,24 @@ code {
 blockquote {
     background:@canvas-grey-70;
     .modular-scale( @epsilon );
-    font-style:italic;
     letter-spacing:0.03em;
-    padding:(@grid-line-height) (@grid-gutter);
+    padding:(@grid-line-height) (@grid-gutter) (@grid-line-height) (@grid-gutter * 3);
     margin:0 0 (@grid-line-height * @grid-line-height-multiplyer) 0;
     overflow:hidden;
     color:contrast( @canvas-grey-70 );
     border-radius:@border-radius;
+
+    &:before {
+        content:'\f10d';
+        font-family: 'FontAwesome';
+        .modular-scale( @beta );
+        font-weight:normal;
+        position:absolute;
+        top:@grid-line-height * 0.75;
+        left:@grid-gutter;
+        color:@canvas-white;
+        opacity:0.5;
+    }
 
     p {
         &:last-of-type {
