@@ -8,7 +8,9 @@
         <div class="wrapper text">
             <?php site_breadcrumbs(); ?>
             <h1><?php echo $article[ 'name' ]; ?></h1>
-            <?php     site_include_view( '_articles/' . $article[ 'path' ] . '.php' ); ?>
+            <?php site_include_view( '_articles/' . $article[ 'path' ] . '.php' ); ?>
+
+            <p class="note twitter">What do you think? Could we improve this? <a href="<?php echo twitter_share_link( 'I just read "' . $article[ 'name' ] . '" by @prothemedesign' ); ?>" target="_blank">Let us know on Twitter</a>.</p>
         </div>
 
 <?php
