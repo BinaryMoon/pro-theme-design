@@ -31,13 +31,13 @@
         <li class="wordpress-plugins">
             <a href="<?php echo path( 'wordpress-plugins/' ); ?>">Plugins</a>
         </li>
+        <li class="articles">
+            <a href="<?php echo path( 'articles/' ); ?>">Articles</a>
+        </li>
 
 <?php
         if ( 'dev' == ENV ) {
 ?>
-        <li class="articles">
-            <a href="<?php echo path( 'articles/' ); ?>">Articles</a>
-        </li>
 <?php
         }
 ?>
