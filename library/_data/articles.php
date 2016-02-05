@@ -10,12 +10,30 @@ function get_article_data() {
         'make-money-with-wordpress' => array(
             'name' => 'Ways to Make Money With WordPress',
             'date' => '2016-02-01',
-            'date-updated' => '',
+            'prefix' => '0001',
             'description' => 'A variety of suggestions on how to earn money from your favorite open source software.',
             'icon' => 'money',
         ),
 
+        'be-a-wordpress-implementer' => array(
+            'name' => 'What it takes to be a WordPress Implementer',
+            'date' => '2016-02-05',
+            'prefix' => '0002',
+            'description' => 'The differences between WordPress Implementors and WordPress Developers.',
+            'icon' => 'wrench',
+        ),
+
     );
+
+    if ( 'dev' == ENV ) {
+
+        $draft_articles = array(
+
+        );
+
+        $articles = array_merge( $articles, $draft_articles );
+
+    }
 
 
     // process them
@@ -24,7 +42,7 @@ function get_article_data() {
     foreach( $articles as $key => $article ) {
 
         $article[ 'url' ] = path( 'how-to/' . $key . '/' );
-        $article[ 'path' ] = $article[ 'date' ] . '-' . $key;
+        $article[ 'path' ] = $article[ 'prefix' ] . '-' . $key;
 
         if ( empty( $article['icon'] ) ) {
             $article['icon'] = 'file-text-o';
@@ -70,9 +88,8 @@ function article_get( $page ) {
 
     $docs = get_article_data();
 
-    if ( $docs[ $page ] ) {
+    if ( isset( $docs[ $page ] ) ) {
         return $docs[ $page ];
-        break;
     }
 
     return false;
