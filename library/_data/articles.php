@@ -11,8 +11,9 @@ function get_article_data() {
             'name' => 'Ways to Make Money With WordPress',
             'date' => '2016-02-01',
             'date-updated' => '',
+            'description' => 'A variety of suggestions on how to earn money from your favorite open source software.',
+            'icon' => 'money',
         ),
-
 
     );
 
@@ -24,6 +25,10 @@ function get_article_data() {
 
         $article[ 'url' ] = path( 'how-to/' . $key . '/' );
         $article[ 'path' ] = $article[ 'date' ] . '-' . $key;
+
+        if ( empty( $article['icon'] ) ) {
+            $article['icon'] = 'file-text-o';
+        }
 
         $processed[ $key ] = $article;
 
