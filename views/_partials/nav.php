@@ -32,7 +32,7 @@
             <a href="<?php echo path( 'wordpress-plugins/' ); ?>">Plugins</a>
         </li>
         <li class="articles">
-            <a href="<?php echo path( 'articles/' ); ?>">Articles</a>
+            <a href="<?php echo path( 'articles/' ); ?>">How To</a>
         </li>
 
 <?php
