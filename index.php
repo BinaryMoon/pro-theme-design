@@ -30,14 +30,13 @@
  * post formats
  * custom login design
  * seo (and recommend a plugin or two)
- * separate pages listing wordpress.org and wordpress.com themes
  *
  *
  * SITE ARTICLES
  *
- * defining WordPress implementors
+ * tips for earning more money as a WordPress implementer
  * creating a child theme
- * simple customisations that can drastically change how a website looks
+ * simple customisations that can drastically change how a theme looks
  * adding plugins - including so clients can’t change them
  * customising site and admin branding
  * uploading a new logo
@@ -79,7 +78,7 @@ if ( 'localhost' == $_SERVER[ 'HTTP_HOST' ] ) {
 
 
 // constants
-define( 'DECACHE_CSS', '44' );
+define( 'DECACHE_CSS', '45' );
 define( 'DECACHE_JS', '15' );
 define( 'ENV', $environment );
 define( 'GOOGLE_CSE', '010164663960188762731:aajo_mt5e2a' );
