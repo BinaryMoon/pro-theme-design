@@ -30,7 +30,7 @@
                     <img id="ava-darren" class="pos avatar" src="<?php echo image_path( 'website/ava-darren.jpg' ); ?>" alt="Darren Hoyt">
                     <h5>Darren Hoyt</h5>
                     <p class="location">Brooklyn, NY</p>
-                    <p class="bio">Established in the WordPress community for projects like <strong>Mimbo</strong> and <a href="http://www.smashingmagazine.com/2008/09/08/agregado-a-free-wordpress-theme/">Agregado</a>, Darren also has 14 years experience designing websites for businesses and startups. His role at Pro Theme is taking what Ben builds and making it beautiful and simple to use.</p>
+                    <p class="bio">Established in the WordPress community for projects like <strong>Mimbo</strong> and <strong>Agregado</strong>, Darren also has 14 years experience designing websites for businesses and startups. His role at Pro Theme is taking what Ben builds and making it beautiful and simple to use.</p>
 
                     <a href="http://www.darrenhoyt.com" target="_blank" class="link" >
                         <i class="fa fa-link"></i> Personal Site
