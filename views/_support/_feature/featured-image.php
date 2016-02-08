@@ -1,5 +1,7 @@
 <p class="intro">Featured images are the images displayed as thumbnails in various places around the theme. All Pro Theme Design themes support Featured Images.</p>
 
+<img src="<?php echo image_path( 'docs/feature-featured-image.png' ); ?>" alt="A Featured Image set in the post editor" class="align-right" />
+
 <p>To specify the featured image used you should:</p>
 
 <ol>
