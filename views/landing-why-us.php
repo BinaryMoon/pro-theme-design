@@ -72,7 +72,7 @@
 
             <h2>Supported Plugins</h2>
 
-            <p>To help make our themes simpler we support a number of plugins. This means that we can focus on the theme, and let the plugins do what they do best.</p>
+            <p>To help make our themes simpler we support a number of plugins. This means that we can focus on our themes, and let the plugins do what they do best.</p>
 
             <ul>
                 <li><strong>Styleguide</strong> - this plugin lets </li>
