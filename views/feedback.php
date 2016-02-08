@@ -1,7 +1,7 @@
 <?php
     include( '_partials/head.php' );
 ?>
-    <body class="page-search">
+    <body class="page-feedback">
 
         <?php include( '_partials/header.php' ); ?>
 
@@ -29,7 +29,7 @@
                 <input type="submit" value="Send Feedback &rarr;" class="button" />
 
                 <input type="hidden" name="_subject" value="Pro Theme Design Feedback" />
-                <input type="hidden" name="_next" value="//prothemedesign.com<?php echo path( 'feedback/thanks/' ); ?>" />
+                <input type="hidden" name="_next" value="https://prothemedesign.com<?php echo path( 'feedback/thanks/' ); ?>" />
                 <input type="text" name="_gotcha" style="display:none" />
             </form>
 
