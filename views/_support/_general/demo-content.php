@@ -11,7 +11,8 @@
     <li>Go to you WordPress site admin and make sure you have installed the <a href="https://wordpress.org/plugins/wordpress-importer/">WordPress Importer Plugin</a>.</li>
     <li>Go to Tools &rarr; Import &rarr; WordPress</li>
     <li>Select the file that you downloaded, then press 'Upload file and import'.</li>
-    <li>Follow the instructions.</li>
+    <li>Follow the instructions on screen.</li>
+    <li>The import process may take a while, but once complete you will have all of the posts, pages, and media from the demo site on your local WordPress install.</li>
 </ol>
 
 <p class="note">Please note: The demo content only covers blog posts, pages, and (if supported) testimonials and projects. It does not cover the theme settings. Please check the relevant <a href="<?php echo path( 'documentation/theme/' ); ?>">theme documentation</a> to see how to configure your theme.</p>
