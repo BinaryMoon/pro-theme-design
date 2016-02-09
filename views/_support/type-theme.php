@@ -26,6 +26,7 @@
         <li><a href="https://codex.wordpress.org/Installing_WordPress" target="_blank">Getting Started with WordPress</a></li>
         <li><a href="https://codex.wordpress.org/First_Steps_With_WordPress" target="_blank">First Steps with WordPress</a></li>
         <li><a href="<?php echo $install_url; ?>">Installing <?php echo $doc[ 'name' ]; ?></a></li>
+        <li><a href="<?php echo $doc[ 'url-demo-content' ]; ?>"><?php echo $doc['name']; ?> Demo Content</a> - <a href="<?php echo path( 'documentation/general/demo-content/' ); ?>">More about demo content</a></li>
     </ul>
 
 <?php

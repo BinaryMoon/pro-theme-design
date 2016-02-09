@@ -241,6 +241,7 @@ function get_theme_data() {
         // theme info link
         $theme[ 'url' ] = path( 'theme/' . $key . '/' );
         $theme[ 'url-details' ] = path( 'theme/' . $key . '/' );
+        $theme[ 'url-demo-content' ] = path( 'assets/demo-xml/' . $key . '.wordpress.xml' );
 
         // theme preview link
         if ( ! empty( $theme[ 'url-cm' ] ) ) {
@@ -294,6 +295,7 @@ function get_theme_data() {
                 'custom-page-templates',
                 'customizer',
                 'widget-visibility',
+                'demo-content',
             )
         );
 

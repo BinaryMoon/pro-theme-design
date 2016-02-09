@@ -31,6 +31,10 @@ function get_documentation_data() {
             'name' => 'Child Theme Installation',
             'type' => 'general',
         ),
+        'demo-content' => array(
+            'name' => 'Theme Demo Content',
+            'type' => 'general',
+        ),
         'refunds' => array(
             'name' => 'Refunds',
             'type' => 'general',
