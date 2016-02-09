@@ -61,6 +61,14 @@ p {
         }
     }
 
+    .site-description {
+        a {
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
     p {
         .modular-scale( @delta );
         margin:0;
@@ -69,12 +77,6 @@ p {
         strong {
             color:@canvas-grey-90;
             font-weight:normal;
-        }
-
-        a {
-            &:hover {
-                text-decoration: underline;
-            }
         }
     }
 
@@ -111,7 +113,7 @@ nav.main-menu {
 
         &:hover {
             color:@canvas-grey-90;
-            text-decoration:undeline;
+            text-decoration:underline;
         }
     }
 

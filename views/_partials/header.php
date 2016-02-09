@@ -12,7 +12,7 @@
                         <?php site_header_title(); ?>
                     </a>
                 </<?php echo $h; ?>>
-                <p class="animated fadeInUp"><?php site_description(); ?></p>
+                <p class="animated fadeInUp site-description"><?php site_description(); ?></p>
             </div>
         </header>
 
