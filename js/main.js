@@ -253,35 +253,26 @@
 
     // smooth scroll
 
-    var smoothScroll = function( element, to, duration ) {
 
-        if ( duration < 0 ) {
-            return;
+    var scroll_to_hash = function( e, duration ) {
+
+        var $target = $( e.hash );
+
+        if ( $target.length ) {
+            var targetOffset = $target.offset().top - parseInt( $( 'html' ).css( 'margin-top' ) );
+            $( 'html,body' ).animate( { scrollTop: targetOffset }, duration );
         }
 
-        var difference = to - $( window ).scrollTop();
-        var perTick = difference / duration * 10;
-
-        // stop if we're close enough
-        if ( Math.abs( difference ) < 1 ) {
-            return;
-        }
-
-        this.scrollToTimerCache = setTimeout( function() {
-            if ( ! isNaN( parseInt( perTick, 10 ) ) ) {
-                window.scrollTo( 0, $( window ).scrollTop() + perTick );
-                smoothScroll( element, to, duration );
-            }
-        }.bind( this ), 10 );
+        return false;
 
     };
 
+
     $( '.scroll-to' ).on( 'click', function( e ) {
 
-        e.preventDefault();
-        smoothScroll( $( window ), $( $( e.currentTarget ).attr( 'href' ) ).offset().top, 150 );
+        return scroll_to_hash( this, 750 );
 
-    } );
+    });
 
     // uncomment to test the newsletter code
     //setTimeout( show_newsletter, 2000 );
