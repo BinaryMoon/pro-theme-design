@@ -9,7 +9,7 @@
 <?php
     foreach( $themes as $theme ) {
 ?>
-    <li><a href="<?php echo $theme[ 'url-demo-content' ]; ?>" target="_blank"><?php echo $theme[ 'name' ]; ?></a> - <a href="<?php echo $theme['url']; ?>">Theme Documentation</a></li>
+    <li><a href="<?php echo $theme[ 'url-demo-content' ]; ?>" target="_blank"><?php echo $theme[ 'name' ]; ?></a> - <a href="<?php echo $theme['url-documentation']; ?>">Theme Documentation</a></li>
 <?php
     }
 ?>
