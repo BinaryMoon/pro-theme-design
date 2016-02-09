@@ -94,6 +94,7 @@ function get_theme_data() {
             'price-wporg' => 99,
             'url-wpcom' => 'lens',
             'url-cm' => '108642-Lens-Responsive-Photography-Theme',
+            'url-gr' => 'HwIP',
             'image' => 'lens.png',
             'supports' => array( 'site-logo', 'featured-content', 'featured-image', 'infinite-scroll', 'social-menu', 'testimonials', 'theme-club', ),
         ),
