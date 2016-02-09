@@ -34,6 +34,7 @@ function get_documentation_data() {
         'demo-content' => array(
             'name' => 'Theme Demo Content',
             'type' => 'general',
+            'description' => 'Demo content to help you get started with your theme.',
         ),
         'refunds' => array(
             'name' => 'Refunds',
