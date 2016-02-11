@@ -28,6 +28,10 @@ function get_redirects() {
         'plugins' => '/wordpress-plugins/',
         'how-to/why-you-should-keep-wordpress-and-your-plugins-up-to-date' => '/documentation/general/keeping-website-up-to-date/',
         'tools/circular-icons-pro' => '/tools/circular-icons/',
+        'how-to/5-ways-wordpress-can-make-you-rich' => '/how-to/make-money-with-wordpress/',
+        'support/opti-help' => '/documentation/theme/opti/',
+        'how-to/why-you-should-keep-wordpress-and-your-plugins-up-to-date' => '/documentation/general/keeping-website-up-to-date/',
+        //'' => '',
     );
 
     return $redirects;
