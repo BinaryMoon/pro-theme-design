@@ -14,7 +14,7 @@
 
 <p>Beware of selling links. If you don't list the link as 'nofollow' then you may end up being penalised by Google. This practice has been frowned upon for some time now but there are still companies trying to sell them.</p>
 
-<p>If you're in the market for a new blogging theme then our most popular are <a href="<?php echo path( 'theme/opti/' ); ?>">Opto</a>, and <a href="<?php echo path( 'theme/monet/' ); ?>">Monet</a>.</p>
+<p>If you're in the market for a new blogging theme then our most popular are <a href="<?php echo path( 'theme/opti/' ); ?>">Opti</a>, and <a href="<?php echo path( 'theme/monet/' ); ?>">Monet</a>.</p>
 
 <h2>Advertising Your Business</h2>
 
@@ -31,6 +31,8 @@
 <p>There are many web design companies and agencies that make a lot of money creating websites for people from scratch.</p>
 
 <p>There is also a growing trend towards 'implementors' people who buy ready made themes from sites like <a href="https://prothemedesign.com">Pro Theme Design</a>, or <a href="https://creativemarket.com/?u=BinaryMoon">Creative Market</a>, and then customise them for clients. This is a great starting point for less technical people who don't want to build a site from scratch but know enough html and css to tweak a site to meet a clients needs.</p>
+
+<p>Alternatively you could sign up as a freelancer on sites like <a href="http://codeable.com">Codeable</a> and they will find the work for you.</p>
 
 <h2>Site Maintenance</h2>
 
@@ -70,7 +72,7 @@
     <li><a href="http://www.mojo-code.com/">Mojo Code</a> - for plugins</li>
 </ul>
 
-<p>Alternatively you could always build and sell the themes/ plugins on your own site. In fact I would always recommend doing this since you will then be the one in control. You can set the prices and you own the customer details.</p>
+<p>Alternatively you could always build and sell the themes/ plugins on your own site. In fact I would always recommend doing this since you will then be the one in control. You can set the prices and you own the customer details. Personally I really like <a href="http://gumroad.com">Gumroad</a> for selling from my own site, however there are many similar services out there so you can find the ones you like best.</p>
 
 <p class="note tip">If I was starting now I would create themes and plugins for a specific, underserved, group of users. I would then try to make the ultimate theme for that group of users. This will make marketing much easier.</p>
 
@@ -81,14 +83,14 @@
 <p>Often less technical people can get scared when you talk about selling things online however there's loads of services out there that do all the work for you. All you have to do is create the content and then upload it to their service. Below are a few popular services that could help you get started:</p>
 
 <ul>
-    <li><a href="http://gumroad.com">Gumroad</a> - the service I use to sell themes on <a href="https://prothemedesign.com">Pro Theme Design</a></li>
+    <li><a href="http://gumroad.com">Gumroad</a> - the service I use to sell WordPress themes here on <a href="https://prothemedesign.com">Pro Theme Design</a></li>
     <li><a href="https://selz.com/">Selz</a></li>
     <li><a href="https://sellfy.com/">Sellfy</a></li>
 </ul>
 
 <p>If you want you could also use a WordPress plugin to sell your digital products however I feel that often this is more work. You will still need to set up payment providers, secure certificates, and generally have more to maintain. Of you use a third party service then all you have to do is link to your product on their server. This can work with any type of site (including those powered by wordpress.com).
 
-<p>However, if you want to go down this path and you're hosting WordPress yourself, then the following are some of the top WordPress e-commerce plugins.</p>
+<p>However, if you want to go down this path, and you're hosting WordPress yourself, then the following are some of the top WordPress e-commerce plugins.</p>
 
 <ul>
     <li><a href="https://wordpress.org/plugins/woocommerce/">WooCommerce</a></li>
@@ -99,11 +101,11 @@
 
 <p>Website flipping is the act of creating (or purchasing) a website, improving it, and then selling it on for profit.</p>
 
-<p>Creating a simple WordPress site, filling it with some content, and then flipping it - is relatively easy for an experienced WordPress developer. However if it's a basic site with no traffic you'll likely not get much back from your investment. What you need to do is build the website into a good property with decent traffic and Google rankings (and ideally income), and that's when the big money can begin.</p>
+<p>Creating a simple WordPress site, filling it with some content, and then flipping it - is relatively easy for an experienced WordPress developer. However if it's a basic site with no traffic you'll not get much back from your investment. What you need to do is build the website into a good property with decent traffic and Google rankings (and ideally income), and that's when the big money can begin.</p>
 
 <p>The most popular place for selling websites is <a href="http://flippa.com">Flippa</a>. You can find all sorts of sites on their - including some that you might consider bargains.</p>
 
-<p>The alternative is to search through Flippa and find sites you think you can bring value too - and buy them. You will then have a pre-existing site that you can enhance.</p>
+<p>The alternative is to search through Flippa and find sites you think you can bring value too - and buy them. You will then have a pre-existing site that you can enhance. Once you've built it up you can always look at flipping it on to someone else.</p>
 
 <h2>Content Writing Services</h2>
 
