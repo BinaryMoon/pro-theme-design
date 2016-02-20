@@ -28,7 +28,7 @@
 
                 <input type="submit" value="Send Feedback &rarr;" class="button" />
 
-                <input type="hidden" name="_subject" value="Pro Theme Design Feedback" />
+                <input type="hidden" name="_subject" value="Pro Theme Design Feedback - <?php echo date( 'j M y' ); ?>" />
                 <input type="hidden" name="_next" value="https://prothemedesign.com<?php echo path( 'contact/thanks/' ); ?>" />
                 <input type="text" name="_gotcha" style="display:none" />
             </form>

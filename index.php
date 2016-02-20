@@ -3,7 +3,6 @@
 /**
  * TODO
  *
- * add navigation menu to the footer to make things like tools more obvious
  * consider moving theme buy now popup to bottom of page
  * new logo
  * favicon.ico

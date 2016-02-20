@@ -35,7 +35,7 @@
 
                 <input type="submit" value="Send" class="button" />
 
-                <input type="hidden" name="_subject" value="Pro Theme Design Contact" />
+                <input type="hidden" name="_subject" value="Pro Theme Design Contact - <?php echo date( 'j M y' ); ?>" />
                 <input type="hidden" name="_next" value="//prothemedesign.com<?php echo path( 'contact/thanks/' ); ?>" />
                 <input type="text" name="_gotcha" style="display:none" />
             </form>
@@ -85,7 +85,7 @@
 
                 <input type="submit" value="Send" class="button" />
 
-                <input type="hidden" name="_subject" value="Pro Theme Design Technical Help" />
+                <input type="hidden" name="_subject" value="Pro Theme Design Technical Help - <?php echo date( 'j M y' ); ?>" />
                 <input type="hidden" name="_next" value="//prothemedesign.com<?php echo path( 'contact/thanks/' ); ?>" />
                 <input type="text" name="_gotcha" style="display:none" />
             </form>
