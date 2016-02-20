@@ -12,4 +12,4 @@
 
 <h2>Installation via FTP</h2>
 
-<p>Alternatively you can also install the theme directly to your server with a FTP client (e.g. Filezilla for Windows or Cyberduck for Mac). Just drop the un-zipped theme folder into your …/wp-content/themes/ folder. You can then head over to the WordPress Admin and see your installed theme in the Appearance → Themes admin screen. From there you can activate your theme by clicking on the Activate link.</p>
+<p>Alternatively you can also install the theme directly to your server with a FTP client (e.g. Filezilla for Windows or Cyberduck for Mac). Just drop the un-zipped theme folder into your <em>…/wp-content/themes/</em> folder. You can then head over to the WordPress Admin and see your installed theme in the Appearance → Themes admin screen. From there you can activate your theme by clicking on the Activate link.</p>
