@@ -8,19 +8,6 @@ function get_theme_data() {
 
     $themes = array(
 
-        'puzzle' => array(
-            'name' => 'Puzzle',
-            'description' => 'A visually oriented theme, great for photographers and artists who want to tell stories using their images.',
-            'short_description' => 'A responsive WordPress portfolio theme.',
-            'price-wpcom' => 79,
-            'price-wporg' => 99,
-            'url-wpcom' => 'puzzle',
-            'url-gr' => 'xdaw',
-            'url-cm' => '108641-Puzzle-Responsive-WordPress-Theme',
-            'image' => 'puzzle.png',
-            'supports' => array( 'portfolio', 'custom-front-page', 'site-logo', 'infinite-scroll', 'social-menu', 'testimonials', 'theme-club', 'raddcontrol' ),
-        ),
-
         'monet' => array(
             'name' => 'Monet',
             'description' => 'A delicate responsive portfolio theme targeted at photographers and other creatives. With crisp typography Monet is easy on the eye.',
@@ -32,6 +19,19 @@ function get_theme_data() {
             'url-gr' => 'RWkNX',
             'image' => 'monet.png',
             'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'social-menu', 'portfolio', ),
+        ),
+
+        'puzzle' => array(
+            'name' => 'Puzzle',
+            'description' => 'A visually oriented theme, great for photographers and artists who want to tell stories using their images.',
+            'short_description' => 'A responsive WordPress portfolio theme.',
+            'price-wpcom' => 79,
+            'price-wporg' => 99,
+            'url-wpcom' => 'puzzle',
+            'url-gr' => 'xdaw',
+            'url-cm' => '108641-Puzzle-Responsive-WordPress-Theme',
+            'image' => 'puzzle.png',
+            'supports' => array( 'portfolio', 'custom-front-page', 'site-logo', 'infinite-scroll', 'social-menu', 'testimonials', 'theme-club', 'raddcontrol' ),
         ),
 
         'chronicle' => array(
@@ -84,6 +84,19 @@ function get_theme_data() {
             'url-cm' => '9918-Opti-Responsive-WordPress-Theme',
             'image' => 'opti.png',
             'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'theme-club', 'raddcontrol' ),
+        ),
+
+        'mimbopro' => array(
+            'name' => 'Mimbo Pro',
+            'description' => 'A magazine theme that takes your content and formats it in a structured way grouped by category.',
+            'short_description' => 'The original premium WordPress magazine theme.',
+            'price-wpcom' => 59,
+            'price-wporg' => 79,
+            'url-wpcom' => 'mimbopro',
+            'url-cm' => '111465-Mimbo-Pro-WordPress-Theme',
+            'url-gr' => 'WDLD',
+            'image' => 'mimbopro.png',
+            'supports' => array( 'featured-image', 'theme-club', ),
         ),
 
         'lens' => array(
@@ -145,19 +158,6 @@ function get_theme_data() {
             'url-cm' => '108643-Broadsheet-Newspaper-Theme',
             'image' => 'broadsheet.png',
             'supports' => array( 'site-logo', 'featured-image', 'infinite-scroll', 'social-menu', 'testimonials', 'theme-club', 'raddcontrol' ),
-        ),
-
-        'mimbopro' => array(
-            'name' => 'Mimbo Pro',
-            'description' => 'A magazine theme that takes your content and formats it in a structured way grouped by category.',
-            'short_description' => 'The original premium WordPress magazine theme.',
-            'price-wpcom' => 59,
-            'price-wporg' => 79,
-            'url-wpcom' => 'mimbopro',
-            'url-cm' => '111465-Mimbo-Pro-WordPress-Theme',
-            'url-gr' => 'WDLD',
-            'image' => 'mimbopro.png',
-            'supports' => array( 'featured-image', 'theme-club', ),
         ),
 
         'bromley' => array(
