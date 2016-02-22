@@ -55,6 +55,20 @@
 
     <p class="note tip">We'd be happy to receive pull requests and issues.</p>
 
+    <h3>Site Search - Google Custom Search Engine</h3>
+
+    <p>Since the Pro Theme Design site doesn't use a database we can't easily integrate a database powered search - so we're using <a href="https://cse.google.com">Google Custom Search</a>. Google indexes our site anyway so making use of their search engine saves a lot of time.</p>
+
+    <p>You can see how we integrate with Google Custom Search in the following files.</p>
+
+    <ul>
+        <li><a href="https://github.com/BinaryMoon/pro-theme-design/blob/master/views/_partials/google-search.php">Search Form</a></li>
+        <li><a href="https://github.com/BinaryMoon/pro-theme-design/blob/master/views/search.php">Search Results Page</a></li>
+        <li><a href="https://github.com/BinaryMoon/pro-theme-design/blob/master/styles/less/_page/search.less">CSS styles that override default Search Results design</a></li>
+    </ul>
+
+
+
 </div>
 
 <?php
