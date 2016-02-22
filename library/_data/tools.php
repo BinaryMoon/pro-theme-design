@@ -78,7 +78,7 @@ function get_tools_data() {
             'icon' => 'book',
         ),
         'dev-kit' => array(
-            'name' => 'How Web Build Pro Theme Design',
+            'name' => 'How We Build Pro Theme Design',
             'description' => 'The tools and websites that build Pro Theme Design.',
             'tag' => 'internal',
             'icon' => 'briefcase',
