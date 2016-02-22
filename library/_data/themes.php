@@ -132,6 +132,7 @@ function get_theme_data() {
             'price-wporg' => '',
             'url-wpcom' => 'beacon',
             'url-cm' => '',
+            'url-gr' => 'wRdqt',
             'image' => 'beacon.png',
             'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'social-menu', 'raddcontrol' ),
         ),
