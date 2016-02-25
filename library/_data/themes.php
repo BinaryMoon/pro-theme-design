@@ -134,7 +134,7 @@ function get_theme_data() {
             'url-cm' => '',
             'url-gr' => 'wRdqt',
             'image' => 'beacon.png',
-            'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'social-menu', 'raddcontrol' ),
+            'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'social-menu', 'raddcontrol', 'theme-club' ),
         ),
 
         'traveler' => array(
