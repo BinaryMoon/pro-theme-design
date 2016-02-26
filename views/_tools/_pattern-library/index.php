@@ -52,7 +52,7 @@
 ?>
             <div class="pattern">
                 <h3><?php echo $name; ?>
-                    <small class="pattern-meta">
+                    <small class="meta">
                         <a href="<?php echo path( 'views/_styleguide/' . $file ); ?>" rel="nofollow"><i class="fa fa-file"></i><?php echo $file; ?></a>
                         <a href="#" class="toggle" rel="nofollow"><i class="fa fa-code"></i>Code</a>
                     </small>

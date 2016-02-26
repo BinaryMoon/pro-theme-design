@@ -9,7 +9,7 @@ function get_article_data() {
 
         'make-money-with-wordpress' => array(
             'name' => 'Ways to Make Money With WordPress',
-            'date' => '2016-02-01',
+            'date' => '01 February 2016',
             'prefix' => '0001',
             'description' => 'A variety of suggestions on how to earn money from your favorite open source software.',
             'icon' => 'money',
@@ -17,7 +17,7 @@ function get_article_data() {
 
         'be-a-wordpress-implementer' => array(
             'name' => 'What it takes to be a WordPress Implementer',
-            'date' => '2016-02-05',
+            'date' => '05 February 2016',
             'prefix' => '0002',
             'description' => 'The differences between WordPress Implementors and WordPress Developers.',
             'icon' => 'wrench',
