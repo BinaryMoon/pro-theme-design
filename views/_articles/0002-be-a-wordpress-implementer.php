@@ -6,7 +6,7 @@
 
 <p>WordPress developers are people who create WordPress products from scratch. Whether thats themes, or plugins (or both) they are happy to work in code. They are often happy working with servers, and doing other more technical things.</p>
 
-<p>Implementers, on the other hand, tend to be more client focused. They want to find quality themes and create happy customers.</p>
+<p>Implementers, on the other hand, tend to be more client focused. They want to find quality themes and create happy customers. Implementers tend to buy a themes, and then customise them to their clients liking. As such they are less technical - although some solid knowledge of CSS, HTML and PHP is very helpful.</p>
 
 <h2>Skills Needed to be a Good Implementer</h2>
 
