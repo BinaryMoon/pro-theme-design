@@ -11,11 +11,12 @@
         <li><a href="http://brackets.io/">Brackets</a> - for code editing.</li>
         <li><a href="https://www.sketchapp.com/">Sketch</a> - for UI and design things.</li>
         <li><a href="http://flyingmeat.com/acorn/">Acorn</a> - for photo editing.</li>
+        <li><a href="https://incident57.com/codekit/">Codekit</a> - for processing LESS files, and linting JS.</li>
     </ul>
 
     <h2>Web Technologies</h2>
 
-    <p>The site is built using HTML5, and CSS3, and javascript. That's all pretty standard these days though. We also use:</p>
+    <p class="intro">The site is built using HTML5, and CSS3, and javascript. That's all pretty standard these days though. We also use:</p>
 
     <h3>FlightPHP</h3>
 
@@ -23,11 +24,19 @@
 
     <h3>JQuery</h3>
 
-    <p>All web developers know about JQuery, it's a javascript library that makes things a lot easier. We've considered going framework free, or using a slimmer framework like Zepto, however the convenience and flexibility of JQuery is worth more than the effort required to switch.</p>
+    <p>All web developers know about <a href="http://jquery.com">JQuery</a>, it's a javascript library that makes things a lot easier. We've considered going framework free, or using a slimmer framework like Zepto, however the convenience and flexibility of JQuery is worth more than the effort required to switch.</p>
+
+    <h3>Font Awesome</h3>
+
+    <p><a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a> is a massive, comprehensive, icon font library. We've used them librally around the site. They are a quick and easy way to make the site look more interesting - without adding a huge overhead.</p>
+
+    <h3>Google Fonts</h3>
+
+    <p><a href="https://www.google.com/fonts">Google Fonts</a> are awesome. We use <a href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Lato">Lato</a>.</p>
 
     <h2>Third Party Services</h2>
 
-    <p>There seems to be an obsession in the WordPress world of doing everything yourself. We feel this is more often than not a poor choice. You can probably find a plugin that does everything you want, however these will often not be as good as a third party service that is constantly developed and maintained.</p>
+    <p class="intro">There seems to be an obsession in the WordPress world of doing everything yourself. We feel this is more often than not a poor choice. You can probably find a plugin that does everything you want, however these will often not be as good as a third party service that is constantly developed and maintained.</p>
 
     <h3>Contact Forms - Formspree</h3>
 
@@ -66,8 +75,6 @@
         <li><a href="https://github.com/BinaryMoon/pro-theme-design/blob/master/views/search.php">Search Results Page</a></li>
         <li><a href="https://github.com/BinaryMoon/pro-theme-design/blob/master/styles/less/_page/search.less">CSS styles that override default Search Results design</a></li>
     </ul>
-
-
 
 </div>
 
