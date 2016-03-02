@@ -9,7 +9,7 @@ function get_article_data() {
 
         'make-money-with-wordpress' => array(
             'name' => 'Ways to Make Money With WordPress',
-            'date' => '01 February 2016',
+            'date' => '1st February 2016',
             'prefix' => '0001',
             'description' => 'A variety of suggestions on how to earn money from your favorite open source software.',
             'icon' => 'money',
@@ -17,7 +17,7 @@ function get_article_data() {
 
         'be-a-wordpress-implementer' => array(
             'name' => 'What it takes to be a WordPress Implementer',
-            'date' => '05 February 2016',
+            'date' => '5th February 2016',
             'prefix' => '0002',
             'description' => 'The differences between WordPress Implementors and WordPress Developers.',
             'icon' => 'wrench',
@@ -28,6 +28,38 @@ function get_article_data() {
     if ( 'dev' == ENV ) {
 
         $draft_articles = array(
+
+        'earn-more-as-a-wordpress-freelancer' => array(
+            'name' => 'Earn more as a WordPress Freelancer',
+            'date' => '26th February 2016',
+            'prefix' => '0003',
+            'description' => 'Increase your income whilst keeping your clients happy.',
+            'icon' => 'smile-o',
+        ),
+
+        'develop-with-wordpress' => array(
+            'name' => 'Improve Your WordPress Development',
+            'date' => '26th February 2016',
+            'prefix' => '0004',
+            'description' => 'Tips and Tricks to improve how you build things with WordPress.',
+            'icon' => 'laptop',
+        ),
+
+        'make-beautiful-coherent-wordpress-designs' => array(
+            'name' => 'Make Beautiful WordPress Designs',
+            'date' => '26th February 2016',
+            'prefix' => '0005',
+            'description' => 'Tips and Tricks to improve how you build things with WordPress.',
+            'icon' => 'paint-brush',
+        ),
+
+        'well-being-for-web-developers' => array(
+            'name' => 'Stay healthy as a WordPress Developer',
+            'date' => '26th February 2016',
+            'prefix' => '0006',
+            'description' => 'Tips and Tricks to improve how you build things with WordPress.',
+            'icon' => 'heartbeat',
+        ),
 
         );
 
