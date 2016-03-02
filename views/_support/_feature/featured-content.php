@@ -1,6 +1,6 @@
 <p class="intro">A number of Pro Theme Design themes support Featured Content. This is special content, that you select, that is given a special treatment to make it stand out more. Each theme behaves differently but often the Featured Content will be used to display the content in a slider/ carousel.</p>
 
-<img src="<?php echo image_path( 'docs/feature-featured-content.png' ); ?>" alt="Featured Content in the Customizer" class="align-right" />
+<img src="<?php echo image_path( 'docs/feature-featured-content.png' ); ?>" alt="Featured Content in the WordPress Customizer" class="align-right" />
 
 <p>Featured Content often looks best when used with <?php echo documentation_link( 'featured-image' ); ?>.</p>
 
