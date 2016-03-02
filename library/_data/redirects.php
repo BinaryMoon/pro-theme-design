@@ -31,6 +31,7 @@ function get_redirects() {
         'how-to/5-ways-wordpress-can-make-you-rich' => '/how-to/make-money-with-wordpress/',
         'support/opti-help' => '/documentation/theme/opti/',
         'how-to/why-you-should-keep-wordpress-and-your-plugins-up-to-date' => '/documentation/general/keeping-website-up-to-date/',
+        //'how-to/mastering-the-psychology-of-colour-theory-in-web-design' => 'beautiful-wordpress-designs',
         //'' => '',
     );
 
