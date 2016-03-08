@@ -77,6 +77,12 @@ function get_tools_data() {
             'tag' => 'internal',
             'icon' => 'book',
         ),
+        'theme-release-checklist' => array(
+            'name' => 'Theme Release Checklist',
+            'description' => 'A ToDo list to follow before releasing a new product.',
+            'tag' => 'internal',
+            'icon' => 'check',
+        ),
         'dev-kit' => array(
             'name' => 'How We Build Pro Theme Design',
             'description' => 'The tools and websites that build Pro Theme Design.',
