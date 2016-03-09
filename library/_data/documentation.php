@@ -82,6 +82,10 @@ function get_documentation_data() {
             'name' => 'The Difference Between Posts and Pages',
             'type' => 'general',
         ),
+        'theme-previews' => array(
+            'name' => 'Theme Previews',
+            'type' => 'general',
+        ),
 
 
         // features
