@@ -48,7 +48,7 @@
 
             <h2>The Cost of Cheap Themes</h2>
 
-            <p>Developing WordPress themes is an expensive business. On average it takes us 3 months to build each theme that we sell. In addition we have to test with new WordPress releases, fix bugs, add and improve the theme features, and offer support to customers of the theme. We also ensure that all of our themes are code reviewed - which means a more reliable website for our customers.</p>
+            <p>Developing WordPress themes is an expensive business. <strong>On average it takes us 3 months to build each theme</strong>. In addition we have to test with new WordPress releases, fix bugs, add and improve the theme features, and offer support to customers of the theme. We also ensure that all of our themes are code reviewed - which means a more reliable website for our customers.</p>
 
             <p>This is why cheap themes are bad. If you buy a theme for $20 then the theme developer is unlikely to cover their expenses. So they cut corners. Support for cheap themes is generally of poor quality, themes are not tested, and code is not optimized. These things mean a poor experience for the customer.</p>
 
@@ -56,7 +56,7 @@
 
             <h2>The Benefit of Simplicity</h2>
 
-            <p>Some of the most popular WordPress themes are 'all in one' themes. Whilst they look nice on the outside, and in theme demos, they generally hide a miriad of problems. By trying to create a single theme that does everything for everyone, the theme developer generally makes a lot of complex code that is hard to maintain and hard to customise.</p>
+            <p>Some of the most popular WordPress themes are '<em>all in one</em>' themes. Whilst they look nice on the outside, and in theme demos, they generally hide a miriad of problems. By trying to create a single theme that does everything for everyone, the theme developer generally makes a lot of complex code that is hard to maintain and hard to customise.</p>
 
             <p>For the customer, this means that they will often struggle to get their website to look as nice as the theme demo.</p>
 
@@ -75,7 +75,7 @@
             <p>To help make our themes simpler we support a number of plugins. This means that we can focus on our themes, and let the plugins do what they do best.</p>
 
             <ul>
-                <li><strong>Styleguide</strong> - this plugin lets </li>
+                <li><strong>Styleguide</strong> - this plugin lets you edit fonts and colours in many of our themes.</li>
                 <li><strong>Jetpack</strong> - this plugin is made by Automattic, the team behind wordpress.com - it brings a lot of the wordpress.com functionality to self hosted sites.</li>
                 <li><strong>Front Page Category</strong> - this plugin lets you select the categories that display on the front page of your website.</li>
             </ul>
