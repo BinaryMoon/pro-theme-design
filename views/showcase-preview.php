@@ -17,7 +17,7 @@
         </header>
 
         <div class="iframe-wrapper">
-            <iframe src="<?php echo $site_data['url-iframe']; ?>" sandbox></iframe>
+            <iframe src="<?php echo $site_data['url-iframe']; ?>"></iframe>
         </div>
 
         <?php site_script(); ?>
