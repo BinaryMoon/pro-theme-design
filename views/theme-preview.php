@@ -23,7 +23,7 @@
         </header>
 
         <div class="iframe-wrapper">
-            <iframe src="<?php echo $iframe_url; ?>" sandbox></iframe>
+            <iframe src="<?php echo $iframe_url; ?>"></iframe>
         </div>
 
 <?php
