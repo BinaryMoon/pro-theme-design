@@ -22,3 +22,45 @@
         }
     }
 }
+
+.page-tools-ascii-entity-conversion {
+
+    .demo {
+        display:block;
+    }
+
+    p.entities {
+        .modular-scale( @delta, (@grid-line-height * 2) );
+
+        a {
+            color:@canvas-white;
+            margin-right:0.5em;
+
+            &:hover {
+                text-decoration:none;
+                color:@canvas-grey-40;
+            }
+        }
+    }
+
+    .entity-calculator {
+        margin-bottom: 0;
+        position:relative;
+
+        input {
+            width:100%;
+            margin:0;
+        }
+
+        button {
+            position:absolute;
+            bottom:@grid-line-height / 3;
+            right:@grid-gutter / 3;
+        }
+    }
+
+    #js-value {
+        margin:0;
+    }
+
+}

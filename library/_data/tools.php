@@ -21,17 +21,11 @@ function get_tools_data() {
             'tag' => 'external',
             'icon' => 'info-circle',
         ),
-        'developer-resources' => array(
-            'name' => 'Developer Resources',
-            'description' => 'Handy Resources for designers and developers.',
+        'ascii-entity-conversion' => array(
+            'name' => 'Entity Conversion',
+            'description' => 'Convert an ascii character into a CSS/ JS suitable code.',
             'tag' => 'external',
-            'icon' => 'wrench',
-        ),
-        'free-stock-photos' => array(
-            'name' => 'Free Stock Photos',
-            'description' => 'Stock photography for your projects.',
-            'tag' => 'external',
-            'icon' => 'camera',
+            'icon' => 'eyedropper',
         ),
         'color-picker' => array(
             'name' => 'Color Picker',
@@ -39,11 +33,23 @@ function get_tools_data() {
             'tag' => 'external',
             'icon' => 'eyedropper',
         ),
+        'free-stock-photos' => array(
+            'name' => 'Free Stock Photos',
+            'description' => 'Stock photography for your projects.',
+            'tag' => 'external',
+            'icon' => 'camera',
+        ),
         'free-stock-videos' => array(
             'name' => 'Free Stock Videos',
             'description' => 'Stock videos for your projects.',
             'tag' => 'external',
             'icon' => 'video-camera',
+        ),
+        'developer-resources' => array(
+            'name' => 'Developer Resources',
+            'description' => 'Handy Resources for designers and developers.',
+            'tag' => 'external',
+            'icon' => 'wrench',
         ),
         'circular-icons' => array(
             'name' => 'Circular Icons',
