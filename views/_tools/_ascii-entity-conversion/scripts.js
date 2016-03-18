@@ -22,7 +22,11 @@
 
             return false;
 
-        } ).click();
+        } );
+
+        var entity_links = $( 'p.entities a' );
+        var random = Math.floor( Math.random() * entity_links.length );
+        $( 'p.entities a' ).eq( random ).click();
 
     } );
 
@@ -39,8 +43,6 @@
             hexValue = "0" + hexValue;
         }
 
-        console.log( letter );
-
         var result_numeric = '&amp;#' + letter.toString();
         var result_css = '\\'  + hexValue.toUpperCase();
         var result_js = '\\u' + hexValue.toUpperCase();
@@ -54,7 +56,5 @@
         $( '#js-value .demo code' ).html( 'alert("The code ' + result_js + ' renders as HTML entity \u0026#' + letter + ';");' );
 
     }
-
-
 
 } )( jQuery );

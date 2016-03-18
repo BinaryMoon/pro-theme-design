@@ -23,9 +23,9 @@ function get_tools_data() {
         ),
         'ascii-entity-conversion' => array(
             'name' => 'Entity Conversion',
-            'description' => 'Convert an ascii character into a CSS/ JS suitable code.',
+            'description' => 'Convert an ascii character into a code suitable for CSS, JS and HTML.',
             'tag' => 'external',
-            'icon' => 'eyedropper',
+            'icon' => 'calculator',
         ),
         'color-picker' => array(
             'name' => 'Color Picker',

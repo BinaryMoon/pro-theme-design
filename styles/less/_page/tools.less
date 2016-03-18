@@ -1,4 +1,5 @@
 .page-tools-color-picker {
+
     .color-container {
         padding:@grid-line-height 0;
         border-radius:@border-radius;
@@ -21,6 +22,7 @@
             text-align:center;
         }
     }
+
 }
 
 .page-tools-ascii-entity-conversion {
@@ -34,7 +36,10 @@
 
         a {
             color:@canvas-white;
-            margin-right:0.5em;
+            margin-right:0.1em;
+            background:@canvas-grey-80;
+            padding:0 (@grid-gutter / 2);
+            border-radius:@border-radius;
 
             &:hover {
                 text-decoration:none;
@@ -59,8 +64,8 @@
         }
     }
 
-    #js-value {
-        margin:0;
+    .note {
+        margin-bottom: @grid-line-height / 4;
     }
 
 }

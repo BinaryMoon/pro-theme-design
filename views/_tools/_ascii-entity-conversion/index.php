@@ -11,18 +11,20 @@
         <form class="entity-calculator">
             <label>
                 <span>Paste a character to convert here:</span>
-                <input type="text" id="reverse" size="2" maxlength="1" value="&" />
+                <input type="text" id="reverse" maxlength="1" />
             </label>
             <button class="button" type="button" id="convert">Convert</button>
         </form>
+
         <p class="entities">
-            <a href="#" data-entity="&">&amp;</a>
-            <a href="#" data-entity="©">&copy;</a>
-            <a href="#" data-entity="←">&larr;</a>
-            <a href="#" data-entity="→">&rarr;</a>
-            <a href="#" data-entity="‹">&lsaquo;</a>
-            <a href="#" data-entity="›">&rsaquo;</a>
-            <a href="#" data-entity="•">&bull;</a>
+            <a href="#" data-entity="&#38">&amp;</a>
+            <a href="#" data-entity="&#169">&copy;</a>
+            <a href="#" data-entity="&#174">&reg;</a>
+            <a href="#" data-entity="&#8592">&larr;</a>
+            <a href="#" data-entity="&#8594">&rarr;</a>
+            <a href="#" data-entity="&#8249">&lsaquo;</a>
+            <a href="#" data-entity="&#8250">&rsaquo;</a>
+            <a href="#" data-entity="&#8226">&bull;</a>
         </p>
 
         <p class="note" id="numeric">
