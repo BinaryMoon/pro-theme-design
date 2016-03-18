@@ -1,5 +1,5 @@
 <?php
-    site_script( path( 'views/_tools/_ascii-entity-conversion/scripts.js' ) );
+    site_script( path( 'views/_tools/_ascii-entity-conversion/scripts.min.js' ) );
 ?>
 <div class="wrapper text">
     <?php site_breadcrumbs(); ?>
