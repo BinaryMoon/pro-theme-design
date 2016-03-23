@@ -8,6 +8,19 @@ function get_theme_data() {
 
     $themes = array(
 
+        'passenger' => array(
+            'name' => 'Passenger',
+            'description' => 'Passenger is a theme designed for travel journals, and scrapbooking sites. With its unique post formats and clean typography, Passenger is great for telling stories.',
+            'short_description' => 'A travel journal and scrapbooking theme.',
+            'price-wpcom' => 79,
+            'price-wporg' => 99,
+            'url-wpcom' => 'passenger',
+            //'url-cm' => '312560-Monet-WordPress-Portfolio-Theme',
+            'url-gr' => 'noCNI',
+            'image' => 'passenger.png',
+            'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'portfolio', 'post-formats', 'testimonials', 'portfolio' ),
+        ),
+
         'monet' => array(
             'name' => 'Monet',
             'description' => 'A delicate responsive portfolio theme targeted at photographers and other creatives. With crisp typography Monet is easy on the eye.',
