@@ -15,6 +15,12 @@ function get_tools_data() {
         ),
 
         // external tools
+        'how-much-to-charge' => array(
+            'name' => 'WordPress Pricing Calculator',
+            'description' => 'Calculate how much to charge for a WordPress job.',
+            'tag' => 'external',
+            'icon' => 'money',
+        ),
         'support-details' => array(
             'name' => 'Support Details',
             'description' => 'Information to help debugging website problems.',
