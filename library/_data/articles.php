@@ -61,6 +61,14 @@ function get_article_data() {
             'icon' => 'heartbeat',
         ),
 
+        'choose-a-target-audience' => array(
+            'name' => 'Choosing a Target Audience',
+            'date' => '26th February 2016',
+            'prefix' => '0008',
+            'description' => 'Tips and Tricks to improve how you build things with WordPress.',
+            'icon' => 'users',
+        ),
+
         );
 
         $articles = array_merge( $articles, $draft_articles );
