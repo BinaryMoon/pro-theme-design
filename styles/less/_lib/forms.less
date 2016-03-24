@@ -10,10 +10,12 @@ input[type=password],
 input[type=email],
 input[type=url],
 input[type=search],
+input[type=number],
 input.text,
 textarea,
-select,
+.form-select,
 input.settings-input {
+
     padding:(@grid-line-height / 2) (@grid-gutter / 2);
     border: 1px solid @border-grey;
     .box-shadow( inset 0 1px 2px rgba(0,0,0,0.05) );
@@ -33,17 +35,15 @@ input.settings-input {
 
     &.long-text {
         width:500px;
-        max-width:100%;
+    }
+
+    &.short-text {
+        width: 100px;
     }
 
     &.squashy {
         margin-bottom:0;
     }
-}
-
-select {
-    height:(@grid-line-height * 2);
-    margin-bottom:(@grid-line-height * @grid-line-height-multiplyer);
 }
 
 textarea {
@@ -59,10 +59,72 @@ textarea {
 input {
     margin-bottom:@grid-line-height;
 
-    &.radio {
+    &[type=radio] {
         margin-right:@menu-link-padding;
     }
 }
+
+.radio-group {
+
+    margin-bottom: @grid-line-height * @grid-line-height-multiplyer;
+
+    label {
+        display:inline-block;
+        background:rgba(0,0,0,0.3);
+        padding: (@grid-line-height / 2) (@grid-gutter / 2);
+        border-radius:@border-radius;
+        .transition;
+
+        &:hover,
+        &.checked {
+            background:@canvas-green;
+            color:@canvas-white;
+        }
+    }
+
+    input[type="radio"] {
+        display: none;
+    }
+
+}
+
+
+// generic styles for select boxes
+.form-select {
+
+    padding: 0;
+    position: relative;
+    display: inline-block;
+
+    select {
+
+        display: block;
+        padding: ( @grid-line-height / 2 ) ( @grid-gutter / 2 );
+        background: transparent;
+        border: 0;
+        width: 100%;
+        line-height: inherit;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        margin:0;
+
+    }
+
+    &:after {
+
+        .arrow;
+        width: 0;
+        position: absolute;
+        top: 42%;
+        right: @grid-gutter / 3;
+        border-top-color: @canvas-grey-90;
+        border-bottom-width: 0;
+
+    }
+
+}
+
 
 textarea.error,
 input.error {
@@ -72,13 +134,14 @@ input.error {
 
 label {
     display:block;
-    text-transform:uppercase;
     .modular-scale( @zeta );
     letter-spacing:0.05em;
 
     span {
         display:block;
         margin-bottom:@grid-line-height / 2;
+        text-transform:uppercase;
+        letter-spacing:0.05em;
 
         &.question {
             .modular-scale( @delta );
@@ -97,6 +160,20 @@ label {
 
     &:hover {
         cursor:pointer;
+    }
+
+    p.hint {
+        margin-top: -1 * @grid-line-height;
+        text-transform: none;
+        opacity:0.5;
+        .transition;
+    }
+
+    &:hover {
+
+        p.hint {
+            opacity:1;
+        }
     }
 }
 
