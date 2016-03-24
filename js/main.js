@@ -285,6 +285,43 @@
 
     } );
 
+
+    // radio buttons
+
+    $( '.radio-group input' ).on( 'change', function() {
+
+        var $this = $( this );
+        var $parent = $this.parent( 'label' );
+        var $wrapper = $parent.parent( '.radio-group' );
+
+        console.log( $parent );
+
+        // remove checked class
+        $wrapper.find( '.checked' ).removeClass( 'checked' );
+        $parent.addClass( 'checked' );
+
+    } );
+
+
+    // wrap select boxes so they can be styled nicely
+
+    $( 'select' ).each( function() {
+
+        var $this = $( this );
+        var size = $this.data( 'size' );
+        var css_class = 'form-select';
+
+        if ( size ) {
+            css_class = css_class + ' ' + size + '-text';
+        }
+
+        $this.wrap( '<div class="' + css_class + '"></div>' );
+
+    } );
+
+
+
+
     return;
 
 
@@ -308,6 +345,7 @@
         hide_menu();
 
     } );
+
 
 
 })();
