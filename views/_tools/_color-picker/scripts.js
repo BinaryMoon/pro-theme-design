@@ -18,6 +18,7 @@
             //colorwheel.public_set_color( $( 'input.color' ).val() );
 
         } );
+
     } );
 
 } )( jQuery );

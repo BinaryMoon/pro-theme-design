@@ -294,8 +294,6 @@
         var $parent = $this.parent( 'label' );
         var $wrapper = $parent.parent( '.radio-group' );
 
-        console.log( $parent );
-
         // remove checked class
         $wrapper.find( '.checked' ).removeClass( 'checked' );
         $parent.addClass( 'checked' );
