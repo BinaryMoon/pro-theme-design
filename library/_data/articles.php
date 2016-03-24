@@ -23,19 +23,19 @@ function get_article_data() {
             'icon' => 'wrench',
         ),
 
+        'earn-more-as-a-wordpress-freelancer' => array(
+            'name' => 'Earn more as a WordPress Freelancer',
+            'date' => '24th March 2016',
+            'prefix' => '0003',
+            'description' => 'Increase your income whilst keeping your clients happy.',
+            'icon' => 'smile-o',
+        ),
+
     );
 
     if ( 'dev' == ENV ) {
 
         $draft_articles = array(
-
-        'earn-more-as-a-wordpress-freelancer' => array(
-            'name' => 'Earn more as a WordPress Freelancer',
-            'date' => '26th February 2016',
-            'prefix' => '0003',
-            'description' => 'Increase your income whilst keeping your clients happy.',
-            'icon' => 'smile-o',
-        ),
 
         'develop-with-wordpress' => array(
             'name' => 'Improve Your WordPress Development',
