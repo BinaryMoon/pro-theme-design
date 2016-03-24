@@ -13,6 +13,13 @@
             <p class="note twitter">What do you think? Could we improve this? <a href="<?php echo twitter_share_link( 'I just read "' . $article[ 'name' ] . '" by @prothemedesign' ); ?>" target="_blank">Let us know on Twitter</a>.</p>
 
             <p class="meta">First published on: <time><?php echo $article['date']; ?></time></p>
+
+            <hr />
+
+            <h1>More Articles</h1>
+<?php
+        include( '_partials/article-listing.php' );
+?>
         </div>
 
 <?php

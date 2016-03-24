@@ -254,7 +254,7 @@ Flight::route( '/articles/(@page_number)/', function( $page_number = 0 ) {
     Flight::render(
         'articles.php',
         array(
-            'articles' => get_article_data()
+            'articles' => get_article_data(),
         )
     );
 
@@ -292,6 +292,7 @@ Flight::route( '/how-to/(@page)/', function( $page = '' ) {
         'article.php',
         array(
             'article' => $article,
+            'articles' => get_article_data(),
         )
     );
 
