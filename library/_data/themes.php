@@ -258,7 +258,7 @@ function get_theme_data() {
         $theme[ 'url-demo-content' ] = path( 'assets/demo-xml/' . $key . '.wordpress.xml' );
 
         // theme preview link
-        if ( ! empty( $theme[ 'url-cm' ] ) ) {
+        if ( ! empty( $theme[ 'url-gr' ] ) ) {
             $theme[ 'url-preview' ] = path( 'theme-preview/' . $key . '/' );
         } else {
             $theme[ 'url-preview' ] = '';
