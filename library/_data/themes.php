@@ -256,6 +256,7 @@ function get_theme_data() {
         $theme[ 'url' ] = path( 'theme/' . $key . '/' );
         $theme[ 'url-details' ] = path( 'theme/' . $key . '/' );
         $theme[ 'url-demo-content' ] = path( 'assets/demo-xml/' . $key . '.wordpress.xml' );
+        $theme[ 'url-demo-widgets' ] = path( 'assets/demo-widgets/' . $key . '.json' );
 
         // theme preview link
         if ( ! empty( $theme[ 'url-gr' ] ) ) {
