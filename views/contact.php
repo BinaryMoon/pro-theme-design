@@ -79,6 +79,12 @@
                 </label>
 
                 <label>
+                    <span>Your Website</span>
+                    <input type="text" name="name" value="http://" required />
+                </label>
+
+
+                <label>
                     <span>Message (please be as detailed as possible)</span>
                     <textarea name="message" rows="6" required ></textarea>
                 </label>
