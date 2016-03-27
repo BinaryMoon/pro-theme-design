@@ -28,8 +28,6 @@
  * web hosting with aff links?
  * post formats
  * custom login design
- * seo (and recommend a plugin or two)
- *
  *
  * SITE ARTICLES
  *
@@ -77,7 +75,7 @@ if ( 'localhost' == $_SERVER[ 'HTTP_HOST' ] ) {
 
 
 // constants
-define( 'DECACHE_CSS', '53' );
+define( 'DECACHE_CSS', '54' );
 define( 'DECACHE_JS', '17' );
 define( 'ENV', $environment );
 define( 'GOOGLE_CSE', '010164663960188762731:aajo_mt5e2a' );
