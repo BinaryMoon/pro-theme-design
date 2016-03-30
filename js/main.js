@@ -15,6 +15,9 @@
 
         show_overlay();
         $( '.search-modal' ).addClass( 'display' );
+        setTimeout( function() {
+            $( '.searchform .text' ).focus();
+        }, 50);
 
     };
 
@@ -253,7 +256,6 @@
 
     // smooth scroll
 
-
     var scroll_to_hash = function( e, duration ) {
 
         var $target = $( e.hash );
@@ -270,9 +272,12 @@
 
     $( '.scroll-to' ).on( 'click', function( e ) {
 
+        e.preventDefault();
+
         return scroll_to_hash( this, 750 );
 
     });
+
 
     // uncomment to test the newsletter code
     //setTimeout( show_newsletter, 2000 );
