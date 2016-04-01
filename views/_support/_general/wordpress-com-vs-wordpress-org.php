@@ -10,6 +10,13 @@
 
 <p>WordPress.com is updated regularly with new functionality and bug fixes.</p>
 
+<p>If you want to use a premium theme for wordpress.com then you have two options:</p>
+
+<ol>
+    <li>You can use a free account, and buy a theme for a one off payment.</li>
+    <li>You can use a business account (which has a yearly fee) and then get access to any of the premium themes, and switch themes whenever you like.</li>
+</ol>
+
 <h2>WordPress.org - self hosted</h2>
 
 <p>WordPress.org installs require web hosting and a domain name to be purchased.</p>
