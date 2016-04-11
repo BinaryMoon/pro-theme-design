@@ -9,8 +9,8 @@
 <p>If you've purchased the theme and it does not support your language then there's two things you could do.</p>
 
 <ol>
-    <li>Use translate.wordpress.com to translate the theme.</li>
-    <li>Use Poedit to translate the theme.</li>
+    <li>Use translate.wordpress.com to translate the theme. This is ideal for wordpress.com</li>
+    <li>Use Poedit to translate the theme. The quickest solution for a self hosted site.</li>
 </ol>
 
 <h2>Use translate.wordpress.com to translate the theme</h2>
@@ -53,4 +53,4 @@
 
 <h2>Filename Conventions</h2>
 
-<p>This can be a little confusing so I will explain it to the best of my ability. The idea is that the file is saved using the 2 letter language code followed by the 2 letter country code, separated by an underscore (_). For example I speak English and I am from the UK so I would use the file name en_UK. The default WordPress language is US English – or en_US. Many countries, such as Germany, speak their own language, so the German language file would be saved as de_DE.</p>
+<p>This can be a little confusing so I will explain it to the best of my ability. The idea is that the file is saved using the 2 letter language code followed by the 2 letter country code, separated by an underscore (_). For example I speak English and I am from Great Britain so I would use the file name en_GB. The default WordPress language is US English – or en_US. Many countries, such as Germany, speak their own language, so the German language file would be saved as de_DE.</p>
