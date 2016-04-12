@@ -17,10 +17,10 @@
                     <p class="bio">Ben is a full stack developer - doing both design and development - often turning Darrens crazy ideas into real products, but not averse to designing his own themes and writing the occassional plugin. Plus he blogs about WordPress and technology at <a href="https://www.binarymoon.co.uk/">Binary Moon</a>.</p>
 
                     <a href="https://www.binarymoon.co.uk" target="_blank" class="link">
-                        <i class="fa fa-link"></i> Personal Site
+                        <i class="fa fa-link" aria-hidden="true"></i> Personal Site
                     </a>
                     <a href="https://twitter.com/binarymoon" target="_blank" class="link">
-                        <i class="fa fa-twitter"></i> Follow Me on Twitter
+                        <i class="fa fa-twitter" aria-hidden="true"></i> Follow Me on Twitter
                     </a>
 
                 </div>
@@ -33,10 +33,10 @@
                     <p class="bio">Established in the WordPress community for projects like <strong>Mimbo</strong> and <strong>Agregado</strong>, Darren also has 14 years experience designing websites for businesses and startups. His role at Pro Theme is taking what Ben builds and making it beautiful and simple to use.</p>
 
                     <a href="http://www.darrenhoyt.com" target="_blank" class="link" >
-                        <i class="fa fa-link"></i> Personal Site
+                        <i class="fa fa-link" aria-hidden="true"></i> Personal Site
                     </a>
                     <a href="http://www.twitter.com/darrenhoyt" target="_blank" class="link" >
-                        <i class="fa fa-twitter"></i> Follow Me on Twitter
+                        <i class="fa fa-twitter" aria-hidden="true"></i> Follow Me on Twitter
                     </a>
 
                 </div>
@@ -50,19 +50,19 @@
                 <?php include( 'newsletter.php' ); ?>
 
                 <p>
-                    <i class="fa fa-question-circle"></i> <a href="<?php echo path( 'why-us/' ); ?>">Why Pro theme Design?</a> <span class="sep">|</span>
-                    <i class="fa fa-sitemap"></i> <a href="<?php echo path( 'sitemap/' ); ?>">Sitemap</a> <span class="sep">|</span>
-                    <!-- <i class="fa fa-wordpress"></i> <a href="https://theme.wordpress.com/themes/by/pro-theme-design/"> WordPress.com</a> <span class="sep">|</span> -->
-                    <i class="fa fa-envelope"></i> <a href="<?php echo path( 'contact/' ); ?>">Contact</a> <span class="sep">|</span>
-                    <i class="fa fa-check"></i> <a href="<?php echo path( 'policies/' ); ?>">Policies</a>
+                    <i class="fa fa-question-circle" aria-hidden="true"></i> <a href="<?php echo path( 'why-us/' ); ?>">Why Pro theme Design?</a> <span class="sep">|</span>
+                    <i class="fa fa-sitemap" aria-hidden="true"></i> <a href="<?php echo path( 'sitemap/' ); ?>">Sitemap</a> <span class="sep">|</span>
+                    <!-- <i class="fa fa-wordpress" aria-hidden="true"></i> <a href="https://theme.wordpress.com/themes/by/pro-theme-design/"> WordPress.com</a> <span class="sep">|</span> -->
+                    <i class="fa fa-envelope" aria-hidden="true"></i> <a href="<?php echo path( 'contact/' ); ?>">Contact</a> <span class="sep">|</span>
+                    <i class="fa fa-check" aria-hidden="true"></i> <a href="<?php echo path( 'policies/' ); ?>">Policies</a>
                 </p>
 
                 <p>&copy; 2007 - <?php echo date( 'Y' ); ?> Pro Theme Design, All Rights Reserved</p>
 
-                <p><i class="fa fa-server"></i> <a href="https://www.digitalocean.com/?refcode=d4442740ec05" target="_blank">Web hosting by Digital Ocean</a></p>
+                <p><i class="fa fa-server" aria-hidden="true"></i> <a href="https://www.digitalocean.com/?refcode=d4442740ec05" target="_blank">Web hosting by Digital Ocean</a></p>
                 <p>
                     <a href="#masthead" class="scroll-to scroll-to-top">
-                        <i class="fa fa-arrow-up"></i>
+                        <i class="fa fa-arrow-up" aria-hidden="true"></i>
                         <span class="screen-reader-text">Scroll to Top</span>
                     </a>
                 </p>
@@ -73,7 +73,7 @@
         <div class="modal-wrapper newsletter-modal">
             <div class="modal">
                 <a href="#" class="close-button" rel="nofollow">
-                    <i class="fa fa-times"></i>
+                    <i class="fa fa-times" aria-hidden="true"></i>
                     <span class="screen-reader-text">Close Newsletter Popup</span>
                 </a>
                 <?php include( 'newsletter.php' ); ?>
@@ -85,7 +85,7 @@
         <div class="modal-wrapper search-modal">
             <div class="modal">
                 <a href="#" class="close-button" rel="nofollow">
-                    <i class="fa fa-times"></i>
+                    <i class="fa fa-times" aria-hidden="true"></i>
                     <span class="screen-reader-text">Close Search Form</span>
                 </a>
                 <h2>Search Pro Theme Design...</h2>

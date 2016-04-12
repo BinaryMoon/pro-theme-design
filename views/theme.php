@@ -27,13 +27,13 @@
 <?php
     if ( ! empty( $theme[ 'url-wporg' ] ) ) {
 ?>
-                        <a href="#" class="button positive get-theme greedy event" data-event="getTheme"><i class="fa fa-download"></i>Get <?php echo $theme['name']; ?> Now!</a>
+                        <a href="#" class="button positive get-theme greedy event" data-event="getTheme"><i class="fa fa-download" aria-hidden="true"></i>Get <?php echo $theme['name']; ?> Now!</a>
 <?php
     }
 
     if ( ! empty( $theme[ 'url-preview' ] ) ) {
 ?>
-                        <a href="<?php echo $theme[ 'url-preview' ]; ?>" class="button ghost greedy"><i class="fa fa-eye"></i>Preview <?php echo $theme['name']; ?></a>
+                        <a href="<?php echo $theme[ 'url-preview' ]; ?>" class="button ghost greedy"><i class="fa fa-eye" aria-hidden="true"></i>Preview <?php echo $theme['name']; ?></a>
 <?php
     }
 ?>
@@ -61,7 +61,7 @@
             <header class="block-header">
                 <h2>
                     Examples of <?php echo $theme[ 'name' ]; ?> in Use
-                    <small><a href="<?php echo $theme[ 'url-showcase' ]; ?>">View More <i class="fa fa-arrow-right"></i></a></small>
+                    <small><a href="<?php echo $theme[ 'url-showcase' ]; ?>">View More <i class="fa fa-arrow-right" aria-hidden="true"></i></a></small>
                 </h2>
             </header>
 
@@ -89,7 +89,7 @@
             <header class="block-header">
                 <h2>
                     <?php echo $theme[ 'name' ]; ?> Features
-                    <small><a href="<?php echo $theme[ 'url-documentation' ]; ?>">View Docs for complete list <i class="fa fa-arrow-right"></i></a></small>
+                    <small><a href="<?php echo $theme[ 'url-documentation' ]; ?>">View Docs for complete list <i class="fa fa-arrow-right" aria-hidden="true"></i></a></small>
                 </h2>
             </header>
 <?php

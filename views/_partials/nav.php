@@ -6,7 +6,7 @@
     <ul>
         <li>
             <a href="#search" class="search-toggle">
-                <i class="fa fa-search"></i>
+                <i class="fa fa-search" aria-hidden="true"></i>
                 <span class="screen-reader-text">Search Pro Theme Design</span>
             </a>
         </li>
@@ -52,13 +52,13 @@
 
         <li>
             <a class="twitter" href="https://www.twitter.com/prothemedesign">
-                <i class="fa fa-twitter"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
                 <span class="screen-reader-text">Follow us on Twitter</span>
             </a>
         </li>
         <li>
             <a class="facebook" href="https://www.facebook.com/prothemedesign">
-                <i class="fa fa-facebook"></i>
+                <i class="fa fa-facebook" aria-hidden="true"></i>
                 <span class="screen-reader-text">Follow us on Facebook</span>
             </a>
         </li>

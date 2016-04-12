@@ -101,29 +101,29 @@
         <div class="quiz-bracket-beginner quiz-bracket">beginner</div>
 
         <a href="" class="quiz-share-twitter quiz-share button">
-            <i class="fa fa-twitter"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
             <span>Share on Twitter</span>
         </a>
         <a href="" class="quiz-share-facebook quiz-share button">
-            <i class="fa fa-facebook"></i>
+            <i class="fa fa-facebook" aria-hidden="true"></i>
             <span>Share on Facebook</span>
         </a>
         <a href="" class="quiz-share-google quiz-share button">
-            <i class="fa fa-google-plus"></i>
+            <i class="fa fa-google-plus" aria-hidden="true"></i>
             <span>Share on Google+</span>
         </a>
     </div>
 
     <div class="quiz-controls">
         <div class="quiz-controls-wrapper">
-            <a class="quiz-button-prev button ghost" href="#"><i class="fa fa-arrow-left"></i>Previous</a>
+            <a class="quiz-button-prev button ghost" href="#"><i class="fa fa-arrow-left" aria-hidden="true"></i>Previous</a>
 
             <div class="quiz-progress">
                 <div></div>
             </div>
 
-            <a class="quiz-button-next button" href="#">Next <i class="fa fa-arrow-right"></i></a>
-            <a class="quiz-button-finish button" href="#">Finish <i class="fa fa-arrow-right"></i></a>
+            <a class="quiz-button-next button" href="#">Next <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            <a class="quiz-button-finish button" href="#">Finish <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
         </div>
     </div>
 

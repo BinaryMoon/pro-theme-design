@@ -14,7 +14,7 @@
                     <h2>Pro Theme Design News Monthly</h2>
                     <input name="seller_id" type="hidden" value="3110495029003">
                     <input name="email" placeholder="Your email address" type="email" class="email" required>
-                    <button type="submit" class="button positive">Follow <i class="fa fa-arrow-right end"></i></button>
+                    <button type="submit" class="button positive">Follow <i class="fa fa-arrow-right end" aria-hidden="true"></i></button>
                 </form>
             </section>
 -->

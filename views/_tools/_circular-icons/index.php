@@ -20,7 +20,7 @@
         <li><strong>Sketch Pack ($20)</strong>, includes icons as png, svg, and the sketch files - so you can edit them and add new icons that fit the same style.</li>
     </ul>
     <p><a href="<?php echo $download_url; ?>"><img src="<?php echo image_path( 'website/circular-icons-pro.png' ); ?>" alt="Circular Icons Pro Demo" /></a></p>
-    <p><a href="<?php echo $download_url; ?>" class="button fat greedy positive"><i class="fa fa-download"></i>Download Circular Icons Pro</a></p>
+    <p><a href="<?php echo $download_url; ?>" class="button fat greedy positive"><i class="fa fa-download" aria-hidden="true"></i>Download Circular Icons Pro</a></p>
     <p class="note">Released under the GPL.</p>
 </div>
 

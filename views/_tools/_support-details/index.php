@@ -56,11 +56,11 @@
 <?php
         if ( isset( $data['description'] ) ) {
 ?>
-            <a href="#help-<?php echo $key; ?>" class="tip"><i class="fa fa-question-circle"></i></a>
+            <a href="#help-<?php echo $key; ?>" class="tip"><i class="fa fa-question-circle" aria-hidden="true"></i></a>
 <?php
         }
 ?>
-            <i class="fa fa-<?php echo $data['icon']; ?> icon"></i>
+            <i class="fa fa-<?php echo $data['icon']; ?> icon" aria-hidden="true"></i>
             <h3><?php echo $data['name']; ?></h3>
             <p><?php echo $data['value']; ?></p>
         </div>

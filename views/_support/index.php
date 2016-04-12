@@ -9,10 +9,10 @@
     </div>
 
     <div class="column">
-        <h2><a href="<?php echo path( 'documentation/feature/' ); ?>">Features <small>View All <i class="fa fa-arrow-right"></i></small></a></h2>
+        <h2><a href="<?php echo path( 'documentation/feature/' ); ?>">Features <small>View All <i class="fa fa-arrow-right" aria-hidden="true"></i></small></a></h2>
         <?php documentation_list( 'feature' ); ?>
 
-        <h2><a href="<?php echo path( 'documentation/general/' ); ?>">General <small>View All <i class="fa fa-arrow-right"></i></small></a></h2>
+        <h2><a href="<?php echo path( 'documentation/general/' ); ?>">General <small>View All <i class="fa fa-arrow-right" aria-hidden="true"></i></small></a></h2>
         <?php documentation_list( 'general' ); ?>
 
         <h2><a href="<?php echo path( 'documentation/plugin/' ); ?>">Plugins</a></h2>

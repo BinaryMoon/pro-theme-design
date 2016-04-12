@@ -29,33 +29,33 @@
                 </tr>
                 <tr>
                     <td class="feature">All Themes</td>
-                    <td><i class="fa fa-check"></i></td>
-                    <td><i class="fa fa-check"></i></td>
+                    <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                    <td><i class="fa fa-check" aria-hidden="true"></i></td>
                 </tr>
                 <tr>
                     <td class="feature">Theme Updates</td>
-                    <td><i class="fa fa-check"></i></td>
-                    <td><i class="fa fa-check"></i></td>
+                    <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                    <td><i class="fa fa-check" aria-hidden="true"></i></td>
                 </tr>
                 <tr>
                     <td class="feature">Theme Additions</td>
-                    <td><i class="fa fa-check"></i></td>
-                    <td><i class="fa fa-check"></i></td>
+                    <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                    <td><i class="fa fa-check" aria-hidden="true"></i></td>
                 </tr>
                 <tr>
                     <td class="feature">Unlimited Website Usage</td>
-                    <td><i class="fa fa-check"></i></td>
-                    <td><i class="fa fa-check"></i></td>
+                    <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                    <td><i class="fa fa-check" aria-hidden="true"></i></td>
                 </tr>
                 <tr>
                     <td class="feature">Premium Technical Support</td>
-                    <td><i class="fa fa-check"></i></td>
-                    <td><i class="fa fa-check"></i></td>
+                    <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                    <td><i class="fa fa-check" aria-hidden="true"></i></td>
                 </tr>
                 <tr>
                     <td class="feature">No Subscription Fees</td>
-                    <td><i class="fa fa-times"></i></td>
-                    <td><i class="fa fa-check"></i></td>
+                    <td><i class="fa fa-times" aria-hidden="true"></i></td>
+                    <td><i class="fa fa-check" aria-hidden="true"></i></td>
                 </tr>
                 <tr>
                     <td class="feature">Cost</td>
@@ -64,9 +64,9 @@
                 </tr>
                 <tr>
                     <td></td>
-                    <td><a class="gr-button fat button positive greedy" href="https://gumroad.com/l/ffEp"><i class="fa fa-shopping-cart"></i>Join</a></td>
+                    <td><a class="gr-button fat button positive greedy" href="https://gumroad.com/l/ffEp"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Join</a></td>
                     <!-- https://creativemarket.com/BinaryMoon/316584-All-WordPress-Themes-Bundle?u=BinaryMoon -->
-                    <td><a class="cm-button fat button positive greedy" href="https://gumroad.com/l/fJfVp"><i class="fa fa-shopping-cart"></i>Get the Bundle</a></td>
+                    <td><a class="cm-button fat button positive greedy" href="https://gumroad.com/l/fJfVp"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Get the Bundle</a></td>
                 </tr>
             </table>
 

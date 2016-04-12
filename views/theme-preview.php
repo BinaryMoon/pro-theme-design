@@ -9,16 +9,16 @@
 <?php
     if ( ! empty( $theme[ 'url-wpcom' ] ) || ! empty( $theme[ 'url-wporg' ] ) ) {
 ?>
-            <a href="#" class="button positive get-theme"><i class="fa fa-download"></i>Get Now!</a>
+            <a href="#" class="button positive get-theme"><i class="fa fa-download" aria-hidden="true"></i>Get Now!</a>
 <?php
     }
 ?>
-            <a href="<?php echo $theme[ 'url' ]; ?>" class="button"><i class="fa fa-info-circle"></i>Theme Details</a>
-            <a href="<?php echo $iframe_url; ?>" class="close-frame"><i class="fa fa-times"></i></a>
+            <a href="<?php echo $theme[ 'url' ]; ?>" class="button"><i class="fa fa-info-circle" aria-hidden="true"></i>Theme Details</a>
+            <a href="<?php echo $iframe_url; ?>" class="close-frame"><i class="fa fa-times" aria-hidden="true"></i></a>
             <div class="preview-size">
-                <a href="/" class="selected" data-size="100%"><i class="fa fa-desktop"></i></a>
-                <a href="/" data-size="768px"><i class="fa fa-tablet"></i></a>
-                <a href="/" data-size="375"><i class="fa fa-mobile"></i></a>
+                <a href="/" class="selected" data-size="100%"><i class="fa fa-desktop" aria-hidden="true"></i></a>
+                <a href="/" data-size="768px"><i class="fa fa-tablet" aria-hidden="true"></i></a>
+                <a href="/" data-size="375"><i class="fa fa-mobile" aria-hidden="true"></i></a>
             </div>
         </header>
 
