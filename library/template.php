@@ -205,6 +205,9 @@ function site_meta( $key = '', $value = null ) {
 }
 
 
+/**
+ * Check if Gumroad is enabled and if it is then add the Gumroad script
+ */
 function site_enable_gumroad() {
 
     if ( ! DISABLE_GUMROAD ) {
@@ -217,7 +220,7 @@ function site_enable_gumroad() {
 // Set Defaults
 
 // default site description
-site_description( 'Partnering with <a href="http://theme.wordpress.com/themes/by/pro-theme-design/" target="_blank">WordPress.com</a> to build themes for thousands of creative bloggers.' );
+site_description( 'Designing <strong>Professional WordPress Themes</strong> since 2007.' );
 
 // default site title
 site_title( 'Pro Theme Design - WordPress Themes and Plugins' );

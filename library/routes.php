@@ -73,7 +73,7 @@ Flight::route( '/theme-club/', function() {
     $customers = number_format( $customers );
 
     site_title( 'WordPress Themes Club' );
-    site_description( 'Join over <strong>' . $customers . '</strong> happy themers.' );
+    site_description( 'Join over <strong>' . $customers . '</strong> happy WordPress themers.' );
 
     site_enable_gumroad();
 
