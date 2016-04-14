@@ -5,8 +5,9 @@
  */
 Flight::route( '/', function() {
 
-    site_description( 'Designing <strong>Professional WordPress Themes</strong> since 2007.' );
     site_title( 'Pro Theme Design - Professional WordPress Themes' );
+    //site_description( 'Designing <strong>Professional WordPress Themes</strong> since 2007.' );
+    site_description( 'Join over <strong>' . paid_customers() . '</strong> happy WordPress themers.' );
 
     Flight::render(
         'home.php'
@@ -68,12 +69,8 @@ Flight::route( '/tools/(@tool)/', function( $tool = '' ) {
  */
 Flight::route( '/theme-club/', function() {
 
-    // this number isn't strictly accurate - but it's pretty close
-    $customers = date( 'U' ) / 12345;
-    $customers = number_format( $customers );
-
     site_title( 'WordPress Themes Club' );
-    site_description( 'Join over <strong>' . $customers . '</strong> happy WordPress themers.' );
+    site_description( 'Join over <strong>' . paid_customers() . '</strong> happy WordPress themers.' );
 
     site_enable_gumroad();
 
