@@ -31,7 +31,6 @@
  *
  * SITE ARTICLES
  *
- * tips for earning more money as a WordPress implementer
  * creating a child theme
  * simple customisations that can drastically change how a theme looks
  * adding plugins - including so clients can’t change them
@@ -75,8 +74,8 @@ if ( 'localhost' == $_SERVER[ 'HTTP_HOST' ] ) {
 
 
 // constants
-define( 'DECACHE_CSS', '55' );
-define( 'DECACHE_JS', '18' );
+define( 'DECACHE_CSS', '56' );
+define( 'DECACHE_JS', '19' );
 define( 'ENV', $environment );
 define( 'GOOGLE_CSE', '010164663960188762731:aajo_mt5e2a' );
 
