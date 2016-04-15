@@ -45,6 +45,10 @@ function get_documentation_data() {
             'name' => 'Affiliates',
             'type' => 'general',
         ),
+        'translating-your-website-content' => array(
+            'name' => 'Translating Your Website Content',
+            'type' => 'general',
+        ),
         'localization' => array(
             'name' => 'Localization',
             'type' => 'general',

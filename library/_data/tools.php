@@ -39,6 +39,12 @@ function get_tools_data() {
             'tag' => 'external',
             'icon' => 'eyedropper',
         ),
+        'translation-page-generator' => array(
+            'name' => 'Translation Page Generator',
+            'description' => 'Generate the HTML needed to translate your website.',
+            'tag' => 'external',
+            'icon' => 'globe',
+        ),
         'free-stock-photos' => array(
             'name' => 'Free Stock Photos',
             'description' => 'Stock photography for your projects.',
