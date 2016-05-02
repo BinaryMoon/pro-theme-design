@@ -259,7 +259,7 @@ function get_theme_data() {
         $theme[ 'url-demo-widgets' ] = path( 'assets/demo-widgets/' . $key . '.json' );
 
         // theme preview link
-        if ( ! empty( $theme[ 'url-gr' ] ) ) {
+        if ( ! empty( $theme[ 'url-gr' ] ) || ! empty( $theme[ 'url-cm' ] ) ) {
             $theme[ 'url-preview' ] = path( 'theme-preview/' . $key . '/' );
         } else {
             $theme[ 'url-preview' ] = '';
