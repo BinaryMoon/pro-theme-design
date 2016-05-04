@@ -44,7 +44,7 @@ function get_theme_data() {
             'url-gr' => 'xdaw',
             'url-cm' => '108641-Puzzle-Responsive-WordPress-Theme',
             'image' => 'puzzle.png',
-            'supports' => array( 'portfolio', 'custom-front-page', 'site-logo', 'infinite-scroll', 'social-menu', 'testimonials', 'theme-club', 'raddcontrol' ),
+            'supports' => array( 'portfolio', 'site-logo', 'infinite-scroll', 'social-menu', 'testimonials', 'theme-club', 'raddcontrol' ),
         ),
 
         'chronicle' => array(
@@ -71,7 +71,7 @@ function get_theme_data() {
             'url-gr' => 'dWZHu',
             'url-cm' => '348846-Exhibit-WordPress-Portfolio-Theme',
             'image' => 'exhibit.png',
-            'supports' => array( 'custom-front-page', 'site-logo', 'infinite-scroll', 'social-menu', 'testimonials', 'portfolio', 'raddcontrol' ),
+            'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'testimonials', 'portfolio', 'raddcontrol' ),
         ),
 
         'romero' => array(
@@ -299,6 +299,7 @@ function get_theme_data() {
         $theme[ 'supports' ] = array_merge(
             $theme[ 'supports' ],
             array(
+                'custom-front-page',
                 'custom-colours-fonts',
                 'image-resizing',
                 'custom-css',
