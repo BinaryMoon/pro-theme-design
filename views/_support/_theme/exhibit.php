@@ -1,8 +1,6 @@
 <h2>Theme Demo</h2>
 
-<p>The Exhibit theme demo uses a Custom Front Page to display the projects and testimonials on the homepage.</p>
-
-<p>To duplicate this you should:</p>
+<p>The Exhibit theme demo uses a Custom Front Page to display the projects and testimonials on the homepage. To duplicate this you should:</p>
 
 <ol>
     <li>Create a new page and assign the projects template to it (using a <a href="<?php echo path( 'documentation/feature/custom-page-templates/' ); ?>">Custom Page Templates</a>).</li>
