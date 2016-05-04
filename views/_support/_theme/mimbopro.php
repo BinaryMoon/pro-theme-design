@@ -33,3 +33,14 @@
 <p>Mimbo Pro has 5 optional sidebars. They will only display if they contain widgets.</p>
 
 <p>The bottom sidebar is on all pages. Sidebar left and Sidebar Right will appear on the homepage and archive pages. Single Post Left and Single Post Right will appear on blog posts and pages - apart from those using the Full Width template.</p>
+
+<h2>Custom Templates</h2>
+
+<p>Mimbo Pro has 4 <a href="<?php echo path( 'documentation/feature/custom-page-templates/' ); ?>">Custom Page Templates</a>. These can be used as different layouts for your websites pages, or as a <a href="<?php echo path( 'documentation/feature/custom-front-page/' ); ?>">Custom Front Page</a>.</p>
+
+<ul>
+    <li><strong>Full Width</strong> - this lets you display your page content full width, with no sidebar.</li>
+    <li><strong>Archives</strong> - this template displays a list based archive of the content on your site.</li>
+    <li><strong>Sitemap</strong> - this page displays a list of all the posts, pages, and archives from the site.</li>
+    <li><strong>Image Gallery</strong> - this page displays a simple gallery of all the images you have published on your site.</li>
+</ul>
