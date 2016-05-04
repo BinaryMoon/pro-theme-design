@@ -7,11 +7,12 @@
         $install_url = path( 'documentation/general/child-theme-installation/' );
     }
 ?>
+
     <h1><?php echo $doc[ 'name' ]; ?> Documentation</h1>
 
     <div class="note intro breath">
         <p><?php echo $doc[ 'description' ]; ?></p>
-        <p><a href="<?php echo $doc[ 'url' ]; ?>" class="button">More Info <i class="fa fa-arrow-right" aria-hidden="true"></i></a></p>
+        <p><a href="<?php echo $doc[ 'url-details' ]; ?>" class="button">More Info <i class="fa fa-arrow-right" aria-hidden="true"></i></a></p>
     </div>
 <?php
     if ( ! site_include_exists( '_support/_theme/' . $page . '.php' ) ) {
