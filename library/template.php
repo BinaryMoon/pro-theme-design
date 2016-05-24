@@ -53,9 +53,9 @@ function site_meta_image( $new_image = '' ) {
 
         if ( $image ) {
 ?>
-    <meta itemprop="image" content="<?php echo $image; ?>">
-    <meta property="og:image" content="<?php echo $image; ?>">
-    <meta name="twitter:image:src" content="<?php echo $image; ?>">
+    <meta itemprop="image" content="https://prothemedesign.com<?php echo $image; ?>">
+    <meta property="og:image" content="https://prothemedesign.com<?php echo $image; ?>">
+    <meta name="twitter:image:src" content="https://prothemedesign.com<?php echo $image; ?>">
 <?php
         }
     }
