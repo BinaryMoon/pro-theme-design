@@ -56,7 +56,7 @@
 <?php
         if ( isset( $data['description'] ) ) {
 ?>
-            <a href="#help-<?php echo $key; ?>" class="tip"><i class="fa fa-question-circle" aria-hidden="true"></i></a>
+            <a href="#help-<?php echo $key; ?>" class="tip scroll-to"><i class="fa fa-question-circle" aria-hidden="true"></i></a>
 <?php
         }
 ?>
