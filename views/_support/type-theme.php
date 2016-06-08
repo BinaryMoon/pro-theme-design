@@ -30,6 +30,8 @@
         <li><a href="<?php echo $doc[ 'url-demo-content' ]; ?>"><?php echo $doc['name']; ?> Demo Content</a> - <a href="<?php echo path( 'documentation/general/demo-content/' ); ?>">More about demo content</a></li>
     </ul>
 
+    <p class="note tip"><a href="https://wordpress.com/themes/<?php echo $page; ?>/support/">Documentation for wordpress.com is available here.</a></p>
+
 <?php
     site_include_view( '_support/_theme/' . $page . '.php' );
 
