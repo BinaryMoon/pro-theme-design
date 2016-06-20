@@ -32,94 +32,116 @@ function get_website_data() {
             'url' => 'http://absurdisan.com/',
             'name' => 'Absudisan',
             'theme' => 'romero',
-            'tags' => array( 'romero', 'featured' ),
+            'tags' => array( 'featured' ),
         ),
+
+
+        'ahoboawake' => array(
+            'url' => 'https://ahoboawake.com/',
+            'name' => 'Ahoboawake',
+            'theme' => 'broadsheet',
+            'tags' => array( 'featured' ),
+        ),
+        'latteluxury' => array(
+            'url' => 'https://latteluxurynews.com/',
+            'name' => 'Latte Lixiry News',
+            'theme' => 'broadsheet',
+        ),
+        'tanboy' => array(
+            'url' => 'https://prialterno.wordpress.com/',
+            'name' => 'Tan Boy',
+            'theme' => 'broadsheet',
+            'tags' => array( 'featured' ),
+        ),
+        'lockelandspringsteen' => array(
+            'url' => 'https://lockelandspringsteen.com/',
+            'name' => 'Lokeland Springsteen',
+            'theme' => 'broadsheet',
+        ),
+        'ahoboawake' => array(
+            'url' => 'https://ahoboawake.com/',
+            'name' => 'Ahoboawake',
+            'theme' => 'broadsheet',
+        ),
+
+
+
+
         'aosugo' => array(
             'url' => 'http://aosugo.com/',
             'name' => 'Ausogo',
             'theme' => 'romero',
-            'tags' => array( 'romero' ),
         ),
         'mostvaluablepodcasts' => array(
             'url' => 'http://mostvaluablepodcasts.com/',
             'name' => 'Most Valuable Podcasts',
             'theme' => 'romero',
-            'tags' => array( 'romero' ),
         ),
         'shortblacktechie' => array(
             'url' => 'http://shortblacktechie.com/',
             'name' => 'Short Black Techie',
             'theme' => 'romero',
-            'tags' => array( 'romero', 'featured' ),
+            'tags' => array( 'featured' ),
         ),
         'drummajorsociety' => array(
             'url' => 'http://drummajorsociety.org/',
             'name' => 'Drum Major Society',
             'theme' => 'romero',
-            'tags' => array( 'romero' ),
         ),
         'wethemeeple' => array(
             'url' => 'http://blog.wethemeeple.co/',
             'name' => 'We The Meeple',
             'theme' => 'romero',
-            'tags' => array( 'romero' ),
         ),
         'theneocom' => array(
             'url' => 'http://theneocom.com/',
             'name' => 'The Neocom',
             'theme' => 'romero',
-            'tags' => array( 'romero' ),
         ),
         'psvitaaddict' => array(
             'url' => 'http://psvitaaddict.com/',
             'name' => 'PS Vita Addict',
             'theme' => 'romero',
-            'tags' => array( 'romero' ),
         ),
         'industrialminds' => array(
             'url' => 'http://industrial-minds.net/',
             'name' => 'Industrial Minds',
             'theme' => 'romero',
-            'tags' => array( 'romero', 'featured' ),
+            'tags' => array( 'featured' ),
         ),
         'filmexposure' => array(
             'url' => 'http://filmexposure.ch/',
             'name' => 'Film Exposure',
             'theme' => 'romero',
-            'tags' => array( 'romero' ),
         ),
         'bestgameever' => array(
             'url' => 'http://bestgameever.co.uk/',
             'name' => 'Best Game Ever',
             'theme' => 'romero',
-            'tags' => array( 'romero' ),
         ),
         'ninauthority' => array(
             'url' => 'http://ninauthority.com/',
             'name' => 'Nintendo Authority',
             'theme' => 'romero',
-            'tags' => array( 'romero' ),
         ),
 
         'barry-corner' => array(
             'url' => 'http://barrycomersblog.com',
             'name' => 'Barry Corner',
             'theme' => 'monet',
-            'tags' => array( 'monet', 'featured' ),
+            'tags' => array( 'featured' ),
             'image' => 'barrycorner',
         ),
         'vuurig' => array(
             'url' => 'http://sonjavanvuure.com',
             'name' => 'Vuurig',
             'theme' => 'monet',
-            'tags' => array( 'monet' ),
             'image' => 'vuurig',
         ),
         'legos-and-friends' => array(
             'url' => 'http://legosandfriends.com',
             'name' => 'Legos and Friends',
             'theme' => 'romero',
-            'tags' => array( 'romero' ),
         ),
         'mgarciadigital' => array(
             'url' => 'https://mgarciadigital.wordpress.com/',
@@ -133,7 +155,6 @@ function get_website_data() {
             'name' => 'Clear Sight',
             'image' => 'bjdeming',
             'theme' => 'opti',
-            'tags' => array( 'opti' ),
         ),
         'press-the-button' => array(
             'url' => 'http://pressthepsbutton.com',
@@ -141,37 +162,29 @@ function get_website_data() {
             'theme' => 'chronicle',
             'tags' => array( 'chronicle' ),
         ),
-        'black-sunday-magazine' => array(
-            'url' => 'http://blacksundaymagazine.net',
-            'name' => 'Black Sunday Magazine',
-            'theme' => 'broadsheet',
-            'tags' => array( 'broadsheet' ),
-        ),
         'hanley-strength' => array(
             'url' => 'http://hanleystrength.com',
             'name' => 'Hanley Strength',
             'theme' => 'romero',
-            'tags' => array( 'romero', 'featured' ),
+            'tags' => array( 'featured' ),
         ),
         'should-i-go-see-it' => array(
             'url' => 'http://shouldigoseeit.com',
             'name' => 'Should I Go See It',
             'image' => 'shouldigoseeit',
             'theme' => 'puzzle',
-            'tags' => array( 'puzzle' ),
         ),
         'noise-nation' => array(
             'url' => 'https://noisenation.wordpress.com',
             'name' => 'Noise Nation',
             'image' => 'noisenation',
             'theme' => 'opti',
-            'tags' => array( 'opti' ),
         ),
         'the-fourth-crown' => array(
             'url' => 'http://thefourthcrown.com',
             'name' => 'The Fourth Crown',
             'theme' => 'broadsheet',
-            'tags' => array( 'broadsheet', 'featured' ),
+            'tags' => array( 'featured' ),
         ),
         'torrent-this' => array(
             'url' => 'http://torrentthis.tv',
