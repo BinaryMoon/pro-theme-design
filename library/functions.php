@@ -166,10 +166,22 @@ function site_include_exists( $path ) {
  */
 function page_is_home() {
 
-    return ( '/' ===  Flight::request()->url );
+    return page_is( '/' );
 
 }
 
+
+/**
+ * Determine if we are on the specified page.
+ *
+ * @param  string  $page The url of the page we want to check.
+ * @return boolean true if the url is the one specified in page. False otherwise.
+ */
+function page_is( $page ) {
+
+    return ( $page === Flight::request()->url );
+
+}
 
 /**
  * Calculate how many customers we have served
