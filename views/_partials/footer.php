@@ -59,7 +59,6 @@
 
                 <p>&copy; 2007 - <?php echo date( 'Y' ); ?> Pro Theme Design, All Rights Reserved</p>
 
-                <p><i class="fa fa-server" aria-hidden="true"></i> <a href="https://www.digitalocean.com/?refcode=d4442740ec05" target="_blank">Web hosting by Digital Ocean</a></p>
                 <p>
                     <a href="#masthead" class="scroll-to scroll-to-top">
                         <i class="fa fa-arrow-up" aria-hidden="true"></i>
