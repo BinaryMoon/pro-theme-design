@@ -115,7 +115,9 @@
     site_include_view( '_partials/theme-purchase-buttons.php', array( 'theme' => $theme ) );
 
     if ( themes_supports( $theme, 'theme-club' ) ) {
+
         site_include_view( '_partials/theme-club.php' );
+
     }
 
     include( '_partials/buy-now.php' );
