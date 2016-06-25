@@ -10,7 +10,6 @@
     }
 
     .co-form .co-form__label {
-        color: #d3d7dd;
         font-size: inherit;
     }
 
@@ -33,6 +32,9 @@
     .co-form .co-form__select,
     .co-form .co-form__textarea {
         font-size: inherit;
+        margin-bottom: 0;
+        background: #fff;
+        border: 1px solid #b7bec6;
     }
 
 </style>
