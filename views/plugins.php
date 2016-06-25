@@ -8,6 +8,12 @@
 
         <?php include( '_partials/header.php' ); ?>
 
+        <!--
+        <div class="tabs">
+            <a href="<?php echo path( 'themes/wordpress.org/' ); ?>" class="active">Our Plugins</a><a href="<?php echo path( 'themes/wordpress.com/' ); ?>">Supported Plugins</a><a href="<?php echo path( 'themes/wordpress.com/' ); ?>">Recommended Plugins</a>
+        </div>
+-->
+
 <?php
 
     $class = 'big';
@@ -22,11 +28,13 @@
 
 ?>
         <div class="block <?php echo $class; ?> wrapper">
+
             <header>
                 <a href="<?php echo $plugin[ 'url' ]; ?>" target="_blank">
                     <img src="<?php echo $plugin[ 'image' ]; ?>" alt="<?php echo $plugin['name']; ?> Cover Image" />
                 </a>
             </header>
+
             <section>
                 <div class="content">
                     <h3><?php echo $plugin[ 'name' ]; ?></h3>
