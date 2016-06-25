@@ -31,6 +31,14 @@ function get_article_data() {
             'icon' => 'smile-o',
         ),
 
+        'make-beautiful-cohesive-wordpress-designs' => array(
+            'name' => 'Make Beautiful WordPress Designs',
+            'date' => '26th February 2016',
+            'prefix' => '0005',
+            'description' => 'Tips and Tricks to improve how you design WordPress things.',
+            'icon' => 'paint-brush',
+        ),
+
     );
 
     if ( 'dev' == ENV ) {
@@ -43,14 +51,6 @@ function get_article_data() {
             'prefix' => '0004',
             'description' => 'Tips and Tricks to improve how you build things with WordPress.',
             'icon' => 'laptop',
-        ),
-
-        'make-beautiful-coherent-wordpress-designs' => array(
-            'name' => 'Make Beautiful WordPress Designs',
-            'date' => '26th February 2016',
-            'prefix' => '0005',
-            'description' => 'Tips and Tricks to improve how you build things with WordPress.',
-            'icon' => 'paint-brush',
         ),
 
         'well-being-for-web-developers' => array(
