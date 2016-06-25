@@ -1,11 +1,12 @@
 body {
-    background:url( ../../img/website/waves.png ) @canvas-dark fixed;
+    background: @canvas-background-color;
     .modular-scale( @zeta );
+    letter-spacing:0.05em;
     opacity:1;
 }
 
 a {
-    color:lighten( @canvas-blue, 15% );
+    color:@canvas-color;
     text-decoration:none;
 
     &:hover {
@@ -13,15 +14,14 @@ a {
     }
 }
 
-p {
-    letter-spacing:0.05em;
-}
-
 .masthead {
     background:url( ../../img/website/bg_top.png ) @canvas-light fixed;
+    background:@canvas-white;
     text-align:center;
     color:@canvas-grey-50;
     margin-bottom:@grid-line-height * 4;
+    border-bottom:0.1em solid @canvas-grey-30;
+
 
     button {
         display:none;
@@ -35,10 +35,6 @@ p {
             content:'\f0c9';
             margin-right:0.2em;
         }
-    }
-
-    .masthead-tabs & {
-        margin-bottom:0;
     }
 
     .wrapper {
@@ -79,23 +75,7 @@ p {
             font-weight:normal;
         }
     }
-/**
-    .page-home & {
 
-        .wrapper {
-            padding:(@grid-line-height * 5) (@grid-line-height);
-        }
-
-        .site-title {
-            .modular-scale( @giga );
-        }
-
-        p {
-            .modular-scale( @gamma );
-        }
-
-    }
-*/
 }
 
 .theme-wrapper {
@@ -103,7 +83,6 @@ p {
 }
 
 nav.main-menu {
-    border-bottom:0.1em solid @canvas-grey-30;
 
     a {
         color:@canvas-grey-60;
@@ -152,12 +131,8 @@ nav.main-menu {
 }
 
 #footer {
-    background:rgba(0,0,0,0.3);
-    padding:(@grid-line-height * 2) 0;
-
-    h1, h2, h3, h4, h5, h6 {
-        color:@canvas-white;
-    }
+    background: @block-background;
+    padding:(@grid-line-height * 3) 0;
 
     .wrapper {
         margin-bottom:0;
@@ -170,8 +145,8 @@ nav.main-menu {
     }
 
     .map {
-        background: url( ../../img/website/map.png ) no-repeat center -50px;
-        height:650px;
+        background: url( ../../img/website/map-2.png ) no-repeat center -50px;
+        height:670px;
         position:relative;
     }
 
@@ -184,7 +159,7 @@ nav.main-menu {
         border-radius:100px;
         width:75px;
         height:75px;
-        border:6px solid @canvas-grey-80;
+        border:6px solid @canvas-background-color;
         position:absolute;
         left:-90px;
     }
@@ -239,7 +214,6 @@ nav.main-menu {
 
     .fa {
         margin-right:0.5em;
-        color:@canvas-white;
     }
 
     .origin {
@@ -266,7 +240,6 @@ nav.main-menu {
 
     h2 {
         .modular-scale( @gamma );
-        color:@canvas-white;
         margin:0;
     }
 

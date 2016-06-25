@@ -5,7 +5,7 @@
         overflow:hidden;
 
         a {
-            background:rgba(0,0,0,0.3);
+            background:@block-background;
             border-radius: @border-radius;
             display:block;
             padding:(@grid-line-height / 2) (@grid-gutter / 2);
@@ -14,7 +14,8 @@
 
             .fa {
                 float:right;
-                color:@canvas-white;
+                color:@canvas-color;
+                opacity: 0.5;
             }
         }
 

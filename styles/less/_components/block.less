@@ -1,4 +1,5 @@
 .block-wrapper {
+
     .flex-display();
     .flex-flow( row wrap );
     width:100%;
@@ -16,7 +17,7 @@
             small {
                 float:right;
                 text-transform:uppercase;
-                letter-spacing:0.05em;
+                letter-spacing:0.1em;
                 .modular-scale( @epsilon, inherit );
             }
         }
@@ -26,6 +27,7 @@
 }
 
 .block {
+
     width:33.3%;
     padding:0 (@grid-gutter) (@grid-line-height * 3) (@grid-gutter);
     .flex-display();
@@ -43,7 +45,8 @@
     }
 
     .content {
-        background:rgba(0,0,0,0.3);
+
+        //background: @block-background;
         padding:(@grid-line-height) (@grid-gutter);
         border-radius:@border-radius;
         text-align:center;
@@ -55,16 +58,20 @@
         }
 
         h1, h2, h3, h4, h5, h6 {
-            color:@canvas-white;
+
             margin-bottom:@grid-line-height / 2;
             .modular-scale( @delta );
+
             a {
-                color:@canvas-white;
+                color: @heading-color;
             }
+
         }
 
         h1 {
+
             .modular-scale( @beta );
+
         }
 
         .button {
@@ -74,19 +81,21 @@
 
         .icon {
             .modular-scale( @mega );
-            color:@canvas-white;
+            color:@heading-color;
             margin-bottom:(@grid-line-height / 2);
         }
 
         &.sticky-footer {
+
             padding-bottom:(@grid-line-height * 3);
 
             footer {
-                position:absolute;
-                bottom:@grid-line-height;
-                left:0;
-                right:0;
+                position: absolute;
+                bottom: @grid-line-height;
+                left: 0;
+                right: 0;
             }
+
         }
 
         *:last-child {
@@ -97,10 +106,13 @@
     footer {
         padding: @grid-line-height 0 0 0;
     }
+
     .meta {
+
         h3 {
             margin-bottom:0;
         }
+
     }
 
     .image {
@@ -109,6 +121,7 @@
 
     .number {
         background:@canvas-green;
+        color:contrast( @canvas-green );
         width:@grid-line-height * 2;
         line-height:@grid-line-height * 2;
         border-radius:100%;
@@ -178,14 +191,14 @@
 
     &.invert {
         .content {
-            background:@canvas-grey-30;
-            color:@canvas-grey-100;
+            background:@canvas-grey-90;
+            color:@canvas-grey-1;
         }
 
         .tip,
         .icon,
         h1, h2, h3, h4, h5, h6 {
-            color:@canvas-grey-100;
+            color:@canvas-grey-1;
         }
 
     }

@@ -162,13 +162,13 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
     margin-bottom:@grid-line-height * @grid-line-height-multiplyer;
-    border:1px solid @canvas-dark;
+    border:1px solid @canvas-light;
     width:100%;
 
     th,
     caption {
-        background:@canvas-dark;
-        color:contrast( @canvas-dark );
+        background:@canvas-light;
+        color:contrast( @canvas-light );
         text-transform:uppercase;
         letter-spacing:0.1em;
         padding:(@grid-line-height / 2) 0;
@@ -178,10 +178,9 @@ table {
         padding:5px 10px;
     }
     tr:nth-child(odd) {
-        background:@canvas-grey-70;
+        background:@block-background;
     }
     tr:nth-child(even) {
-        background:@canvas-grey-80;
     }
 }
 

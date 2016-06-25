@@ -3,14 +3,14 @@
     margin-bottom:@grid-line-height * 4;
     .modular-scale( @zeta );
     text-transform:uppercase;
-    letter-spacing:0.05em;
+    letter-spacing:0.1em;
 
     a {
-        color:@canvas-white;
         padding:(@grid-line-height / 2) (@grid-gutter);
+        color: @heading-color;
 
         &.selected {
-            background:rgba(0,0,0,0.3);
+            background:@block-background;
             border-radius:@border-radius;
         }
     }

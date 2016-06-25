@@ -1,14 +1,15 @@
 .tabs {
     text-align:center;
-    background:url( ../../img/website/bg_top.png ) @canvas-light fixed;
     margin-bottom:@grid-line-height * 4;
 
     a {
         display:inline-block;
-        padding:(@grid-line-height / 2) (@grid-gutter * 1.5);
+        padding:(@grid-line-height / 2) (@grid-gutter * 2);
         .modular-scale( @epsilon );
-        color:@canvas-grey-60;
-        border-radius:@border-radius @border-radius 0 0;
+        color:contrast( @canvas-grey-60 );
+        border: 1px solid @canvas-grey-60;
+        border-right-width: 0;
+        background: @canvas-grey-60;
 
         small {
             display:block;
@@ -16,17 +17,31 @@
         }
 
         &.active {
-            color:@canvas-white;
-            background:url( ../../img/website/waves.png ) @canvas-dark fixed;
+            color:@heading-color;
+            background: transparent;
 
             &:hover {
-                color:@canvas-white;
+                color: @heading-color ;
             }
         }
 
         &:hover {
-            color:@canvas-grey-90;
+            color:contrast( @canvas-grey-60 );
         }
+
+        &:first-child {
+
+            border-radius:@border-radius 0 0 @border-radius;
+
+        }
+
+        &:last-child {
+
+            border-radius: 0 @border-radius @border-radius 0;
+            border-right-width: 1px;
+
+        }
+
     }
 
 }

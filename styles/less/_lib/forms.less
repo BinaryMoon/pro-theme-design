@@ -18,7 +18,6 @@ input.settings-input {
 
     padding:(@grid-line-height / 2) (@grid-gutter / 2);
     border: 1px solid @border-grey;
-    .box-shadow( inset 0 1px 2px rgba(0,0,0,0.05) );
     margin-bottom:(@grid-line-height * @grid-line-height-multiplyer);
     max-width:100%;
     line-height:@grid-line-height;
@@ -70,7 +69,7 @@ input {
 
     label {
         display:inline-block;
-        background:rgba(0,0,0,0.3);
+        background: @block-background;
         padding: (@grid-line-height / 2) (@grid-gutter / 2);
         border-radius:@border-radius;
         .transition;
@@ -135,13 +134,13 @@ input.error {
 label {
     display:block;
     .modular-scale( @zeta );
-    letter-spacing:0.05em;
+    letter-spacing:0.1em;
 
     span {
         display:block;
         margin-bottom:@grid-line-height / 2;
         text-transform:uppercase;
-        letter-spacing:0.05em;
+        letter-spacing:0.1em;
 
         &.question {
             .modular-scale( @delta );

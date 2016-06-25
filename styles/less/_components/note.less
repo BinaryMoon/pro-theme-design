@@ -1,5 +1,6 @@
 .note {
-    background:rgba(0,0,0,0.3);
+
+    background: @block-background;
     padding:@grid-line-height @grid-gutter;
     border-radius:@border-radius;
     position:relative;
@@ -25,10 +26,6 @@
         }
     }
 
-    .fa {
-        color:@canvas-white;
-    }
-
     &.twitter,
     &.question,
     &.tip {
@@ -42,7 +39,7 @@
             position:absolute;
             top:@grid-line-height * 0.75;
             left:@grid-gutter;
-            color:@canvas-white;
+            color:@heading-color;
             opacity:0.75;
         }
     }
