@@ -8,10 +8,17 @@
     a {
         padding:(@grid-line-height / 2) (@grid-gutter);
         color: @heading-color;
+        .transition;
+        display: inline-block;
 
         &.selected {
-            background:@block-background;
-            border-radius:@border-radius;
+            background: @block-background;
+            border-radius: @border-radius;
+        }
+
+        span,
+        small {
+            display: block;
         }
     }
 }
