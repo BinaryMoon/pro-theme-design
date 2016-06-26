@@ -12,7 +12,8 @@
         </li>
 
         <li class="themes menu-item-has-children">
-            <a href="<?php echo path(); ?>">Themes</a>
+            <a href="<?php echo path( 'themes/wordpress.org/' ); ?>">Themes</a>
+<!--
             <ul>
                 <li class="theme-showcase">
                     <a href="<?php echo path( 'theme-showcase/' ); ?>">Showcase</a>
@@ -27,10 +28,13 @@
     }
 ?>
             </ul>
+-->
         </li>
+
         <li class="wordpress-plugins">
             <a href="<?php echo path( 'wordpress-plugins/' ); ?>">Plugins</a>
         </li>
+
         <li class="articles">
             <a href="<?php echo path( 'articles/' ); ?>">How To</a>
         </li>
