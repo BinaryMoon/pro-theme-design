@@ -19,7 +19,7 @@
     if ( ! DISABLE_GUMROAD && ! empty( $theme[ 'url-wporg' ] ) && 'free!' !== $theme['price-wporg'] ) {
 ?>
 
-                <div class="note note-themes-club message alt">
+                <div class="note note-themes-club message">
                     <h3>Join the Theme Club</h3>
                     <p>Get access to all of our self-hosted themes for one price.</p>
                     <a href="<?php echo path( 'theme-club/' ); ?>" class="button positive">More Info <i class="fa fa-arrow-right end" aria-hidden="true"></i></a>
