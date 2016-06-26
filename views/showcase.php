@@ -34,22 +34,13 @@
     include( '_partials/head.php' );
 ?>
 
-    <body class="page-theme-showcase" data-tag="<?php echo $tag; ?>">
-
-        <?php include( '_partials/header.php' ); ?>
-
-        <nav class="wrapper page-menu">
-            <a href="<?php echo path( 'theme-showcase/' ); ?>" class="tag-">Recent</a>
-            <a href="<?php echo path( 'theme-showcase/featured/' ); ?>" class="tag-featured">Featured</a>
-            <a href="<?php echo path( 'theme-showcase/puzzle/' ); ?>" class="tag-puzzle">Puzzle</a>
-            <a href="<?php echo path( 'theme-showcase/monet/' ); ?>" class="tag-monet">Monet</a>
-            <a href="<?php echo path( 'theme-showcase/romero/' ); ?>" class="tag-romero">Romero</a>
-            <a href="<?php echo path( 'theme-showcase/chronicle/' ); ?>" class="tag-chronicle">Chronicle</a>
-            <a href="<?php echo path( 'theme-showcase/broadsheet/' ); ?>" class="tag-broadsheet">Broadsheet</a>
-            <a href="<?php echo path( 'theme-showcase/opti/' ); ?>" class="tag-opti">Opti</a>
-        </nav>
+    <body class="page-theme-showcase">
 
 <?php
+    include( '_partials/header.php' );
+
+    site_page_nav();
+
     $theme_data = themes_get( $tag );
 
     if ( $theme_data ) {

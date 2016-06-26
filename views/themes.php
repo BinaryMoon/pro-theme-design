@@ -3,12 +3,11 @@
 ?>
     <body class="page-home">
 
-        <?php include( '_partials/header.php' ); ?>
+<?php
+    include( '_partials/header.php' );
 
-        <nav class="wrapper page-menu">
-            <a href="<?php echo path( 'themes/wordpress.org/' ); ?>" class="tag-org">WordPress.org <!-- <small>Self Hosted Sites</small> --></a>
-            <a href="<?php echo path( 'themes/wordpress.com/' ); ?>" class="tag-com">WordPress.com <!-- <small>WordPress in the Cloud</small> --></a>
-        </nav>
+    site_page_nav();
+?>
 
         <div class="theme-wrapper block-wrapper wrapper">
 <?php
@@ -20,7 +19,7 @@
         </div>
 
 <?php
-    if ( 'wordpress.org' === $host ) {
+    if ( 'wordpress.com' != $tag ) {
         site_include_view( '_partials/theme-club.php' );
     }
 

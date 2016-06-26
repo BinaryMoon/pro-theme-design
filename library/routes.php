@@ -29,6 +29,10 @@ Flight::route( '/tools/(@tool)/', function( $tool = '' ) {
     site_description( 'Handy Tools to <strong>Make a Web Designers Job Easier</strong>.' );
     site_breadcrumb_add( 'Tools', 'tools/' );
 
+    site_page_nav_add( 'Tools', 'tools/' );
+    site_page_nav_add( 'Resources', 'tools/resources/' );
+    site_page_nav_add( 'Internal', 'tools/internal/' );
+
     if ( ! empty( $tool ) ) {
 
         // Is it a tool?
@@ -143,9 +147,13 @@ Flight::route( '/theme/(@theme)/', function( $theme = '' ) {
 /**
  * Themes
  */
-Flight::route( '/themes/(@location)/', function( $host = '' ) {
+Flight::route( '/themes/(@tag)/', function( $tag = '' ) {
 
-    $themes = themes_by_host( $host );
+    if ( empty( $tag) ) {
+        $tag = 'wordpress.org';
+    }
+
+    $themes = themes_by_tag( $tag );
 
     if ( ! $themes ) {
 
@@ -153,12 +161,15 @@ Flight::route( '/themes/(@location)/', function( $host = '' ) {
 
     }
 
-    site_title( 'WordPress Themes for ' . $host );
+    site_title( ucwords( $tag ) . 'WordPress Themes' );
     site_description( 'Awesome WordPress themes for <strong>self hosted sites</strong>!' );
 
-    if ( 'wordpress.com' === $host ) {
-        site_description( 'Quality WordPress themes for <strong>WordPress in the cloud</strong>!' );
-    }
+    site_page_nav_add( 'All', 'themes/' );
+    site_page_nav_add( 'Magazine', 'themes/magazine/' );
+    site_page_nav_add( 'Portfolio', 'themes/portfolio/' );
+    site_page_nav_add( 'Photogrpahy', 'themes/photography/' );
+    site_page_nav_add( 'Blog', 'themes/blog/' );
+    site_page_nav_add( 'Free', 'themes/free/' );
 
     site_enable_gumroad();
 
@@ -166,7 +177,7 @@ Flight::route( '/themes/(@location)/', function( $host = '' ) {
         'themes.php',
         array(
             'themes' => $themes,
-            'host' => $host,
+            'tag' => $tag,
         )
     );
 
@@ -181,6 +192,15 @@ Flight::route( '/theme-showcase/(@tag)/', function( $tag = '' ) {
 
     $title = 'WordPress Themes Showcase';
     $websites = array();
+
+    site_page_nav_add( 'Recent', 'theme-showcase/' );
+    site_page_nav_add( 'Featured', 'theme-showcase/featured/' );
+    site_page_nav_add( 'Puzzle', 'theme-showcase/puzzle/' );
+    site_page_nav_add( 'Monet', 'theme-showcase/monet/' );
+    site_page_nav_add( 'Romero', 'theme-showcase/romero/' );
+    site_page_nav_add( 'Chronicle', 'theme-showcase/chronicle/' );
+    site_page_nav_add( 'Broadsheet', 'theme-showcase/broadsheet/' );
+    site_page_nav_add( 'Opti', 'theme-showcase/opti/' );
 
     if ( website_tag_exists( $tag ) ) {
 
@@ -436,6 +456,9 @@ Flight::route( '/wordpress-plugins/(@tag)/', function( $tag = '' ) {
 
     site_title( 'Recommended WordPress Plugins' );
     site_description( 'Plugins for creating the perfect WordPress site.' );
+
+    site_page_nav_add( 'Our Plugins', 'wordpress-plugins/' );
+    site_page_nav_add( 'Supported Plugins', 'wordpress-plugins/supported/' );
 
     if ( empty( $tag ) ) {
 

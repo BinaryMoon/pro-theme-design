@@ -1,7 +1,7 @@
 <?php
     include( '_partials/head.php' );
 ?>
-    <body class="page-tools page-tools-<?php echo $slug; ?>" data-tag="<?php echo $tool['tag']; ?>">
+    <body class="page-tools page-tools-<?php echo $slug; ?>">
 
 <?php
     include( '_partials/header.php' );

@@ -1,16 +1,12 @@
 <?php
     include( '_partials/head.php' );
 ?>
-    <body class="page-plugins" data-tag="<?php echo $tag; ?>">
-
-        <?php include( '_partials/header.php' ); ?>
-
-        <nav class="wrapper page-menu">
-            <a href="<?php echo path( 'wordpress-plugins/' ); ?>" class="tag-ours">Our Plugins</a>
-            <a href="<?php echo path( 'wordpress-plugins/supported/' ); ?>" class="tag-supported">Supported Plugins</a>
-        </nav>
+    <body class="page-plugins">
 
 <?php
+    include( '_partials/header.php' );
+
+    site_page_nav();
 
     $class = 'big';
 
