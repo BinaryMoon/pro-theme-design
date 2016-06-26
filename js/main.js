@@ -163,11 +163,11 @@
 
     // showcase selected navigation
 
-    var tag = $( '.page-theme-showcase' );
+    var tag = $( 'body' ).data( 'tag' );
 
-    if ( tag.length ) {
+    if ( tag ) {
 
-        $( '.page-menu a.tag-' + tag.data( 'tag' ) ).addClass( 'selected' );
+        $( '.page-menu a.tag-' + tag ).addClass( 'selected' );
 
     }
 
