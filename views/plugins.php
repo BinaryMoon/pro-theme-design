@@ -1,18 +1,14 @@
 <?php
     include( '_partials/head.php' );
-
-    $plugins = get_plugin_data();
-
 ?>
-    <body class="page-plugins">
+    <body class="page-plugins" data-tag="<?php echo $tag; ?>">
 
         <?php include( '_partials/header.php' ); ?>
 
-        <!--
-        <div class="tabs">
-            <a href="<?php echo path( 'themes/wordpress.org/' ); ?>" class="active">Our Plugins</a><a href="<?php echo path( 'themes/wordpress.com/' ); ?>">Supported Plugins</a><a href="<?php echo path( 'themes/wordpress.com/' ); ?>">Recommended Plugins</a>
-        </div>
--->
+        <nav class="wrapper page-menu">
+            <a href="<?php echo path( 'wordpress-plugins/' ); ?>" class="tag-ours">Our Plugins</a>
+            <a href="<?php echo path( 'wordpress-plugins/supported/' ); ?>" class="tag-supported">Supported Plugins</a>
+        </nav>
 
 <?php
 

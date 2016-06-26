@@ -23,7 +23,7 @@ Flight::route( '/tools/(@tool)/', function( $tool = '' ) {
 
     $view = 'tools.php';
     $layout = 'index.php';
-    $tool_data = array();
+    $tool_data = tool_group( 'tool' );
 
     site_title( 'Pro Theme Design Handy Tools' );
     site_description( 'Handy Tools to <strong>Make a Web Designers Job Easier</strong>.' );
@@ -31,6 +31,7 @@ Flight::route( '/tools/(@tool)/', function( $tool = '' ) {
 
     if ( ! empty( $tool ) ) {
 
+        // Is it a tool?
         if ( $tool_data = tool_get( $tool ) ) {
 
             site_title( $tool_data['name'] . ' - Pro Theme Design' );
@@ -44,7 +45,17 @@ Flight::route( '/tools/(@tool)/', function( $tool = '' ) {
                 $view = $tool_data['view'];
             }
 
-        } else {
+        }
+
+        // Is it a tool group?
+        if ( empty( $tool_data ) && $tool_data = tool_group( $tool ) ) {
+
+            site_breadcrumb_add( $tool_data['title'], 'tools/' . $tool . '/' );
+
+        }
+
+        // No data.
+        if ( empty( $tool_data ) ) {
 
             Flight::notFound();
 
@@ -410,6 +421,40 @@ Flight::route( '/showcase-preview/(@site)/', function( $site = '' ) {
         $template,
         array(
             'site' => $site,
+        )
+    );
+
+} );
+
+
+/**
+ * Plugin Pages
+ */
+Flight::route( '/wordpress-plugins/(@tag)/', function( $tag = '' ) {
+
+    $view = 'plugins.php';
+
+    site_title( 'Recommended WordPress Plugins' );
+    site_description( 'Plugins for creating the perfect WordPress site.' );
+
+    if ( empty( $tag ) ) {
+
+        $tag = 'ours';
+
+    }
+
+    if ( ! $plugins = plugins_get_by_tag( $tag ) ) {
+
+        Flight::notFound();
+
+    }
+
+
+    Flight::render(
+        $view,
+        array(
+            'tag' => $tag,
+            'plugins' => $plugins,
         )
     );
 

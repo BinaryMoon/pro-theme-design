@@ -32,11 +32,6 @@ function get_pages() {
             'description' => 'Find your way around.',
             'view' => 'sitemap.php',
         ),
-        'wordpress-plugins' => array(
-            'title' => 'Recommended WordPress Plugins',
-            'description' => 'Plugins for creating the perfect WordPress site.',
-            'view' => 'plugins.php',
-        ),
         'policies' => array(
             'title' => 'Terms and Conditions',
             'description' => null,
