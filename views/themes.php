@@ -5,9 +5,10 @@
 
         <?php include( '_partials/header.php' ); ?>
 
-        <div class="tabs">
-            <a href="<?php echo path( 'themes/wordpress.org/' ); ?>" <?php echo ($host === 'wordpress.org') ? 'class="active"': ''; ?>>WordPress.org <small>Self Hosted Sites</small></a><a href="<?php echo path( 'themes/wordpress.com/' ); ?>" <?php echo ($host === 'wordpress.com') ? 'class="active"': ''; ?>>WordPress.com <small>WordPress in the Cloud</small></a>
-        </div>
+        <nav class="wrapper page-menu">
+            <a href="<?php echo path( 'themes/wordpress.org/' ); ?>" class="tag-org">WordPress.org <!-- <small>Self Hosted Sites</small> --></a>
+            <a href="<?php echo path( 'themes/wordpress.com/' ); ?>" class="tag-com">WordPress.com <!-- <small>WordPress in the Cloud</small> --></a>
+        </nav>
 
         <div class="theme-wrapper block-wrapper wrapper">
 <?php
