@@ -161,17 +161,6 @@
     }
 
 
-    // showcase selected navigation
-
-    var tag = $( 'body' ).data( 'tag' );
-
-    if ( tag ) {
-
-        $( '.page-menu a.tag-' + tag ).addClass( 'selected' );
-
-    }
-
-
     // get theme
 
     $( 'a.get-theme' ).on( 'click', function( e ) {
