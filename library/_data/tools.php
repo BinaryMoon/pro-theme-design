@@ -18,55 +18,55 @@ function get_tools_data() {
         'how-much-to-charge' => array(
             'name' => 'WordPress Pricing Calculator',
             'description' => 'Calculate how much to charge for a WordPress job.',
-            'tag' => 'external',
+            'tag' => 'tool',
             'icon' => 'money',
         ),
         'support-details' => array(
             'name' => 'Support Details',
             'description' => 'Information to help debugging website problems.',
-            'tag' => 'external',
+            'tag' => 'tool',
             'icon' => 'info-circle',
         ),
         'ascii-entity-conversion' => array(
             'name' => 'Entity Conversion',
             'description' => 'Convert an ascii character into a code suitable for CSS, JS and HTML.',
-            'tag' => 'external',
+            'tag' => 'tool',
             'icon' => 'calculator',
         ),
         'color-picker' => array(
             'name' => 'Color Picker',
             'description' => 'A browser based colour picker.',
-            'tag' => 'external',
+            'tag' => 'tool',
             'icon' => 'eyedropper',
         ),
         'translation-page-generator' => array(
             'name' => 'Translation Page Generator',
             'description' => 'Generate the HTML needed to translate your website.',
-            'tag' => 'external',
+            'tag' => 'tool',
             'icon' => 'globe',
         ),
         'free-stock-photos' => array(
             'name' => 'Free Stock Photos',
             'description' => 'Stock photography for your projects.',
-            'tag' => 'external',
+            'tag' => 'resources',
             'icon' => 'camera',
         ),
         'free-stock-videos' => array(
             'name' => 'Free Stock Videos',
             'description' => 'Stock videos for your projects.',
-            'tag' => 'external',
+            'tag' => 'resources',
             'icon' => 'video-camera',
         ),
         'developer-resources' => array(
             'name' => 'Developer Resources',
             'description' => 'Handy Resources for designers and developers.',
-            'tag' => 'external',
+            'tag' => 'resources',
             'icon' => 'wrench',
         ),
         'circular-icons' => array(
             'name' => 'Circular Icons',
             'description' => 'Round icons for a multitude of uses.',
-            'tag' => 'external',
+            'tag' => 'resources',
             'icon' => 'circle-o',
         ),
 
@@ -114,7 +114,7 @@ function get_tools_data() {
         $tools[ 'quiz-test' ] = array(
             'name' => 'Quiz Test',
             'description' => 'Test the quiz system.',
-            'tag' => 'external',
+            'tag' => 'tool',
             'icon' => 'eye',
         );
     }
@@ -154,22 +154,49 @@ function tool_get( $tool ) {
 
 
 /**
+ * Get the data for the specified tag.
+ *
+ * @param  string $tag The tag to load data for.
+ * @return array  The tag information, or null if it doesn't exist.
+ */
+function tool_group( $tag ) {
+
+    $tools = array(
+        'tool' => 'Tools',
+        'resources' => 'Resources',
+        'internal' => 'Internal Tools',
+    );
+
+    if ( ! empty( $tools[ $tag ] ) ) {
+
+        return array(
+            'title' => $tools[ $tag ],
+            'tag' => $tag,
+        );
+
+    } else {
+
+        return null;
+
+    }
+
+}
+
+
+/**
  * Display list of different types of tools
  * @param string [$tag         = ''] Group of tools to retrieve
  * @param string [$title       = ''] Title of tools group
  */
-function tools_display( $tag = '', $title = '' ) {
+function tools_display( $tool_data ) {
 
     $tools = get_tools_data();
 
 ?>
 <div class="block-wrapper wrapper">
-    <header class="block-header">
-        <h2><?php echo $title; ?></h2>
-    </header>
 <?php
     foreach ( $tools as $tool ) {
-        if ( $tool['tag'] === $tag && ! empty( $tool['icon'] ) ) {
+        if ( $tool['tag'] === $tool_data['tag'] && ! empty( $tool['icon'] ) ) {
 ?>
     <div class="block">
         <div class="content sticky-footer">
