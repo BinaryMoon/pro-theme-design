@@ -15,7 +15,7 @@
                     </a>
                 </<?php echo $h; ?>>
 
-                <p class="animated fadeInUp site-description"><?php site_description(); ?></p>
+                <!-- <p class="animated fadeInUp site-description"><?php site_description(); ?></p> -->
 
             </div>
 
