@@ -90,6 +90,10 @@ function get_documentation_data() {
             'name' => 'Theme Previews',
             'type' => 'general',
         ),
+        'payment-methods' => array(
+            'name' => 'Payment Methods',
+            'type' => 'general',
+        ),
 
 
         // features

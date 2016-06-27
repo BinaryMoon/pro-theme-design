@@ -2,6 +2,10 @@
 
 <p>If you still want a refund then the refund process is taken care of by the respective service providers. Unfortunately we have no way of offering refunds ourselves.</p>
 
+<h2>Gumroad</h2>
+
+<p>If you have purchased a theme through Gumroad on Pro Theme Design then send us a <a href="<?php echo path( 'refund/' ); ?>">refund request</a> and we'll refund you as soon as possible.</p>
+
 <h2>WordPress.com</h2>
 
 <p>WordPress.com offers a 30 day money back guarantee. There's info on the guarantee and <a href="http://support.wordpress.com/refund" target="_blank">how to claim a refund on their support pages</a>.</p>
