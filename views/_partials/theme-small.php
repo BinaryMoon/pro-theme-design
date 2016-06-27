@@ -1,17 +1,18 @@
             <div class="block overlap-header">
+
                 <header>
-                    <span class="blip price"><?php echo $theme[ 'price' ]; ?></span>
-                    <a href="<?php echo $theme['url']; ?>">
+                    <a href="<?php echo $theme['url']; ?>" class="screenshot">
                         <img src="<?php echo image_path( 'monitor/' . $theme['image'] ); ?>" alt="<?php echo $theme['name']; ?> Screenshot" />
                     </a>
                 </header>
+
                 <div class="content sticky-footer">
                     <h3>
                         <a href="<?php echo $theme['url']; ?>"><?php echo $theme['name']; ?></a>
                     </h3>
                     <p><?php echo $theme['description']; ?></p>
 <?php
-        if ( page_is( '/themes/wordpress.com/' ) || page_is( '/themes/wordpress.org/' ) ) {
+        if ( page_is_themes() ) {
 ?>
                     <a class="button ghost greedy" href="<?php echo $theme['url-details']; ?>" title="<?php echo $theme['name']; ?> Details">
                         Demo &amp; Details

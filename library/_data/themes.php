@@ -470,7 +470,11 @@ function themes_by_tag( $tag = '' ) {
         if ( in_array( $tag, $theme['tags'] ) || '' === $tag ) {
 
             $theme[ 'link-target' ] = '_blank';
-            //$theme[ 'text-details' ] = 'Get for ' . $host;
+
+            if ( page_is_themes() ) {
+                $theme[ 'text-details' ] = 'Get Now';
+            }
+
             $theme[ 'url' ] = $theme[ 'url-wporg' ];
 
             if ( 'wordpress.com' === $tag ) {
