@@ -15,7 +15,15 @@
 
 <p class="note tip">We have a <a href="<?php echo path( 'tools/how-much-to-charge/' ); ?>">WordPress freelance pricing calculator</a> that helps you to work out your working rate.</p>
 
-<h2>Charge for value, not time.</h2>
+<h2>Don't work for free</h2>
+
+<p>It's tempting, when you start out, to do projects for free (or cheap) to improve your portfolio. This is a bad idea. It sets a precedent that is hard to break.</p>
+
+<p>When people do work for free, especially if it's good work, then word spreads - and it's hard to shake. After all - you made a free website for my mate Bob, why won't you make one for me as well?</p>
+
+<p>If you do decide to do free or cheap work then it's worth costing the project as a real project, and then giving the client a discount. This way the client has a better idea of what they are getting and will make it easier to say to others, I did them a favour because of [insert reason here].</p>
+
+<h2>Charge for Value, Not Time</h2>
 
 <p>Charging a single fee for each project can help greatly. Some clients may resist being charged this way however it should be beneficial to both parties so is worth perservering with.</p>
 
@@ -24,6 +32,10 @@
 <p>This can be solved by asking for a single fee. If you create a contract that outlines what you will do for the fee - then the client will know exactly how much the job will cost, and you will know exactly what is required.</p>
 
 <p>From your perspective - getting a lump sum means that you now have an incentive to create the work quickly. Since the quicker you complete the work the greater your hourly rate. It may even incentivise you to buy themes or plugins that will speed up your work. Spending $100 to save you 10 hours work can seem a lot more appealing when you know you will have less work to do.</p>
+
+<h2>Find Out Their Budget</h2>
+
+<p>Find out a clients budget for the project. If their budget is a lot higher than your normal rate then increase your rates to match. You don't have to take their whole budget - but if they want to work with you then there's no reason you shouldn't earn as much as you can.</p>
 
 <h2>Create Relationships</h2>
 
@@ -43,9 +55,9 @@
 
 <h2>Buy Themes and Plugins (and other 3rd party services)</h2>
 
-<p>The old saying 'You have to spend money to make money' has a lot of basis in truth. Spending money on <a href="<?php echo path(); ?>">quality themes</a> and plugins means that you can save a lot of time, and get your work completed more quickly.</p>
+<p>The old saying 'You have to spend money to make money' has a lot of basis in truth. Spending money on <a href="<?php echo path( 'themes/' ); ?>">quality themes</a> and plugins means that you can save a lot of time, and get your work completed more quickly.</p>
 
-<p>Clearly we're biased, but <a href="<?php echo path(); ?>">our WordPress themes</a> are designed to be very simple to modify. They use a traditional WordPress theme structure and so you can easily create child themes that override templates and styles. Our themes don't have hundreds of options, which makes them much easier to customize to your clients needs.</p>
+<p>Clearly we're biased, but <a href="<?php echo path( 'themes/' ); ?>">our WordPress themes</a> are designed to be very simple to modify. They use a traditional WordPress theme structure and so you can easily create child themes that override templates and styles. Our themes don't have hundreds of options, which makes them much easier to customize to your clients needs.</p>
 
 <h2>Sell Additional Services</h2>
 
