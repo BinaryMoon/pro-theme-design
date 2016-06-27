@@ -187,6 +187,8 @@ function page_is( $page ) {
 
 /**
  * Is the current page in the theme route
+ *
+ * @return boolean true if the current page is a themes one.
  */
 function page_is_themes() {
 
@@ -195,9 +197,9 @@ function page_is_themes() {
     // if path begins with /themes/
     if ( substr( $path, 0, 8 ) === '/themes/' ) {
         return true;
-    } else {
-        return false;
     }
+
+    return false;
 
 }
 
