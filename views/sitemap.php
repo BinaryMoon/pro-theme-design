@@ -12,7 +12,7 @@
             <ul class="tree">
                 <li><a href="<?php echo path(); ?>">Home</a></li>
                 <li>
-                    <a href="<?php echo path(); ?>">Themes</a>
+                    <a href="<?php echo path( 'themes/' ); ?>">Themes</a>
                     <ul>
                         <?php themes_sitemap(); ?>
                     </ul>
