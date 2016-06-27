@@ -208,7 +208,7 @@ function get_theme_data() {
             'price-wporg' => '',
             'url-wpcom' => 'vision',
             'image' => 'vision.png',
-            'tags' => array( 'blog' ),
+            'tags' => array( 'blog', 'photography', 'portfolio' ),
             'supports' => array( 'featured-content', 'featured-image', 'infinite-scroll', 'testimonials', 'raddcontrol' ),
         ),
 
