@@ -37,6 +37,11 @@ function get_pages() {
             'description' => null,
             'view' => 'terms-and-conditions.php',
         ),
+        'refund' => array(
+            'title' => 'Gumroad Refund Request',
+            'description' => null,
+            'view' => 'refund.php',
+        ),
         'why-us' => array(
             'title' => 'Why Us',
             'description' => 'Why buy a WordPress theme from Pro Theme Design?',
