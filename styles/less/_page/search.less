@@ -6,12 +6,12 @@
     .gsc-control-cse,
     .gsc-control-cse .gsc-table-result {
         font-family: @font-family-sans;
-        color:@canvas-light;
+        color:@body-copy-color;
         .modular-scale(@zeta);
     }
 
     .gsc-orderby-label {
-        color:@canvas-grey-50;
+        color:@body-copy-color;
     }
 
     .gsc-control-cse .gs-spelling,
@@ -51,7 +51,7 @@
         }
 
         tr:nth-child(odd) {
-            background:rgba(0,0,0,0.3);
+            background:@block-background;
         }
     }
 
@@ -90,7 +90,7 @@
 
     .gsc-selected-option-container {
         min-width:6rem;
-        color:@canvas-grey-50;
+        color:@body-copy-color;
     }
 
     .gsc-results {
@@ -104,11 +104,11 @@
             .modular-scale(@zeta);
 
             .gsc-cursor-page {
-                color:@canvas-light;
+                color:@body-copy-color;
             }
 
             .gsc-cursor-current-page {
-                color:@canvas-grey-50;
+                color:@heading-color;
             }
         }
     }
