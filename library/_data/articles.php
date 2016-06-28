@@ -33,7 +33,7 @@ function get_article_data() {
 
         'make-beautiful-cohesive-wordpress-designs' => array(
             'name' => 'Make Beautiful WordPress Designs',
-            'date' => '26th February 2016',
+            'date' => '27th June 2016',
             'prefix' => '0005',
             'description' => 'Tips and Tricks to improve how you design WordPress things.',
             'icon' => 'paint-brush',
