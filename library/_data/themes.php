@@ -469,16 +469,11 @@ function themes_by_tag( $tag = '' ) {
 
         if ( in_array( $tag, $theme['tags'] ) || '' === $tag ) {
 
-            $theme[ 'link-target' ] = '_blank';
-
-            if ( page_is_themes() ) {
-                $theme[ 'text-details' ] = 'Get Now';
-            }
-
             $theme[ 'url' ] = $theme[ 'url-wporg' ];
 
             if ( 'wordpress.com' === $tag ) {
-                $theme[ 'url' ] = $theme[ 'url-wpcom' ];
+                $theme[ 'url-details' ] = $theme[ 'url-wpcom' ];
+                $theme[ 'link-target' ] = '_blank';
             }
 
             $processed_themes[] = $theme;
