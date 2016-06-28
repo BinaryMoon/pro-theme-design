@@ -43,4 +43,4 @@
 
 <h2>Practice, Practice, Practice</h2>
 
-<p>The more design you do, the better you will get, however I find having a set of guidelines can help re-align me when things go astray.</p>
+<p>The more design you do, the better you will get, however I find having a set of guidelines can help re-align me when things go astray can be really helpful.</p>
