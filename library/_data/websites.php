@@ -1,5 +1,44 @@
 <?php
 
+/**
+ * Vision
+ * http://culturadeco.com/
+ * http://sanalsaray.net/
+ * https://ajspages.wordpress.com/
+ * http://blog.creditsavvy.com.au/
+ * http://lliayu.com/
+ * http://ilonarubesova.cz/
+ *
+ * Lens
+ * https://vaultsoftheorder.wordpress.com/
+ * https://helensjournal.wordpress.com/
+ * http://blog.midwestlifeshots.com/
+ * http://thewordwalk.com/
+ * http://deneoto.com/
+ * https://foodlancer.wordpress.com/
+ * http://sterlingimageworks.com/
+ * http://goodnessmefood.com/
+ * http://hoperoad.co.za/
+ * https://renatoartes.wordpress.com/
+ *
+ *
+ * Exhibit
+ * https://paproductdesign.wordpress.com/
+ * http://lovelymixture.com/
+ * http://inspiringcompletewellbeing.com/
+ *
+ *
+ * Carmack
+ * https://blackandbloom.org/
+ * https://mycrazygreenlife.com/
+ * https://nookandkranny.com/
+ * https://blog.appswithoutcode.com/
+ * https://warnindustries.wordpress.com/
+ * https://readthenorth.wordpress.com/
+ *
+ */
+
+
 
 /**
  * list of websites to display on the showcase
