@@ -49,6 +49,10 @@ function get_documentation_data() {
             'name' => 'Translating Your Website Content',
             'type' => 'general',
         ),
+        'license' => array(
+            'name' => 'Software License',
+            'type' => 'general',
+        ),
         'localization' => array(
             'name' => 'Localization',
             'type' => 'general',
