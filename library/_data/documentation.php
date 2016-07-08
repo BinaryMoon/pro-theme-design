@@ -337,12 +337,12 @@ function documentation_type_exists( $type ) {
 /**
  * Check to see if the specified page exists
  */
-function documentation_page_exists( $page ) {
+function documentation_page_exists( $page, $type ) {
 
     $docs = get_documentation_data();
 
     foreach( $docs as $key => $value ) {
-        if ( $page == $key ) {
+        if ( $page === $key && $value[ 'type' ] === $type ) {
             return true;
             break;
         }
