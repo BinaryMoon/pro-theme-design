@@ -11,7 +11,7 @@
 
             <h2>Support</h2>
 
-            <p>We offer support via the relevant support forums. For wordpress.com please use the <a href="https://premium-themes.forums.wordpress.com">premium themes forum</a>. For self hosted themes please use the support form on the relevant theme page on <a href="https://creativemarket.com/BinaryMoon?u=BinaryMoon">Creative Market</a>.</p>
+            <p>We offer support via the relevant support forums. For wordpress.com please use the <a href="https://premium-themes.forums.wordpress.com">premium themes forum</a>. For self hosted themes you can use our <a href="<?php echo path( 'contact/' ); ?>">contact page</a>.</p>
 
             <p>The support we offer is restricted to fixing bugs in our themes. Unfortunately we don't help with theme modifications/ customisations or installation issues. For help with customizations we have partnered with Codeable who offer <a href="<?php echo path( 'theme-customization/' ); ?>">customization services for WordPress websites</a>.</p>
 
