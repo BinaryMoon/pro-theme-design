@@ -102,7 +102,7 @@
             <div class="block">
                 <div class="content">
                     <i class="fa fa-<?php echo $feature[ 'icon' ]; ?> icon"></i>
-                    <h3><?php echo $feature[ 'name' ]; ?></h3>
+                    <h3><a href="<?php echo $feature[ 'url' ]; ?>"><?php echo $feature[ 'name' ]; ?></a></h3>
                     <p><?php echo $feature[ 'description' ]; ?></p>
                 </div>
             </div>
