@@ -12,7 +12,7 @@
 
         <link rel="stylesheet" href="<?php echo css_path( 'css/styles.css' ); ?>" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,300italic" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" />
 
         <link type="text/plain" rel="author" href="<?php echo path( 'humans.txt' ); ?>" />
 
