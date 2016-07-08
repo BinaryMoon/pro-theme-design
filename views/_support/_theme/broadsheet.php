@@ -34,3 +34,16 @@
     <li><strong>Full Width</strong> - this lets you display your page content full width, with no sidebar.</li>
     <li><strong>Contributors</strong> - this page displays a list of all the people who have published content on your blog.</li>
 </ul>
+
+<h2>Image Sizes</h2>
+
+<p>All featured Images are generated from the same initial image so make sure to keep the focus of the image in the center as the surrounding content may be cropped.</p>
+
+<ul>
+    <li>The recommended header image size is <code>1140</code> wide by <code>150</code> high.</li>
+    <li>The featured category post thumbnails (on the homepage) are <code>350</code> pixels wide by <code>150</code> pixels high.</li>
+    <li>The blog post thumbnails are <code>100</code> pixels wide by <code>80</code> pixels high.</li>
+    <li>The featured content area uses images sized <code>200</code> x <code>125</code>.</li>
+    <li>The post slider uses images sized <code>1200</code> x <code>400</code>.</li>
+    <li>The site logo uses an image sized <code>360</code> x <code>360</code>.</li>
+</ul>
