@@ -145,6 +145,12 @@ function get_documentation_data() {
             'description' => 'Add a logo to make your site your own.',
             'related' => array( 'customizer' ),
         ),
+        'search-engine-optimization' => array(
+            'name' => 'SEO',
+            'type' => 'feature',
+            'description' => 'Search Engine Optimization to improve your sites rankings.',
+            'icon' => 'line-chart',
+        ),
         'social-menu' => array(
             'name' => 'Social Menu',
             'type' => 'feature',

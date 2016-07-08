@@ -324,6 +324,7 @@ function get_theme_data() {
         $theme[ 'supports' ] = array_merge(
             $theme[ 'supports' ],
             array(
+                'search-engine-optimization',
                 'custom-front-page',
                 'custom-colours-fonts',
                 'image-resizing',
