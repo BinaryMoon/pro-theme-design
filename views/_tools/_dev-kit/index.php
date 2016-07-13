@@ -32,7 +32,7 @@
 
     <h3>Google Fonts</h3>
 
-    <p><a href="https://www.google.com/fonts">Google Fonts</a> are awesome. We use <a href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Lato">Lato</a>.</p>
+    <p><a href="https://fonts.google.com/">Google Fonts</a> are awesome. We use <a href="https://fonts.google.com/specimen/Lato?query=lato">Lato</a>.</p>
 
     <h2>Third Party Services</h2>
 
