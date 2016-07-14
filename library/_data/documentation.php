@@ -188,6 +188,13 @@ function get_documentation_data() {
             'related' => array( 'featured-image', 'speeding-up-your-wordpress-site' ),
             'icon' => 'picture-o',
         ),
+        'website-uptime-monitor' => array(
+            'name' => 'Website Uptime Monitor',
+            'type' => 'feature',
+            'description' => 'Monitor your websites availability',
+            'requires' => 'jetpack',
+            'icon' => 'shield',
+        ),
         'contact-form' => array(
             'name' => 'Contact Form',
             'type' => 'feature',
@@ -513,7 +520,16 @@ function documentation_plugin_features( $plugin ) {
     foreach( $docs as $doc ) {
         if ( ! empty( $doc[ 'requires' ] ) && in_array( $plugin, $doc[ 'requires' ] ) ) {
 ?>
-        <li><strong><a href="<?php echo $doc[ 'url' ]; ?>"><?php echo $doc[ 'name' ]; ?></a></strong> - <?php echo $doc[ 'description' ]; ?></li>
+        <li>
+            <strong>
+                <a href="<?php echo $doc[ 'url' ]; ?>"><?php echo $doc[ 'name' ]; ?></a>
+            </strong>
+<?php
+            if ( ! empty( $doc[ 'description' ] ) ) {
+                echo ' - ' . $doc[ 'description' ];
+            }
+?>
+        </li>
 <?php
         }
     }
