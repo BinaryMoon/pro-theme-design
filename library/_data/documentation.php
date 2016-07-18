@@ -98,6 +98,10 @@ function get_documentation_data() {
             'name' => 'Payment Methods',
             'type' => 'general',
         ),
+        'theme-license-key' => array(
+            'name' => 'Theme License Key',
+            'type' => 'general',
+        ),
 
 
         // features
