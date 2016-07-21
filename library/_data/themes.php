@@ -150,7 +150,7 @@ function get_theme_data() {
         'beacon' => array(
             'name' => 'Beacon',
             'description' => 'A perfect theme for viral content: trending topics, featured thumbnails, and photos and excerpts arranged by category or popularity.',
-            'short_description' => 'A modern WordPress magazine theme.',
+            'short_description' => 'A Social WordPress Magazine Theme.',
             'price-wpcom' => 79,
             'price-wporg' => '',
             'url-wpcom' => 'beacon',
@@ -177,7 +177,7 @@ function get_theme_data() {
         'broadsheet' => array(
             'name' => 'Broadsheet',
             'description' => 'A newspaper theme with 3 optional widget areas, featured posts and a huge homepage slider there are lots of options for creating interesting, immersive websites.',
-            'short_description' => 'A classical WordPress magazine theme.',
+            'short_description' => 'A classical WordPress newspaper theme.',
             'price-wpcom' => 79,
             'price-wporg' => 99,
             'url-wpcom' => 'broadsheet',
