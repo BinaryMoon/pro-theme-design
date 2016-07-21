@@ -300,7 +300,7 @@ Flight::route( '/how-to/(@page)/', function( $page = '' ) {
 
     if ( $article = article_get( $page ) ) {
 
-        site_breadcrumb_add( $article[ 'name' ], 'article/' . $page . '/' );
+        site_breadcrumb_add( $article[ 'name' ], 'how-to/' . $page . '/' );
 
         site_title( $article[ 'name' ] );
 
