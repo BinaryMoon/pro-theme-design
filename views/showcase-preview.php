@@ -1,7 +1,6 @@
 <?php
     include( '_partials/head.php' );
 
-    $site_data = website_get( $site );
     $theme_data = themes_get( $site_data['theme'] );
 ?>
     <body class="page-preview">

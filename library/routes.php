@@ -426,7 +426,6 @@ Flight::route( '/theme-preview/(@theme)/', function( $theme_slug = '' ) {
  */
 Flight::route( '/showcase-preview/(@site)/', function( $site = '' ) {
 
-    site_title( 'WordPress Theme Preview' );
     $template = 'showcase-preview.php';
 
     if ( ! website_exists( $site ) ) {
@@ -435,12 +434,16 @@ Flight::route( '/showcase-preview/(@site)/', function( $site = '' ) {
 
     }
 
+    $site_data = website_get( $site );
+    site_title( 'WordPress Theme Preview - ' . $site_data[ 'name' ] );
+
     site_enable_gumroad();
 
     Flight::render(
         $template,
         array(
             'site' => $site,
+            'site_data' => $site_data,
         )
     );
 
