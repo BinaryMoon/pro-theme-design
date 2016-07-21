@@ -390,14 +390,14 @@ function documentation_get( $page ) {
 
 
 /**
- * get the name of the specified page
+ * get the value of a property of the specified page
  */
-function documentation_page_name( $page ) {
+function documentation_page_property( $page, $property = 'name' ) {
 
     $docs = get_documentation_data();
 
-    if ( ! empty( $docs[ $page ] ) ) {
-        return $docs[ $page ][ 'name' ];
+    if ( ! empty( $docs[ $page ] ) && ! empty( $docs[ $page ][ $property ] ) ) {
+        return $docs[ $page ][ $property ];
     }
 
     return '';

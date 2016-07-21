@@ -350,9 +350,15 @@ Flight::route( '/documentation/(@type)(/@page)/', function( $type = '', $page = 
         if ( documentation_page_exists( $page, $type ) ) {
 
             $layout = '_support/type-' . $type . '.php';
+            $page_name = documentation_page_property( $page, 'name' );
+            $page_description = documentation_page_property( $page, 'description' );
 
-            site_breadcrumb_add( documentation_page_name( $page ), 'documentation/' . $type . '/' . $page . '/' );
-            site_title( sprintf( '%s Help', documentation_page_name( $page ) ) );
+            site_breadcrumb_add( $page_name, 'documentation/' . $type . '/' . $page . '/' );
+            site_title( sprintf( '%s Help', $page_name ) );
+
+            if ( ! empty( $page_description ) ) {
+                site_description( 'Documentation: ' . $page_description );
+            }
 
         } else {
 

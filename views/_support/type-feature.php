@@ -1,4 +1,4 @@
-    <h1><?php echo documentation_page_name( $page ); ?></h1>
+    <h1><?php echo documentation_page_property( $page ); ?></h1>
 
 <?php
     documentation_required_plugin( $page );
