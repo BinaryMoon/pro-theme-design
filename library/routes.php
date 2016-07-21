@@ -161,8 +161,8 @@ Flight::route( '/themes/(@tag)/', function( $tag = '' ) {
 
     }
 
-    site_title( ucwords( $tag ) . 'WordPress Themes' );
-    site_description( 'Awesome WordPress themes for <strong>self hosted sites</strong>!' );
+    site_title( ucwords( $tag ) . ' Themes' );
+    site_description( 'Awesome ' . ucwords( $tag ) . ' WordPress themes for <strong>self hosted sites</strong>!' );
 
     site_page_nav_add( 'All', 'themes/' );
     site_page_nav_add( 'Magazine', 'themes/magazine/' );
