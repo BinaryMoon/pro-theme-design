@@ -442,6 +442,7 @@ Flight::route( '/showcase-preview/(@site)/', function( $site = '' ) {
 
     $site_data = website_get( $site );
     site_title( 'WordPress Theme Preview - ' . $site_data[ 'name' ] );
+    site_description( 'Preview the WordPress Theme on ' . $site_data[ 'name' ] );
 
     site_enable_gumroad();
 
