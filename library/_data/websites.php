@@ -83,7 +83,7 @@ function get_website_data() {
         ),
         'latteluxury' => array(
             'url' => 'https://latteluxurynews.com/',
-            'name' => 'Latte Lixiry News',
+            'name' => 'Latte Luxury News',
             'theme' => 'broadsheet',
         ),
         'tanboy' => array(
