@@ -142,12 +142,6 @@ function get_website_data() {
             'name' => 'PS Vita Addict',
             'theme' => 'romero',
         ),
-        'industrialminds' => array(
-            'url' => 'http://industrial-minds.net/',
-            'name' => 'Industrial Minds',
-            'theme' => 'romero',
-            'tags' => array( 'featured' ),
-        ),
         'filmexposure' => array(
             'url' => 'http://filmexposure.ch/',
             'name' => 'Film Exposure',
