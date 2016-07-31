@@ -63,9 +63,7 @@ function path( $path = '' ) {
  */
 function get_base() {
 
-    $request = Flight::request();
-
-    return rtrim( $request->base, '/' );
+    return rtrim( Flight::request()->base, '/' );
 
 }
 
