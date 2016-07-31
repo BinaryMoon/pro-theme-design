@@ -27,7 +27,10 @@
 <?php
     if ( ! empty( $theme[ 'url-wporg' ] ) ) {
 ?>
-                        <a href="#" class="button positive get-theme greedy event" data-event="getTheme"><i class="fa fa-download" aria-hidden="true"></i>Get <?php echo $theme['name']; ?> Now!</a>
+                        <!-- <a href="#" class="button positive get-theme greedy event" data-event="getTheme">-->
+                        <a href="<?php echo $theme[ 'url-wporg' ]; ?>" class="button positive greedy event" data-event="getTheme">
+                            <i class="fa fa-download" aria-hidden="true"></i>Get <?php echo $theme['name']; ?> Now!
+                        </a>
 <?php
     }
 
