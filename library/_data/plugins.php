@@ -36,6 +36,12 @@ function get_plugin_data() {
             'image' => 'https://ps.w.org/jetpack/assets/banner-772x250.png?rev=1173629',
             'tags' => array( 'supported' ),
         ),
+        'tailor' => array(
+            'name' => 'Tailor',
+            'description' => 'Create complex page layouts with ease.',
+            'image' => 'https://ps.w.org/tailor/assets/banner-772x250.png?rev=1449152',
+            'tags' => array( 'supported' ),
+        ),
         'radcontrol' => array(
             'name' => 'Word Ads',
             'description' => 'Harness WordPress.com\'s advertising partners for your own website.',
