@@ -58,15 +58,20 @@
  * Should you use wordpress.com or wordpress.org?
  */
 
-/**
- * FlightPHP - http://flightphp.com/
- * FlightPHP on Github - https://github.com/mikecao/flight
- */
+
+// include needed stuff
+include_once( 'flight/Flight.php' );
+include_once( 'library/routes.php' );
+include_once( 'library/data.php' );
+include_once( 'library/functions.php' );
+include_once( 'library/template.php' );
+
 
 $environment = 'prod';
 
+
 // enable debug on localhost
-if ( 'localhost' == $_SERVER[ 'HTTP_HOST' ] ) {
+if ( 'localhost' === $_SERVER[ 'HTTP_HOST' ] ) {
     error_reporting( -1 );
     ini_set( 'display_errors', 'On' );
     $environment = 'dev';
@@ -79,23 +84,14 @@ define( 'DECACHE_JS', '21' );
 define( 'ENV', $environment );
 define( 'GOOGLE_CSE', '010164663960188762731:aajo_mt5e2a' );
 define( 'MANAGE_WP', 'https://managewp.com/?utm_source=A&utm_medium=Link&utm_campaign=A&utm_mrl=3611' );
-
 define( 'DISABLE_GUMROAD', false );
-
-
-// include needed stuff
-include_once( 'flight/Flight.php' );
-include_once( 'library/routes.php' );
-include_once( 'library/data.php' );
-include_once( 'library/functions.php' );
-include_once( 'library/template.php' );
 
 
 // ensure the production site is running on https and using a canonical domain name (no www)
 if ( 'prod' === $environment ) {
 
-    $url = $_SERVER[ 'HTTP_X_FORWARDED_PROTO' ] . '://' . $_SERVER[HTTP_HOST] . $_SERVER[REQUEST_URI];
-    $target_url = 'https://' . str_replace( 'www.', '', $_SERVER[HTTP_HOST] ) . $_SERVER[REQUEST_URI];
+    $url = $_SERVER[ 'HTTP_X_FORWARDED_PROTO' ] . '://' . $_SERVER[ 'HTTP_HOST' ] . $_SERVER[ 'REQUEST_URI' ];
+    $target_url = 'https://' . str_replace( 'www.', '', $_SERVER[ 'HTTP_HOST' ] ) . $_SERVER[ 'REQUEST_URI' ];
 
     if ( $target_url !== $url ) {
         Flight::redirect( $target_url, 301 );
