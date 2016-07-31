@@ -59,16 +59,7 @@
  */
 
 
-// include needed stuff
-include_once( 'flight/Flight.php' );
-include_once( 'library/routes.php' );
-include_once( 'library/data.php' );
-include_once( 'library/functions.php' );
-include_once( 'library/template.php' );
-
-
 $environment = 'prod';
-
 
 // enable debug on localhost
 if ( 'localhost' === $_SERVER[ 'HTTP_HOST' ] ) {
@@ -76,7 +67,6 @@ if ( 'localhost' === $_SERVER[ 'HTTP_HOST' ] ) {
     ini_set( 'display_errors', 'On' );
     $environment = 'dev';
 }
-
 
 // constants
 define( 'DECACHE_CSS', '62' );
@@ -86,6 +76,12 @@ define( 'GOOGLE_CSE', '010164663960188762731:aajo_mt5e2a' );
 define( 'MANAGE_WP', 'https://managewp.com/?utm_source=A&utm_medium=Link&utm_campaign=A&utm_mrl=3611' );
 define( 'DISABLE_GUMROAD', false );
 
+// include needed stuff
+include_once( 'flight/Flight.php' );
+include_once( 'library/routes.php' );
+include_once( 'library/data.php' );
+include_once( 'library/functions.php' );
+include_once( 'library/template.php' );
 
 // ensure the production site is running on https and using a canonical domain name (no www)
 if ( 'prod' === $environment ) {
