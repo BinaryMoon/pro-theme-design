@@ -43,6 +43,20 @@
 
             <p>We do not schedule, or guarantee, product updates however we do update products and will notify customers when we do so. Updates for minor versions will be free. Occassionally we will release a major update to a product and we reserve the right to charge an upgrade fee at our discretion.</p>
 
+            <h2>Personal Information</h2>
+
+            <p>During the auto update process we may send information such as the website url, WordPress version, and theme version to our servers. This is purely for our internal use. Some, such as the website url, is neccessary for the update to work. The WordPress and PHP versions are needed so that we know what technology our customers use so that we can better serve you.</p>
+
+            <p>We do not transfer any personal information such as email addresses. We will never share this information with anyone.</p>
+
+            <h2>Theme License Keys</h2>
+
+            <p>For Theme Auto Updates to work you will need a valid license. Themes can work without a license, however the Auto Updates will not run.</p>
+
+            <p>We reserve the right to stop the use of Theme License Keys at any time without notice.</p>
+
+            <p>If we withdraw a Theme License Key then your theme will continue to work, however you will no longer receive theme updates.</p>
+
             <h2>Transferring themes from wordpress.com</h2>
 
             <p>Unfortunately themes purchased on WordPress.com are separate products and so are non transferable. This is detailed on the <a href="http://en.support.wordpress.com/themes/premium-themes/">premium theme terms on wordpress.com</a>. If you wish to move from wordpress.com to a self hosted site then you will need to repurchase your theme.</p>
