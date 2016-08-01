@@ -17,7 +17,7 @@
 
             <p>We do not offer support for problems with third party plugins/ modifications.</p>
 
-            <p>We do not offer email or phone support.</p>
+            <p>We do not offer phone support.</p>
 
             <p>To help clarify this policy we have put together a support document explaining <a href="<?php echo path( 'documentation/general/support-vs-customization/' ); ?>">the differences between support and customization</a>.</p>
 
