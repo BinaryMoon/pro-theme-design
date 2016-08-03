@@ -39,16 +39,23 @@
         </li>
 
         <li>
-            <a class="twitter" href="https://www.twitter.com/prothemedesign">
+            <a class="twitter social" href="https://www.twitter.com/prothemedesign">
                 <i class="fa fa-twitter" aria-hidden="true"></i>
                 <span class="screen-reader-text">Follow us on Twitter</span>
             </a>
         </li>
 
         <li>
-            <a class="facebook" href="https://www.facebook.com/prothemedesign">
+            <a class="facebook social" href="https://www.facebook.com/prothemedesign">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
                 <span class="screen-reader-text">Follow us on Facebook</span>
+            </a>
+        </li>
+
+        <li>
+            <a class="google-plus social" href="https://plus.google.com/105866087879211758281">
+                <i class="fa fa-google-plus" aria-hidden="true"></i>
+                <span class="screen-reader-text">Follow us on Google Plus</span>
             </a>
         </li>
     </ul>
