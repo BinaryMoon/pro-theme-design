@@ -35,7 +35,7 @@
 
     var toggle_nav = function() {
 
-        $( '.main-menu ul' ).slideToggle();
+        $( '.main-menu' ).toggleClass( 'display' );
 
     };
 
