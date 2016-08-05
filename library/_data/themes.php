@@ -8,6 +8,20 @@ function get_theme_data() {
 
     $themes = array(
 
+        'carmack' => array(
+            'name' => 'Carmack',
+            'description' => 'Carmack is a magazine theme, suitable for Video Games, Movies, Music or any other visual magazine style site. Carmack support featured content and post formats to allow you to create the perfect website.',
+            'short_description' => 'A modern, minimal, magazine theme.',
+            'price-wpcom' => 79,
+            'price-wporg' => 99,
+            'url-wpcom' => 'carmack',
+            //'url-cm' => '',
+            'url-gr' => 'Piwbq',
+            'image' => 'carmack.png',
+            'tags' => array( 'blog' ),
+            'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'portfolio', 'post-formats', 'raddcontrol' ),
+        ),
+
         'passenger' => array(
             'name' => 'Passenger',
             'description' => 'Passenger is a theme designed for travel journals, and scrapbooking sites. With its unique post formats and clean typography, Passenger is great for telling stories.',
@@ -18,8 +32,8 @@ function get_theme_data() {
             //'url-cm' => '312560-Monet-WordPress-Portfolio-Theme',
             'url-gr' => 'noCNI',
             'image' => 'passenger.png',
-            'tags' => array( 'blog' ),
-            'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'portfolio', 'post-formats', 'testimonials', 'portfolio' ),
+            'tags' => array( 'magazine' ),
+            'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'portfolio', 'post-formats', 'testimonials' ),
         ),
 
         'monet' => array(
