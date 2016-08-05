@@ -18,7 +18,7 @@ function get_theme_data() {
             //'url-cm' => '',
             'url-gr' => 'Piwbq',
             'image' => 'carmack.png',
-            'tags' => array( 'blog' ),
+            'tags' => array( 'magazine' ),
             'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'portfolio', 'post-formats', 'raddcontrol' ),
         ),
 
@@ -32,7 +32,7 @@ function get_theme_data() {
             //'url-cm' => '312560-Monet-WordPress-Portfolio-Theme',
             'url-gr' => 'noCNI',
             'image' => 'passenger.png',
-            'tags' => array( 'magazine' ),
+            'tags' => array( 'blog' ),
             'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'portfolio', 'post-formats', 'testimonials' ),
         ),
 
