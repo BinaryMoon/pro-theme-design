@@ -1,4 +1,4 @@
-<h2>Problems setting up Jetpack?</h2>
+<h2>Problems Connecting Jetpack?</h2>
 
 <p>To enable all of Jetpacks features you need to connect your website to wordpress.com. However, to do this, a file called xmlrpc.php needs to be active. Some webhosts disable this. In this case you will get a '403 error'. If this happens then you can install a plugin called <a href="https://wordpress.org/plugins/jetpack-dev-mode/" target="_blank">Jetpack Dev Mode</a>.</p>
 
