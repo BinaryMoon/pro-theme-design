@@ -65,7 +65,7 @@
                     <select name="service" required>
                         <option value="" disabled selected>Select one</option>
                         <option value="wordpress-com">WordPress.com</option>
-                        <option value="gumroad">Gumroad</option>
+                        <option value="gumroad">ProThemeDesign.com (via Gumroad)</option>
                         <option value="creative-market">Creative Market</option>
                         <option value="wordpress-org">WordPress.org</option>
                     </select>
