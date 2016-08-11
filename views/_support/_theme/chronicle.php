@@ -3,7 +3,7 @@
 <img src="<?php echo image_path( 'docs/layout-chronicle.png' ); ?>" alt="Chronicle Homepage Layout" />
 
 <ol>
-    <li><strong>Homepage Slider</strong> The slider is controlled via a property set in the Customizer. Blog posts require <?php echo documentation_link( 'featured-image' ); ?> to display here.</li>
+    <li><strong>Homepage Slider</strong> The slider is controlled via a property set in the Customizer. Blog posts require <?php echo documentation_link( 'featured-image' ); ?> to display here. A maximum of 6 posts at a time will display in the slider.</li>
     <li><strong>Featured Content</strong> The 4 Featured Posts are controlled with <?php echo documentation_link( 'featured-content' ); ?> functionality.</li>
     <li><strong>Featured Categories</strong> The categories used in the third column are controlled with the Customizer. Blog posts require <?php echo documentation_link( 'featured-image' ); ?> to display here. Blog posts will only be shown once in the featured categories column. Some categories may not display. This will be because either there are no posts in the category, the posts in the category do not have featured images, or the posts in the category have been displayed in a different category already.</li>
 </ol>
