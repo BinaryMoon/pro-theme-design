@@ -15,7 +15,7 @@
             'name' => 'Location',
             'icon' => 'globe',
             'value' => sd_get_location(),
-            'description' => 'The location property may not be 100% accurate, especially the city element which is often wrong. However it is useful for seeing if there is anyting wildly wrong with your computer settings (eg showing if you are in the wrong country).',
+            'description' => 'The location property may not be 100% accurate, especially the city element which is often wrong. However it is useful for seeing if there is anything wildly wrong with your computer settings (eg showing if you are in the wrong country).',
         ),
         'browser' => array(
             'name' => 'Web Browser',
@@ -33,7 +33,7 @@
             'name' => 'Platform',
             'icon' => 'laptop',
             'value' => sd_get_platform(),
-            'description' => 'The platform is either the device/ operating system you are using.'
+            'description' => 'The platform is either the device or the operating system you are using.'
         ),
         'javascript' => array(
             'name' => 'Javascript',
