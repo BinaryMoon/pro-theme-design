@@ -3,8 +3,8 @@
 /**
  * File: Browser.php
  * Author: Chris Schuld (http://chrisschuld.com/)
- * Last Modified: July 4th, 2014
- * @version 1.9
+ * Last Modified: July 22nd, 2016
+ * @version 2.0
  * @package PegasusPHP
  *
  * Copyright (C) 2008-2010 Chris Schuld  (chris@chrisschuld.com)
@@ -55,6 +55,7 @@ class Browser
     const BROWSER_OPERA = 'Opera'; // http://www.opera.com/
     const BROWSER_OPERA_MINI = 'Opera Mini'; // http://www.opera.com/mini/
     const BROWSER_WEBTV = 'WebTV'; // http://www.webtv.net/pc/
+    const BROWSER_EDGE = 'Edge'; // https://www.microsoft.com/edge
     const BROWSER_IE = 'Internet Explorer'; // http://www.microsoft.com/ie/
     const BROWSER_POCKET_IE = 'Pocket Internet Explorer'; // http://en.wikipedia.org/wiki/Internet_Explorer_Mobile
     const BROWSER_KONQUEROR = 'Konqueror'; // http://www.konqueror.org/
@@ -83,11 +84,13 @@ class Browser
     const BROWSER_MSN = 'MSN Browser'; // http://explorer.msn.com/
     const BROWSER_MSNBOT = 'MSN Bot'; // http://search.msn.com/msnbot.htm
     const BROWSER_BINGBOT = 'Bing Bot'; // http://en.wikipedia.org/wiki/Bingbot
+    const BROWSER_VIVALDI = 'Vivalidi'; // https://vivaldi.com/
 
     const BROWSER_NETSCAPE_NAVIGATOR = 'Netscape Navigator'; // http://browser.netscape.com/ (DEPRECATED)
     const BROWSER_GALEON = 'Galeon'; // http://galeon.sourceforge.net/ (DEPRECATED)
     const BROWSER_NETPOSITIVE = 'NetPositive'; // http://en.wikipedia.org/wiki/NetPositive (DEPRECATED)
     const BROWSER_PHOENIX = 'Phoenix'; // http://en.wikipedia.org/wiki/History_of_Mozilla_Firefox (DEPRECATED)
+    const BROWSER_PLAYSTATION = "PlayStation";
 
     const PLATFORM_UNKNOWN = 'unknown';
     const PLATFORM_WINDOWS = 'Windows';
@@ -107,10 +110,14 @@ class Browser
     const PLATFORM_SUNOS = 'SunOS';
     const PLATFORM_OPENSOLARIS = 'OpenSolaris';
     const PLATFORM_ANDROID = 'Android';
+    const PLATFORM_PLAYSTATION = "Sony PlayStation";
 
     const OPERATING_SYSTEM_UNKNOWN = 'unknown';
 
-    public function Browser($userAgent = "")
+    /**
+     * Class constructor
+     */
+    public function __construct($userAgent = "")
     {
         $this->reset();
         if ($userAgent != "") {
@@ -381,11 +388,15 @@ class Browser
             //     before Safari
             // (5) Netscape 9+ is based on Firefox so Netscape checks
             //     before FireFox are necessary
+            // (6) Vivalid is UA contains both Firefox and Chrome so Vivalid checks
+            //     before Firefox and Chrome
             $this->checkBrowserWebTv() ||
+            $this->checkBrowserEdge() ||
             $this->checkBrowserInternetExplorer() ||
             $this->checkBrowserOpera() ||
             $this->checkBrowserGaleon() ||
             $this->checkBrowserNetscapeNavigator9Plus() ||
+            $this->checkBrowserVivaldi() ||
             $this->checkBrowserFirefox() ||
             $this->checkBrowserChrome() ||
             $this->checkBrowserOmniWeb() ||
@@ -422,6 +433,7 @@ class Browser
             $this->checkBrowserIceCat() ||
             $this->checkBrowserIceweasel() ||
             $this->checkBrowserW3CValidator() ||
+            $this->checkBrowserPlayStation() ||
             $this->checkBrowserMozilla() /* Mozilla is such an open standard that you must check it last */
         );
     }
@@ -572,6 +584,27 @@ class Browser
             }
         }
         return false;
+    }
+
+    /**
+     * Determine if the browser is Edge or not
+     * @return boolean True if the browser is Edge otherwise false
+     */
+    protected function checkBrowserEdge()
+    {
+      if( stripos($this->_agent,'Edge/') !== false ) {
+            $aresult = explode('/', stristr($this->_agent, 'Edge'));
+            if (isset($aresult[1])) {
+            $aversion = explode(' ', $aresult[1]);
+            $this->setVersion($aversion[0]);
+            $this->setBrowser(self::BROWSER_EDGE);
+            if(stripos($this->_agent, 'Windows Phone') !== false || stripos($this->_agent, 'Android') !== false) {
+                $this->setMobile(true);
+            }
+            return true;
+        }
+      }
+      return false;
     }
 
     /**
@@ -1205,7 +1238,46 @@ class Browser
     }
 
     /**
-     * Determine the user's platform (last updated 1.7)
+     * Determine if the browser is Vivaldi
+     * @return boolean True if the browser is Vivaldi otherwise false
+     */
+    protected function checkBrowserVivaldi()
+    {
+        if (stripos($this->_agent, 'Vivaldi') !== false) {
+            $aresult = explode('/', stristr($this->_agent, 'Vivaldi'));
+            if (isset($aresult[1])) {
+                $aversion = explode(' ', $aresult[1]);
+                $this->setVersion($aversion[0]);
+                $this->setBrowser(self::BROWSER_VIVALDI);
+                return true;
+            }
+        }
+        return false;
+    }
+
+    /**
+     * Determine if the browser is a PlayStation
+     * @return boolean True if the browser is PlayStation otherwise false
+     */
+    protected function checkBrowserPlayStation()
+    {
+        if (stripos($this->_agent, 'PlayStation ') !== false) {
+            $aresult = explode(' ', stristr($this->_agent, 'PlayStation '));
+            $this->setBrowser(self::BROWSER_PLAYSTATION);
+            if (isset($aresult[0])) {
+                $aversion = explode(')', $aresult[2]);
+                $this->setVersion($aversion[0]);
+                if (stripos($this->_agent, 'Portable)') !== false || stripos($this->_agent, 'Vita') !== false) {
+                    $this->setMobile(true);
+                }
+                return true;
+            }
+        }
+        return false;
+    }
+
+    /**
+     * Determine the user's platform (last updated 2.0)
      */
     protected function checkPlatform()
     {
@@ -1276,6 +1348,10 @@ class Browser
         elseif (stripos($this->_agent, 'win') !== false)
         {
             $this->_platform = self::PLATFORM_WINDOWS;
+        }
+        elseif (stripos($this->_agent, 'Playstation') !== false)
+        {
+            $this->_platform = self::PLATFORM_PLAYSTATION;
         }
 
     }
