@@ -90,6 +90,7 @@ class Engine {
         $this->loader->register('router', '\flight\net\Router');
         $this->loader->register('view', '\flight\template\View', array(), function($view) use ($self) {
             $view->path = $self->get('flight.views.path');
+            $view->extension = $self->get('flight.views.extension');
         });
 
         // Register framework methods
@@ -103,9 +104,11 @@ class Engine {
 
         // Default configuration settings
         $this->set('flight.base_url', null);
+        $this->set('flight.case_sensitive', false);
         $this->set('flight.handle_errors', true);
         $this->set('flight.log_errors', false);
         $this->set('flight.views.path', './views');
+        $this->set('flight.views.extension', '.php');
 
         $initialized = true;
     }
@@ -145,9 +148,9 @@ class Engine {
     /**
      * Custom exception handler. Logs exceptions.
      *
-     * @param \Exception $e Thrown exception
+     * @param object $e Thrown exception
      */
-    public function handleException(\Exception $e) {
+    public function handleException($e) {
         if ($this->get('flight.log_errors')) {
             error_log($e->getMessage());
         }
@@ -292,15 +295,13 @@ class Engine {
         // Enable error handling
         $this->handleErrors($this->get('flight.handle_errors'));
 
-        // Disable caching for AJAX requests
-        if ($request->ajax) {
-            $response->cache(false);
-        }
-
         // Allow post-filters to run
         $this->after('start', function() use ($self) {
             $self->stop();
         });
+
+        // Set case-sensitivity
+        $router->case_sensitive = $this->get('flight.case_sensitive');
 
         // Route the request
         while ($route = $router->route($request)) {
@@ -344,7 +345,7 @@ class Engine {
      * @param string $message Response message
      */
     public function _halt($code = 200, $message = '') {
-        $this->response(false)
+        $this->response()
             ->status($code)
             ->write($message)
             ->send();
@@ -353,9 +354,9 @@ class Engine {
     /**
      * Sends an HTTP 500 response for any errors.
      *
-     * @param \Exception Thrown exception
+     * @param object $e Thrown exception
      */
-    public function _error(\Exception $e) {
+    public function _error($e) {
         $msg = sprintf('<h1>500 Internal Server Error</h1>'.
             '<h3>%s (%s)</h3>'.
             '<pre>%s</pre>',
@@ -369,6 +370,9 @@ class Engine {
                 ->status(500)
                 ->write($msg)
                 ->send();
+        }
+        catch (\Throwable $t) {
+            exit($msg);
         }
         catch (\Exception $ex) {
             exit($msg);
@@ -447,13 +451,14 @@ class Engine {
      * @param mixed $data JSON data
      * @param int $code HTTP status code
      * @param bool $encode Whether to perform JSON encoding
+     * @param string $charset Charset
      */
-    public function _json($data, $code = 200, $encode = true) {
+    public function _json($data, $code = 200, $encode = true, $charset = 'utf-8') {
         $json = ($encode) ? json_encode($data) : $data;
 
-        $this->response(false)
+        $this->response()
             ->status($code)
-            ->header('Content-Type', 'application/json')
+            ->header('Content-Type', 'application/json; charset='.$charset)
             ->write($json)
             ->send();
     }
@@ -465,15 +470,16 @@ class Engine {
      * @param string $param Query parameter that specifies the callback name.
      * @param int $code HTTP status code
      * @param bool $encode Whether to perform JSON encoding
+     * @param string $charset Charset
      */
-    public function _jsonp($data, $param = 'jsonp', $code = 200, $encode = true) {
+    public function _jsonp($data, $param = 'jsonp', $code = 200, $encode = true, $charset = 'utf-8') {
         $json = ($encode) ? json_encode($data) : $data;
 
         $callback = $this->request()->query[$param];
 
-        $this->response(false)
+        $this->response()
             ->status($code)
-            ->header('Content-Type', 'application/javascript')
+            ->header('Content-Type', 'application/javascript; charset='.$charset)
             ->write($callback.'('.$json.');')
             ->send();
     }
@@ -501,7 +507,7 @@ class Engine {
      * @param int $time Unix timestamp
      */
     public function _lastModified($time) {
-        $this->response()->header('Last-Modified', date(DATE_RFC1123, $time));
+        $this->response()->header('Last-Modified', gmdate('D, d M Y H:i:s \G\M\T', $time));
 
         if (isset($_SERVER['HTTP_IF_MODIFIED_SINCE']) &&
             strtotime($_SERVER['HTTP_IF_MODIFIED_SINCE']) === $time) {
