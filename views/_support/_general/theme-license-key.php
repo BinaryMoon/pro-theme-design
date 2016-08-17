@@ -2,4 +2,4 @@
 
 <p>The license keys can be found in your Gumroad receipt email, and your Gumroad customer account. If you purchased a theme through Creative Market, or do not have a license key then please see below.</p>
 
-<p>License keys are currently only available for themes purchased via Gumroad after 12th July 2016. Customers who have purchased a theme before this date should get a proof of purchase and then <a href="<?php echo path( 'contact/' ); ?>">contact us</a> and we will set up a license key for you.</p>
+<p>License keys are automatically available for all <strong>themes purchased via Gumroad after 12th July 2016</strong>. Customers who have purchased a theme before this date should get a proof of purchase and then <a href="<?php echo path( 'contact/' ); ?>">contact us</a> and we will send a license key to you.</p>

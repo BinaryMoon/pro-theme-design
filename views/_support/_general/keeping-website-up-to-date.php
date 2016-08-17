@@ -20,9 +20,11 @@
 
 <p>The latest versions of WordPress include an auto update system making it easy to update to point releases. And major releases, plugin, and theme releases, are all one click away so there’s now no reason not to update.</p>
 
-<p>Many like to hold off in case the update breaks their site, theme, or the plugins they use. I’ve been using WordPress since 2007 and have never experienced a theme or plugin breaking. If it does happen to you then it’s likely that your theme or plugin was coded poorly and perhaps you should consider changing the theme or plugin to one that makes better use of WordPress standards.</p>
+<p>Many like to hold off in case the update breaks their site, theme, or the plugins they use. I’ve been using WordPress since 2007 and have never experienced a theme or plugin breaking. If it does happen to you then it’s likely that your theme or plugin was coded poorly and perhaps you should consider changing the theme or plugin to one that makes better use of WordPress standards (<a href="<?php echo path( 'themes/' ); ?>">We have a selection you may like :)</a>)</p>
 
 <p>All of the Pro Theme Design themes are developed using the latest version of WordPress and so we know that updates are safe and won't break things. In the unlikely event that a WordPress update does break something we will issue a bug fix as soon as we can.</p>
+
+<p>The latest versions of our themes include the ability to <a href="<?php echo path( 'documentation/general/theme-updates/' ); ?>">auto update</a>. Make sure you keep your themes up to date to ensure the best security and functionality.</p>
 
 <h2>Conclusion</h2>
 

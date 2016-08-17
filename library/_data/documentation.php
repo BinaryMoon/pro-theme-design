@@ -72,14 +72,16 @@ function get_documentation_data() {
         'theme-updates' => array(
             'name' => 'Theme Updates',
             'type' => 'general',
+            'related' => array( 'theme-license-key', 'keeping-website-up-to-date' ),
         ),
         'wordpress-requirements' => array(
             'name' => 'Theme Requirements',
             'type' => 'general',
         ),
         'keeping-website-up-to-date' => array(
-            'name' => 'Keeping Your Website Up To Date',
+            'name' => 'Keeping Your WordPress Website Up To Date',
             'type' => 'general',
+            'related' => array( 'theme-license-key', 'theme-updates' ),
         ),
         'speeding-up-your-wordpress-site' => array(
             'name' => 'Speeding Up Your WordPress Website',
@@ -101,6 +103,7 @@ function get_documentation_data() {
         'theme-license-key' => array(
             'name' => 'Theme License Key',
             'type' => 'general',
+            'related' => array( 'keeping-website-up-to-date', 'theme-updates' ),
         ),
 
 
