@@ -76,18 +76,14 @@ function get_base() {
 function twitter_share_link( $message = '' ) {
 
     $args = array(
-        'text' => urlencode( $message ),
-        'url' => urlencode( 'https://prothemedesign.com' . Flight::request()->url ),
+        'text' => $message,
+        'url' => 'https://prothemedesign.com' . Flight::request()->url,
         'related' => 'prothemedesign',
     );
 
     $link = 'http://twitter.com/intent/tweet?';
 
-    foreach( $args as $k => $v ) {
-        $link .= '&amp;' . $k . '=' . $v;
-    }
-
-    echo $link;
+    echo $link . http_build_query( $args, '', '&amp;' );
 
 }
 
