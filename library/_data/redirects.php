@@ -20,6 +20,7 @@ function get_redirects() {
         'support/' => '/documentation/',
         'circular-icons' => '/tools/circular-icons/',
         'free-webdesign-tools/circular-icons' => '/tools/circular-icons/',
+        'files/icons-circular.zip' => '/tools/circular-icons/',
         'theme' => '/',
         'how-to' => '/articles/',
         'products' => '/',
