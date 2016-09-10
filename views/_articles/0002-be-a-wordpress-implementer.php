@@ -38,7 +38,7 @@
     <li><strong>Develop locally - then sync to your production site</strong> - often called 'Ninja Coding', working directly on a live server is asking for trouble. It is well worth learning how to use something like MAMP, or XAMPP - or even something more modern like VVV. These things sound complex, but they make development considerably easier.</li>
     <li><strong>Don't use the WordPress file editor</strong> - using it means that you're (probably) breaking tips 1 and 3 above. You're editing core theme files, on a live server. Not only is it slower - but it opens you up to all sorts of potential breakage.</li>
     <li><strong>Learn HTML, CSS, PHP, JS (in that order)</strong> - this can sound intimidating - but the more you use them, the more confident you will feel, and the more you will be able to offer your clients.</li>
-    <li><strong>Keep WordPress, Themes, and Plugins up to date</strong> - really. Do it. Security is very important, you don't want your clients to get hacked, so make sure you keep everything up to date. The previously mentioned tool - <a href="<?php echo MANAGE_WP; ?>">ManageWP</a> - is great for this.</li>
+    <li><strong>Keep WordPress, Themes, and Plugins up to date</strong> - really. Do it. Security is very important, you don't want your clients to get hacked, so make sure you keep everything up to date. The previously mentioned tool - <a href="<?php echo MANAGE_WP; ?>">ManageWP</a> - is great for this. We've written more about why you should <a href="<?php echo path( 'documentation/general/keeping-website-up-to-date/' ); ?>">keep WordPress up to date</a> in our support docs.</li>
 </ol>
 
 <h2>Improving WordPress Development Skills</h2>
