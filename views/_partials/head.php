@@ -24,10 +24,6 @@
         </script>
 <?php
     include( 'head-open-graph.php' );
-
-    if ( 'prod' == ENV ) {
-        include( 'tracking.php' );
-    }
 ?>
 
     </head>

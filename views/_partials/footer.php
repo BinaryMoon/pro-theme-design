@@ -94,7 +94,13 @@
 
         <div class="overlay"></div>
 
-        <?php site_script(); ?>
+<?php
+    if ( 'prod' == ENV ) {
+        include( 'tracking.php' );
+    }
+
+    site_script();
+?>
 
     </body>
 </html>
