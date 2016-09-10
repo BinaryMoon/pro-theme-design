@@ -35,7 +35,7 @@
 
 <p>Once you're up and running then there's a lot of good tips on sites like <a href="http://www.problogger.net/">Pro Blogger</a>, <a href="http://howtomakemyblog.com/">How to make my blog</a>, and <a href="http://www.dailyblogtips.com/">Daily Blog Tips</a>.</p>
 
-<p>You've built a WordPress blog and now you need to promote it, a great place to start is the Google</p>
+<p>You've built a WordPress blog and now you need to promote it, a great place to start is the <a href="https://digitalgarage.withgoogle.com/">Google Digital Garage</a> - they will create a lesson plan customised to your business and run you through the basics of marketing your website.</p>
 
 
 <h2 id="advertising-your-business">2. Advertising Your Business</h2>
@@ -46,6 +46,19 @@
 
 <p>A good example of a business theme is <a href="<?php echo path( 'theme/exhibit/' ); ?>">Exhibit</a>.</p>
 
+<h3>Tips for getting the most from your business online</h3>
+
+<p>Once you've set up a WordPress website for your business you need to decide how you want to make use of it. There's little point having a website if you're not going to make the most of it. I have visited small business sites on numerous occassions (restaurants for example) and found out they are out of date (the menu is 3 years). This is incredibly frustrating.</p>
+
+<p>Below is a list of some of the things you can do to help you maximise your sites potential.</p>
+
+<ul>
+    <li>Decide on a target audience. Who are they? What are their interests? How can you help them? Answering these simple questions can make a big difference to the direction you take your website.</li>
+    <li>Setup a newsletter list. But make sure you're going to send useful information that will benefit your visitors.</li>
+    <li>Setup business social media accounts and link to them from your website. Start with 1 or 2 profiles that your audience use the most. Again, make sure you are going to update them regularly.</li>
+    <li>Post news articles about your business that are interesting or useful for your target audience.</li>
+</ul>
+
 
 <h2 id="web-design-and-development-services">3. Web Design &amp; Development Services</h2>
 
@@ -55,7 +68,9 @@
 
 <p>There is also a growing trend towards 'implementors' people who buy ready made themes from sites like <a href="https://prothemedesign.com">Pro Theme Design</a>, or <a href="https://creativemarket.com/?u=BinaryMoon">Creative Market</a>, and then customise them for clients. This is a great starting point for less technical people who don't want to build a site from scratch but know enough html and css to tweak a site to meet a clients needs.</p>
 
-<p>Alternatively you could sign up as a freelancer on sites like <a href="http://codeable.com">Codeable</a> and they will find the work for you.</p>
+<p class="note tip">We've written an in-depth article on <a href="<?php echo path( '/how-to/be-a-wordpress-implementer/' ); ?>">how to become a WordPress Implementor</a>.</p>
+
+<p>Alternatively you could sign up as a freelancer on sites like <a href="http://codeable.com">Codeable</a>. They will take care of finding the work, and accepting payments. It's a great way to start for those who know WordPress inside out but don't know how to market their skills.</p>
 
 
 <h2 id="site-maintenance">4. Site Maintenance</h2>
@@ -64,7 +79,7 @@
 
 <p>For many this could be an add-on service to the <em>Web Design and Development Services</em> mentioned above. Once you have built a customers website why not offer them a monthly maintanence package? For a small monthly fee you would update their software and plugins, and backup their site.</p>
 
-<p>This could add some recurring revenue with little additional work - and would be a great way to enahnce the client relationship for future projects.</p>
+<p>This could add some recurring revenue with little additional work - and would be a great way to enhance the client relationship for future projects.</p>
 
 
 <h2 id="teaching-services">5. Teaching Services</h2>
@@ -84,9 +99,9 @@
 
 <p>This is super popular. There are loads of theme shops around now, with good reason. I started <a href="https://prothemedesign.com/">Pro Theme Design</a> in 2007, and we're still going strong however we're a long way from the biggest theme shop around.</p>
 
-<p>In 2015 WooThemes was aquired by Automattic (the company that owns WordPress.com). The amount was undisclosed but it's rumoured to be over $30 million. That's a lot of money!</p>
+<p>In 2015 WooThemes (a premium theme company) was aquired by Automattic (the company that owns WordPress.com). The amount was undisclosed but it's rumoured to be over $30 million. That's a lot of money!</p>
 
-<p>An easier game to get into - for someone starting out - would be plugins. The theme market is becoming saturated but there's a lot more scope to make useful good quality plugins. Pippins Plugins is one of the top plugin developers out there - creating the popular ecommerce plugin Easy Digital Downloads.</p>
+<p>An easier game to get into - for someone starting out - would be plugins. The theme market is becoming saturated but there's a lot more scope to make useful good quality plugins. Pippins Plugins is one of the top plugin developers out there - creating the popular ecommerce plugin <a href="https://easydigitaldownloads.com/">Easy Digital Downloads</a>.</p>
 
 <p>To sell themes and plugins you could try the following marketplaces:</p>
 
