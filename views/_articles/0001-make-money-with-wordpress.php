@@ -1,6 +1,19 @@
 <p class="intro">WordPress is an incredibly versatile application, and there are many ways to make money with it. On this page I have listed the most common, but I'm sure it's not an exhaustive list. If you know of any others then please do let me know on <a href="https://twitter.com/prothemedesign/">Twitter</a>.</p>
 
-<h2>Blogging</h2>
+<ol>
+    <li><a href="#blogging" class="scroll-to">Blogging</a></li>
+    <li><a href="#advertising-your-business" class="scroll-to">Advertising Your Business</a></li>
+    <li><a href="#web-design-and-developerment-services" class="scroll-to">Web Design and Developement Services</a></li>
+    <li><a href="#site-maintenance" class="scroll-to">Site Maintenance</a></li>
+    <li><a href="#teaching-services" class="scroll-to">Teaching Services</a></li>
+    <li><a href="#selling-premium-themes-and-plugins" class="scroll-to">Selling Premium Themes and Plugins</a></li>
+    <li><a href="#selling-information-products" class="scroll-to">Selling Information Products</a></li>
+    <li><a href="#website-flipping" class="scroll-to">Website Flipping</a></li>
+    <li><a href="#content-writing-services" class="scroll-to">Content Writing Services</a></li>
+</ol>
+
+
+<h2 id="blogging">1. Blogging</h2>
 
 <p>Blogging is what WordPress was built for. Since its creation WordPress has changed a lot and it can now do so much more, but the original purpose was blogging, so let's start there.</p>
 
@@ -14,17 +27,27 @@
 
 <p>Beware of selling links. If you don't add links as 'nofollow' then you may end up being penalised by Google. This practice has been frowned upon for some time but there are still companies trying to sell them.</p>
 
-<p>If you're in the market for a new blogging theme then our most popular are <a href="<?php echo path( 'theme/opti/' ); ?>">Opti</a>, and <a href="<?php echo path( 'theme/monet/' ); ?>">Monet</a>.</p>
+<p class="note tip">If you're in the market for a new blogging theme then our most popular are <a href="<?php echo path( 'theme/opti/' ); ?>">Opti</a>, and <a href="<?php echo path( 'theme/monet/' ); ?>">Monet</a>.</p>
 
-<h2>Advertising Your Business</h2>
+<h3>Getting Started Blogging</h3>
+
+<p>There's lots of blogs about blogging - and making a successful blog. If you're just getting started then the <a href="https://dailypost.wordpress.com/blogging-university/">WordPress.com Blogging University courses</a> are a good place to start.</p>
+
+<p>Once you're up and running then there's a lot of good tips on sites like <a href="http://www.problogger.net/">Pro Blogger</a>, <a href="http://howtomakemyblog.com/">How to make my blog</a>, and <a href="http://www.dailyblogtips.com/">Daily Blog Tips</a>.</p>
+
+<p>You've built a WordPress blog and now you need to promote it, a great place to start is the Google</p>
+
+
+<h2 id="advertising-your-business">2. Advertising Your Business</h2>
 
 <p>The alternative to blogging is simply to use WordPress to advertise your existing business. It doesn't matter what your business is or what you do - all companies should have a web presence. For many people searching online is the first place they go when looking for a solution. If you're not online, you're going to make less money.</p>
 
-<p class="note tip">If you're creating a website for your bricks and mortar store then make sure to include your shop address on the site - atext widget in the sidebar or footer is ideal. This will make it easy for people to find you - and it will tell Google where you are, so that it can be relevant for local searches.</p>
+<p class="note tip">If you're creating a website for your bricks and mortar store then make sure to include your shop address on the site - a text widget in the sidebar or footer is ideal. This will make it easy for people to find you - and it will tell Google where you are, so that it can be relevant for local searches.</p>
 
 <p>A good example of a business theme is <a href="<?php echo path( 'theme/exhibit/' ); ?>">Exhibit</a>.</p>
 
-<h2>Web Design &amp; Development Services</h2>
+
+<h2 id="web-design-and-development-services">3. Web Design &amp; Development Services</h2>
 
 <p>If you're an awesome web designer then creating websites for others is an obvious next step.</p>
 
@@ -34,7 +57,8 @@
 
 <p>Alternatively you could sign up as a freelancer on sites like <a href="http://codeable.com">Codeable</a> and they will find the work for you.</p>
 
-<h2>Site Maintenance</h2>
+
+<h2 id="site-maintenance">4. Site Maintenance</h2>
 
 <p>Many people have an existing site and need it to be maintained. For instance they might want backups, or tweaks to the existing site, installing plugins, optimizing servers, or help with optimising their sales. There's loads of things an experienced web developer could offer that would be relatively easy for them to do - and a big benefit to their customers.</p>
 
@@ -42,7 +66,8 @@
 
 <p>This could add some recurring revenue with little additional work - and would be a great way to enahnce the client relationship for future projects.</p>
 
-<h2>Teaching Services</h2>
+
+<h2 id="teaching-services">5. Teaching Services</h2>
 
 <p>People need to learn, and if you're highly skilled at something then sharing your knowledge can be a great way to earn money. Some of the things you could do include:</p>
 
@@ -54,11 +79,12 @@
 
 <p class="note tip"><a href="https://www.woothemes.com/products/sensei/">Sensei</a> is a great plugin for creating online teaching resources in WordPress. It even integrates with WooCommerce so that you can create a paid memberships teaching site.</p>
 
-<h2>Selling Premium Themes and Plugins</h2>
+
+<h2 id="selling-premium-themes-and-plugins">6. Selling Premium Themes and Plugins</h2>
 
 <p>This is super popular. There are loads of theme shops around now, with good reason. I started <a href="https://prothemedesign.com/">Pro Theme Design</a> in 2007, and we're still going strong however we're a long way from the biggest theme shop around.</p>
 
-<p>In 2015 WooThemes was aquired by Automattic (the company that owns wordpress.com). The amount was undisclosed but it's rumoured to be over $30 million. That's a lot of money!</p>
+<p>In 2015 WooThemes was aquired by Automattic (the company that owns WordPress.com). The amount was undisclosed but it's rumoured to be over $30 million. That's a lot of money!</p>
 
 <p>An easier game to get into - for someone starting out - would be plugins. The theme market is becoming saturated but there's a lot more scope to make useful good quality plugins. Pippins Plugins is one of the top plugin developers out there - creating the popular ecommerce plugin Easy Digital Downloads.</p>
 
@@ -76,7 +102,8 @@
 
 <p class="note tip">If I was starting now I would create themes and plugins for a specific, underserved, group of users. I would then try to make the ultimate product for that group of users. This will make marketing much easier.</p>
 
-<h2>Selling Information Products</h2>
+
+<h2 id="selling-information-products">7. Selling Information Products</h2>
 
 <p>If you can build a loyal group of people who love the content you produce then you can create an info product. This would take the form of an ebook/ pdf that people can buy. The ebook would need to go into more detail than your website, and could also include videos or other supplemental data that can't be found anywhere else.</p>
 
@@ -88,7 +115,7 @@
     <li><a href="https://sellfy.com/">Sellfy</a></li>
 </ul>
 
-<p>If you want you could also use a WordPress plugin to sell your digital products however I feel that often this is more work. You will still need to set up payment providers, secure certificates, and generally have more to maintain. If you use a third party service then all you have to do is link to your product on their server. This can work with any type of site (including those powered by wordpress.com).</p>
+<p>If you want you could also use a WordPress plugin to sell your digital products however I feel that often this is more work. You will still need to set up payment providers, secure certificates, and generally have more to maintain. If you use a third party service then all you have to do is link to your product on their server. This can work with any type of site (including those powered by WordPress.com).</p>
 
 <p>However, if you want to go down this path, and you're hosting WordPress yourself, then the following are some of the top WordPress e-commerce plugins.</p>
 
@@ -97,7 +124,8 @@
     <li><a href="https://wordpress.org/plugins/easy-digital-downloads/">Easy Digital Downloads</a></li>
 </ul>
 
-<h2>Website Flipping</h2>
+
+<h2 id="website-flipping">8. Website Flipping</h2>
 
 <p>Website flipping is the act of creating (or purchasing) a website, improving it, and then selling it on for profit.</p>
 
@@ -107,13 +135,15 @@
 
 <p>The alternative is to search through Flippa and find sites you think you can bring value too - and buy them. You will then have a pre-existing site that you can enhance. Once you've built it up you can always look at flipping it on to someone else.</p>
 
-<h2>Content Writing Services</h2>
+
+<h2 id="content-writing-services">9. Content Writing Services</h2>
 
 <p>Blogging isn't for everyone. Many people understand the power of a blog, but don't enjoy writing, or simply don't have the time for writing. That's where content writing services come in.</p>
 
 <p>Good copywriting can make an ok looking website an amazing resource - and so there's a big market for quality writing. This is a great way for less technical people to become involved in WordPress.</p>
 
 <p>Another area of content writing services that you could try is proofreading and content editing. There's a lot of content around that makes a compelling story, but is poorly written and so finding clients who need help with this sort of thing can also make a big difference to the perception of a website.</p>
+
 
 <h2>Conclusion</h2>
 
