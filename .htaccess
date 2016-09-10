@@ -1,3 +1,10 @@
+#php_flag log_errors on
+#php_flag display_errors off
+#php_value error_log  /home/protheme/public_html/.error_log
+#php_value error_reporting -1
+
+
+
 RewriteEngine On
 
 # remove query string parameters
