@@ -6,11 +6,11 @@
 
 <p>WordPress.com is perfect for less technical users who just want to create a website - and have someone else take care of all the technical mumbo jumbo.</p>
 
-<p>WordPress.com features a lot of advanced functionality that is not available on a self hosted (wordpress.org) installation of WordPress.</p>
+<p>WordPress.com features a lot of advanced functionality that is not available on a self hosted (WordPress.org) installation of WordPress.</p>
 
 <p>WordPress.com is updated regularly with new functionality and bug fixes.</p>
 
-<p>If you want to use a premium theme for wordpress.com then you have two options:</p>
+<p>If you want to use a premium theme for WordPress.com then you have two options:</p>
 
 <ol>
     <li>You can use a free account, and buy a theme for a one off payment.</li>
@@ -40,7 +40,7 @@
 
     <tr>
         <td class="feature">Allows Plugins</td>
-        <td>You can chose from the hundreds of plugins available on wordpress.org.</td>
+        <td>You can chose from the hundreds of plugins available on WordPress.org.</td>
         <td>They have integrated the most commonly needed plugins - you can't use any other plugins beyond the ones included.</td>
     </tr>
 
@@ -64,7 +64,7 @@
 
     <tr>
         <td class="feature">Allows Custom Themes</td>
-        <td>You can design your own themes, or use any of the themes on wordpress.org or purchased from theme shops such as ours.</td>
+        <td>You can design your own themes, or use any of the themes on WordPress.org or purchased from theme shops such as ours.</td>
         <td>They have a selection of around 200 themes. You can not upload your own or use any others outside this selection.</td>
     </tr>
 

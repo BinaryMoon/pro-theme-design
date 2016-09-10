@@ -5,7 +5,7 @@
 
     <p class="intro">The following are a series of guidelines we use when designing themes. These are designed to ensure our themes are as flexible and easy to use as possible.</p>
 
-    <p class="note tip">From a technical perspective, the <a href="https://developer.wordpress.com/themes/">theme developer guidelines</a> on wordpress.com should be followed.</p>
+    <p class="note tip">From a technical perspective, the <a href="https://developer.wordpress.com/themes/">theme developer guidelines</a> on WordPress.com should be followed.</p>
 
     <h2>Must Support</h2>
 

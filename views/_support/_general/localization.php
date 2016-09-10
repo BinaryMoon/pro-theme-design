@@ -9,7 +9,7 @@
 <p>If you've purchased the theme and it does not support your language then there's two things you could do.</p>
 
 <ol>
-    <li>Use translate.wordpress.com to translate the theme. This is ideal for wordpress.com</li>
+    <li>Use translate.wordpress.com to translate the theme. This is ideal for WordPress.com</li>
     <li>Use Poedit to translate the theme. The quickest solution for a self hosted site.</li>
 </ol>
 
@@ -20,10 +20,10 @@
 <p>To do this you should:</p>
 
 <ol>
-    <li>Create a wordpress.com account.</li>
-    <li>Visit <a href="https://translate.wordpress.com/projects/wpcom/themes">translate.wordpress.com</a> whilst logged in to your wordpress.com account.</li>
+    <li>Create a <a href="https://wordpress.com">WordPress.com</a> account.</li>
+    <li>Visit <a href="https://translate.wordpress.com/projects/wpcom/themes">translate.wordpress.com</a> whilst logged in to your WordPress.com account.</li>
     <li>Pick the theme you would like to translate.</li>
-    <li>Pick the language you would like to translate the theme in to.</li>
+    <li>Pick the language you would like to translate the theme to.</li>
     <li>At the top of the page, press the 'Untranslated' link. This will filter the posts down to the ones that have are still in English.</li>
     <li>Double click the text you would like to change, and then enter the translation. Repeat for all texts.</li>
     <li>Once done - the translations will need to be approved (this is where we have to wait). If you <a href="<?php echo path( 'contact/' ); ?>">contact us</a> and let us know which theme and language then we can prompt someone to do it a bit quicker.</li>

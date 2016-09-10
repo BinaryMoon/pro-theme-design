@@ -22,7 +22,7 @@
         <li>test custom header, with and without an image</li>
         <li>test responsive styles</li>
         <li>set content_width</li>
-        <li>set theme_colors (wordpress.com themes only)</li>
+        <li>set theme_colors (WordPress.com themes only)</li>
         <li>check custom page template styles</li>
         <li>create rtl.css - <a href="http://www.rtl-er.com/">http://www.rtl-er.com/</a></li>
         <li>change google font slugs so they match the font names (in functions.php and wpcom.php)</li>

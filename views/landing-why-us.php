@@ -76,7 +76,7 @@
 
             <ul>
                 <li><strong>Styleguide</strong> - this plugin lets you edit fonts and colours in many of our themes.</li>
-                <li><strong>Jetpack</strong> - this plugin is made by Automattic, the team behind wordpress.com - it brings a lot of the wordpress.com functionality to self hosted sites.</li>
+                <li><strong>Jetpack</strong> - this plugin is made by Automattic, the team behind WordPress.com - it brings a lot of the WordPress.com functionality to self hosted sites.</li>
                 <li><strong>Front Page Category</strong> - this plugin lets you select the categories that display on the front page of your website.</li>
             </ul>
 

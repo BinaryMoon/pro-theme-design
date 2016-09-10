@@ -6,7 +6,7 @@
 
     <p>Opti was created as a minimal theme that complements your personal style and brand. It keep things clean so that you can easily change colours, and add images, to make it your own.</p>
 
-    <p>Opti is available on wordpress.com and as such has had a full code review by the team there - meaning you can be assured that everything does what it is meant too.</p>
+    <p>Opti is available on WordPress.com and as such has had a full code review by the team there - meaning you can be assured that everything does what it is meant too.</p>
 
     <p>Making full use of WordPress functionality you can set featured images, create custom navigation, and use the theme customiser to edit the colour schemes quickly and easily.</p>
 

@@ -1,4 +1,4 @@
-<p class="intro">Many of our themes are available on wordpress.com. You can see a list of the available themes below:</p>
+<p class="intro">Many of our themes are available on WordPress.com. You can see a list of the available themes below:</p>
 
 <?php
     $themes = get_theme_data();

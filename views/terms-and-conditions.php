@@ -11,7 +11,7 @@
 
             <h2>Support</h2>
 
-            <p>We offer support via the relevant support forums. For wordpress.com please use the <a href="https://premium-themes.forums.wordpress.com">premium themes forum</a>. For self hosted themes you can use our <a href="<?php echo path( 'contact/' ); ?>">contact page</a>.</p>
+            <p>We offer support via the relevant support forums. For WordPress.com please use the <a href="https://premium-themes.forums.wordpress.com">premium themes forum</a>. For self hosted themes you can use our <a href="<?php echo path( 'contact/' ); ?>">contact page</a>.</p>
 
             <p>The support we offer is restricted to fixing bugs in our themes. Unfortunately we don't help with theme modifications/ customisations or installation issues. For help with customizations we have partnered with Codeable who offer <a href="<?php echo path( 'theme-customization/' ); ?>">customization services for WordPress websites</a>.</p>
 
@@ -57,9 +57,9 @@
 
             <p>If we withdraw a Theme License Key then your theme will continue to work, however you will no longer receive theme updates.</p>
 
-            <h2>Transferring themes from wordpress.com</h2>
+            <h2>Transferring themes from WordPress.com</h2>
 
-            <p>Unfortunately themes purchased on WordPress.com are separate products and so are non transferable. This is detailed on the <a href="http://en.support.wordpress.com/themes/premium-themes/">premium theme terms on wordpress.com</a>. If you wish to move from wordpress.com to a self hosted site then you will need to repurchase your theme.</p>
+            <p>Unfortunately themes purchased on WordPress.com are separate products and so are non transferable. This is detailed on the <a href="http://en.support.wordpress.com/themes/premium-themes/">premium theme terms on WordPress.com</a>. If you wish to move from WordPress.com to a self hosted site then you will need to repurchase your theme.</p>
         </div>
 
 

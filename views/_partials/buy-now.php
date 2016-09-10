@@ -33,7 +33,7 @@
 
                 <div class="note alt message">
                     <p><strong>WordPress.com - cloud hosted</strong>: Get a hosted version of <?php echo $theme[ 'name' ]; ?>. No setup or technical headaches (or theme download).</p>
-                    <a href="<?php echo $theme[ 'url-wpcom' ]; ?>" target="_blank" class="button end">Get for wordpress.com<i class="fa fa-external-link end" aria-hidden="true"></i></a>
+                    <a href="<?php echo $theme[ 'url-wpcom' ]; ?>" target="_blank" class="button end">Get for WordPress.com<i class="fa fa-external-link end" aria-hidden="true"></i></a>
                 </div>
 
                 -->
