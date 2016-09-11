@@ -77,9 +77,13 @@
 
 <p>Many people have an existing site and need it to be maintained. For instance they might want backups, or tweaks to the existing site, installing plugins, optimizing servers, or help with optimising their sales. There's loads of things an experienced web developer could offer that would be relatively easy for them to do - and a big benefit to their customers.</p>
 
-<p>For many this could be an add-on service to the <em>Web Design and Development Services</em> mentioned above. Once you have built a customers website why not offer them a monthly maintanence package? For a small monthly fee you would update their software and plugins, and backup their site.</p>
+<p>For many this could be an add-on service to the <a href="#web-design-and-development-services" class="scroll-tp">Web Design and Development Services</a> mentioned above. Once you have built a customers website why not offer them a monthly maintanence package? For a small monthly fee you would update their software and plugins, and backup their site.</p>
 
 <p>This could add some recurring revenue with little additional work - and would be a great way to enhance the client relationship for future projects.</p>
+
+<p>To make this even easier you could use a service like <a href="<?php echo MANAGE_WP; ?>">ManageWP</a>, <a href="https://infinitewp.com/">InfiniteWP</a>, or <a href="https://mainwp.com/">MainWP</a>. These are all web services that take care of backing up, and updating, your WordPress websites.</p>
+
+<p>Of course it's not quite as simple as using these apps, if people are paying you monthly then you should provide value for money. You will need to make sure you regularly test and maintain the sites - but these sites can simplify the process massively.</p>
 
 
 <h2 id="teaching-services">5. Teaching Services</h2>
@@ -88,8 +92,9 @@
 
 <ul>
     <li>Creating a blog that teaches people your skills - and then hiring yourself out to give 1 to 1 tuition and advice. <a href="https://chrislema.com/">Chris Lema</a> has been doing great with this by selling time with himself for people to pick his brain (using <a href="http://clarity.fm/">Clarity.fm</a>).</li>
-    <li>Writing tutorials and charging for videos or other supplemental content that offers more detailed information and help.</li>
+    <li>Writing tutorials and charging for videos or other supplemental content that offers more detailed information and help. I'm trying something like this for WordPress with <a href="https://masterwp.co">MasterWP</a>.</li>
     <li>Creating a subscription site or community, offering some content for free, and more advanced content for money.</li>
+    <li>Creating content for education websites like <a href="https://www.udemy.com/">Udemy</a>, and <a href="https://www.codecademy.com/">Codecademy</a>. You don't even need a website for this!</li>
 </ul>
 
 <p class="note tip"><a href="https://www.woothemes.com/products/sensei/">Sensei</a> is a great plugin for creating online teaching resources in WordPress. It even integrates with WooCommerce so that you can create a paid memberships teaching site.</p>
@@ -146,7 +151,7 @@
 
 <p>Creating a simple WordPress site, filling it with some content, and then flipping it - is relatively easy for an experienced WordPress developer. However if it's a basic site with no traffic you'll not get much back from your investment. What you need to do is build the website into a good property with decent traffic and Google rankings (and ideally income), and that's when the big money can begin.</p>
 
-<p>The most popular place for selling websites is <a href="http://flippa.com">Flippa</a>. You can find all sorts of sites on their - including some that you might consider bargains.</p>
+<p>The most popular place for selling websites is <a href="http://flippa.com">Flippa</a>. You can find all sorts of sites on there - including some that you might consider bargains.</p>
 
 <p>The alternative is to search through Flippa and find sites you think you can bring value too - and buy them. You will then have a pre-existing site that you can enhance. Once you've built it up you can always look at flipping it on to someone else.</p>
 
