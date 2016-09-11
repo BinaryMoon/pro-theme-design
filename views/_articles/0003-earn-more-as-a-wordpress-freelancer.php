@@ -37,6 +37,8 @@
 
 <p>Find out a clients budget for the project. If their budget is a lot higher than your normal rate then increase your rates to match. You don't have to take their whole budget - but if they want to work with you then there's no reason you shouldn't earn as much as you can.</p>
 
+<p>If their budget is less than your rate, then either adjust the project scope accordingly, or recommend something else that will allow them to come in at budget. You could even pass on the project - you have to make sure the work you take will benefit you.</p>
+
 <h2>Create Relationships</h2>
 
 <p>Creating relationships is a good skill to have for any WordPress freelancer. Treat your clients well and they will keep coming back to you, and recommending you to their friends and colleagues.</p>
@@ -56,6 +58,8 @@
 <h2>Buy Themes and Plugins (and other 3rd party services)</h2>
 
 <p>The old saying 'You have to spend money to make money' has a lot of basis in truth. Spending money on <a href="<?php echo path( 'themes/' ); ?>">quality themes</a> and plugins means that you can save a lot of time, and get your work completed more quickly.</p>
+
+<p>For example; if a website is budgeted for a week long build, and you could buy a theme and customise it in a day, then spending $100 and saving 4 days of work means delivering the project more quickly for the client, and earning you more money. It's a win-win-win situation (three wins since the theme developer also sells an extra theme).</p>
 
 <p>Clearly we're biased, but <a href="<?php echo path( 'themes/' ); ?>">our WordPress themes</a> are designed to be very simple to modify. They use a traditional WordPress theme structure and so you can easily create child themes that override templates and styles. Our themes don't have hundreds of options, which makes them much easier to customize to your clients needs.</p>
 
