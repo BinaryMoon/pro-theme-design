@@ -281,6 +281,11 @@ function get_theme_data() {
             $theme[ 'url-wporg' ] = '';
         }
 
+        // Creative Market url for affiliate page
+        if ( ! empty( $theme[ 'url-cm' ] ) ) {
+            $theme[ 'url-cm' ] = 'https://creativemarket.com/BinaryMoon/' . $theme['url-cm'] . '?u=BinaryMoon';
+        }
+
         // all themes are on wordpress.com so fill out the rest of the url
         $theme[ 'url-wpcom' ] = 'https://wordpress.com/theme/' . $theme[ 'url-wpcom' ] . '/';
 

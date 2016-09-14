@@ -8,9 +8,9 @@
 <ul>
 <?php
     foreach( $themes as $theme ) {
-        if ( ! empty( $theme[ 'price-wporg' ] ) && 'free!' !== $theme[ 'price-wporg' ] ) {
+        if ( ! empty( $theme[ 'url-cm' ] ) ) {
 ?>
-    <li><a href="<?php echo $theme[ 'url-wporg' ]; ?>" target="_blank"><strong><?php echo $theme[ 'name' ]; ?></strong> - <?php echo $theme[ 'url-wporg' ]; ?></a></li>
+    <li><a href="<?php echo $theme[ 'url-cm' ]; ?>" target="_blank"><strong><?php echo $theme[ 'name' ]; ?></strong> - <?php echo $theme[ 'url-cm' ]; ?></a></li>
 <?php
         }
     }
