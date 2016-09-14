@@ -489,7 +489,7 @@ function themes_by_tag( $tag = '' ) {
 
         if ( in_array( $tag, $theme['tags'] ) || '' === $tag ) {
 
-            $theme[ 'url' ] = $theme[ 'url-wporg' ];
+            //$theme[ 'url' ] = $theme[ 'url-wporg' ];
 
             if ( 'wordpress.com' === $tag ) {
                 $theme[ 'url-details' ] = $theme[ 'url-wpcom' ];
