@@ -47,7 +47,7 @@ function get_theme_data() {
             'url-gr' => 'RWkNX',
             'image' => 'monet.png',
             'tags' => array( 'portfolio', 'photography' ),
-            'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'social-menu', 'portfolio', ),
+            'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'social-menu', 'portfolio', 'theme-club', ),
         ),
 
         'puzzle' => array(
@@ -272,7 +272,7 @@ function get_theme_data() {
 
         // set wordpress.org url if applicable
         if ( ! DISABLE_GUMROAD && ! empty( $theme[ 'url-gr' ] ) ) {
-            $theme[ 'url-wporg' ] = 'https://gumroad.com/l/' . $theme['url-gr'] . '/';
+            $theme[ 'url-wporg' ] = 'https://gum.co/' . $theme['url-gr'] . '/?wanted=true';
         } else if ( ! empty( $theme[ 'url-wporg' ] ) ) {
             $theme[ 'url-wporg' ] = 'https://wordpress.org/themes/' . $theme['url-wporg'] . '/';
         } else if ( ! empty( $theme[ 'price-wporg' ] ) ) {
