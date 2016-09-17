@@ -1,0 +1,52 @@
+<h3>2.1.1 - 17th July</h3>
+<ul>
+<li>Improve coding standards</li>
+</ul>
+<h3>2.1 - 28th June 2016</h3>
+<ul>
+<li>Add option to change 'view all projects' button text in the Customizer. Allows users to make the projects title and button match.</li>
+<li>You can also now hide the 'view all projects' button by removing the default text</li>
+<li>Various minor site style improvements</li>
+</ul>
+<h3>2.0.3</h3>
+<ul>
+<li>Fix issue with image attachment template</li>
+<li>Tweak header size so that it fits a bit better on shorter screens</li>
+</ul>
+<h3>2.0.2</h3>
+<ul>
+<li>Add social link icons usable in menus with the addition of the icon class</li>
+</ul>
+<h3>2.0.1</h3>
+<ul>
+<li>Improve coding standards</li>
+<li>Make 404 template consistent</li>
+<li>More minor css tweaks and improvements</li>
+</ul>
+<h3>2.0.0</h3>
+<ul>
+<li>Bump version to avoid clashes with wp.org theme</li>
+<li>Improve css</li>
+</ul>
+<h3>1.0.4</h3>
+<ul>
+<li>Add support for Behance to social links menu</li>
+<li>Ensure bold fonts work with custom fonts</li>
+</ul>
+<h3>1.0.3</h3>
+<ul>
+<li>make sure margins work when custom page is set as homepage</li>
+</ul>
+<h3>1.0.2</h3>
+<ul>
+<li>add comments to full width template</li>
+<li>standardize comments include on contributors template</li>
+</ul>
+<h3>1.0.1</h3>
+<ul>
+<li>improve responsive styles on projects template intro</li>
+</ul>
+<h3>1.0</h3>
+<ul>
+<li>Initial release</li>
+</ul>

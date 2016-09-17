@@ -1,0 +1,16 @@
+<h3>1.2 - 11 July 2016</h3>
+<ul>
+<li>Fix issue with responsive navigation not allowing the first menu item to be selected</li>
+</ul>
+<h3>1.1 - 5 June 2016</h3>
+<ul>
+<li>Tidy up the codes</li>
+<li>replace wp_title with title-tag support</li>
+<li>remove request for missing javascript file (404 error)</li>
+<li>improve masonry functionality</li>
+<li>add functions for default social widget sizing</li>
+</ul>
+<h3>1.0</h3>
+<ul>
+<li>Initial release</li>
+</ul>

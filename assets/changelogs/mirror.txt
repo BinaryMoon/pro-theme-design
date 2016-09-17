@@ -1,0 +1,17 @@
+<h3>2.1.1 - 13th September 2016</h3>
+<ul>
+<li>Update wordwrap css properties.</li>
+</ul>
+<h3>2.1 - 17th July 2016</h3>
+<ul>
+<li>Improve coding standards and security</li>
+<li>Many minor improvements to css styles to improve compatibility and resilience</li>
+</ul>
+<h3>2.0</h3>
+<ul>
+<li>wordpress.com release</li>
+</ul>
+<h3>1.0</h3>
+<ul>
+<li>Initial release</li>
+</ul>

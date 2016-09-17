@@ -1,0 +1,52 @@
+<h3>1.4 - 28th July 2016</h3>
+<ul>
+<li>Improve rtl.css</li>
+<li>fix post subscription form layout</li>
+<li>Improve behaviour of overlay widgets in the Customizer</li>
+<li>Code style improvements</li>
+</ul>
+<h3>1.3.6 - 30 May 2016</h3>
+<ul>
+<li>Tweak responsive styles so that post titles are immediately readable and don't need to be interacted with</li>
+</ul>
+<h3>1.3.5</h3>
+<ul>
+<li>Update slider.js to remove flash on display of first slide</li>
+<li>Add support for more post types in featured content</li>
+</ul>
+<h3>1.3.4</h3>
+<ul>
+<li>Fix issue with image attachment template</li>
+</ul>
+<h3>1.3.3</h3>
+<ul>
+<li>Improve coding standards</li>
+<li>Make sidebar menu links with no hrefs open sub menus (if available)</li>
+</ul>
+<h3>1.3.2</h3>
+<ul>
+<li>Fix issue with header description changing colour with custom header</li>
+</ul>
+<h3>1.3.1</h3>
+<ul>
+<li>fix content display on projects template</li>
+</ul>
+<h3>1.3</h3>
+<ul>
+<li>add a projects page template to allow setting the homepage layout to use Jetpack Projects instead of blog posts</li>
+<li>add portfolio categories to archive template</li>
+</ul>
+<h3>1.2</h3>
+<ul>
+<li>improve the infinite scroll &amp; masonry loading setup (better code and nicer effect)</li>
+<li>improve widget styles</li>
+</ul>
+<h3>1.1</h3>
+<ul>
+<li>add Customizer option to hide featured images on blog posts</li>
+<li>minor css improvements</li>
+</ul>
+<h3>1.0</h3>
+<ul>
+<li>Initial release</li>
+</ul>

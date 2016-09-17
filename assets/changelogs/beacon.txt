@@ -1,0 +1,33 @@
+<h3>1.4 - 15th September 2016</h3>
+<ul>
+<li>Add customizer settings to change the text that appears on the latest, and most discussed tabs.</li>
+</ul>
+<h3>1.3.2 - 15th July 2016</h3>
+<ul>
+<li>Remove gaps between featured content items to make sure they take up the correct amount of space</li>
+<li>Improve coding standards and improve security (escaping)</li>
+<li>Fix contributors template</li>
+</ul>
+<h3>1.3.1</h3>
+<ul>
+<li>Correct localisation strings</li>
+</ul>
+<h3>1.3</h3>
+<ul>
+<li>Move banner ad (word ads) position to a better location</li>
+<li>escape some translations</li>
+</ul>
+<h3>1.2</h3>
+<ul>
+<li>Fix issue with image attachments</li>
+<li>Improve attachment page layout</li>
+<li>switch to add_theme_support( 'title-tag' );</li>
+</ul>
+<h3>1.1</h3>
+<ul>
+<li>Make the archive pages and homepage layout match. This means the posts per page value set in the admin will produce consistent layouts across homepage and archives.</li>
+</ul>
+<h3>1.0</h3>
+<ul>
+<li>Initial release</li>
+</ul>

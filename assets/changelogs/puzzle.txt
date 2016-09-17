@@ -1,0 +1,71 @@
+<h3>1.7 - 28th July 2016</h3>
+<ul>
+<li>Improve rtl.css</li>
+</ul>
+<h3>1.6.1</h3>
+<ul>
+<li>Fix small issue with image attachment template</li>
+</ul>
+<h3>1.6</h3>
+<ul>
+<li>Stop small content jump when page first loads</li>
+<li>Switch to <code>add_theme_support(title-tag)</code> for improved title tag support</li>
+<li>fix a bug in infinite scroll that occurs on self hosted sites when the site has footer widgets enabled</li>
+<li>Improve coding standards</li>
+</ul>
+<h3>1.5.3</h3>
+<ul>
+<li>Add social link icons usable in menus with the addition of the icon class</li>
+</ul>
+<h3>1.5.2</h3>
+<ul>
+<li>Move skip to content link outside of container</li>
+<li>Make container relative for easier css position modifications</li>
+<li>tidy some codes and add some sanitisation to strings</li>
+<li>link to https version of prothemedesign.com</li>
+<li>Fix some bugs in Jetpack Testimonials</li>
+</ul>
+<h3>1.5.1</h3>
+<ul>
+<li>Fix undefined variable errors related to Testimonials</li>
+</ul>
+<h3>1.5</h3>
+<ul>
+<li>Improve Masonry code to add some nice transitions</li>
+<li>Improve widget styles</li>
+</ul>
+<h3>1.4</h3>
+<ul>
+<li>Add new custom page layout that displays Jetpack projects. Can be used as a homepage template</li>
+</ul>
+<h3>1.3.1</h3>
+<ul>
+<li>Improve archive titles</li>
+</ul>
+<h3>1.3</h3>
+<ul>
+<li>Spring clean the code - including adding Jetpack responsive video support, updating masonry and improving text domain support</li>
+<li>add another page layout</li>
+<li>make logo size proportional so that other ratios will work</li>
+</ul>
+<h3>1.2.1</h3>
+<ul>
+<li>Tweak archive font sizes so that longer titles will fit in the smaller boxes</li>
+<li>Add some new archive page layout options</li>
+</ul>
+<h3>1.2</h3>
+<ul>
+<li>Add Jetpack site logo support</li>
+<li>Tweak featured image sizes so they always look nice</li>
+<li>Improve touch screen usage so that titles are always visible on mobile devices</li>
+</ul>
+<h3>1.1</h3>
+<ul>
+<li>Add support for Jetpack Testimonials to homepage</li>
+<li>Improve dropdown menu code, including support on mobile devices</li>
+<li>Add option for 'latest posts' on single posts to be hidden</li>
+</ul>
+<h3>1.0</h3>
+<ul>
+<li>Initial release</li>
+</ul>

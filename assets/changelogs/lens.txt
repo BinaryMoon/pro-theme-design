@@ -1,0 +1,52 @@
+<h3>10.1.5</h3>
+<ul>
+<li>Reduce the width of the dropdown menus slightly</li>
+</ul>
+<h3>10.1.4</h3>
+<ul>
+<li>Stop loading responsive-nav.js to remove 404 error</li>
+<li>tidy html</li>
+<li>set min-heights for socialmedia widgets so that they work better in masonry footer</li>
+</ul>
+<h3>10.1.3</h3>
+<ul>
+<li>Fix issue with image attachment template</li>
+</ul>
+<h3>10.1.2</h3>
+<ul>
+<li>make the post archive boxes a proportional size rather than an absolute pixel value. Means the boxes remain square</li>
+</ul>
+<h3>10.1.1</h3>
+<ul>
+<li>remove title filter that is no longer needed now we're using add_theme_support(title-tag)</li>
+</ul>
+<h3>10.1</h3>
+<ul>
+<li>add post categories to projects</li>
+<li>tidy up some of the sidebar code</li>
+<li>make the next and previous post links easier to click on single post pages</li>
+</ul>
+<h3>10</h3>
+<ul>
+<li>major version bump. This is purely so that the theme version does not clash with the free theme of the same name available on wordpress.org</li>
+</ul>
+<h3>1.1</h3>
+<ul>
+<li>change responsive menu to use a more modern style and rely less on javascript - removes responsive-navigation.js</li>
+<li>tweaks to responsive sizes so that things look nicer on a wider variety of screen sizes</li>
+</ul>
+<h3>1.0.2</h3>
+<ul>
+<li>improve responsive styles for homepage and archive pages</li>
+<li>improve css support for more of the default widgets found in Jetpack &amp; on wordpress.com</li>
+</ul>
+<h3>1.0.1</h3>
+<ul>
+<li>make comments show the short_ping format again - it was changed in core so that a different layout is used by default</li>
+<li>switch to using add_theme_support(title-tag)</li>
+<li>css improvements</li>
+</ul>
+<h3>1.0</h3>
+<ul>
+<li>Initial release</li>
+</ul>

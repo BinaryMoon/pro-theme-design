@@ -1,0 +1,45 @@
+<h3>1.4.1 - 13th September 2016</h3>
+<ul>
+<li>tweak word wrap properties to make them behave a little nicer.</li>
+</ul>
+<h3>1.4 - 9 June 2016</h3>
+<ul>
+<li>use core function - the_archive_description - on archive pages</li>
+<li>add code to help with default sizing for social media widgets</li>
+<li>more improvements to coding standards and code appearance</li>
+</ul>
+<h3>1.3 - 30 May 2016</h3>
+<ul>
+<li>Improve coding standards (lots of files changed but little actual functionality)</li>
+<li>Minor css changes</li>
+</ul>
+<h3>1.2.3</h3>
+<ul>
+<li>Fix issue with image attachments</li>
+</ul>
+<h3>1.2.2</h3>
+<ul>
+<li>Make infinite scroll work on author archive pages</li>
+<li>change search archive pagination so it only shows when there are search results</li>
+<li>tweak the menu drawer so that sub menu items are easier to interact with</li>
+<li>tweak typography - in particular line heights and margins - so it works better on smaller screens</li>
+<li>fix bug with mobile devices and image sizes that caused images to shrink more than neccessary on small screens</li>
+</ul>
+<h3>1.2.1</h3>
+<ul>
+<li>CSS Tweaks and Improvements</li>
+<li>Update urls for documentation etc</li>
+</ul>
+<h3>1.1.1</h3>
+<ul>
+<li>remove kent_numeric_pagination and replace with WP core function</li>
+</ul>
+<h3>1.1</h3>
+<ul>
+<li>update the theme to meet wp.com theme review standards, and to ensure it's making the best use of WordPress functionality</li>
+<li>Various CSS improvements</li>
+</ul>
+<h3>1.0</h3>
+<ul>
+<li>Initial release</li>
+</ul>

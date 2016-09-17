@@ -1,0 +1,25 @@
+<h3>1.2 - 11 July 2016</h3>
+<ul>
+<li>Fix issue with responsive navigation not allowing the first menu item to be selected</li>
+</ul>
+<h3>1.1 - 5 June 2016</h3>
+<ul>
+<li>Add support for add_theme_support( title-tag )</li>
+<li>Add required css classes</li>
+<li>Minor style tweaks to improve whitespace across the theme</li>
+<li>Remove header image admin preview since it's no longer used</li>
+<li>Hide post categories on project page (since they don't work)</li>
+<li>Make portfolio and testimonial post types display properly (nobodies complained, but just in case)</li>
+<li>Fix PHP error on author archives</li>
+<li>Fix pagination links which didn't work (not applicable to wordpress.com because of infinite scroll)</li>
+<li>refactor javascript</li>
+<li>remove usage of get_children and replace with get_attached_media</li>
+<li>Update jquery masonry to use latest version</li>
+<li>Use the_archive_description in archive.php for the category descriptions</li>
+<li>Remove translations that contain html and no translatable text</li>
+<li>Generally improve coding standards</li>
+</ul>
+<h3>1.0</h3>
+<ul>
+<li>Initial release</li>
+</ul>

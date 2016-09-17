@@ -1,0 +1,42 @@
+<h3>1.2.4</h3>
+<ul>
+<li>Tweak text box styles so they display in a nicer way</li>
+</ul>
+<h3>1.2.3</h3>
+<ul>
+<li>Fix issue with image attachment template</li>
+</ul>
+<h3>1.2.2</h3>
+<ul>
+<li>Update responsiveNavigation.js so that the first menu option is selectable</li>
+</ul>
+<h3>1.2.1</h3>
+<ul>
+<li>tweak header font sizes to reflect header importance</li>
+</ul>
+<h3>1.2</h3>
+<ul>
+<li>Improve print styles</li>
+<li>add new translations (including a complete Finnish translation)</li>
+</ul>
+<h3>1.1</h3>
+<ul>
+<li>fix issue with avatars clashing with WordPress admin bar</li>
+<li>stop comments text from displaying in post meta data if comments are disabled and there are no comments to display</li>
+</ul>
+<h3>1.0.1</h3>
+<ul>
+<li>Change the category description to use the new archive description function - which means tag and other taxonomy descriptions will now display</li>
+<li>Change the home icon so it uses an icon font rather than an image - which means you can change the color with css</li>
+<li>Fix issue with the lead story height on the homepage when there’s only one item to display</li>
+<li>Optimise the css so that there's fewer server requests</li>
+<li>Add support for new title-tag functionality</li>
+<li>Add support for Jetpack plugin site logo functionality</li>
+<li>Fix issue with some search page results</li>
+<li>Tidy up 404 error page design</li>
+<li>Include Jetpack plugin responsive video functionality</li>
+</ul>
+<h3>1.0</h3>
+<ul>
+<li>Initial release</li>
+</ul>

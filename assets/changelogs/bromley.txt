@@ -1,0 +1,21 @@
+<h3>2.0</h3>
+<ul>
+<li>update theme for WordPress coding standards</li>
+<li>slow down slider speed</li>
+<li>add title tag support</li>
+<li>update to latest masonry</li>
+<li>add support for jetpack responsive videos</li>
+</ul>
+<h3>1.1</h3>
+<ul>
+<li>fix image post parent issue on attachment pages</li>
+<li>add jetpack testimonials shortcode styles</li>
+<li>update sidebar description</li>
+<li>update &amp; improve css styles</li>
+<li>improve responsive navigation code</li>
+<li>various other tweaks and improvements</li>
+</ul>
+<h3>1.0</h3>
+<ul>
+<li>Initial release</li>
+</ul>

@@ -1,0 +1,46 @@
+<h3>10.2.2 - 12th September 2016</h3>
+<ul>
+<li>tweak wordwrap css</li>
+<li>fix attachment page layout</li>
+<li>fix size of attachment image so that it better fills the space</li>
+</ul>
+<h3>10.2.1 - 1st August 2016</h3>
+<ul>
+<li>tweak css styles for site logo and featured category column</li>
+<li>improve site footer if there's no javascript enabled or a javascript error</li>
+</ul>
+<h3>10.2 - 16 July 2016</h3>
+<ul>
+<li>Tidy codes and more sanitization</li>
+<li>Improve responsive styles so that column layout works properly on lower resolution devices.</li>
+</ul>
+<h3>10.1 - 26 May 2016</h3>
+<ul>
+<li>Tweak responsive styles so that they start earlier, which means they work on an ipad. This improves the menu usage on tablets.</li>
+</ul>
+<h3>10</h3>
+<ul>
+<li>bump version again, to avoid clashes with .org version</li>
+</ul>
+<h3>2.1</h3>
+<ul>
+<li>Improve responsive behavior of social menu</li>
+</ul>
+<h3>2.0.2</h3>
+<ul>
+<li>Add next and previous arrows to post navigation</li>
+</ul>
+<h3>2.0.1</h3>
+<ul>
+<li>Improve the slider so that it scales better on small screens</li>
+<li>Remove wp_title() (no longer needed since Broadsheet uses add_theme_support( 'title-tag' ))</li>
+</ul>
+<h3>2.0</h3>
+<ul>
+<li>Update version number</li>
+<li>various css improvements</li>
+</ul>
+<h3>1.0</h3>
+<ul>
+<li>Initial release</li>
+</ul>

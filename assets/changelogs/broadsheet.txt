@@ -1,0 +1,85 @@
+<h3>1.4.4 - 15th September 2016</h3>
+<ul>
+<li>tweak wordwrap css</li>
+<li>fix attachment page layout</li>
+<li>increase size of image on image.php page so that it shows the image off better</li>
+</ul>
+<h3>1.4.3 - 2nd August 2016</h3>
+<ul>
+<li>Add support for auto updates (self hosted version only)</li>
+</ul>
+<h3>1.4.2 - 1st August 2016</h3>
+<ul>
+<li>tweak css styles for site logo and featured category column</li>
+<li>improve site footer if there's no javascript enabled or a javascript error</li>
+</ul>
+<h3>1.4.1 - 16th July 2016</h3>
+<ul>
+<li>Some code formatting and tidying up</li>
+</ul>
+<h3>1.4 - 26 May 2016</h3>
+<ul>
+<li>Tweak responsive styles so that they start earlier, which means they work on an ipad. This improves the menu usage on tablets.</li>
+<li>Improve responsive menu behavior on touch devices</li>
+<li>Improve jetpack subscription form styles so that they display out more nicely</li>
+</ul>
+<h3>1.3.1</h3>
+<ul>
+<li>Add support for pages and projects to featured content</li>
+</ul>
+<h3>1.3</h3>
+<ul>
+<li>Add a new customizer option that lets users select how many posts appear in the featured categories</li>
+</ul>
+<h3>1.2.4</h3>
+<ul>
+<li>increase size of logo so that it can be adjusted with css</li>
+</ul>
+<h3>1.2.3</h3>
+<ul>
+<li>Fix issue with image attachments</li>
+<li>Fix issue with responsive sizes</li>
+<li>Add additional classes to footer links to allow easier targeting with css</li>
+</ul>
+<h3>1.2.2</h3>
+<ul>
+<li>Add next and previous arrows to postnav</li>
+</ul>
+<h3>1.2.1</h3>
+<ul>
+<li>Make the slider work better on small screens</li>
+</ul>
+<h3>1.2</h3>
+<ul>
+<li>Remove duplicate title tag in head</li>
+<li>Improve coding standards</li>
+<li>Tweaks and improvements to CSS</li>
+<li>Fix bug that only happens on older versions of PHP</li>
+</ul>
+<h3>1.1.4</h3>
+<ul>
+<li>Fix undefined variable errors related to Testimonials</li>
+<li>Fix some css issues with image alignment</li>
+</ul>
+<h3>1.1.3</h3>
+<ul>
+<li>make comments show the short_ping format again - it was changed in core so that a different layout is used by default</li>
+</ul>
+<h3>1.1.2</h3>
+<ul>
+<li>add wrapper around the date in the header so that the date can be hidden with css</li>
+<li>some more css tweaks to improve reading in widgets</li>
+</ul>
+<h3>1.1.1</h3>
+<ul>
+<li>tweak size of paragraph margins to make things read a bit more nicely</li>
+<li>make padding consistent on sidebars when there are no featured posts or primary content displayed</li>
+</ul>
+<h3>1.1</h3>
+<ul>
+<li>Fix bug that has happened because of a change to the featured categories</li>
+</ul>
+<h3>1.0</h3>
+<ul>
+<li>Initial release</li>
+</ul>

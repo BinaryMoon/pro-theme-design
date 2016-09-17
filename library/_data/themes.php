@@ -295,6 +295,8 @@ function get_theme_data() {
         $theme[ 'url-demo-content' ] = path( 'assets/demo-xml/' . $key . '.wordpress.xml' );
         $theme[ 'url-demo-widgets' ] = path( 'assets/demo-widgets/' . $key . '.json' );
 
+        $theme[ 'path-changelog' ] = $_SERVER['DOCUMENT_ROOT'] . urldecode( Flight::request()->base ) . '/assets/changelogs/' . $key . '.txt';
+
         // theme preview link
         if ( ! empty( $theme[ 'url-gr' ] ) || ! empty( $theme[ 'url-cm' ] ) ) {
             $theme[ 'url-preview' ] = path( 'theme-preview/' . $key . '/' );

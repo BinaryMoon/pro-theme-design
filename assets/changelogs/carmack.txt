@@ -1,0 +1,96 @@
+<h3>2.4.6 - 7 September 2016</h3>
+<ul>
+<li>Update editor-style.css</li>
+</ul>
+<h3>2.4.5 - 27 August 2016</h3>
+<ul>
+<li>Only load slider javascript if on a page with featured posts.</li>
+<li>Fix post author comment highlighting so that it doesn't highlight commenters who reply to the post author.</li>
+</ul>
+<h3>2.4.4 - 21 August 2016</h3>
+<ul>
+<li>Add support for wp-post-series plugin (self hosted version only)</li>
+<li>Add other bold italic font style for body font</li>
+</ul>
+<h3>2.4.3 - 14 August 2016</h3>
+<ul>
+<li>Tweak margin size on .intro class so that content is spaced better</li>
+<li>Tweak related posts thumbnail sizes so that the image proportions more closely match the proportions used on featured image thumbnails to reduce instances of thumbnails being cropped.</li>
+<li>Add a 'compress' class to the pre tag that sets a max height. This means long pre tags will scroll.</li>
+</ul>
+<h3>2.4.2 - 3 August 2016</h3>
+<ul>
+<li>Fix issue with responsive menu showing the second menu when it's not actually in use</li>
+<li>Tweaked overlay menu margins to better line things up on small screens</li>
+<li>Tweak link colours to make them stand out more</li>
+<li>Tweak text ligatures so that they are less imposing</li>
+<li>Improve styles</li>
+</ul>
+<h3>2.4.1 - 31st July 2016</h3>
+<ul>
+<li>Improve menu rtl styles</li>
+</ul>
+<h3>2.4 - 30th July 2016</h3>
+<ul>
+<li>Set up theme auto updates (self hosted only)</li>
+<li>Hide post date on sticky posts</li>
+<li>Make it clearer which menu goes in which location</li>
+<li>Tweak css for post embeds to reduce instances of them overlapping other content</li>
+<li>Change style deregister to dequeue since it seems to work better with WP4.6 not creating php errors</li>
+<li>Update rtl.css</li>
+</ul>
+<h3>2.3.3 - 19th July 2016</h3>
+<ul>
+<li>Make the background triangle flip when viewing in rtl mode</li>
+<li>bump scripts and styles versions</li>
+<li>Add a generic button css class to allow links to be turned into buttons</li>
+</ul>
+<h3>2.3.1 - 17th July 2016</h3>
+<ul>
+<li>Add 'All' link to projects list so that visitors can get back to the portfolio homepage easily</li>
+</ul>
+<h3>2.3 - 10th July 2016 =
+Various accessibility Improvements including:</p>
+<ul>
+<li>improve focus styles of overlay hamburger</li>
+<li>improve focus styles on slider buttons</li>
+<li>change slider nav to use buttons instead of links</li>
+<li>improve aria landmark roles</li>
+<li>move role=&quot;contentinfo&quot; to more appropriate place (footer credits rather than entire footer)</li>
+<li>make slider navigation more descriptive for screen reader users</li>
+<li>improve descriptive text on post pagination</li>
+<li>make keyboard focus jump to overlay when overlay is opened</li>
+<li>restrict keyboard focus to overlay when it is open</li>
+<li>improve contrast on sidebar links</li>
+<li>fix skip to content button so that it's visible again</li>
+<li>make back to top link set focus correctly</li>
+<li>improve aria roles on overlay toggles</li>
+<li>add option to disable autoplay on the slider</li>
+<li>Improve heading hierarchy when using a static front page</li>
+</ul>
+<h3>2.2.1 - 9th July 2016</h3>
+<ul>
+<li>Update slider.js to the latest version (in preparation for improving accessibility of slider.js)</li>
+</ul>
+<h3>2.2 - 6th July 2016</h3>
+<ul>
+<li>Fix issue with some post formats not displaying if they didn't have the required properties</li>
+<li>Fix issue with infinite scroll footer getting covered up.</li>
+<li>Improve rtl.css</li>
+</ul>
+<h3>2.1.1 - 4th July 2016</h3>
+<ul>
+<li>Make sure the header image is centered on large displays</li>
+</ul>
+<h3>2.1 - 29th June 2016</h3>
+<ul>
+<li>make the_posts_pagination display more pages</li>
+</ul>
+<h3>2.0</h3>
+<ul>
+<li>wordpress.com release</li>
+</ul>
+<h3>1.0</h3>
+<ul>
+<li>Initial release</li>
+</ul>

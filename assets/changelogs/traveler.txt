@@ -1,0 +1,31 @@
+<h3>1.4</h3>
+<ul>
+<li>Fix comments so that trackbacks and pingbacks display properly</li>
+</ul>
+<h3>1.3</h3>
+<ul>
+<li>Tidy code and escape some of the translated strings</li>
+<li>switch to using the_archive_description for category descriptions</li>
+<li>add support for post formats (quote, image, audio, and video) on archive pages</li>
+</ul>
+<h3>1.2.1</h3>
+<ul>
+<li>Improve bold font usage</li>
+<li>switch to theme_support( title-tag )</li>
+<li>improve coding standards</li>
+</ul>
+<h3>1.2</h3>
+<ul>
+<li>tweak homepage header to scale proportionally</li>
+<li>change header image size to something that should fit the header proportions better</li>
+</ul>
+<h3>1.1</h3>
+<ul>
+<li>update to latest version of masonry</li>
+<li>improve responsive styles</li>
+<li>remove hard coded style on posts</li>
+</ul>
+<h3>1.0</h3>
+<ul>
+<li>Initial release</li>
+</ul>

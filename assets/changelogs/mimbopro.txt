@@ -1,0 +1,57 @@
+<h3>4.5.1 - 15th July 2016</h3>
+<ul>
+<li>Improve rtl Styles</li>
+<li>Fix carousel sizes</li>
+</ul>
+<h3>4.5 - 4th July 2016</h3>
+<ul>
+<li>Make theme fully responsive</li>
+<li>tidy up styles</li>
+</ul>
+<h3>4.4 - 28th May 2016</h3>
+<ul>
+<li>Refactor widget related code. Includes:
+<ul>
+<li>ensuring wp_reset_postdata is run after queries</li>
+<li>converting sql queries into WP_Query</li>
+<li>Adding doc blocks</li>
+<li>tidying code formatting</li>
+</ul></li>
+<li>Improve display of widgets in small right sidebar on single posts</li>
+<li>Fix bug with breadcrumbs on search results page</li>
+</ul>
+<h3>4.3.1</h3>
+<ul>
+<li>Fix image attachment issue</li>
+</ul>
+<h3>4.3</h3>
+<ul>
+<li>update widgets for WP 4.3</li>
+<li>improved security and multiple small bug fixes and improvements</li>
+</ul>
+<h3>4.0 &gt; 4.3</h3>
+<p>Unfortunately I don't have a record of which versions these changes came under - but the changes between 4.1 and 4.3 include:</p>
+<ul>
+<li>improve RTL styles</li>
+<li>change thumbnails sizes so they work better in responsive views and remove blurriness</li>
+<li>make widgets display in mobile view</li>
+<li>improve category responsive behavior</li>
+<li>add 'edit posts' link to single blog posts and pages</li>
+<li>update theme so it passes the wp.com theme review checks</li>
+<li>use add_theme_support(title-tag)</li>
+<li>add support for other jetpack features (eg responsive videos)</li>
+<li>improve security</li>
+<li>update 3rd party js</li>
+<li>fix issues with home_url</li>
+<li>change comment counts so they only appear if comments are enabled on a post</li>
+<li>remove search highlighting since it breaks the search results page in some situations</li>
+<li>make featured category ordering work better on tablet devices</li>
+</ul>
+<h3>4.0</h3>
+<ul>
+<li>Rebuild the theme for wordpress.com</li>
+</ul>
+<h3>1.0</h3>
+<ul>
+<li>Initial release</li>
+</ul>
