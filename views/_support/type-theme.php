@@ -36,4 +36,8 @@
     site_include_view( '_support/_theme/' . $page . '.php' );
 
     documentation_theme_features( $doc );
+?>
 
+    <h2>Changelog</h2>
+<?php
+    include( $doc[ 'path-changelog'] );
