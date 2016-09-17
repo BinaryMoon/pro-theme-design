@@ -25,7 +25,7 @@
     <li><strong>Sponsored Posts</strong> - many companies will pay bloggers to write about their products and services.</li>
 </ol>
 
-<p>Beware of selling links. If you don't add links as 'nofollow' then you may end up being penalised by Google. This practice has been frowned upon for some time but there are still companies trying to sell them.</p>
+<p>Beware of selling links. If you don't add links as 'nofollow' then you may end up being penalised by Google. This practice has been frowned upon for some time but there are still companies trying to sell them. If you do decide to go ignore the nofollow tag then make sure you are rewarded adequately.</p>
 
 <p class="note tip">If you're in the market for a new blogging theme then our most popular are <a href="<?php echo path( 'theme/opti/' ); ?>">Opti</a>, and <a href="<?php echo path( 'theme/monet/' ); ?>">Monet</a>.</p>
 

@@ -50,6 +50,7 @@
     <li><a href="http://developers.wordpress.org">WordPress Developers</a> - this is going to be a replacement for the Codex, but currently is not as complete. There are however some useful elements and it will only get better with time.</li>
     <li><a href="http://www.wptherightway.org/en/index.html">WordPress the Right Way</a> - a guide to the best practices for developing with WordPress. Less about code, and more about the best way to do things.</li>
     <li><a href="http://www.wptherightway.org/en/code_style_guide/index.html">WordPress Coding Styleguide</a> - this document is part of the 'WordPress the Right Way' docs, but it collects the standards together. It's well worth following the standards since it makes transferring code between developers much simpler.</li>
+    <li><a href="https://10up.github.io/Engineering-Best-Practices/">10up Engneering Best Practices</a> - ni particular the <a href="https://10up.github.io/Engineering-Best-Practices/php/">PHP best practice</a>.</li>
 </ul>
 
 <h2>The Best of Both Worlds?</h2>
