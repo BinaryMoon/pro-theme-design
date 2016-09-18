@@ -1,0 +1,70 @@
+<h3>1.3.3 - 14th May 2016</h3>
+<ul>
+<li>Add some additional class names, and extra divs, to header content so that the divs can be more easily targeted with custom css.</li>
+</ul>
+<h3>1.3.2</h3>
+<ul>
+<li>Fix small issue with image attachment page</li>
+</ul>
+<h3>1.3.1</h3>
+<ul>
+<li>Add social link icons usable in menus with the addition of the icon class</li>
+</ul>
+<h3>1.3</h3>
+<ul>
+<li>Make featured images on pages work in the same way as featured images on blog posts</li>
+</ul>
+<h3>1.2.5</h3>
+<ul>
+<li>improve coding standards</li>
+<li>Add an .intro class that allows text to be increased in size in blog posts</li>
+</ul>
+<h3>1.2.4</h3>
+<ul>
+<li>Correct invalid html in widget toggle</li>
+<li>misc css tweaks and improvements</li>
+</ul>
+<h3>1.2.3</h3>
+<ul>
+<li>fix site logo so that logo and title &amp; description can be hidden independently</li>
+<li>fix image alignments and tweak a few other small css bits</li>
+</ul>
+<h3>1.2.2</h3>
+<ul>
+<li>fix issue with the site title not hiding properly when property changed in customizer</li>
+<li>update widget styles</li>
+</ul>
+<h3>1.2.1</h3>
+<ul>
+<li>fix icon font positions for Internet Explorer</li>
+</ul>
+<h3>1.2</h3>
+<ul>
+<li>improve comments html and styles</li>
+</ul>
+<h3>1.1.4</h3>
+<ul>
+<li>various css improvements including responsive comments layout, and default widgets styles</li>
+</ul>
+<h3>1.1.3</h3>
+<ul>
+<li>make the logo width variable</li>
+</ul>
+<h3>1.1.2</h3>
+<ul>
+<li>make bold fonts stand out even more! :)</li>
+</ul>
+<h3>1.1.1</h3>
+<ul>
+<li>fix issue with bold styles not displaying on blog posts</li>
+<li>fix issue with font loading for Open Sans font weights</li>
+</ul>
+<h3>1.1</h3>
+<ul>
+<li>give the menu a little more space if there's no widgets to display in the dropdown menu</li>
+<li>fix issue with mobile menu</li>
+</ul>
+<h3>1.0</h3>
+<ul>
+<li>Initial release.</li>
+</ul>

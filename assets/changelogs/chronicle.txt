@@ -33,7 +33,7 @@
 <h3>2.0.1</h3>
 <ul>
 <li>Improve the slider so that it scales better on small screens</li>
-<li>Remove wp_title() (no longer needed since Broadsheet uses add_theme_support( 'title-tag' ))</li>
+<li>Remove wp_title() (no longer needed since Broadsheet uses <code>add_theme_support( 'title-tag' )</code>)</li>
 </ul>
 <h3>2.0</h3>
 <ul>

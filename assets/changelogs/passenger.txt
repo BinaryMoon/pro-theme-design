@@ -1,0 +1,30 @@
+<h3>2.2 - 29 July 2016</h3>
+<ul>
+<li>Improve rtl.css</li>
+<li>Make site title a touch smaller on small screens</li>
+</ul>
+<h3>2.1.2 - 27 May 2016</h3>
+<ul>
+<li>Tweak the css for the jetpack subscription form so that it looks better</li>
+<li>Improve video detection in post formats</li>
+</ul>
+<h3>2.1.1</h3>
+<ul>
+<li>Fix for 'read more' IS button not appearing after the first lot of posts have loaded</li>
+</ul>
+<h3>2.1</h3>
+<ul>
+<li>Add support for audio post format</li>
+</ul>
+<h3>2.0.1</h3>
+<ul>
+<li>fix issue with Jetpack tiled galleries</li>
+</ul>
+<h3>2.0</h3>
+<ul>
+<li>Prepared for WordPress.com</li>
+</ul>
+<h3>1.0</h3>
+<ul>
+<li>Initial release</li>
+</ul>

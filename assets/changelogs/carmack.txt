@@ -49,8 +49,8 @@
 <ul>
 <li>Add 'All' link to projects list so that visitors can get back to the portfolio homepage easily</li>
 </ul>
-<h3>2.3 - 10th July 2016 =
-Various accessibility Improvements including:</p>
+<h3>2.3 - 10th July 2016</h3>
+<p>Various accessibility Improvements including:</p>
 <ul>
 <li>improve focus styles of overlay hamburger</li>
 <li>improve focus styles on slider buttons</li>
