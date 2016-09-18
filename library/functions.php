@@ -212,3 +212,24 @@ function paid_customers() {
     return $customers;
 
 }
+
+
+/**
+ * Generate classes for the navigation section
+ *
+ * @param string $current_section Current section
+ * @param string $current_page    Current page group
+ */
+function nav_class( $current_section, $current_page ) {
+
+    $classes = array( $current_section );
+
+    if ( $current_section === $current_page ) {
+
+        $classes[] = 'current';
+
+    }
+
+    echo implode( ' ', $classes );
+
+}
