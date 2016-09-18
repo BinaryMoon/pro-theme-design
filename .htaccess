@@ -3,7 +3,7 @@
 #php_value error_log  /home/protheme/public_html/.error_log
 #php_value error_reporting -1
 
-
+Options All -Indexes
 
 RewriteEngine On
 
