@@ -28,7 +28,7 @@
     if ( ! empty( $theme[ 'url-wporg' ] ) ) {
 ?>
                         <!-- <a href="#" class="button positive get-theme greedy event" data-event="getTheme">-->
-                        <a href="<?php echo $theme[ 'url-wporg' ]; ?>" class="button positive greedy event" data-event="getTheme" data-gumroad-single-product="true">
+                        <a href="<?php echo $theme[ 'url-wporg' ]; ?>" target="_blank" class="button positive greedy" data-gumroad-single-product="true">
                             <i class="fa fa-download" aria-hidden="true"></i>Get <?php echo $theme['name']; ?> Now!
                         </a>
 <?php
