@@ -1,3 +1,8 @@
+<h3>1.4.1 - 24th September 2016</h3>
+<ul>
+<li>Fix incorrect text domains</li>
+<li>Escape some translations</li>
+</ul>
 <h3>1.4</h3>
 <ul>
 <li>Fix comments so that trackbacks and pingbacks display properly</li>

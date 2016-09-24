@@ -1,3 +1,12 @@
+<h3>1.2.6 - 24th September 2016</h3>
+<ul>
+<li>Improve coding standards</li>
+<li>fix incorrect text domains</li>
+</ul>
+<h3>1.2.5</h3>
+<ul>
+<li>Add support for pages and jetpack portfolio projects in homepage slider.</li>
+</ul>
 <h3>1.2.4</h3>
 <ul>
 <li>Tweak text box styles so they display in a nicer way</li>
