@@ -1,4 +1,8 @@
-<h3>2.0</h3>
+<h3>2.1 - 6th October 2016</h3>
+<ul>
+<li>Improve responsive layout</li>
+</ul>
+<h3>2.0 - 5th October 2016</h3>
 <ul>
 <li>wordpress.com version release</li>
 </ul>
