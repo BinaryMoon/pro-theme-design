@@ -8,6 +8,20 @@ function get_theme_data() {
 
     $themes = array(
 
+        'label' => array(
+            'name' => 'Label',
+            'description' => 'Label is a stylistic theme created specially for art and fashion bloggers. With a distinctive masonry powered layout, a full screen post slider, and a classy vertical header - it\'s sure to make your website stand out.',
+            'short_description' => 'A classic blogging theme, with full screen slider.',
+            'price-wpcom' => 79,
+            'price-wporg' => 99,
+            'url-wpcom' => 'label',
+            //'url-cm' => '',
+            'url-gr' => 'Jsdo',
+            'image' => 'label.png',
+            'tags' => array( 'magazine', 'photography' ),
+            'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'portfolio', 'post-formats', 'raddcontrol' ),
+        ),
+
         'carmack' => array(
             'name' => 'Carmack',
             'description' => 'Carmack is a magazine theme, suitable for Video Games, Movies, Music or any other visual magazine style site. Carmack support featured content and post formats to allow you to create the perfect website.',
@@ -196,6 +210,7 @@ function get_theme_data() {
             'price-wporg' => 99,
             'url-wpcom' => 'broadsheet',
             'url-cm' => '108643-Broadsheet-Newspaper-Theme',
+            'url-gr' => 'OjUG',
             'image' => 'broadsheet.png',
             'tags' => array( 'magazine' ),
             'supports' => array( 'site-logo', 'featured-image', 'infinite-scroll', 'social-menu', 'testimonials', 'theme-club', 'raddcontrol' ),
