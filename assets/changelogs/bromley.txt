@@ -1,3 +1,8 @@
+<h3>2.1 - 7th October 2016</h3>
+<ul>
+<li>add support for projects and pages in featured content</li>
+<li>tweak word wrap settings in widgets</li>
+</ul>
 <h3>2.0</h3>
 <ul>
 <li>update theme for WordPress coding standards</li>

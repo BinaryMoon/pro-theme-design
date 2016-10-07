@@ -1,3 +1,7 @@
+<h3>2.3 - 1st October 2016</h3>
+<ul>
+<li>Add support for Content Options</li>
+</ul>
 <h3>2.2 - 29 July 2016</h3>
 <ul>
 <li>Improve rtl.css</li>

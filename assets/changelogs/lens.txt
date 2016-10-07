@@ -1,3 +1,9 @@
+<h3>10.2 - 7th October 2016</h3>
+<ul>
+<li>Lots of code tidying, standards improvements, and security enhancements.</li>
+<li>Tweak word wrap settings in widgets</li>
+<li>tweak spacings and padding to improve readability and layout.</li>
+</ul>
 <h3>10.1.5</h3>
 <ul>
 <li>Reduce the width of the dropdown menus slightly</li>
