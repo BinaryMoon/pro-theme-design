@@ -43,6 +43,16 @@
     documentation_theme_features( $doc );
 ?>
 
+    <!-- Theme Languages -->
+<?php
+    if ( ! empty( $doc[ 'path-languages'] ) ) {
+?>
+    <h2><?php echo $doc[ 'name' ]; ?> has the following translations included:</h2>
+    <p class="intro"><?php include( $doc[ 'path-languages' ] ); ?></p>
+<?php
+    }
+?>
+
     <h2>Changelog</h2>
 <?php
     include( $doc[ 'path-changelog'] );

@@ -311,6 +311,11 @@ function get_theme_data() {
         $theme[ 'url-demo-widgets' ] = path( 'assets/demo-widgets/' . $key . '.json' );
 
         $theme[ 'path-changelog' ] = $_SERVER['DOCUMENT_ROOT'] . urldecode( Flight::request()->base ) . '/assets/changelogs/' . $key . '.txt';
+        $theme[ 'path-languages' ] = $_SERVER['DOCUMENT_ROOT'] . urldecode( Flight::request()->base ) . '/assets/translations/' . $key . '.txt';
+
+        if ( ! file_exists( $theme[ 'path-languages' ] ) ) {
+            $theme[ 'path-languages' ] = '';
+        }
 
         // theme preview link
         if ( ! empty( $theme[ 'url-gr' ] ) || ! empty( $theme[ 'url-cm' ] ) ) {

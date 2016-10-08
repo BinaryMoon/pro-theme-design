@@ -114,6 +114,19 @@
     }
 ?>
         </div>
+
+        <!-- Theme Languages -->
+<?php
+        if ( ! empty( $theme[ 'path-languages'] ) ) {
+?>
+        <div class="wrapper">
+            <h2><?php echo $theme[ 'name' ]; ?> has the following translations included:</h2>
+            <p class="intro"><?php include( $theme[ 'path-languages' ] ); ?></p>
+        </div>
+<?php
+        }
+?>
+
 <?php
     site_include_view( '_partials/theme-purchase-buttons.php', array( 'theme' => $theme ) );
 
