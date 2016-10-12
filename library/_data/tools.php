@@ -45,6 +45,12 @@ function get_tools_data() {
             'tag' => 'tool',
             'icon' => 'globe',
         ),
+        'website-tester' => array(
+            'name' => 'Website Tester',
+            'description' => 'Continuous visual previews of web pages.',
+            'tag' => 'tool',
+            'icon' => 'eye',
+        ),
         'free-stock-photos' => array(
             'name' => 'Free Stock Photos',
             'description' => 'Stock photography for your projects.',
@@ -114,14 +120,6 @@ function get_tools_data() {
         $tools[ 'quiz-test' ] = array(
             'name' => 'Quiz Test',
             'description' => 'Test the quiz system.',
-            'tag' => 'tool',
-            'icon' => 'eye',
-        );
-
-
-        $tools[ 'website-tester' ] = array(
-            'name' => 'Website Tester',
-            'description' => 'Continuous visual previews of web pages.',
             'tag' => 'tool',
             'icon' => 'eye',
         );
