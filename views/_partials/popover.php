@@ -8,10 +8,10 @@
 
         <header>Feedback</header>
 
-        <a href="#" class="close-button" rel="nofollow">
+        <button class="close-button" rel="nofollow">
             <i class="fa fa-times" aria-hidden="true"></i>
             <span class="screen-reader-text">Close Feedback Panel</span>
-        </a>
+        </button>
 
         <div class="body">
             <p>We'd love to get some feedback to help us create the things you want.</p>
