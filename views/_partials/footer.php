@@ -5,7 +5,7 @@
             <div class="wrapper map">
 
                 <section class="origin">
-                    <h5>About Us</h5>
+                    <h4 class="minor">About Us</h4>
                     <h4 id="about-lead">Pro Theme Design began in 2007 as a collaboration between two web designers</h4>
                 </section>
 
@@ -71,10 +71,10 @@
 
         <div class="modal-wrapper newsletter-modal">
             <div class="modal">
-                <a href="#" class="close-button" rel="nofollow">
+                <button type="button" class="close-button" rel="nofollow">
                     <i class="fa fa-times" aria-hidden="true"></i>
                     <span class="screen-reader-text">Close Newsletter Popup</span>
-                </a>
+                </button>
                 <?php include( 'newsletter.php' ); ?>
             </div>
         </div>
@@ -83,11 +83,10 @@
 
         <div class="modal-wrapper search-modal">
             <div class="modal">
-                <a href="#" class="close-button" rel="nofollow">
+                <button type="button" class="close-button" rel="nofollow">
                     <i class="fa fa-times" aria-hidden="true"></i>
                     <span class="screen-reader-text">Close Search Form</span>
-                </a>
-                <h2>Search Pro Theme Design...</h2>
+                </button>
                 <?php include( 'google-search.php' ); ?>
             </div>
         </div>

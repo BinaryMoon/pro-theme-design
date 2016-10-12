@@ -1,9 +1,9 @@
         <div class="modal-wrapper theme-modal">
             <div class="modal">
-                <a href="#" class="close-button" rel="nofollow">
+                <button type="button" class="close-button" rel="nofollow">
                     <i class="fa fa-times" aria-hidden="true"></i>
                     <span class="screen-reader-text">Close Purchase Window</span>
-                </a>
+                </button>
 <?php
     if ( ! empty( $theme[ 'url-wporg' ] ) ) {
 ?>

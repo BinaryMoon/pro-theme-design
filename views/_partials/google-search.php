@@ -1,4 +1,4 @@
-
+<label for="q"><h2>Search Pro Theme Design...</h2></label>
 <form method="get" class="searchform" id="searchbox_<?php echo GOOGLE_CSE; ?>" action="<?php echo path( 'search' ); ?>">
     <input value="<?php echo GOOGLE_CSE; ?>" name="cx" type="hidden" />
     <input value="FORID:11" name="cof" type="hidden" />

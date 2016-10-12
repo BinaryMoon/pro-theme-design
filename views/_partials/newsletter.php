@@ -4,7 +4,7 @@
                     <h2>Pro Theme Design News Monthly</h2>
 
                     <label class="screen-reader-text" for="email">Email Address for newsletter messages</label>
-                    <input type="email" value="" name="EMAIL" class="email" placeholder="Your Email Address" required="">
+                    <input type="email" value="" name="EMAIL" id="email" class="email" placeholder="Your Email Address" required="">
                     <input type="submit" value="Subscribe" name="subscribe" class="button">
                 </form>
             </section>
