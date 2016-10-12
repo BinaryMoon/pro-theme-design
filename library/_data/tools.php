@@ -117,6 +117,15 @@ function get_tools_data() {
             'tag' => 'tool',
             'icon' => 'eye',
         );
+
+
+        $tools[ 'website-tester' ] = array(
+            'name' => 'Website Tester',
+            'description' => 'Continuous visual previews of web pages.',
+            'tag' => 'tool',
+            'icon' => 'eye',
+        );
+
     }
 
     $processed = array();
