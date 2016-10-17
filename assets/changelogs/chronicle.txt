@@ -3,6 +3,7 @@
 <li>tweak wordwrap css</li>
 <li>fix attachment page layout</li>
 <li>fix size of attachment image so that it better fills the space</li>
+<li>remove css box-shadow prefixes</li>
 </ul>
 <h3>10.2.1 - 1st August 2016</h3>
 <ul>

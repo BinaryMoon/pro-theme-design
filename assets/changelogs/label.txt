@@ -1,3 +1,7 @@
+<h3>2.1.1 - 8th October 2016</h3>
+<ul>
+<li>Tweak styles of select boxes so they use browser defaults</li>
+</ul>
 <h3>2.1 - 6th October 2016</h3>
 <ul>
 <li>Improve responsive layout</li>

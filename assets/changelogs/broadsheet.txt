@@ -3,6 +3,7 @@
 <li>tweak wordwrap css</li>
 <li>fix attachment page layout</li>
 <li>increase size of image on image.php page so that it shows the image off better</li>
+<li>remove css box-shadow prefixes</li>
 </ul>
 <h3>1.4.3 - 2nd August 2016</h3>
 <ul>

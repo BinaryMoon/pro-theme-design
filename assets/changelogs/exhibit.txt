@@ -1,4 +1,8 @@
-<h3>2.1.1 - 17th July</h3>
+<h3>2.1.2 - 15th October 2016</h3>
+<ul>
+<li>remove css box shadow prefixes</li>
+</ul>
+<h3>2.1.1 - 17th July 2016</h3>
 <ul>
 <li>Improve coding standards</li>
 </ul>

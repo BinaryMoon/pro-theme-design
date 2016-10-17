@@ -1,3 +1,9 @@
+<h3>1.4.1 - 15th October 2016</h3>
+<ul>
+<li>Tweak word-wrap properties to be less agressive</li>
+<li>remove box-shadow css prefix</li>
+<li>allow slightly longer lines on blog post navigation to reduce number of lines when long post titles are used </li>
+</ul>
 <h3>1.4 - 28th July 2016</h3>
 <ul>
 <li>Improve rtl.css</li>

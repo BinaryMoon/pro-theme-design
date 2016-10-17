@@ -1,6 +1,7 @@
 <h3>1.4.1 - 13th September 2016</h3>
 <ul>
 <li>tweak word wrap properties to make them behave a little nicer.</li>
+<li>remove css box shadow prefixes</li>
 </ul>
 <h3>1.4 - 9 June 2016</h3>
 <ul>
