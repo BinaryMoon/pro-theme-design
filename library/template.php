@@ -299,7 +299,7 @@ function site_meta( $key = '', $value = null ) {
 /**
  * Check if Gumroad is enabled and if it is then add the Gumroad script
  */
-function site_enable_gumroad() {
+function site_enable_purchase() {
 
     if ( ! DISABLE_GUMROAD ) {
         site_script( 'https://gumroad.com/js/gumroad.js', true );

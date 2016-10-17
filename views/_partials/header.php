@@ -4,6 +4,7 @@
         $h = 'h1';
     }
 ?>
+
         <header class="masthead" id="masthead" role="banner">
 
             <div class="wrapper">

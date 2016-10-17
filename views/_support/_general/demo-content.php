@@ -41,7 +41,7 @@
 <ul>
 <?php
     foreach( $themes as $theme ) {
-        if ( ! empty( $theme[ 'url-gr' ] ) || ! empty( $theme[ 'url-cm'] ) ) {
+        if ( ! empty( $theme[ 'download-button' ] ) ) {
 ?>
     <li>
         <a href="<?php echo $theme[ 'url-demo-content' ]; ?>" target="_blank"><?php echo $theme[ 'name' ]; ?> posts XML</a> -

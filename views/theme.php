@@ -25,13 +25,10 @@
 
                     <footer>
 <?php
-    if ( ! empty( $theme[ 'url-wporg' ] ) ) {
-?>
-                        <!-- <a href="#" class="button positive get-theme greedy event" data-event="getTheme">-->
-                        <a href="<?php echo $theme[ 'url-wporg' ]; ?>" target="_blank" class="button positive greedy" data-gumroad-single-product="true">
-                            <i class="fa fa-download" aria-hidden="true"></i>Get <?php echo $theme['name']; ?> Now!
-                        </a>
-<?php
+    if ( ! empty( $theme[ 'download-button' ] ) ) {
+
+        echo $theme['download-button'];
+
     }
 
     if ( ! empty( $theme[ 'url-preview' ] ) ) {
@@ -130,7 +127,7 @@
 <?php
     site_include_view( '_partials/theme-purchase-buttons.php', array( 'theme' => $theme ) );
 
-    if ( themes_supports( $theme, 'theme-club' ) ) {
+    if ( themes_supports( $theme, 'theme-club' ) && ! DISABLE_THEME_CLUB ) {
 
         site_include_view( '_partials/theme-club.php' );
 

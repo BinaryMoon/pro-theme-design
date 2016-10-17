@@ -1,5 +1,12 @@
 <?php
 
+// Purchas from fastspring.
+define( 'THEME_PURCHASE', '<button class="button" type="button" data-fsc-action="Add,Checkout" data-fsc-item-path-value="%s">Purchase %s</button>' );
+
+// Download from wordprss.org.
+define( 'THEME_DOWNLOAD', '<a class="button" href="https://wordpress.org/themes/%s/">Download %s</a>' );
+
+
 /**
  * A list of all of our themes
  * @return array A list of all the available themes
@@ -15,8 +22,6 @@ function get_theme_data() {
             'price-wpcom' => 79,
             'price-wporg' => 99,
             'url-wpcom' => 'label',
-            //'url-cm' => '',
-            'url-gr' => 'Jsdo',
             'image' => 'label.png',
             'tags' => array( 'magazine', 'photography' ),
             'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'portfolio', 'post-formats', 'raddcontrol' ),
@@ -29,8 +34,6 @@ function get_theme_data() {
             'price-wpcom' => 79,
             'price-wporg' => 99,
             'url-wpcom' => 'carmack',
-            //'url-cm' => '',
-            'url-gr' => 'Piwbq',
             'image' => 'carmack.png',
             'tags' => array( 'magazine' ),
             'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'portfolio', 'post-formats', 'raddcontrol' ),
@@ -44,7 +47,6 @@ function get_theme_data() {
             'price-wporg' => 99,
             'url-wpcom' => 'passenger',
             //'url-cm' => '312560-Monet-WordPress-Portfolio-Theme',
-            'url-gr' => 'noCNI',
             'image' => 'passenger.png',
             'tags' => array( 'blog' ),
             'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'portfolio', 'post-formats', 'testimonials' ),
@@ -58,7 +60,6 @@ function get_theme_data() {
             'price-wporg' => 99,
             'url-wpcom' => 'monet',
             'url-cm' => '312560-Monet-WordPress-Portfolio-Theme',
-            'url-gr' => 'RWkNX',
             'image' => 'monet.png',
             'tags' => array( 'portfolio', 'photography' ),
             'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'social-menu', 'portfolio', 'theme-club', ),
@@ -71,7 +72,6 @@ function get_theme_data() {
             'price-wpcom' => 79,
             'price-wporg' => 99,
             'url-wpcom' => 'puzzle',
-            'url-gr' => 'xdaw',
             'url-cm' => '108641-Puzzle-Responsive-WordPress-Theme',
             'image' => 'puzzle.png',
             'tags' => array( 'portfolio', 'photography' ),
@@ -87,7 +87,6 @@ function get_theme_data() {
             'parent-theme' => 'broadsheet',
             'url-wpcom' => 'chronicle',
             'url-cm' => '113017-Chronicle-Magazine-Theme',
-            'url-gr' => 'zuqU',
             'image' => 'chronicle.png',
             'tags' => array( 'magazine', 'blog' ),
             'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'social-menu', 'testimonials', 'theme-club', 'raddcontrol' ),
@@ -100,7 +99,6 @@ function get_theme_data() {
             'price-wpcom' => 79,
             'price-wporg' => 99,
             'url-wpcom' => 'exhibit',
-            'url-gr' => 'dWZHu',
             'url-cm' => '348846-Exhibit-WordPress-Portfolio-Theme',
             'image' => 'exhibit.png',
             'tags' => array( 'portfolio' ),
@@ -115,7 +113,6 @@ function get_theme_data() {
             'price-wporg' => 99,
             'url-wpcom' => 'romero',
             'url-cm' => '312559-Romero-WordPress-Video-Game-Theme',
-            'url-gr' => 'dbtvh',
             'image' => 'romero.png',
             'tags' => array( 'blog', 'magazine' ),
             'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'social-menu', 'custom-colours-fonts', 'raddcontrol' ),
@@ -126,7 +123,7 @@ function get_theme_data() {
             'description' => 'A clean blog theme with magazine elements. Custom category blurbs, great typography and a fully editable color scheme.',
             'short_description' => 'A classical WordPress magazine theme.',
             'price-wpcom' => 79,
-            'price-wporg' => 99,
+            'price-wporg' => 79,
             'url-wpcom' => 'opti',
             'url-cm' => '9918-Opti-Responsive-WordPress-Theme',
             'image' => 'opti.png',
@@ -142,7 +139,6 @@ function get_theme_data() {
             'price-wporg' => 79,
             'url-wpcom' => 'mimbopro',
             'url-cm' => '111465-Mimbo-Pro-WordPress-Theme',
-            'url-gr' => 'WDLD',
             'image' => 'mimbopro.png',
             'tags' => array( 'magazine' ),
             'supports' => array( 'featured-image', 'theme-club', ),
@@ -153,10 +149,9 @@ function get_theme_data() {
             'description' => 'A photo-oriented theme, great for people who like to tell stories with pictures, equally suitable for bloggers, scrapbookers, and writers.',
             'short_description' => 'A modern WordPress photography theme.',
             'price-wpcom' => 79,
-            'price-wporg' => 99,
+            'price-wporg' => 79,
             'url-wpcom' => 'lens',
             'url-cm' => '108642-Lens-Responsive-Photography-Theme',
-            'url-gr' => 'HwIP',
             'image' => 'lens.png',
             'tags' => array( 'photography' ),
             'supports' => array( 'site-logo', 'featured-content', 'featured-image', 'infinite-scroll', 'social-menu', 'testimonials', 'theme-club', ),
@@ -167,7 +162,7 @@ function get_theme_data() {
             'description' => 'A blog focused theme showcasing large featured images and clear typography. A large featured content slider in the header helps your top content to shine.',
             'short_description' => 'A modern WordPress blogging theme.',
             'price-wpcom' => 79,
-            'price-wporg' => 99,
+            'price-wporg' => 79,
             'url-wpcom' => 'mirror',
             'url-cm' => '220297-Mirror-WordPress-Photography-Theme',
             'image' => 'mirror.png',
@@ -180,10 +175,9 @@ function get_theme_data() {
             'description' => 'A perfect theme for viral content: trending topics, featured thumbnails, and photos and excerpts arranged by category or popularity.',
             'short_description' => 'A Social WordPress Magazine Theme.',
             'price-wpcom' => 79,
-            'price-wporg' => '',
+            'price-wporg' => 99,
             'url-wpcom' => 'beacon',
             'url-cm' => '',
-            'url-gr' => 'wRdqt',
             'image' => 'beacon.png',
             'tags' => array( 'magazine' ),
             'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'social-menu', 'raddcontrol', 'theme-club' ),
@@ -210,7 +204,6 @@ function get_theme_data() {
             'price-wporg' => 99,
             'url-wpcom' => 'broadsheet',
             'url-cm' => '108643-Broadsheet-Newspaper-Theme',
-            'url-gr' => 'OjUG',
             'image' => 'broadsheet.png',
             'tags' => array( 'magazine' ),
             'supports' => array( 'site-logo', 'featured-image', 'infinite-scroll', 'social-menu', 'testimonials', 'theme-club', 'raddcontrol' ),
@@ -221,7 +214,7 @@ function get_theme_data() {
             'description' => 'The best elements of blogging themes manipulated into something beautifully simple. Ideal for local community, fan magazines, and talking about updates in your industry.',
             'short_description' => 'A minimal WordPress magazine theme.',
             'price-wpcom' => 79,
-            'price-wporg' => 99,
+            'price-wporg' => 79,
             'url-wpcom' => 'bromley',
             'url-cm' => '113531-Bromley-Responsive-WordPress-Theme',
             'image' => 'bromley.png',
@@ -248,7 +241,6 @@ function get_theme_data() {
             'price-wpcom' => 79,
             'price-wporg' => '',
             'url-wpcom' => 'kent',
-            'url-gr' => 'kpFRg',
             'url-wporg' => 'kent',
             'image' => 'kent.png',
             'tags' => array( 'blog', 'free' ),
@@ -285,15 +277,24 @@ function get_theme_data() {
 
     foreach ( $themes as $key => $theme ) {
 
-        // set wordpress.org url if applicable
-        if ( ! DISABLE_GUMROAD && ! empty( $theme[ 'url-gr' ] ) ) {
-            $theme[ 'url-wporg' ] = 'https://gum.co/' . $theme['url-gr'] . '/?wanted=true';
-        } else if ( ! empty( $theme[ 'url-wporg' ] ) ) {
-            $theme[ 'url-wporg' ] = 'https://wordpress.org/themes/' . $theme['url-wporg'] . '/';
-        } else if ( ! empty( $theme[ 'price-wporg' ] ) ) {
-            $theme[ 'url-wporg' ] = 'https://creativemarket.com/BinaryMoon/' . $theme['url-cm'] . '?u=BinaryMoon';
-        } else {
-            $theme[ 'url-wporg' ] = '';
+        // Purchase the theme.
+        if ( ! empty( $theme['price-wporg'] ) ) {
+
+            $theme['download-button'] = sprintf(
+                THEME_PURCHASE,
+                $key,
+                $theme['name']
+            );
+
+        // Download the theme.
+        } else if ( ! empty( $theme['url-wporg'] ) ) {
+
+            $theme['download-button'] = sprintf(
+                THEME_DOWNLOAD,
+                $key,
+                $theme['name']
+            );
+
         }
 
         // Creative Market url for affiliate page
@@ -318,10 +319,9 @@ function get_theme_data() {
         }
 
         // theme preview link
-        if ( ! empty( $theme[ 'url-gr' ] ) || ! empty( $theme[ 'url-cm' ] ) ) {
+        $theme[ 'url-preview' ] = '';
+        if ( ! empty( $theme[ 'download-button' ] ) ) {
             $theme[ 'url-preview' ] = path( 'theme-preview/' . $key . '/' );
-        } else {
-            $theme[ 'url-preview' ] = '';
         }
 
         // theme showcase link
@@ -330,7 +330,7 @@ function get_theme_data() {
         // Host tags
         $theme[ 'tags' ][] = 'wordpress.com';
 
-        if ( ! empty( $theme[ 'url-wporg' ] ) ) {
+        if ( ! empty( $theme['download-button']) ) {
             $theme[ 'tags' ][] = 'wordpress.org';
         }
 
