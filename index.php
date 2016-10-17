@@ -74,7 +74,8 @@ define( 'DECACHE_JS', '22' );
 define( 'ENV', $environment );
 define( 'GOOGLE_CSE', '010164663960188762731:aajo_mt5e2a' );
 define( 'MANAGE_WP', 'https://managewp.com/?utm_source=A&utm_medium=Link&utm_campaign=A&utm_mrl=3611' );
-define( 'DISABLE_GUMROAD', false );
+define( 'DISABLE_GUMROAD', true );
+define( 'DISABLE_THEME_CLUB', true );
 
 // include needed stuff
 include_once( 'flight/Flight.php' );

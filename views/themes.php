@@ -12,14 +12,17 @@
         <div class="theme-wrapper block-wrapper wrapper">
 <?php
     $template = site_view_path( '_partials/theme-small.php' );
+
     foreach ( $themes as $theme ) {
+
         include( $template );
+
     }
 ?>
         </div>
 
 <?php
-    if ( 'wordpress.com' != $tag ) {
+    if ( 'wordpress.com' != $tag && ! DISABLE_THEME_CLUB ) {
         site_include_view( '_partials/theme-club.php' );
     }
 

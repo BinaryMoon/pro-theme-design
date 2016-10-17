@@ -82,18 +82,22 @@ Flight::route( '/tools/(@tool)/', function( $tool = '' ) {
 /**
  * Theme Club
  */
-Flight::route( '/theme-club/', function() {
+if ( ! DISABLE_THEME_CLUB ) {
 
-    site_title( 'WordPress Themes Club' );
-    site_description( 'Join over <strong>' . paid_customers() . '</strong> happy WordPress themers.' );
+    Flight::route( '/theme-club/', function() {
 
-    site_enable_gumroad();
+        site_title( 'WordPress Themes Club' );
+        site_description( 'Join over <strong>' . paid_customers() . '</strong> happy WordPress themers.' );
 
-    Flight::render(
-        'theme-club.php'
-    );
+        site_enable_purchase();
 
-} );
+        Flight::render(
+            'theme-club.php'
+        );
+
+    } );
+
+}
 
 
 /**
@@ -130,7 +134,7 @@ Flight::route( '/theme/(@theme)/', function( $theme = '' ) {
         site_meta( 'twitter:label1', 'Price' );
     }
 
-    site_enable_gumroad();
+    site_enable_purchase();
 
     Flight::render(
         'theme.php',
@@ -171,7 +175,7 @@ Flight::route( '/themes/(@tag)/', function( $tag = '' ) {
     site_page_nav_add( 'Blog', 'themes/blog/' );
     site_page_nav_add( 'Free', 'themes/free/' );
 
-    site_enable_gumroad();
+    site_enable_purchase();
 
     Flight::render(
         'themes.php',
@@ -219,7 +223,7 @@ Flight::route( '/theme-showcase/(@tag)/', function( $tag = '' ) {
     site_title( $title );
     site_description( 'A selection of the <strong>thousands of awesome sites</strong> our customers have built!' );
 
-    site_enable_gumroad();
+    site_enable_purchase();
 
     Flight::render(
         'showcase.php',
@@ -414,7 +418,7 @@ Flight::route( '/theme-preview/(@theme)/', function( $theme_slug = '' ) {
 
     site_title( $theme[ 'name' ] . ' Theme Preview' );
 
-    site_enable_gumroad();
+    site_enable_purchase();
 
     Flight::render(
         $template,
@@ -444,7 +448,7 @@ Flight::route( '/showcase-preview/(@site)/', function( $site = '' ) {
     site_title( 'WordPress Theme Preview - ' . $site_data[ 'name' ] );
     site_description( 'Preview the WordPress Theme on ' . $site_data[ 'name' ] );
 
-    site_enable_gumroad();
+    site_enable_purchase();
 
     Flight::render(
         $template,

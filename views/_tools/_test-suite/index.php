@@ -9,7 +9,6 @@
         <li><a href="<?php echo path( '' ); ?>">Homepage</a></li>
         <li><a href="<?php echo path( 'theme/puzzle/' ); ?>">Puzzle Theme</a></li>
         <li><a href="<?php echo path( 'theme-preview/puzzle/' ); ?>">Puzzle Theme Preview</a></li>
-        <li><a href="<?php echo path( 'theme-club/' ); ?>">Theme Club</a></li>
         <li><a href="<?php echo path( 'theme-customization/' ); ?>">Theme Customization</a></li>
         <li><a href="<?php echo path( 'theme-showcase/' ); ?>">Theme Showcase</a></li>
         <li><a href="<?php echo path( 'theme-showcase/puzzle/' ); ?>">Theme Showcase Puzzle Tag</a></li>

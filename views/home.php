@@ -14,7 +14,11 @@
 
         include( site_view_path( '_partials/theme-big.php' ) );
 
-        site_include_view( '_partials/theme-club.php' );
+        if ( ! DISABLE_THEME_CLUB ) {
+
+            site_include_view( '_partials/theme-club.php' );
+
+        }
 ?>
         <div class="theme-wrapper block-wrapper wrapper">
 <?php

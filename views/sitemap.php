@@ -19,7 +19,7 @@
                 </li>
 
 <?php
-    if ( ! DISABLE_GUMROAD ) {
+    if ( ! DISABLE_GUMROAD && ! DISABLE_THEME_CLUB ) {
 ?>
                 <li><a href="<?php echo path( 'theme-club/' ); ?>">Theme Club</a></li>
 <?php
