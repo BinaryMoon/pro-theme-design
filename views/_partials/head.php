@@ -2,7 +2,7 @@
 <html class="no-js" lang="en">
     <head>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="profile" href="http://gmpg.org/xfn/11">
 
         <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
@@ -19,9 +19,13 @@
         <meta name="google-site-verification" content="VDLz-TZD53CTCmTol81Cd1UoOyz5RuAjdyjiP4irmsk" />
         <meta name="description" content="<?php site_description( '', true ); ?>">
 
-        <script>
-            var GUMROAD_ACTIVE = '<?php echo (DISABLE_GUMROAD) ? 'false' : 'true'; ?>';
+        <script
+            id="fsc-api"
+            src="https://d1f8f9xcsvx3ha.cloudfront.net/sbl/0.7.0/fastspring-builder.min.js"
+            type="text/javascript"
+            data-storefront="prothemedesign.test.onfastspring.com/popup-prothemedesign">
         </script>
+
 <?php
     include( 'head-open-graph.php' );
 ?>
