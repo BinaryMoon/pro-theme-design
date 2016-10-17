@@ -1,1 +1,1 @@
-Azerbaijani, Spanish, Persian, French, Irish, Hebrew, Japanese, Portuguese, Albanian
+Albanian, Azerbaijani, French, Hebrew, Irish, Japanese, Persian, Portuguese, Spanish

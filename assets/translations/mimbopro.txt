@@ -1,1 +1,1 @@
-Arabic, Belarusian, German, Spanish, Persian, French, Hebrew, Indonesian, Italian, Japanese, mails, Dutch, Polish, Portuguese, Romanian, Swedish, Turkish, Chinese
+Arabic, Belarusian, Chinese, Dutch, French, German, Hebrew, Indonesian, Italian, Japanese, Persian, Polish, Portuguese, Romanian, Spanish, Swedish, Turkish, mails
