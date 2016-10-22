@@ -144,7 +144,6 @@
     <li><a href="https://wordpress.org/plugins/easy-digital-downloads/">Easy Digital Downloads</a></li>
 </ul>
 
-
 <h2 id="website-flipping">8. Website Flipping</h2>
 
 <p>Website flipping is the act of creating (or purchasing) a website, improving it, and then selling it on for profit.</p>
