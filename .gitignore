@@ -2,3 +2,4 @@
 assets/utils/
 config.codekit
 assets/psd/
+.codekit-cache
