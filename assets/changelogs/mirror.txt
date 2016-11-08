@@ -1,3 +1,8 @@
+<h3>2.1.2 - 27th October 2016</h3>
+<ul>
+<li>Add support for pages and projects in slider.</li>
+<li>Tidy codes.</li>
+</ul>
 <h3>2.1.1 - 13th September 2016</h3>
 <ul>
 <li>Update wordwrap css properties.</li>

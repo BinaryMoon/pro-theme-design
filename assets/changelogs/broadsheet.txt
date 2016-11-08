@@ -1,3 +1,8 @@
+<h3>1.4.5 - 31st October 2016</h3>
+<ul>
+<li>Make attachment pages display in the loop so that content and excerpts display correctly</li>
+<li>Tweak attachment page display to be more attractive (improve whitespace)</li>
+</ul>
 <h3>1.4.4 - 15th September 2016</h3>
 <ul>
 <li>tweak wordwrap css</li>

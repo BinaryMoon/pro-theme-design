@@ -1,3 +1,26 @@
+<h3>2.2.3 - 6th November 2016</h3>
+<ul>
+<li>Fix minor issue with hamburger icon animation</li>
+<li>Fix related posts margin</li>
+<li>Fix gap between comment submit button and comment subscribe buttons</li>
+</ul>
+<h3>2.2.2 - 4th November 2016</h3>
+<ul>
+<li>Improve support for post-series plugin</li>
+</ul>
+<h3>2.2.1 - 31st October 2016</h3>
+<ul>
+<li>Small fix for mobile header height when site title is hidden</li>
+</ul>
+<h3>2.2 - 31st October 2016</h3>
+<ul>
+<li>Improve image attachment page to display descriptions and captions and fix navigation styles</li>
+<li>update rtl.css styles</li>
+</ul>
+<h3>2.1.2 - 27th October 2016</h3>
+<ul>
+<li>Tweak responsive styles to behave better on mobile devices.</li>
+</ul>
 <h3>2.1.1 - 8th October 2016</h3>
 <ul>
 <li>Tweak styles of select boxes so they use browser defaults</li>

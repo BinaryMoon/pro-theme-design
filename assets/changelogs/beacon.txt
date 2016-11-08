@@ -1,3 +1,7 @@
+<h3>1.4.1 - 27th October 2016</h3>
+<ul>
+<li>Add support for projects and pages in featured content.</li>
+</ul>
 <h3>1.4 - 15th September 2016</h3>
 <ul>
 <li>Add customizer settings to change the text that appears on the latest, and most discussed tabs.</li>

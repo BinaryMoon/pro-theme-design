@@ -1,3 +1,10 @@
+<h3>1.6 - 29th October 2016</h3>
+<ul>
+<li>Fix issue with slider not working properly when there’s multiple sliders setup (header slider, and featured content).</li>
+<li>some code tidying</li>
+<li>add short_ping for pingback display</li>
+<li>small css tweaks to improve spacing/ readability</li>
+</ul>
 <h3>1.5 - 11 July 2016</h3>
 <ul>
 <li>Fix issue with responsive navigation not allowing the first item to be selected</li>

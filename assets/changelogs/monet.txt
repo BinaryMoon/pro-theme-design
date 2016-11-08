@@ -1,8 +1,16 @@
+<h3>1.4.3 - 27th October 2016</h3>
+<ul>
+<li>Tidy up the codes.</li>
+</ul>
+<h3>1.4.2 - 19th October 2016</h3>
+<ul>
+<li>Improve the dropdown sidebars so that they stretch to fill the available space.</li>
+</ul>
 <h3>1.4.1 - 15th October 2016</h3>
 <ul>
 <li>Tweak word-wrap properties to be less agressive</li>
 <li>remove box-shadow css prefix</li>
-<li>allow slightly longer lines on blog post navigation to reduce number of lines when long post titles are used </li>
+<li>allow slightly longer lines on blog post navigation to reduce number of lines when long post titles are used</li>
 </ul>
 <h3>1.4 - 28th July 2016</h3>
 <ul>
