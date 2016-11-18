@@ -1,3 +1,14 @@
+<h3>2.2.5 - 17th November 2016</h3>
+<ul>
+<li>Tweak responsive styles on the slider</li>
+<li>Fix issue with menu button on ios</li>
+<li>Tweak responsive styles on single post pages so that content makes better use of space</li>
+<li>Hide avatar outlines on small screens cos they look a bit odd (and aren't necessary)</li>
+</ul>
+<h3>2.2.4 - 10th November 2016</h3>
+<ul>
+<li>Fix issue with the header and menu button that happened on iOS devices only.</li>
+</ul>
 <h3>2.2.3 - 6th November 2016</h3>
 <ul>
 <li>Fix minor issue with hamburger icon animation</li>

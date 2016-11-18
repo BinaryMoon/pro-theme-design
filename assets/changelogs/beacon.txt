@@ -1,3 +1,11 @@
+<h3>1.5 - 16th November 2016</h3>
+<ul>
+<li>Add support for wordpress.com content options</li>
+<li>Set clearing on lists so that they don't wrap strangely in blog posts and pages</li>
+<li>Some code reformatting &amp; escaping</li>
+<li>Standardize post meta display to prevent repeating code, and to simplify content options integration</li>
+<li>Tidy css</li>
+</ul>
 <h3>1.4.1 - 27th October 2016</h3>
 <ul>
 <li>Add support for projects and pages in featured content.</li>

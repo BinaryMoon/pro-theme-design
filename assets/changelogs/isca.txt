@@ -1,3 +1,13 @@
+<h3>2.0 - 13th November 2016</h3>
+<ul>
+<li>Updates based upon wordpress.org theme review</li>
+<li>Tidy the codes</li>
+<li>Change isca_header_styles so it's loaded from custom header callback</li>
+<li>Remove header code that's not used</li>
+<li>Switch to standard the_posts_pagination rather than custom function</li>
+<li>Make wordpress.org url translatable for local versions</li>
+<li>Escape header colour</li>
+</ul>
 <h3>1.2 - 11 July 2016</h3>
 <ul>
 <li>Fix issue with responsive navigation not allowing the first menu item to be selected</li>
@@ -19,7 +29,7 @@
 <li>Remove translations that contain html and no translatable text</li>
 <li>Generally improve coding standards</li>
 </ul>
-<h3>1.0</h3>
+<h3>1.0 - 12th October 2013</h3>
 <ul>
 <li>Initial release</li>
 </ul>

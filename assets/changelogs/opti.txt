@@ -1,3 +1,7 @@
+<h3>1.2.7 - 15th November 2016</h3>
+<ul>
+<li>Fix issue with authors widget on wordpress.com</li>
+</ul>
 <h3>1.2.6 - 24th September 2016</h3>
 <ul>
 <li>Improve coding standards</li>

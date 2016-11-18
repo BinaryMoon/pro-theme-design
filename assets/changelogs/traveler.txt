@@ -1,8 +1,14 @@
+<h3>1.5.1 - 10th November 2016</h3>
+<ul>
+<li>Fix issue with image max-widths that was breaking Instagram widget</li>
+<li>Fix display of sharedaddy sharing links</li>
+</ul>
 <h3>1.5 - 4th November 2016</h3>
 <ul>
 <li>Tidy up the codes</li>
 <li>Correct textdomain</li>
 <li>Improve image attachment page to display content and excerpts properly</li>
+<li>Tweak comments styles</li>
 </ul>
 <h3>1.4.1 - 24th September 2016</h3>
 <ul>

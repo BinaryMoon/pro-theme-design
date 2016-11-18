@@ -1,3 +1,12 @@
+<h3>2.0 - 15th November 2016</h3>
+<ul>
+<li>Updates based upon wordpress.org theme review</li>
+<li>Tidy the codes</li>
+<li>Remove header code that's not used</li>
+<li>Switch to standard the_posts_pagination rather than custom function</li>
+<li>Escape more things for extra security</li>
+<li>Make wordpress.org url translatable for local versions</li>
+</ul>
 <h3>1.2.1 - 24 September 2016</h3>
 <ul>
 <li>Fix incorrect text domain</li>
