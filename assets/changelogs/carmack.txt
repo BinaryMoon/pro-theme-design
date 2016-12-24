@@ -1,7 +1,29 @@
+<h3>2.6.3 - 9th December 2016</h3>
+<ul>
+<li>Improve the editor-styles.css</li>
+<li>Update rtl.css</li>
+<li>Simplify form styles</li>
+</ul>
+<h3>2.6.2 - 4th December 2016</h3>
+<ul>
+<li>Show and hide site title and description in customizer without full page refresh</li>
+<li>Update rtl.css</li>
+</ul>
+<h3>2.6.1 - 27th November 2016</h3>
+<ul>
+<li>Fix issue with gap between header and content when the site title is hidden and there's no menu overlay</li>
+</ul>
+<h3>2.6 - 21st November 2016</h3>
+<ul>
+<li>Add live customizer preview for site title, and site description</li>
+<li>Add live customizer preview for theme properties (background triangle and latest news title)</li>
+<li>Fix customizer icon display on branding buttons where border radius was being removed</li>
+</ul>
 <h3>2.5.1 - 7th November 2016</h3>
 <ul>
 <li>Fix related posts margin</li>
 <li>Fix gap between comment submit button and comment subscribe buttons</li>
+<li>Update print styles</li>
 </ul>
 <h3>2.5 - 31st October 2016</h3>
 <ul>

@@ -1,3 +1,8 @@
+<h3>1.4.6 - 20th December 2016</h3>
+<ul>
+<li>Add a filter so that users can enable the featured content header on more post formats (and not just pages which is the default)</li>
+<li>tidy codes and sanitize some translations</li>
+</ul>
 <h3>1.4.5 - 31st October 2016</h3>
 <ul>
 <li>Make attachment pages display in the loop so that content and excerpts display correctly</li>

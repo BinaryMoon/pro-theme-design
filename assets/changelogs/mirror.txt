@@ -1,3 +1,9 @@
+<h3>2.2 - 27th November 2016</h3>
+<ul>
+<li>Fix image attachment template</li>
+<li>Fix article css clearing for hr and headers</li>
+<li>More code escaping on translations and coding standards improvements</li>
+</ul>
 <h3>2.1.2 - 27th October 2016</h3>
 <ul>
 <li>Add support for pages and projects in slider.</li>

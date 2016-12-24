@@ -1,0 +1,13 @@
+a {
+
+	text-decoration: none;
+	@include transition;
+	color: $canvas-blue;
+
+	&:hover {
+
+		text-decoration: underline;
+
+	}
+
+}

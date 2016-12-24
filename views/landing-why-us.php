@@ -17,7 +17,7 @@
 
             <ul class="checkmark">
                 <li>How we ensure our themes are as flexible, and robust as possible.</li>
-                <li>How we listen to customer feedback to try to make the best products we can.</li>
+                <li>How we listen to customer feedback to make the best products we can.</li>
                 <li>Why cheap themes can be a big cost in the long term.</li>
             </ul>
 

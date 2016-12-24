@@ -1,0 +1,38 @@
+.breadcrumbs {
+
+	@include post-meta-data;
+	margin-bottom: $grid-line-height;
+
+	a {
+
+		position: relative;
+
+		&:after {
+
+			content: "/";
+			color: $style-breadcrumb-arrow;
+			opacity: $style-opacity-element;
+			margin: 0 $menu-link-padding;
+
+		}
+
+		&:last-of-type {
+
+			color: $body-copy-color;
+
+			&:after {
+
+				display: none;
+
+			}
+
+		}
+
+		&:hover {
+
+			text-decoration: none;
+
+		}
+
+	}
+}

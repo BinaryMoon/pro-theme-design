@@ -1,0 +1,55 @@
+.newsletter {
+
+    padding-left: 120px;
+    width: 100%;
+    max-width: 50rem;
+    background: url( ../../img/website/newsletter-envelope.png) no-repeat left top;
+    background-size: 100px 94px;
+    position: relative;
+    margin: 0 auto ( $grid-line-height * 6 ) auto;
+
+	form {
+
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+
+	}
+
+    h2 {
+
+        @include modular-scale( delta );
+		font-weight: bold;
+        margin: ( $grid-line-height / 2 ) 0 0 0;
+		width: 100%;
+
+    }
+
+    input.email {
+
+		width: auto;
+		flex-grow: 2;
+		margin: 0 $style-element-spacing 0 0;
+
+    }
+
+    .button {
+
+		margin: 0;
+
+    }
+
+    .modal & {
+
+        h2 {
+
+            color: $canvas-grey-90;
+
+        }
+
+        margin:0;
+
+    }
+
+}

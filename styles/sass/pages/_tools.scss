@@ -1,0 +1,133 @@
+.page-tools-color-picker {
+
+	.color-container {
+
+		padding: $grid-line-height 0;
+		border-radius: $border-radius;
+		background: $canvas-blue;
+		text-align: center;
+		@include transition;
+
+		.colorwheel {
+
+			display: inline-block;
+			margin-bottom: $grid-line-height;
+
+		}
+
+		form {
+
+			padding: 0 $grid-gutter;
+
+		}
+
+		input {
+
+			margin: 0;
+			width: 100%;
+			background: rgba( 255, 255, 255, 0.5 );
+			text-align: center;
+
+		}
+
+	}
+
+}
+
+.page-tools-ascii-entity-conversion {
+
+	.demo {
+
+		display: block;
+
+	}
+
+	p.entities {
+
+		@include modular-scale( delta );
+
+		a {
+
+			color: $canvas-white;
+			margin-right: 0.1em;
+			background: $canvas-grey-80;
+			padding: 0 ( $grid-gutter / 2 );
+			border-radius: $border-radius;
+
+			&:hover {
+
+				text-decoration: none;
+				color: $canvas-grey-40;
+
+			}
+
+		}
+
+	}
+
+	.entity-calculator {
+
+		margin-bottom: 0;
+		position: relative;
+
+		input {
+
+			width:100%;
+			margin:0;
+
+		}
+
+		button {
+
+			position: absolute;
+			bottom: $grid-line-height / 3;
+			right: $grid-gutter / 3;
+
+		}
+
+	}
+
+	.note {
+
+		margin-bottom: $grid-line-height / 4;
+
+	}
+
+}
+
+.page-tools-how-much-to-charge {
+
+	.quote {
+
+		@include modular-scale( beta );
+
+	}
+
+	.quote,
+	.quote-addendum {
+
+		span {
+
+			color: $body-header-color;
+			font-weight: bold;
+
+		}
+
+	}
+
+}
+
+.page-tools-website-tester {
+
+	.website-tester {
+
+		display: none;
+		position:fixed;
+		top:0;
+		right:0;
+		bottom:0;
+		left:0;
+		z-index: 9999999;
+
+	}
+}

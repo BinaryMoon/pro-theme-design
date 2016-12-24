@@ -1,0 +1,134 @@
+
+.page-home {
+
+	.home-header {
+
+		background: $canvas-white;
+		margin-bottom: $grid-line-height * 4;
+		position: relative;
+		display: flex;
+
+		.wrap {
+
+			max-width: $grid-total-width / 2;
+
+		}
+
+	}
+
+	.masthead {
+
+		padding: ( $grid-line-height * 3 ) ( $grid-gutter );
+		width: 50%;
+
+		.wrap {
+
+			float: right;
+
+		}
+
+		.site-description,
+		.site-title {
+
+			@include modular-scale( gamma );
+			color: $body-header-color;
+			float: none;
+			margin: 0;
+			padding: 0;
+			line-height: 1.5;
+
+			span {
+
+				display: block;
+
+			}
+
+		}
+
+		.site-title {
+
+			font-weight: bold;
+
+			svg {
+
+				margin-bottom: $grid-line-height * 4;
+				width: 8rem;
+				height: 8rem;
+
+			}
+
+		}
+
+		.site-description {
+
+			margin-bottom: $grid-line-height;
+
+		}
+
+		.intro {
+
+			max-width: $grid-gutter * 12;
+			margin-bottom: $grid-line-height * 2;
+			@include modular-scale( epsilon );
+			font-weight: 300;
+
+		}
+
+		.button {
+
+			margin-right: $style-element-spacing;
+		}
+
+	}
+
+	.themes {
+
+		padding-top: $grid-line-height * 4;
+
+		h2 {
+
+			text-align: center;
+			margin-bottom: $grid-line-height * 3;
+			font-weight: bold;
+			padding: 0 ( $grid-gutter / 2 );
+
+		}
+
+		.button.fat {
+
+			max-width: 15rem;
+			margin: ( $grid-line-height * -6 ) auto ( $grid-line-height * 6 ) auto;
+			display: block;
+
+		}
+
+	}
+
+	.tiles {
+
+		width: 50%;
+		background: $canvas-grey-30;
+
+		.wrap {
+
+			float: left;
+
+		}
+
+	}
+
+}
+
+@media only screen and (max-width: $grid-total-width) {
+
+	.page-home {
+
+		.masthead {
+
+			padding: ( $grid-line-height * 2 ) ( $grid-gutter );
+
+		}
+
+	}
+
+}

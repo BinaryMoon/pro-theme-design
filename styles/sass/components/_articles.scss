@@ -1,0 +1,32 @@
+article {
+
+	&.summary {
+
+		padding-left: $grid-gutter * 3;
+		position: relative;
+		margin-bottom: $grid-line-height * 2;
+
+		.icon {
+
+			position: absolute;
+			top: 0;
+			left: $grid-gutter;
+
+		}
+
+		h2,
+		p {
+
+			margin: 0;
+
+		}
+
+		h2 {
+
+			font-weight: bold;
+
+		}
+
+	}
+
+}

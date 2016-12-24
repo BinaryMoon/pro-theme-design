@@ -7,13 +7,13 @@
 <p>So why charge more?</p>
 
 <ul>
-    <li><strong>You'll earn more.</strong> It should be obvious - but if you charge more then you will have a greater income.</li>
-    <li><strong>You'll get a better quality of client.</strong> Cheap clients are often not fun to work for. People who pay more are more likely to be respectful of your time and skills.</li>
-    <li><strong>You can work less.</strong> This isn't always the case, but if you charge more, then you will be able to focus on the best paying clients and then have longer breaks between clients.</li>
-    <li><strong>It's less stressful.</strong> There may be a more pressure to do a good job for your better paying clients, but you can worry less about where the next pay check will come from.</li>
+	<li><strong>You'll earn more.</strong> It should be obvious - but if you charge more then you will have a greater income.</li>
+	<li><strong>You'll get a better quality of client.</strong> Cheap clients are often not fun to work for. People who pay more are more likely to be respectful of your time and skills.</li>
+	<li><strong>You can work less.</strong> This isn't always the case, but if you charge more, then you will be able to focus on the best paying clients and then have longer breaks between clients.</li>
+	<li><strong>It's less stressful.</strong> There may be a more pressure to do a good job for your better paying clients, but you can worry less about where the next pay check will come from.</li>
 </ul>
 
-<p class="note tip">We have a <a href="<?php echo path( 'tools/how-much-to-charge/' ); ?>">WordPress freelance pricing calculator</a> that helps you to work out your working rate.</p>
+<p class="note icon"><?php draw_svg( 'alert-info', 'large' ); ?>We have a <a href="<?php echo path( 'tools/how-much-to-charge/' ); ?>">WordPress freelance pricing calculator</a> that helps you to work out your working rate.</p>
 
 <h2>Don't work for free</h2>
 
@@ -50,9 +50,9 @@
 <p>Some pointers for spotting problem clients:</p>
 
 <ul>
-    <li><strong>They haggle on the price.</strong> Haggling is natural in business - but if they are trying to halve your quote they could be trouble.</li>
-    <li><strong>Lack of respect.</strong> You're a professional doing a professional job. If they don't listen to you, and try to impose their ways, it's likely they don't respect your skills or time - and so will take advantage.</li>
-    <li><strong>Short timeframe.</strong> If they want the website 'yesterday' it's likely that they have poor planning skills, and want to do everything quickly and cheaply.</li>
+	<li><strong>They haggle on the price.</strong> Haggling is natural in business - but if they are trying to halve your quote they could be trouble.</li>
+	<li><strong>Lack of respect.</strong> You're a professional doing a professional job. If they don't listen to you, and try to impose their ways, it's likely they don't respect your skills or time - and so will take advantage.</li>
+	<li><strong>Short timeframe.</strong> If they want the website 'yesterday' it's likely that they have poor planning skills, and want to do everything quickly and cheaply.</li>
 </ul>
 
 <h2>Buy Themes and Plugins (and other 3rd party services)</h2>
@@ -65,7 +65,7 @@
 
 <h2>Sell Additional Services</h2>
 
-<p class="note tip">Check out our article on <a href="<?php echo path( 'how-to/be-a-wordpress-implementer/' ); ?>">how to be a WordPress Implementor</a>.</p>
+<p class="note icon"><?php draw_svg( 'alert-info', 'large' ); ?>Check out our article on <a href="<?php echo path( 'how-to/be-a-wordpress-implementer/' ); ?>">how to be a WordPress Implementor</a>.</p>
 
 <p>As a WordPress Implementor you clearly have the skills to pay the bills so there's no reason you couldn't charge for additional services as well. Things like helping with content updates, taking care of website backups and looking after software updates. Little things that you can charge more for and keep you in the clients mind. Of course for this to work best you would need to build a good relationship with your clients.</p>
 

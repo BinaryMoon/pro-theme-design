@@ -1,9 +1,38 @@
+<h3>2.3.4 - 9th December 2016</h3>
+<ul>
+<li>Improve the editor-styles.css</li>
+<li>Update rtl.css</li>
+<li>Simplify form styles</li>
+<li>Add some animation to site title and logo</li>
+</ul>
+<h3>2.3.3 - 6th December 2016</h3>
+<ul>
+<li>Add a bit of animation to the header for extra woosh</li>
+<li>Update rtl.css</li>
+</ul>
+<h3>2.3.2 - 4th December 2016</h3>
+<ul>
+<li>Show and hide site title and description in customizer without full page refresh</li>
+<li>Update rtl.css</li>
+</ul>
+<h3>2.3.1 - 21st November 2016</h3>
+<ul>
+<li>Improve infinite loading display on blog posts</li>
+<li>Make site title and site description customizer refresh even more real time</li>
+</ul>
+<h3>2.3 - 20th November 2016</h3>
+<ul>
+<li>Add support for customizer refresh of site title and site description</li>
+<li>Add support for customizer refresh for widgets</li>
+</ul>
 <h3>2.2.5 - 17th November 2016</h3>
 <ul>
 <li>Tweak responsive styles on the slider</li>
 <li>Fix issue with menu button on ios</li>
 <li>Tweak responsive styles on single post pages so that content makes better use of space</li>
 <li>Hide avatar outlines on small screens cos they look a bit odd (and aren't necessary)</li>
+<li>Improve print styles</li>
+<li>Update rtl styles</li>
 </ul>
 <h3>2.2.4 - 10th November 2016</h3>
 <ul>

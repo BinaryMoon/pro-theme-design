@@ -1,15 +1,15 @@
 <p class="intro">WordPress is an incredibly versatile application, and there are many ways to make money with it. On this page I have listed the most common, but I'm sure it's not an exhaustive list. If you know of any others then please do let me know on <a href="https://twitter.com/prothemedesign/">Twitter</a>.</p>
 
 <ol>
-    <li><a href="#blogging" class="scroll-to">Blogging</a></li>
-    <li><a href="#advertising-your-business" class="scroll-to">Advertising Your Business</a></li>
-    <li><a href="#web-design-and-developerment-services" class="scroll-to">Web Design and Developement Services</a></li>
-    <li><a href="#site-maintenance" class="scroll-to">Site Maintenance</a></li>
-    <li><a href="#teaching-services" class="scroll-to">Teaching Services</a></li>
-    <li><a href="#selling-premium-themes-and-plugins" class="scroll-to">Selling Premium Themes and Plugins</a></li>
-    <li><a href="#selling-information-products" class="scroll-to">Selling Information Products</a></li>
-    <li><a href="#website-flipping" class="scroll-to">Website Flipping</a></li>
-    <li><a href="#content-writing-services" class="scroll-to">Content Writing Services</a></li>
+	<li><a href="#blogging" class="scroll-to">Blogging</a></li>
+	<li><a href="#advertising-your-business" class="scroll-to">Advertising Your Business</a></li>
+	<li><a href="#web-design-and-developerment-services" class="scroll-to">Web Design and Developement Services</a></li>
+	<li><a href="#site-maintenance" class="scroll-to">Site Maintenance</a></li>
+	<li><a href="#teaching-services" class="scroll-to">Teaching Services</a></li>
+	<li><a href="#selling-premium-themes-and-plugins" class="scroll-to">Selling Premium Themes and Plugins</a></li>
+	<li><a href="#selling-information-products" class="scroll-to">Selling Information Products</a></li>
+	<li><a href="#website-flipping" class="scroll-to">Website Flipping</a></li>
+	<li><a href="#content-writing-services" class="scroll-to">Content Writing Services</a></li>
 </ol>
 
 
@@ -20,14 +20,14 @@
 <p>Creating a popular blog is a challenge all on it's own - but if you can manage it then there are three good ways to monetise your now popular site.</p>
 
 <ol>
-    <li><strong>Advertising</strong> - oldschool, but easy to get started. The prevalence of ad-blockers means this is less lucrative than it once was.</li>
-    <li><strong>Affiliate Marketing</strong> - Find awesome products, and then promote them. Make sure to use an affiliate url, and then you'll earn money from each person who buys through your link.</li>
-    <li><strong>Sponsored Posts</strong> - many companies will pay bloggers to write about their products and services.</li>
+	<li><strong>Advertising</strong> - oldschool, but easy to get started. The prevalence of ad-blockers means this is less lucrative than it once was.</li>
+	<li><strong>Affiliate Marketing</strong> - Find awesome products, and then promote them. Make sure to use an affiliate url, and then you'll earn money from each person who buys through your link.</li>
+	<li><strong>Sponsored Posts</strong> - many companies will pay bloggers to write about their products and services.</li>
 </ol>
 
 <p>Beware of selling links. If you don't add links as 'nofollow' then you may end up being penalised by Google. This practice has been frowned upon for some time but there are still companies trying to sell them. If you do decide to go ignore the nofollow tag then make sure you are rewarded adequately.</p>
 
-<p class="note tip">If you're in the market for a new blogging theme then our most popular are <a href="<?php echo path( 'theme/opti/' ); ?>">Opti</a>, and <a href="<?php echo path( 'theme/monet/' ); ?>">Monet</a>.</p>
+<p class="note icon"><?php draw_svg( 'alert-info', 'large' ); ?>If you're in the market for a new blogging theme then our most popular are <a href="<?php echo path( 'theme/opti/' ); ?>">Opti</a>, and <a href="<?php echo path( 'theme/monet/' ); ?>">Monet</a>.</p>
 
 <h3>Getting Started Blogging</h3>
 
@@ -42,7 +42,7 @@
 
 <p>The alternative to blogging is simply to use WordPress to advertise your existing business. It doesn't matter what your business is or what you do - all companies should have a web presence. For many people searching online is the first place they go when looking for a solution. If you're not online, you're going to make less money.</p>
 
-<p class="note tip">If you're creating a website for your bricks and mortar store then make sure to include your shop address on the site - a text widget in the sidebar or footer is ideal. This will make it easy for people to find you - and it will tell Google where you are, so that it can be relevant for local searches.</p>
+<p class="note icon"><?php draw_svg( 'alert-info', 'large' ); ?>If you're creating a website for your bricks and mortar store then make sure to include your shop address on the site - a text widget in the sidebar or footer is ideal. This will make it easy for people to find you - and it will tell Google where you are, so that it can be relevant for local searches.</p>
 
 <p>A good example of a business theme is <a href="<?php echo path( 'theme/exhibit/' ); ?>">Exhibit</a>.</p>
 
@@ -53,10 +53,10 @@
 <p>Below is a list of some of the things you can do to help you maximise your sites potential.</p>
 
 <ul>
-    <li>Decide on a target audience. Who are they? What are their interests? How can you help them? Answering these simple questions can make a big difference to the direction you take your website.</li>
-    <li>Setup a newsletter list. But make sure you're going to send useful information that will benefit your visitors.</li>
-    <li>Setup business social media accounts and link to them from your website. Start with 1 or 2 profiles that your audience use the most. Again, make sure you are going to update them regularly.</li>
-    <li>Post news articles about your business that are interesting or useful for your target audience.</li>
+	<li>Decide on a target audience. Who are they? What are their interests? How can you help them? Answering these simple questions can make a big difference to the direction you take your website.</li>
+	<li>Setup a newsletter list. But make sure you're going to send useful information that will benefit your visitors.</li>
+	<li>Setup business social media accounts and link to them from your website. Start with 1 or 2 profiles that your audience use the most. Again, make sure you are going to update them regularly.</li>
+	<li>Post news articles about your business that are interesting or useful for your target audience.</li>
 </ul>
 
 
@@ -68,7 +68,7 @@
 
 <p>There is also a growing trend towards 'implementors' people who buy ready made themes from sites like <a href="https://prothemedesign.com">Pro Theme Design</a>, or <a href="https://creativemarket.com/?u=BinaryMoon">Creative Market</a>, and then customise them for clients. This is a great starting point for less technical people who don't want to build a site from scratch but know enough html and css to tweak a site to meet a clients needs.</p>
 
-<p class="note tip">We've written an in-depth article on <a href="<?php echo path( '/how-to/be-a-wordpress-implementer/' ); ?>">how to become a WordPress Implementor</a>.</p>
+<p class="note icon"><?php draw_svg( 'alert-info', 'large' ); ?>We've written an in-depth article on <a href="<?php echo path( '/how-to/be-a-wordpress-implementer/' ); ?>">how to become a WordPress Implementor</a>.</p>
 
 <p>Alternatively you could sign up as a freelancer on sites like <a href="http://codeable.com">Codeable</a>. They will take care of finding the work, and accepting payments. It's a great way to start for those who know WordPress inside out but don't know how to market their skills.</p>
 
@@ -91,13 +91,13 @@
 <p>People need to learn, and if you're highly skilled at something then sharing your knowledge can be a great way to earn money. Some of the things you could do include:</p>
 
 <ul>
-    <li>Creating a blog that teaches people your skills - and then hiring yourself out to give 1 to 1 tuition and advice. <a href="https://chrislema.com/">Chris Lema</a> has been doing great with this by selling time with himself for people to pick his brain (using <a href="http://clarity.fm/">Clarity.fm</a>).</li>
-    <li>Writing tutorials and charging for videos or other supplemental content that offers more detailed information and help. I'm trying something like this for WordPress with <a href="https://masterwp.co">MasterWP</a>.</li>
-    <li>Creating a subscription site or community, offering some content for free, and more advanced content for money.</li>
-    <li>Creating content for education websites like <a href="https://www.udemy.com/">Udemy</a>, and <a href="https://www.codecademy.com/">Codecademy</a>. You don't even need a website for this!</li>
+	<li>Creating a blog that teaches people your skills - and then hiring yourself out to give 1 to 1 tuition and advice. <a href="https://chrislema.com/">Chris Lema</a> has been doing great with this by selling time with himself for people to pick his brain (using <a href="http://clarity.fm/">Clarity.fm</a>).</li>
+	<li>Writing tutorials and charging for videos or other supplemental content that offers more detailed information and help. I'm trying something like this for WordPress with <a href="https://masterwp.co">MasterWP</a>.</li>
+	<li>Creating a subscription site or community, offering some content for free, and more advanced content for money.</li>
+	<li>Creating content for education websites like <a href="https://www.udemy.com/">Udemy</a>, and <a href="https://www.codecademy.com/">Codecademy</a>. You don't even need a website for this!</li>
 </ul>
 
-<p class="note tip"><a href="https://www.woothemes.com/products/sensei/">Sensei</a> is a great plugin for creating online teaching resources in WordPress. It even integrates with WooCommerce so that you can create a paid memberships teaching site.</p>
+<p class="note icon"><?php draw_svg( 'alert-info', 'large' ); ?><a href="https://www.woothemes.com/products/sensei/">Sensei</a> is a great plugin for creating online teaching resources in WordPress. It even integrates with WooCommerce so that you can create a paid memberships teaching site.</p>
 
 
 <h2 id="selling-premium-themes-and-plugins">6. Selling Premium Themes and Plugins</h2>
@@ -111,16 +111,16 @@
 <p>To sell themes and plugins you could try the following marketplaces:</p>
 
 <ul>
-    <li><a href="https://creativemarket.com/?u=BinaryMoon">Creative Market</a> - for themes, or digital assets</li>
-    <li><a href="http://themeforest.net/">ThemeForest</a> - for themes</li>
-    <li><a href="http://www.mojo-themes.com/">Mojo Themes</a> - for themes</li>
-    <li><a href="http://codecanyon.net/">CodeCanyon</a> - for plugins</li>
-    <li><a href="http://www.mojo-code.com/">Mojo Code</a> - for plugins</li>
+	<li><a href="https://creativemarket.com/?u=BinaryMoon">Creative Market</a> - for themes, or digital assets</li>
+	<li><a href="http://themeforest.net/">ThemeForest</a> - for themes</li>
+	<li><a href="http://www.mojo-themes.com/">Mojo Themes</a> - for themes</li>
+	<li><a href="http://codecanyon.net/">CodeCanyon</a> - for plugins</li>
+	<li><a href="http://www.mojo-code.com/">Mojo Code</a> - for plugins</li>
 </ul>
 
 <p>Alternatively you could always build and sell the themes/ plugins on your own site. In fact I would always recommend doing this since you will then be the one in control. You can set the prices and you own the customer details. Personally I really like <a href="http://gumroad.com">Gumroad</a> for selling from my own site, however there are many similar services out there so you can find the ones you like best.</p>
 
-<p class="note tip">If I was starting now I would create themes and plugins for a specific, underserved, group of users. I would then try to make the ultimate product for that group of users. This will make marketing much easier.</p>
+<p class="note icon"><?php draw_svg( 'alert-info', 'large' ); ?>If I was starting now I would create themes and plugins for a specific, underserved, group of users. I would then try to make the ultimate product for that group of users. This will make marketing much easier.</p>
 
 
 <h2 id="selling-information-products">7. Selling Information Products</h2>
@@ -130,9 +130,9 @@
 <p>Often less technical people can get scared when you talk about selling things online however there's many services out there that do all the work for you. All you have to do is create the content and then upload it to their service. Below are a few popular services that could help you get started:</p>
 
 <ul>
-    <li><a href="http://gumroad.com">Gumroad</a> - the service I use to sell WordPress themes here on <a href="https://prothemedesign.com">Pro Theme Design</a></li>
-    <li><a href="https://selz.com/">Selz</a></li>
-    <li><a href="https://sellfy.com/">Sellfy</a></li>
+	<li><a href="http://gumroad.com">Gumroad</a> - the service I use to sell WordPress themes here on <a href="https://prothemedesign.com">Pro Theme Design</a></li>
+	<li><a href="https://selz.com/">Selz</a></li>
+	<li><a href="https://sellfy.com/">Sellfy</a></li>
 </ul>
 
 <p>If you want you could also use a WordPress plugin to sell your digital products however I feel that often this is more work. You will still need to set up payment providers, secure certificates, and generally have more to maintain. If you use a third party service then all you have to do is link to your product on their server. This can work with any type of site (including those powered by WordPress.com).</p>
@@ -140,8 +140,8 @@
 <p>However, if you want to go down this path, and you're hosting WordPress yourself, then the following are some of the top WordPress e-commerce plugins.</p>
 
 <ul>
-    <li><a href="https://wordpress.org/plugins/woocommerce/">WooCommerce</a></li>
-    <li><a href="https://wordpress.org/plugins/easy-digital-downloads/">Easy Digital Downloads</a></li>
+	<li><a href="https://wordpress.org/plugins/woocommerce/">WooCommerce</a></li>
+	<li><a href="https://wordpress.org/plugins/easy-digital-downloads/">Easy Digital Downloads</a></li>
 </ul>
 
 <h2 id="website-flipping">8. Website Flipping</h2>

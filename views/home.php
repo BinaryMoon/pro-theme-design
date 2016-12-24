@@ -1,33 +1,82 @@
 <?php
-    include( '_partials/head.php' );
+/**
+ * Homepage Template
+ *
+ * @package ptd
+ */
 
-    $themes = get_theme_data();
+	include( '_partials/head.php' );
 
 ?>
-    <body class="page-home">
+
+	<body class="page-home">
+
+		<section class="home-header">
+
+			<header class="masthead" id="masthead" role="banner">
+
+				<div class="wrap">
+
+					<h1 class="site-title">
+						<?php include( 'img/logos/logo.svg' ); ?>
+						<span><?php site_header_title(); ?></span>
+					</h1>
+
+					<p class="site-description">
+						<span>Responsive,</span>
+						<span>Elegant,</span>
+						<span>WordPress Themes</span>
+					</p>
+
+					<p class="intro">
+						We create themes for WordPress agencies, and small businesses. Join over <strong><?php echo paid_customers(); ?></strong> happy WordPress themers.
+					</p>
+
+					<p>
+						<a href="<?php echo path( '/themes/' ); ?>" class="button">Browse Themes</a>
+						<a href="<?php echo path( '/why-us/' ); ?>" class="button minor">Why Us?</a>
+					</p>
+
+				</div>
+
+			</header>
+
+			<div class="tiles">
+
+				<div class="wrap">
+
+					<img src="<?php echo image_path( 'website/home-tiles.png' ); ?>" style="width: 1130px; max-width:1130px;"/>
+					<?php //include( 'img/website/home-tiles.svg' ); ?>
+
+				</div>
+
+			</div>
+
+		</section>
+
+		<section class="themes">
+
+			<h2>Recent <a href="<?php echo path( '/themes/' ); ?>">WordPress Themes</a></h2>
 
 <?php
-
-        include( '_partials/header.php' );
-
-        $theme = array_shift( $themes );
-
-        include( site_view_path( '_partials/theme-big.php' ) );
-
-        if ( ! DISABLE_THEME_CLUB ) {
-
-            site_include_view( '_partials/theme-club.php' );
-
-        }
+	// Include large theme image.
+	$theme = array_shift( $themes );
+	include( site_view_path( '_partials/theme-big.php' ) );
 ?>
-        <div class="theme-wrapper block-wrapper wrapper">
-<?php
-    $template = site_view_path( '_partials/theme-small.php' );
-    foreach ( $themes as $theme ) {
-        include( $template );
-    }
-?>
-        </div>
+
+			<div class="block-wrapper wrapper">
 
 <?php
-    include( '_partials/footer.php' );
+	// Include small theme images.
+	$template = site_view_path( '_partials/theme-small.php' );
+	foreach ( $themes as $theme ) {
+		include( $template );
+	}
+?>
+
+			</div>
+
+		</section>
+
+<?php
+	include( '_partials/footer.php' );

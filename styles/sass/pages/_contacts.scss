@@ -1,0 +1,54 @@
+.page-contact {
+
+    .contact-selection {
+
+        @include transition;
+        overflow: hidden;
+
+        a {
+            background: $block-background;
+            border-radius: $border-radius;
+            display: block;
+            padding: ( $grid-line-height / 2 ) ( $grid-gutter / 2 );
+            margin-bottom: $grid-line-height;
+            line-height: $grid-line-height;
+
+            .fa {
+
+                float: right;
+                color: $canvas-color;
+                opacity: 0.5;
+
+            }
+
+        }
+
+        &.hidden {
+
+            height: 0;
+            opacity: 0;
+
+        }
+
+    }
+
+    form.formspree {
+
+        opacity: 0;
+        @include transition;
+        height: 0;
+        visibility: hidden;
+        clear: both;
+        @include clear;
+
+        &.display {
+
+            visibility: visible;
+            height: auto;
+            opacity: 1;
+
+        }
+
+    }
+
+}

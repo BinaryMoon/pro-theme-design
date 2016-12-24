@@ -1,5 +1,8 @@
 <!-- Use _partials/google-search.php -->
 <form method="get" id="searchform" class="searchform" action="">
-    <input type="text" value="" placeholder="Search..." name="q" id="q" class="text" />
-    <button type="submit" id="searchsubmit" class="button"><i class="fa fa-search solo" aria-hidden="true"></i><span class="screen-reader-text">Search</span></button>
+	<input type="text" value="" placeholder="Search..." name="q" id="q" class="text" />
+	<button type="submit" id="searchsubmit" class="button">
+		<?php draw_svg( 'app-search', 'small' ); ?>
+		<span class="screen-reader-text">Search</span>
+	</button>
 </form>

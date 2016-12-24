@@ -9,7 +9,7 @@
     <p>The <a href="<?php echo path( 'theme-showcase/' ); ?>">theme showcase</a> websites can change theme. This page gives me a quick and easy way to tell which ones have changed and so need to be removed.</p>
 </div>
 
-<div class="wrapper block-wrapper theme-wrapper">
+<div class="wrapper block-wrapper">
 <?php
     $count = 0;
 

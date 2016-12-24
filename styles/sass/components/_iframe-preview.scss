@@ -1,0 +1,92 @@
+.iframe-preview {
+
+	position: relative;
+	height: 100vh;
+	min-height: 400px;
+
+	header {
+
+		background: $canvas-background;
+		padding: ( $grid-line-height / 2 ) ( $grid-gutter / 2 );
+		height: $grid-line-height * 2.5;
+
+		h1 {
+
+			@include modular-scale( delta );
+			display: inline-block;
+			margin: 0 $grid-gutter 0 0;
+			font-weight: bold;
+
+		}
+
+		.preview-size {
+
+			float: right;
+
+			a {
+
+				color: $canvas-grey-60;
+				margin-left: $grid-gutter / 3;
+
+				&.selected {
+
+					color: $canvas-grey-90;
+
+				}
+
+			}
+
+		}
+
+		.button {
+
+			display: inline-block;
+			margin: 0 ( $grid-gutter / 3 ) 0 0;
+			vertical-align: top;
+
+		}
+
+	}
+
+	.iframe-wrapper {
+
+		display: block;
+		position: absolute;
+		top: $grid-line-height * 2.5;
+		bottom: 0;
+		width: 100%;
+		text-align: center;
+		background: $canvas-grey-90;
+		overflow-y: scroll;
+
+		iframe {
+
+			border: none;
+			margin: 0 auto;
+			height: 100%;
+			width: 100%;
+			display: block;
+			max-width: 100%;
+			background: url( ../../img/website/ajax-loader.gif ) center center no-repeat;
+
+			@include transition;
+
+			&.hidden {
+
+				z-index: -1;
+
+			}
+
+		}
+
+	}
+
+	.close-frame {
+
+		float: right;
+		margin-left: $grid-gutter;
+		color: $canvas-grey-90;
+
+	}
+
+}

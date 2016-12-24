@@ -1,0 +1,171 @@
+// @package Granule
+
+@media only screen and ( max-width: 1200px ) {
+
+    html {
+
+        font-size: ( ( $font-size * 1 ) * 1% );
+
+    }
+
+}
+
+
+@media only screen and ( max-width: 899px ) {
+
+    html {
+
+        font-size: ( ( $font-size * 0.95 ) * 1% );
+
+    }
+
+    .masthead {
+
+        .container {
+
+            width: auto;
+            margin: 0 $grid-gutter;
+            padding: ( $grid-line-height ) ( $grid-gutter );
+
+            &:before {
+
+                width: 100%;
+
+            }
+
+        }
+
+        .banner {
+
+            float: none;
+            width: 100%;
+
+            &.iframe-wrapper {
+
+                padding-bottom: 51.4%;
+
+            }
+
+        }
+
+    }
+
+}
+
+
+@media only screen and ( max-width: $wp-responsive-width-2 ) {
+
+    html {
+
+        font-size: ( ( $font-size * 0.9 ) * 1% );
+
+    }
+
+    .masthead {
+
+        .container {
+
+            padding: 0;
+
+        }
+
+        .preorder {
+
+            flex-direction: column;
+
+            .banner {
+
+                width: 100%;
+
+            }
+
+        }
+
+    }
+
+    .modules {
+
+        column-count: 1;
+
+    }
+
+    .people {
+
+        flex-direction: column;
+
+        .person {
+
+            width: 100%;
+
+        }
+
+    }
+
+    .intro {
+
+        .newsletter {
+
+            flex-direction: column;
+
+        }
+
+    }
+
+    .intro .newsletter,
+    .newsletter {
+
+        input {
+
+            margin: 0;
+
+        }
+
+        label,
+        input[type=submit] {
+
+            width: 100%;
+            margin-bottom: $grid-line-height / 2;
+
+        }
+
+    }
+
+    .pricing {
+
+        .packages {
+
+            flex-direction: column;
+
+        }
+
+        .package.best,
+        .package {
+
+            margin: 0 0 $grid-line-height 0;
+
+        }
+
+    }
+
+    .hello-bar {
+
+        span {
+
+            //display: none;
+
+        }
+
+    }
+
+}
+
+
+@media only screen and ( max-width: $wp-responsive-width-1 ) {
+
+    html {
+
+        font-size: ( ( $font-size * 0.85 ) * 1% );
+
+    }
+
+}

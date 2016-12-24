@@ -1,0 +1,125 @@
+.page-styleguide {
+
+	.colours {
+
+		@include clear;
+
+		.colour {
+
+			display: block;
+			float: left;
+			width: $grid-gutter * 2;
+			height: $grid-line-height * 2;
+			margin: 0 $grid-gutter $grid-line-height 0;
+			border-radius: $border-radius;
+			box-shadow: $box-shadow;
+			position: relative;
+
+			&:after {
+
+				content: attr( background-color );
+				position: absolute;
+				top: 0;
+				left: 0;
+
+			}
+
+		}
+
+		.green { background: $canvas-green; color: contrast( $canvas-green ); }
+		.green-dark { background: $canvas-green-dark; color: contrast( $canvas-green-dark ); }
+		.blue { background: $canvas-blue; color: contrast( $canvas-blue ); }
+		.blue-dark { background: $canvas-blue-dark; color: contrast( $canvas-blue-dark ); }
+		.red { background: $canvas-red; color: contrast( $canvas-red ); }
+		.red-dark { background: $canvas-red-dark; color: contrast( $canvas-red-dark ); }
+		.yellow { background: $canvas-yellow; color: contrast( $canvas-yellow ); }
+		.yellow-dark { background: $canvas-yellow-dark; color: contrast( $canvas-yellow-dark ); }
+		.orange { background: $canvas-orange; color: contrast( $canvas-orange ); }
+		.orange-dark { background: $canvas-orange-dark; color: contrast( $canvas-orange-dark ); }
+		.purple { background: $canvas-purple; color: contrast( $canvas-purple ); }
+		.purple-dark { background: $canvas-purple-dark; color: contrast( $canvas-purple-dark ); }
+		.grey-100 { background: $canvas-grey-100; color: contrast( $canvas-grey-100 ); }
+		.grey-90 { background: $canvas-grey-90; color: contrast( $canvas-grey-90 ); }
+		.grey-80 { background: $canvas-grey-80; color: contrast( $canvas-grey-80 ); }
+		.grey-70 { background: $canvas-grey-70; color: contrast( $canvas-grey-70 ); }
+		.grey-60 { background: $canvas-grey-60; color: contrast( $canvas-grey-60 ); }
+		.grey-50 { background: $canvas-grey-50; color: contrast( $canvas-grey-50 ); }
+		.grey-40 { background: $canvas-grey-40; color: contrast( $canvas-grey-40 ); }
+		.grey-30 { background: $canvas-grey-30; color: contrast( $canvas-grey-30 ); }
+		.grey-20 { background: $canvas-grey-20; color: contrast( $canvas-grey-20 ); }
+		.grey-10 { background: $canvas-grey-10; color: contrast( $canvas-grey-10 ); }
+	}
+
+	.pattern {
+
+		@include clear();
+		margin-bottom: $grid-line-height * 4;
+
+		.pattern-wrapper {
+
+			position: relative;
+
+		}
+
+		.display {
+
+			min-height: 150px;
+			opacity: 1;
+			@include transition;
+			visibility: visible;
+
+			&.hidden {
+
+				opacity: 0;
+				visibility: hidden;
+
+			}
+
+		}
+
+		.source {
+
+			position: absolute;
+			width: 100%;
+			top: 0;
+			opacity: 0;
+			@include transition;
+			visibility:hidden;
+
+			&.hidden {
+
+				opacity: 1;
+				visibility: visible;
+
+			}
+
+		}
+
+		textarea {
+
+			min-height: 150px;
+
+		}
+
+		.meta {
+
+			display: block;
+			margin-top: $grid-line-height / 2;
+
+			a {
+
+				margin-right: $grid-gutter;
+
+				.fa {
+
+					margin-right:10px;
+
+				}
+
+			}
+
+		}
+
+	}
+
+}

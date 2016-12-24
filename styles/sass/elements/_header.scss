@@ -1,0 +1,202 @@
+$logo-size: 4rem;
+
+.masthead {
+
+	//padding: 0 $grid-gutter;
+	@include clear;
+	margin-bottom: $grid-line-height * 4;
+
+	.wrapper {
+
+		@include clear;
+		margin-bottom: 0;
+
+		ul {
+
+			max-width: 100%;
+
+		}
+
+	}
+
+	.site-title {
+
+		padding: $grid-line-height 0;
+		@include modular-scale( delta );
+		margin: 0;
+		float: left;
+
+		a {
+
+			text-decoration: none;
+			line-height: 3rem;
+			font-weight: lighter;
+			@include transition;
+
+			&:hover {
+
+				svg {
+
+					rect, polygon {
+
+						color: $canvas-grey-100;
+
+					}
+
+				}
+
+			}
+
+		}
+
+		.ptd-logo {
+
+			display: inline-block;
+			margin-right: 0.5em;
+			height: $logo-size;
+			//width: $logo-size * 0.75;
+			width: $logo-size;
+			vertical-align: middle;
+			stroke: none;
+			box-shadow: none;
+			color: $canvas-grey-100;
+			fill: currentColor;
+
+			rect, polygon {
+
+				@include transition;
+
+			}
+
+		}
+
+	}
+
+	.main-menu {
+
+		float: right;
+		padding: $grid-line-height 0;
+		line-height: $logo-size;
+		@include post-meta-data();
+
+		button {
+
+			display: none;
+
+		}
+
+		ul {
+
+			list-style-type: none;
+			@include clear;
+			margin: 0;
+			padding: 0;
+			text-align: right;
+
+		}
+
+		li {
+
+			display: inline-block;
+			white-space: nowrap;
+			margin: 0;
+
+			a {
+
+				padding: 0 ( $grid-gutter / 2 );
+				color: $canvas-grey-100;
+				display: block;
+				font-weight: 300;
+
+				&.social {
+
+					padding: ( $grid-line-height / 2 ) ( $grid-gutter / 4 );
+					display: inline-block;
+
+				}
+
+			}
+
+			&.current {
+
+				a {
+
+					font-weight: bolder;
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+
+@media only screen and (max-width: $responsive-tablet) {
+
+	.masthead {
+
+		nav.main-menu {
+
+			width: 100%;
+			float: none;
+			position: relative;
+			clear: both;
+			padding: 0;
+
+			button {
+
+				display: block;
+				position: absolute;
+				right: 0;
+				top: -3 * $grid-line-height;
+
+			}
+
+			ul {
+
+				background: $canvas-white;
+				display: none;
+				padding: ( $grid-line-height / 2 ) 0;
+
+				li {
+
+					display: block;
+					text-align: center;
+
+				}
+
+			}
+
+			&.display {
+
+				ul {
+
+					display: block;
+
+				}
+
+			}
+
+			a,
+			a.social {
+
+				padding: ( $grid-line-height / 2 ) ( $grid-gutter );
+				//text-align: center;
+
+			}
+
+			a.social {
+
+				display: inline-block;
+
+			}
+
+		}
+
+	}
+
+
+}

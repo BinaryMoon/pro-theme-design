@@ -1,3 +1,9 @@
+<?php
+/**
+ * TODO
+ * Recommend contract website - http://www.shakelaw.com/legal-info/freelancehire-agreements/
+ */
+?>
 <p class="intro">WordPress Implementors are becoming increasingly common in the WordPress community. These are people who implement WordPress for small businesses. Often they will setup WordPress for their client, and then buy a theme and customise it to fit the clients requirements.</p>
 
 <h2>The Difference Between Implementer and Developer</h2>

@@ -1,0 +1,126 @@
+.wrapper {
+
+	max-width: $grid-total-width;
+	width: 100%;
+	margin: 0 auto ( $grid-line-height * 4 ) auto;
+	padding-left: $grid-gutter;
+	padding-right: $grid-gutter;
+	font-weight: lighter;
+
+	h1, h2, h3, h4, h5, h6 {
+
+		clear: both;
+
+	}
+
+	h1 {
+
+		font-weight: bold;
+		margin-bottom: $grid-line-height;
+
+	}
+
+	h2 {
+
+		a {
+
+			color: $link-color;
+
+		}
+
+	}
+
+	.intro {
+
+		@include modular-scale( delta );
+
+	}
+
+	.meta {
+
+		@include post-meta-data();
+
+	}
+
+	article.summary,
+	.breadcrumbs,
+	ul, ol,
+	h1, h2, h3, h4, h5, h6,
+	.note,
+	form,
+	p {
+
+		max-width: $grid-total-width * 0.6;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+
+	img {
+
+		border-radius: $border-radius;
+
+		&.align-left, &.align-right {
+
+			box-shadow: $box-shadow;
+
+		}
+
+	}
+
+	em {
+
+		font-style: italic;
+		font-weight: inherit;
+
+	}
+
+	strong {
+
+		color: $body-header-color;
+
+	}
+
+	li {
+
+		margin-bottom: ( $grid-line-height / 2);
+
+		&:last-of-type {
+
+			margin: 0;
+
+		}
+
+	}
+
+	.align-left {
+
+		float: left;
+		margin: 0 ( $grid-gutter ) ( $grid-line-height * $grid-line-height-multiplier ) 0;
+
+	}
+
+	.align-right {
+
+		float: right;
+		margin:0 0 ( $grid-line-height * $grid-line-height-multiplier ) ( $grid-gutter ) ;
+
+	}
+
+}
+
+@media only screen and (max-width: 749px) {
+
+	.wrapper {
+
+		.align-left,
+		.align-right {
+
+			float: none;
+			margin: 0 auto ( $grid-line-height * $grid-line-height-multiplier ) auto;
+
+		}
+
+	}
+
+}

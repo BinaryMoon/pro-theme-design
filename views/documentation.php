@@ -1,24 +1,30 @@
 <?php
-    include( '_partials/head.php' );
+/**
+ * Display product documentation.
+ *
+ * @package ptd
+ */
+
+	include( '_partials/head.php' );
 ?>
-    <body class="page-support">
+	<body class="page-support">
 
 <?php
-    include( '_partials/header.php' );
+	include( '_partials/header.php' );
 ?>
 
-        <div class="wrapper text">
+		<div class="wrapper text">
 <?php
-    site_breadcrumbs();
+	site_breadcrumbs();
 
-    if ( ! empty( $layout ) ) {
-        include( $layout );
-    }
+	if ( ! empty( $layout ) ) {
 
-    documentation_customization();
+	    include( $layout );
+
+	}
 
 ?>
-        </div>
+		</div>
 
 <?php
-    include( '_partials/footer.php' );
+	include( '_partials/footer.php' );

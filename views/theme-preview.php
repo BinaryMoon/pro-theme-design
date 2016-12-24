@@ -1,37 +1,50 @@
 <?php
-    include( '_partials/head.php' );
+	include( '_partials/head.php' );
 
-    $iframe_url = 'https://demo.prothemedesign.com/wordpress/' . strtolower( $theme_slug ) . '/';
+	$iframe_url = 'https://demo.prothemedesign.com/wordpress/' . strtolower( $theme_slug ) . '/';
 ?>
-    <body class="page-preview">
-        <header>
-            <h1><?php echo $theme[ 'name' ]; ?> Demo</h1>
+	<body class="page-preview">
+
+		<div class="iframe-preview">
+
+			<header>
+
+				<h1><a href="<?php echo $theme[ 'url' ]; ?>"><?php echo $theme[ 'name' ]; ?></a> Demo</h1>
 <?php
-    if ( ! empty( $theme[ 'url-wpcom' ] ) || ! empty( $theme[ 'url-wporg' ] ) ) {
+	if ( ! empty( $theme['download-button'] ) ) {
+
+		$theme['download-button'] = str_replace( 'button greedy', 'button small', $theme['download-button'] );
+		echo $theme['download-button'];
+
+	}
 ?>
-            <a href="#" class="button positive get-theme"><i class="fa fa-download" aria-hidden="true"></i>Get Now!</a>
+
+				<a href="<?php echo $theme[ 'url' ]; ?>" class="button small ghost">Theme Details</a>
+
+				<a href="<?php echo $iframe_url; ?>" class="close-frame"><?php draw_svg( 'app-close-alt' ); ?></a>
+
+				<div class="preview-size">
+					<a href="/" class="selected" data-size="100%"><?php draw_svg( 'computer-desktop' ); ?></a>
+					<a href="/" data-size="768"><?php draw_svg( 'computer-tablet' ); ?></a>
+					<a href="/" data-size="375"><?php draw_svg( 'computer-phone' ); ?></i></a>
+				</div>
+
+			</header>
+
+			<div class="iframe-wrapper">
+				<iframe src="<?php echo $iframe_url; ?>"></iframe>
+			</div>
+
 <?php
-    }
-?>
-            <a href="<?php echo $theme[ 'url' ]; ?>" class="button"><i class="fa fa-info-circle" aria-hidden="true"></i>Theme Details</a>
-            <a href="<?php echo $iframe_url; ?>" class="close-frame"><i class="fa fa-times" aria-hidden="true"></i></a>
-            <div class="preview-size">
-                <a href="/" class="selected" data-size="100%"><i class="fa fa-desktop" aria-hidden="true"></i></a>
-                <a href="/" data-size="768px"><i class="fa fa-tablet" aria-hidden="true"></i></a>
-                <a href="/" data-size="375"><i class="fa fa-mobile" aria-hidden="true"></i></a>
-            </div>
-        </header>
-
-        <div class="iframe-wrapper">
-            <iframe src="<?php echo $iframe_url; ?>"></iframe>
-        </div>
-
-<?php
-    include( '_partials/buy-now.php' );
+	include( '_partials/buy-now.php' );
 ?>
 
-        <div class="overlay"></div>
+			<div class="overlay"></div>
 
-        <?php site_script(); ?>
-    </body>
+		</div>
+
+		<?php site_script(); ?>
+
+	</body>
+
 </html>

@@ -1,3 +1,9 @@
+<h3>1.5.1 - 12th December 2016</h3>
+<ul>
+<li>Improve rtl.css styles</li>
+<li>Tweak responsive styles</li>
+<li>Tidy codes some more</li>
+</ul>
 <h3>1.5 - 16th November 2016</h3>
 <ul>
 <li>Add support for wordpress.com content options</li>

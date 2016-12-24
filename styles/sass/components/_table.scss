@@ -1,0 +1,42 @@
+table.comparison {
+
+    .fa {
+
+        &.fa-check {
+
+            color: $canvas-green;
+
+        }
+
+        &.fa-times {
+
+            color: $canvas-red;
+
+        }
+
+    }
+
+    td {
+
+        text-align: center;
+        vertical-align: top;
+        @include modular-scale( zeta );
+
+        &.feature {
+
+            text-align: right;
+            width: 25%;
+            font-weight: bold;
+
+        }
+
+        span {
+
+            display: block;
+            @include modular-scale( eta );
+
+        }
+
+    }
+
+}

@@ -5,8 +5,8 @@
 <h2>TL;DR</h2>
 
 <ul>
-    <li><strong>Posts</strong> – chronological, frequently updated content often used for news and personal updates</li>
-    <li><strong>Pages</strong> - static pages, generally linked to your navigation. Users for things like about pages, contact forms, and sitemaps.</li>
+	<li><strong>Posts</strong> – chronological, frequently updated content often used for news and personal updates</li>
+	<li><strong>Pages</strong> - static pages, generally linked to your navigation. Users for things like about pages, contact forms, and sitemaps.</li>
 </ul>
 
 <h2>Posts</h2>
@@ -29,7 +29,7 @@
 
 <p>‘About us’ pages, ‘contact us’ pages, ‘privacy policy’ pages, and other pages of that sort would best fit the ‘page’ format. Other important content such as ‘reports’ can be posted as a page, too.</p>
 
-<p class="note tip">If you would like to add a contact page to your site then you can use the <a href="<?php echo path( 'documentation/feature/contact-form/' ); ?>">Contact Form</a> functionality from the <a href="<?php echo path( 'documentation/plugin/jetpack/' ); ?>">Jetpack plugin</a>.</p>
+<p class="note icon"><?php draw_svg( 'alert-info', 'large' ); ?>If you would like to add a contact page to your site then you can use the <a href="<?php echo path( 'documentation/feature/contact-form/' ); ?>">Contact Form</a> functionality from the <a href="<?php echo path( 'documentation/plugin/jetpack/' ); ?>">Jetpack plugin</a>.</p>
 
 <p>Posts should be used for everything else. Since they are replaced often, posts should contain content that is not timeless and won’t be required to be read by all visitors to the blog.</p>
 

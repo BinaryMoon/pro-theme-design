@@ -189,18 +189,6 @@ function get_website_data() {
             'image' => 'bjdeming',
             'theme' => 'opti',
         ),
-        'press-the-button' => array(
-            'url' => 'http://pressthepsbutton.com',
-            'name' => 'Press the Button',
-            'theme' => 'chronicle',
-            'tags' => array( 'chronicle' ),
-        ),
-        'hanley-strength' => array(
-            'url' => 'http://hanleystrength.com',
-            'name' => 'Hanley Strength',
-            'theme' => 'romero',
-            'tags' => array( 'featured' ),
-        ),
         'should-i-go-see-it' => array(
             'url' => 'http://shouldigoseeit.com',
             'name' => 'Should I Go See It',

@@ -5,94 +5,95 @@
  */
 function get_article_data() {
 
-    $articles = array(
+	$articles = array(
 
-        'make-money-with-wordpress' => array(
-            'name' => 'Ways to Make Money With WordPress',
-            'date' => '1st February 2016',
-            'prefix' => '0001',
-            'description' => 'A variety of suggestions on how to earn money from your favorite open source software.',
-            'icon' => 'money',
-        ),
+		'make-money-with-wordpress' => array(
+			'name' => 'Ways to Make Money With WordPress',
+			'date' => '1st February 2016',
+			'prefix' => '0001',
+			'description' => 'A variety of suggestions on how to earn money from your favorite open source software.',
+			'icon' => 'commerce-cash',
+		),
 
-        'be-a-wordpress-implementer' => array(
-            'name' => 'What it takes to be a WordPress Implementer',
-            'date' => '5th February 2016',
-            'prefix' => '0002',
-            'description' => 'The differences between WordPress Implementors and WordPress Developers.',
-            'icon' => 'wrench',
-        ),
+		'be-a-wordpress-implementer' => array(
+			'name' => 'What it takes to be a WordPress Implementer',
+			'date' => '5th February 2016',
+			'prefix' => '0002',
+			'description' => 'The differences between WordPress Implementors and WordPress Developers.',
+			'icon' => 'app-wrench',
+		),
 
-        'earn-more-as-a-wordpress-freelancer' => array(
-            'name' => 'Earn more as a WordPress Freelancer',
-            'date' => '24th March 2016',
-            'prefix' => '0003',
-            'description' => 'Increase your income whilst keeping your clients happy.',
-            'icon' => 'smile-o',
-        ),
+		'earn-more-as-a-wordpress-freelancer' => array(
+			'name' => 'Earn more as a WordPress Freelancer',
+			'date' => '24th March 2016',
+			'prefix' => '0003',
+			'description' => 'Increase your income whilst keeping your clients happy.',
+			'icon' => 'smiley-smile',
+		),
 
-        'make-beautiful-cohesive-wordpress-designs' => array(
-            'name' => 'Make Beautiful WordPress Designs',
-            'date' => '27th June 2016',
-            'prefix' => '0005',
-            'description' => 'Tips and Tricks to improve how you design WordPress things.',
-            'icon' => 'paint-brush',
-        ),
+		'make-beautiful-cohesive-wordpress-designs' => array(
+			'name' => 'Make Beautiful WordPress Designs',
+			'date' => '27th June 2016',
+			'prefix' => '0005',
+			'description' => 'Tips and Tricks to improve how you design WordPress things.',
+			'icon' => 'app-paintbrush',
+		),
 
-    );
+	);
 
-    if ( 'dev' == ENV ) {
+	if ( 'dev' == ENV ) {
 
-        $draft_articles = array(
+		$draft_articles = array(
 
-        'develop-with-wordpress' => array(
-            'name' => 'Improve Your WordPress Development',
-            'date' => '26th February 2016',
-            'prefix' => '0004',
-            'description' => 'Tips and Tricks to improve how you build things with WordPress.',
-            'icon' => 'laptop',
-        ),
+		'develop-with-wordpress' => array(
+			'name' => 'Improve Your WordPress Development',
+			'date' => '26th February 2016',
+			'prefix' => '0004',
+			'description' => 'Tips and Tricks to improve how you build things with WordPress.',
+			'icon' => 'computer-laptop',
+		),
 
-        'well-being-for-web-developers' => array(
-            'name' => 'Stay healthy as a WordPress Developer',
-            'date' => '26th February 2016',
-            'prefix' => '0006',
-            'description' => 'Tips and Tricks to improve how you build things with WordPress.',
-            'icon' => 'heartbeat',
-        ),
+		'well-being-for-web-developers' => array(
+			'name' => 'Stay healthy as a WordPress Developer',
+			'date' => '26th February 2016',
+			'prefix' => '0006',
+			'description' => 'Tips and Tricks to improve how you build things with WordPress.',
+			'icon' => 'shape-heart',
+		),
 
-        'choose-a-target-audience' => array(
-            'name' => 'Choosing a Target Audience',
-            'date' => '26th February 2016',
-            'prefix' => '0008',
-            'description' => 'Tips and Tricks to improve how you build things with WordPress.',
-            'icon' => 'users',
-        ),
+		'choose-a-target-audience' => array(
+			'name' => 'Choosing a Target Audience',
+			'date' => '26th February 2016',
+			'prefix' => '0008',
+			'description' => 'Tips and Tricks to improve how you build things with WordPress.',
+			'icon' => 'app-user',
+		),
 
-        );
+		);
 
-        $articles = array_merge( $articles, $draft_articles );
+		$articles = array_merge( $articles, $draft_articles );
 
-    }
+	}
 
 
-    // process them
-    $processed = array();
+	// process them
+	$processed = array();
 
-    foreach( $articles as $key => $article ) {
+	foreach( $articles as $key => $article ) {
 
-        $article[ 'url' ] = path( 'how-to/' . $key . '/' );
-        $article[ 'path' ] = $article[ 'prefix' ] . '-' . $key;
+		$article[ 'url' ] = path( 'how-to/' . $key . '/' );
+		$article[ 'path' ] = $article[ 'prefix' ] . '-' . $key;
 
-        if ( empty( $article['icon'] ) ) {
-            $article['icon'] = 'file-text-o';
-        }
+		if ( empty( $article['icon'] ) ) {
+			$article['icon'] = 'file-text-o';
+			$article['icon'] = '';
+		}
 
-        $processed[ $key ] = $article;
+		$processed[ $key ] = $article;
 
-    }
+	}
 
-    return $processed;
+	return $processed;
 
 }
 
@@ -102,21 +103,21 @@ function get_article_data() {
  */
 function article_list( $limit = 5, $page = 0 ) {
 
-    $docs = get_article_data();
+	$docs = get_article_data();
 
-    // reduce list to just list of content from specified page
-    $docs = array_slice( $docs, ( $page * $limit ), $limit );
+	// reduce list to just list of content from specified page
+	$docs = array_slice( $docs, ( $page * $limit ), $limit );
 
-    if ( $doc_list ) {
-        echo '<ul>';
-        foreach( $doc_list as $d ) {
+	if ( $doc_list ) {
+		echo '<ul>';
+		foreach( $doc_list as $d ) {
 ?>
-    <li><a href="<?php echo $d[ 'url' ]; ?>"><?php echo $d[ 'name' ]; ?></a></li>
+	<li><a href="<?php echo $d[ 'url' ]; ?>"><?php echo $d[ 'name' ]; ?></a></li>
 <?php
-        }
-        echo '</ul>';
+		}
+		echo '</ul>';
 
-    }
+	}
 
 }
 
@@ -126,13 +127,13 @@ function article_list( $limit = 5, $page = 0 ) {
  */
 function article_get( $page ) {
 
-    $docs = get_article_data();
+	$docs = get_article_data();
 
-    if ( isset( $docs[ $page ] ) ) {
-        return $docs[ $page ];
-    }
+	if ( isset( $docs[ $page ] ) ) {
+		return $docs[ $page ];
+	}
 
-    return false;
+	return false;
 
 }
 
@@ -142,13 +143,13 @@ function article_get( $page ) {
  */
 function article_page_name( $page ) {
 
-    $docs = get_article_data();
+	$docs = get_article_data();
 
-    if ( ! empty( $docs[ $page ] ) ) {
-        return $docs[ $page ][ 'name' ];
-    }
+	if ( ! empty( $docs[ $page ] ) ) {
+		return $docs[ $page ][ 'name' ];
+	}
 
-    return '';
+	return '';
 
 }
 
@@ -158,12 +159,12 @@ function article_page_name( $page ) {
  */
 function articles_sitemap() {
 
-    $articles = get_article_data();
+	$articles = get_article_data();
 
-    foreach ( $articles as $article ) {
+	foreach ( $articles as $article ) {
 ?>
-    <li><a href="<?php echo $article[ 'url' ]; ?>"><?php echo $article['name']; ?></a></li>
+	<li><a href="<?php echo $article[ 'url' ]; ?>"><?php echo $article['name']; ?></a></li>
 <?php
-    }
+	}
 
 }

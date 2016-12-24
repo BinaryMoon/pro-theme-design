@@ -1,3 +1,13 @@
+<h3>1.6 - 29th November 2016</h3>
+<ul>
+<li>Allow social sidebar to be hidden when content is empty.</li>
+<li>Various improvements to rtl styles.</li>
+<li>Add body class for missing sidebar.</li>
+</ul>
+<h3>1.5 - 18th November 2016</h3>
+<ul>
+<li>Add widgets sidebar into header underneath site title.</li>
+</ul>
 <h3>1.4.3 - 27th October 2016</h3>
 <ul>
 <li>Tidy up the codes.</li>

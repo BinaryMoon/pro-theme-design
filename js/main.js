@@ -2,341 +2,356 @@
 
 ;(function() {
 
-    // reusable functions
+	// reusable functions
 
-    var show_theme_purchase = function() {
+	/**
+	 * JS mobile detection
+	 * Is this a touch enabled device or not?
+	 *
+	 * @return boolean
+	 */
+	var is_touch_device = function() {
 
-        show_overlay();
-        $( '.theme-modal' ).addClass( 'display' );
+		return ( ( 'ontouchstart' in window ) || ( navigator.MaxTouchPoints > 0 ) || ( navigator.msMaxTouchPoints > 0 ) );
 
-    };
+	};
 
-    var show_search = function() {
+	var show_theme_purchase = function() {
 
-        show_overlay();
-        $( '.search-modal' ).addClass( 'display' );
-        setTimeout( function() {
-            $( '.searchform .text' ).focus();
-        }, 50);
+		show_overlay();
+		$( '.theme-modal' ).addClass( 'display' );
 
-    };
+	};
 
-    var show_newsletter = function() {
+	var show_search = function() {
 
-        if ( ! $( 'body' ).hasClass( 'overlay-display' ) ) {
+		show_overlay();
+		$( '.search-modal' ).addClass( 'display' );
+		setTimeout( function() {
+			$( '.searchform .text' ).focus();
+		}, 50);
 
-            Cookies.set( 'ptd-newsletter', 1, { expires: 365 } );
-            show_overlay();
-            $( '.newsletter-modal' ).addClass( 'display' );
+	};
 
-        }
+	var show_newsletter = function() {
 
-    };
+		if ( ! $( 'body' ).hasClass( 'overlay-display' ) ) {
 
-    var toggle_nav = function() {
+			Cookies.set( 'ptd-newsletter', 1, { expires: 365 } );
+			show_overlay();
+			$( '.newsletter-modal' ).addClass( 'display' );
 
-        $( '.main-menu' ).toggleClass( 'display' );
+		}
 
-    };
+	};
 
-    var hide_modal = function() {
+	var toggle_nav = function() {
 
-        $( '.modal-wrapper' ).removeClass( 'display' );
-        $( '.popover' ).removeClass( 'display' );
-        hide_overlay();
+		$( '.main-menu' ).toggleClass( 'display' );
 
-    };
+	};
 
-    var hide_menu = function() {
+	var hide_modal = function() {
 
-        $( 'body' ).removeClass( 'menu-display search-display' );
-        hide_overlay();
+		$( '.modal-wrapper' ).removeClass( 'display' );
+		$( '.popover' ).removeClass( 'display' );
+		hide_overlay();
 
-    };
+	};
 
-    var show_overlay = function() {
+	var hide_menu = function() {
 
-        hide_modal();
-        $( 'body' ).addClass( 'overlay-display' );
+		$( 'body' ).removeClass( 'menu-display search-display' );
+		hide_overlay();
 
-    };
+	};
 
-    var hide_overlay = function() {
+	var show_overlay = function() {
 
-        $( 'body' ).removeClass( 'overlay-display' );
+		hide_modal();
+		$( 'body' ).addClass( 'overlay-display' );
 
-    };
+	};
 
-    var update_visit_count = function() {
+	var hide_overlay = function() {
 
-        var visits = visit_count();
-        visits ++;
-        Cookies.set( 'ptd-visits', visits, { expires: 21 } );
+		$( 'body' ).removeClass( 'overlay-display' );
 
-    };
+	};
 
-    var visit_count = function() {
+	var update_visit_count = function() {
 
-        return Cookies.get( 'ptd-visits' ) || 0;
+		var visits = visit_count();
+		visits ++;
+		Cookies.set( 'ptd-visits', visits, { expires: 21 } );
 
-    };
+	};
 
-    var newsletter_count = function() {
+	var visit_count = function() {
 
-        return Cookies.get( 'ptd-newsletter' ) || 0;
+		return Cookies.get( 'ptd-visits' ) || 0;
 
-    };
+	};
 
-    var show_popover = function() {
+	var newsletter_count = function() {
 
-        $( '.popover' ).addClass( 'display' );
+		return Cookies.get( 'ptd-newsletter' ) || 0;
 
-    };
+	};
 
+	var show_popover = function() {
 
-    // prepare contact forms
+		$( '.popover' ).addClass( 'display' );
 
-    $( 'form.formspree' ).each( function() {
+	};
 
-        $( this ).attr( 'action', '//formspree.io/' + 'support' + '@' + 'prothemedesign' + '.' + 'com' );
 
-    } );
+	// prepare contact forms
 
-    var prepare_form = function( selector ) {
+	$( 'form.formspree' ).each( function() {
 
-        $( selector ).addClass( 'display' );
-        $( '.contact-selection' ).addClass( 'hidden' );
+		$( this ).attr( 'action', '//formspree.io/' + 'support' + '@' + 'prothemedesign' + '.' + 'com' );
 
-    };
+	} );
 
+	var prepare_form = function( selector ) {
 
-    // generic modal close
+		$( selector ).addClass( 'display' );
+		$( '.contact-selection' ).addClass( 'hidden' );
 
-    $( '.close-button' ).on( 'click', function( e ) {
+	};
 
-        e.preventDefault();
-        hide_modal();
 
-    } );
+	// generic modal close
 
+	$( '.close-button' ).on( 'click', function( e ) {
 
-    // track events
+		e.preventDefault();
+		hide_modal();
 
-    $( '.event' ).on( 'click', function() {
+	} );
 
-        // check if facebook is active and if not leave
-        if ( typeof( fbq ) === 'undefined' ) {
-            return;
-        }
 
-        // get the event name
-        var name = $( this ).data( 'event' );
+	// track events
 
-        // do the tracking
-        if ( name ) {
-            // facebook pixel
-            fbq( 'track', name );
-        }
+	$( '.event' ).on( 'click', function() {
 
-    } );
+		// check if facebook is active and if not leave
+		if ( typeof( fbq ) === 'undefined' ) {
+			return;
+		}
 
+		// get the event name
+		var name = $( this ).data( 'event' );
 
-    // newsletter popup
+		// do the tracking
+		if ( name ) {
+			// facebook pixel
+			fbq( 'track', name );
+		}
 
-    if ( visit_count() >= 3 && newsletter_count() < 1 ) {
+	} );
 
-        setTimeout( show_newsletter, 10000 );
 
-    }
+	// newsletter popup
 
-    update_visit_count();
+	if ( visit_count() >= 3 && newsletter_count() < 1 ) {
 
+		setTimeout( show_newsletter, 10000 );
 
-    // feedback popover
+	}
 
-    if ( visit_count() >= 2 ) {
+	update_visit_count();
 
-        setTimeout( show_popover, 30000 );
+	// feedback popover
 
-    }
+	if ( visit_count() >= 2 ) {
 
+		setTimeout( show_popover, 40000 );
 
-    // get theme
+	}
 
-    $( 'a.get-theme' ).on( 'click', function( e ) {
 
-        e.preventDefault();
-        show_theme_purchase();
+	// get theme
 
-    } );
+	$( 'a.get-theme' ).on( 'click', function( e ) {
 
+		e.preventDefault();
+		show_theme_purchase();
 
-    // menu
+	} );
 
-    $( '.search-toggle' ).on( 'click', function( e ) {
 
-        e.preventDefault();
-        show_search();
+	// menu
 
-    } );
+	$( '.search-toggle' ).on( 'click', function( e ) {
 
-    $( '.drawer-close' ).on( 'click', function( e ) {
+		e.preventDefault();
+		show_search();
 
-        e.preventDefault();
+	} );
 
-        hide_menu();
+	$( '.drawer-close' ).on( 'click', function( e ) {
 
-    } );
+		e.preventDefault();
 
+		hide_menu();
 
-    // styleguide
+	} );
 
-    $( '.pattern' ).each( function() {
 
-        var $link = $( this ).find( 'a.toggle' );
-        var $source = $( this ).find( '.source' );
-        var $display = $( this ).find( '.display' );
+	// styleguide
 
-        $link.on( 'click', function( e ) {
+	$( '.pattern' ).each( function() {
 
-            e.preventDefault();
+		var $link = $( this ).find( 'a.toggle' );
+		var $source = $( this ).find( '.source' );
+		var $display = $( this ).find( '.display' );
 
-            $( '.source, .display' ).not( $source ).not( $display ).removeClass( 'hidden' );
+		$link.on( 'click', function( e ) {
 
-            $source.toggleClass( 'hidden' );
-            $display.toggleClass( 'hidden' );
+			e.preventDefault();
 
-        } );
+			$( '.source, .display' ).not( $source ).not( $display ).removeClass( 'hidden' );
 
-    } );
+			$source.toggleClass( 'hidden' );
+			$display.toggleClass( 'hidden' );
 
+		} );
 
-    // theme and website preview
+	} );
 
-    $( '.preview-size a' ).on( 'click', function( e ) {
 
-        e.preventDefault();
+	// theme and website preview
 
-        $( '.preview-size a' ).removeClass( 'selected' );
-        $( this ).addClass( 'selected' );
+	$( '.preview-size a' ).on( 'click', function( e ) {
 
-        var new_size = $( this ).data( 'size' );
-        $( '.iframe-wrapper iframe' ).css( 'max-width', new_size );
+		e.preventDefault();
 
-    });
+		$( '.preview-size a' ).removeClass( 'selected' );
+		$( this ).addClass( 'selected' );
 
+		var new_size = $( this ).data( 'size' );
+		$( '.iframe-wrapper iframe' ).css( 'max-width', new_size );
 
-    // contact forms
+	});
 
-    $( '.contact-other' ).on( 'click', function( e ) {
 
-        e.preventDefault();
-        prepare_form( '.form-contact-other' );
+	// contact forms
 
-    } );
+	$( '.contact-other' ).on( 'click', function( e ) {
 
-    $( '.contact-technical' ).on( 'click', function( e ) {
+		e.preventDefault();
+		prepare_form( '.form-contact-other' );
 
-        e.preventDefault();
-        prepare_form( '.form-contact-technical' );
+	} );
 
-    } );
+	$( '.contact-technical' ).on( 'click', function( e ) {
 
+		e.preventDefault();
+		prepare_form( '.form-contact-technical' );
 
-    // smooth scroll
+	} );
 
-    var scroll_to_hash = function( e, duration ) {
 
-        var $target = $( e.hash );
+	// smooth scroll
 
-        if ( $target.length ) {
-            var targetOffset = $target.offset().top - parseInt( $( 'html' ).css( 'margin-top' ) );
-            $( 'html,body' ).animate( { scrollTop: targetOffset }, duration );
-        }
+	var scroll_to_hash = function( e, duration ) {
 
-        return false;
+		var $target = $( e.hash );
 
-    };
+		if ( $target.length ) {
+			var targetOffset = $target.offset().top - parseInt( $( 'html' ).css( 'margin-top' ) );
+			$( 'html,body' ).animate( { scrollTop: targetOffset }, duration );
+		}
 
+		return false;
 
-    $( '.scroll-to' ).on( 'click', function( e ) {
+	};
 
-        e.preventDefault();
 
-        return scroll_to_hash( this, 750 );
+	$( '.scroll-to' ).on( 'click', function( e ) {
 
-    });
+		e.preventDefault();
 
+		return scroll_to_hash( this, 750 );
 
-    // uncomment to test the newsletter code
-    //setTimeout( show_newsletter, 2000 );
+	});
 
-    $( '.main-menu button' ).on( 'click', function ( e ) {
 
-        e.preventDefault();
+	// uncomment to test the newsletter code
+	//setTimeout( show_newsletter, 2000 );
 
-        toggle_nav();
+	$( '.main-menu button' ).on( 'click', function ( e ) {
 
-    } );
+		e.preventDefault();
 
+		toggle_nav();
 
-    // radio buttons
+	} );
 
-    $( '.radio-group input' ).on( 'change', function() {
 
-        var $this = $( this );
-        var $parent = $this.parent( 'label' );
-        var $wrapper = $parent.parent( '.radio-group' );
+	// radio buttons
 
-        // remove checked class
-        $wrapper.find( '.checked' ).removeClass( 'checked' );
-        $parent.addClass( 'checked' );
+	$( '.radio-group input' ).on( 'change', function() {
 
-    } );
+		var $this = $( this );
+		var $parent = $this.parent( 'label' );
+		var $wrapper = $parent.parent( '.radio-group' );
 
+		// remove checked class
+		$wrapper.find( '.checked' ).removeClass( 'checked' );
+		$parent.addClass( 'checked' );
 
-    // wrap select boxes so they can be styled nicely
+	} );
 
-    $( 'select' ).each( function() {
 
-        var $this = $( this );
-        var size = $this.data( 'size' );
-        var css_class = 'form-select';
+	// wrap select boxes so they can be styled nicely
 
-        if ( size ) {
-            css_class = css_class + ' ' + size + '-text';
-        }
+	$( 'select' ).each( function() {
 
-        $this.wrap( '<div class="' + css_class + '"></div>' );
+		var $this = $( this );
+		var size = $this.data( 'size' );
+		var css_class = 'form-select';
 
-    } );
+		if ( size ) {
+			css_class = css_class + ' ' + size + '-text';
+		}
 
+		$this.wrap( '<div class="' + css_class + '"></div>' );
 
+	} );
 
 
-    return;
+	$( 'body' ).addClass( is_touch_device() ? 'device-touch' : 'device-click' );
 
 
 
-    // add this back when you work out a more flexible solution
 
-    $( '._modal' ).on( 'click', function( e ) {
 
-        e.preventDefault();
-        e.stopPropagation();
+	return;
 
-    } );
 
 
-    $( '_overlay' ).on( 'click', function( e ) {
+	// add this back when you work out a more flexible solution
 
-        e.preventDefault();
-        e.stopPropagation();
+	$( '._modal' ).on( 'click', function( e ) {
 
-        hide_modal();
-        hide_menu();
+		e.preventDefault();
+		e.stopPropagation();
 
-    } );
+	} );
+
+
+	$( '_overlay' ).on( 'click', function( e ) {
+
+		e.preventDefault();
+		e.stopPropagation();
+
+		hide_modal();
+		hide_menu();
+
+	} );
 
 
 

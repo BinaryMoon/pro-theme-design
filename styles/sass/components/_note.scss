@@ -1,0 +1,97 @@
+.note {
+
+	background: $block-background;
+	padding: $grid-line-height $grid-gutter;
+	border-radius: $border-radius;
+	position: relative;
+	clear: both;
+
+	strong {
+
+		color: $canvas-white;
+
+	}
+
+	h1 {
+
+		@include modular-scale( beta );
+
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+
+		margin: 0 0 ( $grid-line-height / 2 ) 0;
+
+	}
+
+	p {
+
+		margin-bottom: $grid-line-height;
+
+		&:last-child {
+
+			margin-bottom: 0;
+
+		}
+
+	}
+
+	&.icon {
+
+		padding-left: $grid-gutter * 3;
+		position: relative;
+
+		.icon {
+
+			position: absolute;
+			top: $grid-line-height * 0.75;
+			left: $grid-gutter;
+			color: $body-header-color;
+			opacity: 0.75;
+
+		}
+
+		.icon-logo-social-twitter {
+
+			color: $canvas-twitter;
+			opacity: 1;
+
+		}
+
+	}
+
+	&.message {
+
+		text-align: center;
+
+	}
+
+	&.breath {
+
+		margin-bottom: $grid-line-height * $grid-line-height-multiplier;
+
+	}
+
+	&.note-themes-club {
+
+		padding-bottom: $grid-line-height * 5;
+		background-image: url( ../../img/website/theme-club-banner-tight.png );
+		background-position: bottom center;
+		background-repeat: repeat-x;
+
+	}
+
+	&.alt {
+
+		background-color: rgba( 255, 255, 255, 0.4 );
+		color: $canvas-grey-70;
+
+		strong {
+
+			color: $canvas-grey-70;
+
+		}
+
+	}
+
+}

@@ -1,29 +1,29 @@
 <?php
-    include( '_partials/head.php' );
+	include( '_partials/head.php' );
 ?>
-    <body class="page-home">
+	<body class="page-themes">
 
 <?php
-    include( '_partials/header.php' );
+	include( '_partials/header.php' );
 
-    site_page_nav();
+	site_page_nav();
 ?>
 
-        <div class="theme-wrapper block-wrapper wrapper">
+		<div class="block-wrapper wrapper">
 <?php
-    $template = site_view_path( '_partials/theme-small.php' );
+	$template = site_view_path( '_partials/theme-small.php' );
 
-    foreach ( $themes as $theme ) {
+	foreach ( $themes as $theme ) {
 
-        include( $template );
+		include( $template );
 
-    }
+	}
 ?>
-        </div>
+		</div>
 
 <?php
-    if ( 'wordpress.com' != $tag && ! DISABLE_THEME_CLUB ) {
-        site_include_view( '_partials/theme-club.php' );
-    }
+	if ( 'wordpress.com' != $tag && ! DISABLE_THEME_CLUB ) {
+		site_include_view( '_partials/theme-club.php' );
+	}
 
-    include( '_partials/footer.php' );
+	include( '_partials/footer.php' );

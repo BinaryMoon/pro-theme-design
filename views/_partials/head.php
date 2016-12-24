@@ -1,33 +1,45 @@
+<?php
+/**
+ * Pro Theme Design site head.
+ *
+ * @package ptd
+ */
+
+?>
 <!doctype html>
-<html class="no-js" lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="profile" href="http://gmpg.org/xfn/11">
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="profile" href="http://gmpg.org/xfn/11">
 
-        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
-        <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
+		<link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+		<link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
 
-        <title><?php site_title(); ?></title>
+		<title><?php site_title(); ?></title>
 
-        <link rel="stylesheet" href="<?php echo css_path( 'css/styles.css' ); ?>" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,300italic" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" />
+		<link rel="stylesheet" href="<?php echo css_path( 'css/styles.css' ); ?>" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700" />
 
-        <link type="text/plain" rel="author" href="<?php echo path( 'humans.txt' ); ?>" />
+		<link type="text/plain" rel="author" href="<?php echo path( 'humans.txt' ); ?>" />
 
-        <meta name="google-site-verification" content="VDLz-TZD53CTCmTol81Cd1UoOyz5RuAjdyjiP4irmsk" />
-        <meta name="description" content="<?php site_description( '', true ); ?>">
+		<meta name="google-site-verification" content="VDLz-TZD53CTCmTol81Cd1UoOyz5RuAjdyjiP4irmsk" />
+		<meta name="description" content="<?php site_description( '', true ); ?>">
 
-        <script
-            id="fsc-api"
-            src="https://d1f8f9xcsvx3ha.cloudfront.net/sbl/0.7.0/fastspring-builder.min.js"
-            type="text/javascript"
-            data-storefront="prothemedesign.test.onfastspring.com/popup-prothemedesign">
-        </script>
+		<!-- Favicons -->
+		<link rel="icon" href="<?php echo image_path( 'logos/logo-32.png' ); ?>" sizes="32x32" />
+		<link rel="icon" href="<?php echo image_path( 'logos/logo-192.png' ); ?>" sizes="192x192" />
+		<link rel="apple-touch-icon-precomposed" href="<?php echo image_path( 'logos/logo-180.png' ); ?>" />
+
+		<script
+			id="fsc-api"
+			src="https://d1f8f9xcsvx3ha.cloudfront.net/sbl/0.7.1/fastspring-builder.min.js"
+			type="text/javascript"
+			data-storefront="<?php echo STORE_URL; ?>">
+		</script>
 
 <?php
-    include( 'head-open-graph.php' );
+	include( 'head-open-graph.php' );
 ?>
 
-    </head>
+	</head>

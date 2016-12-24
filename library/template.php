@@ -8,23 +8,23 @@
  */
 function site_description( $new_description = '', $strip_tags = false ) {
 
-    if ( ! empty( $new_description ) ) {
+	if ( ! empty( $new_description ) ) {
 
-        Flight::set( 'site.description', $new_description );
+		Flight::set( 'site.description', $new_description );
 
-    } else {
+	} else {
 
-        if ( $strip_tags ) {
+		if ( $strip_tags ) {
 
-            echo strip_tags( Flight::get( 'site.description' ) );
+			echo strip_tags( Flight::get( 'site.description' ) );
 
-        } else {
+		} else {
 
-            echo Flight::get( 'site.description' );
+			echo Flight::get( 'site.description' );
 
-        }
+		}
 
-    }
+	}
 
 }
 
@@ -37,15 +37,15 @@ function site_description( $new_description = '', $strip_tags = false ) {
  */
 function site_header_title( $new_description = '' ) {
 
-    if ( ! empty( $new_description ) ) {
+	if ( ! empty( $new_description ) ) {
 
-        Flight::set( 'site.header-title', $new_description );
+		Flight::set( 'site.header-title', $new_description );
 
-    } else {
+	} else {
 
-        echo Flight::get( 'site.header-title' );
+		echo Flight::get( 'site.header-title' );
 
-    }
+	}
 
 }
 
@@ -58,24 +58,24 @@ function site_header_title( $new_description = '' ) {
  */
 function site_meta_image( $new_image = '' ) {
 
-    if ( ! empty( $new_image ) ) {
+	if ( ! empty( $new_image ) ) {
 
-        Flight::set( 'site.meta-image', $new_image );
+		Flight::set( 'site.meta-image', $new_image );
 
-    } else {
+	} else {
 
-        $image = Flight::get( 'site.meta-image' );
+		$image = Flight::get( 'site.meta-image' );
 
-        if ( $image ) {
+		if ( $image ) {
 ?>
-    <meta itemprop="image" content="https://prothemedesign.com<?php echo $image; ?>">
-    <meta property="og:image" content="https://prothemedesign.com<?php echo $image; ?>">
-    <meta name="twitter:image:src" content="https://prothemedesign.com<?php echo $image; ?>">
+	<meta itemprop="image" content="https://prothemedesign.com<?php echo $image; ?>">
+	<meta property="og:image" content="https://prothemedesign.com<?php echo $image; ?>">
+	<meta name="twitter:image:src" content="https://prothemedesign.com<?php echo $image; ?>">
 <?php
 
-        }
+		}
 
-    }
+	}
 
 }
 
@@ -89,35 +89,35 @@ function site_meta_image( $new_image = '' ) {
  */
 function site_script( $path = '', $async = false ) {
 
-    $scripts = Flight::get( 'site.scripts' );
+	$scripts = Flight::get( 'site.scripts' );
 
-    if ( ! empty( $path ) ) {
+	if ( ! empty( $path ) ) {
 
-        $scripts[] = array(
-            'path' => $path,
-            'async' => $async,
-        );
+		$scripts[] = array(
+			'path' => $path,
+			'async' => $async,
+		);
 
-        Flight::set( 'site.scripts', $scripts );
+		Flight::set( 'site.scripts', $scripts );
 
-    } else {
+	} else {
 
-        if ( $scripts ) {
+		if ( $scripts ) {
 
-            foreach( $scripts as $script ) {
+			foreach( $scripts as $script ) {
 
-                $async = '';
-                if ( $script['async'] ) {
-                    $async = ' async';
-                }
+				$async = '';
+				if ( $script['async'] ) {
+					$async = ' async';
+				}
 ?>
-        <script src="<?php echo $script['path']; ?>"<?php echo $async; ?>></script>
+		<script src="<?php echo $script['path']; ?>"<?php echo $async; ?>></script>
 <?php
-            }
+			}
 
-        }
+		}
 
-    }
+	}
 
 }
 
@@ -129,15 +129,15 @@ function site_script( $path = '', $async = false ) {
  */
 function site_title( $new_title = '' ) {
 
-    if ( ! empty( $new_title ) ) {
+	if ( ! empty( $new_title ) ) {
 
-        Flight::set( 'site.title', $new_title );
+		Flight::set( 'site.title', $new_title );
 
-    } else {
+	} else {
 
-        echo Flight::get( 'site.title' );
+		echo Flight::get( 'site.title' );
 
-    }
+	}
 
 }
 
@@ -150,14 +150,14 @@ function site_title( $new_title = '' ) {
  */
 function site_breadcrumb_add( $name, $url ) {
 
-    $crumbs = Flight::get( 'site.breadcrumbs' );
+	$crumbs = Flight::get( 'site.breadcrumbs' );
 
-    $crumbs[] = array(
-        'name' => $name,
-        'url' => path( $url ),
-    );
+	$crumbs[] = array(
+		'name' => $name,
+		'url' => path( $url ),
+	);
 
-    Flight::set( 'site.breadcrumbs', $crumbs );
+	Flight::set( 'site.breadcrumbs', $crumbs );
 
 }
 
@@ -167,21 +167,21 @@ function site_breadcrumb_add( $name, $url ) {
  */
 function site_breadcrumbs() {
 
-    $crumbs = Flight::get( 'site.breadcrumbs' );
+	$crumbs = Flight::get( 'site.breadcrumbs' );
 
-    if ( count( $crumbs ) <= 1 ) {
-        return;
-    }
+	if ( count( $crumbs ) <= 1 ) {
+		return;
+	}
 ?>
-    <nav class="breadcrumbs">
+	<nav class="breadcrumbs">
 <?php
-    foreach ( $crumbs as $crumb ) {
+	foreach ( $crumbs as $crumb ) {
 ?>
-        <a href="<?php echo $crumb['url']; ?>"><?php echo $crumb['name']; ?></a>
+		<a href="<?php echo $crumb['url']; ?>"><?php echo $crumb['name']; ?></a>
 <?php
-    }
+	}
 ?>
-    </nav>
+	</nav>
 <?php
 
 }
@@ -192,14 +192,14 @@ function site_breadcrumbs() {
  */
 function site_page_nav_add( $name, $url ) {
 
-    $pages = Flight::get( 'site.page_nav' );
+	$pages = Flight::get( 'site.page_nav' );
 
-    $pages[] = array(
-        'name' => $name,
-        'url' => path( $url ),
-    );
+	$pages[] = array(
+		'name' => $name,
+		'url' => path( $url ),
+	);
 
-    Flight::set( 'site.page_nav', $pages );
+	Flight::set( 'site.page_nav', $pages );
 
 }
 
@@ -209,33 +209,33 @@ function site_page_nav_add( $name, $url ) {
  */
 function site_page_nav() {
 
-    $pages = Flight::get( 'site.page_nav' );
+	$pages = Flight::get( 'site.page_nav' );
 
-    if ( count( $pages ) <= 1 ) {
-        return;
-    }
+	if ( count( $pages ) <= 1 ) {
+		return;
+	}
 
-    $current_url = path( Flight::request()->url );
+	$current_url = path( Flight::request()->url );
 
 ?>
-    <nav class="wrapper page-menu">
+	<nav class="wrapper page-menu">
 <?php
-    foreach ( $pages as $page ) {
+	foreach ( $pages as $page ) {
 
-        $class = '';
+		$class = '';
 
-        if ( $current_url === $page['url'] ) {
+		if ( $current_url === $page['url'] ) {
 
-            $class = 'selected';
+			$class = 'selected';
 
-        }
+		}
 
 ?>
-        <a href="<?php echo $page['url']; ?>" class="<?php echo $class; ?>"><?php echo $page['name']; ?></a>
+		<a href="<?php echo $page['url']; ?>" class="<?php echo $class; ?>"><?php echo $page['name']; ?></a>
 <?php
-    }
+	}
 ?>
-    </nav>
+	</nav>
 <?php
 
 }
@@ -249,15 +249,15 @@ function site_page_nav() {
  */
 function site_popover( $value = null ) {
 
-    if ( $value !== null ) {
+	if ( $value !== null ) {
 
-        Flight::set( 'site.enable_popover', $value );
+		Flight::set( 'site.enable_popover', $value );
 
-    } else {
+	} else {
 
-        return Flight::get( 'site.enable_popover' );
+		return Flight::get( 'site.enable_popover' );
 
-    }
+	}
 
 }
 
@@ -270,40 +270,36 @@ function site_popover( $value = null ) {
  */
 function site_meta( $key = '', $value = null ) {
 
-    $meta = Flight::get( 'site.meta' );
+	$meta = Flight::get( 'site.meta' );
 
-    if ( $key !== '' && $value !== null ) {
+	if ( $key !== '' && $value !== null ) {
 
-        $meta[ $key ] = $value;
-        Flight::set( 'site.meta', $meta );
+		$meta[ $key ] = $value;
+		Flight::set( 'site.meta', $meta );
 
-    } else {
+	} else {
 
-        if ( $meta ) {
+		if ( $meta ) {
 
-            foreach( $meta as $key => $value ) {
+			foreach( $meta as $key => $value ) {
 
 ?>
-    <meta property="<?php echo $key; ?>" content="<?php echo $value; ?>" />
+	<meta property="<?php echo $key; ?>" content="<?php echo $value; ?>" />
 <?php
 
-            }
+			}
 
-        }
+		}
 
-    }
+	}
 
 }
 
 
 /**
- * Check if Gumroad is enabled and if it is then add the Gumroad script
+ * Check if Payment is enabled and if it is then add the Gumroad script
  */
 function site_enable_purchase() {
-
-    if ( ! DISABLE_GUMROAD ) {
-        site_script( 'https://gumroad.com/js/gumroad.js', true );
-    }
 
 }
 

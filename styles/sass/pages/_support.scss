@@ -1,0 +1,60 @@
+.page-support {
+
+    .column {
+
+        width: 50%;
+        float: left;
+
+        h2 {
+
+            a {
+
+                color: $body-header-color;
+
+                &:hover {
+
+                    text-decoration: none;
+
+                    small {
+
+                        text-decoration: underline;
+
+                    }
+
+                }
+
+                small {
+
+                    color: $link-color;
+                    float: right;
+
+                }
+
+            }
+
+        }
+
+    }
+
+    .plugin-image {
+
+        display: block;
+        margin-bottom: $grid-line-height;
+
+    }
+
+}
+
+@media only screen and (max-width: $responsive-tablet ) {
+
+    .page-support {
+
+        .column {
+
+            width: 100%;
+
+        }
+
+    }
+
+}

@@ -1,0 +1,47 @@
+.popover {
+
+	position: fixed;
+	bottom: 0;
+	right: $grid-gutter;
+	max-width: $grid-gutter * 6;
+	width: 100%;
+	z-index: 100;
+	background: $canvas-white;
+	border-radius: $border-radius $border-radius 0 0;
+	transform: translateY( 120% );
+	padding: ( $grid-gutter / 2 ) ( $grid-gutter / 2 );
+	box-shadow: $box-shadow;
+	@include transition;
+
+	&.display {
+
+		transform: translateY( 0 );
+
+	}
+
+	header {
+
+		@include post-meta-data;
+		color: $canvas-green;
+
+	}
+
+	.body {
+
+
+		p {
+
+			margin: 0 0 ( $grid-line-height ) 0;
+
+			.button,
+			&:last-child {
+
+				margin: 0;
+
+			}
+
+		}
+
+	}
+
+}

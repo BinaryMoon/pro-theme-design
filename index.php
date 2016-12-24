@@ -7,11 +7,22 @@
  * new logo
  * favicon.ico
  * set up redirects
-    - /themes/nominate-for-wordpress/ - 114
-    - /themes/elemental/ - 57
-    - /themes/accumulo/ - 23
-    - /themes/thelocal/ - 23
-    - how-to/recommended-plugins/schedule-content-with-automatic-post-scheduler/
+	- /themes/nominate-for-wordpress/ - 114
+	- /themes/elemental/ - 57
+	- /themes/accumulo/ - 23
+	- /themes/thelocal/ - 23
+	- how-to/recommended-plugins/schedule-content-with-automatic-post-scheduler/
+
+ * Set up promo bar using something like this: https://gist.github.com/BinaryMoon/9c98f92164a63e2bdfcc66dd6cc74e61
+ */
+
+/**
+ * REDESIGN HOMEPAGE INSPIRATION
+ * https://arraythemes.com/
+ * http://www.studiopress.com/
+ * http://www.studiopress.com/get-started/
+ *
+ * Create something that explains more about the business and tries to target the site at our ideal customers
  */
 
 /**
@@ -28,6 +39,7 @@
  * web hosting with aff links?
  * post formats
  * custom login design
+ * accessibility color contrast calculator - https://www.viget.com/articles/color-contrast
  *
  * SITE ARTICLES
  *
@@ -56,6 +68,7 @@
  * what is a wordpress implementors
  * should I host a clients website?
  * Should you use wordpress.com or wordpress.org?
+ * http://webaim.org/resources/contrastchecker/
  */
 
 
@@ -63,9 +76,9 @@ $environment = 'prod';
 
 // enable debug on localhost
 if ( 'localhost' === $_SERVER[ 'HTTP_HOST' ] ) {
-    error_reporting( -1 );
-    ini_set( 'display_errors', 'On' );
-    $environment = 'dev';
+	error_reporting( -1 );
+	ini_set( 'display_errors', 'On' );
+	$environment = 'dev';
 }
 
 // constants
@@ -74,8 +87,17 @@ define( 'DECACHE_JS', '22' );
 define( 'ENV', $environment );
 define( 'GOOGLE_CSE', '010164663960188762731:aajo_mt5e2a' );
 define( 'MANAGE_WP', 'https://managewp.com/?utm_source=A&utm_medium=Link&utm_campaign=A&utm_mrl=3611' );
-define( 'DISABLE_GUMROAD', true );
 define( 'DISABLE_THEME_CLUB', true );
+
+if ( 'prod' === ENV ) {
+
+	define( 'STORE_URL', 'prothemedesign.onfastspring.com/popup-prothemedesign' );
+
+} else {
+
+	define( 'STORE_URL', 'prothemedesign.test.onfastspring.com/popup-prothemedesign' );
+
+}
 
 // include needed stuff
 include_once( 'flight/Flight.php' );
@@ -87,12 +109,12 @@ include_once( 'library/template.php' );
 // ensure the production site is running on https and using a canonical domain name (no www)
 if ( 'prod' === $environment ) {
 
-    $url = $_SERVER[ 'HTTP_X_FORWARDED_PROTO' ] . '://' . $_SERVER[ 'HTTP_HOST' ] . $_SERVER[ 'REQUEST_URI' ];
-    $target_url = 'https://' . str_replace( 'www.', '', $_SERVER[ 'HTTP_HOST' ] ) . $_SERVER[ 'REQUEST_URI' ];
+	$url = $_SERVER[ 'HTTP_X_FORWARDED_PROTO' ] . '://' . $_SERVER[ 'HTTP_HOST' ] . $_SERVER[ 'REQUEST_URI' ];
+	$target_url = 'https://' . str_replace( 'www.', '', $_SERVER[ 'HTTP_HOST' ] ) . $_SERVER[ 'REQUEST_URI' ];
 
-    if ( $target_url !== $url ) {
-        Flight::redirect( $target_url, 301 );
-    }
+	if ( $target_url !== $url ) {
+		Flight::redirect( $target_url, 301 );
+	}
 
 }
 

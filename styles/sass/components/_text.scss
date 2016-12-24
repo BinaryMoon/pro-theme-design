@@ -1,0 +1,31 @@
+.text {
+
+	// headings
+	h1,
+	h2,
+	h3 {
+
+		margin-top: ( $grid-line-height * 2 );
+		clear: both;
+
+	}
+
+	// clear lists
+	ul,
+	dl,
+	ol {
+
+		//clear: both;
+		padding-left: $grid-gutter / 2;
+
+	}
+
+	// intro paragraph
+	.intro {
+
+		@include modular-scale( epsilon );
+		margin-bottom: $grid-line-height * $grid-line-height-multiplier * $line-height-margin-multiplier;
+
+	}
+
+}

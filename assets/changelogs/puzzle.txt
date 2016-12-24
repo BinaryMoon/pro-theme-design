@@ -1,3 +1,7 @@
+<h3>1.7.1 - 29th November 2016</h3>
+<ul>
+<li>Fix links in testimonials.</li>
+</ul>
 <h3>1.7 - 28th July 2016</h3>
 <ul>
 <li>Improve rtl.css</li>

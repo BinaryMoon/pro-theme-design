@@ -1,0 +1,183 @@
+#footer {
+
+	background: $block-background;
+	padding: ( $grid-line-height * 3 ) 0;
+	clear: both;
+
+	.wrapper {
+
+		margin-bottom: 0;
+
+	}
+
+	.map {
+
+		background: url( ../../img/website/map-2.png ) no-repeat center -50px;
+		height: 48rem;
+		position: relative;
+		margin-bottom: $grid-line-height * 4;
+
+	}
+
+	h4 {
+
+		font-weight: 900;
+		@include modular-scale( gamma );
+
+		&.minor {
+
+			@include post-meta-data;
+			font-weight: normal;
+
+		}
+
+	}
+
+	.avatar {
+
+		border-radius: 100px;
+		width: 75px;
+		height: 75px;
+		border: $border-radius solid $canvas-background;
+		position: absolute;
+		left: -90px;
+
+	}
+
+	.blurb {
+
+		width: 300px;
+		position: absolute;
+
+		&.blurb-darren {
+
+			left:28%;
+			top:242px;
+			width:200px;
+
+		}
+
+		&.blurb-ben {
+
+			left:52%;
+			top:168px;
+
+		}
+
+		h5 {
+
+			@include modular-scale( epsilon );
+			margin:0;
+
+		}
+
+		p {
+
+			margin-bottom: $grid-line-height / 2;
+
+		}
+
+		.location {
+
+			@include post-meta-data;
+			margin-bottom: $grid-line-height / 2;
+			font-weight: normal;
+
+		}
+
+		ul {
+
+			list-style-type: none;
+
+			a, .fa {
+
+				display: inline;
+
+			}
+
+		}
+
+	}
+
+	.link {
+		display: block;
+		margin-bottom: $grid-line-height / 2;
+	}
+
+	.footnote {
+
+		p {
+
+			text-align: center;
+
+			.sep {
+
+				opacity:0.2;
+				margin:0 10px;
+
+			}
+
+		}
+
+	}
+
+	.fa {
+
+		margin-right: $style-element-spacing / 3;
+
+	}
+
+	.origin {
+
+		margin-bottom: $grid-line-height * 2;
+
+		h4 {
+
+			margin: 0;
+			max-width: 55rem;
+
+		}
+
+	}
+
+}
+
+
+
+@media only screen and (max-width: $responsive-tablet) {
+
+	#footer {
+
+		.map {
+
+			height: auto;
+			background-size: 100%;
+			background-position: center top;
+
+		}
+
+		.blurb {
+
+			position: relative;
+			margin-left: 100px;
+			margin-bottom: $grid-line-height * 2;
+
+			&.blurb-ben,
+			&.blurb-darren {
+
+				left: auto;
+				top: 0;
+				width: auto;
+
+			}
+
+		}
+
+	}
+
+}
+
+@media only screen and (max-width: $responsive-mobile) {
+
+
+}

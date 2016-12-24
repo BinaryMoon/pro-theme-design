@@ -9,7 +9,7 @@
  */
 function css_path( $path = '' ) {
 
-    return path( 'styles/' . $path . '?d=' . DECACHE_CSS );
+	return path( 'styles/' . $path . '?d=' . DECACHE_CSS );
 
 }
 
@@ -22,7 +22,7 @@ function css_path( $path = '' ) {
  */
 function image_path( $path = '' ) {
 
-    return path( 'img/' . $path . '?d=' . DECACHE_CSS );
+	return path( 'img/' . $path . '?d=' . DECACHE_CSS );
 
 }
 
@@ -35,7 +35,7 @@ function image_path( $path = '' ) {
  */
 function js_path( $path = '' ) {
 
-    return path( 'js/' . $path . '?d=' . DECACHE_JS );
+	return path( 'js/' . $path . '?d=' . DECACHE_JS );
 
 }
 
@@ -48,9 +48,9 @@ function js_path( $path = '' ) {
  */
 function path( $path = '' ) {
 
-    $path = ltrim( $path, '/' );
+	$path = ltrim( $path, '/' );
 
-    return get_base() . '/' . $path;
+	return get_base() . '/' . $path;
 
 }
 
@@ -63,7 +63,7 @@ function path( $path = '' ) {
  */
 function get_base() {
 
-    return rtrim( Flight::request()->base, '/' );
+	return rtrim( Flight::request()->base, '/' );
 
 }
 
@@ -75,15 +75,15 @@ function get_base() {
  */
 function twitter_share_link( $message = '' ) {
 
-    $args = array(
-        'text' => $message,
-        'url' => 'https://prothemedesign.com' . Flight::request()->url,
-        'related' => 'prothemedesign',
-    );
+	$args = array(
+		'text' => $message,
+		'url' => 'https://prothemedesign.com' . Flight::request()->url,
+		'related' => 'prothemedesign',
+	);
 
-    $link = 'http://twitter.com/intent/tweet?';
+	$link = 'http://twitter.com/intent/tweet?';
 
-    echo $link . http_build_query( $args, '', '&amp;' );
+	echo $link . http_build_query( $args, '', '&amp;' );
 
 }
 
@@ -96,7 +96,7 @@ function twitter_share_link( $message = '' ) {
  */
 function site_screenshot( $url ) {
 
-    return 'https://s0.wordpress.com/mshots/v1/' . urlencode( $url ) . '?w=400&h=300';
+	return 'https://s0.wordpress.com/mshots/v1/' . urlencode( $url ) . '?w=400&h=300';
 
 }
 
@@ -109,21 +109,21 @@ function site_screenshot( $url ) {
  */
 function site_include_view( $path, $variables = array() ) {
 
-    $path = site_view_path( $path );
+	$path = site_view_path( $path );
 
-    if ( file_exists( $path ) ) {
+	if ( file_exists( $path ) ) {
 
-        // if variables are set then make them usable
-        if ( ! empty( $variables ) ) {
+		// If variables are set then make them usable.
+		if ( ! empty( $variables ) ) {
 
-            extract( $variables );
+			extract( $variables );
 
-        }
+		}
 
-        // include file
-        include( $path );
+		// Include file.
+		include( $path );
 
-    }
+	}
 
 }
 
@@ -131,12 +131,14 @@ function site_include_view( $path, $variables = array() ) {
 /**
  * Get a file path relative to the view directory
  *
- * @param  string $path File path to retrieve
+ * @param string $path File path to retrieve
  * @return string Completed file path
  */
 function site_view_path( $path ) {
 
-    return Flight::get( 'flight.views.path' ) . '/' . $path;
+	$path = ltrim( $path, '/' );
+
+	return Flight::get( 'flight.views.path' ) . '/' . $path;
 
 }
 
@@ -144,12 +146,12 @@ function site_view_path( $path ) {
 /**
  * Check to see if a specific view file exists.
  *
- * @param  string  $path Path to check.
+ * @param string $path Path to check.
  * @return boolean true if exists, false otherwise.
  */
 function site_include_exists( $path ) {
 
-    return file_exists( site_view_path( $path ) );
+	return file_exists( site_view_path( $path ) );
 
 }
 
@@ -161,7 +163,7 @@ function site_include_exists( $path ) {
  */
 function page_is_home() {
 
-    return page_is( '/' );
+	return page_is( '/' );
 
 }
 
@@ -174,7 +176,7 @@ function page_is_home() {
  */
 function page_is( $page ) {
 
-    return ( $page === Flight::request()->url );
+	return ( $page === Flight::request()->url );
 
 }
 
@@ -186,14 +188,14 @@ function page_is( $page ) {
  */
 function page_is_themes() {
 
-    $path = Flight::request()->url;
+	$path = Flight::request()->url;
 
-    // if path begins with /themes/
-    if ( substr( $path, 0, 8 ) === '/themes/' ) {
-        return true;
-    }
+	// if path begins with /themes/.
+	if ( substr( $path, 0, 8 ) === '/themes/' ) {
+		return true;
+	}
 
-    return false;
+	return false;
 
 }
 
@@ -205,11 +207,11 @@ function page_is_themes() {
  */
 function paid_customers() {
 
-    // this number isn't strictly accurate - but it's pretty close to the true number of users
-    $customers = date( 'U' ) / 12345;
-    $customers = number_format( $customers );
+	// This number isn't strictly accurate - but it's pretty close to the true number of users.
+	$customers = date( 'U' ) / 12345;
+	$customers = number_format( $customers );
 
-    return $customers;
+	return $customers;
 
 }
 
@@ -217,19 +219,70 @@ function paid_customers() {
 /**
  * Generate classes for the navigation section
  *
- * @param string $current_section Current section
- * @param string $current_page    Current page group
+ * @param string $current_section Current section.
+ * @param string $current_page    Current page group.
  */
 function nav_class( $current_section, $current_page ) {
 
-    $classes = array( $current_section );
+	$classes = array( $current_section );
 
-    if ( $current_section === $current_page ) {
+	if ( $current_section === $current_page ) {
 
-        $classes[] = 'current';
+		$classes[] = 'current';
 
-    }
+	}
 
-    echo implode( ' ', $classes );
+	echo implode( ' ', $classes );
+
+}
+
+/**
+ * Work out which colour theme to use based on a colour.
+ *
+ * @param string $colour The colour to test.
+ * @return string
+ */
+function readable_colour( $colour ) {
+
+	$theme = 'theme-light';
+
+	$colour = str_replace( '#', '', $colour );
+
+	$r = hexdec( substr( $colour, 0, 2 ) );
+	$g = hexdec( substr( $colour, 2, 2 ) );
+	$b = hexdec( substr( $colour, 4, 2 ) );
+
+	$contrast = sqrt(
+		$r * $r * .241 +
+		$g * $g * .691 +
+		$b * $b * .068
+	);
+
+	if ( $contrast <= 130 ) {
+		$theme = 'theme-dark';
+	}
+
+	return $theme;
+
+}
+
+
+/**
+ * Draw an SVG
+ *
+ * @param string $icon The icon to draw.
+ * @param string $size The size of the icon.
+ */
+function draw_svg( $icon, $size = 'medium' ) {
+
+	if ( empty( $icon ) ) {
+		return;
+	}
+
+	$path = 'img/iconicon/' . $icon . '.svg';
+	$svg = file_get_contents( $path );
+	$svg = str_replace( '<svg', '<svg class="icon icon-' . $icon . ' icon-size-' . $size . '"', $svg );
+	$svg = str_replace( '<svg', '<svg aria-hidden="true"', $svg );
+	echo $svg;
 
 }
