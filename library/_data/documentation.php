@@ -30,6 +30,7 @@ function get_documentation_data() {
 		'theme-installation' => array(
 			'name' => 'Theme Installation',
 			'type' => 'general',
+			'related' => array( 'theme-installation' ),
 		),
 		'child-theme-installation' => array(
 			'name' => 'Child Theme Installation',
@@ -76,7 +77,7 @@ function get_documentation_data() {
 		'theme-updates' => array(
 			'name' => 'Theme Updates',
 			'type' => 'general',
-			'related' => array( 'theme-license-key', 'keeping-website-up-to-date' ),
+			'related' => array( 'theme-license-key', 'keeping-website-up-to-date', 'theme-installation' ),
 		),
 		'wordpress-requirements' => array(
 			'name' => 'Theme Requirements',
