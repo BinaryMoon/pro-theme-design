@@ -39,13 +39,24 @@
 		width: 33.3%;
 		padding: ( $grid-line-height * 2 ) $grid-gutter;
 
+		&.compact {
+
+			width: 25%;
+
+		}
+
+		&.comfortable {
+
+			width: 50%;
+
+		}
+
 	}
 
 	&.compact {
 
 		.block {
 
-			width: 25%;
 			padding: ( $grid-line-height ) $grid-gutter;
 
 			.content {
@@ -59,16 +70,6 @@
 				@include modular-scale( epsilon );
 
 			}
-
-		}
-
-	}
-
-	&.comfortable {
-
-		.block {
-
-			width: 50%;
 
 		}
 

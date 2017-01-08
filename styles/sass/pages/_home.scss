@@ -4,13 +4,15 @@
 	.home-header {
 
 		background: $canvas-white;
-		margin-bottom: $grid-line-height * 4;
+		margin-bottom: $grid-line-height * 2;
 		position: relative;
 		display: flex;
+		align-items: center;
 
 		.wrap {
 
 			max-width: $grid-total-width / 2;
+			width: 100%;
 
 		}
 
@@ -18,12 +20,14 @@
 
 	.masthead {
 
-		padding: ( $grid-line-height * 3 ) ( $grid-gutter );
+		padding: ( $grid-line-height * 3 ) ( 0 );
+		margin: 0;
 		width: 50%;
 
 		.wrap {
 
 			float: right;
+			padding: 0 ( $grid-gutter );
 
 		}
 
@@ -81,6 +85,24 @@
 
 	}
 
+
+	.tiles {
+
+			padding: ( $grid-line-height * 3 ) ( 0 );
+			margin: 0;
+			width: 50%;
+
+			.wrap {
+
+				float: left;
+				border-radius: 100rem;
+				padding: ( $grid-line-height * 2 ) $grid-gutter;
+				text-align: center;
+
+			}
+
+	}
+
 	.themes {
 
 		padding-top: $grid-line-height * 4;
@@ -99,19 +121,6 @@
 			max-width: 15rem;
 			margin: ( $grid-line-height * -6 ) auto ( $grid-line-height * 6 ) auto;
 			display: block;
-
-		}
-
-	}
-
-	.tiles {
-
-		width: 50%;
-		background: $canvas-grey-30;
-
-		.wrap {
-
-			float: left;
 
 		}
 

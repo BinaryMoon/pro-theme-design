@@ -759,6 +759,11 @@ ul li + li {
   margin-top: 0.3rem;
 }
 
+ol.simple,
+ul.simple {
+  list-style-type: none;
+}
+
 ul {
   list-style: disc;
 }
@@ -871,6 +876,17 @@ table tr:last-child td {
   }
 }
 
+.social-links a.social {
+  padding: 0.75rem 0.75rem;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 782px) {
+  .social-links a.social {
+    padding: 0.75rem 3rem;
+  }
+}
+
 article.summary {
   padding-left: 9rem;
   position: relative;
@@ -933,8 +949,15 @@ article.summary h2 {
   padding: 3rem 3rem;
 }
 
-.block-wrapper.compact .block {
+.block-wrapper .block.compact {
   width: 25%;
+}
+
+.block-wrapper .block.comfortable {
+  width: 50%;
+}
+
+.block-wrapper.compact .block {
   padding: 1.5rem 3rem;
 }
 
@@ -946,10 +969,6 @@ article.summary h2 {
   font-size: 20px;
   font-size: 1.25rem;
   line-height: 1.5;
-}
-
-.block-wrapper.comfortable .block {
-  width: 50%;
 }
 
 .block {
@@ -1947,10 +1966,6 @@ table.comparison td span {
   clear: both;
 }
 
-#footer .wrapper {
-  margin-bottom: 0;
-}
-
 #footer .map {
   background: url(../../img/website/map-2.png) no-repeat center -50px;
   height: 48rem;
@@ -2178,17 +2193,22 @@ table.comparison td span {
 .masthead .main-menu li a {
   padding: 0 1.5rem;
   color: #21252a;
-  display: block;
   font-weight: 300;
-}
-
-.masthead .main-menu li a.social {
-  padding: 0.75rem 0.75rem;
-  display: inline-block;
 }
 
 .masthead .main-menu li.current a {
   font-weight: bolder;
+}
+
+.masthead .main-menu li.separator:before {
+  content: '';
+  display: inline-block;
+  width: 0.1em;
+  background: #21252a;
+  opacity: 0.3;
+  height: 3rem;
+  margin: -0.75rem 1.5rem;
+  vertical-align: middle;
 }
 
 @media only screen and (max-width: 849px) {
@@ -2217,8 +2237,7 @@ table.comparison td span {
   .masthead nav.main-menu.display ul {
     display: block;
   }
-  .masthead nav.main-menu a,
-  .masthead nav.main-menu a.social {
+  .masthead nav.main-menu a {
     padding: 0.75rem 3rem;
   }
   .masthead nav.main-menu a.social {
@@ -2345,24 +2364,30 @@ table.comparison td span {
 
 .page-home .home-header {
   background: #fff;
-  margin-bottom: 6rem;
+  margin-bottom: 3rem;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .page-home .home-header .wrap {
   max-width: 40rem;
+  width: 100%;
 }
 
 .page-home .masthead {
-  padding: 4.5rem 3rem;
+  padding: 4.5rem 0;
+  margin: 0;
   width: 50%;
 }
 
 .page-home .masthead .wrap {
   float: right;
+  padding: 0 3rem;
 }
 
 .page-home .masthead .site-description,
@@ -2409,6 +2434,19 @@ table.comparison td span {
   margin-right: 1.5rem;
 }
 
+.page-home .tiles {
+  padding: 4.5rem 0;
+  margin: 0;
+  width: 50%;
+}
+
+.page-home .tiles .wrap {
+  float: left;
+  border-radius: 100rem;
+  padding: 3rem 3rem;
+  text-align: center;
+}
+
 .page-home .themes {
   padding-top: 6rem;
 }
@@ -2424,15 +2462,6 @@ table.comparison td span {
   max-width: 15rem;
   margin: -9rem auto 9rem auto;
   display: block;
-}
-
-.page-home .tiles {
-  width: 50%;
-  background: #d3d7dd;
-}
-
-.page-home .tiles .wrap {
-  float: left;
 }
 
 @media only screen and (max-width: 80rem) {
@@ -2683,13 +2712,14 @@ table.comparison td span {
 }
 
 .page-theme .theme-header .theme-title {
-  margin: 7.5rem 0 7.5rem 0;
+  margin: 7.5rem 0 3rem 0;
 }
 
 .page-theme .theme-header .theme-title h1 {
   font-weight: bold;
   text-align: center;
   padding: 0 3rem;
+  margin: 0;
 }
 
 .page-theme .theme-header .theme-title p {
@@ -2710,6 +2740,10 @@ table.comparison td span {
 .page-theme .theme-header.theme-dark .masthead .main-menu li a,
 .page-theme .theme-header.theme-dark .masthead .site-title .ptd-logo {
   color: #fff;
+}
+
+.page-theme .theme-header.theme-dark .separator:before {
+  background: #fff;
 }
 
 .page-tools-color-picker .color-container {

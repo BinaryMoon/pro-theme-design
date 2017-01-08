@@ -7,13 +7,14 @@
 
 		.theme-title {
 
-			margin: ( $grid-line-height * 5 ) 0 ( $grid-line-height * 5 ) 0;
+			margin: ( $grid-line-height * 5 ) 0 ( $grid-line-height * 2 ) 0;
 
 			h1 {
 
 				font-weight: bold;
 				text-align: center;
 				padding: 0 ( $grid-gutter );
+				margin: 0;
 
 			}
 
@@ -36,6 +37,12 @@
 			.masthead .site-title .ptd-logo {
 
 				color: $canvas-white;
+
+			}
+
+			.separator:before {
+
+				background: $canvas-white;
 
 			}
 

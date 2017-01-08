@@ -1,0 +1,20 @@
+.social-links {
+
+	a {
+
+		&.social {
+
+			padding: ( $grid-line-height / 2 ) ( $grid-gutter / 4 );
+			display: inline-block;
+
+			@include for-tablet() {
+
+				padding: ( $grid-line-height / 2 ) ( $grid-gutter );
+
+			}
+
+		}
+
+	}
+
+}

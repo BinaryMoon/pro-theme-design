@@ -105,15 +105,7 @@ $logo-size: 4rem;
 
 				padding: 0 ( $grid-gutter / 2 );
 				color: $canvas-grey-100;
-				display: block;
 				font-weight: 300;
-
-				&.social {
-
-					padding: ( $grid-line-height / 2 ) ( $grid-gutter / 4 );
-					display: inline-block;
-
-				}
 
 			}
 
@@ -125,6 +117,22 @@ $logo-size: 4rem;
 
 				}
 
+			}
+
+			&.separator {
+
+				&:before {
+
+					content: '';
+					display: inline-block;
+					width: $border-width;
+					background: $canvas-grey-100;
+					opacity: $style-opacity-separator;
+					height: $grid-line-height * 2;
+					margin: ( $grid-line-height / -2 ) $grid-gutter / 2;
+					vertical-align: middle;
+
+				}
 			}
 
 		}
@@ -180,11 +188,9 @@ $logo-size: 4rem;
 
 			}
 
-			a,
-			a.social {
+			a {
 
 				padding: ( $grid-line-height / 2 ) ( $grid-gutter );
-				//text-align: center;
 
 			}
 
