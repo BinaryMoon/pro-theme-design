@@ -28,15 +28,6 @@
 						<span>WordPress Themes</span>
 					</p>
 
-					<p class="intro">
-						We create themes for WordPress agencies, and small businesses. Join over <strong><?php echo paid_customers(); ?></strong> happy WordPress themers.
-					</p>
-
-					<p>
-						<a href="<?php echo path( '/themes/' ); ?>" class="button">Browse Themes</a>
-						<a href="<?php echo path( '/why-us/' ); ?>" class="button minor">Why Us?</a>
-					</p>
-
 				</div>
 
 			</header>
@@ -45,8 +36,14 @@
 
 				<div class="wrap">
 
-					<img src="<?php echo image_path( 'website/home-tiles.png' ); ?>" style="width: 1130px; max-width:1130px;"/>
-					<?php //include( 'img/website/home-tiles.svg' ); ?>
+					<p class="intro">
+						WordPress Themes for agencies, and small businesses. Join over <strong><?php echo paid_customers(); ?></strong> happy WordPress themers.
+					</p>
+
+					<p>
+						<a href="<?php echo path( '/themes/' ); ?>" class="button">Browse Themes</a>
+						<a href="<?php echo path( '/why-us/' ); ?>" class="button minor">Why Us?</a>
+					</p>
 
 				</div>
 
