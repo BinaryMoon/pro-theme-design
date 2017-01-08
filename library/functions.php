@@ -208,7 +208,7 @@ function page_is_themes() {
 function paid_customers() {
 
 	// This number isn't strictly accurate - but it's pretty close to the true number of users.
-	$customers = date( 'U' ) / 12345;
+	$customers = date( 'U' ) / 12345 / 2;
 	$customers = number_format( $customers );
 
 	return $customers;
@@ -225,8 +225,9 @@ function paid_customers() {
 function nav_class( $current_section, $current_page ) {
 
 	$classes = array( $current_section );
+	$current_page_plural = $current_page . 's';
 
-	if ( $current_section === $current_page ) {
+	if ( $current_section === $current_page || $current_section === $current_page_plural ) {
 
 		$classes[] = 'current';
 
