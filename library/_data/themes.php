@@ -53,7 +53,8 @@ function get_theme_data() {
 			'image' => 'exhibit.png',
 			'tags' => array( 'portfolio', 'hot' ),
 			'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'testimonials', 'portfolio', 'raddcontrol' ),
-			'color' => '#dd614a',
+			'color' => '#e09485',
+			//'color' => '#ee77bb',
 		),
 
 		'passenger' => array(
