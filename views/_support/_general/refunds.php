@@ -2,9 +2,9 @@
 
 <p>If you still want a refund then the refund process is taken care of by the respective service providers. Unfortunately we have no way of offering refunds ourselves.</p>
 
-<h2>Gumroad</h2>
+<h2>Fastspring</h2>
 
-<p>If you have purchased a theme through Gumroad on Pro Theme Design then send us a <a href="<?php echo path( 'refund/' ); ?>">refund request</a> and we'll refund you as soon as possible.</p>
+<p>If you have purchased a theme through Fastspring on Pro Theme Design then send us a <a href="<?php echo path( 'refund/' ); ?>">refund request</a> and we'll refund you as soon as possible.</p>
 
 <h2>WordPress.com</h2>
 
