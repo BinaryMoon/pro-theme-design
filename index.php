@@ -82,7 +82,7 @@ if ( 'localhost' === $_SERVER[ 'HTTP_HOST' ] ) {
 }
 
 // constants
-define( 'DECACHE_CSS', '69' );
+define( 'DECACHE_CSS', '70' );
 define( 'DECACHE_JS', '23' );
 define( 'ENV', $environment );
 define( 'GOOGLE_CSE', '010164663960188762731:aajo_mt5e2a' );
