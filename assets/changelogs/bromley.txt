@@ -1,3 +1,9 @@
+<h3>2.2 - 11th January 2017</h3>
+<ul>
+<li>Tweak sticky post styles so that the image ratio remains consistent</li>
+<li>Improve coding standards</li>
+<li>Switch to the_archive_description on archive pages</li>
+</ul>
 <h3>2.1 - 7th October 2016</h3>
 <ul>
 <li>add support for projects and pages in featured content</li>

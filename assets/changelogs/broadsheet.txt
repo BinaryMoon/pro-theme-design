@@ -1,3 +1,19 @@
+<h3>1.5.1 - 19th January 2017</h3>
+<ul>
+<li>Remove console.log from customizer code</li>
+<li>Add body class when featured categories change to ensure the layout flows properly</li>
+<li>Display a message in the customizer if the fallback posts are used in the featured categories to make it clearer why they are being used.</li>
+<li>Delete theme-customizer.js which has been superseded.</li>
+</ul>
+<h3>1.5 - 13th January 2017</h3>
+<ul>
+<li>Add transient caching to featured categories to improve site speed</li>
+<li>Make customizer previews work in real time</li>
+<li>Make widgets easier to edit in the customizer</li>
+<li>Tidy customizer code</li>
+<li>Improve footer widget masonry loading</li>
+<li>Tidy codes</li>
+</ul>
 <h3>1.4.6 - 20th December 2016</h3>
 <ul>
 <li>Add a filter so that users can enable the featured content header on more post formats (and not just pages which is the default)</li>

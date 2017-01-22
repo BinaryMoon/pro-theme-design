@@ -1,3 +1,8 @@
+<h3>1.5.2 - 14th January 2017</h3>
+<ul>
+<li>Fix bug with customizer setting being validated incorrectly and so not allowing the menu to show and hide properly.</li>
+<li>A small amount of code tidying.</li>
+</ul>
 <h3>1.5.1 - 10th November 2016</h3>
 <ul>
 <li>Fix issue with image max-widths that was breaking Instagram widget</li>

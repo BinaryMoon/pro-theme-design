@@ -1,3 +1,7 @@
+<h3>4.5.3 - 11th January 2017</h3>
+<ul>
+<li>Add word-wrap to widgets to prevent long text from breaking the layout</li>
+</ul>
 <h3>4.5.2 - 24th September 2016</h3>
 <ul>
 <li>Fix incorrect text domains</li>
