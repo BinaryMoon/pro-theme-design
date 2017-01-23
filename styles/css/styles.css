@@ -2134,7 +2134,8 @@ table.comparison td span {
   transition: all 0.15s ease-in-out;
 }
 
-.masthead .site-title a:hover svg rect, .masthead .site-title a:hover svg polygon {
+.masthead .site-title a:hover svg rect,
+.masthead .site-title a:hover svg polygon {
   color: #21252a;
 }
 
@@ -2196,19 +2197,16 @@ table.comparison td span {
   font-weight: 300;
 }
 
+.masthead .main-menu li a.social {
+  padding: 0 0.75rem;
+}
+
 .masthead .main-menu li.current a {
   font-weight: bolder;
 }
 
-.masthead .main-menu li.separator:before {
-  content: '';
-  display: inline-block;
-  width: 0.1em;
-  background: #21252a;
-  opacity: 0.3;
-  height: 3rem;
-  margin: -0.75rem 1.5rem;
-  vertical-align: middle;
+.masthead .main-menu li.separator {
+  margin-left: 2rem;
 }
 
 @media only screen and (max-width: 849px) {

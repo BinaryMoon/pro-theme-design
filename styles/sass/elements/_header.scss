@@ -37,7 +37,8 @@ $logo-size: 4rem;
 
 				svg {
 
-					rect, polygon {
+					rect,
+					polygon {
 
 						color: $canvas-grey-100;
 
@@ -107,6 +108,12 @@ $logo-size: 4rem;
 				color: $canvas-grey-100;
 				font-weight: 300;
 
+				&.social {
+
+					padding: 0 ( $grid-gutter / 4 );
+
+				}
+
 			}
 
 			&.current {
@@ -121,18 +128,8 @@ $logo-size: 4rem;
 
 			&.separator {
 
-				&:before {
+				margin-left: 2rem;
 
-					content: '';
-					display: inline-block;
-					width: $border-width;
-					background: $canvas-grey-100;
-					opacity: $style-opacity-separator;
-					height: $grid-line-height * 2;
-					margin: ( $grid-line-height / -2 ) $grid-gutter / 2;
-					vertical-align: middle;
-
-				}
 			}
 
 		}
