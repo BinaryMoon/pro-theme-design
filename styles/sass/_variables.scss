@@ -13,14 +13,19 @@ $debug: false;
 // colours
 $canvas-white: #fff;
 $canvas-green: #3fa662;
+$canvas-green: #7CD994;
 $canvas-green-dark: saturate( darken( $canvas-green, 15% ), 6% );
 $canvas-blue: #268ebe;
+$canvas-blue: #92E0EC;
 $canvas-blue-dark: saturate( darken( $canvas-blue, 15% ), 6% );
 $canvas-red: #e74c3c;
+$canvas-red: #F6865E;
 $canvas-red-dark: saturate( darken( $canvas-red, 15% ), 6% );
 $canvas-purple: #A45FBC;
+$canvas-purple: #EBB2EE;
 $canvas-purple-dark: saturate( darken( $canvas-purple, 15% ), 6% );
 $canvas-yellow: #F1C40F;
+$canvas-yellow: #FFCF57;
 $canvas-yellow-dark: saturate( darken( $canvas-yellow, 15% ), 6% );
 $canvas-orange:#E67E22;
 $canvas-orange-dark: saturate( darken( $canvas-orange, 15% ), 6% );
@@ -54,7 +59,7 @@ $canvas-background: $canvas-grey-20;
 
 $form-input-border-color: $body-copy-color;
 
-$link-color: $canvas-blue;
+$link-color: $canvas-blue-dark;
 
 $comments-margin: 4%;
 
