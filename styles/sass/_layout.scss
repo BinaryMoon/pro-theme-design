@@ -2,7 +2,7 @@ a {
 
 	text-decoration: none;
 	@include transition;
-	color: $canvas-blue;
+	color: $link-color;
 
 	&:hover {
 
