@@ -8,6 +8,6 @@
 		</div>
 	</section>
 	<header>
-		<img src="" />
+		<img src="<?php echo image_path( 'theme-features/translations.png' ); ?>" />
 	</header>
 </div>
