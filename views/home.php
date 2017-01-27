@@ -40,7 +40,7 @@
 						WordPress Themes for agencies, and small businesses. Join over <strong><?php echo paid_customers(); ?></strong> happy WordPress themers.
 					</p>
 
-					<p>
+					<p class="actions">
 						<a href="<?php echo path( '/themes/' ); ?>" class="button">Browse Themes</a>
 						<a href="<?php echo path( '/why-us/' ); ?>" class="button minor">Why Us?</a>
 					</p>
