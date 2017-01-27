@@ -88,18 +88,40 @@
 
 	.tiles {
 
-			padding: ( $grid-line-height * 3 ) ( 0 );
-			margin: 0;
-			width: 50%;
+		padding: ( $grid-line-height * 3 ) ( $grid-gutter );
+		margin: 0;
+		width: 50%;
 
-			.wrap {
+		.wrap {
 
-				float: left;
-				border-radius: 100rem;
-				padding: ( $grid-line-height * 2 ) $grid-gutter;
-				text-align: center;
+			background: $canvas-white;
+			border: 1rem solid $canvas-grey-30;
+			padding: ( $grid-line-height * 2 ) $grid-gutter;
+			text-align: center;
 
-			}
+		}
+
+		p {
+
+			text-align: center;
+
+		}
+
+		.intro {
+
+			@include modular-scale( epsilon );
+			margin-bottom: $grid-line-height * 1.5;
+
+		}
+
+		.actions {
+
+			background: $canvas-white;
+			margin-bottom: $grid-line-height * -3.5;
+			position: relative;
+			padding: 0 1rem;
+
+		}
 
 	}
 
