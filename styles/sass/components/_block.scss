@@ -92,7 +92,7 @@
 		&:before {
 
 			background: $canvas-grey-100;
-			color: $canvas-white;
+			color: contrast( $canvas-grey-100 );
 			content: '';
 			position: absolute;
 			top: 1rem;
@@ -113,7 +113,8 @@
 
 		&:before {
 
-			background: $canvas-orange;
+			background: $canvas-yellow;
+			color: contrast( $canvas-yellow );
 			content: 'hot!';
 
 		}
@@ -125,6 +126,7 @@
 		&:before {
 
 			background: $canvas-blue;
+			color: contrast( $canvas-blue );
 			content: 'new';
 
 		}
@@ -136,6 +138,7 @@
 		&:before {
 
 			background: $canvas-green;
+			color: contrast( $canvas-green );
 			content: 'free';
 
 		}
