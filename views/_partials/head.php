@@ -33,7 +33,7 @@
 
 		<script
 			id="fsc-api"
-			src="https://d1f8f9xcsvx3ha.cloudfront.net/sbl/0.7.1/fastspring-builder.min.js"
+			src="<?php echo FASTSPRING_JS; ?>"
 			type="text/javascript"
 			data-storefront="<?php echo STORE_URL; ?>">
 		</script>
