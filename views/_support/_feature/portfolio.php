@@ -2,13 +2,13 @@
 
 <h2>Adding a Portfolio to your site</h2>
 
-<p>Portfolios functionality requires the Jetpack plugin to be installed and enabled. Once done you can enable a unique Portfolio content type to help organize your portfolio projects in a special section of your dashboard.</p>
+<p>Portfolios functionality requires the <a href="<?php echo path( '/documentation/plugin/jetpack/' ); ?>">Jetpack plugin</a> to be installed and enabled. Once done you can enable a unique Portfolio content type to help organize your portfolio projects in a special section of your dashboard.</p>
 
 <p>You can do this in two simple steps:</p>
 
 <ol>
-    <li>In your site’s dashboard, go to Settings → Writing → Your Custom Content Types and make sure the “Portfolio Projects” option is checked.</li>
-    <li>Add projects under the new Portfolio menu item in your sidebar.</li>
+	<li>In your site’s dashboard, go to Settings → Writing → Your Custom Content Types and make sure the “Portfolio Projects” option is checked.</li>
+	<li>Add projects under the new Portfolio menu item in your sidebar.</li>
 </ol>
 
 <p>After you’ve added some projects, they’ll be visible on your website at <em>http://yoursite.com/portfolio/</em>.</p>
@@ -28,10 +28,10 @@
 <p>The following links are created once you add portfolio projects, types, and tags. Be sure to swap the words in bold with your real site address. For example, if your project type is called Watercolors, your default slug will be watercolors and your address for the watercolors project type archive will be http://yoursite.com/project-type/project-type-watercolors/.</p>
 
 <ul>
-    <li>Portfolio Archive – http://yoursite.com/portfolio/</li>
-    <li>Single Project Page – http://yoursite.com/portfolio/project-slug/</li>
-    <li>Project Type Archive – http://yoursite.com/project-type/project-type-slug/</li>
-    <li>Project Tag Archive – http://yoursite.com/project-tag/project-tag-slug/</li>
+	<li>Portfolio Archive – http://yoursite.com/portfolio/</li>
+	<li>Single Project Page – http://yoursite.com/portfolio/project-slug/</li>
+	<li>Project Type Archive – http://yoursite.com/project-type/project-type-slug/</li>
+	<li>Project Tag Archive – http://yoursite.com/project-tag/project-tag-slug/</li>
 </ul>
 
 <p class="note"><strong>Note:</strong> Since portfolios are displayed automatically at the address <em>http://yoursite.com/portfolio/</em> it’s important that you don’t create any pages, categories, or tags called “portfolio,” otherwise your projects may not display as intended.</p>
