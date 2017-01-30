@@ -1,3 +1,7 @@
+<h3>2.2 - 29th January 2017</h3>
+<ul>
+<li>Make the project terms list on projects and portfolio pages highlight the term you are currently viewing.</li>
+</ul>
 <h3>2.1.3 - 14th December 2016</h3>
 <ul>
 <li>Fix link colour on testimonials so that they are readable once more.</li>
