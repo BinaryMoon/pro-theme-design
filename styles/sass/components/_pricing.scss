@@ -35,6 +35,8 @@
 			@include modular-scale( mega );
 			font-weight: bold;
 
+			display: none;
+
 			small {
 
 				opacity: 0.8;
@@ -52,6 +54,21 @@
 			display: block;
 			text-align: center;
 
+		}
+
+		.payment-methods {
+
+			text-align: center;
+			opacity: 0.7;
+			margin-bottom: $grid-line-height / 2;
+
+			img {
+
+				display: inline-block;
+				width: $grid-gutter * 1.25;
+				margin: 0 0.5em;
+
+			}
 		}
 
 	}

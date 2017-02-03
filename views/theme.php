@@ -178,16 +178,22 @@
 						<li>1 year of support</li>
 					</ul>
 
-					<?php
-						if ( ! empty( $theme['price-wporg'] ) ) {
-					?>
-										<span class="price"><?php echo $theme['price-wporg']; ?></span>
-					<?php
-						}
-					?>
+<?php
+	if ( ! empty( $theme['price-wporg'] ) ) {
+?>
+					<span class="price"><?php echo $theme['price-wporg']; ?></span>
+<?php
+	}
+?>
 
 					<?php site_include_view( '_partials/theme-purchase-buttons.php', array( 'theme' => $theme ) ); ?>
 
+				</div>
+
+				<div class="payment-methods">
+					<img src="<?php echo image_path( 'credit-cards/light-visa.png' ); ?>" title="Visa" />
+					<img src="<?php echo image_path( 'credit-cards/light-mastercard.png' ); ?>" title="Mastercard" />
+					<img src="<?php echo image_path( 'credit-cards/light-paypal.png' ); ?>" title="Paypal" />
 				</div>
 
 				<small class="terms"><a href="<?php echo path( 'policies/' ); ?>" class="terms">Terms</a></small>
