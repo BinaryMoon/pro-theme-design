@@ -2,12 +2,55 @@
 
 	.price-table {
 
-		background: $canvas-white;
-		box-shadow: $box-shadow;
+		padding: 0;
 
 		ul {
 
 			margin: 0 0 $grid-line-height ( $grid-gutter / 2 );
+
+		}
+
+		.product {
+
+			background: $canvas-white;
+			box-shadow: $box-shadow;
+			padding: ( $grid-line-height * 2 ) ( $grid-gutter ) ( $grid-line-height ) ( $grid-gutter );
+			margin: $grid-line-height;
+
+			> *:last-child {
+
+				margin-bottom: 0;
+
+			}
+
+		}
+
+		.price {
+
+			display: block;
+			text-align: center;
+			margin-bottom: $grid-line-height;
+			margin-top: 2.5rem;
+			color: $canvas-blue-dark;
+			@include modular-scale( mega );
+			font-weight: bold;
+
+			small {
+
+				opacity: 0.8;
+				vertical-align: top;
+				@include modular-scale( epsilon );
+				margin-top: 0.5em;
+				display: inline-block;
+
+			}
+
+		}
+
+		.terms {
+
+			display: block;
+			text-align: center;
 
 		}
 

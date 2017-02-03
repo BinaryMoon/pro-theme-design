@@ -159,7 +159,7 @@
 
 			<header class="block-header">
 				<h2>
-					Create a Professional Website
+					Build a Professional Website
 				</h2>
 			</header>
 
@@ -168,21 +168,38 @@
 			</div>
 
 			<div class="block price-table">
-				<ul>
-					<li>Lifetime theme usage</li>
-					<li>Unlimited sites</li>
-					<li>1 click updates</li>
-				</ul>
-				<?php site_include_view( '_partials/theme-purchase-buttons.php', array( 'theme' => $theme ) ); ?>
+
+				<div class="product">
+
+					<ul>
+						<li>Lifetime theme usage</li>
+						<li>Unlimited sites</li>
+						<li>1 click admin updates</li>
+						<li>1 year of support</li>
+					</ul>
+
+					<?php
+						if ( ! empty( $theme['price-wporg'] ) ) {
+					?>
+										<span class="price"><?php echo $theme['price-wporg']; ?></span>
+					<?php
+						}
+					?>
+
+					<?php site_include_view( '_partials/theme-purchase-buttons.php', array( 'theme' => $theme ) ); ?>
+
+				</div>
+
+				<small class="terms"><a href="<?php echo path( 'policies/' ); ?>" class="terms">Terms</a></small>
 			</div>
 
 			<div class="block faq">
 
 				<h3>30 day Guarantee</h3>
-				<p>If you have a problem with a purchase from us then let us know and we will refund you.</p>
+				<p>If you have a problem with a purchase from us then let us know and we will <a href="<?php echo path('refund/' ); ?>">give you a refund</a>.</p>
 
 				<h3>Questions?</h3>
-				<p>Want to know more bout the product? Just let us know and we'll do our best to help.</p>
+				<p>Want to know more about the product? Just let us know and we'll do our best to help.</p>
 
 			</div>
 		</div>

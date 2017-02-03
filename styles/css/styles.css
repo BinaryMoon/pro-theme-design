@@ -1491,7 +1491,7 @@ label:hover p.hint {
 
 .radio-group label {
   display: inline-block;
-  background: rgba(0, 0, 0, 0.05);
+  background: rgba(255, 255, 255, 0.5);
   padding: 0.75rem 1.5rem;
   border-radius: 0.2rem;
 }
@@ -1676,7 +1676,7 @@ label:hover p.hint {
 }
 
 .note {
-  background: rgba(0, 0, 0, 0.05);
+  background: rgba(255, 255, 255, 0.5);
   padding: 1.5rem 3rem;
   border-radius: 0.2rem;
   position: relative;
@@ -1762,6 +1762,7 @@ label:hover p.hint {
   padding: 0.75rem 1.5rem;
   color: #21252a;
   display: inline-block;
+  border-radius: 0.2rem;
 }
 
 .device-click .page-menu a {
@@ -1770,7 +1771,7 @@ label:hover p.hint {
 }
 
 .page-menu a.selected {
-  background: rgba(0, 0, 0, 0.05);
+  background: rgba(255, 255, 255, 0.5);
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
 }
 
@@ -1780,12 +1781,49 @@ label:hover p.hint {
 }
 
 .pricing .price-table {
-  background: #ffffff;
-  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+  padding: 0;
 }
 
 .pricing .price-table ul {
   margin: 0 0 1.5rem 1.5rem;
+}
+
+.pricing .price-table .product {
+  background: #ffffff;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+  padding: 3rem 3rem 1.5rem 3rem;
+  margin: 1.5rem;
+}
+
+.pricing .price-table .product > *:last-child {
+  margin-bottom: 0;
+}
+
+.pricing .price-table .price {
+  display: block;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  margin-top: 2.5rem;
+  color: #1bb3ca;
+  font-size: 80px;
+  font-size: 5rem;
+  line-height: 1.25;
+  font-weight: bold;
+}
+
+.pricing .price-table .price small {
+  opacity: 0.8;
+  vertical-align: top;
+  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-top: 0.5em;
+  display: inline-block;
+}
+
+.pricing .price-table .terms {
+  display: block;
+  text-align: center;
 }
 
 .pricing .faq h3 {
@@ -1982,7 +2020,7 @@ table.comparison td span {
 }
 
 #footer {
-  background: rgba(0, 0, 0, 0.05);
+  background: rgba(255, 255, 255, 0.5);
   padding: 4.5rem 0;
   clear: both;
 }
@@ -2338,7 +2376,7 @@ table.comparison td span {
 }
 
 .page-contact .contact-selection a {
-  background: rgba(0, 0, 0, 0.05);
+  background: rgba(255, 255, 255, 0.5);
   border-radius: 0.2rem;
   display: block;
   padding: 0.75rem 1.5rem;

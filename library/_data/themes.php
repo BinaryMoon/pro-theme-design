@@ -54,7 +54,6 @@ function get_theme_data() {
 			'tags' => array( 'portfolio', 'hot' ),
 			'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'testimonials', 'portfolio', 'raddcontrol' ),
 			'color' => '#e09485',
-			//'color' => '#ee77bb',
 		),
 
 		'passenger' => array(
@@ -372,10 +371,10 @@ function get_theme_data() {
 		if ( empty( $theme['price-wporg'] ) ) {
 			$theme['price-wporg'] = 'free!';
 		} else {
-			$theme['price-wporg'] = '$' . $theme['price-wporg'];
+			$theme['price-wporg'] = '<small>$</small>' . $theme['price-wporg'];
 		}
 
-		$theme['price-wpcom'] = '$' . $theme['price-wpcom'];
+		$theme['price-wpcom'] = '<small>$</small>' . $theme['price-wpcom'];
 
 		// Set the display price.
 		$theme['price'] = $theme['price-wpcom'];
