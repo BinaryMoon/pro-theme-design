@@ -10,6 +10,7 @@
 		color: $body-header-color;
 		@include transition;
 		display: inline-block;
+		border-radius: $border-radius;
 
 		&.selected {
 
