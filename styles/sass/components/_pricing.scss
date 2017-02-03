@@ -1,0 +1,29 @@
+.pricing {
+
+	.price-table {
+
+		background: $canvas-white;
+		box-shadow: $box-shadow;
+
+		ul {
+
+			margin: 0 0 $grid-line-height ( $grid-gutter / 2 );
+
+		}
+
+	}
+
+	.faq {
+
+		h3 {
+
+			@include modular-scale( epsilon );
+			font-weight: bold;
+			text-align: left;
+			margin: 0;
+
+		}
+
+	}
+
+}

@@ -5,35 +5,34 @@
 
 	.feature {
 
-		padding: ( $grid-line-height * 2 ) 0;
+		padding: ( $grid-line-height * 3 ) 0;
 
+		header {
 
-        header {
+			width: 50%;
 
-            width: 50%;
+		}
 
-        }
+		section {
 
-        section {
-
-            width: 50%;
+			width: 50%;
 			padding: 0 ( $grid-gutter * 2 );
 
-        }
+		}
 
-	    .number {
+		.number {
 
 			&:before {
 
 				@include modular-scale( gamma );
 				counter-increment: features;
 				content: counter(features) ".";
-		        background: $canvas-blue;
-		        color: contrast( $canvas-blue );
-		        width: $grid-line-height * 3;
-		        line-height: $grid-line-height * 3;
-		        border-radius: 100%;
-		        display: inline-block;
+				background: $canvas-blue;
+				color: contrast( $canvas-blue );
+				width: $grid-line-height * 3;
+				line-height: $grid-line-height * 3;
+				border-radius: 100%;
+				display: inline-block;
 				text-align: center;
 				position: absolute;
 				top: -1.5rem;
@@ -41,7 +40,7 @@
 				vertical-align: middle;
 				z-index: -1;
 
-		    }
+			}
 
 		}
 
@@ -49,8 +48,8 @@
 
 			flex-direction: row-reverse;
 
-	    }
+		}
 
-    }
+	}
 
 }

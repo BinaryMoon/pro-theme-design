@@ -13,7 +13,7 @@
   background-color: #536f91;
   border-radius: 0.2rem;
   clip: auto !important;
-  color: #fff;
+  color: #ffffff;
   display: block;
   height: auto;
   left: 3rem;
@@ -216,13 +216,13 @@ textarea {
 }
 
 ::-moz-selection {
-  background: #F6865E;
-  color: #21252a;
+  background: #f3622e;
+  color: #ffffff;
 }
 
 ::selection {
-  background: #F6865E;
-  color: #21252a;
+  background: #f3622e;
+  color: #ffffff;
 }
 
 address {
@@ -386,7 +386,7 @@ p:empty {
 pre {
   margin: 2.25rem 0;
   background: #283c56;
-  color: #7CD994;
+  color: #54ce74;
   padding: 1.5rem 1.5rem;
   overflow: auto;
   display: block;
@@ -518,7 +518,7 @@ textarea:focus,
 input.settings-input:focus {
   outline: none;
   border-color: #21252a;
-  background: #fff;
+  background: #ffffff;
   color: #283c56;
 }
 
@@ -675,8 +675,8 @@ button {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  background: #F6865E;
-  color: #21252a;
+  background: #f3622e;
+  color: #ffffff;
   display: inline-block;
   text-decoration: none;
   border-radius: 0.2rem;
@@ -686,7 +686,7 @@ button {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   text-align: center;
-  box-shadow: inset 0 -0.15em 0 rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 -0.3em 0 rgba(0, 0, 0, 0.15);
 }
 
 .device-click input[type=submit], .device-click
@@ -701,8 +701,8 @@ a.button:focus,
 a.button:hover,
 button:focus,
 button:hover {
-  background: #f25016;
-  color: #fff;
+  background: #c93d0b;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -985,7 +985,7 @@ article.summary h2 {
 
 .block.tag-new:before, .block.tag-hot:before, .block.tag-free:before {
   background: #21252a;
-  color: #fff;
+  color: #ffffff;
   content: '';
   position: absolute;
   top: 1rem;
@@ -1000,19 +1000,19 @@ article.summary h2 {
 }
 
 .block.tag-hot:before {
-  background: #FFCF57;
+  background: #ffc024;
   color: #21252a;
   content: 'hot!';
 }
 
 .block.tag-new:before {
-  background: #92E0EC;
+  background: #67d4e4;
   color: #21252a;
   content: 'new';
 }
 
 .block.tag-free:before {
-  background: #7CD994;
+  background: #54ce74;
   color: #21252a;
   content: 'free';
 }
@@ -1118,7 +1118,7 @@ article.summary h2 {
   font-size: 20px;
   font-size: 1.25rem;
   line-height: 1.5;
-  color: #fff;
+  color: #ffffff;
   opacity: 0.5;
 }
 
@@ -1224,8 +1224,8 @@ article.summary h2 {
 }
 
 .button {
-  background: #F6865E;
-  color: #21252a;
+  background: #f3622e;
+  color: #ffffff;
   display: inline-block;
   text-decoration: none;
   border-radius: 0.2rem;
@@ -1235,7 +1235,7 @@ article.summary h2 {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   text-align: center;
-  box-shadow: inset 0 -0.15em 0 rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 -0.3em 0 rgba(0, 0, 0, 0.15);
 }
 
 .device-click .button {
@@ -1244,8 +1244,8 @@ article.summary h2 {
 }
 
 .button:focus, .button:hover {
-  background: #f25016;
-  color: #fff;
+  background: #c93d0b;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -1264,11 +1264,11 @@ article.summary h2 {
 
 .button:active {
   box-shadow: inset 0 0.1em 0 0 rgba(0, 0, 0, 0.3);
-  background: #4dcce0;
+  background: #25bdd4;
 }
 
 .button.disabled {
-  color: #fde1d7;
+  color: #fabca6;
 }
 
 .button.fat {
@@ -1289,19 +1289,19 @@ article.summary h2 {
 }
 
 .button.positive {
-  background: #7CD994;
+  background: #54ce74;
 }
 
 .button.positive:hover {
-  background: #5cd07a;
+  background: #38c15b;
 }
 
 .button.positive:active {
-  background: #3dc760;
+  background: #2fa24c;
 }
 
 .button.positive.disabled {
-  color: #dff6e5;
+  color: #b7eac4;
 }
 
 .button.minor {
@@ -1333,7 +1333,7 @@ article.summary h2 {
 
 .close-button {
   color: #21252a;
-  background: #fff;
+  background: #ffffff;
   border-radius: 2rem;
   width: 2rem;
   height: 2rem;
@@ -1351,7 +1351,7 @@ article.summary h2 {
 .close-button:hover {
   text-decoration: none;
   background: #21252a;
-  color: #fff;
+  color: #ffffff;
 }
 
 .breadcrumbs {
@@ -1393,7 +1393,7 @@ article.summary h2 {
 }
 
 .features .feature {
-  padding: 3rem 0;
+  padding: 4.5rem 0;
 }
 
 .features .feature header {
@@ -1411,7 +1411,7 @@ article.summary h2 {
   line-height: 1.25;
   counter-increment: features;
   content: counter(features) ".";
-  background: #92E0EC;
+  background: #67d4e4;
   color: #21252a;
   width: 4.5rem;
   line-height: 4.5rem;
@@ -1502,8 +1502,8 @@ label:hover p.hint {
 }
 
 .radio-group label:hover, .radio-group label.checked {
-  background: #7CD994;
-  color: #fff;
+  background: #54ce74;
+  color: #ffffff;
 }
 
 .radio-group input[type="radio"] {
@@ -1587,7 +1587,7 @@ label:hover p.hint {
 }
 
 .overlay {
-  background: #fff;
+  background: #ffffff;
   position: fixed;
   top: 0;
   right: 0;
@@ -1684,7 +1684,7 @@ label:hover p.hint {
 }
 
 .note strong {
-  color: #fff;
+  color: #ffffff;
 }
 
 .note h1 {
@@ -1779,6 +1779,24 @@ label:hover p.hint {
   display: block;
 }
 
+.pricing .price-table {
+  background: #ffffff;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+}
+
+.pricing .price-table ul {
+  margin: 0 0 1.5rem 1.5rem;
+}
+
+.pricing .faq h3 {
+  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  font-weight: bold;
+  text-align: left;
+  margin: 0;
+}
+
 .popover {
   position: fixed;
   bottom: 0;
@@ -1786,7 +1804,7 @@ label:hover p.hint {
   max-width: 18rem;
   width: 100%;
   z-index: 100;
-  background: #fff;
+  background: #ffffff;
   border-radius: 0.2rem 0.2rem 0 0;
   -webkit-transform: translateY(120%);
           transform: translateY(120%);
@@ -1811,7 +1829,7 @@ label:hover p.hint {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-weight: normal;
-  color: #7CD994;
+  color: #54ce74;
 }
 
 .popover .body p {
@@ -1823,11 +1841,11 @@ label:hover p.hint {
 }
 
 table.comparison .fa.fa-check {
-  color: #7CD994;
+  color: #54ce74;
 }
 
 table.comparison .fa.fa-times {
-  color: #F6865E;
+  color: #f3622e;
 }
 
 table.comparison td {
@@ -1890,7 +1908,7 @@ table.comparison td span {
 }
 
 .wrapper h2 a {
-  color: #4bd2e7;
+  color: #1bb3ca;
 }
 
 .wrapper .intro {
@@ -2227,7 +2245,7 @@ table.comparison td span {
     top: -4.5rem;
   }
   .masthead nav.main-menu ul {
-    background: #fff;
+    background: #ffffff;
     display: none;
     padding: 0.75rem 0;
   }
@@ -2330,7 +2348,7 @@ table.comparison td span {
 
 .page-contact .contact-selection a .fa {
   float: right;
-  color: #F6865E;
+  color: #f3622e;
   opacity: 0.5;
 }
 
@@ -2364,7 +2382,7 @@ table.comparison td span {
 }
 
 .page-home .home-header {
-  background: #fff;
+  background: #ffffff;
   margin-bottom: 3rem;
   position: relative;
   display: -webkit-box;
@@ -2442,7 +2460,7 @@ table.comparison td span {
 }
 
 .page-home .tiles .wrap {
-  background: #fff;
+  background: #ffffff;
   border: 1rem solid #d3d7dd;
   padding: 3rem 3rem;
   text-align: center;
@@ -2460,7 +2478,7 @@ table.comparison td span {
 }
 
 .page-home .tiles .actions {
-  background: #fff;
+  background: #ffffff;
   margin-bottom: -5.25rem;
   position: relative;
   padding: 0 1rem;
@@ -2490,7 +2508,7 @@ table.comparison td span {
 }
 
 .page-plugins img {
-  background: #fff;
+  background: #ffffff;
 }
 
 .page-styleguide .colours:after {
@@ -2518,93 +2536,93 @@ table.comparison td span {
 }
 
 .page-styleguide .colours .green {
-  background: #7CD994;
+  background: #54ce74;
   color: #21252a;
 }
 
 .page-styleguide .colours .green-dark {
-  background: #39cf60;
-  color: #21252a;
+  background: #259742;
+  color: #ffffff;
 }
 
 .page-styleguide .colours .blue {
-  background: #92E0EC;
+  background: #67d4e4;
   color: #21252a;
 }
 
 .page-styleguide .colours .blue-dark {
-  background: #4bd2e7;
-  color: #21252a;
+  background: #1bb3ca;
+  color: #ffffff;
 }
 
 .page-styleguide .colours .red {
-  background: #F6865E;
-  color: #21252a;
+  background: #f3622e;
+  color: #ffffff;
 }
 
 .page-styleguide .colours .red-dark {
-  background: #f94c0e;
-  color: #fff;
+  background: #b73304;
+  color: #ffffff;
 }
 
 .page-styleguide .colours .yellow {
-  background: #FFCF57;
+  background: #ffc024;
   color: #21252a;
 }
 
 .page-styleguide .colours .yellow-dark {
-  background: #ffb90b;
-  color: #21252a;
+  background: #bd8700;
+  color: #ffffff;
 }
 
 .page-styleguide .colours .orange {
   background: #E67E22;
-  color: #fff;
+  color: #ffffff;
 }
 
 .page-styleguide .colours .orange-dark {
-  background: #ae590d;
-  color: #fff;
+  background: #964d0c;
+  color: #ffffff;
 }
 
 .page-styleguide .colours .purple {
-  background: #EBB2EE;
-  color: #21252a;
+  background: #A45FBC;
+  color: #ffffff;
 }
 
 .page-styleguide .colours .purple-dark {
-  background: #df6ee5;
-  color: #fff;
+  background: #6f3085;
+  color: #ffffff;
 }
 
 .page-styleguide .colours .grey-100 {
   background: #21252a;
-  color: #fff;
+  color: #ffffff;
 }
 
 .page-styleguide .colours .grey-90 {
   background: #283c56;
-  color: #fff;
+  color: #ffffff;
 }
 
 .page-styleguide .colours .grey-80 {
   background: #3c5575;
-  color: #fff;
+  color: #ffffff;
 }
 
 .page-styleguide .colours .grey-70 {
   background: #536f91;
-  color: #fff;
+  color: #ffffff;
 }
 
 .page-styleguide .colours .grey-60 {
   background: #7289a5;
-  color: #fff;
+  color: #ffffff;
 }
 
 .page-styleguide .colours .grey-50 {
   background: #96a3b4;
-  color: #fff;
+  color: #ffffff;
 }
 
 .page-styleguide .colours .grey-40 {
@@ -2710,7 +2728,7 @@ table.comparison td span {
 }
 
 .page-support .column h2 a small {
-  color: #4bd2e7;
+  color: #1bb3ca;
   float: right;
 }
 
@@ -2758,17 +2776,17 @@ table.comparison td span {
 .page-theme .theme-header.theme-dark .block,
 .page-theme .theme-header.theme-dark .masthead .main-menu li a,
 .page-theme .theme-header.theme-dark .masthead .site-title .ptd-logo {
-  color: #fff;
+  color: #ffffff;
 }
 
 .page-theme .theme-header.theme-dark .separator:before {
-  background: #fff;
+  background: #ffffff;
 }
 
 .page-tools-color-picker .color-container {
   padding: 1.5rem 0;
   border-radius: 0.2rem;
-  background: #92E0EC;
+  background: #67d4e4;
   text-align: center;
 }
 
@@ -2804,7 +2822,7 @@ table.comparison td span {
 }
 
 .page-tools-ascii-entity-conversion p.entities a {
-  color: #fff;
+  color: #ffffff;
   margin-right: 0.1em;
   background: #3c5575;
   padding: 0 1.5rem;
@@ -2860,7 +2878,7 @@ table.comparison td span {
 
 a {
   text-decoration: none;
-  color: #4bd2e7;
+  color: #1bb3ca;
 }
 
 .device-click a {

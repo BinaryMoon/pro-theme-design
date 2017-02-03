@@ -48,22 +48,15 @@
 						<p><?php echo $theme['description']; ?></p>
 
 						<footer>
-<?php
-	if ( ! empty( $theme['download-button'] ) ) {
 
-		echo $theme['download-button'];
+							<?php site_include_view( '_partials/theme-purchase-buttons.php', array( 'theme' => $theme ) ); ?>
 
-	}
-
-	if ( ! empty( $theme['url-preview'] ) ) {
-?>
-							<a href="<?php echo $theme['url-preview']; ?>" class="button ghost greedy"><i class="fa fa-eye" aria-hidden="true"></i>Preview <?php echo $theme['name']; ?></a>
-<?php
-	}
-?>
 						</footer>
+
 					</div>
+
 				</section>
+
 			</div>
 
 		</section>
@@ -85,8 +78,6 @@
 		site_include_view( '_themes/_details/default.php', array( 'theme' => $theme ) );
 
 	}
-
-	site_include_view( '_partials/theme-purchase-buttons.php', array( 'theme' => $theme ) );
 ?>
 
 	<!-- Showcase Websites -->
@@ -164,8 +155,38 @@
 ?>
 		</div>
 
+		<div class="pricing wrapper block-wrapper">
+
+			<header class="block-header">
+				<h2>
+					Create a Professional Website
+				</h2>
+			</header>
+
+			<div class="block screenshot">
+				<img src="<?php echo image_path( 'monitor/' . $theme['image'] ); ?>" alt="<?php echo $theme['name']; ?> Screenshot" />
+			</div>
+
+			<div class="block price-table">
+				<ul>
+					<li>Lifetime theme usage</li>
+					<li>Unlimited sites</li>
+					<li>1 click updates</li>
+				</ul>
+				<?php site_include_view( '_partials/theme-purchase-buttons.php', array( 'theme' => $theme ) ); ?>
+			</div>
+
+			<div class="block faq">
+
+				<h3>30 day Guarantee</h3>
+				<p>If you have a problem with a purchase from us then let us know and we will refund you.</p>
+
+				<h3>Questions?</h3>
+				<p>Want to know more bout the product? Just let us know and we'll do our best to help.</p>
+
+			</div>
+		</div>
 <?php
-	site_include_view( '_partials/theme-purchase-buttons.php', array( 'theme' => $theme ) );
 
 	if ( themes_supports( $theme, 'theme-club' ) && ! DISABLE_THEME_CLUB ) {
 

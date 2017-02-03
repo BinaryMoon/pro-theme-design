@@ -11,24 +11,24 @@ $font-family-header: $font-family-sans;
 $debug: false;
 
 // colours
-$canvas-white: #fff;
+$canvas-white: #ffffff;
 $canvas-green: #3fa662;
-$canvas-green: #7CD994;
-$canvas-green-dark: saturate( darken( $canvas-green, 15% ), 6% );
+$canvas-green: darken( #7CD994, 10% );
+$canvas-green-dark: saturate( darken( $canvas-green, 20% ), 6% );
 $canvas-blue: #268ebe;
-$canvas-blue: #92E0EC;
-$canvas-blue-dark: saturate( darken( $canvas-blue, 15% ), 6% );
+$canvas-blue: darken( #92E0EC, 10% );
+$canvas-blue-dark: saturate( darken( $canvas-blue, 20% ), 6% );
 $canvas-red: #e74c3c;
-$canvas-red: #F6865E;
-$canvas-red-dark: saturate( darken( $canvas-red, 15% ), 6% );
+$canvas-red: darken( #F6865E, 10% );
+$canvas-red-dark: saturate( darken( $canvas-red, 20% ), 6% );
 $canvas-purple: #A45FBC;
-$canvas-purple: #EBB2EE;
-$canvas-purple-dark: saturate( darken( $canvas-purple, 15% ), 6% );
+//$canvas-purple: #EBB2EE;
+$canvas-purple-dark: saturate( darken( $canvas-purple, 20% ), 6% );
 $canvas-yellow: #F1C40F;
-$canvas-yellow: #FFCF57;
-$canvas-yellow-dark: saturate( darken( $canvas-yellow, 15% ), 6% );
+$canvas-yellow: darken( #FFCF57, 10% );
+$canvas-yellow-dark: saturate( darken( $canvas-yellow, 20% ), 6% );
 $canvas-orange:#E67E22;
-$canvas-orange-dark: saturate( darken( $canvas-orange, 15% ), 6% );
+$canvas-orange-dark: saturate( darken( $canvas-orange, 20% ), 6% );
 
 $canvas-dark: #21252a;
 
