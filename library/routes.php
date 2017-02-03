@@ -122,7 +122,7 @@ Flight::route( '/theme/(@theme)/', function( $theme = '' ) {
 
 	}
 
-	site_popover( true );
+	//site_popover( true );
 
 	site_meta( 'twitter:card', 'product' );
 	site_meta( 'og:type', 'product' );
