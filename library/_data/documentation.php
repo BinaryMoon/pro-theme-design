@@ -147,7 +147,7 @@ function get_documentation_data() {
 			'name' => 'Infinite Scroll',
 			'type' => 'feature',
 			'requires' => 'jetpack',
-			'description' => 'Continuosly loading content to encourage your readers to stick around.',
+			'description' => 'Continuously loading content to encourage your readers to stick around.',
 			'icon' => 'arrow-down',
 		),
 		'site-logo' => array(
