@@ -205,7 +205,7 @@
 				<p>If you have a problem with a purchase from us then let us know and we will <a href="<?php echo path('refund/' ); ?>">give you a refund</a>.</p>
 
 				<h3>Questions?</h3>
-				<p>Want to know more about the product? Just let us know and we'll do our best to help.</p>
+				<p>Want to know more about the theme? Just let us know and we'll do our best to help. <a href="<?php echo path( 'theme-question/' . $theme_name . '/' ); ?>">Ask a question</a>.</p>
 
 			</div>
 		</div>

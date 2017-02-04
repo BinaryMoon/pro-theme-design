@@ -151,6 +151,37 @@ Flight::route( '/theme/(@theme)/', function( $theme = '' ) {
 
 
 /**
+ * Theme
+ */
+Flight::route( '/theme-question/(@theme)/', function( $theme = '' ) {
+
+	$theme_data = array();
+
+	if ( ! empty( $theme ) && $theme_data = themes_get( $theme ) ) {
+
+		site_title( 'Question about' . $theme_data['name'] . ' WordPress Theme' );
+		site_description( $theme_data['short_description'] );
+
+	} else {
+
+		Flight::notFound();
+
+	}
+
+	site_meta_image( image_path( 'devices/' . $theme_data['image'] ) );
+
+	Flight::render(
+		'pre-sales.php',
+		array(
+			'theme_name' => $theme_data['name'],
+			'theme_slug' => $theme,
+		)
+	);
+
+} );
+
+
+/**
  * Themes
  */
 Flight::route( '/themes/(@tag)/', function( $tag = '' ) {
