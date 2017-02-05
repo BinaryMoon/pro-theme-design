@@ -190,11 +190,16 @@
 
 				</div>
 
+				<p class="secure">
+					<?php draw_svg( 'app-lock' ); ?> Secure payments by Fastspring
+				</p>
+
 				<div class="payment-methods">
 					<img src="<?php echo image_path( 'credit-cards/light-visa.png' ); ?>" title="Visa" />
 					<img src="<?php echo image_path( 'credit-cards/light-mastercard.png' ); ?>" title="Mastercard" />
 					<img src="<?php echo image_path( 'credit-cards/light-paypal.png' ); ?>" title="Paypal" />
 				</div>
+
 
 				<small class="terms"><a href="<?php echo path( 'policies/' ); ?>" class="terms">Terms</a></small>
 			</div>
