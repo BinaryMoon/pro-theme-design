@@ -1813,13 +1813,25 @@ label:hover p.hint {
 }
 
 .pricing .price-table .price small {
-  opacity: 0.8;
   vertical-align: top;
   font-size: 20px;
   font-size: 1.25rem;
   line-height: 1.5;
   margin-top: 0.5em;
   display: inline-block;
+}
+
+.pricing .price-table .secure {
+  font-size: 12px;
+  font-size: 0.75rem;
+  line-height: 1.75;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: normal;
+}
+
+.pricing .price-table .secure svg {
+  height: 1.3em;
 }
 
 .pricing .price-table .terms {
@@ -2433,7 +2445,6 @@ table.comparison td span {
 }
 
 .page-home .home-header {
-  background: #ffffff;
   margin-bottom: 3rem;
   position: relative;
   display: -webkit-box;
@@ -2925,6 +2936,11 @@ table.comparison td span {
   bottom: 0;
   left: 0;
   z-index: 9999999;
+}
+
+body {
+  background: #f0f1f3 url("../../img/website/page-background.svg") top no-repeat;
+  background-size: contain;
 }
 
 a {

@@ -39,11 +39,23 @@
 
 			small {
 
-				opacity: 0.8;
 				vertical-align: top;
 				@include modular-scale( epsilon );
 				margin-top: 0.5em;
 				display: inline-block;
+
+			}
+
+		}
+
+		.secure {
+
+			@include post-meta-data( eta );
+
+			svg {
+
+				height: 1.3em;
+
 
 			}
 
