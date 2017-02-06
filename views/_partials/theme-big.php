@@ -7,7 +7,7 @@
 		<div class="wrapper block big <?php echo $tags; ?>">
 			<header>
 				<a href="<?php echo $theme['url']; ?>">
-					<img src="<?php echo image_path( 'devices/' . $theme['image'] ); ?>" alt="<?php echo $theme['name']; ?> Screenshot" />
+					<img src="<?php echo image_path( 'theme-devices/' . $theme['image'] ); ?>" alt="<?php echo $theme['name']; ?> Screenshot" />
 				</a>
 			</header>
 			<section>

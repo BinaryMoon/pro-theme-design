@@ -127,7 +127,7 @@ Flight::route( '/theme/(@theme)/', function( $theme = '' ) {
 	site_meta( 'twitter:card', 'product' );
 	site_meta( 'og:type', 'product' );
 
-	site_meta_image( image_path( 'devices/' . $theme_data['image'] ) );
+	site_meta_image( image_path( 'theme-devices/' . $theme_data['image'] ) );
 
 	if ( ! empty( $theme_data['url-wporg'] ) ) {
 		site_meta( 'og:price:amount', str_replace( '$', '', $theme_data['price-wporg'] ) );
@@ -168,7 +168,7 @@ Flight::route( '/theme-question/(@theme)/', function( $theme = '' ) {
 
 	}
 
-	site_meta_image( image_path( 'devices/' . $theme_data['image'] ) );
+	site_meta_image( image_path( 'theme-devices/' . $theme_data['image'] ) );
 
 	Flight::render(
 		'pre-sales.php',

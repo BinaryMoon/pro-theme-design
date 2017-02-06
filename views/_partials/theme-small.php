@@ -8,7 +8,7 @@
 
 				<header>
 					<a href="<?php echo $theme['url']; ?>" class="screenshot">
-						<img src="<?php echo image_path( 'monitor/' . $theme['image'] ); ?>" alt="<?php echo $theme['name']; ?> Screenshot" />
+						<img src="<?php echo image_path( 'theme-monitor/' . $theme['image'] ); ?>" alt="<?php echo $theme['name']; ?> Screenshot" />
 					</a>
 				</header>
 

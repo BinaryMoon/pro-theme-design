@@ -33,7 +33,7 @@
 
 				<header>
 					<a href="<?php echo $theme['url']; ?>">
-						<img src="<?php echo image_path( 'devices/' . $theme['image'] ); ?>" alt="<?php echo $theme['name']; ?> Screenshot">
+						<img src="<?php echo image_path( 'theme-devices/' . $theme['image'] ); ?>" alt="<?php echo $theme['name']; ?> Screenshot">
 					</a>
 				</header>
 
@@ -159,7 +159,7 @@
 			</header>
 
 			<div class="block screenshot">
-				<img src="<?php echo image_path( 'monitor/' . $theme['image'] ); ?>" alt="<?php echo $theme['name']; ?> Screenshot" />
+				<img src="<?php echo image_path( 'theme-monitor/' . $theme['image'] ); ?>" alt="<?php echo $theme['name']; ?> Screenshot" />
 			</div>
 
 			<div class="block price-table">
