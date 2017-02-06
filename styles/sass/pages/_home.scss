@@ -3,10 +3,10 @@
 
 	.home-header {
 
-		margin-bottom: $grid-line-height * 2;
+		margin-bottom: $grid-line-height * 5;
 		position: relative;
 		display: flex;
-		align-items: center;
+		align-items: stretch;
 
 		.wrap {
 
@@ -70,55 +70,8 @@
 
 		.intro {
 
-			max-width: $grid-gutter * 12;
-			margin-bottom: $grid-line-height * 2;
 			@include modular-scale( epsilon );
 			font-weight: 300;
-
-		}
-
-		.button {
-
-			margin-right: $style-element-spacing;
-		}
-
-	}
-
-
-	.tiles {
-
-		padding: ( $grid-line-height * 3 ) ( $grid-gutter );
-		margin: 0;
-		width: 50%;
-
-		.wrap {
-
-			background: $canvas-white;
-			border: 1rem solid $canvas-grey-30;
-			padding: ( $grid-line-height * 2 ) $grid-gutter;
-			text-align: center;
-
-		}
-
-		p {
-
-			text-align: center;
-
-		}
-
-		.intro {
-
-			@include modular-scale( epsilon );
-			margin-bottom: $grid-line-height * 1.5;
-
-		}
-
-		.actions {
-
-			background: $canvas-white;
-			margin-bottom: $grid-line-height * -3.5;
-			position: relative;
-			padding: 0 1rem;
 
 		}
 
@@ -142,6 +95,110 @@
 			max-width: 15rem;
 			margin: ( $grid-line-height * -6 ) auto ( $grid-line-height * 6 ) auto;
 			display: block;
+
+		}
+
+	}
+
+	section.intro {
+
+		text-align: center;
+		@include modular-scale( delta );
+
+	}
+
+	.tiles {
+
+		padding: ( $grid-line-height * 3 ) ( $grid-gutter );
+		margin: 0;
+		width: 50%;
+		position: relative;
+
+		a {
+
+			display: block;
+			width: $grid-gutter * 5;
+			background: $canvas-white;
+			position: absolute;
+			@include transition-easeOutBack( all, 0.75s );
+			transform: rotateX( 65deg ) rotateZ( -45deg );
+			box-shadow: -2rem 2rem 2rem rgba( 0, 0, 0, 0.2 );
+
+			img {
+
+				display: block;
+
+			}
+
+			span {
+
+				color: $canvas-grey-100;
+				position: absolute;
+				top: 110%;
+				opacity: 0;
+				padding-top: $grid-line-height / 4;
+				left: 0;
+				right: 0;
+				font-weight: bold;
+				text-align: center;
+				//@include transition( all 0.75s ease-in-out );
+				@include transition;
+
+			}
+
+			&:hover {
+
+				@include transition-easeInBack( all, 0.75s );
+				transform: rotateX( 0 ) rotateZ( 0 );
+				z-index: 10;
+				box-shadow: 0 0 0 rgba( 0, 0, 0, 0 );
+
+				span {
+
+					opacity: 1;
+					top: 100%;
+					//@include transition( all 0.75s ease-in-out );
+					//transition-delay: 20s;
+					@include transition;
+
+				}
+
+			}
+
+			&:nth-child(1) {
+
+				top: 25%;
+				left: 0;
+
+			}
+
+			&:nth-child(2) {
+
+				top: 5%;
+				left: 40%;
+
+			}
+
+			&:nth-child(3) {
+
+				top: 35%;
+				left: 65%;
+
+			}
+
+			&:nth-child(4) {
+
+				top: 50%;
+				left: 15%;
+
+			}
+
+			&:nth-child(5) {
+
+				top: 75%;
+				left: 50%;
+
+			}
 
 		}
 

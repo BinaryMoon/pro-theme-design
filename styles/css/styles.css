@@ -2574,7 +2574,6 @@ table.comparison td span {
 .page-home .tiles a {
   display: block;
   width: 15rem;
-  height: 18rem;
   background: #ffffff;
   position: absolute;
   -webkit-transform: rotateX(65deg) rotateZ(-45deg);
@@ -2585,6 +2584,10 @@ table.comparison td span {
 .device-click .page-home .tiles a {
   -webkit-transition: all 0.75s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transition: all 0.75s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.page-home .tiles a img {
+  display: block;
 }
 
 .page-home .tiles a span {
