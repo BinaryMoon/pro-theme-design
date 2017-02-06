@@ -5,21 +5,22 @@
  * @package ptd
  */
 
-
-/**
- * Add guarantee & refund policy
- * Mention auto-updates
- * focus on customer benefits. How the theme will improve their business
- * urgency?
- * improve social proof
- *
- */
-
 	include( '_partials/head.php' );
 ?>
+	<style>
+		.theme-header {
+			background-color: <?php echo $theme['color']; ?>;
+		}
+		.features .feature .number:before {
+			background-color: <?php echo $theme['color']; ?>;
+			color: <?php echo $theme['color-contast']; ?>;
+		}
+	</style>
+
 	<body class="page-theme">
 
-		<section class="theme-header <?php echo $theme['color-scheme']; ?>" style="background:<?php echo $theme['color']; ?>;">
+
+		<section class="theme-header <?php echo $theme['color-scheme']; ?>">
 
 			<?php include( '_partials/header.php' ); ?>
 
@@ -38,13 +39,7 @@
 
 				<section>
 					<div class="content">
-<?php
-	if ( ! empty( $theme['url-wporg'] ) ) {
-?>
-						<span class="blip price"><?php echo $theme['price-wporg']; ?></span>
-<?php
-	}
-?>
+
 						<p><?php echo $theme['description']; ?></p>
 
 						<footer>
@@ -60,13 +55,6 @@
 			</div>
 
 		</section>
-
-		<style>
-			.features .feature .number:before {
-				background: <?php echo $theme['color']; ?>;
-				color: <?php echo $theme['color-contast']; ?>;
-			}
-		</style>
 
 <?php
 	if ( site_include_exists( '_themes/_details/' . $theme_name . '.php' ) ) {
@@ -155,6 +143,11 @@
 ?>
 		</div>
 
+<?php
+	if ( $theme['is-free'] ) {
+
+	} else {
+?>
 		<div class="pricing wrapper block-wrapper">
 
 			<header class="block-header">
@@ -215,6 +208,7 @@
 			</div>
 		</div>
 <?php
+	}
 
 	if ( themes_supports( $theme, 'theme-club' ) && ! DISABLE_THEME_CLUB ) {
 
