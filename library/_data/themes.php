@@ -1,4 +1,9 @@
 <?php
+/**
+ * Theme information.
+ *
+ * @package ptd.
+ */
 
 // Purchase from FastSpring.
 define( 'THEME_PURCHASE', '<button class="button greedy" type="button" data-fsc-action="Add,Checkout" data-fsc-item-path-value="%s">Purchase %s</button>' );
@@ -63,7 +68,7 @@ function get_theme_data() {
 			'price-wpcom' => 79,
 			'price-wporg' => 99,
 			'url-wpcom' => 'passenger',
-			//'url-cm' => '312560-Monet-WordPress-Portfolio-Theme',
+			// 'url-cm' => '312560-Monet-WordPress-Portfolio-Theme',
 			'image' => 'passenger.png',
 			'tags' => array( 'blog' ),
 			'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'portfolio', 'post-formats', 'testimonials' ),
@@ -261,7 +266,7 @@ function get_theme_data() {
 			'url-wpcom' => 'kent',
 			'url-wporg' => 'kent',
 			'image' => 'kent.png',
-			'tags' => array( 'blog', 'free' ),
+			'tags' => array( 'blog' ),
 			'supports' => array( 'featured-image', 'infinite-scroll', 'sticky-post', 'theme-club' ),
 			'color' => '#317eb1',
 		),
@@ -275,7 +280,7 @@ function get_theme_data() {
 			'url-wpcom' => 'bexley',
 			'url-wporg' => 'bexley',
 			'image' => 'bexley.png',
-			'tags' => array( 'blog', 'photography', 'free' ),
+			'tags' => array( 'blog', 'photography' ),
 			'supports' => array( 'featured-image', 'infinite-scroll', 'sticky-post', 'raddcontrol' ),
 			'color' => '#29b765',
 		),
@@ -289,7 +294,7 @@ function get_theme_data() {
 			'url-wpcom' => 'isca',
 			'url-wporg' => 'isca',
 			'image' => 'isca.png',
-			'tags' => array( 'blog', 'free' ),
+			'tags' => array( 'blog' ),
 			'supports' => array( 'infinite-scroll', 'post-formats', 'raddcontrol' ),
 			'color' => '#e9e6e0',
 		),
@@ -300,18 +305,18 @@ function get_theme_data() {
 
 	foreach ( $themes as $key => $theme ) {
 
-		// Purchase the theme.
 		if ( ! empty( $theme['price-wporg'] ) ) {
 
+			// Purchase the theme.
 			$theme['download-button'] = sprintf(
 				THEME_PURCHASE,
 				$key,
 				$theme['name']
 			);
 
-		// Download the theme.
-		} else if ( ! empty( $theme['url-wporg'] ) ) {
+		} elseif ( ! empty( $theme['url-wporg'] ) ) {
 
+			// Download the theme.
 			$theme['download-button'] = sprintf(
 				THEME_DOWNLOAD,
 				$key,
@@ -320,15 +325,15 @@ function get_theme_data() {
 
 		}
 
-		// Creative Market url for affiliate page
+		// Creative Market url for affiliate page.
 		if ( ! empty( $theme['url-cm'] ) ) {
 			$theme['url-cm'] = 'https://creativemarket.com/BinaryMoon/' . $theme['url-cm'] . '?u=BinaryMoon';
 		}
 
-		// all themes are on wordpress.com so fill out the rest of the url
+		// All themes are on wordpress.com so fill out the rest of the url.
 		$theme['url-wpcom'] = 'https://wordpress.com/theme/' . $theme['url-wpcom'] . '/';
 
-		// theme info link
+		// Theme info link.
 		$theme['url'] = path( 'theme/' . $key . '/' );
 		$theme['url-details'] = path( 'theme/' . $key . '/' );
 		$theme['url-demo-content'] = path( 'assets/demo-xml/' . $key . '.wordpress.xml' );
@@ -360,7 +365,7 @@ function get_theme_data() {
 		// Host tags.
 		$theme['tags'][] = 'wordpress.com';
 
-		if ( ! empty( $theme['download-button']) ) {
+		if ( ! empty( $theme['download-button'] ) ) {
 			$theme['tags'][] = 'wordpress.org';
 		}
 
@@ -368,8 +373,11 @@ function get_theme_data() {
 		$theme['url-documentation'] = path( 'documentation/theme/' . $key . '/' );
 
 		// Set price.
+		$theme['is-free'] = false;
 		if ( empty( $theme['price-wporg'] ) ) {
 			$theme['price-wporg'] = 'free!';
+			$theme['tags'][] = 'free';
+			$theme['is-free'] = true;
 		} else {
 			$theme['price-wporg'] = '<small>$</small>' . $theme['price-wporg'];
 		}
@@ -388,10 +396,10 @@ function get_theme_data() {
 			$theme['text-details'] = 'Demo &amp; Details';
 		}
 
-		// link target
+		// Link target.
 		$theme['link-target'] = '';
 
-		// set default theme features that all themes support
+		// Set default theme features that all themes support.
 		$theme['supports'] = array_merge(
 			$theme['supports'],
 			array(
@@ -413,7 +421,8 @@ function get_theme_data() {
 		);
 
 		$processed[ $key ] = $theme;
-	}
+
+	} // End foreach().
 
 	return $processed;
 
@@ -452,7 +461,8 @@ function themes_exist( $theme_slug ) {
 
 
 /**
- * Get the data for the specified theme
+ * Get the data for the specified theme.
+ *
  * @param  string        $theme_slug The theme key to retrieve
  * @return boolean|array Either the requested theme information, or false if theme not found
  */
@@ -470,7 +480,8 @@ function themes_get( $theme_slug ) {
 
 
 /**
- * get X random themes from the list
+ * Get X random themes from the list
+ *
  * @param  integer [$count      = 3] the number of themes to get
  * @return array   An array of themes, limited by the length specified in count
  */
@@ -509,6 +520,7 @@ function themes_sitemap() {
 
 /**
  * Get the price of all themes combined
+ *
  * @return integer Dollar value for the combined price
  */
 function themes_all_themes_price() {
@@ -529,9 +541,9 @@ function themes_all_themes_price() {
 
 /**
  * Get a list of themes suitable for the specified host
- *
- * @param  string  [$host       = ''] The website host to return themes for.
- * @return boolean an array of theme info.
+ * 
+ * @param  string $tag Tag to look for.
+ * @return array       An array of theme info.
  */
 function themes_by_tag( $tag = '' ) {
 
@@ -540,9 +552,7 @@ function themes_by_tag( $tag = '' ) {
 
 	foreach ( $themes as $theme ) {
 
-		if ( in_array( $tag, $theme['tags'] ) || '' === $tag ) {
-
-			//$theme['url'] = $theme['url-wporg'];
+		if ( in_array( $tag, $theme['tags'], true ) || '' === $tag ) {
 
 			if ( 'wordpress.com' === $tag ) {
 				$theme['url-details'] = $theme['url-wpcom'];
@@ -552,7 +562,6 @@ function themes_by_tag( $tag = '' ) {
 			$processed_themes[] = $theme;
 
 		}
-
 	}
 
 	return $processed_themes;
@@ -562,12 +571,13 @@ function themes_by_tag( $tag = '' ) {
 
 /**
  * Work out if the specified theme supports the specified feature.
+ *
  * @param array  $theme   Theme Data.
  * @param string $feature Feature tag.
  */
 function themes_supports( $theme, $feature ) {
 
-	if ( in_array( $feature, $theme['supports'] ) ) {
+	if ( in_array( $feature, $theme['supports'], true ) ) {
 		return true;
 	}
 
