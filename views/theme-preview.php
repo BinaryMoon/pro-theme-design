@@ -2,6 +2,12 @@
 	include( '_partials/head.php' );
 
 	$iframe_url = 'https://demo.prothemedesign.com/wordpress/' . strtolower( $theme_slug ) . '/';
+
+	if ( ! empty( $theme['download-button'] ) ) {
+
+		$theme['download-button'] = str_replace( 'button greedy', 'button small', $theme['download-button'] );
+
+	}
 ?>
 	<body class="page-preview">
 
@@ -10,14 +16,8 @@
 			<header>
 
 				<h1><a href="<?php echo $theme[ 'url' ]; ?>"><?php echo $theme[ 'name' ]; ?></a> Demo</h1>
-<?php
-	if ( ! empty( $theme['download-button'] ) ) {
 
-		$theme['download-button'] = str_replace( 'button greedy', 'button small', $theme['download-button'] );
-		echo $theme['download-button'];
-
-	}
-?>
+				<?php echo $theme['download-button']; ?>
 
 				<a href="<?php echo $theme[ 'url' ]; ?>" class="button small ghost">Theme Details</a>
 
