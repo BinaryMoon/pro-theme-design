@@ -1,3 +1,10 @@
+<h3>1.7 - 6th February 2017</h3>
+<ul>
+<li>Increase thumbnail size on archive pages, and size of featured images in slider and single opost page to stop issues when social sidebar is hidden. May need thumbnails to be recreated (<a href="https://wordpress.org/plugins/regenerate-thumbnails/">https://wordpress.org/plugins/regenerate-thumbnails/</a> works well for this)</li>
+<li>Consolidate one of the image sizes to reduce the amount of featured images needed.</li>
+<li>Add support for selective refresh to sidebars.</li>
+<li>Improve coding standards.</li>
+</ul>
 <h3>1.6 - 29th November 2016</h3>
 <ul>
 <li>Allow social sidebar to be hidden when content is empty.</li>
