@@ -380,9 +380,29 @@
 
 @media only screen and (max-width: $responsive-tablet) {
 
-	.block {
+	.block-wrapper {
 
-		width: 50%;
+		.block {
+
+			width: 50%;
+
+			&.compact {
+
+				width: 50%;
+
+			}
+
+			&.comfortable {
+
+				width: 100%;
+
+			}
+
+		}
+
+	}
+
+	.block {
 
 		&.big {
 
@@ -399,13 +419,31 @@
 
 	}
 
+
 }
 
 @media only screen and (max-width: $responsive-mobile) {
 
-	.block {
+	.block-wrapper {
 
-		width: 100%;
+		.block {
+
+			width: 100%;
+			padding: $grid-line-height ( $grid-gutter / 2 ) !important;
+
+		}
+
+		header.block-header {
+
+			padding: 0 ( $grid-gutter / 2 );
+
+			h2 {
+
+				@include modular-scale( delta );
+
+			}
+
+		}
 
 	}
 

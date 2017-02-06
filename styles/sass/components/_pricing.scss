@@ -99,3 +99,18 @@
 	}
 
 }
+
+
+@media only screen and (max-width: $responsive-tablet) {
+
+	.pricing {
+
+		.screenshot {
+
+			display: none;
+
+		}
+
+	}
+
+}

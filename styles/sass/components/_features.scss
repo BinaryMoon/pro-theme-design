@@ -53,3 +53,34 @@
 	}
 
 }
+
+
+@media only screen and (max-width: $responsive-tablet) {
+
+	.features {
+
+		header {
+
+			display: none;
+
+		}
+
+		.feature {
+
+			section {
+
+				width: 100%;
+				padding: 0;
+
+			}
+
+		}
+
+	}
+
+}
+
+@media only screen and (max-width: $responsive-mobile) {
+
+
+}
