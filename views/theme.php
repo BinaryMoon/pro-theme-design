@@ -38,6 +38,7 @@
 				</header>
 
 				<section>
+
 					<div class="content">
 
 						<p><?php echo $theme['description']; ?></p>
@@ -152,7 +153,8 @@
 
 			<header class="block-header">
 				<h2>
-					Build a Professional Website
+					Get <?php echo $theme_name; ?>
+					<span class="small">Build a Professional Website Today!</span>
 				</h2>
 			</header>
 
