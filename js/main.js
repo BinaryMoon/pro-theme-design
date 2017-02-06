@@ -323,7 +323,7 @@
 	} );
 
 
-	$( 'body' ).addClass( is_touch_device() ? 'device-touch' : 'device-click' );
+	$( 'html' ).addClass( is_touch_device() ? 'device-touch' : 'device-click' );
 
 
 
