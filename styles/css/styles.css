@@ -2203,6 +2203,10 @@ table.comparison td span {
     top: 0;
     width: auto;
   }
+  #footer .newsletter {
+    padding-left: 0;
+    background: transparent;
+  }
 }
 
 .masthead {
@@ -2580,7 +2584,7 @@ table.comparison td span {
   position: absolute;
   -webkit-transform: rotateX(65deg) rotateZ(-45deg) scale(0.8);
           transform: rotateX(65deg) rotateZ(-45deg) scale(0.8);
-  box-shadow: -2rem 2rem 2rem rgba(0, 0, 0, 0.2);
+  box-shadow: -2rem 2rem 4rem rgba(0, 0, 0, 0.2);
 }
 
 .device-click .page-home .tiles a {
@@ -2632,33 +2636,72 @@ table.comparison td span {
 }
 
 .page-home .tiles a:nth-child(1) {
-  top: 25%;
+  top: 10%;
   left: 0;
 }
 
 .page-home .tiles a:nth-child(2) {
-  top: 5%;
-  left: 40%;
+  top: -2%;
+  left: 27%;
 }
 
 .page-home .tiles a:nth-child(3) {
-  top: 35%;
-  left: 65%;
+  top: 38%;
+  left: 10%;
 }
 
 .page-home .tiles a:nth-child(4) {
-  top: 50%;
-  left: 15%;
+  top: 26%;
+  left: 36%;
 }
 
 .page-home .tiles a:nth-child(5) {
-  top: 75%;
-  left: 50%;
+  top: 14%;
+  left: 63%;
+}
+
+.page-home .tiles a:nth-child(6) {
+  top: 54%;
+  left: 46%;
+}
+
+.page-home .tiles a:nth-child(7) {
+  top: 42%;
+  left: 72%;
 }
 
 @media only screen and (max-width: 80rem) {
   .page-home .masthead {
     padding: 3rem 3rem;
+  }
+}
+
+@media only screen and (max-width: 849px) {
+  .page-home .home-header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .page-home .masthead,
+  .page-home .tiles {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .page-home .masthead .wrap,
+  .page-home .tiles .wrap {
+    max-width: 100%;
+  }
+  .page-home .tiles {
+    height: 30rem;
+    margin-bottom: 6rem;
+  }
+}
+
+@media only screen and (max-width: 549px) {
+  .page-home .tiles {
+    display: none;
   }
 }
 
@@ -3131,17 +3174,6 @@ a:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-  .intro .newsletter input,
-  .newsletter input {
-    margin: 0;
-  }
-  .intro .newsletter label,
-  .intro .newsletter input[type=submit],
-  .newsletter label,
-  .newsletter input[type=submit] {
-    width: 100%;
-    margin-bottom: 0.75rem;
   }
   .pricing .packages {
     -webkit-box-orient: vertical;
