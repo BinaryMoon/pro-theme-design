@@ -40,10 +40,10 @@
 			<div class="tiles">
 <?php
 	// Include small theme images.
-	foreach ( $themes as $theme ) {
+	foreach ( $themes_intro as $theme ) {
 ?>
 	<a href="<?php echo $theme['url']; ?>">
-		<img src="<?php echo image_path( 'theme-monitor/' . $theme['image'] ); ?>" />
+		<img src="<?php echo image_path( 'theme-thumbnails/' . $theme['image'] ); ?>" />
 		<span><?php echo $theme['name']; ?></span>
 	</a>
 <?php

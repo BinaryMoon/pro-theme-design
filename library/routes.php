@@ -14,6 +14,43 @@ Flight::route( '/', function() {
 		'home.php',
 		array(
 			'themes' => $themes,
+			'themes_intro' => array(
+				[
+					'url' => path( 'theme/label/' ),
+					'image' => 'label.png',
+					'name' => 'Label',
+				],
+				[
+					'url' => path( 'theme/carmack/' ),
+					'image' => 'carmack.png',
+					'name' => 'Carmack',
+				],
+				[
+					'url' => path( 'exhibit/exhibit/' ),
+					'image' => 'exhibit.png',
+					'name' => 'Exhibit',
+				],
+				[
+					'url' => path( 'theme/romero/' ),
+					'image' => 'romero.png',
+					'name' => 'Romero',
+				],
+				[
+					'url' => path( 'theme/puzzle/' ),
+					'image' => 'puzzle.png',
+					'name' => 'Puzzle',
+				],
+				[
+					'url' => path( 'theme/chronicle/' ),
+					'image' => 'chronicle.png',
+					'name' => 'Chronicle',
+				],
+				[
+					'url' => path( 'theme/monet/' ),
+					'image' => 'monet.png',
+					'name' => 'Monet',
+				],
+			),
 		)
 	);
 
