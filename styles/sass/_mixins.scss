@@ -66,5 +66,12 @@
 	content: $separator;
 	margin-right: $style-spacing;
 	opacity: $style-opacity-separator;
+}
+
+@mixin page-background( $image: '../../img/website/page-background.svg' ) {
+
+	background: $canvas-background url( $image ) top left no-repeat;
+	background-size: 75%;
+	background-attachment: fixed;
 
 }

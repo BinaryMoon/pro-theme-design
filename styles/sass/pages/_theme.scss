@@ -4,6 +4,7 @@
 
 		margin-bottom: $grid-line-height * 3;
 		padding-bottom: $grid-line-height * 1.5;
+		@include page-background( '../../img/website/page-background-transparent.svg' );
 
 		.theme-title {
 
