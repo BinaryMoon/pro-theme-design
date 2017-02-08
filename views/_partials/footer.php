@@ -93,8 +93,9 @@
 					<div class="content">
 						<h3>Theme Help</h3>
 						<ul class="simple">
-							<li><a href="">Theme Documentation</a></li>
-							<li><a href="">Contact</a></li>
+							<li><a href="<?php echo path( 'documentation/theme/' ); ?>">Theme Documentation</a></li>
+							<li><a href="<?php echo path( 'documentation/feature/' ); ?>">Theme Features</a></li>
+							<li><a href="<?php echo path( 'contact/' ); ?>">Contact</a></li>
 						</ul>
 					</div>
 				</div>
