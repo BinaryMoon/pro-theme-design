@@ -41,13 +41,21 @@
 
 			}
 
-			.separator:before {
-
-				background: $canvas-white;
-
-			}
-
 		}
+
+	}
+
+}
+
+.showcase-wrapper,
+.features-list,
+.features {
+
+	margin-bottom: 0;
+
+	&:after {
+
+		@include separator;
 
 	}
 

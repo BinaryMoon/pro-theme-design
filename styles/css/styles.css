@@ -216,12 +216,12 @@ textarea {
 }
 
 ::-moz-selection {
-  background: #f3622e;
+  background: #d95626;
   color: #ffffff;
 }
 
 ::selection {
-  background: #f3622e;
+  background: #d95626;
   color: #ffffff;
 }
 
@@ -675,7 +675,7 @@ button {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  background: #f3622e;
+  background: #d95626;
   color: #ffffff;
   display: inline-block;
   text-decoration: none;
@@ -701,7 +701,7 @@ a.button:focus,
 a.button:hover,
 button:focus,
 button:hover {
-  background: #c93d0b;
+  background: #983c1b;
   color: #ffffff;
   text-decoration: none;
 }
@@ -1239,7 +1239,7 @@ article.summary h2 {
 }
 
 .button {
-  background: #f3622e;
+  background: #d95626;
   color: #ffffff;
   display: inline-block;
   text-decoration: none;
@@ -1259,7 +1259,7 @@ article.summary h2 {
 }
 
 .button:focus, .button:hover {
-  background: #c93d0b;
+  background: #983c1b;
   color: #ffffff;
   text-decoration: none;
 }
@@ -1283,7 +1283,7 @@ article.summary h2 {
 }
 
 .button.disabled {
-  color: #fabca6;
+  color: #ecab93;
 }
 
 .button.fat {
@@ -1939,7 +1939,7 @@ table.comparison .fa.fa-check {
 }
 
 table.comparison .fa.fa-times {
-  color: #f3622e;
+  color: #d95626;
 }
 
 table.comparison td {
@@ -2109,7 +2109,7 @@ table.comparison td span {
   border-radius: 100px;
   width: 75px;
   height: 75px;
-  border: 0.2rem solid #f0f1f3;
+  border: 0.2rem solid #ffffff;
   position: absolute;
   left: -90px;
 }
@@ -2442,7 +2442,7 @@ table.comparison td span {
 
 .page-contact .contact-selection a .fa {
   float: right;
-  color: #f3622e;
+  color: #d95626;
   opacity: 0.5;
 }
 
@@ -2476,7 +2476,7 @@ table.comparison td span {
 }
 
 .page-home .home-header {
-  margin-bottom: 7.5rem;
+  margin-bottom: 4.5rem;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2533,13 +2533,6 @@ table.comparison td span {
   margin-bottom: 1.5rem;
 }
 
-.page-home .masthead .intro {
-  font-size: 20px;
-  font-size: 1.25rem;
-  line-height: 1.5;
-  font-weight: 300;
-}
-
 .page-home .themes {
   padding-top: 6rem;
 }
@@ -2564,6 +2557,16 @@ table.comparison td span {
   line-height: 1.5;
 }
 
+.page-home section.intro:before, .page-home section.intro:after {
+  content: '';
+  display: block;
+  margin: 4.5rem 0;
+  height: 1.5rem;
+  width: 100%;
+  clear: both;
+  background: url(../../img/website/divider.svg) center center no-repeat;
+}
+
 .page-home .tiles {
   padding: 4.5rem 3rem;
   margin: 0;
@@ -2573,17 +2576,16 @@ table.comparison td span {
 
 .page-home .tiles a {
   display: block;
-  width: 15rem;
-  background: #ffffff;
+  width: 18rem;
   position: absolute;
-  -webkit-transform: rotateX(65deg) rotateZ(-45deg);
-          transform: rotateX(65deg) rotateZ(-45deg);
+  -webkit-transform: rotateX(65deg) rotateZ(-45deg) scale(0.8);
+          transform: rotateX(65deg) rotateZ(-45deg) scale(0.8);
   box-shadow: -2rem 2rem 2rem rgba(0, 0, 0, 0.2);
 }
 
 .device-click .page-home .tiles a {
-  -webkit-transition: all 0.75s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  transition: all 0.75s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -webkit-transition: all 0.75s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.75s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .page-home .tiles a img {
@@ -2608,15 +2610,15 @@ table.comparison td span {
 }
 
 .page-home .tiles a:hover {
-  -webkit-transform: rotateX(0) rotateZ(0);
-          transform: rotateX(0) rotateZ(0);
+  -webkit-transform: rotateX(0) rotateZ(0) scale(1);
+          transform: rotateX(0) rotateZ(0) scale(1);
   z-index: 10;
   box-shadow: 0 0 0 transparent;
 }
 
 .device-click .page-home .tiles a:hover {
-  -webkit-transition: all 0.75s cubic-bezier(0.6, -0.28, 0.735, 0.045);
-  transition: all 0.75s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  -webkit-transition: all 0.75s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.75s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .page-home .tiles a:hover span {
@@ -2625,8 +2627,8 @@ table.comparison td span {
 }
 
 .device-click .page-home .tiles a:hover span {
-  -webkit-transition: all 0.15s ease-in-out;
-  transition: all 0.15s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .page-home .tiles a:nth-child(1) {
@@ -2709,12 +2711,12 @@ table.comparison td span {
 }
 
 .page-styleguide .colours .red {
-  background: #f3622e;
+  background: #d95626;
   color: #ffffff;
 }
 
 .page-styleguide .colours .red-dark {
-  background: #b73304;
+  background: #873112;
   color: #ffffff;
 }
 
@@ -2899,6 +2901,9 @@ table.comparison td span {
 .page-theme .theme-header {
   margin-bottom: 4.5rem;
   padding-bottom: 2.25rem;
+  background: #f0f1f3 url("../../img/website/page-background-transparent.svg") top left no-repeat;
+  background-size: 75%;
+  background-attachment: fixed;
 }
 
 .page-theme .theme-header .theme-title {
@@ -2932,8 +2937,22 @@ table.comparison td span {
   color: #ffffff;
 }
 
-.page-theme .theme-header.theme-dark .separator:before {
-  background: #ffffff;
+.showcase-wrapper,
+.features-list,
+.features {
+  margin-bottom: 0;
+}
+
+.showcase-wrapper:after,
+.features-list:after,
+.features:after {
+  content: '';
+  display: block;
+  margin: 4.5rem 0;
+  height: 1.5rem;
+  width: 100%;
+  clear: both;
+  background: url(../../img/website/divider.svg) center center no-repeat;
 }
 
 .page-tools-color-picker .color-container {
@@ -3030,8 +3049,8 @@ table.comparison td span {
 }
 
 body {
-  background: #f0f1f3 url("../../img/website/page-background.svg") top no-repeat;
-  background-size: 100%;
+  background: #f0f1f3 url("../../img/website/page-background.svg") top left no-repeat;
+  background-size: 75%;
   background-attachment: fixed;
   overflow-x: hidden;
 }

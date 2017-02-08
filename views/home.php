@@ -28,26 +28,35 @@
 						<span>WordPress Themes</span>
 					</p>
 
+					<p class="actions">
+						<a href="<?php echo path( '/themes/' ); ?>" class="button">Browse Themes</a>
+						<!-- <a href="<?php echo path( '/why-us/' ); ?>" class="button minor">Why Us?</a> -->
+					</p>
+
 				</div>
 
 			</header>
 
 			<div class="tiles">
-
-				<div class="wrap">
-
-					<p class="intro">
-						WordPress Themes for agencies, and small businesses. Join over <strong><?php echo paid_customers(); ?></strong> happy WordPress themers.
-					</p>
-
-					<p class="actions">
-						<a href="<?php echo path( '/themes/' ); ?>" class="button">Browse Themes</a>
-						<a href="<?php echo path( '/why-us/' ); ?>" class="button minor">Why Us?</a>
-					</p>
-
-				</div>
-
+<?php
+	// Include small theme images.
+	foreach ( $themes as $theme ) {
+?>
+	<a href="<?php echo $theme['url']; ?>">
+		<img src="<?php echo image_path( 'theme-monitor/' . $theme['image'] ); ?>" />
+		<span><?php echo $theme['name']; ?></span>
+	</a>
+<?php
+	}
+?>
 			</div>
+
+		</section>
+
+		<section class="intro wrapper text">
+
+			<p>WordPress Themes for agencies, and small businesses.</p>
+			<p>Join over <strong><?php echo paid_customers(); ?></strong> happy WordPress themers.</p>
 
 		</section>
 

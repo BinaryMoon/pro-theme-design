@@ -104,7 +104,7 @@
 ?>
 
 		<!-- Theme Features -->
-		<div class="wrapper block-wrapper compact">
+		<div class="wrapper block-wrapper compact features-list">
 
 			<header class="block-header">
 				<h2>

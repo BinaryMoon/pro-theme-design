@@ -63,9 +63,14 @@
 
 @mixin separator {
 
-	content: $separator;
-	margin-right: $style-spacing;
-	opacity: $style-opacity-separator;
+	content: '';
+	display: block;
+	margin: ( $grid-line-height * 3 ) 0;
+	height: $grid-line-height;
+	width: 100%;
+	clear: both;
+	background: url( ../../img/website/divider.svg ) center center no-repeat;
+
 }
 
 @mixin page-background( $image: '../../img/website/page-background.svg' ) {
