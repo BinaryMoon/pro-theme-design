@@ -244,6 +244,7 @@ function get_theme_data() {
 			'color' => '#f86e5e',
 		),
 
+		/*
 		'vision' => array(
 			'name' => 'Vision',
 			'description' => 'A theme designed for artists, photographers and other people with a love of strong visuals, with a dark background to make your content pop.',
@@ -256,6 +257,7 @@ function get_theme_data() {
 			'supports' => array( 'featured-content', 'featured-image', 'infinite-scroll', 'testimonials', 'raddcontrol' ),
 			'color' => '#E67E22',
 		),
+		*/
 
 		'kent' => array(
 			'name' => 'Kent',
@@ -541,7 +543,7 @@ function themes_all_themes_price() {
 
 /**
  * Get a list of themes suitable for the specified host
- * 
+ *
  * @param  string $tag Tag to look for.
  * @return array       An array of theme info.
  */
