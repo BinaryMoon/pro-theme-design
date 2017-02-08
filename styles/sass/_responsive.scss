@@ -2,170 +2,151 @@
 
 @media only screen and ( max-width: 1200px ) {
 
-    html {
+	html {
 
-        font-size: ( ( $font-size * 1 ) * 1% );
+		font-size: ( ( $font-size * 1 ) * 1% );
 
-    }
+	}
 
 }
 
 
 @media only screen and ( max-width: 899px ) {
 
-    html {
+	html {
 
-        font-size: ( ( $font-size * 0.95 ) * 1% );
+		font-size: ( ( $font-size * 0.95 ) * 1% );
 
-    }
+	}
 
-    .masthead {
+	.masthead {
 
-        .container {
+		.container {
 
-            width: auto;
-            margin: 0 $grid-gutter;
-            padding: ( $grid-line-height ) ( $grid-gutter );
+			width: auto;
+			margin: 0 $grid-gutter;
+			padding: ( $grid-line-height ) ( $grid-gutter );
 
-            &:before {
+			&:before {
 
-                width: 100%;
+				width: 100%;
 
-            }
+			}
 
-        }
+		}
 
-        .banner {
+		.banner {
 
-            float: none;
-            width: 100%;
+			float: none;
+			width: 100%;
 
-            &.iframe-wrapper {
+			&.iframe-wrapper {
 
-                padding-bottom: 51.4%;
+				padding-bottom: 51.4%;
 
-            }
+			}
 
-        }
+		}
 
-    }
+	}
 
 }
 
 
 @media only screen and ( max-width: $wp-responsive-width-2 ) {
 
-    html {
+	html {
 
-        font-size: ( ( $font-size * 0.9 ) * 1% );
+		font-size: ( ( $font-size * 0.9 ) * 1% );
 
-    }
+	}
 
-    .masthead {
+	.masthead {
 
-        .container {
+		.container {
 
-            padding: 0;
+			padding: 0;
 
-        }
+		}
 
-        .preorder {
+		.preorder {
 
-            flex-direction: column;
+			flex-direction: column;
 
-            .banner {
+			.banner {
 
-                width: 100%;
+				width: 100%;
 
-            }
+			}
 
-        }
+		}
 
-    }
+	}
 
-    .modules {
+	.modules {
 
-        column-count: 1;
+		column-count: 1;
 
-    }
+	}
 
-    .people {
+	.people {
 
-        flex-direction: column;
+		flex-direction: column;
 
-        .person {
+		.person {
 
-            width: 100%;
+			width: 100%;
 
-        }
+		}
 
-    }
+	}
 
-    .intro {
+	.intro {
 
-        .newsletter {
+		.newsletter {
 
-            flex-direction: column;
+			flex-direction: column;
 
-        }
+		}
 
-    }
+	}
 
-    .intro .newsletter,
-    .newsletter {
+	.pricing {
 
-        input {
+		.packages {
 
-            margin: 0;
+			flex-direction: column;
 
-        }
+		}
 
-        label,
-        input[type=submit] {
+		.package.best,
+		.package {
 
-            width: 100%;
-            margin-bottom: $grid-line-height / 2;
+			margin: 0 0 $grid-line-height 0;
 
-        }
+		}
 
-    }
+	}
 
-    .pricing {
+	.hello-bar {
 
-        .packages {
+		span {
 
-            flex-direction: column;
+			//display: none;
 
-        }
+		}
 
-        .package.best,
-        .package {
-
-            margin: 0 0 $grid-line-height 0;
-
-        }
-
-    }
-
-    .hello-bar {
-
-        span {
-
-            //display: none;
-
-        }
-
-    }
+	}
 
 }
 
 
 @media only screen and ( max-width: $wp-responsive-width-1 ) {
 
-    html {
+	html {
 
-        font-size: ( ( $font-size * 0.85 ) * 1% );
+		font-size: ( ( $font-size * 0.85 ) * 1% );
 
-    }
+	}
 
 }
