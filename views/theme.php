@@ -8,7 +8,7 @@
 	include( '_partials/head.php' );
 ?>
 	<style>
-		.theme-header {
+		.page-theme .theme-header {
 			background-color: <?php echo $theme['color']; ?>;
 		}
 		.features .feature .number:before {
