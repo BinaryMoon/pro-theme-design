@@ -26,7 +26,7 @@ Flight::route( '/', function() {
 					'name' => 'Carmack',
 				],
 				[
-					'url' => path( 'exhibit/exhibit/' ),
+					'url' => path( 'theme/exhibit/' ),
 					'image' => 'exhibit.png',
 					'name' => 'Exhibit',
 				],
