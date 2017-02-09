@@ -259,7 +259,8 @@ function readable_colour( $colour ) {
 		$b * $b * .068
 	);
 
-	if ( $contrast <= 130 ) {
+	//if ( $contrast <= 130 ) {
+	if ( $contrast <= 150 ) {
 		$theme = 'theme-dark';
 	}
 
