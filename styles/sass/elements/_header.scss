@@ -162,14 +162,29 @@ $logo-size: 4rem;
 
 			ul {
 
-				background: $canvas-white;
+				background: $canvas-color;
 				display: none;
 				padding: ( $grid-line-height / 2 ) 0;
+				border-radius: $border-radius;
 
 				li {
 
 					display: block;
 					text-align: center;
+
+					a {
+
+						color: contrast( $canvas-color );
+						padding: ( $grid-line-height / 4 ) 0;
+						display: block;
+
+					}
+
+					&.separator {
+
+						margin: 0;
+
+					}
 
 				}
 
