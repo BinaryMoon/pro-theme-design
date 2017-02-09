@@ -1,7 +1,7 @@
 <?php
 	$resources = array(
 		'' => '',
-		'' => '',
+		'calltoidea.com' => 'Interface Inspiration',
 		'cssreference.io' => 'CSS Reference',
 		'place.to' => 'Insert screenshots into different computing situations.',
 		'frontendhandbook.com' => 'Documentation and reference for front end developers.',
