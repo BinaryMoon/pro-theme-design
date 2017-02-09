@@ -1220,6 +1220,7 @@ article.summary h2 {
   .block.big header,
   .block.big section {
     width: 100%;
+    padding: 0 1.5rem;
   }
 }
 
@@ -2067,7 +2068,11 @@ table.comparison td span {
   margin: 0 0 2.25rem 3rem;
 }
 
-@media only screen and (max-width: 749px) {
+@media only screen and (max-width: 849px) {
+  .wrapper {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
   .wrapper .align-left,
   .wrapper .align-right {
     float: none;
@@ -2343,13 +2348,22 @@ table.comparison td span {
     top: -4.5rem;
   }
   .masthead nav.main-menu ul {
-    background: #ffffff;
+    background: #d95626;
     display: none;
     padding: 0.75rem 0;
+    border-radius: 0.2rem;
   }
   .masthead nav.main-menu ul li {
     display: block;
     text-align: center;
+  }
+  .masthead nav.main-menu ul li a {
+    color: #ffffff;
+    padding: 0.375rem 0;
+    display: block;
+  }
+  .masthead nav.main-menu ul li.separator {
+    margin: 0;
   }
   .masthead nav.main-menu.display ul {
     display: block;
@@ -2696,6 +2710,12 @@ table.comparison td span {
   .page-home .tiles {
     height: 30rem;
     margin-bottom: 6rem;
+  }
+  .page-home .masthead .site-description,
+  .page-home .masthead .site-title {
+    font-size: 28px;
+    font-size: 1.75rem;
+    line-height: 1.5;
   }
 }
 
