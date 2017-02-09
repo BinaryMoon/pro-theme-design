@@ -85,3 +85,18 @@
 	}
 
 }
+
+
+@media only screen and (max-width: $responsive-tablet) {
+
+	.modal-wrapper {
+
+		.modal {
+
+			padding: ( $grid-line-height * 2 ) ( $grid-gutter );
+
+		}
+
+	}
+
+}
