@@ -263,6 +263,17 @@
 
 		}
 
+		.masthead {
+
+			.site-description,
+			.site-title {
+
+				@include modular-scale( delta );
+
+			}
+
+		}
+
 	}
 
 }

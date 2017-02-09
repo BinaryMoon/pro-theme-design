@@ -109,9 +109,12 @@
 
 }
 
-@media only screen and (max-width: 749px) {
+@media only screen and (max-width: $responsive-tablet) {
 
 	.wrapper {
+
+		padding-left: $grid-gutter / 2;
+		padding-right: $grid-gutter / 2;
 
 		.align-left,
 		.align-right {
