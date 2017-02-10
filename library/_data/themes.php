@@ -6,7 +6,7 @@
  */
 
 // Purchase from FastSpring.
-define( 'THEME_PURCHASE', '<button class="button greedy" type="button" data-fsc-action="Add,Checkout" data-fsc-item-path-value="%s">Purchase %s</button>' );
+define( 'THEME_PURCHASE', '<button class="button greedy purchase-theme" type="button" data-fsc-action="Add,Checkout" data-fsc-item-path-value="%s">Purchase %s</button>' );
 
 // Download from wordpress.org.
 define( 'THEME_DOWNLOAD', '<a class="button greedy" href="https://wordpress.org/themes/%s/">Download %s</a>' );
