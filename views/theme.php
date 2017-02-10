@@ -19,7 +19,6 @@
 
 	<body class="page-theme">
 
-
 		<section class="theme-header <?php echo $theme['color-scheme']; ?>">
 
 			<?php include( '_partials/header.php' ); ?>
@@ -44,8 +43,25 @@
 						<p><?php echo $theme['description']; ?></p>
 
 						<footer>
+<?php
+	// Purchase.
+	if ( ! empty( $theme['download-button'] ) ) {
 
-							<?php site_include_view( '_partials/theme-purchase-buttons.php', array( 'theme' => $theme ) ); ?>
+?>
+							<a href="#theme-pricing" class="button greedy scroll-to">Get <?php echo $theme['name']; ?></a>
+<?php
+
+	}
+
+	// Preview.
+	if ( ! empty( $theme['url-preview'] ) ) {
+
+?>
+							<a href="<?php echo $theme['url-preview']; ?>" class="button ghost greedy">Preview <?php echo $theme['name']; ?></a>
+<?php
+
+	}
+?>
 
 						</footer>
 
@@ -149,7 +165,7 @@
 
 	} else {
 ?>
-		<div class="pricing wrapper block-wrapper">
+		<div class="pricing wrapper block-wrapper" id="theme-pricing">
 
 			<header class="block-header">
 				<h2>
