@@ -1,4 +1,9 @@
 <?php
+/**
+ * Site routes.
+ *
+ * @package ptd
+ */
 
 /**
  * Homepage
@@ -77,7 +82,8 @@ Flight::route( '/tools/(@tool)/', function( $tool = '' ) {
 	if ( ! empty( $tool ) ) {
 
 		// Is it a tool?
-		if ( $tool_data = tool_get( $tool ) ) {
+		$tool_data = tool_get( $tool );
+		if ( $tool_data ) {
 
 			site_title( $tool_data['name'] . ' - Pro Theme Design' );
 			site_description( $tool_data['description'] );
@@ -92,10 +98,14 @@ Flight::route( '/tools/(@tool)/', function( $tool = '' ) {
 		}
 
 		// Is it a tool group?
-		if ( empty( $tool_data ) && $tool_data = tool_group( $tool ) ) {
+		if ( empty( $tool_data ) ) {
 
-			site_breadcrumb_add( $tool_data['title'], 'tools/' . $tool . '/' );
+			$tool_data = tool_group( $tool );
+			if ( $tool_daa ) {
 
+				site_breadcrumb_add( $tool_data['title'], 'tools/' . $tool . '/' );
+
+			}
 		}
 
 		// No data.
@@ -104,7 +114,7 @@ Flight::route( '/tools/(@tool)/', function( $tool = '' ) {
 			Flight::notFound();
 
 		}
-	}
+	} // End if().
 
 	Flight::render(
 		$view,
