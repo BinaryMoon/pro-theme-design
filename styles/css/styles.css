@@ -2986,7 +2986,7 @@ table.comparison td span {
   margin-bottom: 4.5rem;
   padding-bottom: 2.25rem;
   background: #f0f1f3 url("../../img/website/page-background-transparent.svg") top left no-repeat;
-  background-size: 75%;
+  background-size: 80%;
   background-attachment: fixed;
 }
 
@@ -3134,7 +3134,7 @@ table.comparison td span {
 
 body {
   background: #f0f1f3 url("../../img/website/page-background.svg") top left no-repeat;
-  background-size: 75%;
+  background-size: 80%;
   background-attachment: fixed;
   overflow-x: hidden;
 }
