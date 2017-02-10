@@ -1,3 +1,9 @@
+<div class="wrapper text">
+
+	<p class="intro"><strong>Label</strong> is a blog theme designed for fashionable people who want a stylish way to write about their chosen subject. With a huge full screen slider Label makes a big impression.</p>
+
+</div>
+
 <div class="wrapper features">
 
 <?php
