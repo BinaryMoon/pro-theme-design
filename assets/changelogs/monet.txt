@@ -1,3 +1,10 @@
+<h3>1.7.1 - 10th February 2017</h3>
+<ul>
+<li>Improve print styles.</li>
+<li>Fix issue with minor sidebar not displaying in all the situations it's meant to display.</li>
+<li>Reduce size of minor sidebar on small devices.</li>
+<li>Add support for jetpack projects by default.</li>
+</ul>
 <h3>1.7 - 6th February 2017</h3>
 <ul>
 <li>Increase thumbnail size on archive pages, and size of featured images in slider and single opost page to stop issues when social sidebar is hidden. May need thumbnails to be recreated (<a href="https://wordpress.org/plugins/regenerate-thumbnails/">https://wordpress.org/plugins/regenerate-thumbnails/</a> works well for this)</li>
