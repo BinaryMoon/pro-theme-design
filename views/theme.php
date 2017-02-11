@@ -169,7 +169,7 @@
 
 			<header class="block-header">
 				<h2>
-					Get <?php echo $theme_name; ?>
+					Get <?php echo $theme['name']; ?>
 					<span class="small">Build a Professional Website Today!</span>
 				</h2>
 			</header>
