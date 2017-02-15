@@ -18,15 +18,6 @@
  */
 
 /**
- * REDESIGN HOMEPAGE INSPIRATION
- * https://arraythemes.com/
- * http://www.studiopress.com/
- * http://www.studiopress.com/get-started/
- *
- * Create something that explains more about the business and tries to target the site at our ideal customers
- */
-
-/**
  * DOCUMENTATION IMPROVEMENTS
  *
  * info about backups
@@ -83,7 +74,7 @@ if ( 'localhost' === $_SERVER['HTTP_HOST'] ) {
 }
 
 // Constants.
-define( 'DECACHE_CSS', '77' );
+define( 'DECACHE_CSS', '78' );
 define( 'DECACHE_JS', '23' );
 define( 'ENV', $environment );
 define( 'GOOGLE_CSE', '010164663960188762731:aajo_mt5e2a' );
