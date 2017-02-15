@@ -3153,6 +3153,16 @@ a:hover {
   text-decoration: underline;
 }
 
+hr {
+  border: none;
+  display: block;
+  margin: 4.5rem 0;
+  height: 1.5rem;
+  width: 100%;
+  clear: both;
+  background: url(../../img/website/divider.svg) center center no-repeat;
+}
+
 @media only screen and (max-width: 1200px) {
   html {
     font-size: 100%;
