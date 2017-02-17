@@ -14,12 +14,12 @@
 <h2>Available Parameters</h2>
 
 <ul>
-    <li>url (required) - the url of the link to shorten</li>
-    <li>width - the width of the image</li>
-    <li>height - the height of the image</li>
-    <li>alt - the image alt text</li>
-    <li>link - where the image links. Left blank it will point to the website where the screenshot is being taken</li>
-    <li>target - browser target. Set to _blank to open in a new window</li>
+	<li><strong>url <em>(required)</em></strong> - the url of the link to shorten</li>
+	<li><strong>width</strong> - the width of the image</li>
+	<li><strong>height</strong> - the height of the image</li>
+	<li><strong>alt</strong> - the image alt text</li>
+	<li><strong>link</strong> - where the image links. Left blank it will point to the website from which the screenshot is being taken</li>
+	<li><strong>target</strong> - browser target. Set to <em>_blank</em> to open in a new window</li>
 </ul>
 
 <h2>Multisite Compatibility</h2>

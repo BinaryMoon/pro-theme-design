@@ -3,7 +3,8 @@
 ?>
 	<h1><?php echo documentation_page_property( $page ); ?></h1>
 
-	<p class="intro"><?php echo $doc[ 'description' ]; ?> <a href="<?php echo $doc[ 'plugin-url' ]; ?>" target="_blank" class="button">Details &amp; Download</a></p>
+	<p class="intro"><?php echo $doc[ 'description' ]; ?></p>
+	<p><a href="<?php echo $doc[ 'plugin-url' ]; ?>" target="_blank" class="button">Details &amp; Download</a></p>
 
 	<a href="<?php echo $doc[ 'plugin-url' ]; ?>" target="_blank" class="plugin-image">
 		<img src="<?php echo $doc[ 'image' ]; ?>" alt="<?php echo documentation_page_property( $page ); ?> Cover Image">

@@ -1,60 +1,66 @@
 .page-support {
 
-    .column {
+	.column {
 
-        width: 50%;
-        float: left;
+		width: 50%;
+		float: left;
 
-        h2 {
+		h2 {
 
-            a {
+			a {
 
-                color: $body-header-color;
+				color: $body-header-color;
 
-                &:hover {
+				&:hover {
 
-                    text-decoration: none;
+					text-decoration: none;
 
-                    small {
+					small {
 
-                        text-decoration: underline;
+						text-decoration: underline;
 
-                    }
+					}
 
-                }
+				}
 
-                small {
+				small {
 
-                    color: $link-color;
-                    float: right;
+					color: $link-color;
+					float: right;
 
-                }
+				}
 
-            }
+			}
 
-        }
+		}
 
-    }
+	}
 
-    .plugin-image {
+	.plugin-image {
 
-        display: block;
-        margin-bottom: $grid-line-height;
+		display: block;
 
-    }
+		img {
+
+			display: block;
+			margin: ( $grid-line-height * 2 ) auto;
+
+		}
+
+	}
 
 }
 
 @media only screen and (max-width: $responsive-tablet ) {
 
-    .page-support {
+	.page-support {
 
-        .column {
+		.column {
 
-            width: 100%;
+			width: 100%;
 
-        }
+		}
 
-    }
+	}
 
 }

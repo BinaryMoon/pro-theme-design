@@ -2973,7 +2973,11 @@ table.comparison td span {
 
 .page-support .plugin-image {
   display: block;
-  margin-bottom: 1.5rem;
+}
+
+.page-support .plugin-image img {
+  display: block;
+  margin: 3rem auto;
 }
 
 @media only screen and (max-width: 849px) {
