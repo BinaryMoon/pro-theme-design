@@ -45,6 +45,10 @@ new Chart(
 					type: 'time',
 					time: {
 						unit: 'day',
+					},
+					ticks: {
+						autoSkip: true,
+						maxTicksLimit: 30
 					}
 				}]
 			}

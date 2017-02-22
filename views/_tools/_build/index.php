@@ -1,7 +1,7 @@
 <?php
 
-	site_script( 'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.min.js' );
-	site_script( path( 'views/_tools/_build/scripts.js' ) );
+	site_script( 'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.min.js' );
+	site_script( path( 'views/_tools/_build/scripts.js?d=' . DECACHE_JS ) );
 	$file = $_SERVER['DOCUMENT_ROOT'] . urldecode( Flight::request()->base ) . '/assets/build/buildlog.txt';
 	$data = json_decode( file_get_contents( $file ), true );
 
@@ -27,7 +27,7 @@
 		If you are interested in this sort of thing then you can read more about the build process, what it does, and how it's setup, on my personal blog - <a href="https://www.binarymoon.co.uk/2016/11/automating-wordpress-development-gulp-bash-php/">Automating WordPress Development with Gulp, Bash, and PHP</a>.
 	</p>
 
-	<canvas id="buildQuantity" width="1000" height="500" style="margin-bottom:2rem;"></canvas>
+	<canvas id="buildQuantity" width="1000" height="500" style="margin:4rem 0;"></canvas>
 
 	<ul>
 		<li>
