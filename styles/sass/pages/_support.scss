@@ -49,6 +49,13 @@
 
 	}
 
+	img.full-width {
+
+		display: block;
+		margin: ( $grid-line-height * 2 ) auto;
+
+	}
+
 }
 
 @media only screen and (max-width: $responsive-tablet ) {
