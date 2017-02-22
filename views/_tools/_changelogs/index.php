@@ -26,7 +26,9 @@
 	foreach ( $themes as $key => $theme ) {
 ?>
 		<h2 id="theme-<?php echo $key; ?>"><a href="<?php echo $theme['url-details']; ?>"><?php echo $theme['name']; ?></a></h2>
-		<?php include( $theme['path-changelog'] ); ?>
+		<pre class="compress">
+			<?php include( $theme['path-changelog'] ); ?>
+		</pre>
 		<p><small><a href="#masthead" class="scroll-to scroll-to-top">Top</a></small></p>
 <?php
 	}
