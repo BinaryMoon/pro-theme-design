@@ -16,14 +16,13 @@
 
 	<h1><?php echo $doc[ 'name' ]; ?> Documentation</h1>
 
-	<div class="note intro breath">
-		<p><?php echo $doc[ 'description' ]; ?></p>
-		<p><a href="<?php echo $doc[ 'url-details' ]; ?>" class="button">More Info</a></p>
-	</div>
+	<p class="intro"><?php echo $doc[ 'description' ]; ?></p>
+	<p><a href="<?php echo $doc[ 'url-details' ]; ?>" class="button">More Info</a></p>
+
 <?php
 	if ( ! site_include_exists( '_support/_theme/' . $page . '.php' ) ) {
 ?>
-	<img src="<?php echo image_path( 'theme-devices/' . $doc['image'] ); ?>" alt="<?php echo $doc['name']; ?> Screenshot" />
+	<img src="<?php echo image_path( 'theme-devices/' . $doc['image'] ); ?>" alt="<?php echo $doc['name']; ?> Screenshot" class="full-width" />
 <?php
 	}
 ?>
@@ -61,7 +60,10 @@
 ?>
 
 	<h2>Changelog</h2>
+
+	<pre class="compress">
+		<?php include( $doc[ 'path-changelog'] ); ?>
+	</pre>
 <?php
-	include( $doc[ 'path-changelog'] );
 
 	documentation_customization();
