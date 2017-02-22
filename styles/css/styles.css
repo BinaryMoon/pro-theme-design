@@ -396,10 +396,23 @@ pre {
   -moz-tab-size: 4;
     -o-tab-size: 4;
        tab-size: 4;
+  border-radius: 0.2rem;
+}
+
+pre > * {
+  color: #54ce74;
+  font-family: "andale mono", "monotype.com", "lucida console", monospace;
+}
+
+pre h1, pre h2, pre h3, pre h4, pre h5, pre h6 {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 0;
 }
 
 pre.compress {
   max-height: 22.5rem;
+  white-space: normal;
 }
 
 /**!
@@ -1713,6 +1726,8 @@ label:hover p.hint {
   border-radius: 0.2rem;
   position: relative;
   clear: both;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+  min-height: 6rem;
 }
 
 .note strong {
@@ -1990,6 +2005,11 @@ table.comparison td span {
   margin-bottom: 1.8rem;
 }
 
+.text pre li,
+.text pre * {
+  margin: 0;
+}
+
 .wrapper {
   max-width: 80rem;
   width: 100%;
@@ -2033,6 +2053,7 @@ table.comparison td span {
 .wrapper h1, .wrapper h2, .wrapper h3, .wrapper h4, .wrapper h5, .wrapper h6,
 .wrapper .note,
 .wrapper form,
+.wrapper pre,
 .wrapper p {
   max-width: 48rem;
   margin-left: auto;
@@ -2976,6 +2997,11 @@ table.comparison td span {
 }
 
 .page-support .plugin-image img {
+  display: block;
+  margin: 3rem auto;
+}
+
+.page-support img.full-width {
   display: block;
   margin: 3rem auto;
 }
