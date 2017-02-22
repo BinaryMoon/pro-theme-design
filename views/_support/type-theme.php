@@ -22,7 +22,7 @@
 <?php
 	if ( ! site_include_exists( '_support/_theme/' . $page . '.php' ) ) {
 ?>
-	<img src="<?php echo image_path( 'theme-devices/' . $doc['image'] ); ?>" alt="<?php echo $doc['name']; ?> Screenshot" class="full-width" />
+	<img src="<?php echo image_path( 'theme-devices/' . $doc['image'] ); ?>" alt="<?php echo $doc['name']; ?> Screenshot" class="align-center" />
 <?php
 	}
 ?>
