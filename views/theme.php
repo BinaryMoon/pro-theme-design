@@ -44,23 +44,27 @@
 
 						<footer>
 <?php
-	// Purchase.
-	if ( ! empty( $theme['download-button'] ) ) {
+	if ( $theme['is-free'] ) {
+
+		echo $theme['download-button'];
+
+	} else {
 
 ?>
 							<a href="#theme-pricing" class="button greedy scroll-to">Get <?php echo $theme['name']; ?></a>
 <?php
 
-	}
-
-	// Preview.
-	if ( ! empty( $theme['url-preview'] ) ) {
+		// Preview.
+		if ( ! empty( $theme['url-preview'] ) ) {
 
 ?>
-							<a href="<?php echo $theme['url-preview']; ?>" class="button ghost greedy">Preview <?php echo $theme['name']; ?></a>
+						<a href="<?php echo $theme['url-preview']; ?>" class="button ghost greedy">Preview <?php echo $theme['name']; ?></a>
 <?php
 
+		}
+
 	}
+
 ?>
 
 						</footer>
