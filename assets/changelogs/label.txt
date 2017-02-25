@@ -1,3 +1,9 @@
+<h3>2.3.5 - 24th February 2017</h3>
+<ul>
+<li>Make Jetpack infinite scroll load testimonials properly</li>
+<li>Improve social media widget responsive behaviour</li>
+<li>update rtl styles</li>
+</ul>
 <h3>2.3.4 - 9th December 2016</h3>
 <ul>
 <li>Improve the editor-styles.css</li>

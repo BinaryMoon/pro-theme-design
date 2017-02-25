@@ -1,3 +1,11 @@
+<h3>2.3 - 24th February 2017</h3>
+<ul>
+<li>Make Jetpack infinite scroll load testimonials properly</li>
+<li>Improve social media widget responsive behaviour</li>
+<li>Improve coding standards</li>
+<li>Escape some more properties for added security</li>
+<li>Make testimonials archive display content in traditional archive order (rather than randomly) so that Jetpack infinite scroll works properly</li>
+</ul>
 <h3>2.2 - 29th January 2017</h3>
 <ul>
 <li>Make the project terms list on projects and portfolio pages highlight the term you are currently viewing.</li>
