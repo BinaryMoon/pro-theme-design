@@ -335,6 +335,8 @@ function get_theme_data() {
 		// All themes are on wordpress.com so fill out the rest of the url.
 		$theme['url-wpcom'] = 'https://wordpress.com/theme/' . $theme['url-wpcom'] . '/';
 
+		$theme['key'] = $key;
+
 		// Theme info link.
 		$theme['url'] = path( 'theme/' . $key . '/' );
 		$theme['url-details'] = path( 'theme/' . $key . '/' );
