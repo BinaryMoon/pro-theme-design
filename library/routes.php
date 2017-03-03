@@ -437,6 +437,11 @@ Flight::route( '/documentation/(@type)(/@page)/', function( $type = '', $page = 
 			site_breadcrumb_add( $page_name, 'documentation/' . $type . '/' . $page . '/' );
 			site_title( sprintf( '%s Help', $page_name ) );
 
+			// Can't do this since the images are not hosted on Pro theme design.
+			// if ( ! empty( documentation_page_property( $page, 'image' ) ) ) {
+			// 	site_meta_image( documentation_page_property( $page, 'image' ) );
+			// }
+
 			if ( ! empty( $page_description ) ) {
 				site_description( 'Documentation: ' . $page_description );
 			}
