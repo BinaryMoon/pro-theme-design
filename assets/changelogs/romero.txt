@@ -1,3 +1,9 @@
+<h3>1.3.6 - 3rd March 2017</h3>
+<ul>
+<li>Fix issue with drop down menu arrow custom colours on wordpress.com</li>
+<li>Improve iframe widget display (such as social widgets) in narrow sidebars</li>
+<li>Improve colour contrast in some instances to increase readability</li>
+</ul>
 <h3>1.3.5 - 18th November 2016</h3>
 <ul>
 <li>Improve Responsive styles in header</li>
