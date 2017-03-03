@@ -101,7 +101,7 @@ Flight::route( '/tools/(@tool)/', function( $tool = '' ) {
 		if ( empty( $tool_data ) ) {
 
 			$tool_data = tool_group( $tool );
-			if ( $tool_daa ) {
+			if ( $tool_data ) {
 
 				site_breadcrumb_add( $tool_data['title'], 'tools/' . $tool . '/' );
 
