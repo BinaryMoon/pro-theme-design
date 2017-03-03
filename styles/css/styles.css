@@ -925,8 +925,10 @@ article.summary h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
   width: 100%;
   clear: both;
 }
@@ -1250,6 +1252,23 @@ article.summary h2 {
     font-size: 1.75rem;
     line-height: 1.5;
   }
+}
+
+.blip {
+  font-weight: bold;
+  background: #ffffff;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+  width: 4.5rem;
+  height: 4.5rem;
+  line-height: 4.5rem;
+  display: block;
+  text-align: center;
+  border-radius: 3rem;
+}
+
+.blip.positive {
+  background: #54ce74;
+  color: #21252a;
 }
 
 .button {
@@ -1847,25 +1866,9 @@ label:hover p.hint {
 }
 
 .pricing .price-table .price {
-  display: block;
-  text-align: center;
-  margin-bottom: 1.5rem;
-  margin-top: 2.5rem;
-  color: #1bb3ca;
-  font-size: 80px;
-  font-size: 5rem;
-  line-height: 1.25;
-  font-weight: bold;
-  display: none;
-}
-
-.pricing .price-table .price small {
-  vertical-align: top;
-  font-size: 20px;
-  font-size: 1.25rem;
-  line-height: 1.5;
-  margin-top: 0.5em;
-  display: inline-block;
+  position: absolute;
+  top: -0.5rem;
+  left: -0.5rem;
 }
 
 .pricing .price-table .secure {
