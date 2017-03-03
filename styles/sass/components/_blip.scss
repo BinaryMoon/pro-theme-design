@@ -1,0 +1,20 @@
+.blip {
+
+	font-weight: bold;
+	background: $canvas-white;
+	box-shadow: $box-shadow;
+	width: $grid-gutter * 1.5;
+	height: $grid-gutter * 1.5;
+	line-height: $grid-gutter * 1.5;
+	display: block;
+	text-align: center;
+	border-radius: $grid-gutter;
+
+	&.positive {
+
+		background: $canvas-green;
+		color: contrast( $canvas-green );
+
+	}
+
+}

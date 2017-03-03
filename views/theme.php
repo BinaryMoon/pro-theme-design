@@ -186,20 +186,21 @@
 
 				<div class="product">
 
-					<ul>
-						<li>Lifetime theme usage</li>
-						<li>Unlimited sites</li>
-						<li>1 click admin updates</li>
-						<li>1 year of support</li>
-					</ul>
-
 <?php
 	if ( ! empty( $theme['price-wporg'] ) ) {
 ?>
-					<span class="price"><?php echo $theme['price-wporg']; ?></span>
+					<span data-fsc-item-path="<?php echo $theme['key']; ?>" data-fsc-item-price class="price blip positive"></span>
 <?php
 	}
 ?>
+
+					<ul>
+						<li>Lifetime usage</li>
+						<li>Unlimited sites</li>
+						<li>1 click admin updates</li>
+						<li>1 year of support</li>
+						<li>Instant download</li>
+					</ul>
 
 					<?php site_include_view( '_partials/theme-purchase-buttons.php', array( 'theme' => $theme ) ); ?>
 

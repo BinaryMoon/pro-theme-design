@@ -27,24 +27,9 @@
 
 		.price {
 
-			display: block;
-			text-align: center;
-			margin-bottom: $grid-line-height;
-			margin-top: 2.5rem;
-			color: $canvas-blue-dark;
-			@include modular-scale( mega );
-			font-weight: bold;
-
-			display: none;
-
-			small {
-
-				vertical-align: top;
-				@include modular-scale( epsilon );
-				margin-top: 0.5em;
-				display: inline-block;
-
-			}
+			position: absolute;
+			top: -0.5rem;
+			left: -0.5rem;
 
 		}
 
