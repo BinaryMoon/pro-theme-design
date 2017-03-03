@@ -318,6 +318,9 @@ site_header_title( 'Pro Theme Design' );
 // default site og:type
 site_meta( 'og:type', 'website' );
 
+// default og:image
+site_meta_image( image_path( 'website/prothemedesign-og-image.png' ) );
+
 // default site scripts
 
 site_script( 'https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js' );
