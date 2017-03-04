@@ -10,7 +10,7 @@
 	if ( ! empty( $theme['url-preview'] ) ) {
 
 ?>
-		<a href="<?php echo $theme['url-preview']; ?>" class="button ghost greedy">Preview <?php echo $theme['name']; ?></a>
+		<a href="<?php echo $theme['url-preview']; ?>" class="button ghost greedy preview">Preview <?php echo $theme['name']; ?></a>
 <?php
 
 	}

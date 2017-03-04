@@ -199,7 +199,6 @@
 						<li>Unlimited sites</li>
 						<li>1 click admin updates</li>
 						<li>1 year of support</li>
-						<li>Instant download</li>
 					</ul>
 
 					<?php site_include_view( '_partials/theme-purchase-buttons.php', array( 'theme' => $theme ) ); ?>
@@ -215,7 +214,6 @@
 					<img src="<?php echo image_path( 'credit-cards/light-mastercard.png' ); ?>" title="Mastercard" />
 					<img src="<?php echo image_path( 'credit-cards/light-paypal.png' ); ?>" title="Paypal" />
 				</div>
-
 
 				<small class="terms"><a href="<?php echo path( 'policies/' ); ?>" class="terms">Terms</a></small>
 			</div>

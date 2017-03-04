@@ -1902,6 +1902,10 @@ label:hover p.hint {
   margin: 0 0.5em;
 }
 
+.pricing .price-table .preview {
+  display: none;
+}
+
 .pricing .faq h3 {
   font-size: 20px;
   font-size: 1.25rem;
