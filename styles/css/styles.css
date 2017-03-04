@@ -1258,7 +1258,8 @@ article.summary h2 {
   font-weight: bold;
   background: #ffffff;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
-  width: 4.5rem;
+  min-width: 4.5rem;
+  padding: 0 0.5em;
   height: 4.5rem;
   line-height: 4.5rem;
   display: block;
