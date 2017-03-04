@@ -352,6 +352,20 @@
 
 	} );
 
-
-
 })();
+
+/**
+ * Change the store price to remove the .00 from the end of prices.
+ */
+function fs_store_markup() {
+
+	var price = $( '.price-table .price' ).html();
+
+	if ( price ) {
+
+		price = price.replace( '.00', '' );
+		$( '.price-table .price' ).html( price );
+
+	}
+
+}
