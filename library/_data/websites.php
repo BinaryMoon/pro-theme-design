@@ -67,6 +67,54 @@ function get_website_data() {
 
 
 	$websites = array(
+
+
+		'' => array(
+			'url' => '',
+			'name' => '',
+			'theme' => '',
+		),
+
+		'totoutard' => array(
+			'url' => 'https://totoutard.wordpress.com/',
+			'name' => 'Tot ou Tard',
+			'theme' => 'romero',
+		),
+		'fremdtunes.com' => array(
+			'url' => 'https://fremdtunes.com/',
+			'name' => 'Fremdtunes',
+			'theme' => 'romero',
+		),
+		'mynintendonews/' => array(
+			'url' => 'http://mynintendonews.com/',
+			'name' => 'My Nintendo News',
+			'theme' => 'romero',
+		),
+		'magicon' => array(
+			'url' => 'http://www.magicon.de/',
+			'name' => 'Magicon',
+			'theme' => 'monet',
+			'image' => 'magicon',
+		),
+		'anniemylantuportfolio' => array(
+			'url' => 'https://anniemylantuportfolio.wordpress.com/',
+			'name' => 'Annie MyLantu',
+			'theme' => 'monet',
+			'image' => 'anniemylantuportfolio'
+		),
+		'prospectthepantry' => array(
+			'url' => 'https://prospectthepantry.com/',
+			'name' => 'Prospect The Pantry',
+			'theme' => 'monet',
+			'image' => 'prospectthepantry',
+		),
+		'mahdollisuuksia' => array(
+			'url' => 'https://mahdollisuuksia.com/',
+			'name' => 'Mahdollisuuksia',
+			'theme' => 'monet',
+			'image' => 'mahdollisuuksia',
+		),
+
 		'absurdisan' => array(
 			'url' => 'http://absurdisan.com/',
 			'name' => 'Absudisan',
