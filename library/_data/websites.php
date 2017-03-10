@@ -81,11 +81,6 @@ function get_website_data() {
 			'theme' => 'broadsheet',
 			'tags' => array( 'featured' ),
 		),
-		'lockelandspringsteen' => array(
-			'url' => 'https://lockelandspringsteen.com/',
-			'name' => 'Lokeland Springsteen',
-			'theme' => 'broadsheet',
-		),
 
 		'aosugo' => array(
 			'url' => 'http://aosugo.com/',
@@ -164,12 +159,6 @@ function get_website_data() {
 			'image' => 'mgarciadigital',
 			'tags' => array( 'puzzle', 'featured' ),
 		),
-		'clear-sight' => array(
-			'url' => 'http://bjdeming.com',
-			'name' => 'Clear Sight',
-			'image' => 'bjdeming',
-			'theme' => 'opti',
-		),
 		'should-i-go-see-it' => array(
 			'url' => 'http://shouldigoseeit.com',
 			'name' => 'Should I Go See It',
@@ -193,23 +182,10 @@ function get_website_data() {
 			'name' => 'Geeks Down Under',
 			'theme' => 'romero',
 		),
-		'javier-mardueno' => array(
-			'url' => 'http://javiermarduenoblog.com',
-			'name' => 'Javier Mardueno',
-			'image' => 'javiermardueno',
-			'theme' => 'puzzle',
-			'tags' => array( 'featured' ),
-		),
 		'decograffik' => array(
 			'url' => 'http://decograffik.com',
 			'name' => 'Decograffik',
 			'image' => 'decograffik',
-			'theme' => 'puzzle',
-		),
-		'matthew-aaron-goodman' => array(
-			'url' => 'http://matthewaarongoodman.com',
-			'name' => 'Matthew Aaron Goodman',
-			'image' => 'matthewaarongoodman',
 			'theme' => 'puzzle',
 		),
 		'cynthia-lait' => array(
@@ -241,12 +217,6 @@ function get_website_data() {
 			'image' => 'cincindos',
 			'theme' => 'puzzle',
 		),
-		'sperka' => array(
-			'url' => 'http://sperka.info',
-			'name' => 'Sperka',
-			'image' => 'sperka',
-			'theme' => 'puzzle',
-		),
 		'vocalise' => array(
 			'url' => 'https://ballaratvocalise.wordpress.com',
 			'name' => 'Vocalise',
@@ -274,12 +244,6 @@ function get_website_data() {
 		'comic-community' => array(
 			'url' => 'https://ccommunity.wordpress.com',
 			'name' => 'Comic Community',
-			'theme' => 'chronicle',
-		),
-		'fedali-photography' => array(
-			'url' => 'http://fedalijournal.com',
-			'name' => 'Fedali Photography',
-			'image' => 'fedalijournal',
 			'theme' => 'chronicle',
 		),
 		'cardinal-courier' => array(
@@ -312,23 +276,11 @@ function get_website_data() {
 			'name' => 'The Banner',
 			'theme' => 'broadsheet',
 		),
-		'leonardo-zhangelini' => array(
-			'url' => 'http://zanghelini.com.br',
-			'name' => 'Leonardo Zhangelini',
-			'theme' => 'monet',
-			'image' => 'leonardozhangelini',
-		),
 		'bailey-english-studio' => array(
 			'url' => 'http://baileyenglishstudio.com',
 			'name' => 'Bailey English Studio',
 			'theme' => 'monet',
 			'image' => 'baileyenglishstudio',
-		),
-		'red-electric' => array(
-			'url' => 'http://redeclectic.com.au',
-			'name' => 'Red Electric',
-			'theme' => 'monet',
-			'image' => 'redelectric',
 		),
 
 	);
