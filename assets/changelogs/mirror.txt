@@ -1,3 +1,8 @@
+<h3>2.2.1 - 10th March 2017</h3>
+<ul>
+<li>Fix small bug with slider where the link doesn't fill the full width of the page.</li>
+<li>Make social widgets work better on small devices.</li>
+</ul>
 <h3>2.2 - 27th November 2016</h3>
 <ul>
 <li>Fix image attachment template</li>
