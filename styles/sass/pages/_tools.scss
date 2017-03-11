@@ -49,7 +49,6 @@
 		a {
 
 			color: $canvas-white;
-			margin-right: 0.1em;
 			background: $canvas-grey-80;
 			padding: 0 ( $grid-gutter / 2 );
 			border-radius: $border-radius;
@@ -67,21 +66,22 @@
 
 	.entity-calculator {
 
-		margin-bottom: 0;
+		margin-bottom: $grid-line-height;
 		position: relative;
+		display: flex;
+
+		label {
+
+			flex-grow: 2;
+			margin-right: $grid-gutter / 2;
+
+		}
 
 		input {
 
 			width:100%;
 			margin:0;
-
-		}
-
-		button {
-
-			position: absolute;
-			bottom: $grid-line-height / 3;
-			right: $grid-gutter / 3;
+			flex-grow: 1;
 
 		}
 
@@ -89,7 +89,7 @@
 
 	.note {
 
-		margin-bottom: $grid-line-height / 4;
+		margin-bottom: $grid-line-height / 2;
 
 	}
 

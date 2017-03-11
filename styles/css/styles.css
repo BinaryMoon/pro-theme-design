@@ -3117,7 +3117,6 @@ table.comparison td span {
 
 .page-tools-ascii-entity-conversion p.entities a {
   color: #ffffff;
-  margin-right: 0.1em;
   background: #3c5575;
   padding: 0 1.5rem;
   border-radius: 0.2rem;
@@ -3129,23 +3128,30 @@ table.comparison td span {
 }
 
 .page-tools-ascii-entity-conversion .entity-calculator {
-  margin-bottom: 0;
+  margin-bottom: 1.5rem;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page-tools-ascii-entity-conversion .entity-calculator label {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  margin-right: 1.5rem;
 }
 
 .page-tools-ascii-entity-conversion .entity-calculator input {
   width: 100%;
   margin: 0;
-}
-
-.page-tools-ascii-entity-conversion .entity-calculator button {
-  position: absolute;
-  bottom: 0.5rem;
-  right: 1rem;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
 .page-tools-ascii-entity-conversion .note {
-  margin-bottom: 0.375rem;
+  margin-bottom: 0.75rem;
 }
 
 .page-tools-how-much-to-charge .quote {
