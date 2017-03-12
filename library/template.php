@@ -68,9 +68,9 @@ function site_meta_image( $new_image = '' ) {
 
 		if ( $image ) {
 ?>
-	<meta itemprop="image" content="https://prothemedesign.com<?php echo $image; ?>">
-	<meta property="og:image" content="https://prothemedesign.com<?php echo $image; ?>">
-	<meta name="twitter:image:src" content="https://prothemedesign.com<?php echo $image; ?>">
+	<meta itemprop="image" content="https://prothemedesign.com/img/open-graph/<?php echo $image; ?>?d=<?php echo DECACHE_CSS; ?>">
+	<meta property="og:image" content="https://prothemedesign.com/img/open-graph/<?php echo $image; ?>?d=<?php echo DECACHE_CSS; ?>">
+	<meta name="twitter:image:src" content="https://prothemedesign.com/img/open-graph/<?php echo $image; ?>?d=<?php echo DECACHE_CSS; ?>">
 <?php
 
 		}
@@ -319,7 +319,7 @@ site_header_title( 'Pro Theme Design' );
 site_meta( 'og:type', 'website' );
 
 // default og:image
-site_meta_image( image_path( 'website/prothemedesign-og-image.png' ) );
+site_meta_image( 'default.png' );
 
 // default site scripts
 
