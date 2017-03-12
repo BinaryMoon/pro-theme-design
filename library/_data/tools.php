@@ -20,30 +20,35 @@ function get_tools_data() {
 			'description' => 'Calculate how much to charge for a WordPress job.',
 			'tag' => 'tool',
 			'icon' => 'money',
+			'og-image' => 'refund.jpg',
 		),
 		'support-details' => array(
 			'name' => 'Support Details',
 			'description' => 'Information to help debugging website problems.',
 			'tag' => 'tool',
 			'icon' => 'info-circle',
+			'og-image' => 'help.jpg',
 		),
 		'ascii-entity-conversion' => array(
 			'name' => 'Entity Conversion',
 			'description' => 'Convert an ascii character into a code suitable for CSS, JS and HTML.',
 			'tag' => 'tool',
 			'icon' => 'calculator',
+			'og-image' => 'library.jpg',
 		),
 		'color-picker' => array(
 			'name' => 'Color Picker',
 			'description' => 'A browser based colour picker.',
 			'tag' => 'tool',
 			'icon' => 'eyedropper',
+			'og-image' => 'color.jpg',
 		),
 		'translation-page-generator' => array(
 			'name' => 'Translation Page Generator',
 			'description' => 'Generate the HTML needed to translate your website.',
 			'tag' => 'tool',
 			'icon' => 'globe',
+			'og-image' => 'localisation.jpg',
 		),
 		'website-tester' => array(
 			'name' => 'Website Tester',
@@ -56,18 +61,22 @@ function get_tools_data() {
 			'description' => 'Stock photography for your projects.',
 			'tag' => 'resources',
 			'icon' => 'camera',
+			'og-image' => 'photo.jpg',
 		),
 		'free-stock-videos' => array(
 			'name' => 'Free Stock Videos',
 			'description' => 'Stock videos for your projects.',
 			'tag' => 'resources',
 			'icon' => 'video-camera',
+			'og-image' => 'video.jpg',
 		),
 		'developer-resources' => array(
 			'name' => 'Developer Resources',
 			'description' => 'Handy Resources for designers and developers.',
 			'tag' => 'resources',
 			'icon' => 'wrench',
+			'og-image' => 'code.jpg',
+			'og-image' => 'color.jpg',
 		),
 		'circular-icons' => array(
 			'name' => 'Circular Icons',
@@ -118,12 +127,14 @@ function get_tools_data() {
 			'description' => 'Statistics showing how we often we build our themes.',
 			'tag' => 'internal',
 			'icon' => 'briefcase',
+			'og-image' => 'construct.jpg',
 		),
 		'changelogs' => array(
 			'name' => 'Theme Changelogs',
 			'description' => 'Keep track of the changelogs for all our themes.',
 			'tag' => 'internal',
 			'icon' => 'briefcase',
+			'og-image' => 'change.jpg',
 		),
 
 	);
@@ -140,10 +151,14 @@ function get_tools_data() {
 
 	$processed = array();
 
-	foreach( $tools as $key => $tool ) {
+	foreach ( $tools as $key => $tool ) {
 
-		// website url
-		$tool[ 'url' ] = path( 'tools/' . $key . '/' );
+		// website url.
+		$tool['url'] = path( 'tools/' . $key . '/' );
+
+		if ( ! $tool['og-image'] ) {
+			$tool['og-image'] = 'tools.jpg';
+		}
 
 		$processed[ $key ] = $tool;
 

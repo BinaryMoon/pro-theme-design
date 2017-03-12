@@ -17,10 +17,12 @@ function get_documentation_data() {
 		'support-vs-customization' => array(
 			'name' => 'Support vs. Customization',
 			'type' => 'general',
+			'og-image' => 'help.jpg',
 		),
 		'support-account' => array(
 			'name' => 'Creating a Temporary Support Account',
 			'type' => 'general',
+			'og-image' => 'help.jpg',
 		),
 		'transfer-from-wordpress-com' => array(
 			'name' => 'WordPress.com theme Transfer',
@@ -45,6 +47,7 @@ function get_documentation_data() {
 			'name' => 'Refunds',
 			'type' => 'general',
 			'related' => array( 'transfer-from-wordpress-com' ),
+			'og-image' => 'refund.jpg',
 		),
 		'affiliates' => array(
 			'name' => 'Affiliates',
@@ -52,6 +55,7 @@ function get_documentation_data() {
 		),
 		'translating-your-website-content' => array(
 			'name' => 'Translating Your Website Content',
+			'og-image' => 'localisation.jpg',
 			'type' => 'general',
 		),
 		'license' => array(
@@ -62,12 +66,14 @@ function get_documentation_data() {
 			'name' => 'Localization',
 			'type' => 'general',
 			'description' => 'View your theme in your native language.',
+			'og-image' => 'localisation.jpg',
 			'icon' => 'language',
 		),
 		'theme-customization' => array(
 			'name' => 'Theme Customization',
 			'type' => 'general',
 			'description' => 'Some basic information on how to customize your theme purchase',
+			'og-image' => 'code.jpg',
 		),
 		'wordpress-com-vs-wordpress-org' => array(
 			'name' => 'The Difference Between WordPress.com and WordPress.org',
@@ -191,6 +197,7 @@ function get_documentation_data() {
 			'description' => 'Edit the CSS on your website.',
 			'related' => array( 'custom-colours-fonts', 'customizer', ),
 			'icon' => 'css3',
+			'og-image' => 'code.jpg',
 		),
 		'image-resizing' => array(
 			'name' => 'Image Resizing (Photon)',
