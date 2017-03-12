@@ -95,6 +95,10 @@ Flight::route( '/tools/(@tool)/', function( $tool = '' ) {
 			if ( isset( $tool_data['view'] ) ) {
 				$view = $tool_data['view'];
 			}
+
+			if ( $tool_data['og-image'] ) {
+				site_meta_image( $tool_data['og-image'] );
+			}
 		}
 
 		// Is it a tool group?
@@ -437,10 +441,9 @@ Flight::route( '/documentation/(@type)(/@page)/', function( $type = '', $page = 
 			site_breadcrumb_add( $page_name, 'documentation/' . $type . '/' . $page . '/' );
 			site_title( sprintf( '%s Help', $page_name ) );
 
-			// Can't do this since the images are not hosted on Pro theme design.
-			// if ( ! empty( documentation_page_property( $page, 'image' ) ) ) {
-			// 	site_meta_image( documentation_page_property( $page, 'image' ) );
-			// }
+			if ( ! empty( documentation_page_property( $page, 'og-image' ) ) ) {
+				site_meta_image( documentation_page_property( $page, 'og-image' ) );
+			}
 
 			if ( ! empty( $page_description ) ) {
 				site_description( 'Documentation: ' . $page_description );
