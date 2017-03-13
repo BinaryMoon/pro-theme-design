@@ -75,6 +75,29 @@ function get_website_data() {
 			'theme' => '',
 		),
 
+		'' => array(
+			'url' => '',
+			'name' => '',
+			'theme' => '',
+		),
+
+		'' => array(
+			'url' => '',
+			'name' => '',
+			'theme' => '',
+		),
+
+		'' => array(
+			'url' => '',
+			'name' => '',
+			'theme' => '',
+		),
+
+		'jesuisungameur' => array(
+			'url' => '(https://jesuisungameur.com/',
+			'name' => 'Je Suis Un Gameur',
+			'theme' => 'romero',
+		),
 		'totoutard' => array(
 			'url' => 'https://totoutard.wordpress.com/',
 			'name' => 'Tot ou Tard',
