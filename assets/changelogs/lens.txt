@@ -1,3 +1,7 @@
+<h3>10.2.1 - 14th March 2017</h3>
+<ul>
+<li>Tidy codes and sanitize more strings for extra security.</li>
+</ul>
 <h3>10.2 - 7th October 2016</h3>
 <ul>
 <li>Lots of code tidying, standards improvements, and security enhancements.</li>
