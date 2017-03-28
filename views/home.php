@@ -23,8 +23,8 @@
 					</h1>
 
 					<p class="site-description">
-						<span>Responsive,</span>
-						<span>Elegant,</span>
+						<span>Simple,</span>
+						<span>Beautiful,</span>
 						<span>WordPress Themes</span>
 					</p>
 
@@ -53,12 +53,38 @@
 
 		</section>
 
+
 		<section class="intro wrapper text">
 
 			<p>WordPress Themes for agencies, and small businesses.</p>
 			<p>Join over <strong><?php echo paid_customers(); ?></strong> happy WordPress themers.</p>
 
 		</section>
+
+<?php
+	if ( 'dev' === ENV ) {
+?>
+		<section class="why-us wrapper block-wrapper compact">
+
+				<header class="block-header">
+					<h2>
+						Why Us?
+					</h2>
+				</header>
+
+				<div class="block">
+					<div class="content">
+						<h3><a href=""></a></h3>
+						<p></p>
+					</div>
+				</div>
+
+			</div>
+
+		</section>
+<?php
+	}
+?>
 
 		<section class="themes">
 
