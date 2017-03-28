@@ -1,6 +1,7 @@
 <h3>2.6.4 - 13th March 2017</h3>
 <ul>
 <li>Remove js that is not used</li>
+<li>Update rtl styles</li>
 </ul>
 <h3>2.6.3 - 9th December 2016</h3>
 <ul>
