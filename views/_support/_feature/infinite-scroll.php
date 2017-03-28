@@ -10,6 +10,6 @@
 
 <h2>Enabling Infinite Scroll</h2>
 
-<p>Infinite Scroll is an optional feature of the Jetpack plugin, and as such the plugin needs to be installed and activated.</p>
+<p>Infinite Scroll is an optional feature of the <a href="<?php echo JETPACK; ?>">Jetpack plugin</a>, and as such the plugin needs to be installed and activated.</p>
 
 <p>Once activated go to the Jetpack settings page and look for the infinite scroll section - then click 'enable'.</p>

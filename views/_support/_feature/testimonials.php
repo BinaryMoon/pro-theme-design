@@ -2,13 +2,13 @@
 
 <h2>Adding Testimonials to your site</h2>
 
-<p>Testimonials functionality requires the Jetpack plugin to be installed and enabled. Once done you can enable a unique Testimonial content type to help organize your testimonials in a special section of your dashboard.</p>
+<p>Testimonials functionality requires the <a href="<?php echo JETPACK; ?>">Jetpack plugin</a> to be installed and enabled. Once done you can enable a unique Testimonial content type to help organize your testimonials in a special section of your dashboard.</p>
 
 <p>You can do this in two simple steps:</p>
 
 <ol>
-    <li>In your site’s dashboard, go to Settings → Writing → Your Custom Content Types and make sure the “Testimonials” option is checked.</li>
-    <li>Add testimonials under the new Testimonials menu item in your sidebar.</li>
+	<li>In your site’s dashboard, go to Settings → Writing → Your Custom Content Types and make sure the “Testimonials” option is checked.</li>
+	<li>Add testimonials under the new Testimonials menu item in your sidebar.</li>
 </ol>
 
 <p>After you’ve added some testimonials, they’ll be visible on your website by visiting http://yoursite.com/testimonial/.</p>

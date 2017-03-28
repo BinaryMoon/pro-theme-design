@@ -7,8 +7,8 @@
 <p>To set up Featured Content:</p>
 
 <ol>
-    <li>Install the Jetpack plugin</li>
-    <li>Go to <em>Appearance → Customize → Featured Content</em></li>
-    <li>Enter a tag name for the featured posts — make sure the tag is unique and isn’t used anywhere else on your site</li>
-    <li>Edit the posts that you want to display in the Featured Content area and give them the featured tag you have just selected</li>
+	<li>Install the <a href="<?php echo JETPACK; ?>">Jetpack plugin</a></li>
+	<li>Go to <em>Appearance → Customize → Featured Content</em></li>
+	<li>Enter a tag name for the featured posts — make sure the tag is unique and isn’t used anywhere else on your site</li>
+	<li>Edit the posts that you want to display in the Featured Content area and give them the featured tag you have just selected</li>
 </ol>

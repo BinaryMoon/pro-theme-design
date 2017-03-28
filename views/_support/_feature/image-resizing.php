@@ -1,4 +1,4 @@
-<p class="intro">The Jetpack plugin includes a module called Photon. This is a special module that takes care of image resizing, and cropping, always serving the best image possible.</p>
+<p class="intro">The <a href="<?php echo JETPACK; ?>">Jetpack plugin</a> includes a module called Photon. This is a special module that takes care of image resizing, and cropping, always serving the best image possible.</p>
 
 <h2>Image Resizing</h2>
 

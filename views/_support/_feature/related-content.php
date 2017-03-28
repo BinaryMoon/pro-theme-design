@@ -2,4 +2,4 @@
 
 <h2>Enabling Related Content</h2>
 
-<p>Related Content requires the Jetpack plugin to be installed and Activated. Once activated go to the Jetpack settings and enable the Related Content module. You can then go to the Related posts settings which can be found in the WP Admin &rarr; Settings &rarr; Reading menu.</p>
+<p>Related Content requires the </a>Jetpack plugin</a> to be installed and Activated. Once activated go to the Jetpack settings and enable the Related Content module. You can then go to the Related posts settings which can be found in the WP Admin &rarr; Settings &rarr; Reading menu.</p>
