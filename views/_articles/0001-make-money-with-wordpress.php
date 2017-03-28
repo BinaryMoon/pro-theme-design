@@ -1,3 +1,12 @@
+<?php
+/**
+ * Make money with WordPress article
+ *
+ * @package ptd
+ */
+
+?>
+
 <p class="intro">WordPress is an incredibly versatile application, and there are many ways to make money with it. On this page I have listed the most common, but I'm sure it's not an exhaustive list. If you know of any others then please do let me know on <a href="https://twitter.com/prothemedesign/">Twitter</a>.</p>
 
 <ol>
@@ -29,6 +38,7 @@
 
 <p class="note icon"><?php draw_svg( 'alert-info', 'large' ); ?>If you're in the market for a new blogging theme then our most popular are <a href="<?php echo path( 'theme/opti/' ); ?>">Opti</a>, and <a href="<?php echo path( 'theme/monet/' ); ?>">Monet</a>.</p>
 
+
 <h3>Getting Started Blogging</h3>
 
 <p>There's lots of blogs about blogging - and making a successful blog. If you're just getting started then the <a href="https://dailypost.wordpress.com/blogging-university/">WordPress.com Blogging University courses</a> are a good place to start.</p>
@@ -45,6 +55,7 @@
 <p class="note icon"><?php draw_svg( 'alert-info', 'large' ); ?>If you're creating a website for your bricks and mortar store then make sure to include your shop address on the site - a text widget in the sidebar or footer is ideal. This will make it easy for people to find you - and it will tell Google where you are, so that it can be relevant for local searches.</p>
 
 <p>A good example of a business theme is <a href="<?php echo path( 'theme/exhibit/' ); ?>">Exhibit</a>.</p>
+
 
 <h3>Tips for getting the most from your business online</h3>
 
@@ -104,7 +115,7 @@
 
 <p>This is super popular. There are loads of theme shops around now, with good reason. I started <a href="https://prothemedesign.com/">Pro Theme Design</a> in 2007, and we're still going strong however we're a long way from the biggest theme shop around.</p>
 
-<p>In 2015 WooThemes (a premium theme company) was aquired by Automattic (the company that owns WordPress.com). The amount was undisclosed but it's rumoured to be over $30 million. That's a lot of money!</p>
+<p>In 2015 WooThemes (a premium theme company) was aquired by Automattic (the company that owns <a href="<?php echo WORDPRESS_COM; ?>">WordPress.com</a>). The amount was undisclosed but it's rumoured to be over $30 million. That's a lot of money!</p>
 
 <p>An easier game to get into - for someone starting out - would be plugins. The theme market is becoming saturated but there's a lot more scope to make useful good quality plugins. Pippins Plugins is one of the top plugin developers out there - creating the popular ecommerce plugin <a href="https://easydigitaldownloads.com/">Easy Digital Downloads</a>.</p>
 
@@ -143,6 +154,7 @@
 	<li><a href="https://wordpress.org/plugins/woocommerce/">WooCommerce</a></li>
 	<li><a href="https://wordpress.org/plugins/easy-digital-downloads/">Easy Digital Downloads</a></li>
 </ul>
+
 
 <h2 id="website-flipping">8. Website Flipping</h2>
 
