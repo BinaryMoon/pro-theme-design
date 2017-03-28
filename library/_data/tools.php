@@ -76,7 +76,6 @@ function get_tools_data() {
 			'tag' => 'resources',
 			'icon' => 'wrench',
 			'og-image' => 'code.jpg',
-			'og-image' => 'color.jpg',
 		),
 		'circular-icons' => array(
 			'name' => 'Circular Icons',
@@ -91,6 +90,7 @@ function get_tools_data() {
 			'description' => 'Pro Theme Design CSS Pattern Library.',
 			'tag' => 'internal',
 			'icon' => 'puzzle-piece',
+			'og-image' => 'color.jpg',
 		),
 		'test-suite' => array(
 			'name' => 'Test Suite',
@@ -156,7 +156,7 @@ function get_tools_data() {
 		// website url.
 		$tool['url'] = path( 'tools/' . $key . '/' );
 
-		if ( ! $tool['og-image'] ) {
+		if ( empty( $tool['og-image'] ) ) {
 			$tool['og-image'] = 'tools.jpg';
 		}
 
