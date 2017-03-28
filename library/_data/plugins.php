@@ -1,4 +1,9 @@
 <?php
+/**
+ * Information about the plugins supported by Pro Theme Design
+ *
+ * @package ptd
+ */
 
 /**
  * List of all the plugins we have built/ support
@@ -40,6 +45,7 @@ function get_plugin_data() {
 			'image' => 'https://ps.w.org/jetpack/assets/banner-772x250.png?rev=1173629',
 			'og-image' => 'jetpack.png',
 			'tags' => array( 'supported' ),
+			'url' => JETPACK,
 		),
 		'tailor' => array(
 			'name' => 'Tailor',
@@ -58,10 +64,12 @@ function get_plugin_data() {
 
 	$processed = array();
 
-	foreach( $plugins as $key => $plugin ) {
+	foreach ( $plugins as $key => $plugin ) {
 
-		$plugin[ 'url' ] = 'https://wordpress.org/plugins/' . $key . '/';
-		$plugin[ 'plugin-url' ] = 'https://wordpress.org/plugins/' . $key . '/';
+		if ( ! isset( $plugin['url'] ) ) {
+			$plugin['url'] = 'https://wordpress.org/plugins/' . $key . '/';
+		}
+		$plugin['plugin-url'] = $plugin['url'];
 
 		$processed[ $key ] = $plugin;
 
@@ -74,6 +82,7 @@ function get_plugin_data() {
 
 /**
  * Filter websites to the selected tab
+ *
  * @param  string  [$tag         = ''] Key for requested website
  * @param  integer [$limit       = -1] Number of websites to retrieve. -1 for all sites
  * @return array   List of websites limited by $limit
@@ -86,11 +95,10 @@ function plugins_get_by_tag( $tag = '' ) {
 	if ( $tag ) {
 
 		foreach ( $plugins as $key => $plugin ) {
-			if ( in_array( $tag, $plugin[ 'tags' ] ) ) {
+			if ( in_array( $tag, $plugin['tags'], true ) ) {
 				$tag_plugins[ $key ] = $plugin;
 			}
 		}
-
 	}
 
 	return $tag_plugins;
