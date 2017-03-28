@@ -1,3 +1,8 @@
+<h3>2.6.5 - 28th March 2017</h3>
+<ul>
+<li>Fix clearing issue with post author information</li>
+<li>Improve responsive behaviour of iframes in sidebars (social widgets)</li>
+</ul>
 <h3>2.6.4 - 13th March 2017</h3>
 <ul>
 <li>Remove js that is not used</li>

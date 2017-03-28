@@ -1,3 +1,8 @@
+<h3>1.8 - 28th March 2017</h3>
+<ul>
+<li>Add support for Jetpack content options</li>
+<li>Make Customize preview work more nicely - showing real time updates and edit links for a number of elements</li>
+</ul>
 <h3>1.7.1 - 10th February 2017</h3>
 <ul>
 <li>Improve print styles.</li>
