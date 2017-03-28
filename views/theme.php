@@ -189,7 +189,7 @@
 <?php
 	if ( ! empty( $theme['price-wporg'] ) ) {
 ?>
-					<span data-fsc-item-path="<?php echo $theme['key']; ?>" data-fsc-item-price class="price blip positive"></span>
+					<span data-fsc-item-path="<?php echo $theme['key']; ?>" data-fsc-item-total class="price blip positive"></span>
 <?php
 	}
 ?>
