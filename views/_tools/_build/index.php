@@ -39,7 +39,11 @@
 		</li>
 		<li>
 			Approximate time saved by the build process: <strong><?php echo $data['total_hours_saved']; ?></strong>
-			<br /><small>The amount of time I have gained by not having to take care of packaging and releasing themes.</small>
+			<br /><small>The amount of time I would have spent (with no breaks or days off) packaging and releasing themes, had I not automated it all!</small>
+		</li>
+		<li>
+			The amount of time I have actually spent releasing theme updates: <strong><?php echo $data['total_hours_spent']; ?></strong>
+			<br /><small>By this I mean the release process - having a build process means I can release many more updates than I would otherwise.</small>
 		</li>
 		<li>
 			Total number of builds executed: <strong><?php echo $data['total_build_quantity']; ?></strong>
