@@ -171,6 +171,7 @@ function get_tools_data() {
 
 /**
  * Check a tool exists and return the tool data
+ *
  * @param  string        $tool Tool key to retrieve
  * @return boolean|array The data for specified tool, or false if tool does not exist
  */

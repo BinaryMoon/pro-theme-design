@@ -35,6 +35,11 @@
 		</li>
 		<li>
 			Total time spent updating themes: <strong><?php echo $data['total_build_duration']; ?></strong>
+			<br /><small>The amount of time the computer has spent building themes and releasing updates. No human intervention was needed.</small>
+		</li>
+		<li>
+			Approximate time saved by the build process: <strong><?php echo $data['total_hours_saved']; ?></strong>
+			<br /><small>The amount of time I have gained by not having to take care of packaging and releasing themes.</small>
 		</li>
 		<li>
 			Total number of builds executed: <strong><?php echo $data['total_build_quantity']; ?></strong>
