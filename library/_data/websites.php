@@ -68,33 +68,8 @@ function get_website_data() {
 
 	$websites = array(
 
-
-		'' => array(
-			'url' => '',
-			'name' => '',
-			'theme' => '',
-		),
-
-		'' => array(
-			'url' => '',
-			'name' => '',
-			'theme' => '',
-		),
-
-		'' => array(
-			'url' => '',
-			'name' => '',
-			'theme' => '',
-		),
-
-		'' => array(
-			'url' => '',
-			'name' => '',
-			'theme' => '',
-		),
-
 		'jesuisungameur' => array(
-			'url' => '(https://jesuisungameur.com/',
+			'url' => 'https://jesuisungameur.com/',
 			'name' => 'Je Suis Un Gameur',
 			'theme' => 'romero',
 		),
