@@ -43,7 +43,13 @@
 
 		</div>
 
-		<?php site_script(); ?>
+<?php
+	if ( 'prod' == ENV ) {
+		include( '_partials/tracking.php' );
+	}
+
+	site_script();
+?>
 
 	</body>
 
