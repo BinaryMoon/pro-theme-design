@@ -129,7 +129,7 @@
 	<li><a href="http://www.mojo-code.com/">Mojo Code</a> - for plugins</li>
 </ul>
 
-<p>Alternatively you could always build and sell the themes/ plugins on your own site. In fact I would always recommend doing this since you will then be the one in control. You can set the prices and you own the customer details. Personally I really like <a href="http://gumroad.com">Gumroad</a> for selling from my own site, however there are many similar services out there so you can find the ones you like best.</p>
+<p>Alternatively you could always build and sell the themes/ plugins on your own site. In fact I would always recommend doing this since you will then be the one in control. You can set the prices and you own the customer details. Personally I really like <a href="http://fastspring.com">Fastspring</a> for selling from my own site, however there are many similar services out there so you can find the ones you like best.</p>
 
 <p class="note icon"><?php draw_svg( 'alert-info', 'large' ); ?>If I was starting now I would create themes and plugins for a specific, underserved, group of users. I would then try to make the ultimate product for that group of users. This will make marketing much easier.</p>
 
@@ -141,14 +141,14 @@
 <p>Often less technical people can get scared when you talk about selling things online however there's many services out there that do all the work for you. All you have to do is create the content and then upload it to their service. Below are a few popular services that could help you get started:</p>
 
 <ul>
-	<li><a href="http://gumroad.com">Gumroad</a> - the service I use to sell WordPress themes here on <a href="https://prothemedesign.com">Pro Theme Design</a></li>
+	<li><a href="http://fastspring.com">Fastspring</a> - the service I use to sell WordPress themes here on <a href="https://prothemedesign.com">Pro Theme Design</a></li>
 	<li><a href="https://selz.com/">Selz</a></li>
 	<li><a href="https://sellfy.com/">Sellfy</a></li>
 </ul>
 
 <p>If you want you could also use a WordPress plugin to sell your digital products however I feel that often this is more work. You will still need to set up payment providers, secure certificates, and generally have more to maintain. If you use a third party service then all you have to do is link to your product on their server. This can work with any type of site (including those powered by WordPress.com).</p>
 
-<p>However, if you want to go down this path, and you're hosting WordPress yourself, then the following are some of the top WordPress e-commerce plugins.</p>
+<p>However, if you want to go down this path, and you're hosting WordPress yourself, then the following are the top WordPress e-commerce plugins:</p>
 
 <ul>
 	<li><a href="https://wordpress.org/plugins/woocommerce/">WooCommerce</a></li>
@@ -164,7 +164,7 @@
 
 <p>The most popular place for selling websites is <a href="http://flippa.com">Flippa</a>. You can find all sorts of sites on there - including some that you might consider bargains.</p>
 
-<p>The alternative is to search through Flippa and find sites you think you can bring value too - and buy them. You will then have a pre-existing site that you can enhance. Once you've built it up you can always look at flipping it on to someone else.</p>
+<p>The alternative is to search through Flippa and find sites you think you can bring value to - and buy them. You will then have a pre-existing site that you can enhance. Once you've built it up you can always flip it on to someone else.</p>
 
 
 <h2 id="content-writing-services">9. Content Writing Services</h2>
