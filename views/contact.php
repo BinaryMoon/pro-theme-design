@@ -64,10 +64,11 @@
 					<span>Where did you purchase your theme?</span>
 					<select name="service" required>
 						<option value="" disabled selected>Select one</option>
-						<option value="wordpress-com">WordPress.com</option>
+						<option value="fastspring">ProThemeDesign.com (via Fastspring)</option>
 						<option value="gumroad">ProThemeDesign.com (via Gumroad)</option>
 						<option value="creative-market">Creative Market</option>
-						<option value="wordpress-org">WordPress.org</option>
+						<option value="wordpress-org">WordPress.org (self hosted)</option>
+						<option value="wordpress-com">WordPress.com</option>
 					</select>
 				</label>
 
