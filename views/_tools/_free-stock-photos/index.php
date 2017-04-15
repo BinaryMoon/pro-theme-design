@@ -18,6 +18,7 @@
 		'imcreator.com/free' => 'Photos, icons, and more',
 		'jaymantri.com' => 'Jay Mantri',
 		'visualhunt.com' => 'Visual Hunt',
+		'freeforcommercialuse.net' => 'Free For Commercial Use',
 		'publicdomainarchive.com' => 'Public Domain Archive (GPL compat)',
 		'www.publicdomainpictures.net' => 'Public Domain Pictures (GPL compat)',
 		'en.freejpg.com.ar' => 'FreeJPG',
