@@ -32,6 +32,8 @@
  * post formats
  * custom login design
  * accessibility color contrast calculator - https://www.viget.com/articles/color-contrast
+ * regenerate thumbnails - https://wordpress.org/plugins/regenerate-thumbnails/
+ * perform database operations - https://en-gb.wordpress.org/plugins/search-and-replace/
  *
  * SITE ARTICLES
  *
@@ -74,7 +76,7 @@ if ( 'localhost' === $_SERVER['HTTP_HOST'] ) {
 }
 
 // Constants.
-define( 'DECACHE_CSS', '82' );
+define( 'DECACHE_CSS', '83' );
 define( 'DECACHE_JS', '25' );
 define( 'ENV', $environment );
 define( 'GOOGLE_CSE', '010164663960188762731:aajo_mt5e2a' );
