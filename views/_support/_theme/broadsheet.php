@@ -1,6 +1,6 @@
 <h2>Homepage Layout</h2>
 
-<img src="<?php echo image_path( 'docs/layout-broadsheet.png' ); ?>" alt="Broadsheet Homepage Layout" />
+<img src="<?php echo image_path( 'docs/layout-broadsheet.png' ); ?>" alt="Broadsheet Homepage Layout" class="align" />
 
 <ol>
 	<li>

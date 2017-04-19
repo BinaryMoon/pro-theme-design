@@ -60,6 +60,7 @@
 	img {
 
 		border-radius: $border-radius;
+		display: block;
 
 		&.align-left, &.align-right {
 
@@ -91,6 +92,14 @@
 			margin: 0;
 
 		}
+
+	}
+
+	.align-center,
+	.align {
+
+		margin: 0 auto ( $grid-line-height * $grid-line-height-multiplier ) auto;
+		clear: both;
 
 	}
 

@@ -2070,6 +2070,7 @@ table.comparison td span {
 
 .wrapper img {
   border-radius: 0.2rem;
+  display: block;
 }
 
 .wrapper img.align-left, .wrapper img.align-right {
@@ -2091,6 +2092,12 @@ table.comparison td span {
 
 .wrapper li:last-of-type {
   margin: 0;
+}
+
+.wrapper .align-center,
+.wrapper .align {
+  margin: 0 auto 2.25rem auto;
+  clear: both;
 }
 
 .wrapper .align-left {

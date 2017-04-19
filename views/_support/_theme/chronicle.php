@@ -1,6 +1,6 @@
 <h2>Homepage Layout</h2>
 
-<img src="<?php echo image_path( 'docs/layout-chronicle.png' ); ?>" alt="Chronicle Homepage Layout" />
+<img src="<?php echo image_path( 'docs/layout-chronicle.png' ); ?>" alt="Chronicle Homepage Layout" class="align" />
 
 <ol>
 	<li><strong>Homepage Slider</strong> The slider is controlled via a property set in the Customizer. Blog posts require <?php echo documentation_link( 'featured-image' ); ?> to display here. A maximum of 6 posts at a time will display in the slider.</li>
