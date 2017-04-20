@@ -13,6 +13,7 @@
 		'mystock.photos' => 'My Stock Photos',
 		'flickr.com/photos/britishlibrary/' => 'British Library (GPL compat)',
 		'viintage.com' => 'Viintage (GPL compat)',
+		'burst.shopify.com' => 'Burst from Shopify',
 		'skuawk.com' => 'Skuawk CC0 photography',
 		'nos.twnsnd.co' => 'New Old Stock (GPL compat)',
 		'imcreator.com/free' => 'Photos, icons, and more',
