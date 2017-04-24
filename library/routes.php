@@ -252,22 +252,39 @@ Flight::route( '/themes/(@tag)/', function( $tag = '' ) {
 
 	}
 
-	site_title( ucwords( $tag ) . ' Themes' );
+	$themes_title = '';
+
+	if ( $tag !== 'wordpress.org' ) {
+
+		$themes_title = get_theme_tag_name( $tag );
+
+	}
+
+	site_title( $themes_title . ' WordPress Themes' );
 	site_description( 'Awesome ' . ucwords( $tag ) . ' WordPress themes for <strong>self hosted sites</strong>!' );
 
 	site_page_nav_add( 'All', 'themes/' );
+
+	// If not one of the hardcoded tags then list the tag.
+	if ( ! in_array( $tag, array( 'magazine', 'portfolio', 'photography', 'blog', 'free', 'wordpress.org' ) ) ) {
+		site_page_nav_add( $themes_title, 'themes/' . $tag . '/' );
+	}
+
 	site_page_nav_add( 'Magazine', 'themes/magazine/' );
 	site_page_nav_add( 'Portfolio', 'themes/portfolio/' );
 	site_page_nav_add( 'Photography', 'themes/photography/' );
 	site_page_nav_add( 'Blog', 'themes/blog/' );
 	site_page_nav_add( 'Free', 'themes/free/' );
 
-	site_enable_purchase();
+	// site_enable_purchase();
+
 
 	Flight::render(
 		'themes.php',
 		array(
 			'themes' => $themes,
+			'themes_title' => $themes_title,
+			'theme_tags' => get_theme_tags(),
 			'tag' => $tag,
 		)
 	);

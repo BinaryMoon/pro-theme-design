@@ -5,6 +5,15 @@
 
 <?php
 	include( '_partials/header.php' );
+?>
+
+<div class="wrapper themes-title">
+
+	<h1><?php echo $themes_title; ?> WordPress&nbsp;Themes</h1>
+
+</div>
+
+<?php
 
 	site_page_nav();
 ?>
@@ -21,9 +30,15 @@
 ?>
 		</div>
 
+		<hr />
+
+		<div class="wrapper">
+
+			<h2>All WordPress Theme Categories</h2>
+			<?php themes_tag_list( $theme_tags ); ?>
+
+		</div>
+
 <?php
-	if ( 'wordpress.com' != $tag && ! DISABLE_THEME_CLUB ) {
-		site_include_view( '_partials/theme-club.php' );
-	}
 
 	include( '_partials/footer.php' );

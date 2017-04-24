@@ -227,15 +227,24 @@
 				<p>Want to know more about the theme? Just let us know and we'll do our best to help. <a href="<?php echo path( 'theme-question/' . $theme_name . '/' ); ?>">Ask a question</a>.</p>
 
 			</div>
+
 		</div>
+
 <?php
 	}
+?>
 
-	if ( themes_supports( $theme, 'theme-club' ) && ! DISABLE_THEME_CLUB ) {
+	<hr  />
 
-		site_include_view( '_partials/theme-club.php' );
+	<div class="wrapper">
 
-	}
+		<h2><?php echo $theme['name']; ?> Categories</h2>
+		<?php themes_tag_list( $theme['tags'] ); ?>
+
+	</div>
+
+
+<?php
 
 	//site_include_view( '_partials/theme-recommended-plugins.php' );
 

@@ -117,6 +117,36 @@
 
 	}
 
+	.tag-list {
+
+		a {
+
+			&:after {
+
+				content: ',';
+
+			}
+
+			&:last-child {
+
+				&:after {
+
+					content: '';
+					
+				}
+
+			}
+
+		}
+
+	}
+
+	*:last-child {
+
+		margin-bottom: 0;
+
+	}
+
 }
 
 @media only screen and (max-width: $responsive-tablet) {

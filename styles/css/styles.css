@@ -2110,6 +2110,18 @@ table.comparison td span {
   margin: 0 0 2.25rem 3rem;
 }
 
+.wrapper .tag-list a:after {
+  content: ',';
+}
+
+.wrapper .tag-list a:last-child:after {
+  content: '';
+}
+
+.wrapper *:last-child {
+  margin-bottom: 0;
+}
+
 @media only screen and (max-width: 849px) {
   .wrapper {
     padding-left: 1.5rem;
