@@ -13,12 +13,15 @@ Flight::route( '/', function() {
 	site_title( 'Pro Theme Design - Professional WordPress Themes' );
 	site_description( 'Join over <strong>' . paid_customers() . '</strong> happy WordPress themers.' );
 
-	$themes = array_slice( get_theme_data(), 0, 4 );
+	$all_themes = get_theme_data();
+
+	$themes = array_slice( $all_themes, 0, 4 );
 
 	Flight::render(
 		'home.php',
 		array(
 			'themes' => $themes,
+			'themes_count' => count( $all_themes ),
 			'themes_intro' => array(
 				[
 					'url' => path( 'theme/label/' ),

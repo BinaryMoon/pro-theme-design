@@ -29,7 +29,7 @@
 					</p>
 
 					<p class="actions">
-						<a href="<?php echo path( '/themes/' ); ?>" class="button">Browse Themes</a>
+						<a href="<?php echo path( '/themes/' ); ?>" class="button">Browse <?php echo $themes_count; ?> Themes</a>
 						<!-- <a href="<?php echo path( '/why-us/' ); ?>" class="button minor">Why Us?</a> -->
 					</p>
 
