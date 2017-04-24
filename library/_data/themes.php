@@ -29,7 +29,7 @@ function get_theme_data() {
 			'price-wporg' => 99,
 			'url-wpcom' => 'label',
 			'image' => 'label.png',
-			'tags' => array( 'magazine', 'photography', 'new' ),
+			'tags' => array( 'magazine', 'photography', 'new', 'fashion' ),
 			'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'portfolio', 'post-formats', 'raddcontrol' ),
 			'color' => '#626e7a',
 		),
@@ -42,7 +42,7 @@ function get_theme_data() {
 			'price-wporg' => 99,
 			'url-wpcom' => 'carmack',
 			'image' => 'carmack.png',
-			'tags' => array( 'magazine', 'new' ),
+			'tags' => array( 'magazine', 'new', 'video-game', 'motor-sports' ),
 			'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'portfolio', 'post-formats', 'raddcontrol' ),
 			'color' => '#FFEE00',
 		),
@@ -56,7 +56,7 @@ function get_theme_data() {
 			'url-wpcom' => 'exhibit',
 			'url-cm' => '348846-Exhibit-WordPress-Portfolio-Theme',
 			'image' => 'exhibit.png',
-			'tags' => array( 'portfolio', 'hot' ),
+			'tags' => array( 'portfolio', 'hot', 'business' ),
 			'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'testimonials', 'portfolio', 'raddcontrol' ),
 			'color' => '#e09485',
 		),
@@ -68,9 +68,8 @@ function get_theme_data() {
 			'price-wpcom' => 79,
 			'price-wporg' => 99,
 			'url-wpcom' => 'passenger',
-			// 'url-cm' => '312560-Monet-WordPress-Portfolio-Theme',
 			'image' => 'passenger.png',
-			'tags' => array( 'blog' ),
+			'tags' => array( 'blog', 'travel', 'journal', 'scrapbook' ),
 			'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'portfolio', 'post-formats', 'testimonials' ),
 			'color' => '#444444',
 		),
@@ -84,7 +83,7 @@ function get_theme_data() {
 			'url-wpcom' => 'puzzle',
 			'url-cm' => '108641-Puzzle-Responsive-WordPress-Theme',
 			'image' => 'puzzle.png',
-			'tags' => array( 'portfolio', 'photography' ),
+			'tags' => array( 'portfolio', 'photography', 'business' ),
 			'supports' => array( 'portfolio', 'site-logo', 'infinite-scroll', 'social-menu', 'testimonials', 'theme-club', 'raddcontrol' ),
 			'color' => '#2ECC71',
 		),
@@ -99,7 +98,7 @@ function get_theme_data() {
 			'url-wpcom' => 'chronicle',
 			'url-cm' => '113017-Chronicle-Magazine-Theme',
 			'image' => 'chronicle.png',
-			'tags' => array( 'magazine', 'blog', 'hot' ),
+			'tags' => array( 'magazine', 'blog', 'hot', 'newspaper' ),
 			'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'social-menu', 'testimonials', 'theme-club', 'raddcontrol' ),
 			'color' => '#C0392B',
 		),
@@ -113,7 +112,7 @@ function get_theme_data() {
 			'url-wpcom' => 'monet',
 			'url-cm' => '312560-Monet-WordPress-Portfolio-Theme',
 			'image' => 'monet.png',
-			'tags' => array( 'portfolio', 'photography' ),
+			'tags' => array( 'portfolio', 'photography', 'business' ),
 			'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'social-menu', 'portfolio', 'theme-club' ),
 			'color' => '#6f7f9f',
 		),
@@ -127,7 +126,7 @@ function get_theme_data() {
 			'url-wpcom' => 'romero',
 			'url-cm' => '312559-Romero-WordPress-Video-Game-Theme',
 			'image' => 'romero.png',
-			'tags' => array( 'blog', 'magazine', 'hot' ),
+			'tags' => array( 'blog', 'magazine', 'hot', 'video-game' ),
 			'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'social-menu', 'custom-colours-fonts', 'raddcontrol' ),
 			'color' => '#4A90E2',
 		),
@@ -211,7 +210,7 @@ function get_theme_data() {
 			'url-wpcom' => 'traveler',
 			'url-cm' => '150534-Traveler-Visual-WordPress-Theme',
 			'image' => 'traveler.png',
-			'tags' => array( 'magazine', 'blog' ),
+			'tags' => array( 'magazine', 'blog', 'travel', 'journal' ),
 			'supports' => array( 'featured-content', 'featured-image', 'infinite-scroll', 'theme-club', 'raddcontrol' ),
 			'color' => '#1e2123',
 		),
@@ -225,7 +224,7 @@ function get_theme_data() {
 			'url-wpcom' => 'broadsheet',
 			'url-cm' => '108643-Broadsheet-Newspaper-Theme',
 			'image' => 'broadsheet.png',
-			'tags' => array( 'magazine', 'hot' ),
+			'tags' => array( 'magazine', 'hot', 'newspaper' ),
 			'supports' => array( 'site-logo', 'featured-image', 'infinite-scroll', 'social-menu', 'testimonials', 'theme-club', 'raddcontrol' ),
 			'color' => '#1b557a',
 		),
@@ -296,7 +295,7 @@ function get_theme_data() {
 			'url-wpcom' => 'isca',
 			'url-wporg' => 'isca',
 			'image' => 'isca.png',
-			'tags' => array( 'blog' ),
+			'tags' => array( 'blog', 'tumblog' ),
 			'supports' => array( 'infinite-scroll', 'post-formats', 'raddcontrol' ),
 			'color' => '#e9e6e0',
 		),
@@ -386,6 +385,8 @@ function get_theme_data() {
 			$theme['price-wporg'] = '<small>$</small>' . $theme['price-wporg'];
 		}
 
+		sort( $theme['tags'] );
+
 		$theme['price-wpcom'] = '<small>$</small>' . $theme['price-wpcom'];
 
 		// Set the display price.
@@ -446,6 +447,32 @@ function themes_select_box() {
 <?php
 	}
 
+}
+
+
+/**
+ * Display a list of tags.
+ *
+ * @param  array $list A list of tags to display.
+ */
+function themes_tag_list( $list ) {
+
+	if ( empty( $list ) ) {
+		return;
+	}
+
+?>
+	<p class="intro tag-list">
+<?php
+	foreach ( $list as $tag ) {
+		$name = get_theme_tag_name( $tag );
+?>
+		<a href="<?php echo path( '/themes/' . $tag . '/' ); ?>" alt="More <?php echo $name; ?> WordPress Themes"><?php echo $name; ?></a>
+<?php
+}
+?>
+	</p>
+<?php
 }
 
 
@@ -586,5 +613,48 @@ function themes_supports( $theme, $feature ) {
 	}
 
 	return false;
+
+}
+
+
+/**
+ * Get an array of all of the available theme tags, sorted by name.
+ *
+ * @return array
+ */
+function get_theme_tags() {
+
+	$themes = get_theme_data();
+
+	$theme_tags = array();
+
+	foreach ( $themes as $theme ) {
+
+		$theme_tags = array_merge( $theme_tags, $theme['tags'] );
+
+	}
+
+	$theme_tags = array_unique( $theme_tags );
+	sort( $theme_tags );
+
+	return $theme_tags;
+
+}
+
+
+/**
+ * Convert a url slug into a human readable name.
+ *
+ * @param  string $tag The tag to convert into a name.
+ * @return string
+ */
+function get_theme_tag_name( $tag ) {
+
+	$tag_name = $tag;
+	$tag_name = str_replace( '-', ' ', $tag_name );
+	$tag_name = str_replace( 'wordpress', 'WordPress', $tag_name );
+	$tag_name = ucwords( $tag_name );
+
+	return $tag_name;
 
 }
