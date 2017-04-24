@@ -24,6 +24,10 @@
 			<a href="<?php echo path( 'themes/' ); ?>">Themes</a>
 		</li>
 
+		<li class="<?php echo nav_class( 'documentation', $section ); ?>">
+			<a href="<?php echo path( 'documentation/' ); ?>">Support</a>
+		</li>
+
 		<li class="<?php echo nav_class( 'wordpress-plugins', $section ); ?>" >
 			<a href="<?php echo path( 'wordpress-plugins/' ); ?>">Plugins</a>
 		</li>
@@ -39,10 +43,6 @@
 			<a href="<?php echo path( 'tools/' ); ?>">Tools</a>
 		</li>
 		-->
-
-		<li class="<?php echo nav_class( 'documentation', $section ); ?>">
-			<a href="<?php echo path( 'documentation/' ); ?>">Support</a>
-		</li>
 
 		<li class="separator social-links">
 			<?php include( 'social.php' ); ?>
