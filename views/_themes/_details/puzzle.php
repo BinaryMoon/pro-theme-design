@@ -4,6 +4,12 @@
 
 </div>
 
+<div class="wrapper">
+
+	<img src="<?php echo image_path( 'theme-screenshot-collage/collage-puzzle.jpg' ); ?>" />
+
+</div>
+
 <div class="wrapper features">
 
 <?php

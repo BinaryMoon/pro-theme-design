@@ -4,6 +4,12 @@
 
 </div>
 
+<div class="wrapper">
+
+	<img src="<?php echo image_path( 'theme-screenshot-collage/collage-label.jpg' ); ?>" />
+
+</div>
+
 <div class="wrapper features">
 
 <?php
