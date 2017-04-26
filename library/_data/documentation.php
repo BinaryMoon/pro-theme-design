@@ -84,6 +84,7 @@ function get_documentation_data() {
 			'name' => 'Theme Updates',
 			'type' => 'general',
 			'related' => array( 'theme-license-key', 'keeping-website-up-to-date', 'theme-installation' ),
+			'og-image' => 'update.jpg',
 		),
 		'wordpress-requirements' => array(
 			'name' => 'Theme Requirements',
