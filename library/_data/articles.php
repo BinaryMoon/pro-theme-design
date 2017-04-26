@@ -13,6 +13,7 @@ function get_article_data() {
 			'prefix' => '0001',
 			'description' => 'A variety of suggestions on how to earn money from your favorite open source software.',
 			'icon' => 'commerce-cash',
+			'og-image' => 'money.jpg',
 		),
 
 		'be-a-wordpress-implementer' => array(
@@ -21,6 +22,7 @@ function get_article_data() {
 			'prefix' => '0002',
 			'description' => 'The differences between WordPress Implementors and WordPress Developers.',
 			'icon' => 'app-wrench',
+			'og-image' => 'craft.jpg',
 		),
 
 		'earn-more-as-a-wordpress-freelancer' => array(
@@ -29,6 +31,7 @@ function get_article_data() {
 			'prefix' => '0003',
 			'description' => 'Increase your income whilst keeping your clients happy.',
 			'icon' => 'smiley-smile',
+			'og-image' => 'cowork.jpg',
 		),
 
 		'make-beautiful-cohesive-wordpress-designs' => array(
@@ -37,6 +40,7 @@ function get_article_data() {
 			'prefix' => '0005',
 			'description' => 'Tips and Tricks to improve how you design WordPress things.',
 			'icon' => 'app-paintbrush',
+			'og-image' => 'hello-beautiful.jpg',
 		),
 
 	);

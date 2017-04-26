@@ -410,11 +410,14 @@ Flight::route( '/how-to/(@page)/', function( $page = '' ) {
 
 		site_title( $article['name'] );
 
+		site_meta_image( $article['og-image'] );
+
 		if ( ! empty( $article['description'] ) ) {
 
 			site_description( $article['description'] );
 
 		}
+
 	} else {
 
 		Flight::notFound();
