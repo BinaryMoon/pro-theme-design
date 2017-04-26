@@ -1,3 +1,7 @@
+<h3>10.2.4 - 18th April 2017</h3>
+<ul>
+<li>Update content_width to ensure post content is sized correctly.</li>
+</ul>
 <h3>10.2.3 - 31st October 2016</h3>
 <ul>
 <li>Make attachment pages display in the loop so that content and excerpts display correctly</li>

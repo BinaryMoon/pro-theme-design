@@ -1,3 +1,7 @@
+<h3>1.5.2 - 24th April 2017</h3>
+<ul>
+<li>Tweak default number of posts displayed on infinite scroll so that we don't have a weird space left</li>
+</ul>
 <h3>1.5.1 - 12th December 2016</h3>
 <ul>
 <li>Improve rtl.css styles</li>
