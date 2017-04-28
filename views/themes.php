@@ -11,6 +11,14 @@
 
 	<h1><?php echo $themes_title; ?> WordPress&nbsp;Themes</h1>
 
+<?php
+	if ( ! empty( $theme_tag_description ) ) {
+
+		echo '<p class="intro">' . $theme_tag_description . '</p>';
+
+	}
+?>
+
 </div>
 
 <?php
@@ -35,7 +43,9 @@
 		<div class="wrapper">
 
 			<h2>All WordPress Theme Categories</h2>
-			<?php themes_tag_list( $theme_tags ); ?>
+<?php
+	themes_tag_list( $theme_tags );
+?>
 
 		</div>
 

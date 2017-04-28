@@ -266,7 +266,7 @@ Flight::route( '/themes/(@tag)/', function( $tag = '' ) {
 	site_page_nav_add( 'All', 'themes/' );
 
 	// If not one of the hardcoded tags then list the tag.
-	if ( ! in_array( $tag, array( 'magazine', 'portfolio', 'photography', 'blog', 'free', 'wordpress.org' ) ) ) {
+	if ( ! in_array( $tag, array( 'magazine', 'portfolio', 'photography', 'blog', 'free', 'wordpress.org' ), true ) ) {
 		site_page_nav_add( $themes_title, 'themes/' . $tag . '/' );
 	}
 
@@ -276,8 +276,16 @@ Flight::route( '/themes/(@tag)/', function( $tag = '' ) {
 	site_page_nav_add( 'Blog', 'themes/blog/' );
 	site_page_nav_add( 'Free', 'themes/free/' );
 
-	// site_enable_purchase();
+	// Get theme tag info.
+	$theme_tag_data = get_theme_tag_data( $tag );
+	$theme_tag_description = '';
 
+	if ( $theme_tag_data ) {
+
+		site_meta_image( $theme_tag_data['og-image'] );
+		$theme_tag_description = $theme_tag_data['description'];
+
+	}
 
 	Flight::render(
 		'themes.php',
@@ -285,6 +293,7 @@ Flight::route( '/themes/(@tag)/', function( $tag = '' ) {
 			'themes' => $themes,
 			'themes_title' => $themes_title,
 			'theme_tags' => get_theme_tags(),
+			'theme_tag_description' => $theme_tag_description,
 			'tag' => $tag,
 		)
 	);
