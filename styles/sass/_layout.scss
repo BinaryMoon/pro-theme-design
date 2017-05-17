@@ -22,12 +22,19 @@ a {
 hr {
 
 	border: none;
-
 	display: block;
 	margin: ( $grid-line-height * 3 ) 0;
 	height: $grid-line-height;
 	width: 100%;
 	clear: both;
-	background: url( ../../img/website/divider.svg ) center center no-repeat;
+	background: url( ../../img/website/divider.svg ) center center no-repeat transparent;
+
+	&.arrow {
+
+		background-image: url( ../../img/iconicon/arrow-bottom.svg );
+		background-size: contain;
+		height: $grid-line-height * 1.5;
+
+	}
 
 }

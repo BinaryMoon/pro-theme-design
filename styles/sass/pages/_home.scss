@@ -10,7 +10,7 @@
 
 		.wrap {
 
-			max-width: $grid-total-width / 2;
+			max-width: ( $grid-total-width / 3 ) * 2;
 			width: 100%;
 
 		}
@@ -21,7 +21,7 @@
 
 		padding: ( $grid-line-height * 3 ) ( 0 );
 		margin: 0;
-		width: 50%;
+		width: 75%;
 
 		.wrap {
 
@@ -68,11 +68,15 @@
 
 		}
 
+		.actions {
+
+			margin-bottom: $grid-line-height * 4;
+
+		}
+
 	}
 
 	.themes {
-
-		padding-top: $grid-line-height * 4;
 
 		h2 {
 
@@ -258,8 +262,7 @@
 
 		.tiles {
 
-			height: $grid-line-height * 20;
-			margin-bottom: $grid-line-height * 4;
+			display: none;
 
 		}
 

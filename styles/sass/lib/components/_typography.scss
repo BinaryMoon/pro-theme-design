@@ -20,7 +20,7 @@ h6 {
 	color: $body-header-color;
 	font-family: $font-family-header;
 	font-weight: $font-weight;
-	margin: 0 0 ( $grid-line-height * $line-height-margin-multiplier ) 0;
+	margin: 0 0 ( $grid-line-height * $grid-line-height-multiplier ) 0;
 
 	a {
 

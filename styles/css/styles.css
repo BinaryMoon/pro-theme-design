@@ -298,7 +298,7 @@ h6 {
   color: #21252a;
   font-family: "Poppins", Arial, sans-serif;
   font-weight: normal;
-  margin: 0 0 1.2rem 0;
+  margin: 0 0 2.25rem 0;
 }
 
 h1 a,
@@ -940,6 +940,7 @@ article.summary h2 {
 .block-wrapper header.block-header {
   width: 100%;
   padding: 0 3rem;
+  margin-bottom: 2.25rem;
 }
 
 .block-wrapper header.block-header h1, .block-wrapper header.block-header h2, .block-wrapper header.block-header h3, .block-wrapper header.block-header h4, .block-wrapper header.block-header h5, .block-wrapper header.block-header h6 {
@@ -2037,7 +2038,7 @@ table.comparison td span {
 }
 
 .wrapper h2 a {
-  color: #1bb3ca;
+  color: #d95626;
 }
 
 .wrapper .intro {
@@ -2470,7 +2471,7 @@ table.comparison td span {
   font-size: 1.75rem;
   line-height: 1.5;
   font-weight: bold;
-  margin: 0.75rem 0 0 0;
+  margin: 0;
   width: 100%;
 }
 
@@ -2574,14 +2575,14 @@ table.comparison td span {
 }
 
 .page-home .home-header .wrap {
-  max-width: 40rem;
+  max-width: 53.33333rem;
   width: 100%;
 }
 
 .page-home .masthead {
   padding: 4.5rem 0;
   margin: 0;
-  width: 50%;
+  width: 75%;
 }
 
 .page-home .masthead .wrap {
@@ -2620,8 +2621,8 @@ table.comparison td span {
   margin-bottom: 1.5rem;
 }
 
-.page-home .themes {
-  padding-top: 6rem;
+.page-home .masthead .actions {
+  margin-bottom: 6rem;
 }
 
 .page-home .themes h2 {
@@ -2777,8 +2778,7 @@ table.comparison td span {
     max-width: 100%;
   }
   .page-home .tiles {
-    height: 30rem;
-    margin-bottom: 6rem;
+    display: none;
   }
   .page-home .masthead .site-description,
   .page-home .masthead .site-title {
@@ -3015,7 +3015,7 @@ table.comparison td span {
 }
 
 .page-support .column h2 a small {
-  color: #1bb3ca;
+  color: #d95626;
   float: right;
 }
 
@@ -3204,7 +3204,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #1bb3ca;
+  color: #d95626;
 }
 
 .device-click a {
@@ -3223,7 +3223,13 @@ hr {
   height: 1.5rem;
   width: 100%;
   clear: both;
-  background: url(../../img/website/divider.svg) center center no-repeat;
+  background: url(../../img/website/divider.svg) center center no-repeat transparent;
+}
+
+hr.arrow {
+  background-image: url(../../img/iconicon/arrow-bottom.svg);
+  background-size: contain;
+  height: 2.25rem;
 }
 
 @media only screen and (max-width: 1200px) {
