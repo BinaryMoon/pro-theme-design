@@ -158,12 +158,14 @@
 					</div>
 				</div>
 
+				<!--
 				<div class="block">
 					<div class="content">
 						<h3>Really easy to use themes.</h3>
 						<p>We think a lot about user experience, and make sure all our themes are easy for you to use. This makes the initial theme setup intuitive and straightforward.</p>
 					</div>
 				</div>
+				-->
 
 				<div class="block">
 					<div class="content">
