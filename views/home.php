@@ -33,20 +33,6 @@
 						<!-- <a href="<?php echo path( '/why-us/' ); ?>" class="button minor">Why Us?</a> -->
 					</p>
 
-					<h2>We create <strong>WordPress themes that just work</strong>.</h2>
-
-					<p>Since 2007 we’ve made over <strong><?php echo paid_customers(); ?></strong> customers happy with our professionally built, meticulously designed and expertly coded WordPress themes.</p>
-
-					<p>We keep our themes <strong>fast, secure and bloat-free</strong> by making use of WordPress’ best practises and coding standards, always using built-in functionality where possible. This makes our themes very easy for you to use and customize.</p>
-
-					<p>Each of our themes is designed for one purpose, and aims to be best-in-class for that purpose. Specialization – rather than a single bloated theme which “does everything” – lets us focus on the features and additions which make our themes the best you’ll find.</p>
-
-					<p>Our WordPress themes come with <a href="<?php echo path( '/documentation/theme/' ); ?>">extensive documentation</a> and if you need any help you have direct access to expert support from our Lead Developer.</p>
-
-					<p><a href="<?php echo path( '/themes/' ); ?>" class="button">Find the WordPress Theme for you</a></p>
-
-					<p>Or choose from: <a href="<?php echo path( '/themes/magazine/' ); ?>">Magazine</a>, <a href="<?php echo path( '/themes/portfolio/' ); ?>">Portfolio</a>, <a href="<?php echo path( '/themes/photography/' ); ?>">Photography</a>, <a href="<?php echo path( '/themes/blog/' ); ?>">Blogs</a> and <a href="<?php echo path( '/themes/' ); ?>">more</a>.</p>
-
 				</div>
 
 			</header>
@@ -64,6 +50,31 @@
 	}
 ?>
 			</div>
+
+		</section>
+
+		<hr />
+
+		<!-- Site Intro -->
+		<section class="wrapper text site-intro">
+
+			<h2>We create <strong>WordPress themes that just work</strong>.</h2>
+
+			<div class="site-intro-description">
+
+				<p>Since 2007 we’ve made over <strong><?php echo paid_customers(); ?></strong> customers happy with our professionally built, meticulously designed and expertly coded WordPress themes.</p>
+
+				<p>We keep our themes <strong>fast, secure and bloat-free</strong> by making use of WordPress’ best practises and coding standards, always using built-in functionality where possible. This makes our themes very easy for you to use and customize.</p>
+
+				<p>Each of our themes is designed for one purpose, and aims to be best-in-class for that purpose. Specialization – rather than a single bloated theme which “does everything” – lets us focus on the features and additions which make our themes the best you’ll find.</p>
+
+				<p>Our WordPress themes come with <a href="<?php echo path( '/documentation/theme/' ); ?>">extensive documentation</a> and if you need any help you have direct access to expert support from our Lead Developer.</p>
+
+			</div>
+
+			<p><a href="<?php echo path( '/themes/' ); ?>" class="button greedy">Find the WordPress Theme for you</a></p>
+
+			<p>Or choose from: <a href="<?php echo path( '/themes/magazine/' ); ?>">Magazine</a>, <a href="<?php echo path( '/themes/portfolio/' ); ?>">Portfolio</a>, <a href="<?php echo path( '/themes/photography/' ); ?>">Photography</a>, <a href="<?php echo path( '/themes/blog/' ); ?>">Blogs</a> and <a href="<?php echo path( '/themes/' ); ?>">more</a>.</p>
 
 		</section>
 
