@@ -2,9 +2,9 @@
 	<section>
 		<div class="content">
 			<h3 class="number">
-				Projects to Showcase Your Work
+				Showcase Your Work
 			</h3>
-			<p class="description">Using the Jetpack plugin you can add projects to your site. You can use the Projects page template as your homepage, keeping your blog content separate.</p>
+			<p class="description">Add portfolio items to your website, and even choose to use a custom homepage only displaying your portfolio – keeping your blog content separate.</p>
 		</div>
 	</section>
 	<header>
