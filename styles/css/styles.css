@@ -2575,19 +2575,19 @@ table.comparison td span {
 }
 
 .page-home .home-header .wrap {
-  max-width: 53.33333rem;
+  max-width: 40rem;
   width: 100%;
 }
 
 .page-home .masthead {
   padding: 4.5rem 0;
   margin: 0;
-  width: 75%;
+  width: 50%;
 }
 
 .page-home .masthead .wrap {
   float: right;
-  padding: 0 3rem;
+  padding: 0 0 0 3rem;
 }
 
 .page-home .masthead .site-description,
