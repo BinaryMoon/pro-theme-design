@@ -1,3 +1,8 @@
+<h3>1.8.1 - 17th May 2017</h3>
+<ul>
+<li>Fix issue with featured image on single post pages not honoring theme option.</li>
+<li>Tweak responsive layout on single posts and pages for small screens so that titles and content fit better.</li>
+</ul>
 <h3>1.8 - 28th March 2017</h3>
 <ul>
 <li>Add support for Jetpack content options</li>
