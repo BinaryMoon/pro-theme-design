@@ -2,9 +2,9 @@
 	<section>
 		<div class="content">
 			<h3 class="number">
-				Minimal Options
+				Theme Options (but only those you actually need)
 			</h3>
-			<p class="description">Just the right amount of options.</p>
+			<p class="description">We adhere to WordPress' philosophy of "decisions, not options" and therefore have minimal theme options. This makes for a theme that's much easier to setup and use and may well become your favorite feature.</p>
 		</div>
 	</section>
 	<header>
