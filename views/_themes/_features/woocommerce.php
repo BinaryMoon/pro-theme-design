@@ -2,9 +2,9 @@
 	<section>
 		<div class="content">
 			<h3 class="number">
-				Ecommerce
+				WooCommerce Support
 			</h3>
-			<p class="description">Fully integrated with WooCommerce so you can get your store up and running with minimal effort.</p>
+			<p class="description">This theme is fully integrated with the WooCommerce plugin so you can get your own online store up and running with minimal effort.</p>
 		</div>
 	</section>
 	<header>
