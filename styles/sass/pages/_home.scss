@@ -220,11 +220,18 @@
 
 	.site-intro {
 
+		h2 {
+
+			text-align: center;
+
+		}
+
 	}
 
 	.site-intro-description {
 
 		column-count: 2;
+		column-width: 20rem;
 		column-gap: $grid-gutter;
 		margin-bottom: $grid-line-height * $grid-line-height-multiplier;
 
