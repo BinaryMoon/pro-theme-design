@@ -4,7 +4,7 @@
 			<h3 class="number">
 				Accessibility Ready
 			</h3>
-			<p class="description">Increase the number of visitors who can use and navigate your website.</p>
+			<p class="description">This theme follows best practises for web accessibility, making the theme easier to use for those with visual impairments, mobility problems or other accessiblity issues.</p>
 		</div>
 	</section>
 	<header>
