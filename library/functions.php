@@ -208,7 +208,7 @@ function page_is_themes() {
 function paid_customers() {
 
 	// This number isn't strictly accurate - but it's pretty close to the true number of users.
-	$customers = date( 'U' ) / 12345 / 2;
+	$customers = floor( date( 'U' ) / 12345 / 2.5 );
 	$customers = number_format( $customers );
 
 	return $customers;
