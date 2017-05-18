@@ -2754,6 +2754,16 @@ table.comparison td span {
   left: 72%;
 }
 
+.page-home .site-intro-description {
+  -webkit-column-count: 2;
+     -moz-column-count: 2;
+          column-count: 2;
+  -webkit-column-gap: 3rem;
+     -moz-column-gap: 3rem;
+          column-gap: 3rem;
+  margin-bottom: 2.25rem;
+}
+
 @media only screen and (max-width: 80rem) {
   .page-home .masthead {
     padding: 3rem 3rem;

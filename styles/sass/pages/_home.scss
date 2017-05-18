@@ -218,6 +218,18 @@
 
 	}
 
+	.site-intro {
+
+	}
+
+	.site-intro-description {
+
+		column-count: 2;
+		column-gap: $grid-gutter;
+		margin-bottom: $grid-line-height * $grid-line-height-multiplier;
+
+	}
+
 }
 
 @media only screen and (max-width: $grid-total-width) {
