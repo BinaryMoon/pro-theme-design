@@ -2,9 +2,9 @@
 	<section>
 		<div class="content">
 			<h3 class="number">
-				Elegant Layout
+				Responsive Design
 			</h3>
-			<p class="description">A beautiful structure that adapts to your content with a responsive layout that works on any device.</p>
+			<p class="description">Your website will look beautiful wherever it's viewed. Desktop, tablet or mobile – the responsive design adapts your site's layout to fit the screen size.</p>
 		</div>
 	</section>
 	<header>
