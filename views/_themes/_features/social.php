@@ -4,7 +4,7 @@
 			<h3 class="number">
 				Social Links to Improve Your Online Presence
 			</h3>
-			<p class="description">Easy access to your social media channels through a special social links menu.</p>
+			<p class="description">Give your website's visitors easy access to your social media channels with a special social links menu.</p>
 		</div>
 	</section>
 	<header>
