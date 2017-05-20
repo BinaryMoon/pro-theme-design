@@ -2768,7 +2768,7 @@ table.comparison td span {
   -webkit-column-gap: 3rem;
      -moz-column-gap: 3rem;
           column-gap: 3rem;
-  margin-bottom: 2.25rem;
+  margin-bottom: 3rem;
 }
 
 @media only screen and (max-width: 80rem) {
