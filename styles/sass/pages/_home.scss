@@ -290,7 +290,23 @@
 			.site-description,
 			.site-title {
 
-				@include modular-scale( delta );
+				@include modular-scale( gamma );
+
+			}
+
+			.site-description {
+
+				span {
+
+					display: inline;
+
+				}
+
+			}
+
+			.wrap {
+
+				padding: 0 ( $grid-gutter );
 
 			}
 
