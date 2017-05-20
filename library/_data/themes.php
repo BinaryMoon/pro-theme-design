@@ -90,8 +90,8 @@ function get_theme_data() {
 
 		'chronicle' => array(
 			'name' => 'Chronicle',
-			'description' => 'A magazine theme. With 3 optional widget areas, featured posts, and a huge homepage slider, there are lots of options for creating interesting, immersive websites.',
-			'short_description' => 'A modern WordPress magazine theme.',
+			'description' => 'Chronicle is a powerful, flexible magazine WordPress theme with huge customization potential. Three widget areas, featured posts and a huge homepage slider are make this the magazine WordPress theme you’ve been waiting for.',
+			'short_description' => 'A flexible and customizable magazine WordPress theme.',
 			'price-wpcom' => 79,
 			'price-wporg' => 129,
 			'parent-theme' => 'broadsheet',
