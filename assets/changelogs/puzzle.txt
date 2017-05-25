@@ -1,3 +1,9 @@
+<h3>1.7.2 - 24th May 2017</h3>
+<ul>
+<li>Improve social widgets responsiveness when in widgets</li>
+<li>Improve post title sizes on mobile devices</li>
+<li>Make WordPress custom logo work, replacing Jetpack site logo (self hosted only)</li>
+</ul>
 <h3>1.7.1 - 29th November 2016</h3>
 <ul>
 <li>Fix links in testimonials.</li>

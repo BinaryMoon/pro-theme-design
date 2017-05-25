@@ -1,3 +1,9 @@
+<h3>2.3.2 - 24th May 2017</h3>
+<ul>
+<li>Improve Infinite Scroll loading on masonry layout</li>
+<li>Improve social widgets responsiveness when in widgets</li>
+<li>Make WordPress custom logo work, replacing Jetpack site logo (self hosted only)</li>
+</ul>
 <h3>2.3.1 - 21st November 2016</h3>
 <ul>
 <li>Improve infinite scroll behaviour so that it looks more seamless</li>
