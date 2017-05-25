@@ -4,7 +4,7 @@
 			<h3 class="number">
 				Integrated Forum
 			</h3>
-			<p class="description">Forum and community.</p>
+			<p class="description">This theme features forum support, using WordPress' forum plugin bbPress. Build the community around your site, create discussion and utilize membership functions easily and in keeping with the rest of your site's design.</p>
 		</div>
 	</section>
 	<header>
