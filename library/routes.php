@@ -181,7 +181,7 @@ Flight::route( '/theme/(@theme)/', function( $theme = '' ) {
 	site_meta( 'twitter:card', 'product' );
 	site_meta( 'og:type', 'product' );
 
-	site_meta_image( image_path( 'theme-devices/' . $theme_data['image'] ) );
+	site_meta_image( 'https://prothemedesign.com' . image_path( 'theme-devices/' . $theme_data['image'] ), true );
 
 	if ( ! empty( $theme_data['url-wporg'] ) ) {
 		site_meta( 'og:price:amount', str_replace( '$', '', $theme_data['price-wporg'] ) );

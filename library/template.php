@@ -54,11 +54,19 @@ function site_header_title( $new_description = '' ) {
  * Display Open Graph meta tags for different social platforms.
  * Minimum image size of 280 x 200
  *
- * @param string [$new_image       = ''] Url of image to display in og meta tags
+ * @param string  $new_image	Url of image to display in og meta tags
+ * @param boolean $absolute_url By default the image is served from an open-graph image folder. If this is set to true then the url will be left alone.
  */
-function site_meta_image( $new_image = '' ) {
+/**
+ * [site_meta_image description]
+ */
+function site_meta_image( $new_image = '', $absolute_url = false ) {
 
 	if ( ! empty( $new_image ) ) {
+
+		if ( ! $absolute_url ) {
+			$new_image = 'https://prothemedesign.com/img/open-graph/' . $new_image . '?d=' . DECACHE_CSS;
+		}
 
 		Flight::set( 'site.meta-image', $new_image );
 
@@ -68,9 +76,9 @@ function site_meta_image( $new_image = '' ) {
 
 		if ( $image ) {
 ?>
-	<meta itemprop="image" content="https://prothemedesign.com/img/open-graph/<?php echo $image; ?>?d=<?php echo DECACHE_CSS; ?>">
-	<meta property="og:image" content="https://prothemedesign.com/img/open-graph/<?php echo $image; ?>?d=<?php echo DECACHE_CSS; ?>">
-	<meta name="twitter:image:src" content="https://prothemedesign.com/img/open-graph/<?php echo $image; ?>?d=<?php echo DECACHE_CSS; ?>">
+	<meta itemprop="image" content="<?php echo $image; ?>">
+	<meta property="og:image" content="<?php echo $image; ?>">
+	<meta name="twitter:image:src" content="<?php echo $image; ?>">
 <?php
 
 		}
