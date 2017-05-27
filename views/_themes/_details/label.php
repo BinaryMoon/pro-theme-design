@@ -17,7 +17,7 @@
 </div>
 
 <div class="wrapper text">
-	
+
 	<h3>Stand out from the crowd with Label’s unique homepage design.</h3>
 
 	<p>This fashion WordPress theme includes a huge featured content slider to show off your best posts and images, a “masonry” style list of recent posts which adapts to fit your content, and a distinctive left-aligned menu design.</p>
@@ -26,13 +26,13 @@
 
 	<h3>Make your readers happy with responsive design</h3>
 
-	<p>image: http://smartmockups.com/mockup/digital_mockuuups_1 (could you do this? I don’t have an iPhone :) – for these, keep the iOS UI in the screenshot and they look more realistic.)</p>
+	<!-- <p>image: http://smartmockups.com/mockup/digital_mockuuups_1 (could you do this? I don’t have an iPhone :) – for these, keep the iOS UI in the screenshot and they look more realistic.)</p> -->
 
 	<p>Your readers will love Label’s responsive design. Responsive design makes a blog look great on desktop, tablet and mobile, so readers can take your blog wherever they like.</p>
 
 	<h3>Use big bold images on posts</h3>
 
-	<p>image: screenshot of top of single post</p>
+	<!-- <p>image: screenshot of top of single post</p> -->
 
 	<p>Label understands the needs of any fashion WordPress theme, and caters for the niche with space for big, bold images in your posts.</p>
 
@@ -40,13 +40,13 @@
 
 	<h3>Get the look you want with customization options</h3>
 
-	<p>gif: using customizer</p>
+	<!-- <p>gif: using customizer</p> -->
 
 	<p>You’ll love how easy it is to get the look you want with Label’s customization options: use the Customizer to change settings and get an instant live preview of your changes. Get the look you want, press save and your changes are made instantly to your site. Easy!</p>
 
 	<h3>Stunning design, code and attention to detail</h3>
 
-	<p>image: highlight design details</p>
+	<!-- <p>image: highlight design details</p> -->
 
 	<p>Not only will your blog look fantastic, but you’ll benefit from our decade of experience making WordPress themes: Label is packed with features to keep readers on your site and deliver a stunning user experience.</p>
 
@@ -59,7 +59,7 @@
 	<p>Whether this is your first premium WordPress theme or your hundredth, you’ll find Label intuitive and easy to use. The theme is designed so that everything just works, and you can get on with creating content.</p>
 
 	<p>If you do need any help, we have <a href="https://prothemedesign.com/documentation/theme/label/">detailed documentation</a> so you can get an answer quickly. Pro Theme Design is a very small team, so if you do need support you’ll get the solution directly from Ben, our lead developer.</p>
-	
+
 </div>
 
 <div class="wrapper features">

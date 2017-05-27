@@ -26,25 +26,25 @@
 
 	<h3>Make your readers happy with responsive design</h3>
 
-	<p>image: http://smartmockups.com/</p>
+	<!-- <p>image: http://smartmockups.com/</p> -->
 
-	<p>Your readers will love Carmack’s responsive design. Responsive design makes a blog look great on desktop, tablet and mobile, so readers can take your blog wherever they like.</p>
+	<p>Your readers will love Carmack’s responsive design. Responsive design makes a website look great on desktop, tablet and mobile, so readers can take your site wherever they like.</p>
 
 	<h3>Beautiful typography for easy reading</h3>
 
-	<p>image: screenshot of top of single post</p>
+	<!-- <p>image: screenshot of top of single post</p> -->
 
 	<p>Your site will be a joy to read with Carmack’s beautiful typography and high attention to detail. Individual posts look excellent with the typography guiding the reader’s eye down the page and ensuring an excellent reader experience that your visitors will love.</p>
 
 	<h3>Get the look you want with customization options</h3>
 
-	<p>gif: using customizer</p>
+	<!-- <p>gif: using customizer</p> -->
 
 	<p>You’ll love how easy it is to get the look you want with Carmack’s customization options: use the Customizer to change settings and get an instant live preview of your changes. Get the look you want, press save and your changes are made instantly to your site. Easy!</p>
 
 	<h3>Stunning design, code and attention to detail</h3>
 
-	<p>image: highlight design details</p>
+	<!-- <p>image: highlight design details</p> -->
 
 	<p>Not only will your blog look fantastic, but you’ll benefit from our decade of experience making WordPress themes: Carmack is packed with features to keep readers on your site and deliver a stunning user experience.</p>
 

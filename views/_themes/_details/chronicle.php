@@ -24,13 +24,13 @@
 
 	<h3>Make your readers happy with responsive design</h3>
 
-	<p>image: http://smartmockups.com/mockup/</p>
+	<!-- <p>image: http://smartmockups.com/mockup/</p> -->
 
 	<p>Your readers will love Chronicle’s responsive design. Responsive design makes a blog look great on desktop, tablet and mobile, so readers can take your blog wherever they like.</p>
 
 	<h3>Keep readers on your site with dual sidebars</h3>
 
-	<p>image: screenshot of single post</p>
+	<!-- <p>image: screenshot of single post</p> -->
 
 	<p>Chronicle understands magazine websites need to be able to show off a lot of content, and lets you do this with its sidebars on either side of the content area for posts.</p>
 
@@ -38,13 +38,13 @@
 
 	<h3>Get the look you want with customization options</h3>
 
-	<p>gif: using customizer</p>
+	<!-- <p>gif: using customizer</p> -->
 
 	<p>You’ll love how easy it is to get the look you want with Chronicle’s customization options: use the Customizer to change settings and get an instant live preview of your changes. Get the look you want, press save and your changes are made instantly to your site. Easy!</p>
 
 	<h3>Stunning design, code and attention to detail</h3>
 
-	<p>image: highlight design details</p>
+	<!-- <p>image: highlight design details</p> -->
 
 	<p>Not only will your blog look fantastic, but you’ll benefit from our decade of experience making WordPress themes: Chronicle is packed with features to keep readers on your site and deliver a stunning user experience.</p>
 

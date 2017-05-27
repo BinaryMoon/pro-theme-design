@@ -16,25 +16,25 @@
 
 	<h3>Make your readers happy with responsive design</h3>
 
-	<p>image: http://smartmockups.com/mockup/</p>
+	<!-- <p>image: http://smartmockups.com/mockup/</p> -->
 
 	<p>Your readers and prospective clients will love Monet’s responsive design. Responsive design makes a site look great on desktop, tablet and mobile, so visitors can take your work wherever they like.</p>
 
 	<h3>Hover over posts for extra detail</h3>
 
-	<p>gif: mouse over post on homepage</p>
+	<!-- <p>gif: mouse over post on homepage</p> -->
 
 	<p>Monet understands that a portfolio WordPress theme needs to utilize a design which gets out the way and lets the visitor focus on the content and achieves this by displaying extra detail only when a visitor hovers over a post. This makes for an elegant but exciting user experience.</p>
 
 	<h3>Get the look you want with customization options</h3>
 
-	<p>gif: using customizer</p>
+	<!-- <p>gif: using customizer</p> -->
 
 	<p>You’ll love how easy it is to get the look you want with Monet’s customization options: use the Customizer to change settings and get an instant live preview of your changes. Get the look you want, press save and your changes are made instantly to your site. Easy!</p>
 
 	<h3>Stunning design, code and attention to detail</h3>
 
-	<p>image: highlight design details</p>
+	<!-- <p>image: highlight design details</p> -->
 
 	<p>Not only will your site look fantastic, but you’ll benefit from our decade of experience making WordPress themes: Monet is packed with features to keep readers on your site and deliver a stunning user experience.</p>
 
@@ -46,8 +46,8 @@
 
 	<p>Whether this is your first premium WordPress theme or your hundredth, you’ll find Monet intuitive and easy to use. The theme is designed so that everything just works, and you can get on with creating content.</p>
 
-	<p>If you do need any help, we have <a href="https://prothemedesign.com/documentation/theme/monet/">detailed documentation</a> so you can get an answer quickly. Pro Theme Design is a very small team, so if you do need support you’ll get the solution directly from Ben, our lead developer.</p>	
-	
+	<p>If you do need any help, we have <a href="https://prothemedesign.com/documentation/theme/monet/">detailed documentation</a> so you can get an answer quickly. Pro Theme Design is a very small team, so if you do need support you’ll get the solution directly from Ben, our lead developer.</p>
+
 </div>
 
 <div class="wrapper features">
