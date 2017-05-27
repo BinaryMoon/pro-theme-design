@@ -29,8 +29,8 @@ function get_theme_data() {
 			'price-wporg' => 99,
 			'url-wpcom' => 'label',
 			'image' => 'label.png',
-			'tags' => array( 'magazine', 'photography', 'new', 'fashion', 'accessible' ),
-			'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'portfolio', 'post-formats', 'raddcontrol' ),
+			'tags' => array( 'magazine', 'photography', 'new', 'fashion', 'accessible', 'e-commerce' ),
+			'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'portfolio', 'post-formats', 'raddcontrol', 'woo-commerce' ),
 			'color' => '#626e7a',
 		),
 
@@ -42,8 +42,8 @@ function get_theme_data() {
 			'price-wporg' => 99,
 			'url-wpcom' => 'carmack',
 			'image' => 'carmack.png',
-			'tags' => array( 'magazine', 'new', 'video-game', 'motor-sports', 'accessible' ),
-			'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'portfolio', 'post-formats', 'raddcontrol' ),
+			'tags' => array( 'magazine', 'new', 'video-game', 'motor-sports', 'accessible', 'e-commerce' ),
+			'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'portfolio', 'post-formats', 'raddcontrol', 'woo-commerce' ),
 			'color' => '#FFEE00',
 		),
 
@@ -83,8 +83,8 @@ function get_theme_data() {
 			'url-wpcom' => 'puzzle',
 			'url-cm' => '108641-Puzzle-Responsive-WordPress-Theme',
 			'image' => 'puzzle.png',
-			'tags' => array( 'portfolio', 'photography', 'business' ),
-			'supports' => array( 'portfolio', 'site-logo', 'infinite-scroll', 'social-menu', 'testimonials', 'theme-club', 'raddcontrol' ),
+			'tags' => array( 'portfolio', 'photography', 'business', 'e-commerce' ),
+			'supports' => array( 'portfolio', 'site-logo', 'infinite-scroll', 'social-menu', 'testimonials', 'theme-club', 'raddcontrol', 'woo-commerce' ),
 			'color' => '#2ECC71',
 		),
 
