@@ -60,15 +60,21 @@ function site_header_title( $new_description = '' ) {
 /**
  * [site_meta_image description]
  */
-function site_meta_image( $new_image = '', $absolute_url = false ) {
+function site_meta_image( $new_image = null, $absolute_url = false ) {
 
-	if ( ! empty( $new_image ) ) {
+	// If the image parameter is not set then output the image.
+	if ( $new_image != null ) {
 
-		if ( ! $absolute_url ) {
-			$new_image = 'https://prothemedesign.com/img/open-graph/' . $new_image . '?d=' . DECACHE_CSS;
+		// If the image is set and not empty then set the new image value.
+		if ( ! empty( $new_image ) ) {
+
+			if ( ! $absolute_url ) {
+				$new_image = 'https://prothemedesign.com/img/open-graph/' . $new_image . '?d=' . DECACHE_CSS;
+			}
+
+			Flight::set( 'site.meta-image', $new_image );
+
 		}
-
-		Flight::set( 'site.meta-image', $new_image );
 
 	} else {
 
