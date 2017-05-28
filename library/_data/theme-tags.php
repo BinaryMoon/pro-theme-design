@@ -30,6 +30,10 @@ function get_theme_tags_data() {
 			'description' => 'Make your fashion or lifestyle site stand out from the crowd with one of our fashion WordPress themes. Pair your great content with one of our stunning designs and you’ll have a recipe for success. Get the fashion WordPress theme for you and create a stunning website.',
 			'og-image' => 'fashion.jpg',
 		),
+		'free' => array(
+			'description' => '',
+			'og-image' => '',
+		),
 		'journal' => array(
 			'description' => 'Share your thoughts, travels and ideas with these journal WordPress themes. The journal style brings a scrapbook style into the digital age. All journal WordPress themes are easy to use and easy to setup: just add your content.',
 			'og-image' => 'journal.jpg',
