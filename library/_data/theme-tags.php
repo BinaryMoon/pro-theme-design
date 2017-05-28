@@ -32,7 +32,7 @@ function get_theme_tags_data() {
 		),
 		'free' => array(
 			'description' => '',
-			'og-image' => '',
+			'og-image' => 'free.jpg',
 		),
 		'journal' => array(
 			'description' => 'Share your thoughts, travels and ideas with these journal WordPress themes. The journal style brings a scrapbook style into the digital age. All journal WordPress themes are easy to use and easy to setup: just add your content.',
