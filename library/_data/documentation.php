@@ -94,6 +94,7 @@ function get_documentation_data() {
 			'name' => 'Keeping Your WordPress Website Up To Date',
 			'type' => 'general',
 			'related' => array( 'theme-license-key', 'theme-updates' ),
+			'og-image' => 'tim.jpg',
 		),
 		'speeding-up-your-wordpress-site' => array(
 			'name' => 'Speeding Up Your WordPress Website',

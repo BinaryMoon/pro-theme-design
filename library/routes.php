@@ -457,6 +457,10 @@ Flight::route( '/documentation/(@type)(/@page)/', function( $type = '', $page = 
 		$layout = '_support/index.php';
 	}
 
+	// Set a default og meta image.
+	// Will be overwritten if there's available image for documentation page.
+	site_meta_image( 'docs.jpg' );
+
 	if ( documentation_type_exists( $type ) ) {
 
 		$layout = '_support/archive.php';
