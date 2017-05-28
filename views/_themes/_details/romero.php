@@ -8,15 +8,7 @@
 
 	<p class="intro">Romero is stunningly easy to set up and use. This is the theme which can take your site to the next level, so get it today!</p>
 
-</div>
-
-<div class="wrapper">
-
-	<img src="<?php echo image_path( 'theme-screenshot-collage/collage-romero.jpg' ); ?>" />
-
-</div>
-
-<div class="wrapper text">
+	<img src="<?php echo image_path( 'theme-screenshot-collage/collage-romero.jpg' ); ?>" class="align" />
 
 	<h3>Showcase your content with Romero’s bold homepage design</h3>
 
@@ -26,7 +18,7 @@
 
 	<h3>Make your readers happy with responsive design</h3>
 
-	<p>image: http://smartmockups.com/mockup/</p>
+	<img src="<?php echo image_path( '/theme-images/romero-computers.png' ); ?>" class="align" />
 
 	<p>Your readers will love Romero’s responsive design. Responsive design makes a blog look great on desktop, tablet and mobile, so readers can take your blog wherever they like.</p>
 

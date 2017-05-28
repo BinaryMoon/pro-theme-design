@@ -8,15 +8,7 @@
 
 	<p>Seriously, you’ll love it.</p>
 
-</div>
-
-<div class="wrapper">
-
-	<img src="<?php echo image_path( 'theme-screenshot-collage/collage-label.jpg' ); ?>" />
-
-</div>
-
-<div class="wrapper text">
+	<img src="<?php echo image_path( 'theme-screenshot-collage/collage-label.jpg' ); ?>" class="align" />
 
 	<h3>Stand out from the crowd with Label’s unique homepage design.</h3>
 

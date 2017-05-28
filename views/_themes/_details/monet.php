@@ -6,7 +6,7 @@
 
 	<p class="intro">This is a really beautiful WordPress theme which will take your portfolio to the next level.</p>
 
-	<p>image 1 –&nbsp;this can be a video eventually</p>
+	<!-- <p>image 1 –&nbsp;this can be a video eventually</p> -->
 
 	<h3>Let Monet showcase your work</h3>
 
@@ -16,7 +16,7 @@
 
 	<h3>Make your readers happy with responsive design</h3>
 
-	<!-- <p>image: http://smartmockups.com/mockup/</p> -->
+	<img src="<?php echo image_path( '/theme-images/monet-iphone.png' ); ?>" class="align" />
 
 	<p>Your readers and prospective clients will love Monet’s responsive design. Responsive design makes a site look great on desktop, tablet and mobile, so visitors can take your work wherever they like.</p>
 

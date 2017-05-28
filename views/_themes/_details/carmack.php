@@ -8,15 +8,7 @@
 
 	<p>This is the magazine WordPress theme you’ve been waiting for.</p>
 
-</div>
-
-<div class="wrapper">
-
-	<img src="<?php echo image_path( 'theme-screenshot-collage/collage-carmack.jpg' ); ?>" />
-
-</div>
-
-<div class="wrapper text">
+	<img src="<?php echo image_path( 'theme-screenshot-collage/collage-carmack.jpg' ); ?>" class="align" />
 
 	<h3>Show off your content with Carmack’s intuitive homepage design</h3>
 
@@ -26,7 +18,7 @@
 
 	<h3>Make your readers happy with responsive design</h3>
 
-	<!-- <p>image: http://smartmockups.com/</p> -->
+	<img src="<?php echo image_path( '/theme-images/carmack-laptop-tablet.png' ); ?>" class="align" />
 
 	<p>Your readers will love Carmack’s responsive design. Responsive design makes a website look great on desktop, tablet and mobile, so readers can take your site wherever they like.</p>
 

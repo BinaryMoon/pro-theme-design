@@ -6,15 +6,7 @@
 
 	<p class="intro">This magazine WordPress theme features a hugely flexible homepage, extra widget areas and responsive design. You’ll love how easy these features are to use and your visitors will love the look of your site.</p>
 
-</div>
-
-<div class="wrapper">
-
-	<img src="<?php echo image_path( 'theme-screenshot-collage/collage-chronicle.jpg' ); ?>" />
-
-</div>
-
-<div class="wrapper text">
+	<img src="<?php echo image_path( 'theme-screenshot-collage/collage-chronicle.jpg' ); ?>" class="align"/>
 
 	<h3>Show off your content with the powerful and flexible homepage design</h3>
 
@@ -24,7 +16,7 @@
 
 	<h3>Make your readers happy with responsive design</h3>
 
-	<!-- <p>image: http://smartmockups.com/mockup/</p> -->
+	<img src="<?php echo image_path( '/theme-images/chronicle-iphone.png' ); ?>" class="align" />
 
 	<p>Your readers will love Chronicle’s responsive design. Responsive design makes a blog look great on desktop, tablet and mobile, so readers can take your blog wherever they like.</p>
 
