@@ -21,7 +21,7 @@
 
 <p>The theme settings control the content displayed on the homepage. These settings can be found in <em>WordPress Admin &rarr; Appearance &rarr; Theme Options</em>.</p>
 
-<img src="<?php echo image_path( 'docs/settings-opti.png' ); ?>" alt="Opti Theme Settings" />
+<img src="<?php echo image_path( 'docs/settings-opti.png' ); ?>" alt="Opti Theme Settings" class="align" />
 
 <ul>
 	<li><strong>Display Homepage Categories</strong> - Tick this to hide the Featured Categories on the homepage.</li>
