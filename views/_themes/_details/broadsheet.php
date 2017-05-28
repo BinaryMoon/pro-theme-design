@@ -2,11 +2,7 @@
 
 	<p class="intro"><strong>Broadsheet</strong> is a newspaper theme. With 3 optional widget areas, and a huge homepage slider there are lots of options for creating interesting, immersive websites.</p>
 
-</div>
-
-<div class="wrapper">
-
-	<img src="<?php echo image_path( 'theme-screenshot-collage/collage-broadsheet.jpg' ); ?>" />
+	<img src="<?php echo image_path( 'theme-screenshot-collage/collage-broadsheet.jpg' ); ?>" class="align" />
 
 </div>
 
