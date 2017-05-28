@@ -5,6 +5,14 @@
  * @package ptd.
  */
 
+/**
+ * romero
+ * carmack
+ * Opti
+ * label
+ * monet
+ */
+
 // Purchase from FastSpring.
 define( 'THEME_PURCHASE', '<button class="button greedy purchase-theme" type="button" data-fsc-action="Add,Checkout" data-fsc-item-path-value="%s">Purchase %s</button>' );
 
@@ -23,8 +31,8 @@ function get_theme_data() {
 
 		'label' => array(
 			'name' => 'Label',
-			'description' => 'Label is a stylistic theme created specially for art and fashion bloggers. With a distinctive masonry powered layout, a full screen post slider, and a classy vertical header - it\'s sure to make your website stand out.',
-			'short_description' => 'A classic blogging theme, with full screen slider.',
+			'description' => 'Label is a stylish WordPress theme for fashion, lifestyle and art bloggers. Put your content at the forefront of your blog with bold imagery and beautiful typography: this is the fashion WordPress theme you’ve been waiting for.',
+			'short_description' => 'Create a stunning fashion blog which stands out from the crowd.',
 			'price-wpcom' => 79,
 			'price-wporg' => 99,
 			'url-wpcom' => 'label',
@@ -105,8 +113,8 @@ function get_theme_data() {
 
 		'monet' => array(
 			'name' => 'Monet',
-			'description' => 'Monet is a delicate responsive portfolio theme for photographers and other creatives. With crisp typography Monet is easy on the eye.',
-			'short_description' => 'A delicate WordPress portfolio theme.',
+			'description' => 'Monet is an elegant, delicate and responsive WordPress theme for your portfolio or blog. Suited to photographers, designers, bloggers and other creatives, the crisp typography ensures your site’s design will ooze quality.',
+			'short_description' => 'Create an elegant, responsive visual or written portfolio.',
 			'price-wpcom' => 79,
 			'price-wporg' => 99,
 			'url-wpcom' => 'monet',
@@ -119,8 +127,8 @@ function get_theme_data() {
 
 		'romero' => array(
 			'name' => 'Romero',
-			'description' => 'A WordPress theme designed for visual magazine sites. Ideal for video game sites, motoring magazines, and other topics that have large vibrant imagery.',
-			'short_description' => 'A modern WordPress video game magazine theme.',
+			'description' => 'Let your content do the talking with this powerful theme suited to visual niches including video game sites, motoring magazines and other topics with vibrant imagery.',
+			'short_description' => 'Create a bold magazine for image-heavy niches.',
 			'price-wpcom' => 79,
 			'price-wporg' => 99,
 			'url-wpcom' => 'romero',
@@ -133,8 +141,8 @@ function get_theme_data() {
 
 		'opti' => array(
 			'name' => 'Opti',
-			'description' => 'A clean blog theme with magazine elements. Custom category blurbs, great typography and a fully editable color scheme.',
-			'short_description' => 'A classical WordPress magazine theme.',
+			'description' => 'This magazine and newspaper-style theme is stunningly easy to use and customize – and is perfect for news and magazine websites with a lot of content to show off.',
+			'short_description' => 'A magazine WordPress theme for content-rich websites.',
 			'price-wpcom' => 79,
 			'price-wporg' => 79,
 			'url-wpcom' => 'opti',
