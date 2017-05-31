@@ -6,7 +6,8 @@
 
 	<p class="intro">This is a really beautiful WordPress theme which will take your portfolio to the next level.</p>
 
-	<!-- <p>image 1 –&nbsp;this can be a video eventually</p> -->
+	<!-- Using the Customizer -->
+	<?php gfycat_embed( 'IdealisticBraveBlueandgoldmackaw' ); ?>
 
 	<h3>Let Monet showcase your work</h3>
 
@@ -28,7 +29,8 @@
 
 	<h3>Get the look you want with customization options</h3>
 
-	<!-- <p>gif: using customizer</p> -->
+	<!-- Using the Customizer -->
+	<?php gfycat_embed( 'ElectricQualifiedGavial' ); ?>
 
 	<p>You’ll love how easy it is to get the look you want with Monet’s customization options: use the Customizer to change settings and get an instant live preview of your changes. Get the look you want, press save and your changes are made instantly to your site. Easy!</p>
 

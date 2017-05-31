@@ -30,13 +30,14 @@
 
 	<h3>Get the look you want with customization options</h3>
 
-	<p>gif: using customizer</p>
+	<!-- Using the Customizer -->
+	<?php gfycat_embed( 'enormoussomehummingbird' ); ?>
 
 	<p>You’ll love how easy it is to get the look you want with Romero’s customization options: use the Customizer to change settings and get an instant live preview of your changes. Get the look you want, press save and your changes are made instantly to your site. Easy!</p>
 
 	<h3>Stunning design, code and attention to detail</h3>
 
-	<p>image: highlight design details</p>
+	<!-- <p>image: highlight design details</p> -->
 
 	<p>Not only will your blog look fantastic, but you’ll benefit from our decade of experience making WordPress themes: Romero is packed with features to keep readers on your site and deliver a stunning user experience.</p>
 

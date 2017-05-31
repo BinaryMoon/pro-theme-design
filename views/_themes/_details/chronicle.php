@@ -30,7 +30,8 @@
 
 	<h3>Get the look you want with customization options</h3>
 
-	<!-- <p>gif: using customizer</p> -->
+	<!-- Using the Customizer -->
+	<?php gfycat_embed( 'PopularTediousFalcon' ); ?>
 
 	<p>You’ll love how easy it is to get the look you want with Chronicle’s customization options: use the Customizer to change settings and get an instant live preview of your changes. Get the look you want, press save and your changes are made instantly to your site. Easy!</p>
 
