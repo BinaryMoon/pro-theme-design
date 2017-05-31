@@ -2111,6 +2111,7 @@ table.comparison td span {
   margin: 0 0 2.25rem 3rem;
 }
 
+.wrapper .youtube,
 .wrapper .gfycat {
   position: relative;
   padding-bottom: 54%;
@@ -2118,12 +2119,17 @@ table.comparison td span {
   margin-bottom: 2.25rem;
 }
 
+.wrapper .youtube iframe,
 .wrapper .gfycat iframe {
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.wrapper .youtube {
+  padding-bottom: 56.2%;
 }
 
 .wrapper .tag-list a:after {
