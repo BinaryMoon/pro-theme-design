@@ -56,6 +56,21 @@ function path( $path = '' ) {
 
 
 /**
+ * Output a responsive iframe embed.
+ *
+ * @param  [type] $video [description]
+ * @return [type]        [description]
+ */
+function gfycat_embed( $video ) {
+
+?>
+<div class="gfycat"><iframe src="https://gfycat.com/ifr/<?php echo $video; ?>" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
+<?php
+
+}
+
+
+/**
  * Get the base directory for the site
  *
  * by default the Flight request object returns a / for site root and no / for directories - so this keeps things consistent
