@@ -2,6 +2,10 @@
 
 	<p class="intro"><strong>Label is a stylish fashion WordPress theme for bloggers who want to stand out</strong>.</p>
 
+	<div class="youtube">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/WkD7j65qixc?rel=0" frameborder="0" allowfullscreen></iframe>
+	</div>
+
 	<p>Put your content to the forefront with big and bold imagery, beautiful typography and a stylish featured homepage slider.</p>
 
 	<p>Focus on your content and let Label take care of the rest: this responsive fashion WordPress theme looks stunning on desktop, tablet and mobile devices <em>and</em> is easy to use and customize. </p>
