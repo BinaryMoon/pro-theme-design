@@ -55,6 +55,12 @@
 				<input type="text" name="_gotcha" style="display:none" />
 			</form>
 
+			<hr />
+
+			<p>We made this service as a freebie to help people through what can be a confusing experience. There are hundreds of thousands of WordPress themes available online and selecting the right one for you, especially if you're not experienced with WordPress, can be hard.</p>
+
+			<p>The service is personalised so each request will take into account the requirements of the project. It's totally free and you are under no obligation to do anything with the information provided.</p>
+
 		</div>
 
 <?php
