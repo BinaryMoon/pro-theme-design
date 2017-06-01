@@ -136,27 +136,6 @@ Flight::route( '/tools/(@tool)/', function( $tool = '' ) {
 
 
 /**
- * Theme Club
- */
-if ( ! DISABLE_THEME_CLUB ) {
-
-	Flight::route( '/theme-club/', function() {
-
-		site_title( 'WordPress Themes Club' );
-		site_description( 'Join over <strong>' . paid_customers() . '</strong> happy WordPress themers.' );
-
-		site_enable_purchase();
-
-		Flight::render(
-			'theme-club.php'
-		);
-
-	} );
-
-}
-
-
-/**
  * Theme
  */
 Flight::route( '/theme/(@theme)/', function( $theme = '' ) {
