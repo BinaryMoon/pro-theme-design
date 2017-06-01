@@ -176,7 +176,7 @@ function get_theme_data() {
 			'url-wpcom' => 'lens',
 			'url-cm' => '108642-Lens-Responsive-Photography-Theme',
 			'image' => 'lens.png',
-			'tags' => array( 'photography' ),
+			'tags' => array( 'photography', 'business' ),
 			'supports' => array( 'site-logo', 'featured-content', 'featured-image', 'infinite-scroll', 'social-menu', 'testimonials', 'theme-club' ),
 			'color' => '#C0392B',
 		),
