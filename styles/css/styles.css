@@ -1499,6 +1499,18 @@ label {
   line-height: 1.75;
 }
 
+.formspree label {
+  margin-bottom: 2.25rem;
+}
+
+.formspree label p {
+  font-weight: normal;
+  max-width: 24rem;
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+}
+
 label span {
   display: block;
   margin-bottom: 0.75rem;

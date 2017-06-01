@@ -3,6 +3,22 @@ label {
 	display:block;
 	@include modular-scale( zeta );
 
+	.formspree & {
+
+		margin-bottom: $grid-line-height * $grid-line-height-multiplier;
+
+		p {
+
+			font-weight: normal;
+			max-width: 24rem;
+			display: block;
+			margin-left: 0;
+			margin-right: 0;
+
+		}
+
+	}
+
 	span {
 
 		display: block;
