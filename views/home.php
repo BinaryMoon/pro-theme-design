@@ -43,7 +43,7 @@
 	foreach ( $themes_intro as $theme ) {
 ?>
 	<a href="<?php echo $theme['url']; ?>">
-		<img src="<?php echo image_path( 'theme-thumbnails/' . $theme['image'] ); ?>" />
+		<img src="<?php echo image_path( 'theme-thumbnails/' . $theme['image'] ); ?>" alt="Screenshot of <?php echo $theme['name']; ?> WordPress Theme" />
 		<span><?php echo $theme['name']; ?></span>
 	</a>
 <?php
