@@ -17,6 +17,11 @@ function get_pages() {
 			'description' => 'Thanks for the message!',
 			'view' => 'contact-thanks.php',
 		),
+		'recommend-a-theme' => array(
+			'title' => 'Recommend a WordPress Theme',
+			'description' => 'Get a free, personalised, no oligation theme recommendation based upon your requirements.',
+			'view' => 'recommend-a-theme.php',
+		),
 		'newsletter' => array(
 			'title' => 'Newsletter',
 			'description' => '<strong>Join the Newsletter.</strong> Keep up to date.',
