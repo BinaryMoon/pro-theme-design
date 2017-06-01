@@ -375,19 +375,6 @@ Flight::route( '/feedback/(@type)/', function( $type = '' ) {
 
 
 /**
- * Search
- */
-Flight::route( '/search/', function() {
-
-	site_title( 'Search' );
-
-	Flight::render(
-		'search.php'
-	);
-
-} );
-
-/**
  * Articles Archive
  */
 Flight::route( '/articles/(@page_number)/', function( $page_number = 0 ) {

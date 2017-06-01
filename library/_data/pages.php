@@ -22,6 +22,11 @@ function get_pages() {
 			'description' => '<strong>Join the Newsletter.</strong> Keep up to date.',
 			'view' => 'newsletter.php',
 		),
+		'search' => array(
+			'title' => 'Search Pro Theme Design',
+			'description' => 'Search the Pro Theme Design website.',
+			'view' => 'search.php',
+		),
 		'contact' => array(
 			'title' => 'Contact Us',
 			'description' => 'Keep in touch.',
