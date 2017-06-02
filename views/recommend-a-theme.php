@@ -7,8 +7,8 @@
 
 		<div class="wrapper text">
 
-			<h1>Recommend a WordPress Theme</h1>
-			<p class="intro">Having trouble finding a WordPress theme for your website? Fill out the form below and we will send you a personalised recommendation.</p>
+			<h1>Get a personalised WordPress theme recommendation</h1>
+			<p class="intro">Having trouble finding the right WordPress theme for your website? Fill out the form below and we'll assess your requirements and send you a personalised recommendation within 24 hours.</p>
 
 			<hr />
 
@@ -60,6 +60,8 @@
 			<p>We made this service as a freebie to help people through what can be a confusing experience. There are hundreds of thousands of WordPress themes available online and selecting the right one for you, especially if you're not experienced with WordPress, can be hard.</p>
 
 			<p>The service is personalised so each request will take into account the requirements of the project. It's totally free and you are under no obligation to do anything with the information provided.</p>
+			
+			<p>Each request is reviewed personally, so please allow up to 24 hours for a response, Monday to Friday.</p>
 
 		</div>
 
