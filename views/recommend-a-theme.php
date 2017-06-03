@@ -27,13 +27,27 @@
 
 				<label>
 					<span>Current Website Url</span>
-					<input type="url" name="website" placeholder="http://prothemedesign.com" required />
+					<input type="url" name="website" placeholder="https://prothemedesign.com" required />
 				</label>
 
 				<label>
-					<span>Website Goal</span>
-					<p>What is the main thing you want to achieve from your website?</p>
-					<textarea name="website_goal" required></textarea>
+					<span>What kind of site are you building?</span>
+					<select required name="website_type">
+						<option disabled selected>Select the type of site</option>
+<?php
+	$tags = get_theme_tags_data();
+	foreach( $tags as $slug => $tag ) {
+
+		if ( $tag['type'] !== 'feature' ) {
+?>
+						<option value="<?php echo $slug; ?>"><?php echo get_theme_tag_name( $slug ); ?></option>
+<?php
+		}
+
+	}
+?>
+						<option value="other">Other - describe in the "Other Info" box below</option>
+					</select>
 				</label>
 
 				<label>
@@ -43,9 +57,9 @@
 				</label>
 
 				<label>
-					<span>Target Audience</span>
-					<p>Who is your ideal customer/ fan/ reader?</p>
-					<textarea name="target_audience" required></textarea>
+					<span>Other Info</span>
+					<p>Give us as much information as you can about your website and what you are looking for.</p>
+					<textarea name="website_features" required></textarea>
 				</label>
 
 				<input type="submit" value="Get Recommendation &rarr;" class="button" />
@@ -60,7 +74,7 @@
 			<p>We made this service as a freebie to help people through what can be a confusing experience. There are hundreds of thousands of WordPress themes available online and selecting the right one for you, especially if you're not experienced with WordPress, can be hard.</p>
 
 			<p>The service is personalised so each request will take into account the requirements of the project. It's totally free and you are under no obligation to do anything with the information provided.</p>
-			
+
 			<p>Each request is reviewed personally, so please allow up to 24 hours for a response, Monday to Friday.</p>
 
 		</div>
