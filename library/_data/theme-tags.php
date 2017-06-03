@@ -15,6 +15,7 @@ function get_theme_tags_data() {
 	$tags = array(
 
 		'accessible' => array(
+			'type' => 'feature',
 			'description' => 'Web accessibility means making websites as easy to use as possible for people with disabilities. These are our most accessible WordPress themes and have been independently reviewed by a web accessibility expert to ensure they meet the highest standards.',
 			'og-image' => 'people.jpg',
 		),
@@ -31,6 +32,7 @@ function get_theme_tags_data() {
 			'og-image' => 'fashion.jpg',
 		),
 		'free' => array(
+			'type' => 'feature',
 			'description' => '',
 			'og-image' => 'free.jpg',
 		),
@@ -73,7 +75,19 @@ function get_theme_tags_data() {
 
 	);
 
-	return $tags;
+	$processed_tags = array();
+
+	foreach( $tags as $slug => $tag ) {
+
+		if ( empty( $tag['type'] ) ) {
+			$tag['type'] = 'theme';
+		}
+
+		$processed_tags[ $slug ] = $tag;
+
+	}
+
+	return $processed_tags;
 
 }
 
