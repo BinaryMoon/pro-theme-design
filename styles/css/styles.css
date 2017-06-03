@@ -510,7 +510,7 @@ input.text:hover,
 .form-select:hover,
 textarea:hover,
 input.settings-input:hover {
-  border-color: #21252a;
+  border-color: #d95626;
 }
 
 input[type=text]:focus,
@@ -530,7 +530,7 @@ input.text:focus,
 textarea:focus,
 input.settings-input:focus {
   outline: none;
-  border-color: #21252a;
+  border-color: #d95626;
   background: #ffffff;
   color: #283c56;
 }
