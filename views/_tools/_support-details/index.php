@@ -19,7 +19,7 @@
 		),
 		'browser' => array(
 			'name' => 'Web Browser',
-			'icon' => 'logo-browser-' . sd_get_browser_icon(),
+			'icon' => sd_get_browser_icon(),
 			'value' => sd_get_browser(),
 			'description' => 'A web browser is the application you use to view the internet. Knowing exactly what this is makes it much easier for us to duplicate bugs that only happen on a specific device.'
 		),
@@ -27,7 +27,6 @@
 			'name' => 'Browser Dimensions',
 			'icon' => 'arrows-alt',
 			'value' => 'n/a',
-			''
 		),
 		'platform' => array(
 			'name' => 'Platform',
