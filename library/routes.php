@@ -86,6 +86,7 @@ Flight::route( '/tools/(@tool)/', function( $tool = '' ) {
 
 		// Is it a tool?
 		$tool_data = tool_get( $tool );
+
 		if ( $tool_data ) {
 
 			site_title( $tool_data['name'] . ' - Pro Theme Design' );
@@ -359,6 +360,8 @@ Flight::route( '/feedback/(@type)/', function( $type = '' ) {
 Flight::route( '/articles/(@page_number)/', function( $page_number = 0 ) {
 
 	site_title( 'Articles' );
+
+	site_meta_image( 'articles.jpg' );
 
 	Flight::render(
 		'articles.php',
