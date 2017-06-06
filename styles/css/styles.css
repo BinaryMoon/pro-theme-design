@@ -1538,6 +1538,10 @@ label em {
   color: #f0f1f3;
 }
 
+label input[type="checkbox"] {
+  float: left;
+}
+
 label:hover {
   cursor: pointer;
 }
