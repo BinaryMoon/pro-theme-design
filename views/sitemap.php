@@ -71,6 +71,8 @@
 
 				<li><a href="<?php echo path( 'why-us/' ); ?>">Why Pro Theme Design?</a></li>
 
+				<li><a href="<?php echo path( 'recommend-a-theme/' ); ?>">Recommend a WordPress Theme</a></li>
+
 				<li><a href="<?php echo path( 'contact/' ); ?>">Contact</a></li>
 
 				<li><a href="<?php echo path( 'policies/' ); ?>">Policies, Terms and Conditions</a></li>
