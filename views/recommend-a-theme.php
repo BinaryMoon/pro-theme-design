@@ -16,21 +16,6 @@
 			<form class="formspree form-contact" method="POST">
 
 				<label>
-					<span>Your Name</span>
-					<input type="text" name="name" placeholder="Jane Smith" required />
-				</label>
-
-				<label>
-					<span>Your Email Address</span>
-					<input type="email" name="_replyto" placeholder="name@domain.com" required />
-				</label>
-
-				<label>
-					<span>Current Website Url</span>
-					<input type="url" name="website" placeholder="https://prothemedesign.com" required />
-				</label>
-
-				<label>
 					<span>What kind of site are you building?</span>
 					<select required name="website_type">
 						<option disabled selected>Select the type of site</option>
@@ -60,6 +45,21 @@
 					<span>Other Info</span>
 					<p>Give us as much information as you can about your website and what you are looking for.</p>
 					<textarea name="website_features" required></textarea>
+				</label>
+
+				<label>
+					<span>Your Name</span>
+					<input type="text" name="name" placeholder="Jane Smith" required />
+				</label>
+
+				<label>
+					<span>Your Email Address</span>
+					<input type="email" name="_replyto" placeholder="name@domain.com" required />
+				</label>
+
+				<label>
+					<span>Current Website Url (if applicable)</span>
+					<input type="url" name="website" placeholder="https://prothemedesign.com" />
 				</label>
 
 				<input type="submit" value="Get Recommendation &rarr;" class="button" />
