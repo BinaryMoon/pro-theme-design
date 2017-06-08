@@ -124,11 +124,22 @@
 
 		</footer>
 
+		<div class="modal-wrapper recommendation-modal">
+			<div class="modal">
+				<button type="button" class="close-button" rel="nofollow">
+					<?php draw_svg( 'app-close-alt', 'small' ); ?>
+					<span class="screen-reader-text">Close Recommendation Overlay</span>
+				</button>
+				<?php include( 'recommendation.php' ); ?>
+			</div>
+		</div>
+
+
 		<div class="modal-wrapper newsletter-modal">
 			<div class="modal">
 				<button type="button" class="close-button" rel="nofollow">
 					<?php draw_svg( 'app-close-alt', 'small' ); ?>
-					<span class="screen-reader-text">Close Newsletter Popup</span>
+					<span class="screen-reader-text">Close Newsletter Overlay</span>
 				</button>
 				<?php include( 'newsletter.php' ); ?>
 			</div>

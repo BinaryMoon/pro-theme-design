@@ -1715,7 +1715,10 @@ label:hover p.hint {
 }
 
 .modal-wrapper h2 {
-  margin-bottom: 0;
+  margin-bottom: 0.75rem;
+  font-size: 28px;
+  font-size: 1.75rem;
+  line-height: 1.5;
 }
 
 .modal-wrapper .modal {

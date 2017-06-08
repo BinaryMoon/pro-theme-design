@@ -2,7 +2,7 @@
 
 ;(function() {
 
-	// reusable functions
+	// Reusable functions
 
 	/**
 	 * JS mobile detection
@@ -35,13 +35,32 @@
 
 	var show_newsletter = function() {
 
-		if ( ! $( 'body' ).hasClass( 'overlay-display' ) ) {
-
-			Cookies.set( 'ptd-newsletter', 1, { expires: 365 } );
-			show_overlay();
-			$( '.newsletter-modal' ).addClass( 'display' );
-
+		// There's an overlay visible so let's leave
+		if ( $( 'body' ).hasClass( 'overlay-display' ) ) {
+			return;
 		}
+
+		Cookies.set( 'ptd-newsletter', 1, { expires: 365 } );
+		show_overlay();
+		$( '.newsletter-modal' ).addClass( 'display' );
+
+	};
+
+	var show_recommendation = function() {
+
+		// There's an overlay visible so let's leave
+		if ( $( 'body' ).hasClass( 'overlay-display' ) ) {
+			return;
+		}
+
+		// Quit if not a theme page.
+		if ( ! $( 'body' ).hasClass( 'page-theme' ) && ! $( 'body' ).hasClass( 'page-themes' ) ) {
+			return;
+		}
+
+		Cookies.set( 'ptd-recommendation', 1, { expires: 365 } );
+		show_overlay();
+		$( '.recommendation-modal' ).addClass( 'display' );
 
 	};
 
@@ -93,9 +112,34 @@
 
 	};
 
+	var update_theme_count = function() {
+
+		// Quit if not a theme page. Checks theme page, and theme archives.
+		if ( ! $( 'body' ).hasClass( 'page-theme' ) && ! $( 'body' ).hasClass( 'page-themes' ) ) {
+			return;
+		}
+
+		var visits = theme_count();
+		visits ++;
+		Cookies.set( 'ptd-themes', visits, { expires: 21 } );
+
+	};
+
+	var theme_count = function() {
+
+		return Cookies.get( 'ptd-themes' ) || 0;
+
+	};
+
 	var newsletter_count = function() {
 
 		return Cookies.get( 'ptd-newsletter' ) || 0;
+
+	};
+
+	var recommendation_count = function() {
+
+		return Cookies.get( 'ptd-recommendation' ) || 0;
 
 	};
 
@@ -108,11 +152,13 @@
 
 	// prepare contact forms
 
-	$( 'form.formspree' ).each( function() {
+	$( 'form.formspree' ).each(
+		function() {
 
-		$( this ).attr( 'action', '//formspree.io/' + 'support' + '@' + 'prothemedesign' + '.' + 'com' );
+			$( this ).attr( 'action', '//formspree.io/' + 'support' + '@' + 'prothemedesign' + '.' + 'com' );
 
-	} );
+		}
+	);
 
 	var prepare_form = function( selector ) {
 
@@ -124,34 +170,47 @@
 
 	// generic modal close
 
-	$( '.close-button' ).on( 'click', function( e ) {
+	$( '.close-button' ).on(
+		'click',
+		function( e ) {
 
-		e.preventDefault();
-		hide_modal();
+			e.preventDefault();
+			hide_modal();
 
-	} );
+		}
+	);
 
 
 	// track events
 
-	$( '.event' ).on( 'click', function() {
+	$( '.event' ).on(
+		'click',
+		function() {
 
-		// check if facebook is active and if not leave
-		if ( typeof( fbq ) === 'undefined' ) {
-			return;
+			// check if facebook is active and if not leave
+			if ( typeof( fbq ) === 'undefined' ) {
+				return;
+			}
+
+			// get the event name
+			var name = $( this ).data( 'event' );
+
+			// do the tracking
+			if ( name ) {
+				// facebook pixel
+				fbq( 'track', name );
+			}
+
 		}
+	);
 
-		// get the event name
-		var name = $( this ).data( 'event' );
+	// pop up theme recommendations
 
-		// do the tracking
-		if ( name ) {
-			// facebook pixel
-			fbq( 'track', name );
-		}
+	if ( theme_count() >= 3 && recommendation_count() < 1 ) {
 
-	} );
+		setTimeout( show_recommendation, 10000 );
 
+	}
 
 	// newsletter popup
 
@@ -161,7 +220,10 @@
 
 	}
 
+	// update page counts (which are actually page views)
+
 	update_visit_count();
+	update_theme_count();
 
 	// feedback popover
 
@@ -174,84 +236,107 @@
 
 	// get theme
 
-	$( 'a.get-theme' ).on( 'click', function( e ) {
+	$( 'a.get-theme' ).on(
+		'click',
+		function( e ) {
 
-		e.preventDefault();
-		show_theme_purchase();
+			e.preventDefault();
+			show_theme_purchase();
 
-	} );
+		}
+	);
 
 
 	// menu
 
-	$( '.search-toggle' ).on( 'click', function( e ) {
+	$( '.search-toggle' ).on(
+		'click',
+		function( e ) {
 
-		e.preventDefault();
-		show_search();
+			e.preventDefault();
+			show_search();
 
-	} );
+		}
+	);
 
-	$( '.drawer-close' ).on( 'click', function( e ) {
+	$( '.drawer-close' ).on(
+		'click',
+		function( e ) {
 
-		e.preventDefault();
+			e.preventDefault();
 
-		hide_menu();
+			hide_menu();
 
-	} );
+		}
+	);
 
 
 	// styleguide
 
-	$( '.pattern' ).each( function() {
+	$( '.pattern' ).each(
+		function() {
 
-		var $link = $( this ).find( 'a.toggle' );
-		var $source = $( this ).find( '.source' );
-		var $display = $( this ).find( '.display' );
+			var $link = $( this ).find( 'a.toggle' );
+			var $source = $( this ).find( '.source' );
+			var $display = $( this ).find( '.display' );
 
-		$link.on( 'click', function( e ) {
+			$link.on(
+				'click',
+				function( e ) {
 
-			e.preventDefault();
+					e.preventDefault();
 
-			$( '.source, .display' ).not( $source ).not( $display ).removeClass( 'hidden' );
+					$( '.source, .display' ).not( $source ).not( $display ).removeClass( 'hidden' );
 
-			$source.toggleClass( 'hidden' );
-			$display.toggleClass( 'hidden' );
+					$source.toggleClass( 'hidden' );
+					$display.toggleClass( 'hidden' );
 
-		} );
+				}
+			);
 
-	} );
+		}
+	);
 
 
 	// theme and website preview
 
-	$( '.preview-size a' ).on( 'click', function( e ) {
+	$( '.preview-size a' ).on(
+		'click',
+		function( e ) {
 
-		e.preventDefault();
+			e.preventDefault();
 
-		$( '.preview-size a' ).removeClass( 'selected' );
-		$( this ).addClass( 'selected' );
+			$( '.preview-size a' ).removeClass( 'selected' );
+			$( this ).addClass( 'selected' );
 
-		var new_size = $( this ).data( 'size' );
-		$( '.iframe-wrapper iframe' ).css( 'max-width', new_size );
+			var new_size = $( this ).data( 'size' );
+			$( '.iframe-wrapper iframe' ).css( 'max-width', new_size );
 
-	});
+		}
+	);
 
 
 	// contact forms
 
-	$( '.contact-other' ).on( 'click', function( e ) {
+	$( '.contact-other' ).on(
+		'click',
+		function( e ) {
 
-		e.preventDefault();
-		prepare_form( '.form-contact-other' );
+			e.preventDefault();
+			prepare_form( '.form-contact-other' );
 
-	} );
+		}
+	);
 
-	$( '.contact-technical' ).on( 'click', function( e ) {
+	$( '.contact-technical' ).on(
+		'click',
+		function( e ) {
 
-		e.preventDefault();
-		prepare_form( '.form-contact-technical' );
+			e.preventDefault();
+			prepare_form( '.form-contact-technical' );
 
-	} );
+		}
+	);
 
 
 	// smooth scroll
@@ -269,63 +354,70 @@
 
 	};
 
-	$( '.scroll-to' ).on( 'click', function( e ) {
+	$( '.scroll-to' ).on(
+		'click',
+		function( e ) {
 
-		e.preventDefault();
+			e.preventDefault();
 
-		return scroll_to_hash( this, 750 );
+			return scroll_to_hash( this, 750 );
 
-	});
+		}
+	);
 
 
 	// uncomment to test the newsletter code
 	//setTimeout( show_newsletter, 2000 );
 
-	$( '.main-menu button' ).on( 'click', function ( e ) {
+	$( '.main-menu button' ).on(
+		'click',
+		function ( e ) {
 
-		e.preventDefault();
+			e.preventDefault();
 
-		toggle_nav();
+			toggle_nav();
 
-	} );
+		}
+	);
 
 
 	// radio buttons
 
-	$( '.radio-group input' ).on( 'change', function() {
+	$( '.radio-group input' ).on(
+		'change',
+		function() {
 
-		var $this = $( this );
-		var $parent = $this.parent( 'label' );
-		var $wrapper = $parent.parent( '.radio-group' );
+			var $this = $( this );
+			var $parent = $this.parent( 'label' );
+			var $wrapper = $parent.parent( '.radio-group' );
 
-		// remove checked class
-		$wrapper.find( '.checked' ).removeClass( 'checked' );
-		$parent.addClass( 'checked' );
+			// remove checked class
+			$wrapper.find( '.checked' ).removeClass( 'checked' );
+			$parent.addClass( 'checked' );
 
-	} );
+		}
+	);
 
 
 	// wrap select boxes so they can be styled nicely
 
-	$( 'select' ).each( function() {
+	$( 'select' ).each(
+		function() {
 
-		var $this = $( this );
-		var size = $this.data( 'size' );
-		var css_class = 'form-select';
+			var $this = $( this );
+			var size = $this.data( 'size' );
+			var css_class = 'form-select';
 
-		if ( size ) {
-			css_class = css_class + ' ' + size + '-text';
+			if ( size ) {
+				css_class = css_class + ' ' + size + '-text';
+			}
+
+			$this.wrap( '<div class="' + css_class + '"></div>' );
+
 		}
-
-		$this.wrap( '<div class="' + css_class + '"></div>' );
-
-	} );
-
+	);
 
 	$( 'html' ).addClass( is_touch_device() ? 'device-touch' : 'device-click' );
-
-
-
 
 
 	return;
