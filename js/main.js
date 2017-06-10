@@ -206,7 +206,7 @@
 
 	// pop up theme recommendations
 
-	if ( theme_count() >= 3 && recommendation_count() < 1 ) {
+	if ( theme_count() >= 2 && recommendation_count() < 1 ) {
 
 		setTimeout( show_recommendation, 10000 );
 
