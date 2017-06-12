@@ -37,6 +37,7 @@
 			type="text/javascript"
 			data-storefront="<?php echo STORE_URL; ?>"
 			data-after-markup-callback="fs_store_markup"
+			data-popup-closed="fs_popup_closed"
 		>
 		</script>
 

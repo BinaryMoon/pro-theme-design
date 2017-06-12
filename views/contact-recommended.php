@@ -10,5 +10,7 @@
 			<p class="intro">We are putting together your personalised WordPress theme recommendation now and you will hear from us within 24 hours (Monday to Friday).</p>
 		</div>
 
+		<script>fbq( 'track', 'email_contact_recommended_theme' );</script>
+
 <?php
 	include( '_partials/footer.php' );

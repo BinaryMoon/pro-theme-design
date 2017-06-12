@@ -460,3 +460,18 @@ function fs_store_markup() {
 	}
 
 }
+
+
+/**
+ * Fastspring popup closed callback
+ *
+ * @param  object success Payment object.
+ */
+function fs_popup_closed( success ) {
+
+	if ( null != success ) {
+		// An order has happened! :)
+		fbq( 'track', 'purchase_complete' );
+	}
+
+}
