@@ -1,3 +1,10 @@
+<h3>1.6 - 25th May 2017</h3>
+<ul>
+<li>Fix style issues with the sharing options in the post summaries</li>
+<li>Add customizer option to hide popular tab (for non .com sites using Jetpack)</li>
+<li>Some extra escaping - just for fun (and security)</li>
+<li>Add support for WordPress custom logo (for self hosted sites)</li>
+</ul>
 <h3>1.5.2 - 24th April 2017</h3>
 <ul>
 <li>Tweak default number of posts displayed on infinite scroll so that we don't have a weird space left</li>

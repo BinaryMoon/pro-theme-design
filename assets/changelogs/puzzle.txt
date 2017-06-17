@@ -1,8 +1,17 @@
+<h3>1.8 - 25th May 2017</h3>
+<ul>
+<li>Add support for Jetpack content options</li>
+<li>Tidy codes</li>
+<li>Improve customizer experience - add live updating components</li>
+<li>Make custom header colours work properly</li>
+<li>Add live updating for homepage layout in customizer</li>
+</ul>
 <h3>1.7.2 - 24th May 2017</h3>
 <ul>
 <li>Improve social widgets responsiveness when in widgets</li>
 <li>Improve post title sizes on mobile devices</li>
 <li>Make WordPress custom logo work, replacing Jetpack site logo (self hosted only)</li>
+<li>Make sticky post styles look better on mobile devices</li>
 </ul>
 <h3>1.7.1 - 29th November 2016</h3>
 <ul>

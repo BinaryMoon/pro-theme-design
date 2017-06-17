@@ -1,3 +1,7 @@
+<h3>4.5.4 - 9th June 2017</h3>
+<ul>
+<li>Improve code escaping (security) and coding standards</li>
+</ul>
 <h3>4.5.3 - 11th January 2017</h3>
 <ul>
 <li>Add word-wrap to widgets to prevent long text from breaking the layout</li>

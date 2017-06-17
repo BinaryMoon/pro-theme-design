@@ -1,3 +1,10 @@
+<h3>1.5 - 13th June 2017</h3>
+<ul>
+<li>Improve white space, and text readability</li>
+<li>Improve header size and position on archive pages (in particular responsively)</li>
+<li>Adjust empty search results layout to not have multiple h1's</li>
+<li>Make image attachment page title consistent with all the others :)</li>
+</ul>
 <h3>1.4.2 - 12th April 2017</h3>
 <ul>
 <li>Make iframes work better in sidebars - in particular for social widgets. They will now scale more nicely on small screens.</li>

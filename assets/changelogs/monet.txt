@@ -1,3 +1,9 @@
+<h3>1.8.2 - 9th June 2017</h3>
+<ul>
+<li>Fix small display issue on mobile, touchscreen, devices that improves readability of post titles on different post formats.</li>
+<li>Update rtl.css</li>
+<li>Improve compatibility with WP 4.8 media widgets</li>
+</ul>
 <h3>1.8.1 - 17th May 2017</h3>
 <ul>
 <li>Fix issue with featured image on single post pages not honoring theme option.</li>

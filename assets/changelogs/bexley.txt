@@ -1,3 +1,8 @@
+<h3>2.1 - 17th June 2017</h3>
+<ul>
+<li>Minor tweaks to improve design consistency across the site</li>
+<li>Improve coding standards and security.</li>
+</ul>
 <h3>2.0 - 15th November 2016</h3>
 <ul>
 <li>Updates based upon wordpress.org theme review</li>

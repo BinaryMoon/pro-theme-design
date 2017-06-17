@@ -1,3 +1,15 @@
+<h3>1.3.1 - 16th June 2017</h3>
+<ul>
+<li>Small tweak to make infinite scroll posts more consistent in appearance.</li>
+<li>Add search text placeholder in search input.</li>
+<li>Improve coding standards and security.</li>
+<li>Improve responsive layout.</li>
+</ul>
+<h3>1.3 - 28th May 2017</h3>
+<ul>
+<li>Add support for hiding site logo</li>
+<li>Improve security and coding standards</li>
+</ul>
 <h3>1.2.8 - 24th May 2017</h3>
 <ul>
 <li>Make WordPress custom logo work, replacing Jetpack site logo (self hosted only)</li>

@@ -1,3 +1,7 @@
+<h3>2.3.3 - 10th June 2017</h3>
+<ul>
+<li>Fix compatibility with new media widgets in WP 4.8</li>
+</ul>
 <h3>2.3.2 - 24th May 2017</h3>
 <ul>
 <li>Improve Infinite Scroll loading on masonry layout</li>
