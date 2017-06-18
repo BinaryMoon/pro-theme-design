@@ -47,6 +47,13 @@ function get_plugin_data() {
 			'tags' => array( 'supported' ),
 			'url' => JETPACK,
 		),
+		'woocommerce' => array(
+			'name' => 'WooCommerce',
+			'description' => 'Bring <a href="' . path( 'themes/e-commerce/' ) . '">e-commerce</a> to your site quickly and easily.',
+			'image' => 'https://ps.w.org/woocommerce/assets/banner-1544x500.png?rev=1629184',
+			'og-image' => 'money.png',
+			'tags' => array( 'supported' ),
+		),
 		'tailor' => array(
 			'name' => 'Tailor',
 			'description' => 'Create complex page layouts with ease.',
