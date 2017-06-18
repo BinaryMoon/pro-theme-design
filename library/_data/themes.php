@@ -64,8 +64,8 @@ function get_theme_data() {
 			'url-wpcom' => 'exhibit',
 			'url-cm' => '348846-Exhibit-WordPress-Portfolio-Theme',
 			'image' => 'exhibit.png',
-			'tags' => array( 'portfolio', 'hot', 'business' ),
-			'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'testimonials', 'portfolio', 'raddcontrol' ),
+			'tags' => array( 'portfolio', 'hot', 'business', 'e-commerce' ),
+			'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'testimonials', 'portfolio', 'raddcontrol', 'woo-commerce' ),
 			'color' => '#e09485',
 		),
 
@@ -77,8 +77,8 @@ function get_theme_data() {
 			'price-wporg' => 99,
 			'url-wpcom' => 'passenger',
 			'image' => 'passenger.png',
-			'tags' => array( 'blog', 'travel', 'journal', 'scrapbook', 'accessible' ),
-			'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'portfolio', 'post-formats', 'testimonials' ),
+			'tags' => array( 'blog', 'travel', 'journal', 'scrapbook', 'accessible', 'e-commerce' ),
+			'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'portfolio', 'post-formats', 'testimonials', 'woocommerce' ),
 			'color' => '#444444',
 		),
 
@@ -134,8 +134,8 @@ function get_theme_data() {
 			'url-wpcom' => 'romero',
 			'url-cm' => '312559-Romero-WordPress-Video-Game-Theme',
 			'image' => 'romero.png',
-			'tags' => array( 'blog', 'magazine', 'hot', 'video-game' ),
-			'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'social-menu', 'custom-colours-fonts', 'raddcontrol' ),
+			'tags' => array( 'blog', 'magazine', 'hot', 'video-game', 'e-commerce' ),
+			'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'social-menu', 'custom-colours-fonts', 'raddcontrol', 'woocommerce' ),
 			'color' => '#4A90E2',
 		),
 
