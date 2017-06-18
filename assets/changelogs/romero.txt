@@ -1,3 +1,7 @@
+<h3>1.5 - 18th June 2017</h3>
+<ul>
+<li>Add support for WooCommerce</li>
+</ul>
 <h3>1.4.3 - 10th June 2017</h3>
 <ul>
 <li>Improve compatibility with new media widgets in WP 4.8</li>
