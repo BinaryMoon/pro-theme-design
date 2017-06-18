@@ -7,10 +7,10 @@
 <div class="wrapper features">
 
 <?php
-	site_include_view( '_themes/_features/fast.php' );
-	site_include_view( '_themes/_features/accessibility.php' );
-	site_include_view( '_themes/_features/social.php' );
-	site_include_view( '_themes/_features/responsive.php' );
+	site_include_view( '_themes/_features/fast.php', array( 'theme' => $theme ) );
+	site_include_view( '_themes/_features/accessibility.php', array( 'theme' => $theme ) );
+	site_include_view( '_themes/_features/social.php', array( 'theme' => $theme ) );
+	site_include_view( '_themes/_features/responsive.php', array( 'theme' => $theme ) );
 ?>
 
 </div>

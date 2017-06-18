@@ -48,3 +48,13 @@
 	<p>If you do need any help, we have <a href="https://prothemedesign.com/documentation/theme/opti/">detailed documentation</a> so you can get an answer quickly. Pro Theme Design is a very small team, so if you do need support you’ll get the solution directly from Ben, our lead developer.</p>
 
 </div>
+
+<div class="wrapper features">
+
+<?php
+	site_include_view( '_themes/_features/slider.php', array( 'theme' => $theme ) );
+	site_include_view( '_themes/_features/code-review.php', array( 'theme' => $theme ) );
+	site_include_view( '_themes/_features/responsive.php', array( 'theme' => $theme ) );
+?>
+
+</div>
