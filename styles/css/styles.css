@@ -2047,6 +2047,12 @@ table.comparison td span {
   font-weight: lighter;
 }
 
+.wrapper:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .wrapper h1, .wrapper h2, .wrapper h3, .wrapper h4, .wrapper h5, .wrapper h6 {
   clear: both;
 }
