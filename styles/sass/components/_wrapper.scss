@@ -6,6 +6,7 @@
 	padding-left: $grid-gutter;
 	padding-right: $grid-gutter;
 	font-weight: lighter;
+	@include clear;
 
 	h1, h2, h3, h4, h5, h6 {
 
