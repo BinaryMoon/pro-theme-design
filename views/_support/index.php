@@ -13,12 +13,16 @@
 	<div class="column">
 
 		<h2>General Help</h2>
-		<?php documentation_list( 'general' ); ?>
-		<a href="<?php echo path( 'documentation/general/' ); ?>" class="button small">More General Help</a>
+		<?php documentation_list( 'general', 4 ); ?>
+		<p>
+			<a href="<?php echo path( 'documentation/general/' ); ?>" class="button small">More General Help</a>
+		</p>
 
 		<h2>Theme Functionality</h2>
-		<?php documentation_list( 'feature' ); ?>
-		<a href="<?php echo path( 'documentation/feature/' ); ?>" class="button small">More Theme Functionality</a>
+		<?php documentation_list( 'feature', 4 ); ?>
+		<p>
+			<a href="<?php echo path( 'documentation/feature/' ); ?>" class="button small">More Theme Functionality Help</a>
+		</p>
 
 		<h2><a href="<?php echo path( 'documentation/plugin/' ); ?>">Plugins</a></h2>
 		<?php documentation_list( 'plugin', 999 ); ?>
