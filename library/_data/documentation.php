@@ -23,6 +23,7 @@ function get_documentation_data() {
 			'name' => 'Creating a Temporary Support Account',
 			'type' => 'general',
 			'og-image' => 'help.jpg',
+			'related' => array( 'debugging-wordpress-errors-broken-sites', 'support-vs-customization', ),
 		),
 		'transfer-from-wordpress-com' => array(
 			'name' => 'WordPress.com theme Transfer',
@@ -33,6 +34,11 @@ function get_documentation_data() {
 			'name' => 'Theme Installation',
 			'type' => 'general',
 			'related' => array( 'theme-installation' ),
+		),
+		'debugging-wordpress-errors-broken-sites' => array(
+			'name' => 'Debugging WordPress Errors and Broken Websites',
+			'type' => 'general',
+			'related' => array( 'theme-installation', 'support-vs-customization', 'support-account', ),
 		),
 		'child-theme-installation' => array(
 			'name' => 'Child Theme Installation',
