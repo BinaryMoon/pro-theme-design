@@ -232,7 +232,7 @@ Flight::route( '/themes/(@tag)/', function( $tag = '' ) {
 
 	}
 
-	$themes_title = '';
+	$themes_title = 'Professional';
 
 	if ( $tag !== 'wordpress.org' ) {
 
