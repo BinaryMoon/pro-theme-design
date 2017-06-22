@@ -197,17 +197,23 @@ function page_is( $page ) {
 
 
 /**
- * Is the current page in the theme route
+ * Is the current page involved in displaying themes
  *
  * @return boolean true if the current page is a themes one.
  */
 function page_is_themes() {
 
+	// Get current path.
 	$path = Flight::request()->url;
 
-	// if path begins with /themes/.
-	if ( substr( $path, 0, 8 ) === '/themes/' ) {
+	// Number of characters to check for.
+	$length = strlen( '/theme' );
+
+	// If path begins with /theme.
+	if ( substr( $path, 0, $length ) === '/theme' ) {
+
 		return true;
+
 	}
 
 	return false;

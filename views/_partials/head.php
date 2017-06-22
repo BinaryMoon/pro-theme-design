@@ -31,6 +31,9 @@
 		<link rel="icon" href="<?php echo image_path( 'logos/logo-192.png' ); ?>" sizes="192x192" />
 		<link rel="apple-touch-icon-precomposed" href="<?php echo image_path( 'logos/logo-180.png' ); ?>" />
 
+<?php
+	if ( page_is_themes() ) {
+?>
 		<script
 			id="fsc-api"
 			src="<?php echo FASTSPRING_JS; ?>"
@@ -40,8 +43,9 @@
 			data-popup-closed="fs_popup_closed"
 		>
 		</script>
-
 <?php
+	}
+
 	include( 'head-open-graph.php' );
 ?>
 
