@@ -10,8 +10,8 @@
  */
 Flight::route( '/', function() {
 
-	site_title( 'Pro Theme Design - Professional WordPress Themes' );
-	site_description( 'Join over <strong>' . paid_customers() . '</strong> happy WordPress themers.' );
+	site_title( 'Pro Theme Design – Professional Quality Premium WordPress' );
+	site_description( 'Join thousands of customers who have trusted Pro Theme Design to deliver the highest quality premium WordPress themes, since 2007.' );
 
 	$all_themes = get_theme_data();
 
@@ -255,7 +255,7 @@ Flight::route( '/themes/(@tag)/', function( $tag = '' ) {
 
 	site_title( 'Best ' . $themes_title . ' WordPress Themes ' . date( 'Y' ) );
 
-	site_description( 'Choose one of the best ' . ucwords( $tag ) . ' WordPress themes ' . date( 'Y' ) . ' and make your site stand out from the crowd. Easy setup, responsive design included as standard.' );
+	site_description( 'Choose one of the best ' . ucwords( $tag ) . ' WordPress themes of ' . date( 'Y' ) . ' and make your site stand out from the crowd. Easy setup, responsive design included as standard.' );
 
 	site_page_nav_add( 'All', 'themes/' );
 
