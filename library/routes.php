@@ -247,15 +247,17 @@ Flight::route( '/themes/(@tag)/', function( $tag = '' ) {
 
 	$themes_title = 'Professional';
 
+	site_title( 'Professional WordPress.org Themes' );
+	site_description( 'Choose the perfect WordPress.org compatible premium WordPress theme for your self hosted site.' );
+
 	if ( $tag !== 'wordpress.org' ) {
 
 		$themes_title = get_theme_tag_name( $tag );
 
+		site_title( 'Best ' . $themes_title . ' WordPress Themes ' . date( 'Y' ) );
+		site_description( 'Choose one of the best ' . ucwords( $tag ) . ' WordPress themes of ' . date( 'Y' ) . ' and make your site stand out from the crowd. Easy setup, responsive design included as standard.' );
+
 	}
-
-	site_title( 'Best ' . $themes_title . ' WordPress Themes ' . date( 'Y' ) );
-
-	site_description( 'Choose one of the best ' . ucwords( $tag ) . ' WordPress themes of ' . date( 'Y' ) . ' and make your site stand out from the crowd. Easy setup, responsive design included as standard.' );
 
 	site_page_nav_add( 'All', 'themes/' );
 
