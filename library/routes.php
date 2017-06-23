@@ -254,7 +254,8 @@ Flight::route( '/themes/(@tag)/', function( $tag = '' ) {
 	}
 
 	site_title( 'Best ' . $themes_title . ' WordPress Themes ' . date( 'Y' ) );
-	site_description( 'Awesome ' . ucwords( $tag ) . ' WordPress themes for <strong>self hosted sites</strong>!' );
+
+	site_description( 'Choose one of the best ' . ucwords( $tag ) . ' WordPress themes ' . date( 'Y' ) . ' and make your site stand out from the crowd. Easy setup, responsive design included as standard.' );
 
 	site_page_nav_add( 'All', 'themes/' );
 
