@@ -41,6 +41,7 @@ function get_theme_data() {
 			'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'portfolio', 'post-formats', 'raddcontrol', 'woo-commerce' ),
 			'color' => '#626e7a',
 			'title' => 'Label - Fashion Blog WordPress Theme',
+			'meta_description' => 'Get this stunning fashion blog WordPress theme to stand out from the crowd. Easy setup and responsive design included.',
 		),
 
 		'carmack' => array(
@@ -55,6 +56,7 @@ function get_theme_data() {
 			'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'portfolio', 'post-formats', 'raddcontrol', 'woo-commerce' ),
 			'color' => '#FFEE00',
 			'title' => 'Carmack - WordPress Video Gaming Theme',
+			'meta_description' => 'Get this magazine WordPress gaming theme to show off your visual content. It\'s packed with customizable features!',
 		),
 
 		'exhibit' => array(
@@ -70,6 +72,7 @@ function get_theme_data() {
 			'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'testimonials', 'portfolio', 'raddcontrol', 'woo-commerce' ),
 			'color' => '#e09485',
 			'title' => 'Exhibit -  WordPress Portfolio Theme',
+			'meta_description' => 'Get this minimal WordPress portfolio theme perfect for businesses. Show off your work with great responsive design.',
 		),
 
 		'passenger' => array(
@@ -84,6 +87,7 @@ function get_theme_data() {
 			'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'portfolio', 'post-formats', 'testimonials', 'woo-commerce' ),
 			'color' => '#444444',
 			'title' => 'Passenger - WordPress Travel Theme',
+			'meta_description' => 'Get this WordPress travel theme designed for journals and scrapbooks! Tell your story with unique post formats and typography.',
 		),
 
 		'puzzle' => array(
@@ -99,6 +103,7 @@ function get_theme_data() {
 			'supports' => array( 'portfolio', 'site-logo', 'infinite-scroll', 'social-menu', 'testimonials', 'theme-club', 'raddcontrol', 'woo-commerce' ),
 			'color' => '#2ECC71',
 			'title' => 'Puzzle - WordPress Photography Theme',
+			'meta_description' => 'Get this stunning WordPress Photography Theme that\'s great for photographers and artists. Show the world your stories!',
 		),
 
 		'chronicle' => array(
@@ -115,6 +120,7 @@ function get_theme_data() {
 			'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'social-menu', 'testimonials', 'theme-club', 'raddcontrol' ),
 			'color' => '#C0392B',
 			'title' => 'Chronicle - WordPress Magazine Theme',
+			'meta_description' => 'Get this hugely customizable WordPress magazine theme. Make it your own with powerful, flexible design and attention to detail.',
 		),
 
 		'monet' => array(
@@ -130,6 +136,7 @@ function get_theme_data() {
 			'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'social-menu', 'portfolio', 'theme-club' ),
 			'color' => '#6f7f9f',
 			'title' => 'Monet - WordPress Portfolio Theme',
+			'meta_description' => 'Showcase your work with this elegant, responsive WordPress portfolio theme perfect for photographers and designers.',
 		),
 
 		'romero' => array(
@@ -145,6 +152,7 @@ function get_theme_data() {
 			'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'social-menu', 'custom-colours-fonts', 'raddcontrol', 'woo-commerce' ),
 			'color' => '#4A90E2',
 			'title' => 'Romero - WordPress Gaming Theme',
+			'meta_description' => 'Show off your content with this powerful magazine WordPress Gaming Theme. You\'ll love its bold design and powerful layout!',
 		),
 
 		'opti' => array(
@@ -160,6 +168,7 @@ function get_theme_data() {
 			'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'theme-club', 'raddcontrol' ),
 			'color' => '#293033',
 			'title' => 'Opti - WordPress Newspaper Theme',
+			'meta_description' => 'Get this easy-to-use WordPress newspaper theme perfect for news and magazine websites with a lot of content to show off.',
 		),
 
 		'mimbopro' => array(
@@ -175,6 +184,7 @@ function get_theme_data() {
 			'supports' => array( 'featured-image', 'theme-club' ),
 			'color' => '#3399cc',
 			'title' => 'Mimbo Pro - WordPress Magazine Theme',
+			'meta_description' => 'Get this WordPress Magazine Theme that\'s perfect for displaying your content in a structured way that looks awesome!',
 		),
 
 		'lens' => array(
@@ -190,6 +200,7 @@ function get_theme_data() {
 			'supports' => array( 'site-logo', 'featured-content', 'featured-image', 'infinite-scroll', 'social-menu', 'testimonials', 'theme-club' ),
 			'color' => '#C0392B',
 			'title' => 'Lens - WordPress Photography Theme',
+			'meta_description' => 'Show off your work with this modern WordPress photography theme that\'s great for photographers, bloggers, and scrapbookers.',
 		),
 
 		'mirror' => array(
@@ -205,6 +216,7 @@ function get_theme_data() {
 			'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'social-menu', 'custom-colours-fonts', 'theme-club', 'raddcontrol' ),
 			'color' => '#548334',
 			'title' => 'Mirror - WordPress Blog Theme',
+			'meta_description' => 'Get this modern WordPress Blog theme to make your content shine. Includes responsive design and clear typography.',
 		),
 
 		'beacon' => array(
@@ -220,6 +232,7 @@ function get_theme_data() {
 			'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'social-menu', 'raddcontrol', 'theme-club' ),
 			'color' => '#44555e',
 			'title' => 'Beacon - WordPress Social Network Theme',
+			'meta_description' => 'Get this perfect WordPress social network theme to show off viral content with integrated social feeds and sharing.',
 		),
 
 		'traveler' => array(
@@ -235,6 +248,7 @@ function get_theme_data() {
 			'supports' => array( 'featured-content', 'featured-image', 'infinite-scroll', 'theme-club', 'raddcontrol' ),
 			'color' => '#1e2123',
 			'title' => 'Traveler - WordPress Travel Theme',
+			'meta_description' => 'Traveler is a classic WordPress travel theme perfect for travel bloggers, with large photos and dramatic colors.',
 		),
 
 		'broadsheet' => array(
@@ -250,6 +264,7 @@ function get_theme_data() {
 			'supports' => array( 'site-logo', 'featured-image', 'infinite-scroll', 'social-menu', 'testimonials', 'theme-club', 'raddcontrol' ),
 			'color' => '#1b557a',
 			'title' => 'Broadsheet - WordPress Newspaper Theme',
+			'meta_description' => 'Get this classical WordPress Newspaper Theme that\'s perfect for creating interesting, immersive sites.',
 		),
 
 		'bromley' => array(
@@ -265,6 +280,7 @@ function get_theme_data() {
 			'supports' => array( 'featured-content', 'featured-image', 'infinite-scroll', 'theme-club', 'raddcontrol' ),
 			'color' => '#f86e5e',
 			'title' => 'Bromley - WordPress Community Theme',
+			'meta_description' => 'Get this minimal WordPress community theme for beautifully simple local community websites and fan magazines.',
 		),
 
 		/*
@@ -295,6 +311,7 @@ function get_theme_data() {
 			'supports' => array( 'featured-image', 'infinite-scroll', 'sticky-post', 'theme-club' ),
 			'color' => '#317eb1',
 			'title' => 'Kent - Simple WordPress Theme',
+			'meta_description' => 'Get this responive, simple WordPress theme for clean, content-focused blogging.',
 		),
 
 		'bexley' => array(
@@ -310,6 +327,7 @@ function get_theme_data() {
 			'supports' => array( 'featured-image', 'infinite-scroll', 'sticky-post', 'raddcontrol' ),
 			'color' => '#29b765',
 			'title' => 'Bexley - WordPress Photography Theme',
+			'meta_description' => 'Get this WordPress Photography Theme for photographers and artists - showcase your work with clean, responsive design.',
 		),
 
 		'isca' => array(
@@ -325,6 +343,7 @@ function get_theme_data() {
 			'supports' => array( 'infinite-scroll', 'post-formats', 'raddcontrol' ),
 			'color' => '#e9e6e0',
 			'title' => 'Isca - WordPress Tumblog Theme',
+			'meta_description' => 'Get this elegant tumblogging theme. Ideally suited for blogs, and diaries.',
 		),
 
 	);

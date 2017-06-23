@@ -152,12 +152,16 @@ Flight::route( '/theme/(@theme)/', function( $theme = '' ) {
 		site_title( $theme_data['name'] . ' WordPress Theme' );
 
 		// Set a custom title if available.
-		if ( $theme_data['title'] ) {
+		if ( ! empty( $theme_data['title'] ) ) {
 			site_title( $theme_data['title'] );
 		}
 
 		// Set a theme description.
 		site_description( $theme_data['short_description'] );
+
+		if ( ! empty( $theme_data['meta_description' ] ) ) {
+			site_description( $theme_data['meta_description'] );
+		}
 
 	} else {
 
