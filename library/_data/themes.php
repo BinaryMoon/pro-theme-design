@@ -40,6 +40,7 @@ function get_theme_data() {
 			'tags' => array( 'magazine', 'photography', 'new', 'fashion', 'accessible', 'e-commerce' ),
 			'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'portfolio', 'post-formats', 'raddcontrol', 'woo-commerce' ),
 			'color' => '#626e7a',
+			'title' => 'Label - Fashion Blog WordPress Theme',
 		),
 
 		'carmack' => array(
@@ -53,6 +54,7 @@ function get_theme_data() {
 			'tags' => array( 'magazine', 'new', 'video-game', 'motor-sports', 'accessible', 'e-commerce' ),
 			'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'portfolio', 'post-formats', 'raddcontrol', 'woo-commerce' ),
 			'color' => '#FFEE00',
+			'title' => 'Carmack - WordPress Video Gaming Theme',
 		),
 
 		'exhibit' => array(
@@ -67,6 +69,7 @@ function get_theme_data() {
 			'tags' => array( 'portfolio', 'hot', 'business', 'e-commerce' ),
 			'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'testimonials', 'portfolio', 'raddcontrol', 'woo-commerce' ),
 			'color' => '#e09485',
+			'title' => 'Exhibit -  WordPress Portfolio Theme',
 		),
 
 		'passenger' => array(
@@ -80,6 +83,7 @@ function get_theme_data() {
 			'tags' => array( 'blog', 'travel', 'journal', 'scrapbook', 'accessible', 'e-commerce' ),
 			'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'portfolio', 'post-formats', 'testimonials', 'woo-commerce' ),
 			'color' => '#444444',
+			'title' => 'Passenger - WordPress Travel Theme',
 		),
 
 		'puzzle' => array(
@@ -94,6 +98,7 @@ function get_theme_data() {
 			'tags' => array( 'portfolio', 'photography', 'business', 'e-commerce' ),
 			'supports' => array( 'portfolio', 'site-logo', 'infinite-scroll', 'social-menu', 'testimonials', 'theme-club', 'raddcontrol', 'woo-commerce' ),
 			'color' => '#2ECC71',
+			'title' => 'Puzzle - WordPress Photography Theme',
 		),
 
 		'chronicle' => array(
@@ -109,6 +114,7 @@ function get_theme_data() {
 			'tags' => array( 'magazine', 'blog', 'hot', 'newspaper' ),
 			'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'social-menu', 'testimonials', 'theme-club', 'raddcontrol' ),
 			'color' => '#C0392B',
+			'title' => 'Chronicle - WordPress Magazine Theme',
 		),
 
 		'monet' => array(
@@ -123,6 +129,7 @@ function get_theme_data() {
 			'tags' => array( 'portfolio', 'photography', 'business' ),
 			'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'social-menu', 'portfolio', 'theme-club' ),
 			'color' => '#6f7f9f',
+			'title' => 'Monet - WordPress Portfolio Theme',
 		),
 
 		'romero' => array(
@@ -137,6 +144,7 @@ function get_theme_data() {
 			'tags' => array( 'blog', 'magazine', 'hot', 'video-game', 'e-commerce' ),
 			'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'social-menu', 'custom-colours-fonts', 'raddcontrol', 'woo-commerce' ),
 			'color' => '#4A90E2',
+			'title' => 'Romero - WordPress Gaming Theme',
 		),
 
 		'opti' => array(
@@ -151,6 +159,7 @@ function get_theme_data() {
 			'tags' => array( 'magazine' ),
 			'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'theme-club', 'raddcontrol' ),
 			'color' => '#293033',
+			'title' => 'Opti - WordPress Newspaper Theme',
 		),
 
 		'mimbopro' => array(
@@ -165,6 +174,7 @@ function get_theme_data() {
 			'tags' => array( 'magazine' ),
 			'supports' => array( 'featured-image', 'theme-club' ),
 			'color' => '#3399cc',
+			'title' => 'Mimbo Pro - WordPress Magazine Theme',
 		),
 
 		'lens' => array(
@@ -179,6 +189,7 @@ function get_theme_data() {
 			'tags' => array( 'photography', 'business' ),
 			'supports' => array( 'site-logo', 'featured-content', 'featured-image', 'infinite-scroll', 'social-menu', 'testimonials', 'theme-club' ),
 			'color' => '#C0392B',
+			'title' => 'Lens - WordPress Photography Theme',
 		),
 
 		'mirror' => array(
@@ -193,6 +204,7 @@ function get_theme_data() {
 			'tags' => array( 'blog' ),
 			'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'social-menu', 'custom-colours-fonts', 'theme-club', 'raddcontrol' ),
 			'color' => '#548334',
+			'title' => 'Mirror - WordPress Blog Theme',
 		),
 
 		'beacon' => array(
@@ -207,6 +219,7 @@ function get_theme_data() {
 			'tags' => array( 'magazine' ),
 			'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'social-menu', 'raddcontrol', 'theme-club' ),
 			'color' => '#44555e',
+			'title' => 'Beacon - WordPress Social Network Theme',
 		),
 
 		'traveler' => array(
@@ -221,6 +234,7 @@ function get_theme_data() {
 			'tags' => array( 'magazine', 'blog', 'travel', 'journal' ),
 			'supports' => array( 'featured-content', 'featured-image', 'infinite-scroll', 'theme-club', 'raddcontrol' ),
 			'color' => '#1e2123',
+			'title' => 'Traveler - WordPress Travel Theme',
 		),
 
 		'broadsheet' => array(
@@ -235,6 +249,7 @@ function get_theme_data() {
 			'tags' => array( 'magazine', 'hot', 'newspaper' ),
 			'supports' => array( 'site-logo', 'featured-image', 'infinite-scroll', 'social-menu', 'testimonials', 'theme-club', 'raddcontrol' ),
 			'color' => '#1b557a',
+			'title' => 'Broadsheet - WordPress Newspaper Theme',
 		),
 
 		'bromley' => array(
@@ -249,6 +264,7 @@ function get_theme_data() {
 			'tags' => array( 'blog' ),
 			'supports' => array( 'featured-content', 'featured-image', 'infinite-scroll', 'theme-club', 'raddcontrol' ),
 			'color' => '#f86e5e',
+			'title' => 'Bromley - WordPress Community Theme',
 		),
 
 		/*
@@ -278,6 +294,7 @@ function get_theme_data() {
 			'tags' => array( 'blog' ),
 			'supports' => array( 'featured-image', 'infinite-scroll', 'sticky-post', 'theme-club' ),
 			'color' => '#317eb1',
+			'title' => 'Kent - Simple WordPress Theme',
 		),
 
 		'bexley' => array(
@@ -292,6 +309,7 @@ function get_theme_data() {
 			'tags' => array( 'blog', 'photography' ),
 			'supports' => array( 'featured-image', 'infinite-scroll', 'sticky-post', 'raddcontrol' ),
 			'color' => '#29b765',
+			'title' => 'Bexley - WordPress Photography Theme',
 		),
 
 		'isca' => array(
@@ -306,6 +324,7 @@ function get_theme_data() {
 			'tags' => array( 'blog', 'tumblog' ),
 			'supports' => array( 'infinite-scroll', 'post-formats', 'raddcontrol' ),
 			'color' => '#e9e6e0',
+			'title' => 'Isca - WordPress Tumblog Theme',
 		),
 
 	);

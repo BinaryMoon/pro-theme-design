@@ -147,7 +147,16 @@ Flight::route( '/theme/(@theme)/', function( $theme = '' ) {
 	if ( ! empty( $theme ) && $theme_data = themes_get( $theme ) ) {
 
 		$themes = get_theme_data();
+
+		// Set default page title for each theme.
 		site_title( $theme_data['name'] . ' WordPress Theme' );
+
+		// Set a custom title if available.
+		if ( $theme_data['title'] ) {
+			site_title( $theme_data['title'] );
+		}
+
+		// Set a theme description.
 		site_description( $theme_data['short_description'] );
 
 	} else {
