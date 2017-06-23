@@ -253,7 +253,7 @@ Flight::route( '/themes/(@tag)/', function( $tag = '' ) {
 
 	}
 
-	site_title( $themes_title . ' WordPress Themes' );
+	site_title( 'Best ' . $themes_title . ' WordPress Themes ' . date( 'Y' ) );
 	site_description( 'Awesome ' . ucwords( $tag ) . ' WordPress themes for <strong>self hosted sites</strong>!' );
 
 	site_page_nav_add( 'All', 'themes/' );
