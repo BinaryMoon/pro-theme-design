@@ -138,7 +138,7 @@
 
 		$feature = documentation_get( $supports );
 
-		if ( $feature && isset( $feature['icon'] ) ) {
+		if ( $feature ) {
 ?>
 			<div class="block">
 				<div class="content">

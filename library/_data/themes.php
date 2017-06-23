@@ -78,7 +78,7 @@ function get_theme_data() {
 			'url-wpcom' => 'passenger',
 			'image' => 'passenger.png',
 			'tags' => array( 'blog', 'travel', 'journal', 'scrapbook', 'accessible', 'e-commerce' ),
-			'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'portfolio', 'post-formats', 'testimonials', 'woocommerce' ),
+			'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'portfolio', 'post-formats', 'testimonials', 'woo-commerce' ),
 			'color' => '#444444',
 		),
 
@@ -135,7 +135,7 @@ function get_theme_data() {
 			'url-cm' => '312559-Romero-WordPress-Video-Game-Theme',
 			'image' => 'romero.png',
 			'tags' => array( 'blog', 'magazine', 'hot', 'video-game', 'e-commerce' ),
-			'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'social-menu', 'custom-colours-fonts', 'raddcontrol', 'woocommerce' ),
+			'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'social-menu', 'custom-colours-fonts', 'raddcontrol', 'woo-commerce' ),
 			'color' => '#4A90E2',
 		),
 

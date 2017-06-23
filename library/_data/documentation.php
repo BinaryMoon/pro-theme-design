@@ -149,6 +149,11 @@ function get_documentation_data() {
 			'description' => 'Different page layouts for static WordPress pages.',
 			'related' => array( 'custom-front-page' ),
 		),
+		'woo-commerce' => array(
+			'name' => 'WooCommerce',
+			'type' => 'feature',
+			'description' => 'Sell things on your site with WooCommerce.',
+		),
 		'portfolio' => array(
 			'name' => 'Portfolio and Projects',
 			'type' => 'feature',
