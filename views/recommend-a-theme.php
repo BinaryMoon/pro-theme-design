@@ -13,7 +13,7 @@
 			<hr />
 
 			<!-- feedback form -->
-			<form class="formspree form-contact" method="POST">
+			<form class="formspree form-contact" method="POST" data-email="hello-at-masterwp-dot-co">
 
 				<label>
 					<span>What kind of site are you building?</span>
