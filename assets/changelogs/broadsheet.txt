@@ -1,3 +1,8 @@
+<h3>1.6 - 5th July 2017</h3>
+<ul>
+<li>General style tweaks to improve spacing and consistency across the theme.</li>
+<li>Fix issues with social widgets being too wide.</li>
+</ul>
 <h3>1.5.1 - 19th January 2017</h3>
 <ul>
 <li>Remove console.log from customizer code</li>

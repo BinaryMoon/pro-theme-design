@@ -1,3 +1,7 @@
+<h3>2.4.2 - 3rd July 2017</h3>
+<ul>
+<li>Fix PHP errors due to WooCommerce integration.</li>
+</ul>
 <h3>2.4.1 - 28th June 2017</h3>
 <ul>
 <li>Stop dates from showing up on homepage when custom front page is being used.</li>

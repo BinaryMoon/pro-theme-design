@@ -1,3 +1,7 @@
+<h3>1.5.1 - 3rd July 2017</h3>
+<ul>
+<li>Fix PHP errors due to WooCommerce integration.</li>
+</ul>
 <h3>1.5 - 18th June 2017</h3>
 <ul>
 <li>Add support for WooCommerce</li>

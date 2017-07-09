@@ -1,3 +1,7 @@
+<h3>2.4 - 3rd July 2017</h3>
+<ul>
+<li>Add support for WooCommerce.</li>
+</ul>
 <h3>2.3.3 - 13th April 2017</h3>
 <ul>
 <li>Fix a bug with testimonials not being laid out properly due to Masonry not enqueuing.</li>
