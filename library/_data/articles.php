@@ -172,3 +172,16 @@ function articles_sitemap() {
 	}
 
 }
+
+
+function article_display( $article ) {
+
+	include_once( 'library/parsedown.php' );
+
+	$Parsedown = new Parsedown();
+
+	$article_contents = file_get_contents( 'views/_articles/' . $article . '.php' );
+
+	echo $Parsedown->text( $article_contents );
+
+}
