@@ -101,11 +101,9 @@ We’ve been building WordPress themes for the last decade and running WordPress
 
 ### Carmack: a magazine-style video game WordPress theme with bold imagery
 
-** Image: https://prothemedesign.com/theme/carmack/ **
-
 Carmack is a bold magazine-style WordPress theme with plenty of space for showing off your content. Readers will be able to quickly look through your content to get to what they’re looking for.
 
-[ image carmack ]
+![Carmack screenshot](devices:carmack.png)
 
 Get Carmack, or try the demo.
 
@@ -113,7 +111,7 @@ Get Carmack, or try the demo.
 
 Alternatively, Romero is a magazine-style WordPress theme purpose-built for video game blogs.
 
-[ image romero ]
+![Carmack screenshot](devices:romero.png)
 
 Get Romero, or try the demo.
 
@@ -123,7 +121,7 @@ If you want more of a classic WordPress magazine theme look then you should cons
 
 Mimbo Pro’s popularity stems from its unrivalled ability to display a very large quantity of content very quickly: the homepage is a true “magazine-style” setup, making this perfect for video game blogs with a large amount of content.
 
-[ image mimbo pro ]
+![Carmack screenshot](devices:mimbopro.png)
 
 Get Mimbo Pro, or try the demo.
 
@@ -135,11 +133,11 @@ We’d recommend taking a look at Label. Label was originally designed with fash
 
 The starting-point is excellent: like video game blogs, fashion blogs make use of large featured images, so you’ll just need to tweak the typography and (if desired) the colour scheme. You can do this with x and y plugins.
 
-[ image label ]
+![Carmack screenshot](devices:label.png)
 
 Get Label, or try the demo.
 
-The WordPress themes above offer a selection of options for video game blogs. If you can’t find quite what you’re looking for then check out Pro Theme Design’s full collection of WordPress themes.
+The WordPress themes above offer a selection of options for video game blogs. If you can’t find quite what you’re looking for then check out [Pro Theme Design’s full collection of WordPress themes](path:themes/).
 
 ## Setting up WordPress for video game content
 
@@ -159,7 +157,8 @@ With Jetpack installed and registered, you can start enabling the awesome featur
 
 * **Photon:** this module will automatically optimise your site’s images, resizing them and reducing the file size (for faster load times). Photon will then deliver your site’s images from WordPress.com's own servers – these will be faster than  your host’s, resulting in images reaching your site’s visitors as fast as possible! This is perfect for dealing with high resolution video game screenshots.
 * **Tiled Galleries:** after you’ve activated Photon, you can now create Tiled Galleries! These are a specific type of gallery which look extremely good, with the image gallery cascading down the page. You’ll find details how to create a [tiled gallery here](https://jetpack.com/support/tiled-galleries/).
-* ** Infinite Scroll:** get to the bottom of an archive, and more posts load automagically! This is a really nice feature which can enhance the user experience.
+* ** Infinite Scroll:** get to the bottom of an archive, and more posts load automagically! This is a really nice feature which can enhance the user experience encouraging them to spend more time on your website.
+* **Related Posts:** Enable the related posts and they will appear at the bottom of each blog post suggesting 3 (or more) related articles to read next. Make sure the pretty layout is enabled in your sites settings since this is a lot more enticing for gaming blogs.
 * **Security:** the security of your site is incredibly important. Jetpack comes with a number of features, including blocking of malicious users and logins, two factor authentication via WordPress.com login and automatic updates for themes and plugins.
 
 Jetpack is incredibly powerful. The features listed here are just a start; there are tons more available if you install the plugin and start playing around with it.
