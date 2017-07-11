@@ -92,11 +92,15 @@ class ParsedownPTD extends ParsedownExtra
 			return $image;
 		}
 
+		// Replace path: with relative path value.
+		if ( 'devices:' === substr( $image['element']['attributes']['src'], 0, 8 ) ) {
+			$image['element']['attributes']['src'] = image_path( 'theme-devices/' . substr( $image['element']['attributes']['src'], 8 ) );
+		}
 
 
-		echo '<pre>';
-		var_dump( $image );
-		echo '</pre>';
+		// echo '<pre>';
+		// var_dump( $image );
+		// echo '</pre>';
 
 		return $image;
 
