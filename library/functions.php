@@ -302,10 +302,31 @@ function draw_svg( $icon, $size = 'medium' ) {
 		return;
 	}
 
+	$svg = get_svg( $icon, $size );
+
+	echo $svg;
+
+}
+
+
+/**
+ * Get an SVGs html
+ *
+ * @param  [type] $icon [description]
+ * @param  string $size [description]
+ * @return [type]       [description]
+ */
+function get_svg( $icon, $size = 'medium' ) {
+
+	if ( empty( $icon ) ) {
+		return;
+	}
+
 	$path = 'img/iconicon/' . $icon . '.svg';
 	$svg = file_get_contents( $path );
 	$svg = str_replace( '<svg', '<svg class="icon icon-' . $icon . ' icon-size-' . $size . '"', $svg );
 	$svg = str_replace( '<svg', '<svg aria-hidden="true"', $svg );
-	echo $svg;
+
+	return $svg;
 
 }
