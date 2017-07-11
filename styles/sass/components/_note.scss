@@ -7,6 +7,7 @@
 	clear: both;
 	box-shadow: $box-shadow;
 	min-height: $grid-line-height * 4;
+	margin-bottom: $grid-line-height * $grid-line-height-multiplier;
 
 	strong {
 
