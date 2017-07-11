@@ -105,15 +105,15 @@ Carmack is a bold magazine-style WordPress theme with plenty of space for showin
 
 ![Carmack screenshot](devices:carmack.png)
 
-Get Carmack, or try the demo.
+Get [Carmack](path:theme/carmack/), or try [the demo](path:theme-preview/carmack/).
 
 ### Romero: a purpose-built video game blog WordPress theme
 
 Alternatively, Romero is a magazine-style WordPress theme purpose-built for video game blogs.
 
-![Carmack screenshot](devices:romero.png)
+![Romero screenshot](devices:romero.png)
 
-Get Romero, or try the demo.
+Get [Romero](path:theme/romero/), or try [the demo](path:theme-preview/romero/).
 
 ### Mimbo Pro: a classic magazine WordPress theme
 
@@ -121,9 +121,9 @@ If you want more of a classic WordPress magazine theme look then you should cons
 
 Mimbo Pro’s popularity stems from its unrivalled ability to display a very large quantity of content very quickly: the homepage is a true “magazine-style” setup, making this perfect for video game blogs with a large amount of content.
 
-![Carmack screenshot](devices:mimbopro.png)
+![Mimbo Pro screenshot](devices:mimbopro.png)
 
-Get Mimbo Pro, or try the demo.
+Get [Mimbo Pro](path:theme/mimbopro/), or try [the demo](path:theme-preview/mimbopro/).
 
 ### Label: a fashion blog WordPress theme… that can work perfectly for video game blogs
 
@@ -133,9 +133,9 @@ We’d recommend taking a look at Label. Label was originally designed with fash
 
 The starting-point is excellent: like video game blogs, fashion blogs make use of large featured images, so you’ll just need to tweak the typography and (if desired) the colour scheme. You can do this with x and y plugins.
 
-![Carmack screenshot](devices:label.png)
+![Label screenshot](devices:label.png)
 
-Get Label, or try the demo.
+Get [Label](path:theme/label/), or try [the demo](path:theme-preview/label/).
 
 The WordPress themes above offer a selection of options for video game blogs. If you can’t find quite what you’re looking for then check out [Pro Theme Design’s full collection of WordPress themes](path:themes/).
 
