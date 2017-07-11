@@ -155,7 +155,23 @@
 	$( 'form.formspree' ).each(
 		function() {
 
-			$( this ).attr( 'action', '//formspree.io/' + 'support' + '@' + 'prothemedesign' + '.' + 'com' );
+			var $this = $( this );
+			var email = $this.data( 'email' );
+
+			// If there is a custom email address use that. Else use support at ptd.
+			if ( email ) {
+
+				// Do some replacements for basic obfuscation.
+				email = email.replace( '-at-', '@' );
+				email = email.replace( '-dot-', '.' );
+
+			} else {
+
+				email = 'support' + '@' + 'prothemedesign' + '.' + 'com';
+
+			}
+
+			$this.attr( 'action', '//formspree.io/' + email );
 
 		}
 	);
