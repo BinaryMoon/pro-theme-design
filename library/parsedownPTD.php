@@ -83,6 +83,12 @@ class ParsedownPTD extends ParsedownExtra
 	}
 
 
+	/**
+	 * Custom image links
+	 *
+	 * @param  [type] $excerpt [description]
+	 * @return [type]          [description]
+	 */
 	protected function inlineImage( $excerpt ) {
 
 		$image = parent::inlineImage( $excerpt );
@@ -96,7 +102,6 @@ class ParsedownPTD extends ParsedownExtra
 		if ( 'devices:' === substr( $image['element']['attributes']['src'], 0, 8 ) ) {
 			$image['element']['attributes']['src'] = image_path( 'theme-devices/' . substr( $image['element']['attributes']['src'], 8 ) );
 		}
-
 
 		// echo '<pre>';
 		// var_dump( $image );
