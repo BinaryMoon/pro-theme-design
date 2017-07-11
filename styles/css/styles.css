@@ -193,7 +193,6 @@ input.searchfield:focus::-webkit-input-placeholder {
 
 .device-click input[type="search"]:focus::-webkit-input-placeholder, .device-click
 input.searchfield:focus::-webkit-input-placeholder {
-  -webkit-transition: opacity 0.5s 0.5s ease;
   transition: opacity 0.5s 0.5s ease;
 }
 
@@ -278,7 +277,7 @@ html {
   font-size: 1rem;
   line-height: 1.75;
   font-weight: normal;
-  font-family: "Poppins", serif;
+  font-family: "Poppins", Arial, sans-serif;
   color: #21252a;
   direction: ltr;
   -webkit-font-feature-settings: "kern" 1, "liga" 1, "clig" 1;
@@ -490,7 +489,6 @@ input.text, .device-click
 .form-select, .device-click
 textarea, .device-click
 input.settings-input {
-  -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
 }
 
@@ -705,7 +703,6 @@ button {
 .device-click input[type=submit], .device-click
 a.button, .device-click
 button {
-  -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
 }
 
@@ -799,7 +796,7 @@ blockquote {
   padding: 0 1.5rem;
   margin: 2.25rem 0;
   overflow: hidden;
-  font-family: "Poppins", serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-style: italic;
 }
 
@@ -1045,7 +1042,6 @@ article.summary h2 {
 }
 
 .device-click .block header a {
-  -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
 }
 
@@ -1289,7 +1285,6 @@ article.summary h2 {
 }
 
 .device-click .button {
-  -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
 }
 
@@ -1553,7 +1548,6 @@ label p.hint {
 }
 
 .device-click label p.hint {
-  -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
 }
 
@@ -1573,7 +1567,6 @@ label:hover p.hint {
 }
 
 .device-click .radio-group label {
-  -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
 }
 
@@ -1648,7 +1641,6 @@ label:hover p.hint {
 }
 
 .device-click .iframe-preview .iframe-wrapper iframe {
-  -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
 }
 
@@ -1675,7 +1667,6 @@ label:hover p.hint {
 }
 
 .device-click .overlay {
-  -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
 }
 
@@ -1736,7 +1727,6 @@ label:hover p.hint {
 }
 
 .device-click .modal-wrapper .modal {
-  -webkit-transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
@@ -1768,6 +1758,7 @@ label:hover p.hint {
   clear: both;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
   min-height: 6rem;
+  margin-bottom: 2.25rem;
 }
 
 .note strong {
@@ -1853,7 +1844,6 @@ label:hover p.hint {
 }
 
 .device-click .page-menu a {
-  -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
 }
 
@@ -1957,7 +1947,6 @@ label:hover p.hint {
 }
 
 .device-click .popover {
-  -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
 }
 
@@ -2355,7 +2344,6 @@ table.comparison td span {
 }
 
 .device-click .masthead .site-title a {
-  -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
 }
 
@@ -2377,7 +2365,6 @@ table.comparison td span {
 }
 
 .device-click .masthead .site-title .ptd-logo rect, .device-click .masthead .site-title .ptd-logo polygon {
-  -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
 }
 
@@ -2561,7 +2548,6 @@ table.comparison td span {
 }
 
 .device-click .page-contact .contact-selection {
-  -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
 }
 
@@ -2593,7 +2579,6 @@ table.comparison td span {
 }
 
 .device-click .page-contact form.formspree {
-  -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
 }
 
@@ -2718,7 +2703,6 @@ table.comparison td span {
 }
 
 .device-click .page-home .tiles a {
-  -webkit-transition: all 0.75s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   transition: all 0.75s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
@@ -2739,7 +2723,6 @@ table.comparison td span {
 }
 
 .device-click .page-home .tiles a span {
-  -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
 }
 
@@ -2751,7 +2734,6 @@ table.comparison td span {
 }
 
 .device-click .page-home .tiles a:hover {
-  -webkit-transition: all 0.75s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   transition: all 0.75s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
@@ -2761,7 +2743,6 @@ table.comparison td span {
 }
 
 .device-click .page-home .tiles a:hover span {
-  -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
 
@@ -2806,13 +2787,10 @@ table.comparison td span {
 
 .page-home .site-intro-description {
   -webkit-column-count: 2;
-     -moz-column-count: 2;
           column-count: 2;
   -webkit-column-width: 20rem;
-     -moz-column-width: 20rem;
           column-width: 20rem;
   -webkit-column-gap: 3rem;
-     -moz-column-gap: 3rem;
           column-gap: 3rem;
   margin-bottom: 3rem;
 }
@@ -3022,7 +3000,6 @@ table.comparison td span {
 }
 
 .device-click .page-styleguide .pattern .display {
-  -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
 }
 
@@ -3040,7 +3017,6 @@ table.comparison td span {
 }
 
 .device-click .page-styleguide .pattern .source {
-  -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
 }
 
@@ -3173,7 +3149,6 @@ table.comparison td span {
 }
 
 .device-click .page-tools-color-picker .color-container {
-  -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
 }
 
@@ -3277,7 +3252,6 @@ a {
 }
 
 .device-click a {
-  -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
 }
 
@@ -3346,7 +3320,6 @@ hr.arrow {
   }
   .modules {
     -webkit-column-count: 1;
-       -moz-column-count: 1;
             column-count: 1;
   }
   .people {
