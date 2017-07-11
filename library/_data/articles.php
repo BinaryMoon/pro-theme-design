@@ -43,6 +43,15 @@ function get_article_data() {
 			'og-image' => 'hello-beautiful.jpg',
 		),
 
+		'start-video-game-blog' => array(
+			'name' => 'Start a Video Game Blog',
+			'date' => '9th June 2017',
+			'prefix' => '0010',
+			'description' => 'A comprehensive tutorial for starting a video gaming blog.',
+			'icon' => 'app-scroll',
+			'og-image' => 'gaming.jpg',
+		),
+
 	);
 
 	if ( 'dev' == ENV ) {
