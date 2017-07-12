@@ -1,4 +1,4 @@
-<p class="intro">WordPress is an incredibly versatile application, and there are many ways to make money with it. On this page I have listed the most common, but I'm sure it's not an exhaustive list. If you know of any others then please do let me know on [Twitter](https://twitter.com/prothemedesign/).</p>
+<p class="intro">WordPress is an incredibly versatile application, and there are many ways to make money with it. On this page I have listed the most common, but I'm sure it's not an exhaustive list. If you know of any others then please do let me know on <a href="https://twitter.com/prothemedesign/">Twitter</a>.</p>
 
 1. [Blogging](#blogging)
 1. [Advertising Your Business](#advertising-your-business)
