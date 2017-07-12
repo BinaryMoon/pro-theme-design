@@ -186,7 +186,7 @@ function articles_sitemap() {
 /**
  * Display an article using markdown.
  * Uses the parsedown processor.
- * 
+ *
  * @see http://parsedown.org/
  * @param  [type] $article [description]
  * @return [type]          [description]
@@ -199,7 +199,7 @@ function article_display( $article ) {
 
 	$Parsedown = new ParsedownPTD();
 
-	$article_contents = file_get_contents( 'views/_articles/' . $article . '.php' );
+	$article_contents = file_get_contents( 'views/_articles/' . $article . '.md' );
 
 	echo $Parsedown->text( $article_contents );
 
