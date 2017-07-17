@@ -165,7 +165,7 @@ Jetpack is incredibly powerful. The features listed here are just a start; there
 
 ### Make your reviews stand out with WP Review Pro
 
-WP Review Pro is [probably](https://winningwp.com/best-wordpress-review-plugins/) [the best](https://www.codeinwp.com/blog/best-wordpress-review-plugins/) review plugin available for WordPress right now, with a ton of features.
+[WP Review Pro](https://mythemeshop.com/plugins/wp-review-pro/) is [probably](https://winningwp.com/best-wordpress-review-plugins/) [the best](https://www.codeinwp.com/blog/best-wordpress-review-plugins/) review plugin available for WordPress right now, with a ton of features.
 
 The plugin costs a hefty $87, although discounts and sales are almost always available ([check this page for discounts](https://mythemeshop.com/offer/)), or do a Google search for coupon codes.
 
