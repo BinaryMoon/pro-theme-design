@@ -14,3 +14,5 @@
 <?php
 
 	}
+
+	//printf( THEME_PURCHASE, 'broadsheet-wp', 'Broadsheet Subscription' );
