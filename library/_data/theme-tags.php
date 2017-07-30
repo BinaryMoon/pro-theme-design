@@ -69,7 +69,7 @@ function get_theme_tags_data() {
 			'og-image' => 'cowork.jpg',
 		),
 		'video-game' => array(
-			'description' => 'We love video games, and these video game WordPress themes come packed with features perfect for video game sites, whether they’re reviews, news or fan focussed. The big, bold imagery makes for a beautiful magazine-style layout which puts the focus on the games. Your readers will love how easy to use and navigate these video game WordPress themes are, and you’ll love how intuitive and straightforward the themes are to set up.',
+			'description' => 'We love video games, and these video game WordPress themes come packed with features perfect for video game sites, whether they’re reviews, news or fan focussed. The bold imagery offers a magazine-style layout which puts the focus on the games. Your readers will love how easy to use and navigate these video game WordPress themes are, and you’ll love how intuitive and straightforward the themes are to set up.',
 			'og-image' => 'video-game.jpg',
 		),
 
