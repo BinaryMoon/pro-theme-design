@@ -1,3 +1,7 @@
+<h3>1.6 - 13th July 2017</h3>
+<ul>
+<li>Remove include for inc/wpcom.php, since it's automatically included by WordPress.com sites</li>
+</ul>
 <h3>1.5 - 13th June 2017</h3>
 <ul>
 <li>Improve white space, and text readability</li>

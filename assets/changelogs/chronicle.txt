@@ -1,3 +1,12 @@
+<h3>10.3 - 20th July 2017</h3>
+<ul>
+<li>Add support for Jetpack content options to allow altering of some website content.</li>
+<li>Includes support for adding the Author Bio on single blog posts.</li>
+</ul>
+<h3>10.2.6 - 16th July 2017</h3>
+<ul>
+<li>Minor tweaks to css styles to improve readability</li>
+</ul>
 <h3>10.2.5 - 5th July 2017</h3>
 <ul>
 <li>Small css tweaks to improve design consistency</li>

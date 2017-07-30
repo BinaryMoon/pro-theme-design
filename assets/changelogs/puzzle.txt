@@ -1,3 +1,8 @@
+<h3>1.9.2 - 17th July 2017</h3>
+<ul>
+<li>Enable Jetpack portfolio support by default. The theme was designed as a portfolio and includes a portfolio template so having this enabled allows users to get setup more quickly.</li>
+<li>Remove include for inc/wpcom.php, since it's automatically included by WordPress.com sites</li>
+</ul>
 <h3>1.9.1 - 3rd July 2017</h3>
 <ul>
 <li>Fix PHP error happening due to WooCommerce integration.</li>

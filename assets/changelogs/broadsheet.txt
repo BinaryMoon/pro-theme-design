@@ -1,3 +1,14 @@
+<h3>1.8 - 20th July 2017</h3>
+<ul>
+<li>Add support for Jetpack content options to allow altering of some website content.</li>
+<li>Includes support for adding the Author Bio on single blog posts.</li>
+<li>Extra escaping</li>
+</ul>
+<h3>1.7 - 13th July 2017</h3>
+<ul>
+<li>Remove include for inc/wpcom.php, since it's automatically included by WordPress.com sites</li>
+<li>Minor tweaks to css styles to improve readability</li>
+</ul>
 <h3>1.6 - 5th July 2017</h3>
 <ul>
 <li>General style tweaks to improve spacing and consistency across the theme.</li>

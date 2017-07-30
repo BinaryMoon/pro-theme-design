@@ -1,3 +1,8 @@
+<h3>1.5.3 - 20th July 2017</h3>
+<ul>
+<li>Make numeric pagination more robust.</li>
+<li>Fix minor display issue with custom logos.</li>
+</ul>
 <h3>1.5.2 - 14th January 2017</h3>
 <ul>
 <li>Fix bug with customizer setting being validated incorrectly and so not allowing the menu to show and hide properly.</li>

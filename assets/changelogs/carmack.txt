@@ -1,3 +1,8 @@
+<h3>2.8.2 - 13th July 2017</h3>
+<ul>
+<li>Remove include for inc/wpcom.php, since it's automatically included by WordPress.com sites</li>
+<li>Fix bug with slider js that was creating malformed html</li>
+</ul>
 <h3>2.8.1 - 3rd July 2017</h3>
 <ul>
 <li>Fix PHP errors due to WooCommerce integration.</li>

@@ -1,3 +1,7 @@
+<h3>2.4.1 - 13th July 2017</h3>
+<ul>
+<li>Remove include for inc/wpcom.php, since it's automatically included by WordPress.com sites</li>
+</ul>
 <h3>2.4 - 3rd July 2017</h3>
 <ul>
 <li>Add support for WooCommerce.</li>
