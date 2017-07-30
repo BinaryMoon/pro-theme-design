@@ -37,6 +37,8 @@ Now that you’ve decided how you’re setting up your site, let’s start getti
 
 ## Getting set up with self-hosted WordPress
 
+![WordPress screenshot](article-image:wordpress.png)
+
 Using self-hosted WordPress to run your video game blog is an excellent choice. You now need to get this thing set up! The WordPress software itself is free, but you’ll need a number of other services in order to get started:
 
 * **Domain name:** this is your website address (ie prothemedesign.com). Expect to pay around $10/year for this.
@@ -47,6 +49,8 @@ Using self-hosted WordPress to run your video game blog is an excellent choice. 
 Your total budget for setting up a self-hosted WordPress site from scratch should be $150 at the low end, and $600+ at the higher end. This low-end cost is very similar to what you’d pay for one of the site builder platforms. You can quite comfortably keep costs low to start with and spend more as your site grows.
 
 ## Choosing WordPress hosting and a domain name for your video game blog
+
+![Siteground screenshot](article-image:siteground.png)
 
 There’s a ton of information available about which WordPress hosting you should choose, how to pick your domain, and, frankly, there’s too much information around. Knowing too much detail makes the decision very difficult.
 
@@ -149,6 +153,8 @@ If you’re unfamiliar with WordPress plugins or how to install them, then you�
 
 ## Get the all-in-one plugin that solves the common problems
 
+![Jetpack screenshot](article-image:jetpack.png)
+
 [Jetpack](https://refer.wordpress.com/r/965/jetpack/) is an incredibly useful WordPress plugin. It’s made by the same people who run [WordPress.com](https://wordpress.com/), and brings many of the best features from WordPress.com to self-hosted WordPress sites (such as your one!). If you have a Pro Theme Design theme, you’ll also benefit from built-in support for Jetpack and its features – so the designs will integrate seamlessly.
 
 Jetpack is a free plugin available from the WordPress plugin repository, but when you install it you’ll be asked to register for a WordPress.com account. This is required to power the WordPress.com features you’ll get for your site. During this signup process, you’ll in turn be asked if you want to sign up for a paid plan. You don’t need a paid plan, but you if you want the features described it’s a good choice.
@@ -164,6 +170,8 @@ With Jetpack installed and registered, you can start enabling the awesome featur
 Jetpack is incredibly powerful. The features listed here are just a start; there are tons more available if you install the plugin and start playing around with it.
 
 ### Make your reviews stand out with WP Review Pro
+
+![WP Review Pro screenshot](article-image:wp-review-pro.png)
 
 [WP Review Pro](https://mythemeshop.com/plugins/wp-review-pro/) is [probably](https://winningwp.com/best-wordpress-review-plugins/) [the best](https://www.codeinwp.com/blog/best-wordpress-review-plugins/) review plugin available for WordPress right now, with a ton of features.
 
