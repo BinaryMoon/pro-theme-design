@@ -110,6 +110,52 @@
 
 			color: $body-header-color;
 			font-weight: bold;
+			display: block;
+
+		}
+
+	}
+
+	label {
+
+		position: relative;
+
+	}
+
+	.symbol {
+
+		position: absolute;
+		line-height: $grid-line-height * 2.2;
+		font-weight: bold;
+		left: $grid-gutter / 2;
+		margin: 0;
+
+	}
+
+	.group-expenses {
+
+		input {
+
+			padding-left: $grid-gutter * 0.8;
+
+		}
+
+	}
+
+	.hourly-rate {
+
+		.row {
+
+			display: flex;
+			margin-bottom: $grid-line-height;
+
+			.form-select {
+
+				width: 20%;
+				margin-right: $grid-gutter / 2;
+				margin-bottom: 0;
+
+			}
 
 		}
 
