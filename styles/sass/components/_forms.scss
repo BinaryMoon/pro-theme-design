@@ -3,6 +3,7 @@ label {
 	display:block;
 	@include modular-scale( zeta );
 
+	&.group,
 	.formspree & {
 
 		margin-bottom: $grid-line-height * $grid-line-height-multiplier;
@@ -10,7 +11,7 @@ label {
 		p {
 
 			font-weight: normal;
-			max-width: 24rem;
+			max-width: 28rem;
 			display: block;
 			margin-left: 0;
 			margin-right: 0;
@@ -61,9 +62,9 @@ label {
 
 	p.hint {
 
-		margin-top: -1 * $grid-line-height;
+		margin-top: -0.5 * $grid-line-height;
 		text-transform: none;
-		opacity: 0.5;
+		opacity: 0.8;
 		@include transition;
 
 	}
@@ -88,6 +89,7 @@ label {
 		background: $block-background;
 		padding: ( $grid-line-height / 2 ) ( $grid-gutter / 2 );
 		border-radius: $border-radius;
+		margin-bottom: 0;
 		@include transition;
 
 		&:hover,
