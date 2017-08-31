@@ -1,3 +1,8 @@
+<h3>1.10 - 18th August 2017</h3>
+<ul>
+<li>Add option to display project terms on portfolio and projects archive pages. This defaults to off so as not to change existing users sites unexpectedly.</li>
+<li>Escape more stuff</li>
+</ul>
 <h3>1.9.2 - 17th July 2017</h3>
 <ul>
 <li>Enable Jetpack portfolio support by default. The theme was designed as a portfolio and includes a portfolio template so having this enabled allows users to get setup more quickly.</li>

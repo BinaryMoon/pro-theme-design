@@ -1,3 +1,7 @@
+<h3>1.7.1 - 31st July 2017</h3>
+<ul>
+<li>Tweak homepage responsive styles.</li>
+</ul>
 <h3>1.7 - 13th July 2017</h3>
 <ul>
 <li>Remove include for inc/wpcom.php, since it's automatically included by WordPress.com sites</li>
