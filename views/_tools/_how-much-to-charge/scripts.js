@@ -30,10 +30,6 @@
 		// contingency money in case of problems
 		var contingency = 1.5;
 
-		// how much effort is the project for you to work on. How much does it benefit you?
-		// the higher the value, the more effort the project will be so the more you should earn from it
-		var effort = 1;
-
 		var currency = $( '#currency' ).val();
 		var rate = getFloat( '#rate', 10 );
 		var duration = getFloat( '#duration', 1 );
@@ -41,10 +37,12 @@
 		var client = getFloat( 'input[type=radio][name=client]:checked', 0.6 );
 		var interest = getFloat( 'input[type=radio][name=interest]:checked', 0.6 );
 
+		// how much effort is the project for you to work on. How much does it benefit you?
+		// the higher the value, the more effort the project will be so the more you should earn from it
+		var effort = 1 + client + interest;
+
 		// Change currency symbol.
 		$( 'label .symbol' ).html( currency );
-
-		effort = effort + client + interest;
 
 		// base rate
 		quote_addendum = ( rate * duration * contingency ) + expenses;
