@@ -76,8 +76,8 @@ if ( 'localhost' === $_SERVER['HTTP_HOST'] ) {
 }
 
 // Constants.
-define( 'DECACHE_CSS', '86' );
-define( 'DECACHE_JS', '26' );
+define( 'DECACHE_CSS', '87' );
+define( 'DECACHE_JS', '28' );
 define( 'ENV', $environment );
 define( 'GOOGLE_CSE', '010164663960188762731:aajo_mt5e2a' );
 define( 'MANAGE_WP', 'https://managewp.com/?utm_source=A&utm_medium=Link&utm_campaign=A&utm_mrl=3611' );
