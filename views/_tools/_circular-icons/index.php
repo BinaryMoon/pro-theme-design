@@ -8,10 +8,12 @@
 
 	<p><img src="<?php echo image_path( 'website/circular-icons-screenshot.png' ); ?>" alt="Circular Icons Pro Large Screenshot" /></p>
 
+	<p>We have download options for all your needs</p>
+
 	<ul>
-		<li><strong>PNG Pack (free)</strong>, includes icons in 4 sizes (16x16, 32x32, 64x64, and 128x128).</li>
-		<li><strong>SVG Pack ($10)</strong>, includes pngs, and svgs for all icons (the cd icon does not work as an svg).</li>
-		<li><strong>Sketch Pack ($20)</strong>, includes icons as png, svg, and the sketch files - so you can edit them and add new icons that fit the same style.</li>
+		<li><strong>PNG Pack</strong>, includes icons in 4 sizes (16x16, 32x32, 64x64, and 128x128).</li>
+		<li><strong>SVG Version</strong>, includes svgs for all icons except the cd which doesn't export from Sketch properly.</li>
+		<li><strong>Sketch File</strong>, the source file I used to generate the icons. If you have Sketch then you can now export the icons in whatever format you desire.</li>
 	</ul>
 
 	<p><img src="<?php echo image_path( 'website/circular-icons-pro.png' ); ?>" alt="Circular Icons Pro Demo" /></p>
