@@ -1,6 +1,4 @@
-<?php
-	$download_url = path( 'assets/downloads/circular-icons.zip' );
-?>
+
 <div class="wrapper text">
 	<?php site_breadcrumbs(); ?>
 
@@ -8,7 +6,7 @@
 
 	<p class="intro">A comprehensive icon set that includes more than 120 pixel icons in a variety of sizes from 16x16 up to 128x128, designed for a variety of uses from websites to apps. There are three icon packs available - all have the same icons in them, but some they include different file formats.</p>
 
-	<p><a href="<?php echo $download_url; ?>"><img src="<?php echo image_path( 'website/circular-icons-screenshot.png' ); ?>" alt="Circular Icons Pro Large Screenshot" /></a></p>
+	<p><img src="<?php echo image_path( 'website/circular-icons-screenshot.png' ); ?>" alt="Circular Icons Pro Large Screenshot" /></p>
 
 	<ul>
 		<li><strong>PNG Pack (free)</strong>, includes icons in 4 sizes (16x16, 32x32, 64x64, and 128x128).</li>
@@ -16,9 +14,13 @@
 		<li><strong>Sketch Pack ($20)</strong>, includes icons as png, svg, and the sketch files - so you can edit them and add new icons that fit the same style.</li>
 	</ul>
 
-	<p><a href="<?php echo $download_url; ?>"><img src="<?php echo image_path( 'website/circular-icons-pro.png' ); ?>" alt="Circular Icons Pro Demo" /></a></p>
+	<p><img src="<?php echo image_path( 'website/circular-icons-pro.png' ); ?>" alt="Circular Icons Pro Demo" /></p>
 
-	<p><a href="<?php echo $download_url; ?>" class="button fat greedy positive"><?php draw_svg( 'app-download', 'small' ); ?>Download Circular Icons Pro</a></p>
+	<p><a href="<?php echo path( 'assets/downloads/circular-pro-icons-png.zip' ); ?>" class="button fat greedy positive"><?php draw_svg( 'app-download', 'small' ); ?>Download Circular Icons Pro Png version</a></p>
+	<p><a href="<?php echo path( 'assets/downloads/circular-pro-icons-svg.zip' ); ?>" class="button fat greedy positive"><?php draw_svg( 'app-download', 'small' ); ?>Download Circular Icons Pro SVG version</a></p>
+	<p><a href="<?php echo path( 'assets/downloads/circular-pro-icons.sketch' ); ?>" class="button fat greedy positive"><?php draw_svg( 'app-download', 'small' ); ?>Download Circular Icons Pro Sketch files</a></p>
+
+	<p>Looking for the original icons? <a href="<?php echo path( 'assets/downloads/circular-icons.zip' ); ?>">Download Circular Icons Classic</a>.</p>
 
 	<p class="note">Released under the GPL.</p>
 
