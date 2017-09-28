@@ -1,3 +1,7 @@
+<h3>1.5.4 - 7th September 2017</h3>
+<ul>
+<li>Make sure jetpack likes only work when the site id can be looked up.</li>
+</ul>
 <h3>1.5.3 - 20th July 2017</h3>
 <ul>
 <li>Make numeric pagination more robust.</li>

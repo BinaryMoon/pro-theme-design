@@ -1,3 +1,7 @@
+<h3>1.7.2 - 27th September 2017</h3>
+<ul>
+<li>Ensure social links menu displays on small screen devices.</li>
+</ul>
 <h3>1.7.1 - 31st July 2017</h3>
 <ul>
 <li>Tweak homepage responsive styles.</li>

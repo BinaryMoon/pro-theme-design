@@ -1,3 +1,11 @@
+<h3>1.12 - 22nd September 2017</h3>
+<ul>
+<li>Fix CSS bug with images displaying incorrectly on mobile versions of Safari.</li>
+</ul>
+<h3>1.11 - 13th September 2017</h3>
+<ul>
+<li>Fix issue with projects custom template pagination when the page is used on the homepage. Actually will fix the issue for all custom pages, but projects was worst affected.</li>
+</ul>
 <h3>1.10 - 18th August 2017</h3>
 <ul>
 <li>Add option to display project terms on portfolio and projects archive pages. This defaults to off so as not to change existing users sites unexpectedly.</li>

@@ -1,3 +1,22 @@
+<h3>2.4.6 - 27th September 2017</h3>
+<ul>
+<li>Improve menu overlay display on ios Safari.</li>
+</ul>
+<h3>2.4.5 - 15th September 2017</h3>
+<ul>
+<li>Improve breadcrumb display on small devices.</li>
+<li>Add a little more space below page titles to ensure page meta has enough room.</li>
+<li>Fix issue with header position on tablet devices.</li>
+<li>Tweak space between post meta items on small devices.</li>
+</ul>
+<h3>2.4.4 - 10th September 2017</h3>
+<ul>
+<li>Remove duplicate comment form on full width template.</li>
+<li>Fix malformed html in slider navigation.</li>
+<li>Improve stylesheet formatting and update rtl.css</li>
+<li>Tweak site title spacing to reduce liklihood of title overlapping menu &amp; logo.</li>
+<li>Fix dropdown menus on touch devices when no href is set.</li>
+</ul>
 <h3>2.4.3 - 13th July 2017</h3>
 <ul>
 <li>Remove include for inc/wpcom.php, since it's automatically included by WordPress.com sites</li>

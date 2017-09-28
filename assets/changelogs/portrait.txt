@@ -1,6 +1,8 @@
 <h3>2.0.1 - 24th August 2017</h3>
 <ul>
-<li>Small CSS tweaks and fixes.</li>
+<li>Small CSS tweaks and fixes to improve header layout on responsive screens.</li>
+<li>Fix jetpack subscription widget input field size.</li>
+<li>Update rtl.css</li>
 <li>Ensure main menu container is not displayed if there is no menu set.</li>
 </ul>
 <h3>2.0</h3>
