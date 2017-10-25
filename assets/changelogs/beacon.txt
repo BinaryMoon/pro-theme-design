@@ -1,3 +1,7 @@
+<h3>1.7.3 - 28th September 2017</h3>
+<ul>
+<li>Fix issues with responsive behaviour of default header menu (make the fallback page menu show and hide properly on small devices).</li>
+</ul>
 <h3>1.7.2 - 27th September 2017</h3>
 <ul>
 <li>Ensure social links menu displays on small screen devices.</li>

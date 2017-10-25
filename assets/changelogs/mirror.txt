@@ -1,3 +1,9 @@
+<h3>2.3 - 5th October 2017</h3>
+<ul>
+<li>Add option to display featured content on homepage only.</li>
+<li>Change customizer settings so they update in real time.</li>
+<li>Small style tweaks to improve readability of content.</li>
+</ul>
 <h3>2.2.2 - 13th July 2017</h3>
 <ul>
 <li>Remove include for inc/wpcom.php, since it's automatically included by WordPress.com sites</li>

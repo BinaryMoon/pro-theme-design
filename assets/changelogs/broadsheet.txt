@@ -1,3 +1,7 @@
+<h3>1.8.1 - 1st October 2017</h3>
+<ul>
+<li>Add footer credits filter to allow footer credits to be edited through custom plugin.</li>
+</ul>
 <h3>1.8 - 20th July 2017</h3>
 <ul>
 <li>Add support for Jetpack content options to allow altering of some website content.</li>

@@ -1,3 +1,16 @@
+<h3>2.4.9 - 4th October 2017</h3>
+<ul>
+<li>Add project type list to projects pages to keep the page layout consistent with the single post categories.</li>
+</ul>
+<h3>2.4.8 - 2nd October 2017</h3>
+<ul>
+<li>Remove post time and other irrelevant info from pages.</li>
+<li>Fix post likes functionality for newer versions of Jetpack.</li>
+</ul>
+<h3>2.4.7 - 1st October 2017</h3>
+<ul>
+<li>Reinitialize footer widget masonry after 2 seconds in order to ensure social widgets are positioned correctly.</li>
+</ul>
 <h3>2.4.6 - 27th September 2017</h3>
 <ul>
 <li>Improve menu overlay display on ios Safari.</li>

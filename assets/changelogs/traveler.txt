@@ -1,3 +1,25 @@
+<h3>1.6.2 - 24th October 2017</h3>
+<ul>
+<li>Improve responsive styles for header area</li>
+<li>Tweak white space on single posts</li>
+<li>Add some default custom colour palettes (for .com only)</li>
+</ul>
+<h3>1.6.1 - 13th October 2017</h3>
+<ul>
+<li>A rewrite of the masonry javascript that improves infinite scroll behaviour so that the articles do not jump around as they load, and instead display with an attractive transition.</li>
+<li>Also tidied up the js code a bit, adding more comments to make it easier to understand what is going on.</li>
+</ul>
+<h3>1.6 - 2nd October 2017</h3>
+<ul>
+<li>Allow secondary navigation to be controlled by menu.</li>
+<li>Add setting that lets you select the theme header height.</li>
+<li>Add support for Jetpack content options allowing various theme elements to be hidden.</li>
+<li>Add archive titles for situations where the titles are missing (such as testimonials).</li>
+<li>Fix testimonials archive template layout (and probably other archives that I haven’t noticed).</li>
+<li>Improve spacing and general readability.</li>
+<li>Make image attachment template consistent with other templates.</li>
+<li>Improve coding standards.</li>
+</ul>
 <h3>1.5.4 - 7th September 2017</h3>
 <ul>
 <li>Make sure jetpack likes only work when the site id can be looked up.</li>
