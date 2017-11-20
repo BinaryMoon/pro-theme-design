@@ -1,3 +1,9 @@
+<h3>2.2 - 18th October 2017</h3>
+<ul>
+<li>Add support for more input types.</li>
+<li>Add styles for WooCommerce support.</li>
+<li>Improve styles for readability and consistency.</li>
+</ul>
 <h3>2.1 - 17th June 2017</h3>
 <ul>
 <li>Minor tweaks to improve design consistency across the site</li>

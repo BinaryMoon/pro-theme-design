@@ -1,3 +1,8 @@
+<h3>1.6 - 31st October 2017</h3>
+<ul>
+<li>WooCommerce for all (.com and .org).</li>
+<li>Disable infinite-scroll on WooCommerce archive pages.</li>
+</ul>
 <h3>1.5.2 - 13th July 2017</h3>
 <ul>
 <li>Remove include for inc/wpcom.php, since it's automatically included by WordPress.com sites</li>

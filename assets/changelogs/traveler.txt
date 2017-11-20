@@ -1,3 +1,7 @@
+<h3>1.6.3 - 1st November 2017</h3>
+<ul>
+<li>Fix bug with Testimonial (and possibly other post types) responsive display being too small</li>
+</ul>
 <h3>1.6.2 - 24th October 2017</h3>
 <ul>
 <li>Improve responsive styles for header area</li>

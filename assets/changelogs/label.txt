@@ -1,3 +1,8 @@
+<h3>2.5 - 31st October 2017</h3>
+<ul>
+<li>WooCommerce for all (.com and .org).</li>
+<li>Disable infinite-scroll on WooCommerce archive pages.</li>
+</ul>
 <h3>2.4.9 - 4th October 2017</h3>
 <ul>
 <li>Add project type list to projects pages to keep the page layout consistent with the single post categories.</li>

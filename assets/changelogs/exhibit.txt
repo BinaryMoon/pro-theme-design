@@ -1,3 +1,8 @@
+<h3>2.5 - 31st October 2017</h3>
+<ul>
+<li>WooCommerce for all (.com and .org).</li>
+<li>Disable infinite-scroll on WooCommerce archive pages.</li>
+</ul>
 <h3>2.4.1 - 13th July 2017</h3>
 <ul>
 <li>Remove include for inc/wpcom.php, since it's automatically included by WordPress.com sites</li>
@@ -13,7 +18,7 @@
 <h3>2.3.2 - 12th April 2017</h3>
 <ul>
 <li>Add CSS classes to html so that different elements are more easily targeted with CSS.</li>
-<li>Improve masonry behavior of testimonials.</li>
+<li>Improve masonry behaviour of testimonials.</li>
 </ul>
 <h3>2.3.1 - 11th April 2017</h3>
 <ul>

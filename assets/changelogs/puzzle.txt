@@ -1,3 +1,10 @@
+<h3>2.0 - 29th October</h3>
+<ul>
+<li>Bump the version number to avoid an unfortunate compilation error that was causing issues with an incorrect version. Confusing but this is a simple fix for it.</li>
+<li>Add support for WooCommerce for all sites (including .com).</li>
+<li>Improve WooCommerce styles on archive pages.</li>
+<li>Disable Infinite Scroll on WooCommerce archives.</li>
+</ul>
 <h3>1.12 - 22nd September 2017</h3>
 <ul>
 <li>Fix CSS bug with images displaying incorrectly on mobile versions of Safari.</li>
