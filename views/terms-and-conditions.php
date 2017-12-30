@@ -13,6 +13,8 @@
 
 			<p>We offer support via the relevant support forums. For WordPress.com please use the <a href="https://premium-themes.forums.wordpress.com">premium themes forum</a>. For self hosted themes you can use our <a href="<?php echo path( 'contact/' ); ?>">contact page</a>.</p>
 
+			<p>Theme support is offered for one year from the date of purchase. After this date support will be offered at our discretion.</p>
+
 			<p>The support we offer is restricted to fixing bugs in our themes. Unfortunately we don't help with theme modifications/ customisations or installation issues. For help with customizations we have partnered with Codeable who offer <a href="<?php echo path( 'theme-customization/' ); ?>">customization services for WordPress websites</a>.</p>
 
 			<p>We do not offer support for problems with third party plugins or theme modifications.</p>
@@ -28,10 +30,6 @@
 			<h2>Multiple Sites</h2>
 
 			<p>You are welcome to use our themes on as many sites as you like.</p>
-
-			<h2>Individual Theme Support</h2>
-
-			<p>Theme support is offered for one year from the date of purchase. After this date support will be offered at our discretion.</p>
 
 			<h2>Theme Club Support</h2>
 
