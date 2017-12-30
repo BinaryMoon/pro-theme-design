@@ -1,3 +1,7 @@
+<h3>1.10.2 - 30th November 2017</h3>
+<ul>
+<li>Improve display of full blog posts on archive pages when using Jetpack content options.</li>
+</ul>
 <h3>1.10.1 - 6th November 2017</h3>
 <ul>
 <li>Improve styles for responsive menus.</li>

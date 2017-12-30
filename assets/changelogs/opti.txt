@@ -1,3 +1,9 @@
+<h3>1.3.3 - 15th Novemeber 2017</h3>
+<ul>
+<li>Improve responsive layout on small devices</li>
+<li>Improve footer styles</li>
+<li>Fix category layout in rtl languages.</li>
+</ul>
 <h3>1.3.2 - 17th September 2017</h3>
 <ul>
 <li>Stop random elements from bumping against the post title in some situations.</li>

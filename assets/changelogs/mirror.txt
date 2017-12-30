@@ -1,3 +1,7 @@
+<h3>2.3.1 - 25th November 2017</h3>
+<ul>
+<li>Tweak styles to improve readability &amp; hierarchy of blog posts</li>
+</ul>
 <h3>2.3 - 5th October 2017</h3>
 <ul>
 <li>Add option to display featured content on homepage only.</li>

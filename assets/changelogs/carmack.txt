@@ -1,3 +1,7 @@
+<h3>2.9.1 - 20th December 2017</h3>
+<ul>
+<li>Further improvements to WooCommerce support</li>
+</ul>
 <h3>2.9 - 31st October 2017</h3>
 <ul>
 <li>WooCommerce for all (.com and .org)</li>

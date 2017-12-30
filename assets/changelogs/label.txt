@@ -1,3 +1,15 @@
+<h3>2.5.3 - 20th December 2017</h3>
+<ul>
+<li>Further improvements to WooCommerce support.</li>
+</ul>
+<h3>2.5.2 - 11th December 2017</h3>
+<ul>
+<li>Fix issues with admin bar on small devices.</li>
+</ul>
+<h3>2.5.1 - 3rd December 2017</h3>
+<ul>
+<li>Tweak footer credits filter so it hides less html.</li>
+</ul>
 <h3>2.5 - 31st October 2017</h3>
 <ul>
 <li>WooCommerce for all (.com and .org).</li>
