@@ -74,9 +74,6 @@ class Route {
     public function matchUrl($url, $case_sensitive = false) {
         // Wildcard or exact match
         if ($this->pattern === '*' || $this->pattern === $url) {
-            if ($this->pass) {
-                $this->params[] = $this;
-            }
             return true;
         }
 
@@ -125,10 +122,6 @@ class Route {
         if (preg_match('#^'.$regex.'(?:\?.*)?$#'.(($case_sensitive) ? '' : 'i'), $url, $matches)) {
             foreach ($ids as $k => $v) {
                 $this->params[$k] = (array_key_exists($k, $matches)) ? urldecode($matches[$k]) : null;
-            }
-
-            if ($this->pass) {
-                $this->params[] = $this;
             }
 
             $this->regex = $regex;

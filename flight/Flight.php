@@ -39,10 +39,10 @@
  *
  * Request & Response.
  * @method  static \flight\net\Request request() Returns Request instance.
- * @method  static \flight\net\Response response() Returns Request instance.
+ * @method  static \flight\net\Response response() Returns Response instance.
  * @method  static void redirect($url, $code = 303) Redirects to another URL.
- * @method  static void json($data, $code = 200, $encode = true) Sends a JSON response.
- * @method  static void jsonp($data, $param = 'jsonp', $code = 200, $encode = true) Sends a JSONP response.
+ * @method  static void json($data, $code = 200, $encode = true, $charset = "utf8", $encodeOption = 0, $encodeDepth = 512) Sends a JSON response.
+ * @method  static void jsonp($data, $param = 'jsonp', $code = 200, $encode = true, $charset = "utf8", $encodeOption = 0, $encodeDepth = 512) Sends a JSONP response.
  * @method  static void error($exception) Sends an HTTP 500 response.
  * @method  static void notFound() Sends an HTTP 404 response.
  *
@@ -69,6 +69,7 @@ class Flight {
      * @param string $name Method name
      * @param array $params Method parameters
      * @return mixed Callback results
+     * @throws \Exception
      */
     public static function __callStatic($name, $params) {
         $app = Flight::app();
@@ -77,7 +78,7 @@ class Flight {
     }
 
     /**
-     * @return object Application instance
+     * @return \flight\Engine Application instance
      */
     public static function app() {
         static $initialized = false;

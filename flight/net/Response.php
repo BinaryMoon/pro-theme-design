@@ -30,6 +30,11 @@ class Response {
     protected $body;
 
     /**
+     * @var bool HTTP response sent
+     */
+    protected $sent = false;
+
+    /**
      * @var array HTTP status codes
      */
     public static $codes = array(
@@ -107,7 +112,7 @@ class Response {
      * Sets the HTTP status of the response.
      *
      * @param int $code HTTP status code.
-     * @return object Self reference
+     * @return object|int Self reference
      * @throws \Exception If invalid status code
      */
     public function status($code = null) {
@@ -247,11 +252,31 @@ class Response {
         }
 
         // Send content length
-        if (($length = strlen($this->body)) > 0) {
+        $length = $this->getContentLength();
+
+        if ($length > 0) {
             header('Content-Length: '.$length);
         }
 
         return $this;
+    }
+
+    /**
+     * Gets the content length.
+     *
+     * @return string Content length
+     */
+    public function getContentLength() {
+        return extension_loaded('mbstring') ?
+            mb_strlen($this->body, 'latin1') :
+            strlen($this->body);
+    }
+
+    /**
+     * Gets whether response was sent.
+     */
+    public function sent() {
+        return $this->sent;
     }
 
     /**
@@ -266,7 +291,9 @@ class Response {
             $this->sendHeaders();
         }
 
-        exit($this->body);
+        echo $this->body;
+
+        $this->sent = true;
     }
 }
 
