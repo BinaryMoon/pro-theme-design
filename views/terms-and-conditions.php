@@ -31,10 +31,6 @@
 
 			<p>You are welcome to use our themes on as many sites as you like.</p>
 
-			<h2>Theme Club Support</h2>
-
-			<p>Theme Club support is offered for the duration of the theme club subscription. It will only be offered for themes that are currently active in the theme club. We reserve the right to retire a theme from the theme club at any time without notice.</p>
-
 			<h2>Product Updates</h2>
 
 			<p>We do not schedule, or guarantee, product updates however we do update products. Updates for minor versions will be free. Occassionally we will release a major update to a product and we reserve the right to charge an upgrade fee at our discretion.</p>
