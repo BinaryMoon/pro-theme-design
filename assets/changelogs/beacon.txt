@@ -1,3 +1,7 @@
+<h3>1.7.4 - 2nd January 2018</h3>
+<ul>
+<li>Add css classes to homepage tabs to make it easier to target them with css.</li>
+</ul>
 <h3>1.7.3 - 28th September 2017</h3>
 <ul>
 <li>Fix issues with responsive behaviour of default header menu (make the fallback page menu show and hide properly on small devices).</li>
