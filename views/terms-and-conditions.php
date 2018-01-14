@@ -13,7 +13,7 @@
 
 			<p>We offer support via the relevant support forums. For WordPress.com please use the <a href="https://premium-themes.forums.wordpress.com">premium themes forum</a>. For self hosted themes you can use our <a href="<?php echo path( 'contact/' ); ?>">contact page</a>.</p>
 
-			<p>Theme support is offered for one year from the date of purchase. After this date support will be offered at our discretion.</p>
+			<p>Theme support is offered for one year from the date of purchase. After this date further support will require a new theme license to be purchased.</p>
 
 			<p>The support we offer is restricted to fixing bugs in our themes. Unfortunately we don't help with theme modifications/ customisations or installation issues. For help with customizations we have partnered with Codeable who offer <a href="<?php echo path( 'theme-customization/' ); ?>">customization services for WordPress websites</a>.</p>
 
@@ -33,13 +33,15 @@
 
 			<h2>Product Updates</h2>
 
-			<p>We do not schedule, or guarantee, product updates however we do update products. Updates for minor versions will be free. Occassionally we will release a major update to a product and we reserve the right to charge an upgrade fee at our discretion.</p>
+			<p>We do not schedule, or guarantee, product updates however we do update products. Updates are included for one year after the date of purchase. To continue receiving updates you will need to purchase a new theme license to continue to receive updates. Occassionally we will release a major update to a product and we reserve the right to charge an upgrade fee at our discretion.</p>
 
 			<p>We publish a list of <a href="<?php echo path( 'tools/changelogs/' ); ?>">all theme changelogs</a>.</p>
 
+			<p>After a period of one year from the date of purchase your license will expire. You are welcome to continue using your purchased theme however support and updates will no longer be guaranteed.</p>
+
 			<h2>Personal Information</h2>
 
-			<p>During the auto update process we may send information such as the website url, WordPress version, and theme version to our servers. This is purely for our internal use. Some, such as the website url, is neccessary for the update to work. The WordPress and PHP versions are needed so that we know what technology our customers use so that we can better serve you.</p>
+			<p>During the auto update process we may send information such as the website url, WordPress version, and theme version to our servers. This is purely for our internal use. Some information, such as the website url, is neccessary for the update to work. The WordPress and PHP versions are used so that we know what technology our customers use so that we can better serve you.</p>
 
 			<p>We do not transfer any personal information such as email addresses. We will never share this information with anyone.</p>
 
