@@ -6,7 +6,7 @@
 function get_tools_data() {
 
 	$tools = array(
-		// quizes
+		// Quizes.
 		'quiz-which-wordpress' => array(
 			'name' => 'Which WordPress?',
 			'description' => 'Which version of WordPress is right for you? WordPress.org or WordPress.com?',
@@ -14,7 +14,20 @@ function get_tools_data() {
 			'icon' => 'question-circle',
 		),
 
-		// external tools
+		// External tools.
+		'granule' => array(
+			'url' => 'https://github.com/BinaryMoon/granule',
+			'name' => 'Granule',
+			'description' => 'WordPress starter theme. The starting point for all our themes.',
+			'tag' => 'tool',
+		),
+		'colour-analyser' => array(
+			'url' => 'https://colour.prothemedesign.com',
+			'name' => 'Colour',
+			'description' => 'Website colour analyser. Find common and unessecary colours in your websites.',
+			'tag' => 'tool',
+		),
+
 		'how-much-to-charge' => array(
 			'name' => 'WordPress Pricing Calculator',
 			'description' => 'Calculate how much to charge for a WordPress job.',
@@ -154,7 +167,9 @@ function get_tools_data() {
 	foreach ( $tools as $key => $tool ) {
 
 		// website url.
-		$tool['url'] = path( 'tools/' . $key . '/' );
+		if ( empty( $tool['url'] ) ) {
+			$tool['url'] = path( 'tools/' . $key . '/' );
+		}
 
 		if ( empty( $tool['og-image'] ) ) {
 			$tool['og-image'] = 'tools.jpg';
@@ -231,11 +246,10 @@ function tools_display( $tool_data ) {
 <div class="block-wrapper wrapper">
 <?php
 	foreach ( $tools as $tool ) {
-		if ( $tool['tag'] === $tool_data['tag'] && ! empty( $tool['icon'] ) ) {
+		if ( $tool['tag'] === $tool_data['tag'] ) {
 ?>
 	<div class="block">
 		<div class="content">
-			<i class="fa fa-<?php echo $tool['icon']; ?> icon"></i>
 			<h3><a href="<?php echo $tool['url']; ?>"><?php echo $tool['name']; ?></a></h3>
 			<p><?php echo $tool['description']; ?></p>
 		</div>
