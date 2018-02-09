@@ -1,3 +1,11 @@
+<h3>2.9.3 - 28th January 2018</h3>
+<ul>
+<li>Optimize CSS.</li>
+</ul>
+<h3>2.9.2 - 12th January 2018</h3>
+<ul>
+<li>Fix small bug with content positioning in post content</li>
+</ul>
 <h3>2.9.1 - 20th December 2017</h3>
 <ul>
 <li>Further improvements to WooCommerce support</li>

@@ -1,3 +1,7 @@
+<h3>2.4 - 12th January 2018</h3>
+<ul>
+<li>Tweak css styles for spacing and contrast to improve readability and accessibility</li>
+</ul>
 <h3>2.3.1 - 25th November 2017</h3>
 <ul>
 <li>Tweak styles to improve readability &amp; hierarchy of blog posts</li>

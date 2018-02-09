@@ -1,10 +1,19 @@
-<h3>1.9 - 20th December 2017</h3>
+<h3>1.9.1 - 27th January 2018</h3>
+<ul>
+<li>Simplify the menu selection javascript, which in turn removes errors on some menu items.</li>
+</ul>
+<h3>1.9 - 25th January 2018</h3>
+<ul>
+<li>Highlight current menu item in menus</li>
+<li>Remove responsiveNavigation.js code since it will never be executed (it's left over from my starter theme)</li>
+<li>Select current menu level when you visit a page in the nav.</li>
+<li>Add option to enable/ disable the submenu selection feature.</li>
+<li>Tidy codes</li>
+</ul>
+<h3>1.8.5 - 20th December 2017</h3>
 <ul>
 <li>Fix issue with custom page templates not displaying shortcodes properly.</li>
 <li>Fix navigation issue that can occcur when widgets are used in the header sidebar.</li>
-<li>Highlight current menu item in menus</li>
-<li>Add option to have current menu level highlighted when you visit a page.</li>
-<li>Tidy codes</li>
 </ul>
 <h3>1.8.4 - 21st July 2017</h3>
 <ul>

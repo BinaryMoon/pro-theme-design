@@ -1,0 +1,8 @@
+<h3>2.0</h3>
+<ul>
+<li>wordpress.com release</li>
+</ul>
+<h3>1.0</h3>
+<ul>
+<li>Initial release</li>
+</ul>

@@ -1,3 +1,15 @@
+<h3>1.7.1 - 20th January 2018</h3>
+<ul>
+<li>Ensure italic font variants are loaded.</li>
+</ul>
+<h3>1.7 - 19th January 2018</h3>
+<ul>
+<li>Tweak spacing and sizes to improve usability and consistency.</li>
+<li>Fix small display issue with search results layout.</li>
+<li>Make featured images larger to ensure they always fill the space available.</li>
+<li>Remove duplicate image size that isn't used.</li>
+<li>Fix video display in list layout.</li>
+</ul>
 <h3>1.6.4 - 20th December 2017</h3>
 <ul>
 <li>Improve masonry resizing when using video post format.</li>

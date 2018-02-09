@@ -1,4 +1,9 @@
-<h3>2.0 - 29th October</h3>
+<h3>2.1 - 17th January 2018</h3>
+<ul>
+<li>Improve spacing in layout to improve readability, and consistency.</li>
+<li>Update right to left styles.</li>
+</ul>
+<h3>2.0 - 29th October 2017</h3>
 <ul>
 <li>Bump the version number to avoid an unfortunate compilation error that was causing issues with an incorrect version. Confusing but this is a simple fix for it.</li>
 <li>Add support for WooCommerce for all sites (including .com).</li>
