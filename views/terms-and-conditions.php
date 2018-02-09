@@ -15,7 +15,7 @@
 
 			<p>Theme support is offered for one year from the date of purchase. After this date further support will require a new theme license to be purchased.</p>
 
-			<p>The support we offer is restricted to fixing bugs in our themes. Unfortunately we don't help with theme modifications/ customisations or installation issues. For help with customizations we have partnered with Codeable who offer <a href="<?php echo path( 'theme-customization/' ); ?>">customization services for WordPress websites</a>.</p>
+			<p>The support we offer is restricted to fixing bugs in our themes. Unfortunately we don't help with theme modifications/ customizations or installation issues. For help with customizations we have partnered with Codeable who offer <a href="<?php echo path( 'theme-customization/' ); ?>">customization services for WordPress websites</a>.</p>
 
 			<p>We do not offer support for problems with third party plugins or theme modifications.</p>
 
@@ -53,6 +53,9 @@
 
 			<p>If we withdraw a Theme License Key then your theme will continue to work, however you will no longer receive theme updates.</p>
 
+			<h2>Refunds</h2>
+
+			<p>We offer a 30 day refund Guarantee on all purchases at Pro Theme Design. The only thing we ask is that you explain why, so that we can improve things for future customers. There's more information on this on our <a href="https://prothemedesign.com/documentation/general/refunds/">refund documentation</a>.</p>
 			<h2>Transferring themes from WordPress.com</h2>
 
 			<p>Unfortunately themes purchased on WordPress.com are separate products and so are non transferable. This is detailed on the <a href="http://en.support.wordpress.com/themes/premium-themes/">premium theme terms on WordPress.com</a>. If you wish to move from WordPress.com to a self hosted site then you will need to repurchase your theme.</p>
