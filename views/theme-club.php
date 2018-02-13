@@ -69,7 +69,7 @@
 				</tr>
 			</table>
 
-			<p class="note"><strong>Note:</strong> the <em>Theme Club</em> is not available for WordPress.com - you can <a href="http://theme.wordpress.com/themes/by/pro-theme-design/" target="_blank">Get our WordPress.com Themes</a> here.</p>
+			<p class="note"><strong>Note:</strong> the <em>Theme Club</em> is not available for WordPress.com - you can <a href="http://theme.wordpress.com/themes/by/pro-theme-design/" target="_blank" rel="noopener">Get our WordPress.com Themes</a> here.</p>
 		</div>
 
 <?php

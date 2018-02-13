@@ -42,8 +42,8 @@
 <p>Below are some handy websites that should help you get started:</p>
 
 <ul>
-    <li><a href="https://codex.wordpress.org/Installing_WordPress" target="_blank">Getting Started with WordPress</a></li>
-    <li><a href="https://codex.wordpress.org/First_Steps_With_WordPress" target="_blank">First Steps with WordPress</a></li>
+    <li><a href="https://codex.wordpress.org/Installing_WordPress" target="_blank" rel="noopener">Getting Started with WordPress</a></li>
+    <li><a href="https://codex.wordpress.org/First_Steps_With_WordPress" target="_blank" rel="noopener">First Steps with WordPress</a></li>
     <li><a href="http://wordpress.org/support/">WordPress.org Forums</a></li>
     <li><a href="http://wordpress.stackexchange.com/">WordPress Answers StackExchange</a></li>
 </ul>

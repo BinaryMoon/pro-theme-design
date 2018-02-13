@@ -18,7 +18,7 @@
 	site_include_view( '_partials/article-listing.php', array( 'articles' => $articles ) );
 ?>
 
-		<p class="note icon"><?php draw_svg( 'logo-social-twitter', 'large' ); ?>What would you like to see us write about? <a href="<?php echo twitter_share_link( 'Hi @prothemedesign, I would love to know more about' ); ?>" target="_blank">Ping us on Twitter to let us know</a>.</p>
+		<p class="note icon"><?php draw_svg( 'logo-social-twitter', 'large' ); ?>What would you like to see us write about? <a href="<?php echo twitter_share_link( 'Hi @prothemedesign, I would love to know more about' ); ?>" target="_blank" rel="noopener">Ping us on Twitter to let us know</a>.</p>
 
 		</div>
 

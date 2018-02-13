@@ -44,8 +44,8 @@
         if ( ! empty( $theme[ 'download-button' ] ) ) {
 ?>
     <li>
-        <a href="<?php echo $theme[ 'url-demo-content' ]; ?>" target="_blank"><?php echo $theme[ 'name' ]; ?> posts XML</a> -
-        <a href="<?php echo $theme[ 'url-demo-widgets' ]; ?>" target="_blank"><?php echo $theme[ 'name' ]; ?> Widget JSON</a> -
+        <a href="<?php echo $theme[ 'url-demo-content' ]; ?>" target="_blank" rel="noopener"><?php echo $theme[ 'name' ]; ?> posts XML</a> -
+        <a href="<?php echo $theme[ 'url-demo-widgets' ]; ?>" target="_blank" rel="noopener"><?php echo $theme[ 'name' ]; ?> Widget JSON</a> -
         <a href="<?php echo $theme['url-documentation']; ?>">Theme Documentation</a>
     </li>
 <?php

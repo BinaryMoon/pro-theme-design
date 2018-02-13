@@ -68,7 +68,7 @@
 		$image_url = site_screenshot( $url );
 ?>
 	<div class="block showcase-website">
-		<a href="http://<?php echo $url; ?>" target="_blank" class="image">
+		<a href="http://<?php echo $url; ?>" target="_blank" class="image" rel="noopener">
 			<img src="<?php echo $image_url; ?>" width="400" height="300" alt="<?php echo $url; ?> Screenshot" />
 		</a>
 		<div class="meta">

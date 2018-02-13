@@ -19,13 +19,13 @@
 					<ul>
 						<li>
 							<?php draw_svg( 'media-link', 'small' ); ?>
-							<a href="https://www.binarymoon.co.uk" target="_blank" class="link">
+							<a href="https://www.binarymoon.co.uk" target="_blank" class="link" rel="noopener">
 								 Personal Site
 							</a>
 						</li>
 						<li>
 							<?php draw_svg( 'logo-social-twitter', 'small' ); ?>
-							<a href="https://twitter.com/binarymoon" target="_blank" class="link">
+							<a href="https://twitter.com/binarymoon" target="_blank" class="link" rel="noopener">
 								Follow Me on Twitter
 							</a>
 						</li>
@@ -43,13 +43,13 @@
 					<ul>
 						<li>
 							<?php draw_svg( 'media-link', 'small' ); ?>
-							<a href="http://www.darrenhoyt.com" target="_blank" class="link" >
+							<a href="http://www.darrenhoyt.com" target="_blank" class="link" rel="noopener">
 								Personal Site
 							</a>
 						</li>
 						<li>
 							<?php draw_svg( 'logo-social-twitter', 'small' ); ?>
-							<a href="http://www.twitter.com/darrenhoyt" target="_blank" class="link" >
+							<a href="http://www.twitter.com/darrenhoyt" target="_blank" class="link" rel="noopener">
 								Follow Me on Twitter
 							</a>
 						</li>

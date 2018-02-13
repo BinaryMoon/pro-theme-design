@@ -16,7 +16,7 @@
     foreach( $websites as $key => $site ) {
 ?>
             <div class="block showcase-website">
-                <a href="<?php echo $site[ 'url' ]; ?>" target="_blank" rel="nofollow">
+                <a href="<?php echo $site[ 'url' ]; ?>" target="_blank" rel="nofollow noopener">
                     <img src="<?php echo $site[ 'image-preview' ]; ?>" width="400" alt="<?php echo $site['name']; ?> Screenshot" />
                 </a>
             </div>

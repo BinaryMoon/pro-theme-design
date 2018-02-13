@@ -32,12 +32,12 @@
 
 <h2>Use Poedit to translate the theme</h2>
 
-<p><a href="http://www.poedit.net/" target="_blank">Poedit</a> is software that helps you to translate websites.</p>
+<p><a href="http://www.poedit.net/" target="_blank" rel="noopener">Poedit</a> is software that helps you to translate websites.</p>
 
 <p>To translate using Poedit you need 2 things:</p>
 
 <ol>
-	<li>An installed copy of the <a href="http://www.poedit.net/" target="_blank">Poedit</a> software.</li>
+	<li>An installed copy of the <a href="http://www.poedit.net/" target="_blank" rel="noopener">Poedit</a> software.</li>
 	<li>The pot file for the theme you want to translate. This can be found in the languages folder in the theme of your choice.</li>
 </ol>
 

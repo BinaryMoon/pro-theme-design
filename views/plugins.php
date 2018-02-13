@@ -22,7 +22,7 @@
 		<div class="block <?php echo $class; ?> wrapper">
 
 			<header>
-				<a href="<?php echo $plugin[ 'url' ]; ?>" target="_blank">
+				<a href="<?php echo $plugin[ 'url' ]; ?>" target="_blank" rel="noopener">
 					<img src="<?php echo $plugin[ 'image' ]; ?>" alt="<?php echo $plugin['name']; ?> Cover Image" />
 				</a>
 			</header>
@@ -32,7 +32,7 @@
 					<h3><?php echo $plugin[ 'name' ]; ?></h3>
 					<p><?php echo $plugin[ 'description' ]; ?></p>
 					<footer>
-						<a class="button" href="<?php echo $plugin[ 'url' ]; ?>" target="_blank">
+						<a class="button" href="<?php echo $plugin[ 'url' ]; ?>" target="_blank" rel="noopener">
 							More Info<i class="fa fa-arrow-right end" aria-hidden="true"></i>
 						</a>
 					</footer>

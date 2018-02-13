@@ -1,6 +1,6 @@
 <p class="intro">With the Styleguide plugin installed, Custom Colours and Fonts can be managed through WordPress Customizer.</p>
 
-<p>Once the <a href="https://wordpress.org/plugins/styleguide/" target="_blank">Styleguide plugin</a> is installed and activated you can access the Custom Fonts and Colours through the Customizer &rarr; Colours & Fonts menu.</p>
+<p>Once the <a href="https://wordpress.org/plugins/styleguide/" target="_blank" rel="noopener">Styleguide plugin</a> is installed and activated you can access the Custom Fonts and Colours through the Customizer &rarr; Colours & Fonts menu.</p>
 
 <h2>Custom Fonts</h2>
 

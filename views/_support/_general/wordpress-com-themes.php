@@ -8,7 +8,7 @@
     foreach( $themes as $theme ) {
         if ( ! empty( $theme[ 'price-wpcom' ] ) ) {
 ?>
-    <li><a href="<?php echo $theme[ 'url-wpcom' ]; ?>" target="_blank"><strong><?php echo $theme[ 'name' ]; ?></strong> - <?php echo $theme[ 'description' ]; ?></a></li>
+    <li><a href="<?php echo $theme[ 'url-wpcom' ]; ?>" target="_blank" rel="noopener"><strong><?php echo $theme[ 'name' ]; ?></strong> - <?php echo $theme[ 'description' ]; ?></a></li>
 <?php
         }
     }

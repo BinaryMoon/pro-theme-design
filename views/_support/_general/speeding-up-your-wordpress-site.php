@@ -15,9 +15,9 @@
 <p>The most popular caching plugins are:</p>
 
 <ul>
-    <li><a href="https://wordpress.org/plugins/hyper-cache/" target="_blank">Hyper Cache</a> - the simplest plugin with the least settings.</li>
-    <li><a href="https://wordpress.org/plugins/wp-super-cache/" target="_blank">WP Super Cache</a> - a good middle ground plugin with a nice balance of settings and simplicity.</li>
-    <li><a href="https://wordpress.org/plugins/w3-total-cache/" target="_blank">W3 Total Cache</a> - by far the most complex, and also most powerful of the three. Designed for experts.</li>
+    <li><a href="https://wordpress.org/plugins/hyper-cache/" target="_blank" rel="noopener">Hyper Cache</a> - the simplest plugin with the least settings.</li>
+    <li><a href="https://wordpress.org/plugins/wp-super-cache/" target="_blank" rel="noopener">WP Super Cache</a> - a good middle ground plugin with a nice balance of settings and simplicity.</li>
+    <li><a href="https://wordpress.org/plugins/w3-total-cache/" target="_blank" rel="noopener">W3 Total Cache</a> - by far the most complex, and also most powerful of the three. Designed for experts.</li>
 </ul>
 
 <h2>Optimise Your Images</h2>
@@ -27,9 +27,9 @@
 <p>Alternatively there are a variety of plugins that will compress your images as you upload them. Some good ones include:</p>
 
 <ul>
-    <li><a href="http://wordpress.org/plugins/wp-smushit/" target="_blank">WP Smush.it</a></li>
-    <li><a href="http://wordpress.org/plugins/ewww-image-optimizer/" target="_blank">EWWW Image Optimizer</a></li>
-    <li><a href="http://wordpress.org/plugins/prizm-image/" target="_blank">Prizm Image</a></li>
+    <li><a href="http://wordpress.org/plugins/wp-smushit/" target="_blank" rel="noopener">WP Smush.it</a></li>
+    <li><a href="http://wordpress.org/plugins/ewww-image-optimizer/" target="_blank" rel="noopener">EWWW Image Optimizer</a></li>
+    <li><a href="http://wordpress.org/plugins/prizm-image/" target="_blank" rel="noopener">Prizm Image</a></li>
 </ul>
 
 <p class="note">Note: When switching themes you will generally find that thumbnail sizes will change. To fix this we recommend the <a href="https://wordpress.org/plugins/regenerate-thumbnails/" target="_blank">Regenerate Thumbnails Plugin</a>.</p>
@@ -44,5 +44,5 @@
 
 <ul>
     <li><a href="https://www.dreamhost.com/r.cgi?70978">Dreamhost</a> - use the coupon code <strong>PTD</strong> when you sign up to save $15 and get a free domain name! We highly recommend the managed WordPress hosting.</li>
-    <li><a href="https://www.digitalocean.com/?refcode=d4442740ec05" target="_blank">Digital Ocean</a> - Digital Ocean requires some extra technical knowhow - but their servers are super fast, and very cheap for the power.</li>
+    <li><a href="https://www.digitalocean.com/?refcode=d4442740ec05" target="_blank" rel="noopener">Digital Ocean</a> - Digital Ocean requires some extra technical knowhow - but their servers are super fast, and very cheap for the power.</li>
 </ul>

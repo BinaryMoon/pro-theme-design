@@ -24,7 +24,7 @@
 
 			</div>
 
-			<p class="hint">You can <a href="http://motivapp.com/freelance-hourly-rate-calculator" target="_blank">calculate your rate here</a></p>
+			<p class="hint">You can <a href="http://motivapp.com/freelance-hourly-rate-calculator" target="_blank" rel="noopener">calculate your rate here</a></p>
 
 		</label>
 
