@@ -1,3 +1,10 @@
+<h3>2.5.6 - 16th February 2018</h3>
+<ul>
+<li>Fix issue with video sizing on archive pages.</li>
+<li>Improve CSS formatting.</li>
+<li>Ensure empty paragraphs are hidden.</li>
+<li>Improve margins and padding for custom post formats to reduce wasted space.</li>
+</ul>
 <h3>2.5.5 - 28th January 2018</h3>
 <ul>
 <li>Optimize CSS.</li>
