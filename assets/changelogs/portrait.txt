@@ -1,6 +1,7 @@
 <h3>2.0.5 - 28th January 2018</h3>
 <ul>
 <li>Optimize CSS.</li>
+<li>Remove file that was generated in the wrong place.</li>
 </ul>
 <h3>2.0.4 - 27th January 2018</h3>
 <ul>

@@ -1,3 +1,20 @@
+<h3>1.7.7 - 19th February 2018</h3>
+<ul>
+<li>Fix issue with top link of mobile menu being active when it is hidden.</li>
+</ul>
+<h3>1.7.6 - 17th February 2018</h3>
+<ul>
+<li>Add CSS class to trending topics so that they can be more easily targeted with Custom CSS.</li>
+<li>Remove underlines from delete links in category customizer.</li>
+<li>Correct icons for Vimeo and Flickr in social menu.</li>
+<li>Format codes.</li>
+</ul>
+<h3>1.7.5 - 13th February 2018</h3>
+<ul>
+<li>Improve support for pinterest in social menu</li>
+<li>Add support for Goodreads</li>
+<li>Improve css cross browser support</li>
+</ul>
 <h3>1.7.4 - 2nd January 2018</h3>
 <ul>
 <li>Add css classes to homepage tabs to make it easier to target them with css.</li>

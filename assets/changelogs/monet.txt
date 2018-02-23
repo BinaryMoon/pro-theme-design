@@ -1,6 +1,13 @@
+<h3>1.9.2 - 30th January 2018</h3>
+<ul>
+<li>Make the menu change when a parent link uses # as the url (to allow the full text to work as opposed to just the arrow)</li>
+<li>Remove errant console.log</li>
+<li>Ensure long menu items are readable and don't bleed into sub menus.</li>
+</ul>
 <h3>1.9.1 - 27th January 2018</h3>
 <ul>
 <li>Simplify the menu selection javascript, which in turn removes errors on some menu items.</li>
+<li>update rtl.css</li>
 </ul>
 <h3>1.9 - 25th January 2018</h3>
 <ul>

@@ -1,3 +1,9 @@
+<h3>2.5.1 - 21st February 2018</h3>
+<ul>
+<li>Allow footer content to be filtered.</li>
+<li>Add support for editing the footer content to the wp.org version of the theme.</li>
+<li>Tidy javascript code.</li>
+</ul>
 <h3>2.5 - 31st October 2017</h3>
 <ul>
 <li>WooCommerce for all (.com and .org).</li>

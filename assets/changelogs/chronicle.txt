@@ -1,3 +1,7 @@
+<h3>10.4.2 - 28th January 2018</h3>
+<ul>
+<li>Improve css browser prefixes.</li>
+</ul>
 <h3>10.4.1 - 30th November 2017</h3>
 <ul>
 <li>Improve display of full blog posts on archive pages when using Jetpack content options.</li>
