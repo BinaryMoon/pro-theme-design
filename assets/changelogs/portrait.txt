@@ -1,3 +1,11 @@
+<h3>2.1.0 - 4th March 2018</h3>
+<ul>
+<li>Remove duplicate comment form from custom page templates when used on blog posts.</li>
+<li>Change profile url to https.</li>
+<li>Rename css animations.</li>
+<li>Ensure masonry is enqueued on projects, and grid custom page templates.</li>
+<li>Ensure videos are positioned correctly in masonry views.</li>
+</ul>
 <h3>2.0.5 - 28th January 2018</h3>
 <ul>
 <li>Optimize CSS.</li>
