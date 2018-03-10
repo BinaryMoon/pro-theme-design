@@ -1,3 +1,7 @@
+<h3>2.9.5 - 7th MArch 2018</h3>
+<ul>
+<li>Switch content width to use rems, instead of ems for a more consistant appearance.</li>
+</ul>
 <h3>2.9.4 - 1st March 2018</h3>
 <ul>
 <li>Ensure links in body content have underlines and so are accessible.</li>
