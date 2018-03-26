@@ -275,12 +275,6 @@ function get_website_data() {
 			'theme' => 'opti',
 			'tags' => array( 'featured' ),
 		),
-		'national-rail-enquiries' => array(
-			'url' => 'http://blog.nationalrail.co.uk',
-			'name' => 'National Rail Enquiries',
-			'theme' => 'chronicle',
-			'tags' => array( 'featured' ),
-		),
 		'berkeley-life-centre' => array(
 			'url' => 'http://berkeleylifecentre.org',
 			'name' => 'Berkeley Life Centre',
