@@ -11,7 +11,7 @@
 					<h3>WordPress.org - self-hosted sites</h3>
 					<span class="blip price"><?php echo $theme['price-wporg']; ?></span>
 					<p>Get a downloadable version of <?php echo $theme[ 'name' ]; ?> to use on your own web space.</p>
-					<a href="<?php echo $theme[ 'url-wporg' ]; ?>" target="_blank" class="button" rel="noopener">Get theme<?php draw_svg( 'app-external', 'small' ); ?></a>
+					<a href="<?php echo $theme[ 'url-wporg' ]; ?>" target="_blank" class="button" rel="noopener noreferrer">Get theme<?php draw_svg( 'app-external', 'small' ); ?></a>
 				</div>
 <?php
 	}
