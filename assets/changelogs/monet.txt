@@ -1,3 +1,8 @@
+<h3>1.10 - 25th May 2018</h3>
+<ul>
+<li>Add support for privacy policy link in the site footer.</li>
+<li>Fix display of the cookie consent checkbox in the comments form.</li>
+</ul>
 <h3>1.9.2 - 30th January 2018</h3>
 <ul>
 <li>Make the menu change when a parent link uses # as the url (to allow the full text to work as opposed to just the arrow)</li>

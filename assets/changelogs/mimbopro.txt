@@ -1,3 +1,8 @@
+<h3>4.6 - 25th May 2018</h3>
+<ul>
+<li>Add support for privacy policy link in the site footer.</li>
+<li>Fix display of the cookie consent checkbox in the comments form.</li>
+</ul>
 <h3>4.5.4 - 9th June 2017</h3>
 <ul>
 <li>Improve code escaping (security) and coding standards</li>

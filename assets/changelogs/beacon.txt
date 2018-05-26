@@ -1,3 +1,14 @@
+<h3>1.8 - 25th May 2018</h3>
+<ul>
+<li>Add support for privacy policy link in the site footer.</li>
+<li>Fix display of the cookie consent checkbox in the comments form.</li>
+</ul>
+<h3>1.7.8 - 13th March 2018</h3>
+<ul>
+<li>Make featured content show all posts on mobile views.</li>
+<li>Improve browser compatability for featured content.</li>
+<li>Change header profile to use https</li>
+</ul>
 <h3>1.7.7 - 19th February 2018</h3>
 <ul>
 <li>Fix issue with top link of mobile menu being active when it is hidden.</li>

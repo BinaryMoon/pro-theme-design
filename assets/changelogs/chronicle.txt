@@ -1,3 +1,12 @@
+<h3>10.6 - 25th May 2018</h3>
+<ul>
+<li>Add support for privacy policy link in the site footer.</li>
+<li>Fix display of the cookie consent checkbox in the comments form.</li>
+</ul>
+<h3>10.5 - 1st April 2018</h3>
+<ul>
+<li>Make credits editable in the customizer (.org only).</li>
+</ul>
 <h3>10.4.2 - 28th January 2018</h3>
 <ul>
 <li>Improve css browser prefixes.</li>
