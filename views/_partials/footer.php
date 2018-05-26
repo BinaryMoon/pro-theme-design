@@ -19,13 +19,13 @@
 					<ul>
 						<li>
 							<?php draw_svg( 'media-link', 'small' ); ?>
-							<a href="https://www.binarymoon.co.uk" target="_blank" class="link" rel="noopener">
+							<a href="https://www.binarymoon.co.uk" target="_blank" class="link" rel="noopener noreferrer">
 								 Personal Site
 							</a>
 						</li>
 						<li>
 							<?php draw_svg( 'logo-social-twitter', 'small' ); ?>
-							<a href="https://twitter.com/binarymoon" target="_blank" class="link" rel="noopener">
+							<a href="https://twitter.com/binarymoon" target="_blank" class="link" rel="noopener noreferrer">
 								Follow Me on Twitter
 							</a>
 						</li>
@@ -43,13 +43,13 @@
 					<ul>
 						<li>
 							<?php draw_svg( 'media-link', 'small' ); ?>
-							<a href="http://www.darrenhoyt.com" target="_blank" class="link" rel="noopener">
+							<a href="http://www.darrenhoyt.com" target="_blank" class="link" rel="noopener noreferrer">
 								Personal Site
 							</a>
 						</li>
 						<li>
 							<?php draw_svg( 'logo-social-twitter', 'small' ); ?>
-							<a href="http://www.twitter.com/darrenhoyt" target="_blank" class="link" rel="noopener">
+							<a href="http://www.twitter.com/darrenhoyt" target="_blank" class="link" rel="noopener noreferrer">
 								Follow Me on Twitter
 							</a>
 						</li>
@@ -109,7 +109,8 @@
 				<p>
 					<?php draw_svg( 'app-sitemap', 'small' ); ?> <a href="<?php echo path( 'sitemap/' ); ?>">Sitemap</a> <span class="sep">|</span>
 					<?php draw_svg( 'app-mail', 'small' ); ?> <a href="<?php echo path( 'contact/' ); ?>">Contact</a> <span class="sep">|</span>
-					<?php draw_svg( 'app-checkmark', 'small' ); ?> <a href="<?php echo path( 'policies/' ); ?>">Policies</a>
+					<?php draw_svg( 'app-lock', 'small' ); ?> <a href="<?php echo path( 'privacy-policy/' ); ?>">Privacy</a> <span class="sep">|</span>
+					<?php draw_svg( 'app-checkmark', 'small' ); ?> <a href="<?php echo path( 'policies/' ); ?>">Terms</a>
 				</p>
 
 				<p>&copy; 2007 - <?php echo date( 'Y' ); ?> Pro Theme Design, All Rights Reserved</p>
