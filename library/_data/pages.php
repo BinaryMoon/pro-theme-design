@@ -52,6 +52,11 @@ function get_pages() {
 			'description' => null,
 			'view' => 'terms-and-conditions.php',
 		),
+		'privacy-policy' => array(
+			'title' => 'Privacy Policy',
+			'description' => null,
+			'view' => 'privacy-policy.php',
+		),
 		'refund' => array(
 			'title' => 'Refund Request',
 			'description' => null,

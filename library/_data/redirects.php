@@ -24,6 +24,7 @@ function get_redirects() {
 		'files/icons-circular.zip' => '/tools/circular-icons/',
 		'theme' => '/',
 		'how-to' => '/articles/',
+		'privacy' => '/privacy-policy/',
 		'products' => '/',
 		'theme-club' => '/',
 		'blog' => '/articles/',
