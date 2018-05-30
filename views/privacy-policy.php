@@ -61,7 +61,7 @@
 				<li>Email Marketing – we also use your email address to send you other types of communications that you can control, including information about new themes, customer surveys and special promotions.</li>
 			</ul>
 
-			<h2>How Long Do We Keep Hold of Your Information?</h2>
+			<h2>How long do we keep hold of your information?</h2>
 
 			<p>We retain purchase information for the purposes of reporting, backup, and license verification indefinitely so that we can continue to verify purchase data. Where you have requested that we do so, we will take steps to delete your data from our system.</p>
 
