@@ -468,6 +468,7 @@ function get_theme_data() {
 				'customizer',
 				'widget-visibility',
 				'demo-content',
+				'gdpr-privacy',
 			)
 		);
 

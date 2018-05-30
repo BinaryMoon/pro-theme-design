@@ -68,6 +68,11 @@ function get_documentation_data() {
 			'name' => 'Software License',
 			'type' => 'general',
 		),
+		'gdpr-privacy' => array(
+			'name' => 'GDPR and Theme Privacy',
+			'type' => 'general',
+			'description' => 'Keeping your users safe.',
+		),
 		'localization' => array(
 			'name' => 'Localization',
 			'type' => 'general',
