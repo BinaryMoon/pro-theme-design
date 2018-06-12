@@ -56,7 +56,7 @@ There’s a ton of information available about which WordPress hosting you shoul
 
 If you’ll trust us to just tell you the best options (we’ve been dealing with this stuff for the last decade and know the consumer WordPress market inside-out, so you should!), that’ll make things vastly easier for you.
 
-Video game blogs on a budget should use <a href="https://siteground.com">SiteGround</a>. SiteGround is very affordable ($50/year), includes a lot of fancy features such as backups, good security and a lot of technical stuff, and is recommended (and used) by a lot of people who know a lot about WordPress. The support is excellent, your site will load pretty quickly and you’ll be good with them for a couple of years.
+Video game blogs on a budget should use <a href="https://wpshout.com/siteground-review-2018/">SiteGround</a>. SiteGround is very affordable ($50/year), includes a lot of fancy features such as backups, good security and a lot of technical stuff, and is recommended (and used) by a lot of people who know a lot about WordPress. The support is excellent, your site will load pretty quickly and you’ll be good with them for a couple of years.
 
 Video game blogs with more cash to splash should use <a href="https://getflywheel.com">FlyWheel</a>. FlyWheel are a lot more expensive ($150+/year) but take care of everything for you. Everything “just works”, and this is what you’re paying for. FlyWheel will happily handle your site with any amount of visitors.
 
