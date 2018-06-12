@@ -215,13 +215,20 @@
 					<img src="<?php echo image_path( 'credit-cards/light-paypal.png' ); ?>" title="Paypal" />
 				</div>
 
-				<small class="terms"><a href="<?php echo path( 'policies/' ); ?>" class="terms">Terms</a></small>
+				<p class="terms">
+					<small><a href="<?php echo path( 'policies/' ); ?>" class="terms">Terms</a></small>
+					<span class="sep"> | </span>
+					<small><a href="<?php echo path( 'privacy-policy/' ); ?>" class="terms">Privacy</a></small>
+				</p>
 			</div>
 
 			<div class="block faq">
 
 				<h3>30 day Guarantee</h3>
 				<p>If you have a problem with a purchase from us then let us know and we will <a href="<?php echo path('refund/' ); ?>">give you a refund</a>.</p>
+
+				<h3>GDPR Compatible</h3>
+				<p>Ready for GDPR, helping to ensure your <a href="<?php echo path( 'documentation/general/gdpr-privacy/' ); ?>">users privacy</a>.</p>
 
 				<h3>Questions?</h3>
 				<p>Want to know more about the theme? Just let us know and we'll do our best to help. <a href="<?php echo path( 'theme-question/' . $theme_name . '/' ); ?>">Ask a question</a>.</p>
