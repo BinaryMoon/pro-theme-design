@@ -1,3 +1,7 @@
+<h3>1.11 - 31st May 2018</h3>
+<ul>
+<li>Add support for hiding the footer credits.</li>
+</ul>
 <h3>1.10 - 25th May 2018</h3>
 <ul>
 <li>Add support for privacy policy link in the site footer.</li>

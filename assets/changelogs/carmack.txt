@@ -1,3 +1,15 @@
+<h3>2.11.1 - 3rd June 2018</h3>
+<ul>
+<li>Add live customizer preview support for featured image setting.</li>
+<li>Fix incorrect function name.</li>
+</ul>
+<h3>2.11 - 27th May 2018</h3>
+<ul>
+<li>Add support for displaying featured images on single posts &amp; pages. Defaults to off, enable it through the customizer.</li>
+<li>Support for Gutenberg custom colours.</li>
+<li>Add basic support for Gutenberg editor styles. It's not perfect but it's a start.</li>
+<li>Improve coding standards errors.</li>
+</ul>
 <h3>2.10 - 20th May 2018</h3>
 <ul>
 <li>Add support for privacy policy link in the site footer.</li>
