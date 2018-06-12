@@ -1924,8 +1924,12 @@ label:hover p.hint {
 }
 
 .pricing .price-table .terms {
-  display: block;
   text-align: center;
+}
+
+.pricing .price-table .terms .sep {
+  opacity: 0.2;
+  margin: 0 10px;
 }
 
 .pricing .price-table .payment-methods {
@@ -1951,6 +1955,12 @@ label:hover p.hint {
   font-weight: bold;
   text-align: left;
   margin: 0;
+}
+
+.pricing .faq p {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 @media only screen and (max-width: 849px) {
