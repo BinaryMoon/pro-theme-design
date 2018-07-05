@@ -224,7 +224,7 @@
 
 	if ( theme_count() >= 2 && recommendation_count() < 1 ) {
 
-		setTimeout( show_recommendation, 10000 );
+		// setTimeout( show_recommendation, 10000 );
 
 	}
 

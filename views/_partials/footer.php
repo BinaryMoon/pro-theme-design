@@ -125,6 +125,7 @@
 
 		</footer>
 
+<!--
 		<div class="modal-wrapper recommendation-modal">
 			<div class="modal">
 				<button type="button" class="close-button" rel="nofollow">
@@ -134,6 +135,7 @@
 				<?php include( 'recommendation.php' ); ?>
 			</div>
 		</div>
+-->
 
 
 		<div class="modal-wrapper newsletter-modal">
