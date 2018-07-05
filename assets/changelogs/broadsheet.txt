@@ -1,3 +1,9 @@
+<h3>1.13 - 26th June 2018</h3>
+<ul>
+<li>Increase size of featured image so that it can fill the entire width of the featured content space. Uses the same ratio (and size is fixed with css) so existing layouts will not change.</li>
+<li>Add filter to the slider parameters so that we can edit the number of posts in the slider (and other params) in a plugin.</li>
+<li>Add option to enable featured images on single blog posts.</li>
+</ul>
 <h3>1.12 - 25th May 2018</h3>
 <ul>
 <li>Add support for privacy policy link in the site footer.</li>

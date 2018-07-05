@@ -1,3 +1,12 @@
+<h3>2.11.3 - 27th June 2018</h3>
+<ul>
+<li>Correct the_post_thumbnail parameter on single post header images.</li>
+</ul>
+<h3>2.11.2 - 25th June 2018</h3>
+<ul>
+<li>Make sure Gutenberg custom colours display correctly.</li>
+<li>Add support for styling Gutenberg button block so that button styles are consistant across the site.</li>
+</ul>
 <h3>2.11.1 - 3rd June 2018</h3>
 <ul>
 <li>Add live customizer preview support for featured image setting.</li>

@@ -1,3 +1,8 @@
+<h3>2.6.1 - 15th June 2018</h3>
+<ul>
+<li>Fix portfolio archive infinite scroll display so that it's consistent.</li>
+<li>center portfolio photos in archives when they are too small.</li>
+</ul>
 <h3>2.6 - 25th May 2018</h3>
 <ul>
 <li>Add support for privacy policy link in the site footer.</li>

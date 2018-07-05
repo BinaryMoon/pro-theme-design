@@ -1,7 +1,8 @@
 <h3>4.7 - 5th June 2018</h3>
 <ul>
 <li>Add support for custom logos.</li>
-<li>Tidy codes.</li>
+<li>Simplify custom css gradient code since the prefixes are largely not needed now.</li>
+<li>Tidy codes and escape all the things.</li>
 </ul>
 <h3>4.6 - 25th May 2018</h3>
 <ul>
