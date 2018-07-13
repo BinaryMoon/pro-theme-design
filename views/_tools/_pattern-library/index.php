@@ -53,6 +53,7 @@
 	natsort( $files );
 
 	foreach ( $files as $file ) {
+
 		$name = $file;
 
 		$name = str_replace( '--', ' : ', $name );
@@ -63,8 +64,8 @@
 			<div class="pattern">
 				<h3><?php echo $name; ?>
 					<small class="meta">
-						<a href="<?php echo path( 'views/_styleguide/' . $file ); ?>" rel="nofollow"><i class="fa fa-file" aria-hidden="true"></i><?php echo $file; ?></a>
-						<a href="#" class="toggle" rel="nofollow"><i class="fa fa-code" aria-hidden="true"></i>Code</a>
+						<!-- <a href="<?php echo path( 'views/_styleguide/' . $file ); ?>" rel="nofollow"><i class="fa fa-file" aria-hidden="true"></i><?php echo $file; ?></a> -->
+						<a href="#" class="toggle" rel="nofollow">View Code</a>
 					</small>
 				</h3>
 				<div class="pattern-wrapper">
@@ -72,13 +73,27 @@
 						<?php include( $path . '/' . $file ); ?>
 					</div>
 					<div class="source">
-						<textarea><?php echo trim( htmlspecialchars( file_get_contents( $path . '/' . $file ) ) ); ?></textarea>
+						<textarea><?php format_preview_code( $file, $path ); ?></textarea>
 					</div>
 				</div>
 			</div>
 <?php
-	}
+
+}
+
 ?>
 		</div>
+
 <?php
 	site_include_view( '_partials/more-themes.php' );
+
+	site_script( path( 'views/_tools/_pattern-library/scripts.min.js' ) );
+
+
+function format_preview_code( $filename, $path ) {
+
+	$file = file_get_contents( $path . '/' . $filename );
+
+	echo trim( htmlspecialchars( $file ) );
+
+}
