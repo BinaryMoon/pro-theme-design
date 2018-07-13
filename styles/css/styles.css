@@ -2123,6 +2123,13 @@ table.comparison td span {
   margin-right: auto;
 }
 
+.wrapper ol li ol,
+.wrapper ol li ul,
+.wrapper ul li ol,
+.wrapper ul li ul {
+  margin-top: 0.75rem;
+}
+
 .wrapper img {
   border-radius: 0.2rem;
   display: block;

@@ -58,6 +58,21 @@
 
 	}
 
+	ol,
+	ul {
+		li {
+
+			ol,
+			ul {
+
+				margin-top: $grid-line-height / 2;
+
+			}
+
+		}
+
+	}
+
 	img {
 
 		border-radius: $border-radius;
