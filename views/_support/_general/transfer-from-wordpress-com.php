@@ -1,4 +1,4 @@
-<p class="intro">Unfortunately themes are not downloadable from WordPress.com - if you wish to use a theme on a self hosted website then you should buy one of our themes from <a href="<?php echo path( 'themes/wordpress.org/' ); ?>">our site</a>.</p>
+<p class="intro">Unfortunately themes are not downloadable from WordPress.com - if you wish to use a theme on a self hosted website then you should buy one of the themes from <a href="<?php echo path( 'themes/wordpress.org/' ); ?>">our site</a>.</p>
 
 <p>If you've already purchased the theme from WordPress.com then you can't transfer it. This is a standard part of the WordPress.com policy that is mentioned on the <a href="https://en.support.wordpress.com/premium-themes/">WordPress.com premium theme information page</a>.</p>
 
