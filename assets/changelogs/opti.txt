@@ -1,3 +1,11 @@
+<h3>1.6.2 - 1st Septmber 2018</h3>
+<ul>
+<li>Ensure the featured content area is the correct size in all resize situations.</li>
+</ul>
+<h3>1.6.1 - 18th August 2018</h3>
+<ul>
+<li>Tweaks to responsive styles affecting blog post images on homepage.</li>
+</ul>
 <h3>1.6 - 25th May 2018</h3>
 <ul>
 <li>Add support for privacy policy link in the site footer.</li>

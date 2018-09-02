@@ -1,3 +1,25 @@
+<h3>2.12.3 - 2nd September 2018</h3>
+<ul>
+<li>Improve layout of full width page template.</li>
+</ul>
+<h3>2.12.2 - 19th August 2018</h3>
+<ul>
+<li>Replace gutenberg_has_blocks with has_blocks to match Gutenberg changes.</li>
+<li>Update editor theme slug so we can dequeue it to wp-block-library-theme to match Gutenberg changes.</li>
+</ul>
+<h3>2.12.1 - 28th July 2018</h3>
+<ul>
+<li>Remove a var_dump that was outputting some test content. Apologies if you got caught with this.</li>
+</ul>
+<h3>2.12 - 27th July 2018</h3>
+<ul>
+<li>Much better support for Gutenberg! Still a few things to add but it's looking really good now.</li>
+<li>Fix issue with svg compression for self hosted users.</li>
+</ul>
+<h3>2.11.4 - 22nd July 2018</h3>
+<ul>
+<li>Increase the size of the Jetpack 'top posts' widget images so that they fill the space and don't sit there looking pathetic and tiny.</li>
+</ul>
 <h3>2.11.3 - 27th June 2018</h3>
 <ul>
 <li>Correct the_post_thumbnail parameter on single post header images.</li>

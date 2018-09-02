@@ -1,3 +1,7 @@
+<h3>2.6.1 - 24th August 2018</h3>
+<ul>
+<li>Fix display of late loading social media widgets when added to the footer sidebar.</li>
+</ul>
 <h3>2.6 - 25th May 2018</h3>
 <ul>
 <li>Add support for privacy policy link in the site footer.</li>

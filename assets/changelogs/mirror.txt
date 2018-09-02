@@ -1,3 +1,8 @@
+<h3>2.5.1 - 20th August 2018</h3>
+<ul>
+<li>Tweak infinite scroll button styles to make it more friendly.</li>
+<li>Ensure pill shapes stay as pills even with larger font sizes.</li>
+</ul>
 <h3>2.5 - 25th May 2018</h3>
 <ul>
 <li>Add support for privacy policy link in the site footer.</li>
