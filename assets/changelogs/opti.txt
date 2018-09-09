@@ -1,3 +1,9 @@
+<h3>1.7 - 3rd September</h3>
+<ul>
+<li>Rebuild admin control panel in the Customizer. Yay!</li>
+<li>Add Customizer live preview for site title, description, and title colour.</li>
+<li>Tidy codes.</li>
+</ul>
 <h3>1.6.2 - 1st Septmber 2018</h3>
 <ul>
 <li>Ensure the featured content area is the correct size in all resize situations.</li>

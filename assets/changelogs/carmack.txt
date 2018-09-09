@@ -1,3 +1,8 @@
+<h3>2.12.4 - 4th September 2018</h3>
+<ul>
+<li>Ensure the overlay menus are active before adding them. Removes empty elements.</li>
+<li>Improve the styles of overlay menus so that elements are laid out more nicely when some are disabled.</li>
+</ul>
 <h3>2.12.3 - 2nd September 2018</h3>
 <ul>
 <li>Improve layout of full width page template.</li>

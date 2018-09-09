@@ -1,3 +1,7 @@
+<h3>10.4 - 3rd September 2018</h3>
+<ul>
+<li>Tweak styles to improve readability.</li>
+</ul>
 <h3>10.3 - 25th May 2018</h3>
 <ul>
 <li>Add support for privacy policy link in the site footer.</li>
