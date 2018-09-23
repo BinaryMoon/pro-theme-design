@@ -1,4 +1,14 @@
-<h3>1.7 - 3rd September</h3>
+<h3>1.7.2 - 11th September 2018</h3>
+<ul>
+<li>Fix bug with Jetpack lazy loading images not triggering resize and masonry and so borking the layout.</li>
+</ul>
+<h3>1.7.1 - 7th September 2018</h3>
+<ul>
+<li>Escape translations strings.</li>
+<li>Tidy some codes.</li>
+<li>Add additional css classes to make it easier to hide html elements.</li>
+</ul>
+<h3>1.7 - 3rd September 2018</h3>
 <ul>
 <li>Rebuild admin control panel in the Customizer. Yay!</li>
 <li>Add Customizer live preview for site title, description, and title colour.</li>
