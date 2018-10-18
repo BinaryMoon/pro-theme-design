@@ -1,3 +1,7 @@
+<h3>1.7.3 - 7th October 2018</h3>
+<ul>
+<li>Fix bug with homepage category selector that meant the first category in the list could not be selected</li>
+</ul>
 <h3>1.7.2 - 11th September 2018</h3>
 <ul>
 <li>Fix bug with Jetpack lazy loading images not triggering resize and masonry and so borking the layout.</li>

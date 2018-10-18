@@ -1,3 +1,23 @@
+<h3>2.12.8 - 18th October 2018</h3>
+<ul>
+<li>Fix issue with overlay (secondary) menu not displaying unless there is a primary menu set.</li>
+<li>Remove value passed to carmack_get_featured_posts since it is not used (not even a function parameter).</li>
+</ul>
+<h3>2.12.7 - 11th October 2018</h3>
+<ul>
+<li>Make the minimum slider count value filterable.</li>
+<li>Remove the minimum value from carmack_has_featured_posts since it's not actually used.</li>
+</ul>
+<h3>2.12.6 - 7th October 2018</h3>
+<ul>
+<li>Tweak the featured content display slightly so that the posts under the slider show up earlier.</li>
+</ul>
+<h3>2.12.5 - 6th October 2018</h3>
+<ul>
+<li>Increase size of featured images to account for larger/ higher resolution screens. Proportions are maintained.</li>
+<li>Fix blockquote regex so that it works properly with Gutenberg quote blocks.</li>
+<li>Update rtl styles.</li>
+</ul>
 <h3>2.12.4 - 4th September 2018</h3>
 <ul>
 <li>Ensure the overlay menus are active before adding them. Removes empty elements.</li>

@@ -1,3 +1,25 @@
+<h3>1.9.1 - 17th October 2018</h3>
+<ul>
+<li>Fix infinite scroll display.</li>
+</ul>
+<h3>1.9 - 10th October 2018</h3>
+<ul>
+<li>Tweak page archive post listing layout to use flexbox. This allows for a more flexible layout with less hacks to make it work consistently.</li>
+<li>Make the search results and author page layouts design more consistent.</li>
+<li>Improve image attachment page layout.</li>
+<li>Increase the size of the featured images so they look better when sized responsively. Also reduces the number of external images required.</li>
+<li>Optimize png images for increased speed.</li>
+<li>Ensure category list does not show on single posts/ pages if there are none available.</li>
+<li>Add some nicer CSS animations on featured content titles.</li>
+<li>Increase allowed header image size to take into account larger screens.</li>
+<li>Make iframes and embeds scale more nicely.</li>
+<li>Improve rtl.css</li>
+<li>Fix browser prefixes.</li>
+</ul>
+<h3>1.8.1 - 9th October 2018</h3>
+<ul>
+<li>Tweak trending topics so that it can display on all pages.</li>
+</ul>
 <h3>1.8 - 25th May 2018</h3>
 <ul>
 <li>Add support for privacy policy link in the site footer.</li>
