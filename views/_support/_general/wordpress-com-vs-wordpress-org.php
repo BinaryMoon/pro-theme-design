@@ -25,63 +25,63 @@
 
 <p>Out of the box WordPress.org has less functionality than WordPress.com. Some of this can be added back with the <a href="<?php echo path( 'wordpress-plugins/' ); ?>">Styleguide plugin, and the Jetpack plugin</a>.</p>
 
-<table class="comparison">
+<table class="">
 	<tr>
-		<th></th>
+		<td></td>
 		<th><a href="<?php echo WORDPRESS_ORG; ?>">WordPress.org</a></th>
 		<th><a href="<?php echo WORDPRESS_COM; ?>">WordPress.com</a></th>
 	</tr>
 
 	<tr>
-		<td class="feature">Web Hosting</td>
+		<th class="feature">Web Hosting</th>
 		<td>Requires paid web hosting.</td>
 		<td>Free web hosting up to 3 Gigabytes of data, there are paid tiers that give you more space as needed.</td>
 	</tr>
 
 	<tr>
-		<td class="feature">Allows Plugins</td>
+		<th class="feature">Allows Plugins</th>
 		<td>You can chose from the thousands of plugins available on WordPress.org.</td>
 		<td>The most commonly used plugins are built in. Other plugins can only be installed on the business plan.</td>
 	</tr>
 
 	<tr>
-		<td class="feature">Technical Knowledge</td>
+		<th class="feature">Technical Knowledge</th>
 		<td>Requires some technical skills to setup and maintain software.</td>
 		<td>No technical knowledge needed.</td>
 	</tr>
 
 	<tr>
-		<td class="feature">Security & Updates</td>
+		<th class="feature">Security & Updates</th>
 		<td>You will need to look after software updates and server security yourself.</td>
 		<td>Security is taken care of for you.</td>
 	</tr>
 
 	<tr>
-		<td class="feature">Security & Updates</td>
+		<th class="feature">Security & Updates</th>
 		<td>You will need to look after software updates and server security yourself.</td>
 		<td>Security is taken care of for you.</td>
 	</tr>
 
 	<tr>
-		<td class="feature">Allows Advertising</td>
+		<th class="feature">Allows Advertising</th>
 		<td>You can add advertising through one of the many available plugins.</td>
 		<td>Advertising is only allowed if you use WordAds, an Automattic product. This requires applying to their program, and a theme that supports them.</td>
 	</tr>
 
 	<tr>
-		<td class="feature">Allows Custom Themes</td>
+		<th class="feature">Allows Custom Themes</th>
 		<td>You can design your own themes, or use any of the themes on WordPress.org or purchased from theme shops such as <a href="<?php echo path( '/themes/' );?>">Pro Theme Design</a>.</td>
 		<td>They have a selection of around 200 themes. You can only upload your own if you use the business plan.</td>
 	</tr>
 
 	<tr>
-		<td class="feature">Customer Support</td>
+		<th class="feature">Customer Support</th>
 		<td>You can use the wordpress.org forums or the support channels for any premium product you have purchased. Otherwise, you're on your own.</td>
 		<td>Each WordPress.com membership tier has different options. The free tier has forum support, and the paid tiers have more and more personal support - with the business plan offering live chat.</td>
 	</tr>
 
 	<tr>
-		<td class="feature">Best For</td>
+		<th class="feature">Best For</th>
 		<td>Hosting WordPress yourself is best for people who have the technical skills needed to run a website, who want the ultimate flexibility.</td>
 		<td>Hosting with WordPress.com is best for bloggers who don't want to have to worry about the technical things, so they can focus on creating their website.</td>
 	</tr>
