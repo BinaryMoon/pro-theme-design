@@ -1,3 +1,8 @@
+<h3>1.12 - 5th November 2018</h3>
+<ul>
+<li>Ensure touch devices can see the post titles.</li>
+<li>Remove old prefixes.</li>
+</ul>
 <h3>1.11 - 31st May 2018</h3>
 <ul>
 <li>Add support for hiding the footer credits.</li>

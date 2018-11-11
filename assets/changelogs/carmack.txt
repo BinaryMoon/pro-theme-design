@@ -1,3 +1,12 @@
+<h3>2.12.10 - 8th November 2018</h3>
+<ul>
+<li>Display excerpts on all post formats. These are hidden with css but can be enabled in the additional css area of the customizer.</li>
+</ul>
+<h3>2.12.9 - 26th October 2018</h3>
+<ul>
+<li>Add custom font size support.</li>
+<li>More Gutenberg style improvements.</li>
+</ul>
 <h3>2.12.8 - 18th October 2018</h3>
 <ul>
 <li>Fix issue with overlay (secondary) menu not displaying unless there is a primary menu set.</li>
