@@ -35,19 +35,25 @@
 	<tr>
 		<td class="feature">Web Hosting</td>
 		<td>Requires paid web hosting.</td>
-		<td>Free web hosting up to 3 Gigabytes of data, they have a paid tier that gives you more space as needed.</td>
+		<td>Free web hosting up to 3 Gigabytes of data, there are paid tiers that give you more space as needed.</td>
 	</tr>
 
 	<tr>
 		<td class="feature">Allows Plugins</td>
-		<td>You can chose from the hundreds of plugins available on WordPress.org.</td>
-		<td>They have integrated the most commonly needed plugins - you can't use any other plugins beyond the ones included.</td>
+		<td>You can chose from the thousands of plugins available on WordPress.org.</td>
+		<td>The most commonly used plugins are built in. Other plugins can only be installed on the business plan.</td>
 	</tr>
 
 	<tr>
 		<td class="feature">Technical Knowledge</td>
-		<td>Require some technical skills to setup and maintain software.</td>
+		<td>Requires some technical skills to setup and maintain software.</td>
 		<td>No technical knowledge needed.</td>
+	</tr>
+
+	<tr>
+		<td class="feature">Security & Updates</td>
+		<td>You will need to look after software updates and server security yourself.</td>
+		<td>Security is taken care of for you.</td>
 	</tr>
 
 	<tr>
@@ -59,13 +65,19 @@
 	<tr>
 		<td class="feature">Allows Advertising</td>
 		<td>You can add advertising through one of the many available plugins.</td>
-		<td>Advertising is not allowed - unless you use their setup called WordAds which you must apply to join.</td>
+		<td>Advertising is only allowed if you use WordAds, an Automattic product. This requires applying to their program, and a theme that supports them.</td>
 	</tr>
 
 	<tr>
 		<td class="feature">Allows Custom Themes</td>
-		<td>You can design your own themes, or use any of the themes on WordPress.org or purchased from theme shops such as ours.</td>
-		<td>They have a selection of around 200 themes. You can not upload your own or use any others outside this selection.</td>
+		<td>You can design your own themes, or use any of the themes on WordPress.org or purchased from theme shops such as <a href="<?php echo path( '/themes/' );?>">Pro Theme Design</a>.</td>
+		<td>They have a selection of around 200 themes. You can only upload your own if you use the business plan.</td>
+	</tr>
+
+	<tr>
+		<td class="feature">Customer Support</td>
+		<td>You can use the wordpress.org forums or the support channels for any premium product you have purchased. Otherwise, you're on your own.</td>
+		<td>Each WordPress.com membership tier has different options. The free tier has forum support, and the paid tiers have more and more personal support - with the business plan offering live chat.</td>
 	</tr>
 
 	<tr>
