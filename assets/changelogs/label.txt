@@ -1,3 +1,7 @@
+<h3>2.6.2 - 26th November 2018</h3>
+<ul>
+<li>Improve archive post loading when lazy loading is enabled.</li>
+</ul>
 <h3>2.6.1 - 4th September 2018</h3>
 <ul>
 <li>Increase number of posts displayed on the child pages template.</li>

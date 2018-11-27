@@ -1,3 +1,9 @@
+<h3>1.14 - 9th November 2018</h3>
+<ul>
+<li>Improve coding standards.</li>
+<li>Escape more things.</li>
+<li>Update browser prefixes.</li>
+</ul>
 <h3>1.13 - 26th June 2018</h3>
 <ul>
 <li>Increase size of featured image so that it can fill the entire width of the featured content space. Uses the same ratio (and size is fixed with css) so existing layouts will not change.</li>
