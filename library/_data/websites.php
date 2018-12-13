@@ -60,7 +60,6 @@ function get_website_data() {
 			'name' => '',
 			'theme' => 'themeslug',
 			'tags' => array( 'themeslug', 'featured' ),
-			'image' => '',
 		),
 	 */
 
@@ -71,11 +70,6 @@ function get_website_data() {
 		'jesuisungameur' => array(
 			'url' => 'https://jesuisungameur.com/',
 			'name' => 'Je Suis Un Gameur',
-			'theme' => 'romero',
-		),
-		'totoutard' => array(
-			'url' => 'https://totoutard.wordpress.com/',
-			'name' => 'Tot ou Tard',
 			'theme' => 'romero',
 		),
 		'fremdtunes.com' => array(
@@ -92,25 +86,11 @@ function get_website_data() {
 			'url' => 'http://www.magicon.de/',
 			'name' => 'Magicon',
 			'theme' => 'monet',
-			'image' => 'magicon',
-		),
-		'anniemylantuportfolio' => array(
-			'url' => 'https://anniemylantuportfolio.wordpress.com/',
-			'name' => 'Annie MyLantu',
-			'theme' => 'monet',
-			'image' => 'anniemylantuportfolio'
 		),
 		'prospectthepantry' => array(
 			'url' => 'https://prospectthepantry.com/',
 			'name' => 'Prospect The Pantry',
 			'theme' => 'monet',
-			'image' => 'prospectthepantry',
-		),
-		'mahdollisuuksia' => array(
-			'url' => 'https://mahdollisuuksia.com/',
-			'name' => 'Mahdollisuuksia',
-			'theme' => 'monet',
-			'image' => 'mahdollisuuksia',
 		),
 
 		'absurdisan' => array(
@@ -128,30 +108,9 @@ function get_website_data() {
 			'tags' => array( 'featured' ),
 		),
 
-		'aosugo' => array(
-			'url' => 'http://aosugo.com/',
-			'name' => 'Ausogo',
-			'theme' => 'romero',
-		),
-		'mostvaluablepodcasts' => array(
-			'url' => 'http://mostvaluablepodcasts.com/',
-			'name' => 'Most Valuable Podcasts',
-			'theme' => 'romero',
-		),
-		'shortblacktechie' => array(
-			'url' => 'http://shortblacktechie.com/',
-			'name' => 'Short Black Techie',
-			'theme' => 'romero',
-			'tags' => array( 'featured' ),
-		),
 		'drummajorsociety' => array(
 			'url' => 'http://drummajorsociety.org/',
 			'name' => 'Drum Major Society',
-			'theme' => 'romero',
-		),
-		'wethemeeple' => array(
-			'url' => 'http://blog.wethemeeple.co/',
-			'name' => 'We The Meeple',
 			'theme' => 'romero',
 		),
 		'theneocom' => array(
@@ -179,42 +138,25 @@ function get_website_data() {
 			'name' => 'Nintendo Authority',
 			'theme' => 'romero',
 		),
-
-		'barry-corner' => array(
-			'url' => 'http://barrycomersblog.com',
-			'name' => 'Barry Corner',
-			'theme' => 'monet',
-			'tags' => array( 'featured' ),
-			'image' => 'barrycorner',
-		),
 		'vuurig' => array(
 			'url' => 'http://sonjavanvuure.com',
 			'name' => 'Vuurig',
 			'theme' => 'monet',
-			'image' => 'vuurig',
-		),
-		'legos-and-friends' => array(
-			'url' => 'http://legosandfriends.com',
-			'name' => 'Legos and Friends',
-			'theme' => 'romero',
 		),
 		'mgarciadigital' => array(
 			'url' => 'https://mgarciadigital.wordpress.com/',
 			'name' => 'Marco Garcia',
 			'theme' => 'puzzle',
-			'image' => 'mgarciadigital',
 			'tags' => array( 'puzzle', 'featured' ),
 		),
 		'should-i-go-see-it' => array(
 			'url' => 'http://shouldigoseeit.com',
 			'name' => 'Should I Go See It',
-			'image' => 'shouldigoseeit',
 			'theme' => 'puzzle',
 		),
 		'noise-nation' => array(
 			'url' => 'https://noisenation.wordpress.com',
 			'name' => 'Noise Nation',
-			'image' => 'noisenation',
 			'theme' => 'opti',
 		),
 		'the-fourth-crown' => array(
@@ -231,25 +173,16 @@ function get_website_data() {
 		'decograffik' => array(
 			'url' => 'http://decograffik.com',
 			'name' => 'Decograffik',
-			'image' => 'decograffik',
-			'theme' => 'puzzle',
-		),
-		'cynthia-lait' => array(
-			'url' => 'http://cynthialait.com',
-			'name' => 'Cynthia Lait',
-			'image' => 'cynthialait',
 			'theme' => 'puzzle',
 		),
 		'maroc-in-style' => array(
 			'url' => 'http://marocinstyle.com',
 			'name' => 'Maroc in Style',
-			'image' => 'maroc',
 			'theme' => 'puzzle',
 		),
 		'flossy-photography' => array(
 			'url' => 'https://flossyphotography.wordpress.com',
 			'name' => 'Flossy Photography',
-			'image' => 'flossy',
 			'theme' => 'puzzle',
 		),
 		'leah-pellegrini' => array(
@@ -260,7 +193,6 @@ function get_website_data() {
 		'cincindos' => array(
 			'url' => 'http://cincindos.com',
 			'name' => 'Cincindos',
-			'image' => 'cincindos',
 			'theme' => 'puzzle',
 		),
 		'vocalise' => array(
@@ -271,7 +203,6 @@ function get_website_data() {
 		'bella-caledonia' => array(
 			'url' => 'https://bellacaledonia.wordpress.com',
 			'name' => 'Bella Caledonia',
-			'image' => 'bellacaledonia',
 			'theme' => 'opti',
 			'tags' => array( 'featured' ),
 		),
@@ -320,7 +251,6 @@ function get_website_data() {
 			'url' => 'http://baileyenglishstudio.com',
 			'name' => 'Bailey English Studio',
 			'theme' => 'monet',
-			'image' => 'baileyenglishstudio',
 		),
 
 	);
