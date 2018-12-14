@@ -108,11 +108,6 @@ function get_website_data() {
 			'tags' => array( 'featured' ),
 		),
 
-		'drummajorsociety' => array(
-			'url' => 'http://drummajorsociety.org/',
-			'name' => 'Drum Major Society',
-			'theme' => 'romero',
-		),
 		'theneocom' => array(
 			'url' => 'http://theneocom.com/',
 			'name' => 'The Neocom',
@@ -169,11 +164,6 @@ function get_website_data() {
 			'url' => 'http://geeksdownunder.com.au',
 			'name' => 'Geeks Down Under',
 			'theme' => 'romero',
-		),
-		'decograffik' => array(
-			'url' => 'http://decograffik.com',
-			'name' => 'Decograffik',
-			'theme' => 'puzzle',
 		),
 		'maroc-in-style' => array(
 			'url' => 'http://marocinstyle.com',
