@@ -8,7 +8,7 @@ function get_article_data() {
 	$articles = array(
 
 		'make-money-with-wordpress' => array(
-			'name' => 'Ways to Make Money With WordPress',
+			'name' => 'Make Money With WordPress',
 			'date' => '1st February 2016',
 			'prefix' => '0001',
 			'description' => 'A variety of suggestions on how to earn money from your favorite open source software.',
@@ -52,6 +52,15 @@ function get_article_data() {
 			'og-image' => 'gaming.jpg',
 		),
 
+		'make-wordpress-multilanguage' => array(
+			'name' => 'WordPress Multi Language Plugin: Complete Guide for WordPress Themes',
+			'date' => '23rd December 2018',
+			'prefix' => '0011',
+			'description' => 'A comprehensive tutorial for starting a video gaming blog.',
+			'icon' => 'app-listen',
+			'og-image' => 'gaming.jpg',
+		),
+
 	);
 
 	if ( 'dev' == ENV ) {
@@ -75,7 +84,7 @@ function get_article_data() {
 		),
 
 		'choose-a-target-audience' => array(
-			'name' => 'Choosing a Target Audience',
+			'name' => 'Choose a Target Audience',
 			'date' => '26th February 2016',
 			'prefix' => '0008',
 			'description' => 'Tips and Tricks to improve how you build things with WordPress.',
