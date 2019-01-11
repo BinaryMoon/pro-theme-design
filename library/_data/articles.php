@@ -17,7 +17,7 @@ function get_article_data() {
 		),
 
 		'be-a-wordpress-implementer' => array(
-			'name' => 'What it takes to be a WordPress Implementer',
+			'name' => 'Become a WordPress Implementer',
 			'date' => '5th February 2016',
 			'prefix' => '0002',
 			'description' => 'The differences between WordPress Implementors and WordPress Developers.',
