@@ -12,7 +12,7 @@
 		<?php include( '_partials/header.php' ); ?>
 
 		<div class="wrapper text">
-			<h1>Articles</h1>
+			<h1>How To &hellip;</h1>
 
 <?php
 	site_include_view( '_partials/article-listing.php', array( 'articles' => $articles ) );
