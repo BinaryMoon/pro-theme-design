@@ -52,11 +52,11 @@ function get_article_data() {
 			'og-image' => 'gaming.jpg',
 		),
 
-		'make-wordpress-multilanguage' => array(
+		'make-wordpress-multilingual' => array(
 			'name' => 'WordPress Multi Language Plugin: Complete Guide for WordPress Themes',
 			'date' => '23rd December 2018',
 			'prefix' => '0011',
-			'description' => 'A comprehensive tutorial for starting a video gaming blog.',
+			'description' => 'Use the WeGlot plugin to easily translate your WordPress Themes.',
 			'icon' => 'app-listen',
 			'og-image' => 'gaming.jpg',
 		),
