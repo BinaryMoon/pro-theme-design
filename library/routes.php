@@ -396,7 +396,7 @@ Flight::route( '/how-to/(@page)/', function( $page = '' ) {
 
 	$article = array();
 
-	site_breadcrumb_add( 'Articles', 'articles/' );
+	site_breadcrumb_add( 'How To', 'articles/' );
 
 	if ( $article = article_get( $page ) ) {
 
