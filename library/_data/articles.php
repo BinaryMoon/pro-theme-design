@@ -53,7 +53,7 @@ function get_article_data() {
 		),
 
 		'make-wordpress-multilingual' => array(
-			'name' => 'WordPress Multi Language Plugin: Complete Guide for WordPress Themes',
+			'name' => 'Use a WordPress Multi Language Plugin',
 			'date' => '23rd December 2018',
 			'prefix' => '0011',
 			'description' => 'Use the WeGlot plugin to easily translate your WordPress Themes.',
