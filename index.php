@@ -81,7 +81,7 @@ define( 'DECACHE_JS', '29' );
 define( 'ENV', $environment );
 define( 'GOOGLE_CSE', '010164663960188762731:aajo_mt5e2a' );
 define( 'MANAGE_WP', 'https://managewp.com/?utm_source=A&utm_medium=Link&utm_campaign=A&utm_mrl=3611' );
-define( 'FASTSPRING_JS', 'https://d1f8f9xcsvx3ha.cloudfront.net/sbl/0.7.8/fastspring-builder.min.js' );
+define( 'FASTSPRING_JS', 'https://d1f8f9xcsvx3ha.cloudfront.net/sbl/0.7.9/fastspring-builder.min.js' );
 define( 'JETPACK', 'https://refer.wordpress.com/r/965/jetpack/' );
 define( 'WORDPRESS_COM', 'https://refer.wordpress.com/r/965/wordpress-com/' );
 define( 'WORDPRESS_ORG', 'https://wordpress.org/' );
