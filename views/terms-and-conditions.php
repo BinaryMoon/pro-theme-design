@@ -9,11 +9,15 @@
 		<div class="wrapper text">
 			<h1>Terms and Conditions</h1>
 
-			<h2>Support</h2>
+			<h2 id="policy-support">Support</h2>
 
-			<p>We offer support via the relevant support forums. For WordPress.com please use the <a href="https://premium-themes.forums.wordpress.com">premium themes forum</a>. For self hosted themes you can use our <a href="<?php echo path( 'contact/' ); ?>">contact page</a>.</p>
+			<p>To support our themes we have put together comprehensive <a href="<?php echo path( '/documentation/theme/' ); ?>">documentation</a> and built <a href="<?php echo path( '/documentation/' ); ?>">a knowledgebase</a> for our products. If your questions are not answered in the docs then please use the support methods outlined below.</p>
 
-			<p>Theme support is offered for one year from the date of purchase. After this date further support will require a new theme license to be purchased.</p>
+			<p>For WordPress.com support please use the <a href="https://premium-themes.forums.wordpress.com">premium themes forum</a>.</p>
+
+			<p>For self hosted themes you can use our <a href="<?php echo path( 'contact/' ); ?>">contact page</a>.</p>
+
+			<p>Theme support is offered to all users with a valid theme club subscription.</p>
 
 			<p>The support we offer is restricted to fixing bugs in our themes. Unfortunately we don't help with theme modifications/ customizations or installation issues. For help with customizations we have partnered with Codeable who offer <a href="<?php echo path( 'theme-customization/' ); ?>">customization services for WordPress websites</a>.</p>
 
