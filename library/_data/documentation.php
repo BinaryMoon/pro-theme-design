@@ -55,6 +55,11 @@ function get_documentation_data() {
 			'related' => array( 'transfer-from-wordpress-com' ),
 			'og-image' => 'refund.jpg',
 		),
+		'cancel-subscription-renewal' => array(
+			'name' => 'Cancel Subscription Renewals',
+			'type' => 'general',
+			'og-image' => 'refund.jpg',
+		),
 		'affiliates' => array(
 			'name' => 'Affiliates',
 			'type' => 'general',
