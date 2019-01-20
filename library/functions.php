@@ -258,6 +258,7 @@ function nav_class( $current_section, $current_page ) {
 
 }
 
+
 /**
  * Work out which colour theme to use based on a colour.
  *
@@ -328,5 +329,20 @@ function get_svg( $icon, $size = 'medium' ) {
 	$svg = str_replace( '<svg', '<svg aria-hidden="true"', $svg );
 
 	return $svg;
+
+}
+
+
+/**
+ * Convert a string to a url compatable slug.
+ *
+ * @param string $string A string to convert to a slug.
+ * @return string
+ */
+function slugify( $string ) {
+
+	$string = preg_replace( '/[^A-Za-z0-9-]+/', '-', $string );
+
+	return strtolower( trim( $string ) );
 
 }
