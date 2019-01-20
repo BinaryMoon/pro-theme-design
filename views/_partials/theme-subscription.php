@@ -69,7 +69,7 @@
 				<p>This is a subscription product which will renewal automatically each year. However if you decide to end your membership, you can <a href="<?php echo path( '/documentation/general/cancel-subscription-renewal/' ); ?>">cancel the renewal</a> any time.</p>
 
 				<h3>GDPR Compatible</h3>
-				<p>Ready for GDPR, helping to ensure your <a href="<?php echo path( 'documentation/general/gdpr-privacy/' ); ?>">users privacy</a>.</p>
+				<p>Our themes support WordPress privacy functionality, so are ready for GDPR, helping to ensure your <a href="<?php echo path( 'documentation/general/gdpr-privacy/' ); ?>">users privacy</a>.</p>
 
 				<h3>Questions?</h3>
 				<p>Want to know more about the theme club? See our <a href="#theme-club-faq" class="scroll-to">FAQ below</a> or, if you still need help, you can <a href="<?php echo path( 'theme-question/' . $theme['key'] . '/' ); ?>">ask us a question</a>.</p>
