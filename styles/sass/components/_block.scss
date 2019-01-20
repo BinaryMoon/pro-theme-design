@@ -62,7 +62,7 @@
 
 			.content {
 
-				padding :0;
+				padding: 0;
 
 			}
 
@@ -71,6 +71,16 @@
 				@include modular-scale( epsilon );
 
 			}
+
+		}
+
+	}
+
+	&.relaxed {
+
+		.block {
+
+			width: 50%;
 
 		}
 

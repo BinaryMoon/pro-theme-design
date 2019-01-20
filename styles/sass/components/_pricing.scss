@@ -12,9 +12,11 @@
 
 		.product {
 
-			background: $canvas-white;
+			background: $canvas-white url( ../../img/website/theme-club-banner-tight.png ) no-repeat;
+			background-position: bottom center;
+			background-size: contain;
 			box-shadow: $box-shadow;
-			padding: ( $grid-line-height * 2 ) ( $grid-gutter ) ( $grid-line-height ) ( $grid-gutter );
+			padding: ( $grid-line-height * 2 ) ( $grid-gutter ) ( $grid-line-height * 4.5 ) ( $grid-gutter );
 			margin: $grid-line-height;
 
 			> *:last-child {
@@ -22,14 +24,6 @@
 				margin-bottom: 0;
 
 			}
-
-		}
-
-		.price {
-
-			position: absolute;
-			top: -0.5rem;
-			left: -0.5rem;
 
 		}
 
@@ -107,15 +101,12 @@
 }
 
 
-@media only screen and (max-width: $responsive-tablet) {
+@media only screen and ( max-width: $wp-responsive-width-1 ) {
 
-	.pricing {
+	.pricing .price-table .product {
 
-		.screenshot {
-
-			display: none;
-
-		}
+		margin-left: 0;
+		margin-right: 0;
 
 	}
 

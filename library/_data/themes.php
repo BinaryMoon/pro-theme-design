@@ -21,13 +21,13 @@ define( 'THEME_DOWNLOAD', '<a class="button greedy" href="https://wordpress.org/
 
 
 /**
- * A list of all of our themes
+ * A list of all of our themes.
  *
  * @return array A list of all the available themes
  */
-function get_theme_data() {
+function get_raw_theme_data() {
 
-	$themes = array(
+	return array(
 
 		'carmack' => array(
 			'name' => 'Carmack',
@@ -348,6 +348,18 @@ function get_theme_data() {
 
 	);
 
+}
+
+
+/**
+ * Get processed theme data.
+ *
+ * @return array
+ */
+function get_theme_data() {
+
+	$themes = get_raw_theme_data();
+
 	$processed = array();
 
 	foreach ( $themes as $key => $theme ) {
@@ -477,6 +489,18 @@ function get_theme_data() {
 	} // End foreach().
 
 	return $processed;
+
+}
+
+
+/**
+ * Get the number of available themes.
+ *
+ * @return void
+ */
+function themes_count() {
+
+	return count( get_raw_theme_data() );
 
 }
 
