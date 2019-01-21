@@ -162,6 +162,7 @@ function get_website_data() {
 			'theme' => 'romero',
 		),
 
+
 		// Monet.
 		array(
 			'url' => 'http://sonjavanvuure.com',
@@ -216,6 +217,11 @@ function get_website_data() {
 		array(
 			'url' => 'https://olabonati.wordpress.com/',
 			'name' => 'Ola Bonati',
+			'theme' => 'monet',
+		),
+		array(
+			'url' => 'http://baileyenglishstudio.com',
+			'name' => 'Bailey English Studio',
 			'theme' => 'monet',
 		),
 
@@ -492,11 +498,111 @@ function get_website_data() {
 		),
 
 
+		// Traveler.
 		array(
-			'url' => 'http://baileyenglishstudio.com',
-			'name' => 'Bailey English Studio',
-			'theme' => 'monet',
+			'url' => 'https://michelbrard.wordpress.com/',
+			'name' => 'Michael Brard',
+			'theme' => 'traveler',
 		),
+		array(
+			'url' => 'https://clynam.wordpress.com/',
+			'name' => 'Africa Unplugged',
+			'theme' => 'traveler',
+		),
+		array(
+			'url' => 'https://chanaplum.com/',
+			'name' => 'Chanaplum',
+			'theme' => 'traveler',
+		),
+		array(
+			'url' => 'https://suzieross.wordpress.com/',
+			'name' => 'Paper and Pictures',
+			'theme' => 'traveler',
+		),
+		array(
+			'url' => 'https://lescapricieuses.wordpress.com/',
+			'name' => 'The Capricious',
+			'theme' => 'traveler',
+		),
+		array(
+			'url' => 'https://reshapingreality.org/',
+			'name' => 'Reshaping Reality',
+			'theme' => 'traveler',
+		),
+		array(
+			'url' => 'https://abayaaddict.wordpress.com/',
+			'name' => 'Abaya Addict',
+			'theme' => 'traveler',
+		),
+		array(
+			'url' => 'https://maky.com/',
+			'name' => 'Maky',
+			'theme' => 'traveler',
+		),
+
+
+		// Label.
+		array(
+			'url' => 'https://littlesequoia.blog/',
+			'name' => 'Little Sequoia',
+			'theme' => 'label',
+		),
+		array(
+			'url' => 'https://outrasluzes.blog/',
+			'name' => 'Outras Luzes',
+			'theme' => 'label',
+		),
+		array(
+			'url' => 'https://jennastewart.ca/',
+			'name' => 'Jenna Stewart',
+			'theme' => 'label',
+		),
+		array(
+			'url' => 'https://connectedcorners.com/',
+			'name' => 'Connected Corners',
+			'theme' => 'label',
+		),
+		array(
+			'url' => 'https://erlendropstad.no/',
+			'name' => 'Erland Ropstad',
+			'theme' => 'label',
+		),
+		array(
+			'url' => 'https://terracottadigital.com/',
+			'name' => 'Terracotta Digital',
+			'theme' => 'label',
+		),
+		array(
+			'url' => 'https://msloud.net/',
+			'name' => 'Ms Loud',
+			'theme' => 'label',
+		),
+		array(
+			'url' => 'https://sarahscookery.com/',
+			'name' => 'Sarahs Cookery',
+			'theme' => 'label',
+		),
+		array(
+			'url' => 'https://livingthekingdom.org/',
+			'name' => 'Living the Kingdom',
+			'theme' => 'label',
+		),
+		array(
+			'url' => 'https://palmasonblog.wordpress.com/',
+			'name' => 'Ibyrgid',
+			'theme' => 'label',
+		),
+		array(
+			'url' => 'https://mistandether.wordpress.com/',
+			'name' => 'Mist and Ether',
+			'theme' => 'label',
+		),
+		array(
+			'url' => 'https://guriharam.no/',
+			'name' => 'Guri Haram',
+			'theme' => 'label',
+		),
+
 
 	);
 
