@@ -8,21 +8,19 @@
     <body class="page-theme-showcase">
 
 <?php
-    include( '_partials/header.php' );
+	include( '_partials/header.php' );
 
-    site_page_nav();
+	site_page_nav();
 
-    $theme_data = themes_get( $tag );
+	$theme_data = themes_get( $tag );
 
-    if ( $theme_data ) {
+	if ( $theme_data ) {
 ?>
-        <div class="wrapper showcase-description">
-            <div class="note message">
-                <h1><?php echo $theme_data[ 'name' ]; ?></h1>
-                <p class="intro"><?php echo $theme_data[ 'description' ]; ?></p>
-                <a href="<?php echo $theme_data[ 'url' ]; ?>" class="button positive">More info <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-            </div>
-        </div>
+		<div class="wrapper showcase-description">
+			<h1><?php echo $theme_data[ 'name' ]; ?></h1>
+			<p class="intro"><?php echo $theme_data[ 'description' ]; ?></p>
+			<p><a href="<?php echo $theme_data[ 'url' ]; ?>" class="button positive">More info</i></a></p>
+		</div>
 <?php
     }
 ?>
