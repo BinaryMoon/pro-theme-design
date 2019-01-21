@@ -305,8 +305,7 @@ Flight::route( '/theme-showcase/(@tag)/', function( $tag = '' ) {
 	$title = 'WordPress Themes Showcase';
 	$websites = array();
 
-	site_page_nav_add( 'Recent', 'theme-showcase/' );
-	site_page_nav_add( 'Featured', 'theme-showcase/featured/' );
+	site_page_nav_add( 'Random', 'theme-showcase/' );
 	site_page_nav_add( 'Puzzle', 'theme-showcase/puzzle/' );
 	site_page_nav_add( 'Monet', 'theme-showcase/monet/' );
 	site_page_nav_add( 'Romero', 'theme-showcase/romero/' );
@@ -321,6 +320,7 @@ Flight::route( '/theme-showcase/(@tag)/', function( $tag = '' ) {
 		if ( ! empty( $tag ) ) {
 			$title = sprintf( '%s Themes: WordPress Themes Showcase', ucwords( $tag ) );
 		}
+
 	} else {
 
 		Flight::notFound();
@@ -333,7 +333,7 @@ Flight::route( '/theme-showcase/(@tag)/', function( $tag = '' ) {
 	site_enable_purchase();
 
 	Flight::render(
-		'showcase.php',
+		'theme-showcase.php',
 		array(
 			'websites' => $websites,
 			'tag' => $tag,
@@ -540,7 +540,7 @@ Flight::route( '/theme-preview/(@theme)/', function( $theme_slug = '' ) {
  */
 Flight::route( '/showcase-preview/(@site)/', function( $site = '' ) {
 
-	$template = 'showcase-preview.php';
+	$template = 'theme-showcase-preview.php';
 
 	if ( ! website_exists( $site ) ) {
 
