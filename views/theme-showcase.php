@@ -1,11 +1,11 @@
 <?php
 
-    $themes = get_theme_data();
+	$themes = get_theme_data();
 
-    include( '_partials/head.php' );
+	include( '_partials/head.php' );
 ?>
 
-    <body class="page-theme-showcase">
+	<body class="page-theme-showcase">
 
 <?php
 	include( '_partials/header.php' );
@@ -22,29 +22,29 @@
 			<p><a href="<?php echo $theme_data[ 'url' ]; ?>" class="button positive">More info</i></a></p>
 		</div>
 <?php
-    }
+	}
 ?>
-        <div class="wrapper block-wrapper">
+		<div class="wrapper block-wrapper">
 <?php
-    $count = 0;
+	$count = 0;
 
-    foreach( $websites as $key => $site ) {
+	foreach( $websites as $key => $site ) {
 
-        $count ++;
+		$count ++;
 ?>
-            <div class="block showcase-website theme-<?php echo $site['theme']; ?>">
-                <a href="<?php echo $site[ 'url-preview' ]; ?>" class="image" target="<?php echo $site[ 'showcase-target' ]; ?>">
-                    <img src="<?php echo $site[ 'image-url' ]; ?>" width="400" height="300" alt="<?php echo $site['name']; ?> Screenshot" />
-                </a>
-                <div class="meta">
-                    <h3><?php echo $site['name']; ?></h3>
-                    <a href="<?php echo path( 'theme/' . $site['theme'] . '/' ); ?>" class="theme"><?php echo ucwords( $site['theme'] ); ?></a>
-                </div>
-            </div>
+			<div class="block showcase-website theme-<?php echo $site['theme']; ?>">
+				<a href="<?php echo $site[ 'url-preview' ]; ?>" class="image" target="<?php echo $site[ 'showcase-target' ]; ?>">
+					<img src="<?php echo $site[ 'image-url' ]; ?>" width="400" height="300" alt="<?php echo $site['name']; ?> Screenshot" />
+				</a>
+				<div class="meta">
+					<h3><?php echo $site['name']; ?></h3>
+					<a href="<?php echo path( 'theme/' . $site['theme'] . '/' ); ?>" class="theme"><?php echo ucwords( $site['theme'] ); ?></a>
+				</div>
+			</div>
 <?php
-    }
+	}
 ?>
-        </div>
+		</div>
 
 <?php
-    include( '_partials/footer.php' );
+	include( '_partials/footer.php' );
