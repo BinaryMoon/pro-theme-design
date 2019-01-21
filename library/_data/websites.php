@@ -55,7 +55,7 @@ function get_website_data() {
 	 */
 
 	/**
-		'' => array(
+		array(
 			'url' => '',
 			'name' => '',
 			'theme' => 'themeslug',
@@ -67,177 +67,432 @@ function get_website_data() {
 
 	$websites = array(
 
-		'jesuisungameur' => array(
+		// Carmack.
+		array(
+			'url' => 'https://nbyt.org/',
+			'name' => 'NBYT',
+			'theme' => 'carmack',
+		),
+		array(
+			'url' => 'https://journeysinclassicfilm.com/',
+			'name' => 'Journeys in Classic Film',
+			'theme' => 'carmack',
+		),
+		array(
+			'url' => 'https://energyathaas.wordpress.com/',
+			'name' => 'Energy Institute at Haas',
+			'theme' => 'carmack',
+		),
+		array(
+			'url' => 'https://vitacalciobollicine.com/',
+			'name' => 'Vita Calcio e Bollicine',
+			'theme' => 'carmack',
+		),
+		array(
+			'url' => 'https://rtalsoriangames.com/',
+			'name' => 'R Talsorian Games',
+			'theme' => 'carmack',
+		),
+		array(
+			'url' => 'https://melinanime.land/',
+			'name' => 'Mel in Anime Land',
+			'theme' => 'carmack',
+		),
+		array(
+			'url' => 'https://topgear.ie/',
+			'name' => 'TopGear.IE',
+			'theme' => 'carmack',
+		),
+		array(
+			'url' => 'https://yourspacewestsussex.me/',
+			'name' => 'Your Space West Sussex',
+			'theme' => 'carmack',
+		),
+		array(
+			'url' => 'https://journalistwithoutabeat.com/',
+			'name' => 'Journalist Without a Beat',
+			'theme' => 'carmack',
+		),
+
+
+		// Romero.
+		array(
 			'url' => 'https://jesuisungameur.com/',
 			'name' => 'Je Suis Un Gameur',
 			'theme' => 'romero',
 		),
-		'fremdtunes.com' => array(
+		array(
 			'url' => 'https://fremdtunes.com/',
 			'name' => 'Fremdtunes',
 			'theme' => 'romero',
 		),
-		'mynintendonews/' => array(
-			'url' => 'http://mynintendonews.com/',
-			'name' => 'My Nintendo News',
-			'theme' => 'romero',
-		),
-		'magicon' => array(
-			'url' => 'http://www.magicon.de/',
-			'name' => 'Magicon',
-			'theme' => 'monet',
-		),
-		'prospectthepantry' => array(
-			'url' => 'https://prospectthepantry.com/',
-			'name' => 'Prospect The Pantry',
-			'theme' => 'monet',
-		),
-
-		'absurdisan' => array(
+		array(
 			'url' => 'http://absurdisan.com/',
 			'name' => 'Absudisan',
 			'theme' => 'romero',
-			'tags' => array( 'featured' ),
 		),
-
-
-		'tanboy' => array(
-			'url' => 'https://prialterno.wordpress.com/',
-			'name' => 'Tan Boy',
-			'theme' => 'broadsheet',
-			'tags' => array( 'featured' ),
-		),
-
-		'theneocom' => array(
+		array(
 			'url' => 'http://theneocom.com/',
 			'name' => 'The Neocom',
 			'theme' => 'romero',
 		),
-		'psvitaaddict' => array(
+		array(
 			'url' => 'http://psvitaaddict.com/',
 			'name' => 'PS Vita Addict',
 			'theme' => 'romero',
 		),
-		'filmexposure' => array(
+		array(
 			'url' => 'http://filmexposure.ch/',
 			'name' => 'Film Exposure',
 			'theme' => 'romero',
 		),
-		'bestgameever' => array(
+		array(
 			'url' => 'http://bestgameever.co.uk/',
 			'name' => 'Best Game Ever',
 			'theme' => 'romero',
 		),
-		'ninauthority' => array(
+		array(
 			'url' => 'http://ninauthority.com/',
 			'name' => 'Nintendo Authority',
 			'theme' => 'romero',
 		),
-		'vuurig' => array(
-			'url' => 'http://sonjavanvuure.com',
-			'name' => 'Vuurig',
-			'theme' => 'monet',
-		),
-		'mgarciadigital' => array(
-			'url' => 'https://mgarciadigital.wordpress.com/',
-			'name' => 'Marco Garcia',
-			'theme' => 'puzzle',
-			'tags' => array( 'puzzle', 'featured' ),
-		),
-		'should-i-go-see-it' => array(
-			'url' => 'http://shouldigoseeit.com',
-			'name' => 'Should I Go See It',
-			'theme' => 'puzzle',
-		),
-		'noise-nation' => array(
-			'url' => 'https://noisenation.wordpress.com',
-			'name' => 'Noise Nation',
-			'theme' => 'opti',
-		),
-		'the-fourth-crown' => array(
-			'url' => 'http://thefourthcrown.com',
-			'name' => 'The Fourth Crown',
-			'theme' => 'broadsheet',
-			'tags' => array( 'featured' ),
-		),
-		'geeks-down-under' => array(
+		array(
 			'url' => 'http://geeksdownunder.com.au',
 			'name' => 'Geeks Down Under',
 			'theme' => 'romero',
 		),
-		'maroc-in-style' => array(
+
+		// Monet.
+		array(
+			'url' => 'http://sonjavanvuure.com',
+			'name' => 'Vuurig',
+			'theme' => 'monet',
+		),
+		array(
+			'url' => 'http://www.magicon.de/',
+			'name' => 'Magicon',
+			'theme' => 'monet',
+		),
+		array(
+			'url' => 'https://prospectthepantry.com/',
+			'name' => 'Prospect The Pantry',
+			'theme' => 'monet',
+		),
+		array(
+			'url' => 'https://kelleyeling.com/',
+			'name' => 'Kelley Eling, Realtor',
+			'theme' => 'monet',
+		),
+		array(
+			'url' => 'https://cristinatorrecillacentroestetico.com/',
+			'name' => 'Cristina Torrecilla Esthetic Center',
+			'theme' => 'monet',
+		),
+		array(
+			'url' => 'https://adicrafts.com/',
+			'name' => 'Adicrafts',
+			'theme' => 'monet',
+		),
+		array(
+			'url' => 'https://nikkikphoto.com/',
+			'name' => 'Nikki K Photo',
+			'theme' => 'monet',
+		),
+		array(
+			'url' => 'https://balbinarallyteam.com/',
+			'name' => 'Rally Team Balbinette',
+			'theme' => 'monet',
+		),
+		array(
+			'url' => 'https://brookesemke.com/',
+			'name' => 'Brooke Semke',
+			'theme' => 'monet',
+		),
+		array(
+			'url' => 'https://capturedbyvera.nl/',
+			'name' => 'Captured By Vera',
+			'theme' => 'monet',
+		),
+		array(
+			'url' => 'https://olabonati.wordpress.com/',
+			'name' => 'Ola Bonati',
+			'theme' => 'monet',
+		),
+
+
+		// Puzzle.
+		array(
+			'url' => 'http://shouldigoseeit.com',
+			'name' => 'Should I Go See It',
+			'theme' => 'puzzle',
+		),
+		array(
 			'url' => 'http://marocinstyle.com',
 			'name' => 'Maroc in Style',
 			'theme' => 'puzzle',
 		),
-		'flossy-photography' => array(
+		array(
 			'url' => 'https://flossyphotography.wordpress.com',
 			'name' => 'Flossy Photography',
 			'theme' => 'puzzle',
 		),
-		'leah-pellegrini' => array(
+		array(
 			'url' => 'http://leahpellegrini.com',
 			'name' => 'Leah Pellegrini',
 			'theme' => 'puzzle',
 		),
-		'cincindos' => array(
+		array(
 			'url' => 'http://cincindos.com',
 			'name' => 'Cincindos',
 			'theme' => 'puzzle',
 		),
-		'vocalise' => array(
+		array(
+			'url' => 'https://robinamer.com/',
+			'name' => 'Robin Amer',
+			'theme' => 'puzzle',
+		),
+		array(
+			'url' => 'https://keepingsmall.wordpress.com/',
+			'name' => 'Fewer, Better Things...',
+			'theme' => 'puzzle',
+		),
+		array(
+			'url' => 'https://worksdifferent.com/',
+			'name' => 'Works Different',
+			'theme' => 'puzzle',
+		),
+		array(
+			'url' => 'https://nicennaughtyboutique.com/',
+			'name' => 'Nine N Naughty',
+			'theme' => 'puzzle',
+		),
+		array(
+			'url' => 'https://dovediscoveries.wordpress.com/',
+			'name' => 'Dove Discoveries',
+			'theme' => 'puzzle',
+		),
+		array(
+			'url' => 'https://henrystrong.net/',
+			'name' => 'Henry Strong',
+			'theme' => 'puzzle',
+		),
+		array(
+			'url' => 'https://flossyphotography.wordpress.com/',
+			'name' => 'Flossy Photography',
+			'theme' => 'puzzle',
+		),
+		array(
+			'url' => 'https://stephaniemcfarland.com/',
+			'name' => 'Stephanie McFarland Photography',
+			'theme' => 'puzzle',
+		),
+		array(
+			'url' => 'https://hellosoulblog.wordpress.com/',
+			'name' => 'Hello Soul',
+			'theme' => 'puzzle',
+		),
+
+
+		// Opti.
+		array(
+			'url' => 'https://noisenation.wordpress.com',
+			'name' => 'Noise Nation',
+			'theme' => 'opti',
+		),
+		array(
 			'url' => 'https://ballaratvocalise.wordpress.com',
 			'name' => 'Vocalise',
 			'theme' => 'opti',
 		),
-		'bella-caledonia' => array(
+		array(
 			'url' => 'https://bellacaledonia.wordpress.com',
 			'name' => 'Bella Caledonia',
 			'theme' => 'opti',
-			'tags' => array( 'featured' ),
 		),
-		'berkeley-life-centre' => array(
-			'url' => 'http://berkeleylifecentre.org',
-			'name' => 'Berkeley Life Centre',
-			'theme' => 'chronicle',
-			'tags' => array( 'featured' ),
+		array(
+			'url' => 'https://piedtype.com/',
+			'name' => 'Pied Type',
+			'theme' => 'opti',
 		),
-		'comic-community' => array(
+		array(
+			'url' => 'http://theredphoenixapl.org/',
+			'name' => 'The Red Phoenix',
+			'theme' => 'opti',
+		),
+		array(
+			'url' => 'https://postpioneer.wordpress.com/',
+			'name' => 'The Pioneer',
+			'theme' => 'opti',
+		),
+		array(
+			'url' => 'https://newvinegrowing.wordpress.com/',
+			'name' => 'Newvine Growing',
+			'theme' => 'opti',
+		),
+		array(
+			'url' => 'https://rozegolf.net/',
+			'name' => 'Roze Golf',
+			'theme' => 'opti',
+		),
+		array(
+			'url' => 'https://minutohm.com/',
+			'name' => 'Minuto HM',
+			'theme' => 'opti',
+		),
+		array(
+			'url' => 'https://childrensembassy.wordpress.com/',
+			'name' => 'Childrens Embassy',
+			'theme' => 'opti',
+		),
+		array(
+			'url' => 'https://adivasihunkar.com/',
+			'name' => 'Adivasi Hunkar',
+			'theme' => 'opti',
+		),
+		array(
+			'url' => 'https://highschooldebate.org/',
+			'name' => 'Public Debate Program',
+			'theme' => 'opti',
+		),
+
+
+		// Chronicle.
+		array(
 			'url' => 'https://ccommunity.wordpress.com',
 			'name' => 'Comic Community',
 			'theme' => 'chronicle',
 		),
-		'cardinal-courier' => array(
-			'url' => 'https://cardinalcourieronline.wordpress.com',
-			'name' => 'Cardinal Courier',
+		array(
+			'url' => 'https://culturaacasa.wordpress.com/',
+			'name' => 'Cultura Acasa',
+			'theme' => 'chronicle',
+		),
+		array(
+			'url' => 'https://theabudhabipta.com/',
+			'name' => 'The Abu Dhabi PTA',
+			'theme' => 'chronicle',
+		),
+		array(
+			'url' => 'https://transitmag.no/',
+			'name' => 'Transit magasin',
+			'theme' => 'chronicle',
+		),
+		array(
+			'url' => 'https://railturkey.org/',
+			'name' => 'Rail Turkey',
+			'theme' => 'chronicle',
+		),
+		array(
+			'url' => 'https://pinoyontheroad.com/',
+			'name' => 'Pinoy on the Road',
+			'theme' => 'chronicle',
+		),
+		array(
+			'url' => 'https://eurovisionireland.net/',
+			'name' => 'Eurovison Ireland',
+			'theme' => 'chronicle',
+		),
+		array(
+			'url' => 'https://isastudentblog.wordpress.com/',
+			'name' => 'ISA Student Blog',
+			'theme' => 'chronicle',
+		),
+		array(
+			'url' => 'https://laughoutlondoncomedyclub.co.uk/',
+			'name' => 'Laugh Out London',
+			'theme' => 'chronicle',
+		),
+		array(
+			'url' => 'https://casacurutchet.net/',
+			'name' => 'Casa Curutchet',
+			'theme' => 'chronicle',
+		),
+		array(
+			'url' => 'https://keithonfood.com/',
+			'name' => 'Keith on Food',
+			'theme' => 'chronicle',
+		),
+		array(
+			'url' => 'https://chasingpisces.com/',
+			'name' => 'Chasing Pisces',
+			'theme' => 'chronicle',
+		),
+		array(
+			'url' => 'https://keithonfood.com/',
+			'name' => 'Keith on Food',
+			'theme' => 'chronicle',
+		),
+
+
+		// Broadsheet.
+		array(
+			'url' => 'https://jmmswordandshield.com/',
+			'name' => 'JMM Sword and Shield',
 			'theme' => 'broadsheet',
 		),
-		'orange-county-tribune' => array(
+		array(
+			'url' => 'http://thefourthcrown.com',
+			'name' => 'The Fourth Crown',
+			'theme' => 'broadsheet',
+		),
+		array(
+			'url' => 'https://diningdevon.com/',
+			'name' => 'Dining Devon',
+			'theme' => 'broadsheet',
+		),
+		array(
+			'url' => 'https://prialterno.wordpress.com/',
+			'name' => 'Tan Boy',
+			'theme' => 'broadsheet',
+		),
+		array(
+			'url' => 'https://worldofentertainment.info/',
+			'name' => 'World of Entertainment',
+			'theme' => 'broadsheet',
+		),
+		array(
+			'url' => 'https://interpretechinois.net/',
+			'name' => 'Chinese Interpreter',
+			'theme' => 'broadsheet',
+		),
+		array(
+			'url' => 'https://miniarmour.net/',
+			'name' => 'Mini Armour',
+			'theme' => 'broadsheet',
+		),
+		array(
+			'url' => 'https://journalcinephilelyon.com/',
+			'name' => 'Journal Cinephile Lyonnais',
+			'theme' => 'broadsheet',
+		),
+		array(
 			'url' => 'http://orangecountytribune.com',
 			'name' => 'Orange County Tribune',
 			'theme' => 'broadsheet',
 		),
-		'the-sentinel' => array(
+		array(
 			'url' => 'https://shssentinel.wordpress.com',
 			'name' => 'The Sentinel',
 			'theme' => 'broadsheet',
 		),
-		'gentlemans-portion' => array(
+		array(
 			'url' => 'http://gentlemansportion.com',
 			'name' => 'Gentlemans Portion',
 			'theme' => 'broadsheet',
 		),
-		'probe-inernational' => array(
+		array(
 			'url' => 'http://journal.probeinternational.org',
 			'name' => 'Probe International',
 			'theme' => 'broadsheet',
 		),
-		'the-banner' => array(
+		array(
 			'url' => 'http://thebannercsi.com',
 			'name' => 'The Banner',
 			'theme' => 'broadsheet',
 		),
-		'bailey-english-studio' => array(
+
+
+		array(
 			'url' => 'http://baileyenglishstudio.com',
 			'name' => 'Bailey English Studio',
 			'theme' => 'monet',
@@ -245,10 +500,11 @@ function get_website_data() {
 
 	);
 
-
 	$processed = array();
 
-	foreach ( $websites as $key => $site ) {
+	foreach ( $websites as $site ) {
+
+		$key = slugify( $site['name'] );
 
 		// preview url
 		$site[ 'url-preview' ] = path( 'showcase-preview/' . $key . '/' );
@@ -340,9 +596,8 @@ function website_get_by_tag( $tag = '', $limit = -1 ) {
 			$limit = 15;
 		}
 
-		foreach ( $websites as $key => $website ) {
-			$tag_websites[ $key ] = $website;
-		}
+		shuffle( $websites );
+		$tag_websites = array_slice( $websites, 0, $limit );
 
 	}
 
