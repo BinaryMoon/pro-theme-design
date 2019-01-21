@@ -1,5 +1,5 @@
 <?php
-    $websites = get_website_data(  );
+    $websites = get_website_data();
 ?>
 
 <div class="wrapper text">
