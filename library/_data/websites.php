@@ -161,6 +161,26 @@ function get_website_data() {
 			'name' => 'Geeks Down Under',
 			'theme' => 'romero',
 		),
+		array(
+			'url' => 'https://cozmicventures.com/',
+			'name' => 'Cozmic Ventures',
+			'theme' => 'romero',
+		),
+		array(
+			'url' => 'https://letsplaymars.wordpress.com/',
+			'name' => 'MarsLetsPlay',
+			'theme' => 'romero',
+		),
+		array(
+			'url' => 'https://debbailey.co/',
+			'name' => 'Deb Bailey',
+			'theme' => 'romero',
+		),
+		array(
+			'url' => 'https://robodudereview.wordpress.com/',
+			'name' => 'Robodude Review',
+			'theme' => 'romero',
+		),
 
 
 		// Monet.
@@ -223,6 +243,64 @@ function get_website_data() {
 			'url' => 'http://baileyenglishstudio.com',
 			'name' => 'Bailey English Studio',
 			'theme' => 'monet',
+		),
+
+
+		// Exhibit.
+		array(
+			'url' => 'https://theroyalglasgowinstituteofthefinearts.co.uk/',
+			'name' => 'The RGI',
+			'theme' => 'exhibit',
+		),
+		array(
+			'url' => 'https://frazershaw.wordpress.com/',
+			'name' => 'Frazer Shaw',
+			'theme' => 'exhibit',
+		),
+		array(
+			'url' => 'https://drdianesanford.com/',
+			'name' => 'Dr Diane Sanford',
+			'theme' => 'exhibit',
+		),
+		array(
+			'url' => 'https://benjaminjudge.com/',
+			'name' => 'Benjamin Judge',
+			'theme' => 'exhibit',
+		),
+		array(
+			'url' => 'https://tanyacollins.club/',
+			'name' => 'Tanya Collins',
+			'theme' => 'exhibit',
+		),
+		array(
+			'url' => 'https://amandaroseadams.com/',
+			'name' => 'Amanda Rose Adams',
+			'theme' => 'exhibit',
+		),
+		array(
+			'url' => 'https://meganleung.com/',
+			'name' => 'Megan Leung',
+			'theme' => 'exhibit',
+		),
+		array(
+			'url' => 'https://szsdesignandcrafts.com/',
+			'name' => 'SZS Design and Crafts',
+			'theme' => 'exhibit',
+		),
+		array(
+			'url' => 'https://nutmegandwhimsy.com/',
+			'name' => 'Nutmeg and Whimsy',
+			'theme' => 'exhibit',
+		),
+		array(
+			'url' => 'https://paproductdesign.wordpress.com/',
+			'name' => 'Paul Annett',
+			'theme' => 'exhibit',
+		),
+		array(
+			'url' => 'https://fprecipe.com/',
+			'name' => 'Food Porn Recipes',
+			'theme' => 'exhibit',
 		),
 
 
