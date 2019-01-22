@@ -694,9 +694,6 @@ function get_website_data() {
 		$site[ 'url-preview' ] = path( 'showcase-preview/' . $key . '/' );
 		$site[ 'showcase-target' ] = '';
 
-		//var_dump( $site[ 'url' ] );
-		//var_dump( strpos( $site[ 'url' ], 'https://' ) );
-
 		if ( strpos( $site[ 'url' ], 'http://' ) !== false ) {
 
 			$site[ 'url-preview' ] = $site[ 'url' ];
