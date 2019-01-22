@@ -701,25 +701,17 @@ function get_website_data() {
 
 		}
 
-		// preview url
+		// Preview url.
 		$site[ 'url-showcase' ] = path( 'theme-showcase/' . $site['theme'] . '/#' . $key );
 
-		// iframe url
+		// iframe url.
 		$site[ 'url-iframe' ] = $site[ 'url' ];
 
-		// add theme slug to tags
+		// Add theme slug to tags.
 		$site[ 'tags' ][] = $site[ 'theme' ];
 
-		// setup site screenshots
-		$site[ 'image-preview' ] = site_screenshot( $site['url'] );
-		$site[ 'image-url' ] = $site[ 'image-preview' ];
-
-		// change dynamic url for static image if it exists. Static image is needed for themes that use js for positioning (masonry) since the dynamic screenshot system does not support js.
-		if ( ! empty( $site[ 'image' ] ) ) {
-
-			$site[ 'image-url' ] = image_path( 'showcase/' . $site[ 'image' ] . '.jpg' );
-
-		}
+		// Setup site screenshots.
+		$site[ 'image-url' ] = site_screenshot( $site['url'] );
 
 		$processed[ $key ] = $site;
 
