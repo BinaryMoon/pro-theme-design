@@ -306,12 +306,16 @@ Flight::route( '/theme-showcase/(@tag)/', function( $tag = '' ) {
 	$websites = array();
 
 	site_page_nav_add( 'Random', 'theme-showcase/' );
-	site_page_nav_add( 'Puzzle', 'theme-showcase/puzzle/' );
-	site_page_nav_add( 'Monet', 'theme-showcase/monet/' );
-	site_page_nav_add( 'Romero', 'theme-showcase/romero/' );
+	site_page_nav_add( 'Carmack', 'theme-showcase/carmack/' );
 	site_page_nav_add( 'Chronicle', 'theme-showcase/chronicle/' );
 	site_page_nav_add( 'Broadsheet', 'theme-showcase/broadsheet/' );
+	site_page_nav_add( 'Monet', 'theme-showcase/monet/' );
+	site_page_nav_add( 'Romero', 'theme-showcase/romero/' );
+	site_page_nav_add( 'Puzzle', 'theme-showcase/puzzle/' );
 	site_page_nav_add( 'Opti', 'theme-showcase/opti/' );
+	site_page_nav_add( 'Traveler', 'theme-showcase/traveler/' );
+	site_page_nav_add( 'Label', 'theme-showcase/label/' );
+	site_page_nav_add( 'Exhibit', 'theme-showcase/exhibit/' );
 
 	if ( website_tag_exists( $tag ) ) {
 
