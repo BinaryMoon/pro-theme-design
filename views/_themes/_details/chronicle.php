@@ -1,12 +1,10 @@
 <div class="wrapper text">
 
-	<p class="intro"><strong>Chronicle is the powerful, flexible and customizable magazine WordPress theme you’ve always wanted.</strong></p>
+	<p class="intro"><strong>Chronicle</strong> is the powerful, flexible and customizable magazine WordPress theme you’ve always wanted.</strong></p>
 
-	<p class="intro">You’ll just need to set up your site once (which Chronicle makes easy for you) and then focus on creating content. The theme will take care of everything else for you.</p>
+	<p>You’ll just need to set up your site once (which Chronicle makes easy for you) and then focus on creating content. The theme will take care of everything else for you.</p>
 
-	<p class="intro">This magazine WordPress theme features a hugely flexible homepage, extra widget areas and responsive design. You’ll love how easy these features are to use and your visitors will love the look of your site.</p>
-
-	<img src="<?php echo image_path( 'theme-screenshot-collage/collage-chronicle.jpg' ); ?>" class="align"/>
+	<p>This magazine WordPress theme features a hugely flexible homepage, extra widget areas and responsive design. You’ll love how easy these features are to use and your visitors will love the look of your site.</p>
 
 	<h3>Show off your content with the powerful and flexible homepage design</h3>
 

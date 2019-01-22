@@ -1,14 +1,12 @@
 <div class="wrapper text">
 
-	<p class="intro"><strong>Carmack is a bold magazine WordPress theme for visual websites.</strong></p>
+	<p class="intro"><strong>Carmack</strong> is a bold magazine WordPress theme for visual websites.</p>
 
 	<p>Your readers will love how easy it is to find and read the content they want on any device. Focus on writing and let Carmack handle everything else.</p>
 
 	<p>Use the featured content slider to show off your best posts on the homepage and enjoy the excellent responsive design and typography on individual posts.</p>
 
 	<p>This is the magazine WordPress theme you’ve been waiting for.</p>
-
-	<img src="<?php echo image_path( 'theme-screenshot-collage/collage-carmack.jpg' ); ?>" class="align" />
 
 	<h3>Show off your content with Carmack’s intuitive homepage design</h3>
 
@@ -18,7 +16,7 @@
 
 	<h3>Make your readers happy with responsive design</h3>
 
-	<img src="<?php echo image_path( '/theme-images/carmack-laptop-tablet.png' ); ?>" class="align" />
+	<img src="<?php echo image_path( '/theme-images/carmack-photo1.jpg' ); ?>" class="align" />
 
 	<p>Your readers will love Carmack’s responsive design. Responsive design makes a website look great on desktop, tablet and mobile, so readers can take your site wherever they like.</p>
 
