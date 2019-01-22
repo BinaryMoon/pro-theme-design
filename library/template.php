@@ -208,7 +208,11 @@ function site_page_nav_add( $name, $url ) {
 
 	$pages = Flight::get( 'site.page_nav' );
 
-	$pages[] = array(
+	if ( isset( $pages[ $name ] ) ) {
+		return;
+	}
+
+	$pages[ $name ] = array(
 		'name' => $name,
 		'url' => path( $url ),
 	);
