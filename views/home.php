@@ -83,7 +83,7 @@
 		<!-- RECENT THEMES -->
 		<section class="themes">
 
-			<h2>Recent <a href="<?php echo path( '/themes/' ); ?>">WordPress Themes</a></h2>
+			<h2>Recent WordPress Themes</h2>
 
 <?php
 	// Include large theme image.
