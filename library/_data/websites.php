@@ -515,11 +515,6 @@ function get_website_data() {
 			'theme' => 'broadsheet',
 		),
 		array(
-			'url' => 'http://thefourthcrown.com',
-			'name' => 'The Fourth Crown',
-			'theme' => 'broadsheet',
-		),
-		array(
 			'url' => 'https://diningdevon.com/',
 			'name' => 'Dining Devon',
 			'theme' => 'broadsheet',
