@@ -17,7 +17,7 @@
 	if ( $theme_data ) {
 ?>
 		<div class="wrapper showcase-description">
-			<h1><?php echo $theme_data[ 'name' ]; ?></h1>
+			<h1><?php echo $theme_data[ 'name' ]; ?> WordPress Template</h1>
 			<p class="intro"><?php echo $theme_data[ 'description' ]; ?></p>
 			<p><a href="<?php echo $theme_data[ 'url' ]; ?>" class="button positive">More info</i></a></p>
 		</div>

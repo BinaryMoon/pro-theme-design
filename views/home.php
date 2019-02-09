@@ -58,7 +58,7 @@
 		<!-- Site Intro -->
 		<section class="wrapper text site-intro">
 
-			<h2>We create <strong>WordPress themes that just work</strong>.</h2>
+			<h2>We create <strong>WordPress templates that just work</strong>.</h2>
 
 			<div class="site-intro-description">
 
@@ -66,13 +66,13 @@
 
 				<p>We keep our themes <strong>fast, secure and bloat-free</strong> by making use of WordPress’ best practises and coding standards, always using built-in functionality where possible. This makes our themes very easy for you to use and customize.</p>
 
-				<p>Each of our themes is designed for one purpose, and aims to be best-in-class for that purpose. Specialization – rather than a single bloated theme which “does everything” – lets us focus on the features and additions which make our themes the best you’ll find.</p>
+				<p>Each of our themes is designed for one purpose, and aims to be best-in-class for that purpose. Specialization – rather than a single bloated template which “does everything” – lets us focus on the features and additions which make our themes the best you’ll find.</p>
 
-				<p>Our WordPress themes come with <a href="<?php echo path( '/documentation/theme/' ); ?>">extensive documentation</a> and if you need any help you have direct access to expert support from our Lead Developer.</p>
+				<p>Our WordPress templates come with <a href="<?php echo path( '/documentation/theme/' ); ?>">extensive documentation</a> and if you need any help you have direct access to expert support from our Lead Developer.</p>
 
 			</div>
 
-			<p><a href="<?php echo path( '/themes/' ); ?>" class="button greedy">Find the WordPress Theme for you</a></p>
+			<p><a href="<?php echo path( '/themes/' ); ?>" class="button greedy">Find the WordPress Template for you</a></p>
 
 			<p>Or choose from: <a href="<?php echo path( '/themes/magazine/' ); ?>">Magazine</a>, <a href="<?php echo path( '/themes/portfolio/' ); ?>">Portfolio</a>, <a href="<?php echo path( '/themes/photography/' ); ?>">Photography</a>, <a href="<?php echo path( '/themes/blog/' ); ?>">Blogs</a> and <a href="<?php echo path( '/themes/' ); ?>">more</a>.</p>
 
@@ -126,14 +126,14 @@
 				<div class="block">
 					<div class="content">
 						<h3>Beautiful designs to make your site stand out.</h3>
-						<p>Your visitors, colleagues and clients will appreciate just how good your site looks. All our themes are professionally designed with a high attention to the details that make your site pop.</p>
+						<p>Your visitors, colleagues and clients will appreciate just how good your site looks. All our templates are professionally designed with a high attention to the details that make your site pop.</p>
 					</div>
 				</div>
 
 				<div class="block">
 					<div class="content">
 						<h3>Specialized themes that do one job really really well.</h3>
-						<p>You’ll get a theme designed for one niche – that does the job really really well. This specialization allows for more attention to detail than is possible in generalist “all in one” themes.</p>
+						<p>You’ll get a template designed for one niche – that does the job really really well. This specialization allows for more attention to detail than is possible in generalist “all in one” themes.</p>
 					</div>
 				</div>
 
@@ -177,7 +177,7 @@
 				<div class="block">
 					<div class="content">
 						<h3>Thorough documentation available.</h3>
-						<p>Need to check how something works? We have thorough documentation for all of our themes.</p>
+						<p>Need to check how something works? We have thorough documentation for all of our templates.</p>
 					</div>
 				</div>
 

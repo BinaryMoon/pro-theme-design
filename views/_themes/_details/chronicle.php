@@ -41,11 +41,11 @@
 
 	<p>Details such as a widgetized footer which also displays your top categories and tags, beautiful comment section design and “infinite scrolling” on the homepage and category archives give your site a professional look throughout.</p>
 
-	<p>Plus, your blog will benefit from Chronicle’s rock-solid code: all our themes follow the latest WordPress, search engine optimization (SEO) and accessibility guidelines, making your website fast, popular with search engines and easy-to-use for all visitors.</p>
+	<p>Plus, your blog will benefit from Chronicle’s rock-solid code: all our templates follow the latest WordPress, search engine optimization (SEO) and accessibility guidelines, making your website fast, popular with search engines and easy-to-use for all visitors.</p>
 
 	<h3>Easy setup, detailed documentation and expert support if you need it</h3>
 
-	<p>Whether this is your first premium WordPress theme or your hundredth, you’ll find Chronicle intuitive and easy to use. The theme is designed so that everything just works, and you can get on with creating content.</p>
+	<p>Whether this is your first premium WordPress template or your hundredth, you’ll find Chronicle intuitive and easy to use. The theme is designed so that everything just works, and you can get on with creating content.</p>
 
 	<p>If you do need any help, we have <a href="https://prothemedesign.com/documentation/theme/chronicle/">detailed documentation</a> so you can get an answer quickly. Pro Theme Design is a very small team, so if you do need support you’ll get the solution directly from Ben, our lead developer.</p>
 

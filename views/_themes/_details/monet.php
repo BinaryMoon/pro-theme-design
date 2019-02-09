@@ -11,7 +11,7 @@
 
 	<h3>Let Monet showcase your work</h3>
 
-	<p>This is an exceptional WordPress theme for showing off your work. Whether you’re a photographer showing off your images or blogger showing off your writing, Monet does a thoroughly professional and classy job of getting your content in front of visitors.</p>
+	<p>This is an exceptional WordPress template for showing off your work. Whether you’re a photographer showing off your images or blogger showing off your writing, Monet does a thoroughly professional and classy job of getting your content in front of visitors.</p>
 
 	<p>Use the featured homepage slider for your best work, show your most recent work on the rest of the homepage or sort by category to let visitors find what they’re interested in.</p>
 
@@ -38,7 +38,7 @@
 
 	<!-- <p>image: highlight design details</p> -->
 
-	<p>Not only will your site look fantastic, but you’ll benefit from our decade of experience making WordPress themes: Monet is packed with features to keep readers on your site and deliver a stunning user experience.</p>
+	<p>Not only will your site look fantastic, but you’ll benefit from our decade of experience making WordPress templates: Monet is packed with features to keep readers on your site and deliver a stunning user experience.</p>
 
 	<p>Details such as elegant loading between posts, an after-post author box and stylish sidebar menu give your blog or portfolio a professional look throughout.</p>
 
@@ -46,7 +46,7 @@
 
 	<h3>Easy setup, detailed documentation and expert support if you need it</h3>
 
-	<p>Whether this is your first premium WordPress theme or your hundredth, you’ll find Monet intuitive and easy to use. The theme is designed so that everything just works, and you can get on with creating content.</p>
+	<p>Whether this is your first premium WordPress template or your hundredth, you’ll find Monet intuitive and easy to use. The theme is designed so that everything just works, and you can get on with creating content.</p>
 
 	<p>If you do need any help, we have <a href="https://prothemedesign.com/documentation/theme/monet/">detailed documentation</a> so you can get an answer quickly. Pro Theme Design is a very small team, so if you do need support you’ll get the solution directly from Ben, our lead developer.</p>
 

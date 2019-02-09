@@ -11,7 +11,7 @@
 Flight::route( '/', function() {
 
 	site_title( 'Pro Theme Design – Professional Quality Premium WordPress' );
-	site_description( 'Join thousands of customers who have trusted Pro Theme Design to deliver the highest quality premium WordPress themes, since 2007.' );
+	site_description( 'Join thousands of customers who have trusted Pro Theme Design to deliver the highest quality premium WordPress templates, since 2007.' );
 
 	$all_themes = get_theme_data();
 
@@ -248,14 +248,14 @@ Flight::route( '/themes/(@tag)/', function( $tag = '' ) {
 	$themes_title = 'Professional';
 
 	site_title( 'Professional WordPress.org Themes' );
-	site_description( 'Choose the perfect WordPress.org compatible premium WordPress theme for your self hosted site.' );
+	site_description( 'Choose the perfect WordPress.org compatible premium WordPress template for your self hosted site.' );
 
 	if ( $tag !== 'wordpress.org' ) {
 
 		$themes_title = get_theme_tag_name( $tag );
 
 		site_title( 'Best ' . $themes_title . ' WordPress Themes ' . date( 'Y' ) );
-		site_description( 'Choose one of the best ' . ucwords( $tag ) . ' WordPress themes of ' . date( 'Y' ) . ' and make your site stand out from the crowd. Easy setup, responsive design included as standard.' );
+		site_description( 'Choose the best ' . ucwords( $tag ) . ' WordPress templates of ' . date( 'Y' ) . ' and make your site stand out. Easy setup & responsive design included as standard.' );
 
 	}
 
@@ -302,7 +302,7 @@ Flight::route( '/themes/(@tag)/', function( $tag = '' ) {
  */
 Flight::route( '/theme-showcase/(@tag)/', function( $tag = '' ) {
 
-	$title = 'WordPress Themes Showcase';
+	$title = 'WordPress Templates Showcase';
 	$websites = array();
 
 	site_page_nav_add( 'Random', 'theme-showcase/' );
@@ -322,7 +322,7 @@ Flight::route( '/theme-showcase/(@tag)/', function( $tag = '' ) {
 		$websites = website_get_by_tag( $tag );
 
 		if ( ! empty( $tag ) ) {
-			$title = sprintf( '%s Themes: WordPress Themes Showcase', ucwords( $tag ) );
+			$title = sprintf( '%s Themes: WordPress Templates Showcase', ucwords( $tag ) );
 		}
 
 	} else {

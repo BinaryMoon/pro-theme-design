@@ -6,7 +6,7 @@
 
 	<p>Use the featured content slider to show off your best posts on the homepage and enjoy the excellent responsive design and typography on individual posts.</p>
 
-	<p>This is the magazine WordPress theme you’ve been waiting for.</p>
+	<p>This is the magazine WordPress template you’ve been waiting for.</p>
 
 	<h3>Show off your content with Carmack’s intuitive homepage design</h3>
 
@@ -41,7 +41,7 @@
 
 	<p>Details such as intelligent related posts, beautiful typography and “infinite scrolling” on the homepage and category archives give your site a professional look throughout.</p>
 
-	<p>Plus, your blog will benefit from Carmack’s rock-solid code: all our themes follow the latest WordPress, search engine optimization (SEO) and accessibility guidelines, making your website fast, popular with search engines and easy-to-use for all visitors.</p>
+	<p>Plus, your blog will benefit from Carmack’s rock-solid code: all our templates follow the latest WordPress, search engine optimization (SEO) and accessibility guidelines, making your website fast, popular with search engines and easy-to-use for all visitors.</p>
 
 	<h3>Easy setup, detailed documentation and expert support if you need it</h3>
 

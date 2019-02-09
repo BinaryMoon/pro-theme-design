@@ -17,8 +17,9 @@
 ?>
 			<div class="block showcase-website">
 				<a href="<?php echo $site[ 'url' ]; ?>" target="_blank" rel="nofollow noopener">
-					<img src="<?php echo $site[ 'image-preview' ]; ?>" width="400" alt="<?php echo $site['name']; ?> Screenshot" />
+					<img src="<?php echo $site[ 'image-url' ]; ?>" width="400" alt="<?php echo $site['name']; ?> Screenshot" />
 				</a>
+				<p><?php echo $site['theme']; ?></p>
 			</div>
 <?php
 	}

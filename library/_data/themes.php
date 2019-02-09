@@ -31,7 +31,7 @@ function get_raw_theme_data() {
 
 		'carmack' => array(
 			'name' => 'Carmack',
-			'description' => 'Carmack is a magazine theme, suitable for Video Games, Movies, Music and other visual magazine sites. Carmack supports featured content and post formats to allow you to create the perfect website.',
+			'description' => 'Carmack is a magazine template, suitable for Video Games, Movies, Music and other visual magazine sites. Carmack supports featured content and post formats to allow you to create the perfect website.',
 			'short_description' => 'A modern, minimal, magazine theme.',
 			'price-wpcom' => 79,
 			'price-wporg' => 99,
@@ -47,7 +47,7 @@ function get_raw_theme_data() {
 		'traveler' => array(
 			'name' => 'Traveler',
 			'description' => 'Perfect for bloggers who want to document their travels with large photos, dramatic colors and Pinterest-style layouts.',
-			'short_description' => 'A classic WordPress magazine theme.',
+			'short_description' => 'A classic WordPress magazine template.',
 			'price-wpcom' => 79,
 			'price-wporg' => 99,
 			'url-wpcom' => 'traveler',
@@ -62,8 +62,8 @@ function get_raw_theme_data() {
 
 		'broadsheet' => array(
 			'name' => 'Broadsheet',
-			'description' => 'A newspaper theme with 3 optional widget areas, featured posts and a huge homepage slider there are lots of options for creating interesting, immersive websites.',
-			'short_description' => 'A classical WordPress newspaper theme.',
+			'description' => 'A newspaper template with 3 optional widget areas, featured posts and a huge homepage slider there are lots of options for creating interesting, immersive websites.',
+			'short_description' => 'A classical WordPress newspaper template.',
 			'price-wpcom' => 79,
 			'price-wporg' => 99,
 			'url-wpcom' => 'broadsheet',
@@ -88,12 +88,12 @@ function get_raw_theme_data() {
 			'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'portfolio', 'post-formats', 'raddcontrol', 'woo-commerce' ),
 			'color' => '#626e7a',
 			'title' => 'Label - Fashion Blog WordPress Theme',
-			'meta_description' => 'Get this stunning fashion blog WordPress theme to stand out from the crowd. Easy setup and responsive design included.',
+			'meta_description' => 'Get this stunning fashion blog WordPress template to stand out from the crowd. Easy setup and responsive design included.',
 		),
 
 		'chronicle' => array(
 			'name' => 'Chronicle',
-			'description' => 'Chronicle is a powerful, flexible magazine WordPress theme with huge customization potential. Three widget areas, featured posts and a huge homepage slider are make this the magazine WordPress theme you’ve been waiting for.',
+			'description' => 'Chronicle is a powerful, flexible magazine WordPress template with huge customization potential. Three widget areas, featured posts and a huge homepage slider are make this the magazine WordPress theme you’ve been waiting for.',
 			'short_description' => 'A flexible and customizable magazine WordPress theme.',
 			'price-wpcom' => 79,
 			'price-wporg' => 129,
@@ -110,7 +110,7 @@ function get_raw_theme_data() {
 
 		'exhibit' => array(
 			'name' => 'Exhibit',
-			'description' => 'Exhibit is the perfect theme for businesses, big and small, to exhibit their work. Acting as both a portfolio and a blog Exhibit allows you to easily show off your projects.',
+			'description' => 'Exhibit is the perfect template for businesses, big and small, to exhibit their work. Acting as both a portfolio and a blog Exhibit allows you to easily show off your projects.',
 			'short_description' => 'A minimal WordPress portfolio theme.',
 			'price-wpcom' => 79,
 			'price-wporg' => 99,
@@ -120,7 +120,7 @@ function get_raw_theme_data() {
 			'tags' => array( 'portfolio', 'hot', 'business', 'e-commerce' ),
 			'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'testimonials', 'portfolio', 'raddcontrol', 'woo-commerce' ),
 			'color' => '#e09485',
-			'title' => 'Exhibit -  WordPress Portfolio Theme',
+			'title' => 'Exhibit -  WordPress Portfolio Template',
 			'meta_description' => 'Get this minimal WordPress portfolio theme perfect for businesses. Show off your work with great responsive design.',
 		),
 
@@ -135,14 +135,14 @@ function get_raw_theme_data() {
 			'tags' => array( 'blog', 'travel', 'journal', 'scrapbook', 'accessible', 'e-commerce' ),
 			'supports' => array( 'site-logo', 'infinite-scroll', 'social-menu', 'portfolio', 'post-formats', 'testimonials', 'woo-commerce' ),
 			'color' => '#444444',
-			'title' => 'Passenger - WordPress Travel Theme',
+			'title' => 'Passenger - WordPress Travel Template',
 			'meta_description' => 'Get this WordPress travel theme designed for journals and scrapbooks! Tell your story with unique post formats and typography.',
 		),
 
 		'puzzle' => array(
 			'name' => 'Puzzle',
 			'description' => 'Puzzle is a visually oriented theme, great for photographers and artists who want to tell stories using their images.',
-			'short_description' => 'A responsive WordPress portfolio theme.',
+			'short_description' => 'A responsive WordPress portfolio template.',
 			'price-wpcom' => 79,
 			'price-wporg' => 99,
 			'url-wpcom' => 'puzzle',
@@ -152,12 +152,12 @@ function get_raw_theme_data() {
 			'supports' => array( 'portfolio', 'site-logo', 'infinite-scroll', 'social-menu', 'testimonials', 'theme-club', 'raddcontrol', 'woo-commerce' ),
 			'color' => '#2ECC71',
 			'title' => 'Puzzle - WordPress Photography Theme',
-			'meta_description' => 'Get this stunning WordPress Photography Theme that\'s great for photographers and artists. Show the world your stories!',
+			'meta_description' => 'Get this stunning WordPress Photography Template that\'s great for photographers and artists. Show the world your stories!',
 		),
 
 		'monet' => array(
 			'name' => 'Monet',
-			'description' => 'Monet is an elegant, delicate and responsive WordPress theme for your portfolio or blog. Suited to photographers, designers, bloggers and other creatives, the crisp typography ensures your site’s design will ooze quality.',
+			'description' => 'Monet is an elegant, delicate and responsive WordPress template for your portfolio or blog. Suited to photographers, designers, bloggers and other creatives, the crisp typography ensures your site’s design will ooze quality.',
 			'short_description' => 'Create an elegant, responsive visual or written portfolio.',
 			'price-wpcom' => 79,
 			'price-wporg' => 99,
@@ -174,7 +174,7 @@ function get_raw_theme_data() {
 		'romero' => array(
 			'name' => 'Romero',
 			'description' => 'Let your content do the talking with this powerful theme suited to visual niches including video game sites, motoring magazines and other topics with vibrant imagery.',
-			'short_description' => 'Create a bold magazine for image-heavy niches.',
+			'short_description' => 'A bold magazine template for image-heavy niches.',
 			'price-wpcom' => 79,
 			'price-wporg' => 99,
 			'url-wpcom' => 'romero',
@@ -184,7 +184,7 @@ function get_raw_theme_data() {
 			'supports' => array( 'site-logo', 'featured-content', 'infinite-scroll', 'social-menu', 'custom-colours-fonts', 'raddcontrol', 'woo-commerce' ),
 			'color' => '#4A90E2',
 			'title' => 'Romero - WordPress Gaming Theme',
-			'meta_description' => 'Show off your content with this powerful magazine WordPress Gaming Theme. You\'ll love its bold design and powerful layout!',
+			'meta_description' => 'Show off your content with this powerful magazine WordPress Gaming Template. You\'ll love its bold design and powerful layout!',
 		),
 
 		'opti' => array(
@@ -238,7 +238,7 @@ function get_raw_theme_data() {
 		'mirror' => array(
 			'name' => 'Mirror',
 			'description' => 'A blog focused theme showcasing large featured images and clear typography. A large featured content slider in the header helps your top content to shine.',
-			'short_description' => 'A modern WordPress blogging theme.',
+			'short_description' => 'A modern WordPress blogging template.',
 			'price-wpcom' => 79,
 			'price-wporg' => 79,
 			'url-wpcom' => 'mirror',
@@ -269,7 +269,7 @@ function get_raw_theme_data() {
 
 		'bromley' => array(
 			'name' => 'Bromley',
-			'description' => 'The best elements of blogging themes manipulated into something beautifully simple. Ideal for local community, fan magazines, and talking about updates in your industry.',
+			'description' => 'The best elements of blogging templates manipulated into something beautifully simple. Ideal for local community, fan magazines, and talking about updates in your industry.',
 			'short_description' => 'A minimal WordPress magazine theme.',
 			'price-wpcom' => 79,
 			'price-wporg' => 79,

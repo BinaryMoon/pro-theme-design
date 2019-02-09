@@ -4,7 +4,7 @@
 			<h3 class="number">
 				Super Speed
 			</h3>
-			<p class="description">Your website will load super fast! This theme is optimized for performance, which will make both visitors (increase time on site) and search engines (SEO benefits) very happy!</p>
+			<p class="description">Your website will load super fast! This template is optimized for performance, which will make both visitors (increase time on site) and search engines (SEO benefits) very happy!</p>
 		</div>
 	</section>
 	<header>

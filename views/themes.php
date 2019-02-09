@@ -9,7 +9,7 @@
 
 <div class="wrapper themes-title">
 
-	<h1><?php echo $themes_title; ?> WordPress&nbsp;Themes</h1>
+	<h1><?php echo $themes_title; ?> WordPress&nbsp;Templates</h1>
 
 <?php
 	if ( ! empty( $theme_tag_description ) ) {
