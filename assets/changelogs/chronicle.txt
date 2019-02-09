@@ -1,3 +1,7 @@
+<h3>10.7.3 - 5th January 2018</h3>
+<ul>
+<li>Fix position of portfolio &amp; page featured image.</li>
+</ul>
 <h3>10.7.2 - 20th November 2018</h3>
 <ul>
 <li>Improve typography on small screens to make it more readable (less oversized text).</li>

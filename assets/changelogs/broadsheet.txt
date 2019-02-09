@@ -1,3 +1,11 @@
+<h3>1.15 - 2nd February 2019</h3>
+<ul>
+<li>Add support for featured images on pages.</li>
+</ul>
+<h3>1.14.1 - 9th January 2019</h3>
+<ul>
+<li>Tweak slider font size on small screens so it doesn't take up so much space.</li>
+</ul>
 <h3>1.14 - 9th November 2018</h3>
 <ul>
 <li>Improve coding standards.</li>

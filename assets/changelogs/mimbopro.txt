@@ -1,3 +1,7 @@
+<h3>4.8 - 30th December 2018</h3>
+<ul>
+<li>Improve responsive navigation. It now works on both header menus, and it has a new 'menu' option that makes it easier to select the first menu item.</li>
+</ul>
 <h3>4.7 - 5th June 2018</h3>
 <ul>
 <li>Add support for custom logos.</li>

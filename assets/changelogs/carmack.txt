@@ -1,3 +1,7 @@
+<h3>2.12.11 - 20th January 2018</h3>
+<ul>
+<li>Ensure there is &gt; 0 featured posts when using carmack_has_featured_posts().</li>
+</ul>
 <h3>2.12.10 - 8th November 2018</h3>
 <ul>
 <li>Display excerpts on all post formats. These are hidden with css but can be enabled in the additional css area of the customizer.</li>
