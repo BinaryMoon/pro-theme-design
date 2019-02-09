@@ -346,11 +346,6 @@ function get_website_data() {
 			'theme' => 'puzzle',
 		),
 		array(
-			'url' => 'https://nicennaughtyboutique.com/',
-			'name' => 'Nine N Naughty',
-			'theme' => 'puzzle',
-		),
-		array(
 			'url' => 'https://dovediscoveries.wordpress.com/',
 			'name' => 'Dove Discoveries',
 			'theme' => 'puzzle',
