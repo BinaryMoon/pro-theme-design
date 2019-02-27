@@ -36,13 +36,14 @@
 
 <h2>A Good Webhost</h2>
 
-<p>When it comes to web hosts - you get what you pay for. If you are paying a small amount for your hosting then you will likely be ok in the early days, but the bigger your sites gets the more problems you will have.</p>
+<p>When it comes to web hosts - you get what you pay for. If you are paying a small amount for your hosting then you will likely be ok in the early days, but the bigger your sites gets the more problems you are likely to have.</p>
 
 <p>The issue is that really cheap web hosts squash a lot of websites onto a single server. The more sites that are on the server, the slower your own website will get.</p>
 
 <p>This, however, doesn't mean you have to pay loads to get good hosting. Below are a few hosts we recommend.</p>
 
 <ul>
-    <li><a href="https://www.dreamhost.com/r.cgi?70978">Dreamhost</a> - use the coupon code <strong>PTD</strong> when you sign up to save $15 and get a free domain name! We highly recommend the managed WordPress hosting.</li>
-    <li><a href="https://www.digitalocean.com/?refcode=d4442740ec05" target="_blank" rel="noopener">Digital Ocean</a> - Digital Ocean requires some extra technical knowhow - but their servers are super fast, and very cheap for the power.</li>
+	<li><a href="https://kinsta.com/">Kinsta</a> - Kinsta is a premium managed WordPress hosting provider offering services for a wide variety of users and powered by the Google Cloud Platform to ensure excellent speed and stability.</li>
+	<li><a href="https://www.dreamhost.com/r.cgi?70978">Dreamhost</a> - use the coupon code <strong>PTD</strong> when you sign up to save $15 and get a free domain name! We highly recommend the managed WordPress hosting.</li>
+	<li><a href="https://www.digitalocean.com/?refcode=d4442740ec05" target="_blank" rel="noopener">Digital Ocean</a> - Digital Ocean requires some extra technical knowhow - but their servers are super fast, and very cheap for the power.</li>
 </ul>
