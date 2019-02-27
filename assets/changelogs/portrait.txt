@@ -1,3 +1,7 @@
+<h3>2.2.1 - 12th February 2019</h3>
+<ul>
+<li>Fix issue with the contributor template displaying the same user description for all users.</li>
+</ul>
 <h3>2.2 - 25th May 2018</h3>
 <ul>
 <li>Add support for privacy policy link in the site footer.</li>
