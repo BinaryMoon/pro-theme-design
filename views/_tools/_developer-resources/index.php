@@ -6,7 +6,8 @@
  */
 
 $resources = array(
-	'' => '',
+	'www.remove.bg' => 'Remove Backgrounds from Images',
+	'uifaces.co' => 'User Interface Faces',
 	'calltoidea.com' => 'Interface Inspiration',
 	'cssreference.io' => 'CSS Reference',
 	'place.to' => 'Insert screenshots into different computing situations.',
