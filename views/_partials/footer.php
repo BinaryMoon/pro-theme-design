@@ -170,5 +170,8 @@
 	site_script();
 ?>
 
+		<script src="<?php echo path( 'js/vendor/instantpage.js' ); ?>" type="module"></script>
+
+
 	</body>
 </html>
