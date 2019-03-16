@@ -1,3 +1,11 @@
+<h3>1.9 - 12th March 2019</h3>
+<ul>
+<li>Split header image code out into inc/custom-header to improve standardization, and simplify code.</li>
+<li>Allow featured images to be used as header images. Defaults to off, and can be enabled in the customizer.</li>
+<li>Add an option to display an overlay over header images so that the text can be read more easily.</li>
+<li>Remove traveler_header() function. It was never used.</li>
+<li>Remove old admin head preview stuff. It's no longer in WordPress.</li>
+</ul>
 <h3>1.8.1 - 25th September 2018</h3>
 <ul>
 <li>Make the header more flexible so it will work better on different screen sizes, in particular for sites with long titles.</li>

@@ -1,4 +1,8 @@
-<h3>2.12.11 - 20th January 2018</h3>
+<h3>2.12.12 - 13th March 2019</h3>
+<ul>
+<li>Improve mobile styles for classic editor single posts &amp; pages.</li>
+</ul>
+<h3>2.12.11 - 20th January 2019</h3>
 <ul>
 <li>Ensure there is &gt; 0 featured posts when using carmack_has_featured_posts().</li>
 </ul>
