@@ -11,32 +11,39 @@
 function get_plugin_data() {
 
 	$plugins = array(
-		'styleguide' => array(
-			'name' => 'Styleguide',
-			'description' => 'Customize fonts and colours in WordPress themes without touching any code.',
-			'image' => 'https://ps.w.org/styleguide/assets/banner-772x250.png?rev=1225100',
-			'og-image' => 'styleguide.png',
+		'tada' => array(
+			'name' => 'Tada',
+			'description' => 'Make your website feel faster, without doing anything. Like Magic!',
+			'image' => 'https://ps.w.org/tada/assets/banner-772x250.png?rev=2052207',
+			'og-image' => 'og-tada.png',
 			'tags' => array( 'ours' ),
 		),
 		'bm-custom-login' => array(
 			'name' => 'Custom Login',
 			'description' => 'Customise the WordPress login box quickly and easily.',
-			'image' => 'https://ps.w.org/bm-custom-login/assets/banner-772x250.png?rev=1225096',
-			'og-image' => 'custom-login.png',
-			'tags' => array( 'ours' ),
-		),
-		'browser-shots' => array(
-			'name' => 'Browser Shots',
-			'description' => 'Automate the process of taking website screenshots.',
-			'image' => 'https://ps.w.org/browser-shots/assets/banner-772x250.png?rev=1225099',
-			'og-image' => 'browser-shots.png',
+			'image' => 'https://ps.w.org/bm-custom-login/assets/banner-772x250.png?rev=2052202',
+			'og-image' => 'og-custom-login.png',
 			'tags' => array( 'ours' ),
 		),
 		'front-page-category' => array(
 			'name' => 'Front Page Category',
 			'description' => 'Select the categories that display on the front page of your website.',
-			'image' => 'https://ps.w.org/front-page-category/assets/banner-772x250.png?rev=1305657',
-			'og-image' => 'front-page-category.png',
+			'image' => 'https://ps.w.org/front-page-category/assets/banner-772x250.png?rev=2052203',
+			'og-image' => 'og-front-page-category.png',
+			'tags' => array( 'ours' ),
+		),
+		'styleguide' => array(
+			'name' => 'Styleguide',
+			'description' => 'Customize fonts and colours in WordPress themes without touching any code.',
+			'image' => 'https://ps.w.org/styleguide/assets/banner-772x250.png?rev=2052206',
+			'og-image' => 'og-styleguide.png',
+			'tags' => array( 'ours' ),
+		),
+		'browser-shots' => array(
+			'name' => 'Browser Shots',
+			'description' => 'Automate the process of taking website screenshots.',
+			'image' => 'https://ps.w.org/browser-shots/assets/banner-772x250.png?rev=2052204',
+			'og-image' => 'og-browser-shots.png',
 			'tags' => array( 'ours' ),
 		),
 		'jetpack' => array(
@@ -54,19 +61,19 @@ function get_plugin_data() {
 			'og-image' => 'money.png',
 			'tags' => array( 'supported' ),
 		),
-		'tailor' => array(
-			'name' => 'Tailor',
-			'description' => 'Create complex page layouts with ease.',
-			'image' => 'https://ps.w.org/tailor/assets/banner-772x250.png?rev=1449152',
-			'og-image' => 'tailor.png',
-			'tags' => array( 'supported' ),
-		),
-		'radcontrol' => array(
-			'name' => 'Word Ads',
-			'description' => 'Harness WordPress.com\'s advertising partners for your own website.',
-			'image' => 'https://ps.w.org/radcontrol/assets/banner-772x250.jpg?rev=1312024',
-			'tags' => array( 'supported' ),
-		),
+		// 'tailor' => array(
+		// 	'name' => 'Tailor',
+		// 	'description' => 'Create complex page layouts with ease.',
+		// 	'image' => 'https://ps.w.org/tailor/assets/banner-772x250.png?rev=1449152',
+		// 	'og-image' => 'tailor.png',
+		// 	'tags' => array( 'supported' ),
+		// ),
+		// 'radcontrol' => array(
+		// 	'name' => 'Word Ads',
+		// 	'description' => 'Harness WordPress.com\'s advertising partners for your own website.',
+		// 	'image' => 'https://ps.w.org/radcontrol/assets/banner-772x250.jpg?rev=1312024',
+		// 	'tags' => array( 'supported' ),
+		// ),
 	);
 
 	$processed = array();

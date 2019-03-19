@@ -33,7 +33,7 @@ function get_documentation_data() {
 		'theme-installation' => array(
 			'name' => 'Theme Installation',
 			'type' => 'general',
-			'related' => array( 'theme-installation' ),
+			// 'related' => array(),
 		),
 		'debugging-wordpress-errors-broken-sites' => array(
 			'name' => 'Debugging WordPress Errors and Broken Websites',

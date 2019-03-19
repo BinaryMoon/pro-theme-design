@@ -13,7 +13,7 @@
 
 <h2>Installation on WordPress.com</h2>
 
-<p>Themes purchased on <a href="<?php echo WORDPRESS_COM; ?>">WordPress.com</a> do not need to be installed. As soon as you purchase as theme it will be available to use through the theme selector in your websites admin area.</p>
+<p>Themes purchased on <a href="<?php echo WORDPRESS_COM; ?>">WordPress.com</a> do not need to be installed. As soon as you purchase a theme it will be available to use through the theme selector in your websites admin area.</p>
 
 <h2>Installation via the WordPress admin panel</h2>
 
@@ -33,7 +33,7 @@
 		Select your theme theme file by clicking 'Choose file', and finding it on your computer.
 	</li>
 	<li>
-		Click on <em>Install Now</em>. The thme will then be uploaded as your active theme.
+		Click on <em>Install Now</em>. The theme will then be uploaded as your active theme.
 	</li>
 </ol>
 
@@ -50,3 +50,10 @@
 <p>Once you have a backup you can either upload the theme files via ftp, or upload the theme through your WordPress admin.</p>
 
 <p>If you want to do everything through the WordPress admin then you will need to delete the theme before uploading the new version.</p>
+
+<h2>Rebuilding Featured Images</h2>
+
+<p>If you are changing theme and keeping your existing content then you may need to rebuild your featured images. Thumbnail sizes will vary from theme to theme and so sometimes they may be wrong.</p>
+
+<p>To fix this we recommend the <a href="https://wordpress.org/plugins/regenerate-thumbnails/" target="_blank">Regenerate Thumbnails Plugin</a>.</p>
+
