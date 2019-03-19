@@ -1,7 +1,6 @@
 <h3>1.8 - 12th March 2019</h3>
 <ul>
 <li>Add the excerpt to the featured post. It's hidden by default, but this allows it to be displayed with custom css.</li>
-<li>Remove old browser prefixes.</li>
 </ul>
 <h3>1.7.2 - 6th October 2018</h3>
 <ul>
