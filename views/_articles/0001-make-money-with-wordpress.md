@@ -9,6 +9,8 @@
 1. [Selling Information Products](#selling-information-products)
 1. [Website Flipping](#website-flipping)
 1. [Content Writing Services](#content-writing-services)
+1. [WordPress Consultancy](#wordpress-consultancy)
+
 
 ## 1. Blogging {#blogging}
 
@@ -25,7 +27,7 @@ Beware of selling links. If you don't add links as 'nofollow' then you may end u
 <div class="note icon" markdown="1">{svg:alert-info,large}If you're in the market for a new blogging theme then our most popular are [Opti](path:/theme/opti/), and [Monet](path:/theme/monet/).</div>
 
 
-### Getting Started Blogging (#getting-started-blogging)
+### Getting Started Blogging {#getting-started-blogging}
 
 There's lots of blogs about blogging - and making a successful blog. If you're just getting started then the [WordPress.com Blogging University courses](https://dailypost.wordpress.com/blogging-university/) are a good place to start.
 
@@ -101,6 +103,8 @@ In 2015 WooThemes (a premium theme company) was aquired by Automattic (the compa
 
 An easier game to get into - for someone starting out - would be plugins. The theme market is becoming saturated but there's a lot more scope to make useful good quality plugins. Pippins Plugins is one of the top plugin developers out there - creating the popular ecommerce plugin [Easy Digital Downloads](https://easydigitaldownloads.com/).
 
+As of December 2018 the new WordPress editor has been merged with core. The introduction of Gutenberg means a whole new opportunity for developers to create blocks to enhance the WordPress experience.
+
 To sell themes and plugins you could try the following marketplaces:
 
 * [Creative Market](https://creativemarket.com/?u=BinaryMoon) - for themes, or digital assets
@@ -150,6 +154,23 @@ Blogging isn't for everyone. Many people understand the power of a blog, but don
 Good copywriting can make an ok looking website an amazing resource - and so there's a big market for quality writing. This is a great way for less technical people to become involved in WordPress.
 
 Another area of content writing services that you could try is proofreading and content editing. There's a lot of content around that makes a compelling story, but is poorly written and so finding clients who need help with this sort of thing can also make a big difference to the perception of a website.
+
+
+## 10. WordPress Consultancy {#wordpress-consultancy}
+
+The amount of people who run a WordPress website is growing massively. At the time of writing (March 2019) WordPress now powers over 33% of the top 1 million websites. That's a lot of power. But it also means there's a lot of opportunity. If you specialise in one particular area, then you could become a consultant to help businesses maximise their potential.
+
+For example you could set up consultancies for:
+
+* WordPress SEO - Yoast do this really well.
+* WooCommerce - or ecommerce in general.
+* WordPress Training - Helping businesses ensure their employees are using the WordPress to the best of their abilities.
+* WordPress Performance - ensuring the server and code run optimally.
+* WordPress User Experience - running surveys, and ab tests to optimize the experience for customers.
+* Marketing - helping WordPress businesses to market their products, and run social media campaigns.
+
+All of these services (and I'm sure there's others), could have other products and services that tie into their offerings. For instance a WordPress performance service could offer a theme that is designed for speed, or a Marketing consultancy could have a block plugin that collects user sales data.
+
 
 ## Conclusion
 

@@ -9,7 +9,7 @@ function get_article_data() {
 
 		'make-money-with-wordpress' => array(
 			'name' => 'Make Money With WordPress',
-			'date' => '1st February 2016',
+			'date' => '21st March 2019',
 			'prefix' => '0001',
 			'description' => 'A variety of suggestions on how to earn money from your favorite open source software.',
 			'icon' => 'commerce-cash',
