@@ -1,6 +1,7 @@
 <?php
 	$stock_sites = array(
 		'unsplash.com' => 'Unsplash, the original (GPL compat)',
+		'broadlygenderphotos.vice.com' => 'The Gender Spectrum Collection',
 		'scatterjar.com' => 'Scatter Jar, food photos',
 		'gratisography.com' => 'Free high-res pictures by Ryan McGuire (GPL compat)',
 		'picjumbo.com' => 'Jumbo Photos',
