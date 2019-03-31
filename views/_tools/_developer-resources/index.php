@@ -15,6 +15,7 @@ $resources = array(
 	'facebook.github.io/design/devices.html' => 'Sketch files of popular devices.',
 	'mapglyphs.com/world-maps' => 'World Map images.',
 	'hemingwayapp.com' => 'An online text proof reader.',
+	'devdocs.io' => 'API docs for everything web.',
 	'brandcolors.net' => 'Website brand colours, all in one place.',
 	'cssfontstack.com' => 'A comprehensive set of CSS font stacks.',
 	'browserstack.com' => 'An online browser testing tool.',
