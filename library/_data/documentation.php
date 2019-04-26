@@ -55,6 +55,10 @@ function get_documentation_data() {
 			'related' => array( 'transfer-from-wordpress-com' ),
 			'og-image' => 'refund.jpg',
 		),
+		'regenerate-thumbnails' => array(
+			'name' => 'Resize and Regenerate Post Thumbnails',
+			'type' => 'general',
+		),
 		'cancel-subscription-renewal' => array(
 			'name' => 'Cancel Subscription Renewals',
 			'type' => 'general',
