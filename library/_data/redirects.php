@@ -18,7 +18,7 @@ function get_redirects() {
 		'themes/mimbo-pro' => '/theme/mimbopro/',
 		'theme/mimbo-pro' => '/theme/mimbopro/',
 		'themes/opti-wordpress-theme' => '/theme/opti/',
-		'support/' => '/documentation/',
+		'support' => '/documentation/',
 		'circular-icons' => '/tools/circular-icons/',
 		'free-webdesign-tools/circular-icons' => '/tools/circular-icons/',
 		'files/icons-circular.zip' => '/tools/circular-icons/',
