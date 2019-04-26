@@ -33,12 +33,12 @@ function get_documentation_data() {
 		'theme-installation' => array(
 			'name' => 'Theme Installation',
 			'type' => 'general',
-			// 'related' => array(),
+			'related' => array( 'regenerate-thumbnails' ),
 		),
 		'debugging-wordpress-errors-broken-sites' => array(
 			'name' => 'Debugging WordPress Errors and Broken Websites',
 			'type' => 'general',
-			'related' => array( 'theme-installation', 'support-vs-customization', 'support-account', ),
+			'related' => array( 'theme-installation', 'support-vs-customization', 'support-account', 'regenerate-thumbnails' ),
 		),
 		'child-theme-installation' => array(
 			'name' => 'Child Theme Installation',
@@ -58,6 +58,7 @@ function get_documentation_data() {
 		'regenerate-thumbnails' => array(
 			'name' => 'Resize and Regenerate Post Thumbnails',
 			'type' => 'general',
+			'related' => array( 'theme-installation' ),
 		),
 		'cancel-subscription-renewal' => array(
 			'name' => 'Cancel Subscription Renewals',
