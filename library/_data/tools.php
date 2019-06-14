@@ -89,6 +89,7 @@ function get_tools_data() {
 			'name' => 'Modern Websafe Fonts',
 			'description' => 'CSS Font Stacks for the modern browser.',
 			'tag' => 'resources',
+			'og-image' => 'fonts.jpg',
 		),
 
 		// internal tools
