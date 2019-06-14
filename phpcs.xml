@@ -12,8 +12,6 @@
 		<exclude name="PEAR.Functions.FunctionCallSignature.Indent" />
 		<exclude name="Generic.Formatting.MultipleStatementAlignment" />
 		<exclude name="WordPress.Arrays.MultipleStatementAlignment" />
-		<exclude name="WordPress.VIP.PostsPerPage" />
-		<exclude name="WordPress.VIP.RestrictedFunctions" />
 	</rule>
 
 </ruleset>
