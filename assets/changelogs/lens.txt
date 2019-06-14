@@ -1,3 +1,13 @@
+<h3>10.6.1 - 24th May 2019</h3>
+<ul>
+<li>Improve archive display on touch devices.</li>
+</ul>
+<h3>10.6 - 21st May 2019</h3>
+<ul>
+<li>Improve behaviour of dropdown menus on touch devices.</li>
+<li>Improve menu design on small screens.</li>
+<li>Tweak whitespace on small screens to make the layout more consistent.</li>
+</ul>
 <h3>10.5 - 18th March 2019</h3>
 <ul>
 <li>Improve mobile layout.</li>

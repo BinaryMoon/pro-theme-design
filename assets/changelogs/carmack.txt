@@ -1,3 +1,15 @@
+<h3>2.14.2 - 21st May 2019</h3>
+<ul>
+<li>Improve dropdown menu behaviour on touch devices.</li>
+</ul>
+<h3>2.14.1 - 14th May 2019</h3>
+<ul>
+<li>Update Gutenberg style dequeue code since the hook has changed.</li>
+</ul>
+<h3>2.14 - 13th May 2019</h3>
+<ul>
+<li>Add font display swap to Google Font loading, to increase font display speed.</li>
+</ul>
 <h3>2.13 - 14th March 2019</h3>
 <ul>
 <li>Improve localisation abilities of comments title.</li>

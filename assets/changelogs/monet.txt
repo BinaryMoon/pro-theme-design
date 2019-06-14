@@ -1,3 +1,7 @@
+<h3>1.13 - 13th May 2019</h3>
+<ul>
+<li>Add font display swap to Google Font loading, to increase font display speed.</li>
+</ul>
 <h3>1.12 - 5th November 2018</h3>
 <ul>
 <li>Ensure touch devices can see the post titles.</li>

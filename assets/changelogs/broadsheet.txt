@@ -1,3 +1,8 @@
+<h3>1.15.1 - 15th May 2019</h3>
+<ul>
+<li>Add font display swap to Google Font loading, to increase font display speed.</li>
+<li>Make paragraph, list, and blockquote margins consistent in blog posts.</li>
+</ul>
 <h3>1.15 - 2nd February 2019</h3>
 <ul>
 <li>Add support for featured images on pages.</li>

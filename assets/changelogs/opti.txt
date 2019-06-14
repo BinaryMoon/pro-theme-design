@@ -1,3 +1,7 @@
+<h3>1.7.4 - 8th June 2019</h3>
+<ul>
+<li>Improve required alignment styles.</li>
+</ul>
 <h3>1.7.3 - 7th October 2018</h3>
 <ul>
 <li>Fix bug with homepage category selector that meant the first category in the list could not be selected</li>
