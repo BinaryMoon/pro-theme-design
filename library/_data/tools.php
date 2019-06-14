@@ -11,7 +11,6 @@ function get_tools_data() {
 			'name' => 'Which WordPress?',
 			'description' => 'Which version of WordPress is right for you? WordPress.org or WordPress.com?',
 			'tag' => 'quiz',
-			'icon' => 'question-circle',
 		),
 
 		// External tools.
@@ -32,62 +31,53 @@ function get_tools_data() {
 			'name' => 'WordPress Pricing Calculator',
 			'description' => 'Calculate how much to charge for a WordPress job.',
 			'tag' => 'tool',
-			'icon' => 'money',
 			'og-image' => 'refund.jpg',
 		),
 		'support-details' => array(
 			'name' => 'Support Details',
 			'description' => 'Information to help debugging website problems.',
 			'tag' => 'tool',
-			'icon' => 'info-circle',
 			'og-image' => 'help.jpg',
 		),
 		'ascii-entity-conversion' => array(
 			'name' => 'Entity Conversion',
 			'description' => 'Convert an ascii character into a code suitable for CSS, JS and HTML.',
 			'tag' => 'tool',
-			'icon' => 'calculator',
 			'og-image' => 'library.jpg',
 		),
 		'color-picker' => array(
 			'name' => 'Color Picker',
 			'description' => 'A browser based colour picker.',
 			'tag' => 'tool',
-			'icon' => 'eyedropper',
 			'og-image' => 'color.jpg',
 		),
 		'translation-page-generator' => array(
 			'name' => 'Translation Page Generator',
 			'description' => 'Generate the HTML needed to translate your website.',
 			'tag' => 'tool',
-			'icon' => 'globe',
 			'og-image' => 'localisation.jpg',
 		),
 		'website-tester' => array(
 			'name' => 'Website Tester',
 			'description' => 'Continuous visual previews of web pages.',
 			'tag' => 'tool',
-			'icon' => 'eye',
 		),
 		'free-stock-photos' => array(
 			'name' => 'Free Stock Photos',
 			'description' => 'Stock photography for your projects.',
 			'tag' => 'resources',
-			'icon' => 'camera',
 			'og-image' => 'photo.jpg',
 		),
 		'free-stock-videos' => array(
 			'name' => 'Free Stock Videos',
 			'description' => 'Stock videos for your projects.',
 			'tag' => 'resources',
-			'icon' => 'video-camera',
 			'og-image' => 'video.jpg',
 		),
 		'developer-resources' => array(
 			'name' => 'Developer Resources',
 			'description' => 'Handy Resources for designers and developers.',
 			'tag' => 'resources',
-			'icon' => 'wrench',
 			'og-image' => 'code.jpg',
 		),
 		'circular-icons' => array(
@@ -102,51 +92,43 @@ function get_tools_data() {
 			'name' => 'Pattern Library',
 			'description' => 'Pro Theme Design CSS Pattern Library.',
 			'tag' => 'internal',
-			'icon' => 'puzzle-piece',
 			'og-image' => 'color.jpg',
 		),
 		'test-suite' => array(
 			'name' => 'Test Suite',
 			'description' => 'Pages to test before publishing site updates.',
 			'tag' => 'internal',
-			'icon' => 'graduation-cap',
 		),
 		'website-preview' => array(
 			'name' => 'Website Preview',
 			'description' => 'Live screenshots of the theme showcase websites.',
 			'tag' => 'internal',
-			'icon' => 'eye',
 		),
 		'theme-design-guidelines' => array(
 			'name' => 'Theme Design Guidelines',
 			'description' => 'Rules to ensure our themes are as good as can be.',
 			'tag' => 'internal',
-			'icon' => 'book',
 		),
 		'theme-release-checklist' => array(
 			'name' => 'Theme Release Checklist',
 			'description' => 'A ToDo list to follow before releasing a new product.',
 			'tag' => 'internal',
-			'icon' => 'check',
 		),
 		'dev-kit' => array(
 			'name' => 'How We Build Pro Theme Design',
 			'description' => 'The tools and websites that build Pro Theme Design.',
 			'tag' => 'internal',
-			'icon' => 'briefcase',
 		),
 		'build' => array(
 			'name' => 'Build Updates',
 			'description' => 'Statistics showing how we often we build our themes.',
 			'tag' => 'internal',
-			'icon' => 'briefcase',
 			'og-image' => 'construct.jpg',
 		),
 		'changelogs' => array(
 			'name' => 'Theme Changelogs',
 			'description' => 'Keep track of the changelogs for all our themes.',
 			'tag' => 'internal',
-			'icon' => 'briefcase',
 			'og-image' => 'change.jpg',
 		),
 
@@ -157,7 +139,6 @@ function get_tools_data() {
 			'name' => 'Quiz Test',
 			'description' => 'Test the quiz system.',
 			'tag' => 'tool',
-			'icon' => 'eye',
 		);
 
 	}
