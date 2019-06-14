@@ -1,0 +1,37 @@
+.page-websafe-fonts {
+
+	@include modular-scale( delta );
+
+	p {
+
+		margin-bottom: $grid-line-height * 2;
+
+	}
+
+	strong {
+
+		color: $canvas-color;
+		display: block;
+
+	}
+
+	span {
+
+		display: block;
+		margin: 0.5rem 0;
+
+		&:not(.family) {
+
+			opacity: 0.4;
+
+		}
+
+		&:hover {
+
+			opacity: 1;
+
+		}
+
+	}
+
+}
