@@ -84,7 +84,11 @@ function get_tools_data() {
 			'name' => 'Circular Icons',
 			'description' => 'Round icons for a multitude of uses.',
 			'tag' => 'resources',
-			'icon' => 'circle-o',
+		),
+		'websafe-fonts' => array(
+			'name' => 'Modern Websafe Fonts',
+			'description' => 'CSS Font Stacks for the modern browser.',
+			'tag' => 'resources',
 		),
 
 		// internal tools
