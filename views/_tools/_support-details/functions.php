@@ -20,9 +20,9 @@ function sd_location_data() {
 			$_SERVER['REMOTE_ADDR'] = '';
 		}
 
-		$path = 'https://freegeoip.net/json/' . $_SERVER['REMOTE_ADDR'];
+		$path = 'https://reallyfreegeoip.org/json/' . $_SERVER['REMOTE_ADDR'];
 
-		$data = file_get_contents( $path );
+		$data = url_get_contents( $path );
 		Flight::set( $key, $data );
 
 	}
