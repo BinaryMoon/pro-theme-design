@@ -12,7 +12,7 @@
 
 		h1 {
 
-			@include modular-scale( delta );
+			@include modular-scale( delta, 1.2 );
 			display: inline-block;
 			margin: 0 $grid-gutter 0 0;
 			font-weight: bold;

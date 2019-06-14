@@ -340,19 +340,19 @@ h3 {
 h1 {
   font-size: 52px;
   font-size: 3.25rem;
-  line-height: 1.25;
+  line-height: 1.2;
 }
 
 h2 {
   font-size: 40px;
   font-size: 2.5rem;
-  line-height: 1.25;
+  line-height: 1.2;
 }
 
 h3 {
   font-size: 28px;
   font-size: 1.75rem;
-  line-height: 1.5;
+  line-height: 1.2;
 }
 
 h4 {
@@ -985,7 +985,7 @@ article.summary h2 {
 .block-wrapper.compact .block h3 {
   font-size: 20px;
   font-size: 1.25rem;
-  line-height: 1.5;
+  line-height: 1.2;
 }
 
 .block-wrapper.relaxed .block {
@@ -1074,7 +1074,7 @@ article.summary h2 {
   margin-bottom: 0.75rem;
   font-size: 28px;
   font-size: 1.75rem;
-  line-height: 1.5;
+  line-height: 1.2;
   font-weight: 700;
 }
 
@@ -1085,7 +1085,7 @@ article.summary h2 {
 .block .content h1 {
   font-size: 52px;
   font-size: 3.25rem;
-  line-height: 1.25;
+  line-height: 1.2;
 }
 
 .block .content .button {
@@ -1256,7 +1256,7 @@ article.summary h2 {
   .block-wrapper header.block-header h2 {
     font-size: 28px;
     font-size: 1.75rem;
-    line-height: 1.5;
+    line-height: 1.2;
   }
 }
 
@@ -1609,7 +1609,7 @@ label:hover p.hint {
 .iframe-preview header h1 {
   font-size: 28px;
   font-size: 1.75rem;
-  line-height: 1.5;
+  line-height: 1.2;
   display: inline-block;
   margin: 0 3rem 0 0;
   font-weight: bold;
@@ -1726,7 +1726,7 @@ label:hover p.hint {
   margin-bottom: 0.75rem;
   font-size: 28px;
   font-size: 1.75rem;
-  line-height: 1.5;
+  line-height: 1.2;
 }
 
 .modal-wrapper .modal {
@@ -1786,7 +1786,7 @@ label:hover p.hint {
 .note h1 {
   font-size: 52px;
   font-size: 3.25rem;
-  line-height: 1.25;
+  line-height: 1.2;
 }
 
 .note h1, .note h2, .note h3, .note h4, .note h5, .note h6 {
@@ -1938,7 +1938,7 @@ label:hover p.hint {
 .pricing .faq h3 {
   font-size: 20px;
   font-size: 1.25rem;
-  line-height: 1.5;
+  line-height: 1.2;
   font-weight: bold;
   text-align: left;
   margin: 0;

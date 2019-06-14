@@ -68,7 +68,7 @@
 
 			h3 {
 
-				@include modular-scale( epsilon );
+				@include modular-scale( epsilon, 1.2 );
 
 			}
 
@@ -189,7 +189,7 @@
 		h1, h2, h3, h4, h5, h6 {
 
 			margin-bottom: $grid-line-height / 2;
-			@include modular-scale( delta );
+			@include modular-scale( delta, 1.2 );
 			font-weight: 700;
 
 			a {
@@ -202,7 +202,7 @@
 
 		h1 {
 
-			@include modular-scale( beta );
+			@include modular-scale( beta, 1.2 );
 
 		}
 
@@ -451,7 +451,7 @@
 
 			h2 {
 
-				@include modular-scale( delta );
+				@include modular-scale( delta, 1.2 );
 
 			}
 

@@ -46,7 +46,7 @@
 	h2 {
 
 		margin-bottom: $grid-line-height / 2;
-		@include modular-scale( delta );
+		@include modular-scale( delta, 1.2 );
 
 	}
 

@@ -17,7 +17,7 @@
 
 	h1 {
 
-		@include modular-scale( beta );
+		@include modular-scale( beta, 1.2 );
 
 	}
 
