@@ -10,9 +10,9 @@ $resources = array(
 	'uifaces.co' => 'User Interface Faces',
 	'calltoidea.com' => 'Interface Inspiration',
 	'cssreference.io' => 'CSS Reference',
-	'place.to' => 'Insert screenshots into different computing situations.',
-	'frontendmasters.com/books/front-end-handbook/2018/' => 'Documentation and reference for front end developers.',
-	'facebook.github.io/design/devices.html' => 'Sketch files of popular devices.',
+	'mockup.photos' => 'Insert screenshots into different computing situations.',
+	'frontendmasters.com/books/front-end-handbook/2019/' => 'Documentation and reference for front end developers.',
+	'facebook.design/toolsandresources/' => 'Sketch files, and resources for designing apps.',
 	'mapglyphs.com/world-maps' => 'World Map images.',
 	'hemingwayapp.com' => 'An online text proof reader.',
 	'devdocs.io' => 'API docs for everything web.',
@@ -23,7 +23,6 @@ $resources = array(
 	'subtlepatterns.com' => 'A collection of images that are great for website/ presentation backgrounds.',
 	'colorzilla.com/gradient-editor' => 'CSS Gradient Generator.',
 	'svgporn.com' => 'A huge collection of SVG logos and icons for various companies.',
-	'fortawesome.github.io/Font-Awesome' => 'Comprehensive icon font collection.',
 	'htaccess.madewithlove.be' => 'HTAccess Tester.',
 );
 
