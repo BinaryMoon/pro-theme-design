@@ -24,21 +24,21 @@
 
 <div class="wrapper block-wrapper">
 <?php
-    foreach ( $stock_sites as $url => $description ) {
-        $image_url = site_screenshot( $url );
-?>
-    <div class="block showcase-website">
-        <a href="http://<?php echo $url; ?>" target="_blank" class="image" rel="noopener">
-            <img src="<?php echo $image_url; ?>" width="400" height="300" alt="<?php echo $url; ?> Screenshot" />
-        </a>
-        <div class="meta">
-            <h3><?php echo $url; ?></h3>
-            <p><?php echo $description; ?></p>
-        </div>
-    </div>
+	foreach ( $stock_sites as $url => $description ) {
+		$image_url = site_screenshot( $url );
+	?>
+	<div class="block showcase-website">
+		<a href="http://<?php echo $url; ?>" target="_blank" class="image" rel="noopener">
+			<img src="<?php echo $image_url; ?>" width="400" height="300" alt="<?php echo $url; ?> Screenshot" />
+		</a>
+		<div class="meta">
+			<h3><?php echo $url; ?></h3>
+			<p><?php echo $description; ?></p>
+		</div>
+	</div>
 <?php
-    }
+	}
 ?>
 </div>
 <?php
-    site_include_view( '_partials/more-themes.php' );
+	site_include_view( '_partials/more-themes.php' );
