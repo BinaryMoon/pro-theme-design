@@ -10,6 +10,7 @@ $resources = array(
 	'uifaces.co' => 'User Interface Faces',
 	'calltoidea.com' => 'Interface Inspiration',
 	'cssreference.io' => 'CSS Reference',
+	'ethical.net' => 'Ethical apps and services',
 	'mockup.photos' => 'Insert screenshots into different computing situations.',
 	'frontendmasters.com/books/front-end-handbook/2019/' => 'Documentation and reference for front end developers.',
 	'facebook.design/toolsandresources/' => 'Sketch files, and resources for designing apps.',
