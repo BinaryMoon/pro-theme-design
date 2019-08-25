@@ -1,3 +1,7 @@
+<h3>1.9.1 - 9th August 2019</h3>
+<ul>
+<li>Add alt text to images.</li>
+</ul>
 <h3>1.9 - 12th March 2019</h3>
 <ul>
 <li>Split header image code out into inc/custom-header to improve standardization, and simplify code.</li>

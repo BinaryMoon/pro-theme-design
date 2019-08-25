@@ -1,3 +1,10 @@
+<h3>1.8 - 2nd August 2019</h3>
+<ul>
+<li>Improve readability of menu button.</li>
+<li>Make font sizes more consistant (and ever so slightly larger for easier reading)</li>
+<li>Use Jetpack social menu instead of Jetpack social links. This will not affect existing sites since the older social links function is still active, however if a social menu is setup then it will be used instead.</li>
+<li>Improve responsive behaviour of the slideout menu.</li>
+</ul>
 <h3>1.7.3 - 23rd April 2019</h3>
 <ul>
 <li>Improve display of post author comments.</li>

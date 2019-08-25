@@ -1,3 +1,11 @@
+<h3>1.13.2 - 24th July 2019</h3>
+<ul>
+<li>Tweak archive styles to make things work better when displayed.</li>
+</ul>
+<h3>1.13.1 - 18th June 2019</h3>
+<ul>
+<li>Fix button styles in forms. input elements looked good but button elements were not styled. They are now!</li>
+</ul>
 <h3>1.13 - 13th May 2019</h3>
 <ul>
 <li>Add font display swap to Google Font loading, to increase font display speed.</li>

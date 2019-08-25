@@ -1,3 +1,7 @@
+<h3>1.15.2 - 25th June 2019</h3>
+<ul>
+<li>Tweak button styles so they match input[type=submit] styles.</li>
+</ul>
 <h3>1.15.1 - 15th May 2019</h3>
 <ul>
 <li>Add font display swap to Google Font loading, to increase font display speed.</li>

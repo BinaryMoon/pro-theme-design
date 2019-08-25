@@ -1,3 +1,7 @@
+<h3>2.14.3 - 1st July 2019</h3>
+<ul>
+<li>Add resource hints for Google fonts.</li>
+</ul>
 <h3>2.14.2 - 21st May 2019</h3>
 <ul>
 <li>Improve dropdown menu behaviour on touch devices.</li>

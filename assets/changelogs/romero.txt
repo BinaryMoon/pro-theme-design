@@ -1,3 +1,16 @@
+<h3>1.8.3 - 9th August 2019</h3>
+<ul>
+<li>Add an additional footer widgets sidebar for the homepage and archives. To prevent existing sites from being changed this is a new sidebar that can be configured independently.</li>
+<li>Add a new filter that allows the featured images from attachments to be disabled with a one line plugin <code>add_filter( 'romero_use_image_attachments', '__return_false' );</code></li>
+</ul>
+<h3>1.8.2 - 10th July 2019</h3>
+<ul>
+<li>Increase max width of titles on large featured content box.</li>
+</ul>
+<h3>1.8.1 - 18th June 2019</h3>
+<ul>
+<li>Fix button styles in forms. input elements looked good but button elements were not styled. They are now!</li>
+</ul>
 <h3>1.8 - 12th March 2019</h3>
 <ul>
 <li>Add the excerpt to the featured post. It's hidden by default, but this allows it to be displayed with custom css.</li>
