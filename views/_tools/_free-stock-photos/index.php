@@ -9,7 +9,6 @@
 		'photopin.com' => 'Photo Pin',
 		'pixabay.com' => 'Pixabay (GPL compat)',
 		'flickr.com/photos/wocintechchat/' => 'Women of Color in Tech',
-		'minimography.com' => 'Minimography - Minimal photography',
 		'images.superfamous.com' => 'Super Famous Images',
 		'oldbookillustrations.com' => 'Old Book Illustrations',
 		'mystock.photos' => 'My Stock Photos',
