@@ -36,13 +36,7 @@
 						<li>30 day money back guarantee.</li>
 					</ul>
 
-<?php
-	printf(
-		THEME_PURCHASE,
-		'themes-club',
-		''
-	);
-?>
+					<?php echo $theme['download-button']; ?>
 
 				</div>
 

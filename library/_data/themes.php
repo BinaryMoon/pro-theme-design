@@ -373,6 +373,13 @@ function get_theme_data() {
 				$theme['name']
 			);
 
+			// Purchase the theme club.
+			$theme['download-button'] = sprintf(
+				THEME_PURCHASE,
+				'themes-club',
+				''
+			);
+
 		} elseif ( ! empty( $theme['url-wporg'] ) ) {
 
 			// Download the theme.
