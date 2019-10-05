@@ -11,6 +11,13 @@
 function get_plugin_data() {
 
 	$plugins = array(
+		'wp-toolbelt' => array(
+			'name' => 'Toolbelt',
+			'description' => 'All you need to enhance your website. Privacy and Speed first.',
+			'image' => 'https://ps.w.org/wp-toolbelt/assets/banner-772x250.png?rev=2158077',
+			'og-image' => 'og-toolbelt.png',
+			'tags' => array( 'ours' ),
+		),
 		'tada' => array(
 			'name' => 'Tada',
 			'description' => 'Make your website feel faster, without doing anything. Like Magic!',
