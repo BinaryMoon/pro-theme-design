@@ -579,7 +579,7 @@ Flight::route( '/wordpress-plugins/(@tag)/', function( $tag = '' ) {
 	site_title( 'Recommended WordPress Plugins' );
 	site_description( 'Plugins for creating the perfect WordPress site.' );
 
-	site_page_nav_add( 'Our Plugins', 'wordpress-plugins/' );
+	site_page_nav_add( 'My Plugins', 'wordpress-plugins/' );
 	site_page_nav_add( 'Supported Plugins', 'wordpress-plugins/supported/' );
 
 	if ( empty( $tag ) ) {
