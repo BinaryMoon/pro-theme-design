@@ -9,6 +9,12 @@
 	min-height: $grid-line-height * 4;
 	margin-bottom: $grid-line-height * $grid-line-height-multiplier;
 
+	@include for-tablet {
+
+		padding: 1rem;
+
+	}
+
 	strong {
 
 		color: $canvas-white;
