@@ -1,6 +1,6 @@
 /* globals $, Cookies, window, setTimeout, fbq */
 
-;(function() {
+; ( function() {
 
 	// Reusable functions
 
@@ -29,7 +29,7 @@
 		$( '.search-modal' ).addClass( 'display' );
 		setTimeout( function() {
 			$( '.searchform .text' ).focus();
-		}, 50);
+		}, 50 );
 
 	};
 
@@ -54,7 +54,7 @@
 		}
 
 		// Quit if not a theme page.
-		if ( ! $( 'body' ).hasClass( 'page-theme' ) && ! $( 'body' ).hasClass( 'page-themes' ) ) {
+		if ( !$( 'body' ).hasClass( 'page-theme' ) && !$( 'body' ).hasClass( 'page-themes' ) ) {
 			return;
 		}
 
@@ -101,7 +101,7 @@
 	var update_visit_count = function() {
 
 		var visits = visit_count();
-		visits ++;
+		visits++;
 		Cookies.set( 'ptd-visits', visits, { expires: 21 } );
 
 	};
@@ -115,12 +115,12 @@
 	var update_theme_count = function() {
 
 		// Quit if not a theme page. Checks theme page, and theme archives.
-		if ( ! $( 'body' ).hasClass( 'page-theme' ) && ! $( 'body' ).hasClass( 'page-themes' ) ) {
+		if ( !$( 'body' ).hasClass( 'page-theme' ) && !$( 'body' ).hasClass( 'page-themes' ) ) {
 			return;
 		}
 
 		var visits = theme_count();
-		visits ++;
+		visits++;
 		Cookies.set( 'ptd-themes', visits, { expires: 21 } );
 
 	};
@@ -204,7 +204,7 @@
 		function() {
 
 			// check if facebook is active and if not leave
-			if ( typeof( fbq ) === 'undefined' ) {
+			if ( typeof ( fbq ) === 'undefined' ) {
 				return;
 			}
 
@@ -387,7 +387,7 @@
 
 	$( '.main-menu button' ).on(
 		'click',
-		function ( e ) {
+		function( e ) {
 
 			e.preventDefault();
 
@@ -415,24 +415,6 @@
 	);
 
 
-	// wrap select boxes so they can be styled nicely
-
-	$( 'select' ).each(
-		function() {
-
-			var $this = $( this );
-			var size = $this.data( 'size' );
-			var css_class = 'form-select';
-
-			if ( size ) {
-				css_class = css_class + ' ' + size + '-text';
-			}
-
-			$this.wrap( '<div class="' + css_class + '"></div>' );
-
-		}
-	);
-
 	$( 'html' ).addClass( is_touch_device() ? 'device-touch' : 'device-click' );
 
 	return;
@@ -459,7 +441,7 @@
 
 	} );
 
-})();
+} )();
 
 /**
  * Change the store price to remove the .00 from the end of prices.

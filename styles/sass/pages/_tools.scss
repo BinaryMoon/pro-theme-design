@@ -101,6 +101,12 @@
 
 		@include modular-scale( beta );
 
+		@include for-tablet {
+
+			@include modular-scale( gamma );
+
+		}
+
 	}
 
 	.quote,
@@ -149,11 +155,16 @@
 			display: flex;
 			margin-bottom: $grid-line-height;
 
-			.form-select {
+			* {
 
-				width: 20%;
-				margin-right: $grid-gutter / 2;
 				margin-bottom: 0;
+
+			}
+
+			select {
+
+				width: 25%;
+				margin-right: $grid-gutter / 2;
 
 			}
 

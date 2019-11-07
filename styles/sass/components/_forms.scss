@@ -1,24 +1,23 @@
+.group {
+
+	margin-bottom: $grid-line-height * $grid-line-height-multiplier;
+
+	p {
+
+		font-weight: normal;
+		max-width: 28rem;
+		display: block;
+		margin-left: 0;
+		margin-right: 0;
+
+	}
+
+}
+
 label {
 
 	display:block;
 	@include modular-scale( zeta );
-
-	&.group,
-	.formspree & {
-
-		margin-bottom: $grid-line-height * $grid-line-height-multiplier;
-
-		p {
-
-			font-weight: normal;
-			max-width: 28rem;
-			display: block;
-			margin-left: 0;
-			margin-right: 0;
-
-		}
-
-	}
 
 	span {
 
@@ -82,14 +81,17 @@ label {
 .radio-group {
 
 	margin-bottom: $grid-line-height * $grid-line-height-multiplier;
+	display: flex;
+	background: $block-background;
+	border-radius: $border-radius;
+	overflow:hidden;
 
 	label {
 
-		display: inline-block;
-		background: $block-background;
+		flex-grow: 1;
 		padding: ( $grid-line-height / 2 ) ( $grid-gutter / 2 );
-		border-radius: $border-radius;
 		margin-bottom: 0;
+		text-align: center;
 		@include transition;
 
 		&:hover,
@@ -97,6 +99,12 @@ label {
 
 			background: $canvas-green;
 			color: $canvas-white;
+		}
+
+		@include for-tablet {
+
+			padding: 0.5rem;
+
 		}
 
 	}
