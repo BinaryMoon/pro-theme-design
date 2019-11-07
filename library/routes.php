@@ -332,7 +332,9 @@ Flight::route( '/theme-showcase/(@tag)/', function( $tag = '' ) {
 	}
 
 	site_title( $title );
-	site_description( 'A selection of the <strong>thousands of awesome sites</strong> our customers have built!' );
+
+	$description = sprintf( 'Some of the <strong>thousands of awesome sites</strong> using %s!', ucwords( $tag ) );
+	site_description( $description );
 
 	site_enable_purchase();
 
