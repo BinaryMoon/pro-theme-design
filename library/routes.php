@@ -78,9 +78,9 @@ Flight::route( '/tools/(@tool)/', function( $tool = '' ) {
 	site_description( 'Handy Tools to <strong>Make a Web Designers Job Easier</strong>.' );
 	site_breadcrumb_add( 'Tools', 'tools/' );
 
-	site_page_nav_add( 'Tools', 'tools/' );
-	site_page_nav_add( 'Resources', 'tools/resources/' );
-	site_page_nav_add( 'Internal', 'tools/internal/' );
+	site_page_nav_add( 'Tools', 'tools/', 'h1' );
+	site_page_nav_add( 'Resources', 'tools/resources/', 'h1' );
+	site_page_nav_add( 'Internal', 'tools/internal/', 'h1' );
 
 	if ( ! empty( $tool ) ) {
 
@@ -247,7 +247,7 @@ Flight::route( '/themes/(@tag)/', function( $tag = '' ) {
 
 	$themes_title = 'Professional';
 
-	site_title( 'Professional WordPress.org Themes' );
+	site_title( 'Professional WordPress Themes' );
 	site_description( 'Choose the perfect WordPress.org compatible premium WordPress template for your self hosted site.' );
 
 	if ( $tag !== 'wordpress.org' ) {
@@ -256,6 +256,12 @@ Flight::route( '/themes/(@tag)/', function( $tag = '' ) {
 
 		site_title( 'Best ' . $themes_title . ' WordPress Themes ' . date( 'Y' ) );
 		site_description( 'Choose the best ' . ucwords( $tag ) . ' WordPress templates of ' . date( 'Y' ) . ' and make your site stand out. Easy setup & responsive design included as standard.' );
+
+	}
+
+	if ( 'wordpress.org' === $tag ) {
+
+		site_title( 'Free WordPress Themes' );
 
 	}
 
@@ -581,8 +587,8 @@ Flight::route( '/wordpress-plugins/(@tag)/', function( $tag = '' ) {
 	site_title( 'Recommended WordPress Plugins' );
 	site_description( 'Plugins for creating the perfect WordPress site.' );
 
-	site_page_nav_add( 'My Plugins', 'wordpress-plugins/' );
-	site_page_nav_add( 'Supported Plugins', 'wordpress-plugins/supported/' );
+	site_page_nav_add( 'My Plugins', 'wordpress-plugins/', 'h1' );
+	site_page_nav_add( 'Supported Plugins', 'wordpress-plugins/supported/', 'h1' );
 
 	if ( empty( $tag ) ) {
 
