@@ -7,7 +7,7 @@
 
 		<div class="wrapper text">
 
-			<h1>Got a Question?</h1>
+			<h1>Got a Question about <?php echo $theme_name; ?>?</h1>
 			<p class="intro">Got a question about a theme? Let us know and we'll help as best we can.</p>
 			<p><a href="<?php echo path( 'theme/' . $theme_slug . '/#theme-pricing' ); ?>">Back to <?php echo $theme_name; ?> info &rarr;</a></p>
 

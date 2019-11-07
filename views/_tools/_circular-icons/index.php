@@ -1,5 +1,6 @@
 
 <div class="wrapper text">
+
 	<?php site_breadcrumbs(); ?>
 
 	<h1>Circular Icons Pro</h1>
