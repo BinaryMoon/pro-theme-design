@@ -37,24 +37,14 @@
  *
  * SITE ARTICLES
  *
- * creating a child theme
  * simple customisations that can drastically change how a theme looks
- * adding plugins - including so clients can’t change them
- * customising site and admin branding
- * uploading a new logo
- * analytics
  * simple css for XXX
  * creating a style guide & brand guidelines
  * The importance of brand guidelines when building a site for a client
  * setting up a newsletter
  * git and svn for implementors
- * charging clients
- * value based pricing
- * additional ways to increase your income
  * backing up a WordPress website
  * adding dynamic forms to a WordPress site
- * things to look for in a WordPress themes for WordPress implementors
- * setting user roles for client websites
  * buying web products for clients
  * adding additional value so you can increase your fees
  * standardising your process to increase efficiency
