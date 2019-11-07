@@ -33,37 +33,6 @@
 
 	};
 
-	var show_newsletter = function() {
-
-		// There's an overlay visible so let's leave
-		if ( $( 'body' ).hasClass( 'overlay-display' ) ) {
-			return;
-		}
-
-		Cookies.set( 'ptd-newsletter', 1, { expires: 365 } );
-		show_overlay();
-		$( '.newsletter-modal' ).addClass( 'display' );
-
-	};
-
-	var show_recommendation = function() {
-
-		// There's an overlay visible so let's leave
-		if ( $( 'body' ).hasClass( 'overlay-display' ) ) {
-			return;
-		}
-
-		// Quit if not a theme page.
-		if ( !$( 'body' ).hasClass( 'page-theme' ) && !$( 'body' ).hasClass( 'page-themes' ) ) {
-			return;
-		}
-
-		Cookies.set( 'ptd-recommendation', 1, { expires: 365 } );
-		show_overlay();
-		$( '.recommendation-modal' ).addClass( 'display' );
-
-	};
-
 	var toggle_nav = function() {
 
 		$( '.main-menu' ).toggleClass( 'display' );
@@ -128,18 +97,6 @@
 	var theme_count = function() {
 
 		return Cookies.get( 'ptd-themes' ) || 0;
-
-	};
-
-	var newsletter_count = function() {
-
-		return Cookies.get( 'ptd-newsletter' ) || 0;
-
-	};
-
-	var recommendation_count = function() {
-
-		return Cookies.get( 'ptd-recommendation' ) || 0;
 
 	};
 
@@ -219,22 +176,6 @@
 
 		}
 	);
-
-	// pop up theme recommendations
-
-	if ( theme_count() >= 2 && recommendation_count() < 1 ) {
-
-		// setTimeout( show_recommendation, 10000 );
-
-	}
-
-	// newsletter popup
-
-	if ( visit_count() >= 3 && newsletter_count() < 1 ) {
-
-		setTimeout( show_newsletter, 10000 );
-
-	}
 
 	// update page counts (which are actually page views)
 
@@ -381,9 +322,6 @@
 		}
 	);
 
-
-	// uncomment to test the newsletter code
-	//setTimeout( show_newsletter, 2000 );
 
 	$( '.main-menu button' ).on(
 		'click',
