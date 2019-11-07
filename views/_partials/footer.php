@@ -104,8 +104,6 @@
 
 			<div class="wrapper footnote">
 
-				<?php include( 'newsletter.php' ); ?>
-
 				<p>
 					<?php draw_svg( 'app-sitemap', 'small' ); ?> <a href="<?php echo path( 'sitemap/' ); ?>">Sitemap</a> <span class="sep">|</span>
 					<?php draw_svg( 'app-mail', 'small' ); ?> <a href="<?php echo path( 'contact/' ); ?>">Contact</a> <span class="sep">|</span>
@@ -124,29 +122,6 @@
 			</div>
 
 		</footer>
-
-<!--
-		<div class="modal-wrapper recommendation-modal">
-			<div class="modal">
-				<button type="button" class="close-button" rel="nofollow">
-					<?php draw_svg( 'app-close-alt', 'small' ); ?>
-					<span class="screen-reader-text">Close Recommendation Overlay</span>
-				</button>
-				<?php include( 'recommendation.php' ); ?>
-			</div>
-		</div>
--->
-
-
-		<div class="modal-wrapper newsletter-modal">
-			<div class="modal">
-				<button type="button" class="close-button" rel="nofollow">
-					<?php draw_svg( 'app-close-alt', 'small' ); ?>
-					<span class="screen-reader-text">Close Newsletter Overlay</span>
-				</button>
-				<?php include( 'newsletter.php' ); ?>
-			</div>
-		</div>
 
 		<?php include( 'popover.php' ); ?>
 

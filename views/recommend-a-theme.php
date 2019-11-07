@@ -62,12 +62,6 @@
 					<input type="url" name="website" placeholder="https://prothemedesign.com" />
 				</label>
 
-				<label>
-					<input type="checkbox" name="newsletter" />
-					<span>Subscribe to our newsletter?</span>
-				</label>
-
-
 				<input type="submit" value="Get Recommendation &rarr;" class="button" />
 
 				<input type="hidden" name="_subject" value="Pro Theme Design Recommend a Theme - <?php echo date( 'j M y' ); ?>" />
