@@ -204,7 +204,7 @@ function site_breadcrumbs() {
 /**
  * Add page navigation
  */
-function site_page_nav_add( $name, $url ) {
+function site_page_nav_add( $name, $url, $tag = '' ) {
 
 	$pages = Flight::get( 'site.page_nav' );
 
@@ -215,6 +215,7 @@ function site_page_nav_add( $name, $url ) {
 	$pages[ $name ] = array(
 		'name' => $name,
 		'url' => path( $url ),
+		'selected-tag' => $tag,
 	);
 
 	Flight::set( 'site.page_nav', $pages );
@@ -238,18 +239,27 @@ function site_page_nav() {
 ?>
 	<nav class="wrapper page-menu">
 <?php
+
 	foreach ( $pages as $page ) {
 
 		$class = '';
+		$open_tag = '';
+		$close_tag = '';
 
 		if ( $current_url === $page['url'] ) {
 
 			$class = 'selected';
 
+			if ( ! empty( $page['selected-tag'] ) ) {
+
+				$open_tag = '<' . $page['selected-tag'] . '>';
+				$close_tag = '</' . $page['selected-tag'] . '>';
+
+			}
 		}
 
 ?>
-		<a href="<?php echo $page['url']; ?>" class="<?php echo $class; ?>"><?php echo $page['name']; ?></a>
+		<?php echo $open_tag; ?><a href="<?php echo $page['url']; ?>" class="<?php echo $class; ?>"><?php echo $page['name']; ?></a><?php echo $close_tag; ?>
 <?php
 	}
 ?>
