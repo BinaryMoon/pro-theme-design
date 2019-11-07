@@ -38,7 +38,7 @@ input.settings-input {
 	padding: ( $grid-line-height / 2 ) ( $grid-gutter / 2 );
 	margin-bottom: $grid-line-height;
 	line-height: $grid-line-height;
-	min-height: $grid-line-height;
+	min-height: $grid-line-height * 2;
 	width: 100%;
 	font-weight: bold;
 
@@ -124,6 +124,12 @@ input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
 
 	appearance: none;
+
+}
+
+select {
+
+	height: $grid-line-height * 2;
 
 }
 
