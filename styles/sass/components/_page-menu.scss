@@ -1,21 +1,28 @@
 .page-menu {
 
-	@include post-meta-data();
 	text-align: center;
 	margin-bottom: $grid-line-height * 4;
+
+	> * {
+
+		@include post-meta-data();
+		display: inline-block;
+		font-weight: normal;
+
+	}
 
 	a {
 
 		padding: ( $grid-line-height / 2 ) ( $grid-gutter / 2 );
 		color: $body-header-color;
 		@include transition;
-		display: inline-block;
 		border-radius: $border-radius;
 
 		&.selected {
 
 			background: $block-background;
 			box-shadow: $box-shadow;
+			font-weight: bold;
 
 		}
 
