@@ -8,8 +8,13 @@
 
 	<form class="entity-calculator">
 
-		<label class="hourly-rate group">
-			<span>Your hourly rate?</span>
+		<div class="hourly-rate group">
+
+			<label for="hourly-value">
+
+				<span>Your hourly rate?</span>
+
+			</label>
 
 			<div class="row">
 
@@ -20,13 +25,13 @@
 					<option value="¥">¥</option>
 				</select>
 
-				<input type="number" step="10" min="10" id="rate" value="150" class="hourly-value"/>
+				<input type="number" step="10" min="10" id="rate" value="150" class="hourly-value" id="hourly-value" />
 
 			</div>
 
 			<p class="hint">You can <a href="http://motivapp.com/freelance-hourly-rate-calculator" target="_blank" rel="noopener">calculate your rate here</a></p>
 
-		</label>
+		</div>
 
 		<label class="group">
 			<span>Approximate how many hours will the project take to complete?</span>
