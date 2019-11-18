@@ -4,11 +4,11 @@
 		<h1>Modern Websafe Font Stacks</h1>
 		<p class="intro">Websafe fonts are typefaces that are commonly included on computer operating systems.</p>
 		<p>In the early days of the web there was a small selection of fonts available to use that were common on all computers. So CSS Font Stacks were created.</p>
-		<p>These are lists of fonts that look similar. By using a collection of fonts you can be more sure that users will see what you intend. The site may not look identical on all computers, but it will be close.</p>
+		<p>These are lists of fonts that look similar. By using a collection of fonts you can be more sure that users will see what you intend. The site may not look identical on all computers, but it will be close. And it will be super fast!</p>
 		<h2>What About Google Fonts?</h2>
 		<p>Google fonts was an amazing tool, and it definitely improved the state of fonts on the web. However it comes with some downsides.</p>
-		<p>Primarily, it slows down the web. More connections to exeternal servers, more content to download, more content to decipher and render. All these things slow down the process of displaying your website, and in this increasingly mobile world - speed is very important.</p>
-		<p>Recently there have also been questions about security and privacy. By adding Google Fonts to your site you give a massive corporation a doorway into your website. Perhaps this doesn't concern you, and if so that's your decision, but by using system fonts we remove any possible concerns.</p>
+		<p>Primarily, it slows down the web. More connections to external servers, more content to download, more content to decipher and render. All these things slow down the process of displaying your website, and in this increasingly mobile world - speed is very important.</p>
+		<p>More recently there have been questions about security and privacy. By adding Google Fonts to your site you give a massive corporation a doorway into your website, and the behaviour of your website visitors. Perhaps this doesn't concern you, and if so that's your decision, but by using system fonts we remove any possible privacy and security concerns.</p>
 	</div>
 
 <?php
