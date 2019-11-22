@@ -12,8 +12,8 @@ $resources = array(
 	'cssreference.io' => 'CSS Reference',
 	'ethical.net' => 'Ethical apps and services',
 	'mockup.photos' => 'Insert screenshots into different computing situations.',
-	'frontendmasters.com/books/front-end-handbook/2019/' => 'Documentation and reference for front end developers.',
-	'facebook.design/toolsandresources/' => 'Sketch files, and resources for designing apps.',
+	'frontendmasters.com/books/front-end-handbook/2019' => 'Documentation and reference for front end developers.',
+	'facebook.design/toolsandresources' => 'Sketch files, and resources for designing apps.',
 	'mapglyphs.com/world-maps' => 'World Map images.',
 	'hemingwayapp.com' => 'An online text proof reader.',
 	'devdocs.io' => 'API docs for everything web.',
@@ -22,9 +22,9 @@ $resources = array(
 	'browserstack.com' => 'An online browser testing tool.',
 	'bennettfeely.com/clippy' => 'A CSS clipping path generator.',
 	'subtlepatterns.com' => 'A collection of images that are great for website/ presentation backgrounds.',
-	'colorzilla.com/gradient-editor' => 'CSS Gradient Generator.',
 	'svgporn.com' => 'A huge collection of SVG logos and icons for various companies.',
 	'htaccess.madewithlove.be' => 'HTAccess Tester.',
+	'www.screely.com' => 'Make screenshots look nice quickly.',
 );
 
 ?>
@@ -34,6 +34,8 @@ $resources = array(
 
 	<h1>Developer Resources</h1>
 	<p>Tools and resources that help developers and designers to be more productive.</p>
+	<p>I mostly built this so that I had a list of bookmarks for things I find useful.</p>
+
 </div>
 
 <div class="wrapper block-wrapper">
