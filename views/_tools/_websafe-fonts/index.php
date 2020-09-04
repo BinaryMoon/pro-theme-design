@@ -13,6 +13,7 @@
 
 <?php
 	$fonts = array(
+		// Format = 'Font name', 'Font stack'.
 		[ 'Arial', 'Arial, Helvetica Neue, Helvetica, sans-serif' ],
 		[ 'Arial Black', 'Arial Black, Arial Bold, Gadget, sans-serif' ],
 		[ 'Arial Narrow', 'Arial Narrow, Arial, sans-serif' ],
