@@ -29,7 +29,7 @@
 
 			</div>
 
-			<p class="hint">You can <a href="http://motivapp.com/freelance-hourly-rate-calculator" target="_blank" rel="noopener">calculate your rate here</a></p>
+			<p class="hint">You can <a href="https://www.linkedin.com/pulse/how-much-do-you-want-make-bridget-willard/" rel="noopener">calculate your rate here</a></p>
 
 		</div>
 
@@ -105,8 +105,6 @@
 	<p>Next we look at how important the job and client are to you and adjust the rate accordingly.</p>
 	<p>This gives you a base rate - and an ideal rate. You should <strong>quote the ideal rate</strong> - knowing that you can drop to the base rate and still get a fair deal. Of course, you should always stick to the ideal rate if you can!</p>
 	<p>Read more on how to <a href="<?php echo path( 'how-to/earn-more-as-a-wordpress-freelancer/' ); ?>">charge more as a WordPress freelancer</a>.</p>
-
-
 
 </div>
 
