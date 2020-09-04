@@ -1,4 +1,4 @@
-<p class="intro">After a successful theme purchase you will receive an email including your individual theme or theme bundle download link. With this link you can download the zip file that contains your theme files.</p>
+<p class="intro">After purchasing Chronicle you will receive an email including your theme bundle download link. With this link you can download the zip file that contains your theme files.</p>
 
 <p class="note">Please note that on Mac OSX zip files get extracted by default - so check your downloads folder for the zip file before continuing.</p>
 

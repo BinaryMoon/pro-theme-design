@@ -41,7 +41,7 @@ function get_documentation_data() {
 			'related' => array( 'theme-installation', 'support-vs-customization', 'support-account', 'regenerate-thumbnails' ),
 		),
 		'child-theme-installation' => array(
-			'name' => 'Child Theme Installation',
+			'name' => 'Chronicle Theme Installation',
 			'type' => 'general',
 		),
 		'demo-content' => array(
