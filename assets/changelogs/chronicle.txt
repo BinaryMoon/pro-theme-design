@@ -1,3 +1,34 @@
+<h3>10.9 - 11th March 2020</h3>
+<ul>
+<li>Add support for Gutenberg features.</li>
+</ul>
+<h3>10.8.2 - 12th February 2020</h3>
+<ul>
+<li>Adjust WooCommerce category header image changes to use the page header image rather than the site header image.</li>
+<li>Hide right hand sidebar on WooCommerce pages.</li>
+</ul>
+<h3>10.8.1 - 6th February 2020</h3>
+<ul>
+<li>Fix problem with WooCommerce change.</li>
+</ul>
+<h3>10.8 - 5th February 2020</h3>
+<ul>
+<li>Add support for WooCommerce category images</li>
+</ul>
+<h3>10.7.8 - 9th November 2019</h3>
+<ul>
+<li>Fix sizing overflow issue with small devices related to infinite scroll.</li>
+</ul>
+<h3>10.7.7 - 4th October 2019</h3>
+<ul>
+<li>Change figcaption styles to differentiate them from paragraph text.</li>
+<li>Fix the order of the homepage content on mobile devices.</li>
+<li>Add more consistent margins for image and gallery blocks.</li>
+</ul>
+<h3>10.7.6 - 13th September 2019</h3>
+<ul>
+<li>Tweak the homepage layout so that the small left sidebar never gets hidden, even on small screens.</li>
+</ul>
 <h3>10.7.5 - 25th June 2019</h3>
 <ul>
 <li>Tweak button styles so they match input[type=submit] styles.</li>

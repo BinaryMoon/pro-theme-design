@@ -1,3 +1,12 @@
+<h3>1.8 - 19th March 2020</h3>
+<ul>
+<li>Improve coding standards.</li>
+<li>Add support for Gutenberg.</li>
+<li>Use the_archive_description for archive descriptions.</li>
+<li>Make the sidebar and content the same length.</li>
+<li>Improve colour contrast and white space for better readability and consistency.</li>
+<li>Improve the design of the 'no search results' page.</li>
+</ul>
 <h3>1.7 - 25th May 2018</h3>
 <ul>
 <li>Add support for privacy policy link in the site footer.</li>

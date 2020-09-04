@@ -1,3 +1,15 @@
+<h3>1.10.1 - 9th July 2020</h3>
+<ul>
+<li>Remove use of deprecated Jetpack function <code>is_ipad</code>.</li>
+</ul>
+<h3>1.10 - 14th March 2020</h3>
+<ul>
+<li>Improve coding standards.</li>
+<li>Add support for Gutenberg.</li>
+<li>Tweak spacings for readability.</li>
+<li>Add footer class and tweak styles to avoid conflicts with plugins that add footer elements.</li>
+<li>Improve display of responsive menu.</li>
+</ul>
 <h3>1.9.1 - 9th August 2019</h3>
 <ul>
 <li>Add alt text to images.</li>

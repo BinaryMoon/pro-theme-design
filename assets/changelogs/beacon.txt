@@ -1,3 +1,31 @@
+<h3>1.10.3 - 9th July 2020</h3>
+<ul>
+<li>Remove use of deprecated Jetpack function <code>is_ipad</code>.</li>
+<li>Add <code>beacon_tabs</code> action for users who want to add extra tabs through plugins (.org or business plan).</li>
+<li>Coding standards.</li>
+</ul>
+<h3>1.10.2 - 22nd April 2020</h3>
+<ul>
+<li>Update site description styles.</li>
+</ul>
+<h3>1.10.1 - 4th April 2020</h3>
+<ul>
+<li>Tweak button styles for consistency.</li>
+</ul>
+<h3>1.10 - 15th March 2020</h3>
+<ul>
+<li>Update CSS gradient syntax to modern standards.</li>
+<li>Improve coding standards.</li>
+<li>Add support for Gutenberg.</li>
+<li>Tweak white space for improved clarity.</li>
+<li>Refer to footer as .site-footer to avoid clashing with plugins.</li>
+</ul>
+<h3>1.9.3 - 18th December 2019</h3>
+<ul>
+<li>Improve layout of Jetpack recent comments widget.</li>
+<li>Add back to top link in footer.</li>
+<li>Add CSS based smooth scroll.</li>
+</ul>
 <h3>1.9.2 - 27th January 2019</h3>
 <ul>
 <li>Make the popular posts tab display consistently with the other tabs.</li>

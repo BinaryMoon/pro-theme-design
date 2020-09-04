@@ -1,3 +1,9 @@
+<h3>1.9 - 12th March 2020</h3>
+<ul>
+<li>Improve coding standards.</li>
+<li>Improve white space for better readability.</li>
+<li>Add support for Gutenberg.</li>
+</ul>
 <h3>1.8 - 2nd August 2019</h3>
 <ul>
 <li>Improve readability of menu button.</li>

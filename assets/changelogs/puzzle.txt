@@ -1,3 +1,9 @@
+<h3>2.4 - 13th March 2020</h3>
+<ul>
+<li>Add support for Gutenberg.</li>
+<li>Update rtl.css</li>
+<li>Make search results page pagination clickable. It was hidden behind the search results.</li>
+</ul>
 <h3>2.3 - 9th November 2018</h3>
 <ul>
 <li>Improve coding standards.</li>

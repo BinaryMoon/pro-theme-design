@@ -1,3 +1,20 @@
+<h3>2.15.2 - 12th March 2020</h3>
+<ul>
+<li>Improve Gutenberg styles.</li>
+<li>Improve editor styles.</li>
+</ul>
+<h3>2.15.1 - 6th February 2020</h3>
+<ul>
+<li>Fix problem with WooCommerce change.</li>
+</ul>
+<h3>2.15 - 5th February 2020</h3>
+<ul>
+<li>Add support for WooCommerce category images</li>
+</ul>
+<h3>2.14.4 - 30th September 2019</h3>
+<ul>
+<li>Improve default search input styles.</li>
+</ul>
 <h3>2.14.3 - 1st July 2019</h3>
 <ul>
 <li>Add resource hints for Google fonts.</li>

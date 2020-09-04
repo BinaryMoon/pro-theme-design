@@ -1,3 +1,15 @@
+<h3>2.3.1 - 9th July 2020</h3>
+<ul>
+<li>Remove use of deprecated Jetpack function <code>is_ipad</code>.</li>
+</ul>
+<h3>2.3 - 5th October 2019</h3>
+<ul>
+<li>Prettify CSS</li>
+<li>Make colours, and fonts more consistent.</li>
+<li>Add support for Toolbelt plugin.</li>
+<li>Make author archive layout consistent with all the other layouts.</li>
+<li>Remove html5 shim</li>
+</ul>
 <h3>2.2 - 25th May 2018</h3>
 <ul>
 <li>Add support for privacy policy link in the site footer.</li>

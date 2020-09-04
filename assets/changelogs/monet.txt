@@ -1,3 +1,12 @@
+<h3>1.13.4 - 9th July 2020</h3>
+<ul>
+<li>Remove use of deprecated Jetpack function <code>is_ipad</code>.</li>
+</ul>
+<h3>1.13.3 - 12th March 2020</h3>
+<ul>
+<li>Add Gutenberg support.</li>
+<li>Improve coding standards.</li>
+</ul>
 <h3>1.13.2 - 24th July 2019</h3>
 <ul>
 <li>Tweak archive styles to make things work better when displayed.</li>

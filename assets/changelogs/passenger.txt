@@ -1,3 +1,12 @@
+<h3>2.7.1 - 6th May 2020</h3>
+<ul>
+<li>Make gallery post formats in archives display correctly for Gutenberg galleries.</li>
+</ul>
+<h3>2.7 - 11th March 2020</h3>
+<ul>
+<li>Add support for Gutenberg.</li>
+<li>Improve coding standards.</li>
+</ul>
 <h3>2.6.2 - 18th June 2019</h3>
 <ul>
 <li>Fix button styles in forms. input elements looked good but button elements were not styled. They are now!</li>

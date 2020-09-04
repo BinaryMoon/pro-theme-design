@@ -1,3 +1,58 @@
+<h3>1.17.3 - 9th July 2020</h3>
+<ul>
+<li>Remove use of deprecated Jetpack function <code>is_ipad</code>.</li>
+</ul>
+<h3>1.17.2 - 28th June 2020</h3>
+<ul>
+<li>Tweak comment reply and reply cancel button styles to make them more readable &amp; reliable.</li>
+</ul>
+<h3>1.17.1 - 26th June 2020</h3>
+<ul>
+<li>Increase number of posts allowed in featured categories.</li>
+<li>Extend category summary cache for 24 hours, and clear the cache when a new post is published.</li>
+</ul>
+<h3>1.17 - 11th March 2020</h3>
+<ul>
+<li>Add support for Gutenberg functionality.</li>
+<li>Hide footer 'top tags' and 'top categories' using content options.</li>
+</ul>
+<h3>1.16.3 - 21st February 2020</h3>
+<ul>
+<li>Tweak heading sizes in post content to add a bit more contrast and improve readability.</li>
+</ul>
+<h3>1.16.2 - 12th February 2020</h3>
+<ul>
+<li>Adjust WooCommerce category header image changes to use the page header image rather than the site header image.</li>
+<li>Hide right hand sidebar on WooCommerce pages.</li>
+<li>Remove bottom margin on figures inside wp-block-image.</li>
+<li>add class to comment count separator to make it easier to target with custom css.</li>
+</ul>
+<h3>1.16.1 - 6th February 2020</h3>
+<ul>
+<li>Fix problem with WooCommerce change.</li>
+</ul>
+<h3>1.16 - 5th February 2020</h3>
+<ul>
+<li>Add support for WooCommerce category images</li>
+</ul>
+<h3>1.15.6 - 29th December 2019</h3>
+<ul>
+<li>Tweak size of margins on tables for consistency.</li>
+</ul>
+<h3>1.15.5 - 9th November 2019</h3>
+<ul>
+<li>Fix sizing overflow issue with small devices related to infinite scroll.</li>
+<li>Fix bug with showcase sizing on small devices.</li>
+</ul>
+<h3>1.15.4 - 4th October 2019</h3>
+<ul>
+<li>Add styles for figcaptions to differentiate content from paragraphs.</li>
+<li>Add more consistent margins for image and gallery blocks.</li>
+</ul>
+<h3>1.15.3 - 12th September 2019</h3>
+<ul>
+<li>Tweak the homepage layout so that the small left sidebar never gets hidden, even on small screens.</li>
+</ul>
 <h3>1.15.2 - 25th June 2019</h3>
 <ul>
 <li>Tweak button styles so they match input[type=submit] styles.</li>

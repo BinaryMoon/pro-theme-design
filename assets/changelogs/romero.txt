@@ -1,3 +1,26 @@
+<h3>1.9.4 - 9th July 2020</h3>
+<ul>
+<li>Remove use of deprecated Jetpack function <code>is_ipad</code>.</li>
+</ul>
+<h3>1.9.3 - 29th May 2020</h3>
+<ul>
+<li>Add support for custom credits.</li>
+<li>Add support for new editor styles.</li>
+</ul>
+<h3>1.9.2 - 6th April 2020</h3>
+<ul>
+<li>Fix bug with homepage layout.</li>
+</ul>
+<h3>1.9.1 - 4th April 2020</h3>
+<ul>
+<li>Improve button styles.</li>
+<li>Improve spacing in comment form.</li>
+</ul>
+<h3>1.9 - 22nd March 2020</h3>
+<ul>
+<li>Update Gutenberg styles.</li>
+<li>Standardize 404 page layout. Now it matches the 'no search results' layout.</li>
+</ul>
 <h3>1.8.3 - 9th August 2019</h3>
 <ul>
 <li>Add an additional footer widgets sidebar for the homepage and archives. To prevent existing sites from being changed this is a new sidebar that can be configured independently.</li>

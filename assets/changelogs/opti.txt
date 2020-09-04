@@ -1,3 +1,19 @@
+<h3>1.8.2 - 9th July 2020</h3>
+<ul>
+<li>Remove use of deprecated Jetpack function <code>is_ipad</code>.</li>
+</ul>
+<h3>1.8.1 - 4th July 2020</h3>
+<ul>
+<li>Fix image alignment.</li>
+</ul>
+<h3>1.8 - 17th March 2020</h3>
+<ul>
+<li>Add support for Gutenberg.</li>
+</ul>
+<h3>1.7.5 - 24th December 2019</h3>
+<ul>
+<li>Overhaul form styles. Improve consistency and allow them to work better with form plugins.</li>
+</ul>
 <h3>1.7.4 - 8th June 2019</h3>
 <ul>
 <li>Improve required alignment styles.</li>

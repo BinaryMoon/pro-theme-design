@@ -1,3 +1,20 @@
+<h3>2.5.1 - 9th July 2020</h3>
+<ul>
+<li>Remove use of deprecated Jetpack function <code>is_ipad</code>.</li>
+<li>Tweak search button styles so they don't overlap the search field</li>
+</ul>
+<h3>2.5 - 4th May 2020</h3>
+<ul>
+<li>Happy Star Wars day!</li>
+<li>Added support for site logos, and tweaked the responsive header styles.</li>
+</ul>
+<h3>2.4 - 13th March 2020</h3>
+<ul>
+<li>Improve coding standards.</li>
+<li>Improve responsive layout.</li>
+<li>Add Gutenberg support.</li>
+<li>Add a wrapper around the 'on' text in post meta so that it can be hidden.</li>
+</ul>
 <h3>2.3 - 25th May 2018</h3>
 <ul>
 <li>Add support for privacy policy link in the site footer.</li>

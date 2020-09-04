@@ -1,3 +1,10 @@
+<h3>2.7 - 9th March 2020</h3>
+<ul>
+<li>Add support for Gutenberg styles.</li>
+<li>Improve editor styles for the new block editor.</li>
+<li>Improve coding standards.</li>
+<li>Improve heading line heights for better readability.</li>
+</ul>
 <h3>2.6.2 - 18th June 2019</h3>
 <ul>
 <li>Fix button styles in forms. input elements looked good but button elements were not styled. They are now!</li>

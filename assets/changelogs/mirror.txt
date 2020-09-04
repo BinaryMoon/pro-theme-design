@@ -1,3 +1,19 @@
+<h3>2.7.1 - 9th July 2020</h3>
+<ul>
+<li>Remove use of deprecated Jetpack function <code>is_ipad</code>.</li>
+</ul>
+<h3>2.7 - 13th March 2020</h3>
+<ul>
+<li>Add Gutenberg support.</li>
+<li>Fix 'no search results' page so that it doesn't show 2 headers and 2 search boxes.</li>
+<li>Minor tweaks to white space to improve readability.</li>
+<li>Improve responsive styles.</li>
+</ul>
+<h3>2.6 - 1st October 2019</h3>
+<ul>
+<li>Add search form to search results page.</li>
+<li>Tweak search bar styles to make it more accessible, and more consistantly styled.</li>
+</ul>
 <h3>2.5.2 - 8th Janury 2019</h3>
 <ul>
 <li>Ensure site title and description hide when hidden in the customizer.</li>

@@ -1,3 +1,8 @@
+<h3>10.7 - 18th March 2020</h3>
+<ul>
+<li>Add support for Gutenberg.</li>
+<li>Improve coding standards.</li>
+</ul>
 <h3>10.6.1 - 24th May 2019</h3>
 <ul>
 <li>Improve archive display on touch devices.</li>
