@@ -94,11 +94,6 @@ function get_website_data() {
 			'theme' => 'carmack',
 		),
 		array(
-			'url' => 'https://melinanime.land/',
-			'name' => 'Mel in Anime Land',
-			'theme' => 'carmack',
-		),
-		array(
 			'url' => 'https://topgear.ie/',
 			'name' => 'TopGear.IE',
 			'theme' => 'carmack',
@@ -129,11 +124,6 @@ function get_website_data() {
 		array(
 			'url' => 'http://absurdisan.com/',
 			'name' => 'Absudisan',
-			'theme' => 'romero',
-		),
-		array(
-			'url' => 'http://theneocom.com/',
-			'name' => 'The Neocom',
 			'theme' => 'romero',
 		),
 		array(
@@ -225,11 +215,6 @@ function get_website_data() {
 			'theme' => 'monet',
 		),
 		array(
-			'url' => 'https://brookesemke.com/',
-			'name' => 'Brooke Semke',
-			'theme' => 'monet',
-		),
-		array(
 			'url' => 'https://capturedbyvera.nl/',
 			'name' => 'Captured By Vera',
 			'theme' => 'monet',
@@ -253,21 +238,6 @@ function get_website_data() {
 			'theme' => 'exhibit',
 		),
 		array(
-			'url' => 'https://frazershaw.wordpress.com/',
-			'name' => 'Frazer Shaw',
-			'theme' => 'exhibit',
-		),
-		array(
-			'url' => 'https://drdianesanford.com/',
-			'name' => 'Dr Diane Sanford',
-			'theme' => 'exhibit',
-		),
-		array(
-			'url' => 'https://benjaminjudge.com/',
-			'name' => 'Benjamin Judge',
-			'theme' => 'exhibit',
-		),
-		array(
 			'url' => 'https://tanyacollins.club/',
 			'name' => 'Tanya Collins',
 			'theme' => 'exhibit',
@@ -285,11 +255,6 @@ function get_website_data() {
 		array(
 			'url' => 'https://szsdesignandcrafts.com/',
 			'name' => 'SZS Design and Crafts',
-			'theme' => 'exhibit',
-		),
-		array(
-			'url' => 'https://nutmegandwhimsy.com/',
-			'name' => 'Nutmeg and Whimsy',
 			'theme' => 'exhibit',
 		),
 		array(
@@ -311,16 +276,6 @@ function get_website_data() {
 			'theme' => 'puzzle',
 		),
 		array(
-			'url' => 'http://marocinstyle.com',
-			'name' => 'Maroc in Style',
-			'theme' => 'puzzle',
-		),
-		array(
-			'url' => 'https://flossyphotography.wordpress.com',
-			'name' => 'Flossy Photography',
-			'theme' => 'puzzle',
-		),
-		array(
 			'url' => 'http://leahpellegrini.com',
 			'name' => 'Leah Pellegrini',
 			'theme' => 'puzzle',
@@ -338,11 +293,6 @@ function get_website_data() {
 		array(
 			'url' => 'https://keepingsmall.wordpress.com/',
 			'name' => 'Fewer, Better Things...',
-			'theme' => 'puzzle',
-		),
-		array(
-			'url' => 'https://worksdifferent.com/',
-			'name' => 'Works Different',
 			'theme' => 'puzzle',
 		),
 		array(
@@ -424,11 +374,6 @@ function get_website_data() {
 			'theme' => 'opti',
 		),
 		array(
-			'url' => 'https://adivasihunkar.com/',
-			'name' => 'Adivasi Hunkar',
-			'theme' => 'opti',
-		),
-		array(
 			'url' => 'https://highschooldebate.org/',
 			'name' => 'Public Debate Program',
 			'theme' => 'opti',
@@ -452,6 +397,11 @@ function get_website_data() {
 			'theme' => 'chronicle',
 		),
 		array(
+			'url' => 'https://www.discoveringbelgium.com/',
+			'name' => 'Discovering Belgium',
+			'theme' => 'chronicle',
+		),
+		array(
 			'url' => 'https://transitmag.no/',
 			'name' => 'Transit magasin',
 			'theme' => 'chronicle',
@@ -472,28 +422,13 @@ function get_website_data() {
 			'theme' => 'chronicle',
 		),
 		array(
-			'url' => 'https://isastudentblog.wordpress.com/',
-			'name' => 'ISA Student Blog',
-			'theme' => 'chronicle',
-		),
-		array(
 			'url' => 'https://laughoutlondoncomedyclub.co.uk/',
 			'name' => 'Laugh Out London',
 			'theme' => 'chronicle',
 		),
 		array(
-			'url' => 'https://casacurutchet.net/',
-			'name' => 'Casa Curutchet',
-			'theme' => 'chronicle',
-		),
-		array(
 			'url' => 'https://keithonfood.com/',
 			'name' => 'Keith on Food',
-			'theme' => 'chronicle',
-		),
-		array(
-			'url' => 'https://chasingpisces.com/',
-			'name' => 'Chasing Pisces',
 			'theme' => 'chronicle',
 		),
 		array(
@@ -507,16 +442,6 @@ function get_website_data() {
 		array(
 			'url' => 'https://jmmswordandshield.com/',
 			'name' => 'JMM Sword and Shield',
-			'theme' => 'broadsheet',
-		),
-		array(
-			'url' => 'https://diningdevon.com/',
-			'name' => 'Dining Devon',
-			'theme' => 'broadsheet',
-		),
-		array(
-			'url' => 'https://prialterno.wordpress.com/',
-			'name' => 'Tan Boy',
 			'theme' => 'broadsheet',
 		),
 		array(
@@ -545,11 +470,6 @@ function get_website_data() {
 			'theme' => 'broadsheet',
 		),
 		array(
-			'url' => 'https://shssentinel.wordpress.com',
-			'name' => 'The Sentinel',
-			'theme' => 'broadsheet',
-		),
-		array(
 			'url' => 'http://gentlemansportion.com',
 			'name' => 'Gentlemans Portion',
 			'theme' => 'broadsheet',
@@ -567,11 +487,6 @@ function get_website_data() {
 
 
 		// Traveler.
-		array(
-			'url' => 'https://michelbrard.wordpress.com/',
-			'name' => 'Michael Brard',
-			'theme' => 'traveler',
-		),
 		array(
 			'url' => 'https://clynam.wordpress.com/',
 			'name' => 'Africa Unplugged',
@@ -602,22 +517,12 @@ function get_website_data() {
 			'name' => 'Abaya Addict',
 			'theme' => 'traveler',
 		),
-		array(
-			'url' => 'https://maky.com/',
-			'name' => 'Maky',
-			'theme' => 'traveler',
-		),
 
 
 		// Label.
 		array(
 			'url' => 'https://littlesequoia.blog/',
 			'name' => 'Little Sequoia',
-			'theme' => 'label',
-		),
-		array(
-			'url' => 'https://outrasluzes.blog/',
-			'name' => 'Outras Luzes',
 			'theme' => 'label',
 		),
 		array(
@@ -646,23 +551,8 @@ function get_website_data() {
 			'theme' => 'label',
 		),
 		array(
-			'url' => 'https://sarahscookery.com/',
-			'name' => 'Sarahs Cookery',
-			'theme' => 'label',
-		),
-		array(
 			'url' => 'https://livingthekingdom.org/',
 			'name' => 'Living the Kingdom',
-			'theme' => 'label',
-		),
-		array(
-			'url' => 'https://palmasonblog.wordpress.com/',
-			'name' => 'Ibyrgid',
-			'theme' => 'label',
-		),
-		array(
-			'url' => 'https://mistandether.wordpress.com/',
-			'name' => 'Mist and Ether',
 			'theme' => 'label',
 		),
 		array(
@@ -670,7 +560,6 @@ function get_website_data() {
 			'name' => 'Guri Haram',
 			'theme' => 'label',
 		),
-
 
 	);
 
