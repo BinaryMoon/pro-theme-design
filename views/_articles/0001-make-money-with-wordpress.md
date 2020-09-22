@@ -67,7 +67,7 @@ There is also a growing trend towards 'implementors' people who buy ready made t
 
 <div class="note icon" markdown="1">{svg:alert-info,large}We've written an in-depth article on [how to become a WordPress Implementor](path:/how-to/be-a-wordpress-implementer/).</div>
 
-Alternatively you could sign up as a freelancer on sites like [Codeable](https://codeable.io/?ref=OJHe0). They will take care of finding the work, and accepting payments. It's a great way to start for those who know WordPress inside out but don't know how to market their skills.
+Alternatively you could sign up as a freelancer on sites like [Codeable](https://codeable.io/?ref=99Tpl). They will take care of finding the work, and accepting payments. It's a great way to start for those who know WordPress inside out but don't know how to market their skills.
 
 
 ## 4. Site Maintenance {#site-maintenance}

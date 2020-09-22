@@ -34,7 +34,7 @@ $resources = array(
 	),
 	array(
 		'Codeable',
-		'codeable.io/?ref=OJHe0',
+		'codeable.io/?ref=99Tpl',
 		'Fix all your WordPress problems.',
 	),
 	array(

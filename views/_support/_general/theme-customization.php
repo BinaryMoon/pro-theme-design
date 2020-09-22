@@ -1,6 +1,6 @@
 <h2>Theme Customization Service</h2>
 
-<p>We have partnered with <a href="https://codeable.io/?ref=OJHe0">Codeable.io</a> so that they can fulfill your customization needs. Just fill out the <a href="<?php echo path( 'theme-customization/' ); ?>">Theme Customization</a> request form and they will get back to you with a quote.</p>
+<p>We have partnered with <a href="https://codeable.io/?ref=99Tpl">Codeable.io</a> so that they can fulfill your customization needs. Just fill out the <a href="<?php echo path( 'theme-customization/' ); ?>">Theme Customization</a> request form and they will get back to you with a quote.</p>
 
 <h2>Custom Colours and Fonts</h2>
 
