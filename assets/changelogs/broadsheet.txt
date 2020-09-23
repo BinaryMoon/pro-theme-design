@@ -1,3 +1,8 @@
+<h3>1.17.4 - 11th July 2020</h3>
+<ul>
+<li>Fix infinite scroll button styles.</li>
+<li>Improve RTL styles.</li>
+</ul>
 <h3>1.17.3 - 9th July 2020</h3>
 <ul>
 <li>Remove use of deprecated Jetpack function <code>is_ipad</code>.</li>

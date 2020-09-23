@@ -1,3 +1,11 @@
+<h3>2.15.4 - 12th August 2020</h3>
+<ul>
+<li>Add support for 'no link logo' on homepage: <a href="https://make.wordpress.org/core/2020/07/28/themes-changes-related-to-get_custom_logo-in-wordpress-5-5/">https://make.wordpress.org/core/2020/07/28/themes-changes-related-to-get_custom_logo-in-wordpress-5-5/</a></li>
+</ul>
+<h3>2.15.3 - 13th July 2020</h3>
+<ul>
+<li>Add support for accessible widget lists: <a href="https://make.wordpress.org/core/2020/07/09/accessibility-improvements-to-widgets-outputting-lists-of-links-in-5-5/">https://make.wordpress.org/core/2020/07/09/accessibility-improvements-to-widgets-outputting-lists-of-links-in-5-5/</a></li>
+</ul>
 <h3>2.15.2 - 12th March 2020</h3>
 <ul>
 <li>Improve Gutenberg styles.</li>

@@ -1,6 +1,7 @@
 <h3>10.9 - 11th March 2020</h3>
 <ul>
 <li>Add support for Gutenberg features.</li>
+<li>Update RTL files.</li>
 </ul>
 <h3>10.8.2 - 12th February 2020</h3>
 <ul>

@@ -1,3 +1,13 @@
+<h3>2.4.2 - 29th July 2020</h3>
+<ul>
+<li>Make logo class generic (for 5.5 update).</li>
+</ul>
+<h3>2.4.1 - 11th July 2020</h3>
+<ul>
+<li>Improve spacing for readability and consistency.</li>
+<li>Fix search form styles.</li>
+<li>Make links more obvious (to improve accessibility).</li>
+</ul>
 <h3>2.4 - 13th March 2020</h3>
 <ul>
 <li>Add support for Gutenberg.</li>

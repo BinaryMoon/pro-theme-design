@@ -1,3 +1,12 @@
+<h3>1.9.2 - 7th August 2020</h3>
+<ul>
+<li>Update rtl styles.</li>
+<li>Minor css improvements.</li>
+</ul>
+<h3>1.9.1 - 11th July 2020</h3>
+<ul>
+<li>Fix infinite scroll button styles.</li>
+</ul>
 <h3>1.9 - 12th March 2020</h3>
 <ul>
 <li>Improve coding standards.</li>

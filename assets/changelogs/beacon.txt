@@ -1,3 +1,11 @@
+<h3>1.10.4 - 7th August 2020</h3>
+<ul>
+<li>Improve rtl styles.</li>
+<li>Combine stylesheets (move responsive styles into main stylesheet).</li>
+<li>Change infinite scroll to always use 'click' mode since there's always content below the main posts.</li>
+<li>Tidy codes.</li>
+<li>Fix current menu item highlights.</li>
+</ul>
 <h3>1.10.3 - 9th July 2020</h3>
 <ul>
 <li>Remove use of deprecated Jetpack function <code>is_ipad</code>.</li>

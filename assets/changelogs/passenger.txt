@@ -1,3 +1,7 @@
+<h3>2.7.2 - 13th July 2020</h3>
+<ul>
+<li>Add support for accessible widget lists: <a href="https://make.wordpress.org/core/2020/07/09/accessibility-improvements-to-widgets-outputting-lists-of-links-in-5-5/">https://make.wordpress.org/core/2020/07/09/accessibility-improvements-to-widgets-outputting-lists-of-links-in-5-5/</a></li>
+</ul>
 <h3>2.7.1 - 6th May 2020</h3>
 <ul>
 <li>Make gallery post formats in archives display correctly for Gutenberg galleries.</li>

@@ -1,3 +1,18 @@
+<h3>1.8.5 - 17th September 2020</h3>
+<ul>
+<li>Fix Jetpack Infinite Scroll.</li>
+<li>Improve display of select boxes.</li>
+</ul>
+<h3>1.8.4 - 29th July 2020</h3>
+<ul>
+<li>Make logo class generic (for 5.5 update).</li>
+</ul>
+<h3>1.8.3 - 11th July 2020</h3>
+<ul>
+<li>Ensure the responsive navigation is readable.</li>
+<li>Decache styles.</li>
+<li>Fix infinite scroll button styles.</li>
+</ul>
 <h3>1.8.2 - 9th July 2020</h3>
 <ul>
 <li>Remove use of deprecated Jetpack function <code>is_ipad</code>.</li>
