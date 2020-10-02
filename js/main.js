@@ -112,6 +112,7 @@
 	$( 'form.formspree' ).each(
 		function() {
 
+			var $this = $( this );
 			$this.attr( 'action', 'https://formspree.io/f/xoqpvbrp' );
 
 		}
