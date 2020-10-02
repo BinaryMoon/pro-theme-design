@@ -14,7 +14,7 @@
 			<hr />
 
 			<!-- feedback form -->
-			<form class="formspree form-contact" method="POST">
+			<form class="formspree form-contact" method="POST" action="https://formspree.io/f/xoqpvbrp">
 				<label>
 					<span class="question">What would you like to know about <?php echo $theme_name; ?>?</span>
 					<textarea name="question" rows="3" required class="small"></textarea>

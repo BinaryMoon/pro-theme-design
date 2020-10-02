@@ -14,7 +14,7 @@
 			<hr />
 
 			<!-- feedback form -->
-			<form class="formspree form-contact" method="POST">
+			<form class="formspree form-contact" method="POST" action="https://formspree.io/f/xoqpvbrp">
 				<?php include( $questions ); ?>
 
 				<label>
