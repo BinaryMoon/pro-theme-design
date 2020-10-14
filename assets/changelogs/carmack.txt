@@ -1,3 +1,7 @@
+<h3>2.15.5 - 5th October 2020</h3>
+<ul>
+<li>Add support for wp_body_open</li>
+</ul>
 <h3>2.15.4 - 12th August 2020</h3>
 <ul>
 <li>Add support for 'no link logo' on homepage: <a href="https://make.wordpress.org/core/2020/07/28/themes-changes-related-to-get_custom_logo-in-wordpress-5-5/">https://make.wordpress.org/core/2020/07/28/themes-changes-related-to-get_custom_logo-in-wordpress-5-5/</a></li>

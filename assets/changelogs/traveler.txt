@@ -1,3 +1,7 @@
+<h3>1.10.2 - 5th October 2020</h3>
+<ul>
+<li>Add support for wp_body_open</li>
+</ul>
 <h3>1.10.1 - 9th July 2020</h3>
 <ul>
 <li>Remove use of deprecated Jetpack function <code>is_ipad</code>.</li>

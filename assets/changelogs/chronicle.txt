@@ -1,3 +1,7 @@
+<h3>10.9.1 - 5th October 2020</h3>
+<ul>
+<li>Add support for wp_body_open</li>
+</ul>
 <h3>10.9 - 11th March 2020</h3>
 <ul>
 <li>Add support for Gutenberg features.</li>

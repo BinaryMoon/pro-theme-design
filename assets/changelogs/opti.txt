@@ -1,3 +1,7 @@
+<h3>1.8.6 - 5th October 2020</h3>
+<ul>
+<li>Add support for wp_body_open</li>
+</ul>
 <h3>1.8.5 - 17th September 2020</h3>
 <ul>
 <li>Fix Jetpack Infinite Scroll.</li>

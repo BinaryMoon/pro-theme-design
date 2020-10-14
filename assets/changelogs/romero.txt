@@ -1,3 +1,16 @@
+<h3>1.9.8 - 13th October 2020</h3>
+<ul>
+<li>Fix logo being hidden on mobile devices.</li>
+<li>Tweaks to avatar styles in post contributor box.</li>
+</ul>
+<h3>1.9.7 - 5th October 2020</h3>
+<ul>
+<li>Add support for wp_body_open.</li>
+</ul>
+<h3>1.9.6 - 3rd October 2020</h3>
+<ul>
+<li>Fix problem with mobile menu with dropdowns.</li>
+</ul>
 <h3>1.9.5 - 29th July 2020</h3>
 <ul>
 <li>Make logo class generic (for 5.5 update).</li>

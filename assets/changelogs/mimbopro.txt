@@ -1,3 +1,9 @@
+<h3>4.9 - 8th October 2020</h3>
+<ul>
+<li>Make CSS more resilient.</li>
+<li>Add wp_body_open.</li>
+<li>Improve custom colours.</li>
+</ul>
 <h3>4.8.1 - 24th February 2019</h3>
 <ul>
 <li>Add an action (mimbopro-header) in the header so that things like adverts can be inserted there.</li>

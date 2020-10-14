@@ -1,3 +1,7 @@
+<h3>2.4.3 - 5th October 2020</h3>
+<ul>
+<li>Add support for wp_body_open.</li>
+</ul>
 <h3>2.4.2 - 29th July 2020</h3>
 <ul>
 <li>Make logo class generic (for 5.5 update).</li>

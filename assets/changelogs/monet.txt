@@ -1,3 +1,7 @@
+<h3>1.13.6 - 5th October 2020</h3>
+<ul>
+<li>Add support for wp_body_open.</li>
+</ul>
 <h3>1.13.5 - 13th July 2020</h3>
 <ul>
 <li>Add support for accessible widget lists: <a href="https://make.wordpress.org/core/2020/07/09/accessibility-improvements-to-widgets-outputting-lists-of-links-in-5-5/">https://make.wordpress.org/core/2020/07/09/accessibility-improvements-to-widgets-outputting-lists-of-links-in-5-5/</a></li>
