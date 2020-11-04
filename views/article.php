@@ -16,7 +16,7 @@
 
 			<p class="note icon"><?php draw_svg( 'logo-social-twitter', 'large' ); ?>What do you think? Could we improve this? <a href="<?php echo twitter_share_link( 'I just read "' . $article[ 'name' ] . '" by @prothemedesign' ); ?>" target="_blank" rel="noopener">Let us know on Twitter</a>.</p>
 
-			<p class="meta">First published on: <time><?php echo $article['date']; ?></time></p>
+			<p class="meta">Updated: <time><?php echo $article['date']; ?></time></p>
 
 			<hr />
 
