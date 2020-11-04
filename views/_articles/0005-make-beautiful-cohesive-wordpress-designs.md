@@ -19,7 +19,8 @@ Whilst I really like making new things I find it helpful to have a set of guidel
 * **Learn from others** - sites like [Dribbble](https://dribbble.com/BinaryMoon) are great for inspiration, don't be afraid to use ideas, but don't copy outright.
 * **Use a pattern library** - great for consistency, and testing new functionality. [Why use a pattern library](https://boagworld.com/design/pattern-library/).
 * **Letter spacing** - more space for capitals, less space for bold. [Simple guidelines on letter spacing](http://johndjameson.com/blog/guidelines-for-letterspacing-type/).
-* **Use Math** - make sizes, padding and spacing multiples of a baseline value. This helps create harmony.[Mathematical web typography](http://jxnblk.com/writing/posts/mathematical-web-typography/).
+* **Use Math** - make sizes, padding and spacing multiples of a baseline value. This helps create harmony. [Mathematical web typography](http://jxnblk.com/writing/posts/mathematical-web-typography/).
+* **Text Alignment** - Don't justify text; It's hard to read. Centered text is ok for headings, and very short text (eg quotes). [Justify text with HTML/CSS? Don’t do it!](https://designforhackers.com/blog/justify-text-html-css/)
 
 
 ## Useful Resources
@@ -33,9 +34,9 @@ Below are a few tips to help when a design isn't going as you had hoped.
 
 * **Take a break** - take some time off from the project. It's hard to see things objectively when you work closely with something, so the more time you can take away from it, the more clearly you will see the flaws when you return.
 * **Clear you head** - go for a walk, get some sleep, watch a film. Anything that will make you forget about the project and think of something else for a while.
-* **Get a second opinion** - find someone you can trust to give you honest, constructive feedback. They don't have to be a designer - but it helps if they know about the thing you're designing (ie how to use a website :)).
+* **Get a second opinion** - find someone you can trust to give you honest, constructive feedback. They don't have to be a designer - but it helps if they know about the thing you're designing (ie how to use a website 😄).
 * **Start from scratch** - sometimes you just have to start again. That doesn't mean you have wasted time though. Often through creating one design you solve a lot of problems, and so your second design can be completed more quickly.
 
 ## Practice, Practice, Practice
 
-The more design you do, the better you will get, however I find having a set of guidelines can help re-align me when things go astray can be really helpful.
+The more design you do, the better you will get, however I find having a set of guidelines can help re-align me when things go astray.
