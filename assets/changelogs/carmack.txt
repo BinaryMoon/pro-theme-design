@@ -1,3 +1,14 @@
+<h3>2.15.7 - 20th January 2021</h3>
+<ul>
+<li>Fix issue with editor css on blocks like Verse, Code and any other blocks that use the <code>pre</code> element.</li>
+<li>Fix image alignments in post content.</li>
+<li>Fix wordwrap on post summaries.</li>
+</ul>
+<h3>2.15.6 - 2nd January 2021</h3>
+<ul>
+<li>Update rtl.css</li>
+<li>Fix jQuery error since jquery migrate has been removed.</li>
+</ul>
 <h3>2.15.5 - 5th October 2020</h3>
 <ul>
 <li>Add support for wp_body_open</li>
@@ -9,6 +20,7 @@
 <h3>2.15.3 - 13th July 2020</h3>
 <ul>
 <li>Add support for accessible widget lists: <a href="https://make.wordpress.org/core/2020/07/09/accessibility-improvements-to-widgets-outputting-lists-of-links-in-5-5/">https://make.wordpress.org/core/2020/07/09/accessibility-improvements-to-widgets-outputting-lists-of-links-in-5-5/</a></li>
+<li>Add 'navigation-widgets' to supported html5 types.</li>
 </ul>
 <h3>2.15.2 - 12th March 2020</h3>
 <ul>

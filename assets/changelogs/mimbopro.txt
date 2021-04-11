@@ -1,3 +1,13 @@
+<h3>4.9.2 - 17th March 2021</h3>
+<ul>
+<li>Fix settings bug with PHP 8+.</li>
+</ul>
+<h3>4.9.1 - 30th October 2020</h3>
+<ul>
+<li>Simplify category summaries code.</li>
+<li>Improve spacing in widgets with forms (archives and categories dropdowns).</li>
+<li>Tidy codes.</li>
+</ul>
 <h3>4.9 - 8th October 2020</h3>
 <ul>
 <li>Make CSS more resilient.</li>
