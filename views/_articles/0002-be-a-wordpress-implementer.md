@@ -44,10 +44,10 @@ To be a good WordPress Implementer you should:
 
 Most WordPress Implementors have some development knowledge, but it's always a good idea to keep them up to date. Below are a few resources that will help your WordPress skills stay fresh.
 
-* [The Codex](http://codex.wordpress.org) - a classic, and still the best programming resource for WordPress. This has loads of information about WordPress and how to develop for it.
-* [WordPress Developers](http://developers.wordpress.org) - this is going to be a replacement for the Codex, but currently is not as complete. There are however some useful elements and it will only get better with time.
-* [WordPress the Right Way](http://www.wptherightway.org/en/index.html) - a guide to the best practices for developing with WordPress. Less about code, and more about the best way to do things.
-* [WordPress Coding Styleguide](http://www.wptherightway.org/en/code_style_guide/index.html) - this document is part of the 'WordPress the Right Way' docs, but it collects the standards together. It's well worth following the standards since it makes transferring code between developers much simpler.
+* [The Codex](https://codex.wordpress.org) - a classic, and still the best programming resource for WordPress. This has loads of information about WordPress and how to develop for it.
+* [WordPress Developers](https://developers.wordpress.org) - this is going to be a replacement for the Codex, but currently is not as complete. There are however some useful elements and it will only get better with time.
+* [WordPress the Right Way](https://www.wptherightway.org/) - a guide to the best practices for developing with WordPress. Less about code, and more about the best way to do things.
+* [WordPress Coding Styleguide](https://www.wptherightway.org/code_style_guide) - this document is part of the 'WordPress the Right Way' docs, but it collects the standards together. It's well worth following the standards since it makes transferring code between developers much simpler.
 * [10up Engneering Best Practices](https://10up.github.io/Engineering-Best-Practices/) - in particular the [PHP best practice](https://10up.github.io/Engineering-Best-Practices/php/).
 
 ## The Best of Both Worlds?
