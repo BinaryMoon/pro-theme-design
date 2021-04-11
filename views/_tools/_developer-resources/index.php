@@ -27,11 +27,11 @@ $resources = array(
 		'uifaces.co',
 		'User Interface Faces',
 	),
-	array(
-		'Call to Idea',
-		'calltoidea.com',
-		'Interface Inspiration',
-	),
+	// array(
+	// 	'Call to Idea',
+	// 	'calltoidea.com',
+	// 	'Interface Inspiration',
+	// ),
 	array(
 		'Codeable',
 		'codeable.io/?ref=99Tpl',
@@ -67,11 +67,11 @@ $resources = array(
 		'mapglyphs.com/world-maps',
 		'World Map images.',
 	),
-	array(
-		'Hemingway App',
-		'hemingwayapp.com',
-		'An online text proof reader.',
-	),
+	// array(
+	// 	'Hemingway App',
+	// 	'hemingwayapp.com',
+	// 	'An online text proof reader.',
+	// ),
 	array(
 		'Devdocs',
 		'devdocs.io',
@@ -97,11 +97,11 @@ $resources = array(
 		'bennettfeely.com/clippy',
 		'A CSS clipping path generator.',
 	),
-	array(
-		'Subtle Patterns',
-		'subtlepatterns.com',
-		'A collection of images that are great for website/ presentation backgrounds.',
-	),
+	// array(
+	// 	'Subtle Patterns',
+	// 	'subtlepatterns.com',
+	// 	'A collection of images that are great for website/ presentation backgrounds.',
+	// ),
 	array(
 		'SVG Porn (SFW)',
 		'svgporn.com',
@@ -111,6 +111,11 @@ $resources = array(
 		'HTAccess Tester',
 		'htaccess.madewithlove.be',
 		'HTAccess Tester.',
+	),
+	array(
+		'CSS Scroll Shadows',
+		'css-scroll-shadows.now.sh',
+		'Auto showing/ hiding shadows in overflow scroll container.'
 	),
 
 );
