@@ -12,4 +12,4 @@
 	<li>Update/ Publish the post</li>
 </ol>
 
-<p>For more info check out the <a href="http://jetpack.me/support/contact-form/">contact form docs</a> on the official Jetpack website.</p>
+<p>For more info check out the <a href="https://jetpack.me/support/contact-form/">contact form docs</a> on the official Jetpack website.</p>

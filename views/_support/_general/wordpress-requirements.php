@@ -32,4 +32,4 @@
     <li>Opera 12+</li>
 </ul>
 
-<p>For the best experience, and security we recommend you keep your browser up to date. Check our <a href="http://browsehappy.com/">Browse Happy</a> for a list of the most up to date web browsers.</p>
+<p>For the best experience, and security we recommend you keep your browser up to date. Check our <a href="https://browsehappy.com/">Browse Happy</a> for a list of the most up to date web browsers.</p>

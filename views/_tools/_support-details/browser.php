@@ -1,8 +1,7 @@
 <?php
-
 /**
  * File: Browser.php
- * Author: Chris Schuld (http://chrisschuld.com/)
+ * Author: Chris Schuld (https://chrisschuld.com/)
  * Last Modified: July 22nd, 2016
  * @version 2.0
  * @package PegasusPHP

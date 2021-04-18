@@ -62,7 +62,8 @@
 					<input type="url" name="website" placeholder="https://prothemedesign.com" />
 				</label>
 
-				<input type="submit" value="Get Recommendation &rarr;" class="button" />
+				<!-- <input type="submit" value="Get Recommendation &rarr;" class="button" /> -->
+				<p><strong>We no longer provide this service.</strong></p>
 
 				<input type="hidden" name="_subject" value="Pro Theme Design Recommend a Theme - <?php echo date( 'j M y' ); ?>" />
 				<input type="hidden" name="_next" value="https://prothemedesign.com<?php echo path( 'contact/recommended/' ); ?>" />

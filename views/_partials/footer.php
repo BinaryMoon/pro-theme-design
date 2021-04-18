@@ -20,7 +20,7 @@
 						<li>
 							<?php draw_svg( 'media-link', 'small' ); ?>
 							<a href="https://www.binarymoon.co.uk" target="_blank" class="link" rel="noopener noreferrer">
-								 Personal Site
+								Personal Site
 							</a>
 						</li>
 						<li>
@@ -41,15 +41,15 @@
 					<p class="bio">Established in the WordPress community for projects like <strong>Mimbo</strong> and <strong>Agregado</strong>, Darren also has 14 years experience designing websites for businesses and startups. His role at Pro Theme Design is taking what Ben builds and making it beautiful and simple to use.</p>
 
 					<ul>
-						<li>
+						<!-- <li>
 							<?php draw_svg( 'media-link', 'small' ); ?>
 							<a href="http://www.darrenhoyt.com" target="_blank" class="link" rel="noopener noreferrer">
 								Personal Site
 							</a>
-						</li>
+						</li> -->
 						<li>
 							<?php draw_svg( 'logo-social-twitter', 'small' ); ?>
-							<a href="http://www.twitter.com/darrenhoyt" target="_blank" class="link" rel="noopener noreferrer">
+							<a href="https://www.twitter.com/darrenhoyt" target="_blank" class="link" rel="noopener noreferrer">
 								Follow Me on Twitter
 							</a>
 						</li>

@@ -2,11 +2,11 @@
 
 ## Commom Mistakes
 
-http://www.sterlinghamilton.com/wordpress-noob-common-mistakes/
+https://www.sterlinghamilton.com/wordpress-noob-common-mistakes/
 
 ## Troubleshooting Strategies
 
-http://zerro-four.com/wp-troubleshooting-outline/
+https://zerro-four.com/wp-troubleshooting-outline/
 https://tommcfarlin.com/debugging-wordpress/
 https://www.sitepoint.com/debugging-wordpress
 

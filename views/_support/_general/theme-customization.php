@@ -12,4 +12,4 @@
 
 <h2>Child Theme</h2>
 
-<p>If you are an advanced developer then creating a WordPress child theme is the best option. Doing this allows you to override php files, enqueue new css and javascript, and generally change the theme without worrying about breaking the theme. There's a good post on <a href="http://themeshaper.com/2009/04/17/wordpress-child-theme-basics/">Theme Shaper about child theme basics</a> that should get you started.</p>
+<p>If you are an advanced developer then creating a WordPress child theme is the best option. Doing this allows you to override php files, enqueue new css and javascript, and generally change the theme without worrying about breaking the theme. There's a good post on <a href="https://themeshaper.com/2009/04/17/wordpress-child-theme-basics/">Theme Shaper about child theme basics</a> that should get you started.</p>

@@ -8,8 +8,8 @@
 
 <h2>WordPress.com</h2>
 
-<p>WordPress.com offers a 30 day money back guarantee. There's info on the guarantee and <a href="http://support.wordpress.com/refund" target="_blank" rel="noopener">how to claim a refund on their support pages</a>.</p>
+<p>WordPress.com offers a 30 day money back guarantee. There's info on the guarantee and <a href="https://support.wordpress.com/refund" target="_blank" rel="noopener">how to claim a refund on their support pages</a>.</p>
 
 <h2>Creative Market</h2>
 
-<p>Creative Market have a policy of only refunding if there is a technical issue or something was falsely advertised. You can read the <a href="http://support.creativemarket.com/hc/en-us/articles/203248420-I-m-not-happy-with-my-purchase" target="_blank" rel="noopener">Creative Market refund policy here</a>.</p>
+<p>Creative Market have a policy of only refunding if there is a technical issue or something was falsely advertised. You can read the <a href="https://support.creativemarket.com/hc/en-us/articles/203248420-I-m-not-happy-with-my-purchase" target="_blank" rel="noopener">Creative Market refund policy here</a>.</p>

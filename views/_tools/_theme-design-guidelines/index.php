@@ -24,7 +24,7 @@
 		<li>Be retina ready.</li>
 		<li><a href="https://developer.wordpress.com/themes/#tux">Everything on the Theme UX Requirements List</a>.</li>
 		<li><a href="https://make.wordpress.org/themes/handbook/review/accessibility/required/">Accessibility Ready</a>.</li>
-		<li>All colour combinations should pass <a href="http://webaim.org/resources/contrastchecker/">AA colour contrast standards</a>.</li>
+		<li>All colour combinations should pass <a href="https://webaim.org/resources/contrastchecker/">AA colour contrast standards</a>.</li>
 		<li>Pass <a href="https://wordpress.org/plugins/theme-check/">Theme Check</a> and <a href="https://github.com/Automattic/vip-scanner">VIP scanner</a> plugin tests.</li>
 	</ul>
 

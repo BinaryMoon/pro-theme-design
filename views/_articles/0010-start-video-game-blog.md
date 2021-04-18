@@ -69,7 +69,7 @@ Next up is choosing a domain name. If you go with SiteGround you’ll get this f
 * Only use letters. No special characters, emojis (this is a thing!) or numbers.
 * Don’t use any trademarks in your domain name! Acronyms, however, may be okay. callofdutyfans.com would infringe the Call of Duty trademark, but codfans.com would be acceptable.
 
-Once you’re on board with these, read this guide on [how to choose a great domain name](https://winningwp.com/how-to-choose-a-great-domain-name-for-a-website/). The guide recommends three tools for choosing a domain name: [NameMesh](https://www.namemesh.com/), [Wordoid](http://wordoid.com/) and [Impossibility](http://impossibility.org/). A lot of domain names have already been registered, so use these tools to find good gaming domain names that are still available.
+Once you’re on board with these, read this guide on [how to choose a great domain name](https://winningwp.com/how-to-choose-a-great-domain-name-for-a-website/). The guide recommends three tools for choosing a domain name: [NameMesh](https://www.namemesh.com/), [Wordoid](https://wordoid.com/) and [Impossibility](https://impossibility.org/). A lot of domain names have already been registered, so use these tools to find good gaming domain names that are still available.
 
 With your domain name chosen, it’s time to register it! SiteGround will handle this as part of the signup process, and for FlyWheel you should use [NameCheap](https://www.namecheap.com/) to register the name.
 
@@ -149,7 +149,7 @@ The next step is to get WordPress setup, with a couple of customizations unique 
 
 In this section we’ll cover some of the plugins you can add to enhance your video game blog.
 
-If you’re unfamiliar with WordPress plugins or how to install them, then you’ll want to read [this convenient guide](http://www.wpbeginner.com/beginners-guide/step-by-step-guide-to-install-a-wordpress-plugin-for-beginners/), which also includes a video tutorial.
+If you’re unfamiliar with WordPress plugins or how to install them, then you’ll want to read [this convenient guide](https://www.wpbeginner.com/beginners-guide/step-by-step-guide-to-install-a-wordpress-plugin-for-beginners/), which also includes a video tutorial.
 
 ## Get the all-in-one plugin that solves the common problems
 

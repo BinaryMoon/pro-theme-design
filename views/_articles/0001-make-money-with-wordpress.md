@@ -31,7 +31,7 @@ Beware of selling links. If you don't add links as 'nofollow' then you may end u
 
 There's lots of blogs about blogging - and making a successful blog. If you're just getting started then the [WordPress.com Blogging University courses](https://dailypost.wordpress.com/blogging-university/) are a good place to start.
 
-Once you're up and running then there's a lot of good tips on sites like [Pro Blogger](http://www.problogger.net/), [How to make my blog](http://howtomakemyblog.com/), and [Daily Blog Tips](http://www.dailyblogtips.com/).
+Once you're up and running then there's a lot of good tips on sites like [Pro Blogger](https://www.problogger.net/), [How to make my blog](https://howtomakemyblog.com/), and [Daily Blog Tips](https://www.dailyblogtips.com/).
 
 You've built a WordPress blog and now you need to promote it, a great place to start is the [Google Digital Garage](https://digitalgarage.withgoogle.com/) - they will create a lesson plan customised to your business and run you through the basics of marketing your website.
 
@@ -87,7 +87,7 @@ Of course it's not quite as simple as using these apps, if people are paying you
 
 People need to learn, and if you're highly skilled at something then sharing your knowledge can be a great way to earn money. Some of the things you could do include:
 
-* Creating a blog that teaches people your skills - and then hiring yourself out to give 1 to 1 tuition and advice. [Chris Lema](https://chrislema.com/) has been doing great with this by selling time with himself for people to pick his brain (using [Clarity.fm](http://clarity.fm/)).
+* Creating a blog that teaches people your skills - and then hiring yourself out to give 1 to 1 tuition and advice. [Chris Lema](https://chrislema.com/) has been doing great with this by selling time with himself for people to pick his brain (using [Clarity.fm](https://clarity.fm/)).
 * Writing tutorials and charging for videos or other supplemental content that offers more detailed information and help. I'm trying something like this for WordPress with [MasterWP](https://masterwp.co).
 * Creating a subscription site or community, offering some content for free, and more advanced content for money.
 * Creating content for education websites like [Udemy](https://www.udemy.com/), and [Codecademy](https://www.codecademy.com/). You don't even need a website for this!
@@ -108,12 +108,12 @@ As of December 2018 the new WordPress editor has been merged with core. The intr
 To sell themes and plugins you could try the following marketplaces:
 
 * [Creative Market](https://creativemarket.com/?u=BinaryMoon) - for themes, or digital assets
-* [ThemeForest](http://themeforest.net/) - for themes
-* [Mojo Themes](http://www.mojo-themes.com/) - for themes
-* [CodeCanyon](http://codecanyon.net/) - for plugins
-* [Mojo Code](http://www.mojo-code.com/) - for plugins
+* [ThemeForest](https://themeforest.net/) - for themes
+* [Mojo Themes](https://www.mojo-themes.com/) - for themes
+* [CodeCanyon](https://codecanyon.net/) - for plugins
+* [Mojo Code](https://www.mojo-code.com/) - for plugins
 
-Alternatively you could always build and sell the themes/ plugins on your own site. In fact I would always recommend doing this since you will then be the one in control. You can set the prices and you own the customer details. Personally I really like [Fastspring](http://fastspring.com) for selling from my own site, however there are many similar services out there so you can find the ones you like best.
+Alternatively you could always build and sell the themes/ plugins on your own site. In fact I would always recommend doing this since you will then be the one in control. You can set the prices and you own the customer details. Personally I really like [Fastspring](https://fastspring.com) for selling from my own site, however there are many similar services out there so you can find the ones you like best.
 
 <div class="note icon" markdown="1">{svg:alert-info,large}If I was starting now I would create themes and plugins for a specific, underserved, group of users. I would then try to make the ultimate product for that group of users. This will make marketing much easier.</div>
 
@@ -124,7 +124,7 @@ If you can build a loyal group of people who love the content you produce then y
 
 Often less technical people can get scared when you talk about selling things online however there's many services out there that do all the work for you. All you have to do is create the content and then upload it to their service. Below are a few popular services that could help you get started:
 
-* [Fastspring](http://fastspring.com) - the service I use to sell WordPress themes here on [Pro Theme Design](path:/)
+* [Fastspring](https://fastspring.com) - the service I use to sell WordPress themes here on [Pro Theme Design](path:/)
 * [Selz](https://selz.com/)
 * [Sellfy](https://sellfy.com/)
 
@@ -142,7 +142,7 @@ Website flipping is the act of creating (or purchasing) a website, improving it,
 
 Creating a simple WordPress site, filling it with some content, and then flipping it - is relatively easy for an experienced WordPress developer. However if it's a basic site with no traffic you'll not get much back from your investment. What you need to do is build the website into a good property with decent traffic and Google rankings (and ideally income), and that's when the big money can begin.
 
-The most popular place for selling websites is [Flippa](http://flippa.com). You can find all sorts of sites on there - including some that you might consider bargains.
+The most popular place for selling websites is [Flippa](https://flippa.com). You can find all sorts of sites on there - including some that you might consider bargains.
 
 The alternative is to search through Flippa and find sites you think you can bring value to - and buy them. You will then have a pre-existing site that you can enhance. Once you've built it up you can always flip it on to someone else.
 
@@ -176,4 +176,4 @@ All of these services (and I'm sure there's others), could have other products a
 
 This article shows some of the variety of jobs available for WordPress users. It doesn't matter how technically minded you are. If you can apply yourself to your craft - and have some patience and determination then there's no reason you can't earn money with WordPress.
 
-<!-- http://howtomakemyblog.com/ -->
+<!-- https://howtomakemyblog.com/ -->

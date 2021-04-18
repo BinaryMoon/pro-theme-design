@@ -11,7 +11,7 @@
 	<li>Add testimonials under the new Testimonials menu item in your sidebar.</li>
 </ol>
 
-<p>After you’ve added some testimonials, they’ll be visible on your website by visiting http://yoursite.com/testimonial/.</p>
+<p>After you’ve added some testimonials, they’ll be visible on your website by visiting https://yoursite.com/testimonial/.</p>
 
 <h2>Adding and Editing Testimonials</h2>
 
@@ -19,4 +19,4 @@
 
 <h2>Testimonial Shortcode</h2>
 
-<p>Testimonials also come with a shortcode to let you easily display testimonials on posts and pages. <em>[testimonials]</em> embeds an archive view of your testimonials. Full properties and parameters are available on the <a href="http://support.wordpress.com/testimonials/testimonials-shortcode/">Testimonials Shortcode documentation</a>.</p>
+<p>Testimonials also come with a shortcode to let you easily display testimonials on posts and pages. <em>[testimonials]</em> embeds an archive view of your testimonials. Full properties and parameters are available on the <a href="https://support.wordpress.com/testimonials/testimonials-shortcode/">Testimonials Shortcode documentation</a>.</p>

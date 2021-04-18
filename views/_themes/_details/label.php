@@ -22,7 +22,7 @@
 
 	<h3>Make your readers happy with responsive design</h3>
 
-	<!-- <p>image: http://smartmockups.com/mockup/digital_mockuuups_1 (could you do this? I don’t have an iPhone :) – for these, keep the iOS UI in the screenshot and they look more realistic.)</p> -->
+	<!-- <p>image: https://smartmockups.com/mockup/digital_mockuuups_1 (could you do this? I don’t have an iPhone :) – for these, keep the iOS UI in the screenshot and they look more realistic.)</p> -->
 
 	<p>Your readers will love Label’s responsive design. Responsive design makes a blog look great on desktop, tablet and mobile, so readers can take your blog wherever they like.</p>
 

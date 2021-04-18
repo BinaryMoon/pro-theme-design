@@ -10,4 +10,4 @@
     <li>Press Save</li>
 </ol>
 
-<p>For more info check out the <a href="http://jetpack.me/support/widget-visibility/" target="_blank" rel="noopener">widget visibility</a> docs on the official Jetpack website.</p>
+<p>For more info check out the <a href="https://jetpack.me/support/widget-visibility/" target="_blank" rel="noopener">widget visibility</a> docs on the official Jetpack website.</p>

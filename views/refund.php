@@ -8,7 +8,7 @@
 		<div class="wrapper text">
 
 			<h1>Refund Request</h1>
-			<p class="intro">Really sorry to hear you're not happy with the theme - however we totally understand. We have a <strong>30 day refund policy for all themes purchased through Fastspring</strong>. <em>For other payment providers please see the <a href="<?php echo path( 'documentation/general/refunds/' ); ?>">refunds page</a></em>.</p>
+			<p class="intro">Really sorry to hear you're not happy with the theme - however I totally understand. Pro Theme Design has a <strong>30 day refund policy for all themes purchased through Fastspring</strong>. <em>For other payment providers please see the <a href="<?php echo path( 'documentation/general/refunds/' ); ?>">refunds page</a></em>.</p>
 
 			<hr />
 

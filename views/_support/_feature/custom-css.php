@@ -11,12 +11,12 @@
 <p>CSS is a surprisingly complex thing and can take many years to master - however there are a few things that can be learnt reasonable easily. Below are a few tutorials that will help you to get started.</p>
 
 <ul>
-	<li><a href="http://www.htmldog.com/guides/css/beginner/">CSS Beginner Tutorial</a> by HTML Dog</li>
-	<li><a href="http://www.codecademy.com/courses/web-beginner-en-TlhFi/0/1?curriculum_id=50579fb998b470000202dc8b">Hands-on Codecademy&nbsp;CSS Lessons</a></li>
-	<li><a href="http://dailypost.wordpress.com/2013/06/21/css-intro/">An Intro to CSS, or How to Make Things Look Like You Like</a></li>
-	<li><a href="http://dailypost.wordpress.com/2013/07/25/css-selectors/">An Intro to CSS: Finding CSS Selectors</a></li>
-	<li><a href="http://dailypost.wordpress.com/2013/08/29/css-matched-rule-pane/">Intro to CSS: Previewing Changes with the Matched Rule Pane</a></li>
-	<li><a href="http://dailypost.wordpress.com/2014/02/26/should-i-learn-css/">Should I Learn CSS?</a></li>
+	<li><a href="https://www.htmldog.com/guides/css/beginner/">CSS Beginner Tutorial</a> by HTML Dog</li>
+	<li><a href="https://www.codecademy.com/courses/web-beginner-en-TlhFi/0/1?curriculum_id=50579fb998b470000202dc8b">Hands-on Codecademy&nbsp;CSS Lessons</a></li>
+	<li><a href="https://dailypost.wordpress.com/2013/06/21/css-intro/">An Intro to CSS, or How to Make Things Look Like You Like</a></li>
+	<li><a href="https://dailypost.wordpress.com/2013/07/25/css-selectors/">An Intro to CSS: Finding CSS Selectors</a></li>
+	<li><a href="https://dailypost.wordpress.com/2013/08/29/css-matched-rule-pane/">Intro to CSS: Previewing Changes with the Matched Rule Pane</a></li>
+	<li><a href="https://dailypost.wordpress.com/2014/02/26/should-i-learn-css/">Should I Learn CSS?</a></li>
 </ul>
 
 <h2>Frequently Asked Questions</h2>

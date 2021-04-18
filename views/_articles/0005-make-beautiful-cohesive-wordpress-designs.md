@@ -2,31 +2,31 @@
 
 Whilst I really like making new things I find it helpful to have a set of guidelines available to refer to when something doesn't look quite right.
 
-* **Line Height** - Line spacing should be set to at least 1.3, around 1.5 is generally good. Don't go too high or text becomes hard to read. [CSS Line Height](http://mrmrs.io/writing/2015/06/07/line-height/).
-* **Line length** - too many characters on a line is hard to follow. Aim for 45–90 characters or 2–3 alphabets. [More on line length](http://typographyforlawyers.com/line-length.html)
-* **Whitespace** - the more the merrier. [More on whitespace](http://www.seguetech.com/blog/2013/03/20/why-whitespace-important-web-design).
+* **Line Height** - Line spacing should be set to at least 1.3, around 1.5 is generally good. Don't go too high or text becomes hard to read. [CSS Line Height](https://mrmrs.io/writing/2015/06/07/line-height/).
+* **Line length** - too many characters on a line is hard to follow. Aim for 45–90 characters or 2–3 alphabets. [More on line length](https://typographyforlawyers.com/line-length.html)
+* **Whitespace** - the more the merrier. [More on whitespace](https://www.seguetech.com/blog/2013/03/20/why-whitespace-important-web-design).
 * **Proximity** - keep related elements nearby. [More on proximity and similarity](https://www.smashingmagazine.com/2016/05/improve-your-designs-with-principles-similarity-proximity-part-1/).
 * **Font faces** - use no more than 3 fonts, less than that is better.
 * **Font weights** - use different font weights for interest and emphasis.
-* **Font size** - use a type scale to ensure beautiful, consistent font sizes. [Create a type scale/ modular scale](http://www.modularscale.com/).
+* **Font size** - use a type scale to ensure beautiful, consistent font sizes. [Create a type scale/ modular scale](https://www.modularscale.com/).
 * **Simple, Minimal** - less is more.
-* **Contrast fonts (and font sizes)** - for visual interest. [Contrast, harmony, and personality in fonts](http://casselbear.com/contrast-harmony-personality-pairing-fonts/).
-* **Contrast colours** - for accessibility. [Colour and contrast on web pages](http://accessibility.psu.edu/color/contrasthtml/).
-* **Vertical Rhythm** - creates visual harmony. [More on vertical rhythm](http://typecast.com/blog/4-simple-steps-to-vertical-rhythm).
+* **Contrast fonts (and font sizes)** - for visual interest. [Contrast, harmony, and personality in fonts](https://casselbear.com/contrast-harmony-personality-pairing-fonts/).
+* **Contrast colours** - for accessibility. [Colour and contrast on web pages](https://accessibility.psu.edu/color/contrasthtml/).
+* **Vertical Rhythm** - creates visual harmony. [More on vertical rhythm](https://zellwk.com/blog/why-vertical-rhythms/).
 * **Colour** - keep colours simple. Start with black, white, and 1 key colour. Add more as you need them. Too many colours is confusing. [Web Developers guide to colour](https://www.smashingmagazine.com/2016/04/web-developer-guide-color/).
-* **Consistency** - make everything as consistent as possible. Reuse styles in different elements. [The importance of consistency in web design](http://www.uxpassion.com/blog/the-importance-of-visual-consistency-in-ui-design/).
+* **Consistency** - make everything as consistent as possible. Reuse styles in different elements. [The importance of consistency in web design](https://www.uxpassion.com/blog/the-importance-of-visual-consistency-in-ui-design/).
 * **Animation** - use animation, use it sparingly. Good animation can be amazing, bad animation can ruin a website. [An introduction to animation in web design](https://designshack.net/articles/graphics/an-introduction-to-animation-in-web-design/).
 * **Learn from others** - sites like [Dribbble](https://dribbble.com/BinaryMoon) are great for inspiration, don't be afraid to use ideas, but don't copy outright.
 * **Use a pattern library** - great for consistency, and testing new functionality. [Why use a pattern library](https://boagworld.com/design/pattern-library/).
-* **Letter spacing** - more space for capitals, less space for bold. [Simple guidelines on letter spacing](http://johndjameson.com/blog/guidelines-for-letterspacing-type/).
-* **Use Math** - make sizes, padding and spacing multiples of a baseline value. This helps create harmony. [Mathematical web typography](http://jxnblk.com/writing/posts/mathematical-web-typography/).
+* **Letter spacing** - more space for capitals, less space for bold. [Simple guidelines on letter spacing](https://johndjameson.com/blog/guidelines-for-letterspacing-type/).
+* **Use Math** - make sizes, padding and spacing multiples of a baseline value. This helps create harmony. [Mathematical web typography](https://jxnblk.com/writing/posts/mathematical-web-typography/).
 * **Text Alignment** - Don't justify text; It's hard to read. Centered text is ok for headings, and very short text (eg quotes). [Justify text with HTML/CSS? Don’t do it!](https://designforhackers.com/blog/justify-text-html-css/)
 
 
 ## Useful Resources
 
-* [Front end principles for designers](http://jonyablonski.com/2015/front-end-principles-for-designers/)
-* [Practical Typography](http://practicaltypography.com/)
+* [Front end principles for designers](https://jonyablonski.com/2015/front-end-principles-for-designers/)
+* [Practical Typography](https://practicaltypography.com/)
 
 ## When Things Aren't Working...
 

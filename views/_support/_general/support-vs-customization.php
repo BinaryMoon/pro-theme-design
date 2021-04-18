@@ -9,9 +9,9 @@
 <h3>Example Support Requests</h3>
 
 <ul>
-    <li>Why doesn't the infinite scroll work like in the theme demo?</li>
-    <li>My theme is broken and I don't know what has happened. Can you help please?</li>
-    <li>I've found a bug in the theme that is preventing me from using the theme as I'd like.</li>
+	<li>Why doesn't the infinite scroll work like in the theme demo?</li>
+	<li>My theme is broken and I don't know what has happened. Can you help please?</li>
+	<li>I've found a bug in the theme that is preventing me from using the theme as I'd like.</li>
 </ul>
 
 <h2>Customization</h2>
@@ -23,10 +23,10 @@
 <h3>Example Customization Requests</h3>
 
 <ul>
-    <li>How do I add an extra sidebar to this page?</li>
-    <li>I want to change the look of the homepage so that it is different to the demo - what should I do?</li>
-    <li>How do I add support for this new thing that?</li>
-    <li>Can you recommend a plugin to improve my website?</li>
+	<li>How do I add an extra sidebar to this page?</li>
+	<li>I want to change the look of the homepage so that it is different to the demo - what should I do?</li>
+	<li>How do I add support for this new thing that?</li>
+	<li>Can you recommend a plugin to improve my website?</li>
 </ul>
 
 <h2>3rd Party Plugins</h2>
@@ -42,10 +42,10 @@
 <p>Below are some handy websites that should help you get started:</p>
 
 <ul>
-    <li><a href="https://codex.wordpress.org/Installing_WordPress" target="_blank" rel="noopener">Getting Started with WordPress</a></li>
-    <li><a href="https://codex.wordpress.org/First_Steps_With_WordPress" target="_blank" rel="noopener">First Steps with WordPress</a></li>
-    <li><a href="http://wordpress.org/support/">WordPress.org Forums</a></li>
-    <li><a href="http://wordpress.stackexchange.com/">WordPress Answers StackExchange</a></li>
+	<li><a href="https://codex.wordpress.org/Installing_WordPress" target="_blank" rel="noopener">Getting Started with WordPress</a></li>
+	<li><a href="https://codex.wordpress.org/First_Steps_With_WordPress" target="_blank" rel="noopener">First Steps with WordPress</a></li>
+	<li><a href="https://wordpress.org/support/">WordPress.org Forums</a></li>
+	<li><a href="https://wordpress.stackexchange.com/">WordPress Answers StackExchange</a></li>
 </ul>
 
 <p>If you're still stuck then there are many websites and tutorials out there that explain the WordPress basics so we would recommend using Google to try and find the solution to your WordPress problems.</p>

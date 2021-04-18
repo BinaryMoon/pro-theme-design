@@ -8,7 +8,7 @@
 		<div class="wrapper text">
 
 			<h1>Pro Theme Design Feedback</h1>
-			<p class="intro">Hi there, thanks for agreeing to give us some feedback. We love getting feedback and use it to ensure we make the best products possible.</p>
+			<p class="intro">Hi there, thanks for agreeing to give us some feedback. I love getting feedback and use it to ensure I make the best products possible.</p>
 			<p>Click here if you're looking for <a href="<?php echo path( '/contact/' ); ?>">customer support</a>.</p>
 
 			<hr />

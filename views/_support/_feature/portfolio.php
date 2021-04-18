@@ -11,7 +11,7 @@
 	<li>Add projects under the new Portfolio menu item in your sidebar.</li>
 </ol>
 
-<p>After you’ve added some projects, they’ll be visible on your website at <em>http://yoursite.com/portfolio/</em>.</p>
+<p>After you’ve added some projects, they’ll be visible on your website at <em>https://yoursite.com/portfolio/</em>.</p>
 
 <h2>Editing Projects</h2>
 
@@ -25,16 +25,16 @@
 
 <p>There are a few different ways to view your portfolio projects after they’ve been created.</p>
 
-<p>The following links are created once you add portfolio projects, types, and tags. Be sure to swap the words in bold with your real site address. For example, if your project type is called Watercolors, your default slug will be watercolors and your address for the watercolors project type archive will be http://yoursite.com/project-type/project-type-watercolors/.</p>
+<p>The following links are created once you add portfolio projects, types, and tags. Be sure to swap the words in bold with your real site address. For example, if your project type is called Watercolors, your default slug will be watercolors and your address for the watercolors project type archive will be https://yoursite.com/project-type/project-type-watercolors/.</p>
 
 <ul>
-	<li>Portfolio Archive – http://yoursite.com/portfolio/</li>
-	<li>Single Project Page – http://yoursite.com/portfolio/project-slug/</li>
-	<li>Project Type Archive – http://yoursite.com/project-type/project-type-slug/</li>
-	<li>Project Tag Archive – http://yoursite.com/project-tag/project-tag-slug/</li>
+	<li>Portfolio Archive – https://yoursite.com/portfolio/</li>
+	<li>Single Project Page – https://yoursite.com/portfolio/project-slug/</li>
+	<li>Project Type Archive – https://yoursite.com/project-type/project-type-slug/</li>
+	<li>Project Tag Archive – https://yoursite.com/project-tag/project-tag-slug/</li>
 </ul>
 
-<p class="note"><strong>Note:</strong> Since portfolios are displayed automatically at the address <em>http://yoursite.com/portfolio/</em> it’s important that you don’t create any pages, categories, or tags called “portfolio,” otherwise your projects may not display as intended.</p>
+<p class="note"><strong>Note:</strong> Since portfolios are displayed automatically at the address <em>https://yoursite.com/portfolio/</em> it’s important that you don’t create any pages, categories, or tags called “portfolio,” otherwise your projects may not display as intended.</p>
 
 <h2>Portfolio Shortcode</h2>
 

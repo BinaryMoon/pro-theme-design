@@ -1,4 +1,4 @@
-http://webdesign.tutsplus.com/articles/tips-for-dealing-with-stress-in-the-digital-industry--cms-26753
+https://webdesign.tutsplus.com/articles/tips-for-dealing-with-stress-in-the-digital-industry--cms-26753
 
 https://webdevstudios.com/2016/07/14/stay-healthy-working-at-a-desk/
 

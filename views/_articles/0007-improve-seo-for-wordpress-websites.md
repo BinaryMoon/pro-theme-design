@@ -18,7 +18,7 @@ XML Sitemaps and Webmaster tools
 
 Optimise images
 
-http://www.screamingfrog.co.uk/seo-spider/
+https://www.screamingfrog.co.uk/seo-spider/
 
 Ensure all links have link text and alt text
 
@@ -26,6 +26,6 @@ Minimise use of Javascript around content
 
 Use nofollow on links that are advertising/ not directly relevant to your website
 
-http://torquemag.io/2016/03/technical-seo-for-wordpress/
+https://torquemag.io/2016/03/technical-seo-for-wordpress/
 
 https://ma.ttias.be/technical-guide-seo/

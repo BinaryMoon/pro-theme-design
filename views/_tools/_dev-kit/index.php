@@ -10,9 +10,9 @@
 	<ul>
 		<li><a href="https://atom.io/">Atom</a> - for code editing.</li>
 		<li><a href="https://www.sketchapp.com/">Sketch</a> - for UI and design things.</li>
-		<li><a href="http://flyingmeat.com/acorn/">Acorn</a> - for photo editing.</li>
+		<li><a href="https://flyingmeat.com/acorn/">Acorn</a> - for photo editing.</li>
 		<li><a href="https://incident57.com/codekit/">Codekit</a> - for processing LESS files, and linting JS.</li>
-		<li><a href="http://gulpjs.com/">GulpJS</a> - for building and deploying files.</li>
+		<li><a href="https://gulpjs.com/">GulpJS</a> - for building and deploying files.</li>
 	</ul>
 
 	<h2>Web Technologies</h2>
@@ -21,11 +21,11 @@
 
 	<h3>FlightPHP</h3>
 
-	<p><a href="http://flightphp.com/">FlightPHP</a> is a PHP microframework. Essentially it's a simple system that allows us to add routes (page paths) and create different views (templates). The Framework is easy to use and allows me to iterate quickly. We use it instead of WordPress because it removes the data layer, and it allows me to be more flexible with templating and routes.</p>
+	<p><a href="https://flightphp.com/">FlightPHP</a> is a PHP microframework. Essentially it's a simple system that allows us to add routes (page paths) and create different views (templates). The Framework is easy to use and allows me to iterate quickly. We use it instead of WordPress because it removes the data layer, and it allows me to be more flexible with templating and routes.</p>
 
 	<h3>JQuery</h3>
 
-	<p>All web developers know about <a href="http://jquery.com">JQuery</a>, it's a javascript library that makes things a lot easier. I've considered going framework free, or using a slimmer framework like Zepto, however the convenience and flexibility of JQuery is worth more than the effort required to switch.</p>
+	<p>All web developers know about <a href="https://jquery.com">JQuery</a>, it's a javascript library that makes things a lot easier. I've considered going framework free, or using a slimmer framework like Zepto, however the convenience and flexibility of JQuery is worth more than the effort required to switch.</p>
 
 	<h3>Google Fonts</h3>
 
@@ -43,17 +43,17 @@
 
 	<h3>Newsletter - Mailchimp</h3>
 
-	<p><a href="http://mailchimp.com">Mailchimp</a> is a great service for newsletters. We love their flexibility and wealth of features.</p>
+	<p><a href="https://mailchimp.com">Mailchimp</a> is a great service for newsletters. We love their flexibility and wealth of features.</p>
 
 	<h3>Online Store - Fastspring (and Creative Market)</h3>
 
 	<p>Many people use WooCommerce or Easy Digital Downloads for selling things online, but these can be complex to setup and maintain. Using a third party service designed for selling products removes all maintanence, and security concerns. If you chose the right services then it also removes VATMOSS requirements (particularly important for people in the EU).</p>
 
-	<p>We sell our products through 2 services. <a href="http://fastspring.com">Fastspring</a>, and <a href="https://creativemarket.com/BinaryMoon?u=BinaryMoon">Creative Market</a>.</p>
+	<p>We sell our products through 2 services. <a href="https://fastspring.com">Fastspring</a>, and <a href="https://creativemarket.com/BinaryMoon?u=BinaryMoon">Creative Market</a>.</p>
 
 	<h3>Analytics - Google Analytics</h3>
 
-	<p>For website analytics, I'm not sure why you'd want to use anything other than <a href="http://analytics.google.com/">Google Analytics</a>. There are services that simplify the data, but GA is super powerful and does everything you could ever need.</p>
+	<p>For website analytics, I'm not sure why you'd want to use anything other than <a href="https://analytics.google.com/">Google Analytics</a>. There are services that simplify the data, but GA is super powerful and does everything you could ever need.</p>
 
 	<h3>Version Control - Github</h3>
 
@@ -69,7 +69,7 @@
 
 	<h3>Accounts - FreeAgent</h3>
 
-	<p>Doing your accounts is a neccessary part of running a small business. <a href="http://fre.ag/43bm4hft">FreeAgent</a> takes a lot of the pain out of it so that I can put in the minimum effort possible. Love it.</p>
+	<p>Doing your accounts is a neccessary part of running a small business. <a href="https://fre.ag/43bm4hft">FreeAgent</a> takes a lot of the pain out of it so that I can put in the minimum effort possible. Love it.</p>
 
 	<h3>Site Search - Google Custom Search Engine</h3>
 

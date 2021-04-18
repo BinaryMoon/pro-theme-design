@@ -26,7 +26,7 @@
 
 			<h3>Contact Forms</h3>
 
-			<p>The main method for us collecting data is through our contact forms. Here you will supply your name and email address so that we can respond to your messages. Our contact forms use a third party service called Formspree. The <a href="http://docs.formspree.io/files/privacy.pdf">Formspree privacy policy</a> can be read here: http://docs.formspree.io/files/privacy.pdf</p>
+			<p>The main method for us collecting data is through our contact forms. Here you will supply your name and email address so that we can respond to your messages. Our contact forms use a third party service called Formspree. The <a href="https://docs.formspree.io/files/privacy.pdf">Formspree privacy policy</a> can be read here: https://docs.formspree.io/files/privacy.pdf</p>
 
 			<h3>Online Purchases</h3>
 

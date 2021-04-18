@@ -2,13 +2,13 @@
 
 <pre>
 // basic shot 600px wide
-[browser-shot url="http://link-to-website" width="600"]
+[browser-shot url="https://link-to-website" width="600"]
 
 // shot with link to other website
-[browser-shot url="http://link-to-website" width="700" link="https://www.binarymoon.co.uk/"]
+[browser-shot url="https://link-to-website" width="700" link="https://www.binarymoon.co.uk/"]
 
 // shot with caption (uses default WordPress caption styles)
-[browser-shot url="http://link-to-website" width="700"]Add Caption[/browser-shot]
+[browser-shot url="https://link-to-website" width="700"]Add Caption[/browser-shot]
 </pre>
 
 <h2>Available Parameters</h2>

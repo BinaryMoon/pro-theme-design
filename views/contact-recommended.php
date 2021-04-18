@@ -7,7 +7,7 @@
 
 		<div class="wrapper text">
 			<h2>All done!</h2>
-			<p class="intro">We are putting together your personalised WordPress theme recommendation now and you will hear from us within 24 hours (Monday to Friday).</p>
+			<p class="intro">I am putting together your personalised WordPress theme recommendation now and you will hear from me within 48 hours (Monday to Friday).</p>
 		</div>
 
 		<script>fbq( 'track', 'email_contact_recommended_theme' );</script>

@@ -31,7 +31,7 @@
 
 			<h2>License</h2>
 
-			<p>All of our products are licensed under the same license as WordPress, the GPL – there is more information on the <a href="http://codex.wordpress.org/GPL">GPL license</a> available on the WordPress Codex. Support for Pro Theme Design products will only be given to those who purchase a Pro Theme Design product.</p>
+			<p>All of our products are licensed under the same license as WordPress, the GPL – there is more information on the <a href="https://codex.wordpress.org/GPL">GPL license</a> available on the WordPress Codex. Support for Pro Theme Design products will only be given to those who purchase a Pro Theme Design product.</p>
 
 			<h2>Multiple Sites</h2>
 
@@ -64,7 +64,7 @@
 			<p>We offer a 30 day refund Guarantee on all purchases at Pro Theme Design. The only thing we ask is that you explain why, so that we can improve things for future customers. There's more information on this on our <a href="https://prothemedesign.com/documentation/general/refunds/">refund documentation</a>.</p>
 			<h2>Transferring themes from WordPress.com</h2>
 
-			<p>Unfortunately themes purchased on WordPress.com are separate products and so are non transferable. This is detailed on the <a href="http://en.support.wordpress.com/themes/premium-themes/">premium theme terms on WordPress.com</a>. If you wish to move from WordPress.com to a self hosted site then you will need to repurchase your theme.</p>
+			<p>Unfortunately themes purchased on WordPress.com are separate products and so are non transferable. This is detailed on the <a href="https://en.support.wordpress.com/themes/premium-themes/">premium theme terms on WordPress.com</a>. If you wish to move from WordPress.com to a self hosted site then you will need to repurchase your theme.</p>
 		</div>
 
 
