@@ -17,6 +17,8 @@
 
 			<p>For self hosted themes you can use our <a href="<?php echo path( 'contact/' ); ?>">contact page</a>.</p>
 
+			<p>For email support we aim to reply with 2 business days.</p>
+
 			<p>Theme support is offered to all users with a valid theme club subscription.</p>
 
 			<p>The support we offer is restricted to fixing bugs in our themes. Unfortunately we don't help with theme modifications/ customizations or installation issues. For help with customizations we have partnered with Codeable who offer <a href="<?php echo path( 'theme-customization/' ); ?>">customization services for WordPress websites</a>.</p>

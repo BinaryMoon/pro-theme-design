@@ -6,7 +6,7 @@
 		<?php include( '_partials/header.php' ); ?>
 
 		<div class="wrapper text">
-			<h1>How can we help?</h1>
+			<h1>How can I help?</h1>
 
 			<div class="contact-selection">
 				<a class="contact-customization" href="<?php echo path( 'theme-customization/' ); ?>">Theme Customization <?php draw_svg( 'arrow-right', 'small' ); ?></a>
@@ -82,7 +82,7 @@
 
 				<label>
 					<span>Your Website</span>
-					<input type="text" name="name" value="http://" required />
+					<input type="text" name="name" value="https://" required />
 				</label>
 
 
@@ -97,6 +97,11 @@
 				<input type="hidden" name="_next" value="//prothemedesign.com<?php echo path( 'contact/thanks/' ); ?>" />
 				<input type="text" name="_gotcha" style="display:none" />
 			</form>
+
+			<div class="note">
+				<p><strong>ℹ️ Please note:</strong> I am in the UK and aim to reply within 2 business days. I do not work on weekends or national holidays.</p>
+				<p>Thanks for your understanding!</p>
+			</div>
 
 		</div>
 
