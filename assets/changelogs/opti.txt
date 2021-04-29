@@ -1,3 +1,11 @@
+<h3>1.8.8 - 20th January 2021</h3>
+<ul>
+<li>Fix editor issues with Verse, Code and other blocks using the <code>pre</code> element.</li>
+</ul>
+<h3>1.8.7 - 18th November 2020</h3>
+<ul>
+<li>Tweak css styles for blog pages when Jetpack ratings are used.</li>
+</ul>
 <h3>1.8.6 - 5th October 2020</h3>
 <ul>
 <li>Add support for wp_body_open</li>

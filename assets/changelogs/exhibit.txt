@@ -1,3 +1,20 @@
+<h3>2.7.5 - 2nd April 2021</h3>
+<ul>
+<li>Fix text input width.</li>
+</ul>
+<h3>2.7.4 - 31st January 2021</h3>
+<ul>
+<li>Clear html widget to prevent floated content from breaking the layout.</li>
+</ul>
+<h3>2.7.3 - 1st January 2021</h3>
+<ul>
+<li>Fix jQuery error since jquery migrate has been removed.</li>
+<li>Fix sub menu link colours on mobile devices.</li>
+</ul>
+<h3>2.7.2 - 27th October 2020</h3>
+<ul>
+<li>Add 'navigation-widgets' to supported html5 types.</li>
+</ul>
 <h3>2.7.1 - 5th October 2020</h3>
 <ul>
 <li>Add support for wp_body_open()</li>

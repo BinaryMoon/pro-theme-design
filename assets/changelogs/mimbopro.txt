@@ -1,3 +1,7 @@
+<h3>4.9.3 - 14th April 2021</h3>
+<ul>
+<li>Fix widget sizes to prevent/ reduce content overflow.</li>
+</ul>
 <h3>4.9.2 - 17th March 2021</h3>
 <ul>
 <li>Fix settings bug with PHP 8+.</li>

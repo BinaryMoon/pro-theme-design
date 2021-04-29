@@ -1,3 +1,36 @@
+<h3>1.17.13 - 19th April 2021</h3>
+<ul>
+<li>Remove override of WordPress global.</li>
+<li>Add comments to help translators with localization.</li>
+</ul>
+<h3>1.17.12 - 2nd April 2021</h3>
+<ul>
+<li>Fix text input width.</li>
+</ul>
+<h3>1.17.11 - 31st January 2021</h3>
+<ul>
+<li>Clear html widget to prevent floated content from breaking the layout.</li>
+</ul>
+<h3>1.17.10 - 3rd January 2021</h3>
+<ul>
+<li>Fix default header date format so it displays correctly. The date format can still be changed in the customizer.</li>
+<li>Update date format docs link to point to the latest WP documentation.</li>
+</ul>
+<h3>1.17.9 - 1st January 2021</h3>
+<ul>
+<li>Tweak block image margins.</li>
+<li>Fix mobile menu colours.</li>
+<li>Update javascript for JQuery 3.</li>
+<li>Tidy JS.</li>
+</ul>
+<h3>1.17.7 - 18th November 2020</h3>
+<ul>
+<li>Make links readable in paragraphs where the text colour has been changed.</li>
+</ul>
+<h3>1.17.6 - 27th October 2020</h3>
+<ul>
+<li>Add 'navigation-widgets' to supported html5 types.</li>
+</ul>
 <h3>1.17.5 - 5th October 2020</h3>
 <ul>
 <li>Add support for wp_body_open</li>

@@ -1,3 +1,20 @@
+<h3>1.9.12 - 2nd April 2021</h3>
+<ul>
+<li>Fix text input width.</li>
+</ul>
+<h3>1.9.11 - 31st January 2021</h3>
+<ul>
+<li>Clear html widget to prevent floated content from breaking the layout.</li>
+</ul>
+<h3>1.9.10 - 1st January 2021</h3>
+<ul>
+<li>Fix jQuery error since jquery migrate has been removed.</li>
+<li>Fix sub menu link colours on mobile devices.</li>
+</ul>
+<h3>1.9.9 - 27th October 2020</h3>
+<ul>
+<li>Add 'navigation-widgets' to supported html5 types.</li>
+</ul>
 <h3>1.9.8 - 13th October 2020</h3>
 <ul>
 <li>Fix logo being hidden on mobile devices.</li>

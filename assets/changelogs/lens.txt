@@ -1,3 +1,23 @@
+<h3>10.7.7 - 2nd April 2021</h3>
+<ul>
+<li>Fix text input width.</li>
+</ul>
+<h3>10.7.6 - 16th March 2021</h3>
+<ul>
+<li>Ensure menu is readable on mobile devices.</li>
+</ul>
+<h3>10.7.5 - 31st January 2021</h3>
+<ul>
+<li>Clear html widget to prevent floated content from breaking the layout.</li>
+</ul>
+<h3>10.7.4 - 21st January 2021</h3>
+<ul>
+<li>Fix issue with full width content on mobile devices.</li>
+</ul>
+<h3>10.7.3 - 2nd January 2021</h3>
+<ul>
+<li>Fix sub menu link colours on mobile devices.</li>
+</ul>
 <h3>10.7.2 - 5th October 2020</h3>
 <ul>
 <li>Add support for wp_body_open.</li>

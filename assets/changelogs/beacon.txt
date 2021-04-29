@@ -1,3 +1,18 @@
+<h3>1.10.8 - 19th January 2021</h3>
+<ul>
+<li>Improve mobile CSS.</li>
+<li>Fix issue with editor css on blocks like Verse, Code and any other blocks that use the <code>pre</code> element.</li>
+<li>Fix issue with alignleft and alignright on the front end.</li>
+<li>Make heading sizes consistent in the editor.</li>
+</ul>
+<h3>1.10.7 - 2nd January 2021</h3>
+<ul>
+<li>Fix jQuery error since jquery migrate has been removed.</li>
+</ul>
+<h3>1.10.6 - 27th October 2020</h3>
+<ul>
+<li>Add 'navigation-widgets' to supported html5 types.</li>
+</ul>
 <h3>1.10.5 - 5th October 2020</h3>
 <ul>
 <li>Add support for wp_body_open</li>

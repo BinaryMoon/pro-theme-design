@@ -1,3 +1,17 @@
+<h3>1.3.9 - 2nd April 2021</h3>
+<ul>
+<li>Fix text input width.</li>
+</ul>
+<h3>1.13.8 - 31st January 2021</h3>
+<ul>
+<li>Clear html widget to prevent floated content from breaking the layout.</li>
+</ul>
+<h3>1.13.7 - 2nd January 2021</h3>
+<ul>
+<li>Fix jQuery error since jquery migrate has been removed.</li>
+<li>Fix sub menu link colours on mobile devices.</li>
+<li>Update rtl.css</li>
+</ul>
 <h3>1.13.6 - 5th October 2020</h3>
 <ul>
 <li>Add support for wp_body_open.</li>
@@ -5,6 +19,7 @@
 <h3>1.13.5 - 13th July 2020</h3>
 <ul>
 <li>Add support for accessible widget lists: <a href="https://make.wordpress.org/core/2020/07/09/accessibility-improvements-to-widgets-outputting-lists-of-links-in-5-5/">https://make.wordpress.org/core/2020/07/09/accessibility-improvements-to-widgets-outputting-lists-of-links-in-5-5/</a></li>
+<li>Add 'navigation-widgets' to supported html5 types.</li>
 </ul>
 <h3>1.13.4 - 9th July 2020</h3>
 <ul>

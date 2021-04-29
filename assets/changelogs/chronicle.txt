@@ -1,3 +1,15 @@
+<h3>10.9.4 - 2nd April 2021</h3>
+<ul>
+<li>Fix text input width.</li>
+</ul>
+<h3>10.9.3 - 31st January 2021</h3>
+<ul>
+<li>Clear html widget to prevent floated content from breaking the layout.</li>
+</ul>
+<h3>10.9.2 - 1st January 2021</h3>
+<ul>
+<li>Fix mobile menu colours.</li>
+</ul>
 <h3>10.9.1 - 5th October 2020</h3>
 <ul>
 <li>Add support for wp_body_open</li>

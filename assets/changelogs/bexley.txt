@@ -1,3 +1,7 @@
+<h3>2.4.2 - 31st January 2021</h3>
+<ul>
+<li>Clear html widget to prevent floated content from breaking the layout.</li>
+</ul>
 <h3>2.4.1 - 9th July 2020</h3>
 <ul>
 <li>Remove use of deprecated Jetpack function <code>is_ipad</code>.</li>

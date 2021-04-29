@@ -1,3 +1,16 @@
+<h3>1.9.7 - 2nd April 2021</h3>
+<ul>
+<li>Fix text input width.</li>
+</ul>
+<h3>1.9.6 - 31st January 2021</h3>
+<ul>
+<li>Clear html widget to prevent floated content from breaking the layout.</li>
+</ul>
+<h3>1.9.4 - 27th October 2020</h3>
+<ul>
+<li>Add 'navigation-widgets' to supported html5 types.</li>
+<li>Set max width for user avatar in side cover.</li>
+</ul>
 <h3>1.9.3 - 5th October 2020</h3>
 <ul>
 <li>Add support for wp_body_open.</li>

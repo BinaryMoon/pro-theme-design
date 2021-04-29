@@ -1,3 +1,7 @@
+<h3>2.3.1 - 27th October 2020</h3>
+<ul>
+<li>Add 'navigation-widgets' to supported html5 types.</li>
+</ul>
 <h3>2.3 - 7th March 2020</h3>
 <ul>
 <li>Add support for Gutenberg including editor styles, and wide content.</li>
