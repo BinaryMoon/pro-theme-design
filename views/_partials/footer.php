@@ -139,7 +139,7 @@
 
 <?php
 	if ( 'prod' == ENV ) {
-		include( 'tracking.php' );
+		// include( 'tracking.php' );
 	}
 
 	site_script();

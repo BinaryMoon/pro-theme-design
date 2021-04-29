@@ -45,7 +45,7 @@
 
 <?php
 	if ( 'prod' == ENV ) {
-		include( '_partials/tracking.php' );
+		// include( '_partials/tracking.php' );
 	}
 
 	site_script();
