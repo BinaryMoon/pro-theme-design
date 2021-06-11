@@ -2,7 +2,7 @@
 
 1. [Blogging](#blogging)
 1. [Advertising Your Business](#advertising-your-business)
-1. [Web Design and Developement Services](#web-design-and-developement-services")
+1. [Web Design and Development Services](#web-design-and-development-services")
 1. [Site Maintenance](#site-maintenance)
 1. [Teaching Services](#teaching-services)
 1. [Selling Premium Themes and Plugins](#selling-premium-themes-and-plugins)
