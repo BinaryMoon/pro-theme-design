@@ -1,3 +1,7 @@
+<h3>1.8.9 - 4th June 2021</h3>
+<ul>
+<li>Fix issue with spacing at the bottom of the page.</li>
+</ul>
 <h3>1.8.8 - 20th January 2021</h3>
 <ul>
 <li>Fix editor issues with Verse, Code and other blocks using the <code>pre</code> element.</li>

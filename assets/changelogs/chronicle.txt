@@ -1,3 +1,7 @@
+<h3>10.9.5 - 26th July 2021</h3>
+<ul>
+<li>Fix error with possible undefined image in featured content.</li>
+</ul>
 <h3>10.9.4 - 2nd April 2021</h3>
 <ul>
 <li>Fix text input width.</li>

@@ -1,3 +1,8 @@
+<h3>1.17.14 - 26th July 2021</h3>
+<ul>
+<li>Fix error with possible undefined image in featured content.</li>
+<li>Fix problem with featured content showing the wrong posts.</li>
+</ul>
 <h3>1.17.13 - 19th April 2021</h3>
 <ul>
 <li>Remove override of WordPress global.</li>
@@ -23,6 +28,10 @@
 <li>Update javascript for JQuery 3.</li>
 <li>Tidy JS.</li>
 </ul>
+<h3>1.17.8 - ?</h3>
+<ul>
+<li>Oops - think I skipped a version number here :)</li>
+</ul>
 <h3>1.17.7 - 18th November 2020</h3>
 <ul>
 <li>Make links readable in paragraphs where the text colour has been changed.</li>
@@ -33,7 +42,7 @@
 </ul>
 <h3>1.17.5 - 5th October 2020</h3>
 <ul>
-<li>Add support for wp_body_open</li>
+<li>Add support for wp_body_open.</li>
 </ul>
 <h3>1.17.4 - 11th July 2020</h3>
 <ul>
