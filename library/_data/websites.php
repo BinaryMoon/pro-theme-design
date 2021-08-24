@@ -625,6 +625,8 @@ function website_tag_exists( $tag = '' ) {
  */
 function website_get_by_tag( $tag = '', $limit = -1 ) {
 
+	return false;
+
 	$tag_websites = array();
 	$websites = get_website_data();
 

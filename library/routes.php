@@ -306,53 +306,53 @@ Flight::route( '/themes/(@tag)/', function( $tag = '' ) {
 /**
  * Theme Showcase
  */
-Flight::route( '/theme-showcase/(@tag)/', function( $tag = '' ) {
+// Flight::route( '/theme-showcase/(@tag)/', function( $tag = '' ) {
 
-	$title = 'WordPress Templates Showcase';
-	$websites = array();
+// 	$title = 'WordPress Templates Showcase';
+// 	$websites = array();
 
-	site_page_nav_add( 'Random', 'theme-showcase/' );
-	site_page_nav_add( 'Carmack', 'theme-showcase/carmack/' );
-	site_page_nav_add( 'Chronicle', 'theme-showcase/chronicle/' );
-	site_page_nav_add( 'Broadsheet', 'theme-showcase/broadsheet/' );
-	site_page_nav_add( 'Monet', 'theme-showcase/monet/' );
-	site_page_nav_add( 'Romero', 'theme-showcase/romero/' );
-	site_page_nav_add( 'Puzzle', 'theme-showcase/puzzle/' );
-	site_page_nav_add( 'Opti', 'theme-showcase/opti/' );
-	site_page_nav_add( 'Traveler', 'theme-showcase/traveler/' );
-	site_page_nav_add( 'Label', 'theme-showcase/label/' );
-	site_page_nav_add( 'Exhibit', 'theme-showcase/exhibit/' );
+// 	site_page_nav_add( 'Random', 'theme-showcase/' );
+// 	site_page_nav_add( 'Carmack', 'theme-showcase/carmack/' );
+// 	site_page_nav_add( 'Chronicle', 'theme-showcase/chronicle/' );
+// 	site_page_nav_add( 'Broadsheet', 'theme-showcase/broadsheet/' );
+// 	site_page_nav_add( 'Monet', 'theme-showcase/monet/' );
+// 	site_page_nav_add( 'Romero', 'theme-showcase/romero/' );
+// 	site_page_nav_add( 'Puzzle', 'theme-showcase/puzzle/' );
+// 	site_page_nav_add( 'Opti', 'theme-showcase/opti/' );
+// 	site_page_nav_add( 'Traveler', 'theme-showcase/traveler/' );
+// 	site_page_nav_add( 'Label', 'theme-showcase/label/' );
+// 	site_page_nav_add( 'Exhibit', 'theme-showcase/exhibit/' );
 
-	if ( website_tag_exists( $tag ) ) {
+// 	if ( website_tag_exists( $tag ) ) {
 
-		$websites = website_get_by_tag( $tag );
+// 		$websites = website_get_by_tag( $tag );
 
-		if ( ! empty( $tag ) ) {
-			$title = sprintf( '%s Themes: WordPress Templates Showcase', ucwords( $tag ) );
-		}
+// 		if ( ! empty( $tag ) ) {
+// 			$title = sprintf( '%s Themes: WordPress Templates Showcase', ucwords( $tag ) );
+// 		}
 
-	} else {
+// 	} else {
 
-		Flight::notFound();
+// 		Flight::notFound();
 
-	}
+// 	}
 
-	site_title( $title );
+// 	site_title( $title );
 
-	$description = sprintf( 'Some of the <strong>thousands of awesome sites</strong> using %s!', ucwords( $tag ) );
-	site_description( $description );
+// 	$description = sprintf( 'Some of the <strong>thousands of awesome sites</strong> using %s!', ucwords( $tag ) );
+// 	site_description( $description );
 
-	site_enable_purchase();
+// 	site_enable_purchase();
 
-	Flight::render(
-		'theme-showcase.php',
-		array(
-			'websites' => $websites,
-			'tag' => $tag,
-		)
-	);
+// 	Flight::render(
+// 		'theme-showcase.php',
+// 		array(
+// 			'websites' => $websites,
+// 			'tag' => $tag,
+// 		)
+// 	);
 
-} );
+// } );
 
 
 /**
@@ -550,31 +550,31 @@ Flight::route( '/theme-preview/(@theme)/', function( $theme_slug = '' ) {
 /**
  * website demos
  */
-Flight::route( '/showcase-preview/(@site)/', function( $site = '' ) {
+// Flight::route( '/showcase-preview/(@site)/', function( $site = '' ) {
 
-	$template = 'theme-showcase-preview.php';
+// 	$template = 'theme-showcase-preview.php';
 
-	if ( ! website_exists( $site ) ) {
+// 	if ( ! website_exists( $site ) ) {
 
-		Flight::notFound();
+// 		Flight::notFound();
 
-	}
+// 	}
 
-	$site_data = website_get( $site );
-	site_title( 'WordPress Theme Preview - ' . $site_data['name'] );
-	site_description( 'Preview the WordPress Theme on ' . $site_data['name'] );
+// 	$site_data = website_get( $site );
+// 	site_title( 'WordPress Theme Preview - ' . $site_data['name'] );
+// 	site_description( 'Preview the WordPress Theme on ' . $site_data['name'] );
 
-	site_enable_purchase();
+// 	site_enable_purchase();
 
-	Flight::render(
-		$template,
-		array(
-			'site' => $site,
-			'site_data' => $site_data,
-		)
-	);
+// 	Flight::render(
+// 		$template,
+// 		array(
+// 			'site' => $site,
+// 			'site_data' => $site_data,
+// 		)
+// 	);
 
-} );
+// } );
 
 
 /**
