@@ -27,6 +27,11 @@ $resources = array(
 		'uifaces.co',
 		'User Interface Faces',
 	),
+	array(
+		'WP Directory',
+		'wpdirectory.net',
+		'Search WordPress Theme and Plugin code',
+	),
 	// array(
 	// 	'Call to Idea',
 	// 	'calltoidea.com',
