@@ -190,11 +190,6 @@ function get_website_data() {
 			'theme' => 'monet',
 		),
 		array(
-			'url' => 'https://kelleyeling.com/',
-			'name' => 'Kelley Eling, Realtor',
-			'theme' => 'monet',
-		),
-		array(
 			'url' => 'https://cristinatorrecillacentroestetico.com/',
 			'name' => 'Cristina Torrecilla Esthetic Center',
 			'theme' => 'monet',
