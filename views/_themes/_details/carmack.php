@@ -47,7 +47,7 @@
 
 	<p>Carmack is incredibly easy for you to set up and use. Everything just works, so you can get on with creating content. Plus, if you have other writers, they’ll find publishing a breeze too.</p>
 
-	<p>If you do need any help, we have <a href="https://prothemedesign.com/documentation/theme/carmack/">detailed documentation</a> so you can get an answer quickly. Pro Theme Design is a very small team, so if you do need support you’ll get the solution directly from Ben, our lead developer.</p>
+	<p>If you do need any help, we have <a href="https://prothemedesign.com/documentation/theme/carmack/">detailed documentation</a> so you can get an answer quickly. Pro Theme Design is a very small team, so if you do need support you’ll get the solution directly from our lead developer.</p>
 
 </div>
 

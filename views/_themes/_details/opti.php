@@ -45,7 +45,7 @@
 
 	<p>Opti is designed to be incredibly easy to use for you <em>and</em> any other authors on your site. The theme gets out the way and lets you focus on creating content.</p>
 
-	<p>If you do need any help, we have <a href="https://prothemedesign.com/documentation/theme/opti/">detailed documentation</a> so you can get an answer quickly. Pro Theme Design is a very small team, so if you do need support you’ll get the solution directly from Ben, our lead developer.</p>
+	<p>If you do need any help, we have <a href="https://prothemedesign.com/documentation/theme/opti/">detailed documentation</a> so you can get an answer quickly. Pro Theme Design is a very small team, so if you do need support you’ll get the solution directly from our lead developer.</p>
 
 </div>
 

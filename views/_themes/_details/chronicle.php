@@ -47,7 +47,7 @@
 
 	<p>Whether this is your first premium WordPress template or your hundredth, you’ll find Chronicle intuitive and easy to use. The theme is designed so that everything just works, and you can get on with creating content.</p>
 
-	<p>If you do need any help, we have <a href="https://prothemedesign.com/documentation/theme/chronicle/">detailed documentation</a> so you can get an answer quickly. Pro Theme Design is a very small team, so if you do need support you’ll get the solution directly from Ben, our lead developer.</p>
+	<p>If you do need any help, we have <a href="https://prothemedesign.com/documentation/theme/chronicle/">detailed documentation</a> so you can get an answer quickly. Pro Theme Design is a very small team, so if you do need support you’ll get the solution directly from our lead developer.</p>
 
 </div>
 
