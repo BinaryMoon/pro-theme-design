@@ -78,7 +78,7 @@
 				<div class="content">
 					<h3>What do I get?</h3>
 					<p>Joining the Pro Theme Design Theme Club gets you 12 months access to our <a href="<?php echo path( '/themes/' ); ?>">WordPress theme library</a>. This includes any new themes &amp; plugins we may release.</p>
-					<p>You will also get 12 months of theme updates and support. <a href="<?php echo path( '/policies/#policy-support' ); ?>">Support</a> is given by Ben Gillbanks, developer of the themes.</p>
+					<p>You will also get 12 months of theme updates and support. <a href="<?php echo path( '/policies/#policy-support' ); ?>">Support</a> is given directly by the developers of the themes.</p>
 				</div>
 			</div>
 

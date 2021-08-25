@@ -26,7 +26,7 @@
 
 			<h2>Pro Theme Design is Unique</h2>
 
-			<p>The benefit of being small is that we can give things the personal touch. In fact when you contact us you will talk directly to me, Ben, the lead developer. Who better to answer your questions about your new theme than the person who made it!</p>
+			<p>The benefit of being small is that we can give things the personal touch. In fact when you contact us you will talk directly to us. Who better to answer your questions about your new theme than the person who made it!</p>
 
 			<p>Another unique thing about us is that all of our themes have been code reviewed by a third party. What this means is that an independant company has ensured that the code in our themes is secure, and solid. This means our themes are as safe as we can make them, and will run efficiently.</p>
 
