@@ -1,3 +1,7 @@
+<h3>10.9.6 - 18th September 2021</h3>
+<ul>
+<li>Bug fix for theme build error.</li>
+</ul>
 <h3>10.9.5 - 26th July 2021</h3>
 <ul>
 <li>Fix error with possible undefined image in featured content.</li>
