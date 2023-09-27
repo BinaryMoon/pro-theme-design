@@ -1,3 +1,7 @@
+<h3>4.9.4 - 4th January 2023</h3>
+<ul>
+<li>Minor bump to fix compile error.</li>
+</ul>
 <h3>4.9.3 - 14th April 2021</h3>
 <ul>
 <li>Fix widget sizes to prevent/ reduce content overflow.</li>

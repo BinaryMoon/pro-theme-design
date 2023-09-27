@@ -1,3 +1,7 @@
+<h3>1.10.5 - 18th April 2022</h3>
+<ul>
+<li>Fix issue with PHP 8 compatibility.</li>
+</ul>
 <h3>1.10.4 - 20th January 2021</h3>
 <ul>
 <li>Fix issue with editor css on blocks like Verse, Code and any other blocks that use the <code>pre</code> element.</li>
